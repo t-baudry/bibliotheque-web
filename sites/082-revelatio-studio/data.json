@@ -1,0 +1,716 @@
+{
+ "id": 82,
+ "name": "Revelatio Studio",
+ "sourceUrl": "https://revelatio.studio/",
+ "capturedAt": "2026-11-03T09:19:47.077Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [
+   "txt:Accept"
+  ],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg",
+   "desktop-13.jpg",
+   "desktop-14.jpg"
+  ],
+  "fullPage": 14301,
+  "subpages": [
+   {
+    "url": "https://revelatio.studio/work",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://revelatio.studio/approach",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://revelatio.studio/about",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://revelatio.studio/",
+ "title": "Revelatio | Branding, Product Design & Code",
+ "lang": "en",
+ "generator": "Webflow",
+ "seo": {
+  "description": "Revelatio is an integrated studio for branding, product design, and code, building digital experiences and brand systems for ambitious companies.",
+  "canonical": null,
+  "robots": null,
+  "ogTitle": "Revelatio | Branding, Product Design & Code",
+  "ogImage": "https://cdn.prod.website-files.com/69ebb4638e4c654fe1990271/6a1b07b11f5da43c337b5833_open%20graph.webp",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [],
+  "h1Count": 1,
+  "headings": [
+   "H1 Branding, Product Design & Code. One integrated vision.",
+   "H2 We partner with companies of all sizes, across industries and borders, delivering a broad ",
+   "H2 Waterloo, New York, Boca Raton, Atlanta, Los Angeles, London, Porto, Munich, San Sebastián",
+   "H2 Nothing here happened overnight. Each number represents a step forward, shaped by real pro",
+   "H3 Since",
+   "H3 Projects",
+   "H3 Countries",
+   "H3 Recognitions",
+   "H2 What happens after the work goes live.",
+   "H2 Testimonials",
+   "H3 “The final product fully met our expectations. The creation process was client-focused and",
+   "H3 \"Revelatio knew how to listen to me, and that was the key. They understood exactly what I ",
+   "H3 \"My experience with the Revelatio team, led by Galvão, was spectacular. They are focused o",
+   "H3 “Revelatio was able to bring our vision into reality, everything provided by them from Q&A",
+   "H3 \"The work of Revelatio goes far beyond design; it is deep, strategic, and captures the ess",
+   "H3 ”Revelatio performance stands out for results and delivery excellence. Arthur understands ",
+   "H3 ”I love collaborating with Arthur. He understands branding as very few people do. He doesn",
+   "H3 “Revelatio led the entire process in a focused and assertive way. The final result exceede",
+   "H3 “Revelatio captured exactly what we wanted, even when we didn’t have full clarity. The res",
+   "H3 “I really enjoy working with Revelatio! They're fast, clear, and great at explaining their",
+   "H3 ”We hired Revelatio and the entire experience with them has been very positive. Experience",
+   "H3 “I really enjoyed the entire process, from the initial immersion and briefing sessions to ",
+   "H3 “Revelatio captured an essence that even we, as directors, couldn’t fully articulate. It w",
+   "H3 “Working with Revelatio was outstanding. They deeply understood our vision, became part of",
+   "H2 Selected Clients",
+   "H2 News",
+   "H2 Want to talk about a project?",
+   "H2 Let’s build something together",
+   "H3 Get a quote",
+   "H3 Join our team",
+   "H3 Just say hello"
+  ],
+  "imgs": 94,
+  "imgNoAlt": 94,
+  "favicon": "https://cdn.prod.website-files.com/69ebb4638e4c654fe1990271/6a1adb7b38c8bf5b0bcefe1c_revelatio-si%CC%81mbolo-branco.png",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#000000",
+    "w": 17777324
+   },
+   {
+    "v": "#ffffff",
+    "w": 2173218
+   }
+  ],
+  "text": [
+   {
+    "v": "#ffffff",
+    "w": 6996
+   },
+   {
+    "v": "#000000",
+    "w": 75
+   }
+  ],
+  "border": [
+   {
+    "v": "#ffffff",
+    "w": 5
+   }
+  ],
+  "fonts": [
+   {
+    "v": "Neue Haas Grotesk Text Pro 55 Roman",
+    "w": 7071
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "11.9952px",
+    "w": 190
+   },
+   {
+    "v": "35.9856px",
+    "w": 99
+   },
+   {
+    "v": "10.4958px",
+    "w": 84
+   },
+   {
+    "v": "14.994px",
+    "w": 56
+   },
+   {
+    "v": "13.4946px",
+    "w": 48
+   },
+   {
+    "v": "20.9916px",
+    "w": 45
+   },
+   {
+    "v": "26.9892px",
+    "w": 38
+   },
+   {
+    "v": "71.9712px",
+    "w": 25
+   },
+   {
+    "v": "179.928px",
+    "w": 12
+   },
+   {
+    "v": "17.9928px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "2.62395px",
+    "w": 14
+   },
+   {
+    "v": "3.9944px",
+    "w": 4
+   },
+   {
+    "v": "1199.52px",
+    "w": 1
+   },
+   {
+    "v": "239.904px",
+    "w": 1
+   },
+   {
+    "v": "50%",
+    "w": 1
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "ease 0.35s",
+    "w": 1485
+   },
+   {
+    "v": "linear 0.12s",
+    "w": 25
+   },
+   {
+    "v": "ease 0.3s",
+    "w": 6
+   },
+   {
+    "v": "cubic-bezier(0.4 0.7s",
+    "w": 1
+   },
+   {
+    "v": "ease 0.18s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "\"Neue Haas Grotesk Text Pro 55 Roman\", Arial, sans-serif",
+    "size": "35.9856px",
+    "weight": "400",
+    "lineHeight": "39.5842px",
+    "letterSpacing": "-1.07957px",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Branding, Product Design & Code. One integrated vision."
+   },
+   "h2": {
+    "family": "\"Neue Haas Grotesk Text Pro 55 Roman\", Arial, sans-serif",
+    "size": "35.9856px",
+    "weight": "400",
+    "lineHeight": "39.5842px",
+    "letterSpacing": "-1.07957px",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "We partner with companies of all sizes, across industries and borders, deliverin"
+   },
+   "h3": {
+    "family": "\"Neue Haas Grotesk Text Pro 55 Roman\", Arial, sans-serif",
+    "size": "13.4946px",
+    "weight": "400",
+    "lineHeight": "17.543px",
+    "letterSpacing": "-0.404838px",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Since"
+   },
+   "p": {
+    "family": "\"Neue Haas Grotesk Text Pro 55 Roman\", Arial, sans-serif",
+    "size": "20.9916px",
+    "weight": "400",
+    "lineHeight": "27.2891px",
+    "letterSpacing": "-0.629748px",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Fractional Brand LeadershipInnovation AdvisoryDedicated Brand SquadsEmbedded Pro"
+   },
+   "a": {
+    "family": "\"Neue Haas Grotesk Text Pro 55 Roman\", Arial, sans-serif",
+    "size": "10.4958px",
+    "weight": "400",
+    "lineHeight": "10.4958px",
+    "letterSpacing": "-0.314874px",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Work"
+   },
+   "button": {
+    "family": "\"Neue Haas Grotesk Text Pro 55 Roman\", Arial, sans-serif",
+    "size": "11.9952px",
+    "weight": "400",
+    "lineHeight": "17.9928px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Previous"
+   },
+   "body": {
+    "family": "\"Neue Haas Grotesk Text Pro 55 Roman\", Arial, sans-serif",
+    "size": "11.9952px",
+    "weight": "400",
+    "lineHeight": "17.9928px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "[data-trail-item=\"hidden\"] { transform: translate(-50%, -50%) scale(0); opacity:"
+   }
+  },
+  "cssVars": {
+   "--color--neutral--light": "white",
+   "--color--neutral--dark": "black",
+   "--color--neutral--900": "#ffffff52",
+   "--color--neutral--200": "#00000014",
+   "--color--neutral--800": "#ffffff29",
+   "--color--neutral--300": "#00000029",
+   "--color--neutral--400": "#00000052",
+   "--color--neutral--500": "#000000a3",
+   "--color--neutral--600": "#ffffff0a",
+   "--color--neutral--700": "#ffffff14",
+   "--color--neutral--1000": "#ffffffa3",
+   "--color--neutral--100": "#0000000a",
+   "--tbg": "#000",
+   "--tfg": "#fff",
+   "--tt": "hsla(0, 0%, 100%, .16)",
+   "--tline": "hsla(0, 0%, 100%, .85)",
+   "--tfg-60": "rgba(255, 255, 255, .6)",
+   "--tfg-40": "rgba(255, 255, 255, .4)"
+  },
+  "fontFaces": [
+   {
+    "family": "webflow-icons",
+    "weight": "normal",
+    "style": "normal",
+    "src": "url(\"data:application/x-font-ttf;charset=utf-8;base64,AAEAAAALAIAAAwAwT1MvMg8SBiUAAAC8AAAAYGNtYXDpP+a4AAABHAAAAFxnYXNwAAAAEAAAAXgAAAAIZ2x5ZmhS2XEAAAGAAAADHGhlYWQTFw3HAAAEnAAAADZoaGVhCXYFgQAABNQAAAAkaG"
+   },
+   {
+    "family": "Neue Haas Grotesk Text Pro 55 Roman",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/6a1dba8694fc8f455cf5585d/6a1dba8694fc8f455cf5586b_neue-haas-grotesk-text-pro-55-roman.ttf\") format(\"truetype\")"
+   }
+  ],
+  "keyframes": [
+   "spin"
+  ],
+  "breakpoints": [
+   {
+    "v": "767px",
+    "w": 6
+   },
+   {
+    "v": "991px",
+    "w": 5
+   },
+   {
+    "v": "479px",
+    "w": 5
+   },
+   {
+    "v": "768px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 1396,
+  "crossOriginSheets": 1
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": "awwwards",
+    "cls": "",
+    "h": 176,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "page-wrapper",
+    "h": 13233,
+    "title": "Branding, Product Design & Code. One integrated vision.",
+    "media": 96
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "",
+    "href": "https://revelatio.studio/"
+   },
+   {
+    "t": "Work",
+    "href": "https://revelatio.studio/work"
+   },
+   {
+    "t": "Approach",
+    "href": "https://revelatio.studio/approach"
+   },
+   {
+    "t": "About",
+    "href": "https://revelatio.studio/about"
+   },
+   {
+    "t": "Careers",
+    "href": "https://revelatio.studio/careers"
+   },
+   {
+    "t": "EN",
+    "href": "https://revelatio.studio/"
+   },
+   {
+    "t": "PT",
+    "href": "https://revelatio.studio/pt-br"
+   },
+   {
+    "t": "Get in touch",
+    "href": "https://revelatio.studio/contact"
+   }
+  ],
+  "ctas": [
+   "Get in touch",
+   "Let’s talk"
+  ],
+  "pageHeight": 13233,
+  "counts": {
+   "canvas": 2,
+   "videos": 1,
+   "imgs": 94,
+   "svgs": 54,
+   "iframes": 5,
+   "domNodes": 2617
+  }
+ },
+ "tech": {
+  "gsap": true,
+  "gsapVersion": "3.15.0",
+  "scrollTrigger": true,
+  "splitText": true,
+  "lenis": true,
+  "locomotive": false,
+  "three": false,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": true,
+  "webflow": true,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [
+   "googletagmanager",
+   "gtag"
+  ],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://www.googletagmanager.com/gtag/js?id=G-XLFKCCHK88",
+  "https://cdn.jsdelivr.net/npm/@finsweet/cookie-consent@1/fs-cc.js",
+  "https://revelatio.vercel.app/scripts/drag-marquee.js",
+  "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6a1dba8694fc8f455cf5585d",
+  "https://cdn.prod.website-files.com/6a1dba8694fc8f455cf5585d/js/webflow.schunk.36b8fb49256177c8.js",
+  "https://cdn.prod.website-files.com/6a1dba8694fc8f455cf5585d/js/webflow.schunk.9c9bac37621a7d42.js",
+  "https://cdn.prod.website-files.com/6a1dba8694fc8f455cf5585d/js/webflow.2e1ed329.7340a7630389fa56.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/ScrambleTextPlugin.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/Observer.min.js",
+  "https://cdn.prod.website-files.com/645e0e1ff7fdb6dc8c85f3a2/648b1b0b9d6638f9da912dc2_lenis-offbrand-v2.txt",
+  "https://revelatio.vercel.app/scripts/page-transition.js",
+  "https://revelatio.vercel.app/scripts/color-inversion.js",
+  "https://revelatio.vercel.app/scripts/circle-cursor.js",
+  "https://revelatio.vercel.app/scripts/scramble-cursor.js",
+  "https://revelatio.vercel.app/scripts/scramble-text.js",
+  "https://revelatio.vercel.app/scripts/brazil-time.js",
+  "https://revelatio.vercel.app/scripts/mobile-menu.js",
+  "https://revelatio.vercel.app/scripts/ascii-logo-footer.js",
+  "https://revelatio.vercel.app/scripts/preloader.js",
+  "https://revelatio.vercel.app/scripts/locations-highlight.js",
+  "https://revelatio.vercel.app/scripts/image-trail.js",
+  "https://revelatio.vercel.app/scripts/testimonials.js",
+  "https://revelatio.vercel.app/scripts/video-ascii.js",
+  "https://revelatio.vercel.app/scripts/projects-filter.js",
+  "https://revelatio.vercel.app/scripts/odometer.js",
+  "https://revelatio.vercel.app/scripts/services-item-entrance.js",
+  "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js",
+  "https://revelatio.vercel.app/scripts/news-swiper.js"
+ ],
+ "internal": [
+  "https://revelatio.studio/work",
+  "https://revelatio.studio/approach",
+  "https://revelatio.studio/about",
+  "https://revelatio.studio/careers",
+  "https://revelatio.studio/pt-br",
+  "https://revelatio.studio/contact",
+  "https://revelatio.studio/project/medno",
+  "https://revelatio.studio/project/obliant",
+  "https://revelatio.studio/project/nothingtoshow",
+  "https://revelatio.studio/project/carecrowd",
+  "https://revelatio.studio/project/beuni",
+  "https://revelatio.studio/privacy-note"
+ ],
+ "perf": {
+  "ttfb": 438,
+  "dcl": 1260,
+  "load": 2530,
+  "lcp": 1348,
+  "lcpEl": "H1.text-color-neutral-light",
+  "cls": 0.021
+ },
+ "libs": {
+  "detected": [
+   "GSAP",
+   "SplitText/SplitType",
+   "ScrollTrigger",
+   "Lottie",
+   "jQuery",
+   "Swiper",
+   "React",
+   "Three.js"
+  ],
+  "where": {
+   "GSAP": [
+    "001-SplitText.min.js",
+    "003-Observer.min.js",
+    "004-ScrambleTextPlugin.min.js",
+    "007-ScrollTrigger.min.js",
+    "010-preloader.js",
+    "014-mobile-menu.js",
+    "015-gsap.min.js",
+    "019-page-transition.js",
+    "022-scramble-text.js",
+    "024-scramble-cursor.js",
+    "026-services-item-entrance.js"
+   ],
+   "SplitText/SplitType": [
+    "001-SplitText.min.js",
+    "015-gsap.min.js",
+    "021-testimonials.js",
+    "022-scramble-text.js"
+   ],
+   "ScrollTrigger": [
+    "003-Observer.min.js",
+    "007-ScrollTrigger.min.js",
+    "011-drag-marquee.js",
+    "015-gsap.min.js",
+    "021-testimonials.js",
+    "022-scramble-text.js",
+    "029-odometer.js"
+   ],
+   "Lottie": [
+    "005-webflow.schunk.9c9bac37621a7d42.js"
+   ],
+   "jQuery": [
+    "005-webflow.schunk.9c9bac37621a7d42.js",
+    "016-jquery-3.5.1.min.dc5e7f18c8.js",
+    "030-vendor.module.js",
+    "031-vendor.module.js",
+    "032-vendor.module.js",
+    "033-vendor.module.js",
+    "034-vendor.module.js"
+   ],
+   "Swiper": [
+    "018-swiper-bundle.min.js",
+    "025-news-swiper.js"
+   ],
+   "React": [
+    "030-vendor.module.js",
+    "031-vendor.module.js",
+    "032-vendor.module.js",
+    "033-vendor.module.js",
+    "034-vendor.module.js"
+   ],
+   "Three.js": [
+    "040-player.fr-FR.module.js",
+    "041-player.fr-FR.module.js",
+    "042-player.fr-FR.module.js",
+    "043-player.fr-FR.module.js",
+    "044-player.fr-FR.module.js"
+   ]
+  },
+  "gsapVersion": "3.11.0",
+  "threeRevision": null,
+  "shaders": 2,
+  "scripts": 59
+ },
+ "network": {
+  "requests": 100,
+  "totalKb": 7271,
+  "byType": {
+   "Document": {
+    "n": 6,
+    "kb": 236
+   },
+   "Stylesheet": {
+    "n": 2,
+    "kb": 5
+   },
+   "Image": {
+    "n": 55,
+    "kb": 3106
+   },
+   "Script": {
+    "n": 31,
+    "kb": 425
+   },
+   "Font": {
+    "n": 1,
+    "kb": 84
+   },
+   "Media": {
+    "n": 1,
+    "kb": 3413
+   },
+   "Fetch": {
+    "n": 3,
+    "kb": 0
+   },
+   "Other": {
+    "n": 1,
+    "kb": 1
+   }
+  },
+  "thirdPartyHosts": [
+   "cdn.prod.website-files.com",
+   "revelatio.vercel.app",
+   "cdn.jsdelivr.net",
+   "d3e54v103j8qbb.cloudfront.net",
+   "www.googletagmanager.com",
+   "player.vimeo.com",
+   "region1.google-analytics.com"
+  ],
+  "fontFiles": [
+   "https://cdn.prod.website-files.com/6a1dba8694fc8f455cf5585d/6a1dba8694fc8f455cf5586b_neue-haas-grotesk-text-pro-55-roman.ttf"
+  ],
+  "biggest": [
+   {
+    "url": "https://cdn.prod.website-files.com/69ebb4638e4c654fe1990271%2F6a1ad98e81c60eedf1888470_REVELATIO%20VIDEO_v2%20%281%29%20%281%29_mp4.mp4",
+    "kb": 3413,
+    "type": "Media"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/6a1dba8694fc8f455cf55853/6a26eae3dc0169760b99dcf3_Frame%202147259744.png",
+    "kb": 438,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/6a1dba8694fc8f455cf55853/6a20325e23acf49d2a7a9e1f_Frame%202147259572.png",
+    "kb": 336,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/6a1dba8694fc8f455cf55853/6a20a1cad95709c4930bb2fc_2Frame%202147259576.png",
+    "kb": 312,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/6a1dba8694fc8f455cf55853/6a1edaf2637047d9e6155ffb_obli03-p-1600.png",
+    "kb": 312,
+    "type": "Image"
+   },
+   {
+    "url": "https://revelatio.studio/",
+    "kb": 236,
+    "type": "Document"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/6a1dba8694fc8f455cf55853/6a1ed410075f4e491f35ea2f_medno%20site%20thumb-p-1600.png",
+    "kb": 205,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/6a1dba8694fc8f455cf55853/6a2033fc99b2a6b61240fbc0_Frame%202147259574.png",
+    "kb": 197,
+    "type": "Image"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "32.8009px",
+   "lineHeight": "36.081px"
+  },
+  "body": "14.5782px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 281
+}

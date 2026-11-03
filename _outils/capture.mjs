@@ -340,12 +340,24 @@ async function captureSite(s, port) {
   log(s, result.status, `${result.durationS}s`, result.errors.length ? 'erreurs: ' + result.errors.join(' | ').slice(0, 200) : '');
 }
 
+// ---------- publication GitHub (un site à la fois, dans un processus séparé pour ne pas bloquer les captures) ----------
+const noPublish = process.argv.includes('--no-publish');
+let pubChain = Promise.resolve();
+function publish(sl) {
+  pubChain = pubChain.then(() => new Promise(res => {
+    const p = spawn(process.execPath, [path.join(path.dirname(fileURLToPath(import.meta.url)), 'publier.mjs'), sl], { stdio: ['ignore', 'ignore', 'inherit'] });
+    p.on('close', () => res()); p.on('error', () => res());
+  }));
+}
+
 // ---------- file d'attente ----------
 const queue = [...wanted];
 await Promise.all(Array.from({ length: Math.min(conc, queue.length) }, async (_, w) => {
   while (queue.length) { const s = queue.shift(); const port = 9400 + s.id;
     try { await withTimeout(captureSite(s, port), 11 * 60000, 'site'); }
     catch (e) { s.aborted = true; const l = live.get(port); if (l) killTree(l.pid); live.delete(port); log(s, 'ÉCHEC', e.message);
-      const df = path.join(ROOT, slug(s), 'data.json'); if (!fs.existsSync(df)) { fs.mkdirSync(path.dirname(df), { recursive: true }); fs.writeFileSync(df, JSON.stringify({ id: s.id, name: s.name, sourceUrl: s.url, status: 'timeout', errors: [e.message], capturedAt: new Date().toISOString() })); } } }
+      const df = path.join(ROOT, slug(s), 'data.json'); if (!fs.existsSync(df)) { fs.mkdirSync(path.dirname(df), { recursive: true }); fs.writeFileSync(df, JSON.stringify({ id: s.id, name: s.name, sourceUrl: s.url, status: 'timeout', errors: [e.message], capturedAt: new Date().toISOString() })); } }
+    if (!noPublish) publish(slug(s)); }
 }));
+await pubChain;
 console.log('Terminé.');

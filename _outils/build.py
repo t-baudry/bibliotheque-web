@@ -58,10 +58,36 @@ def collect():
 
 def li(xs): return '\n'.join(f'- {x}' for x in xs) if xs else '- (rien relevé)'
 
+def video_url(s):
+    f = SITES / s['dir'] / 'captures' / 'video.txt'
+    return f.read_text(encoding='utf8').strip() if f.exists() else ''
+
+def readme_md(all_):
+    ok = [s for s in all_ if s['shots']]
+    L = ['# Bibliothèque web', '', f"{len(all_)} sites Awwwards « Site of the Day » capturés et décortiqués (mise à jour du {datetime.date.today():%d/%m/%Y}). Usage interne : inspiration uniquement, ni textes ni images à reprendre tels quels.", '',
+         '- **Catalogue filtrable** : cloner le dépôt puis ouvrir `index.html` (recherche, filtres type / style / stack / fond / note).',
+         '- **Synthèse transversale** : [SYNTHESE.md](SYNTHESE.md) (polices, librairies, patterns de hero, palettes les plus fréquents).',
+         '- **Une fiche par site** : `sites/NNN-nom/fiche.md` (design tokens, typo, structure, stack, SEO, perf, analyse) + `captures/`, `styles.css`, `scripts/`, `shaders.glsl`.',
+         '- **Vidéos de scroll** : dans la release [videos](../../releases/tag/videos).',
+         '- **Données agrégées** : `bibliotheque.json` (pour Claude ou un script).', '',
+         '```', 'git clone https://github.com/t-baudry/bibliotheque-web.git', '```', '', '## Sites', '',
+         '| | Site | Type | Style | Stack | Note |', '|---|---|---|---|---|---|']
+    for s in sorted(all_, key=lambda s: (-(s['a'].get('note_inspiration') or 0), s['dir'])):
+        a = s['a']; th = f'<img src="sites/{s["dir"]}/captures/{s["thumb"]}" width="180">' if s['thumb'] else ''
+        L.append(f"| {th} | [{s['d']['name']}](sites/{s['dir']}/fiche.md)<br>{s['d'].get('status') if s['d'].get('status') != 'ok' else ''} | {a.get('type', '')} | {', '.join(a.get('style', []))} | {', '.join(s['stack'][:5])} | {'★' * int(a.get('note_inspiration') or 0)} |")
+    return '\n'.join(L) + '\n'
+
 def fiche_md(s):
     d, a = s['d'], s['a']; des = d.get('design') or {}; st = d.get('structure') or {}; seo = d.get('seo') or {}; perf = d.get('perf') or {}; net = d.get('network') or {}
     typo = des.get('typo') or {}
     L = [f"# {d['name']}", '', f"- URL : {d.get('sourceUrl')}", f"- Capturé le : {d.get('capturedAt', '')[:10]} — statut : {d.get('status')}"]
+    vurl = video_url(s)
+    if vurl: L.append(f"- Vidéo de scroll : [▶ ouvrir]({vurl})")
+    sh = s['shots']; img = lambda fs, w: ''.join(f'<a href="captures/{f}"><img src="captures/{f}" width="{w}" alt="{f}"></a> ' for f in fs)
+    if sh:
+        L += ['', img([f for f in sh if f.startswith('desktop-00')] or sh[:1], '100%'), '', '<details><summary>Toutes les captures</summary>', '',
+              img([f for f in sh if f.startswith('desktop') and not f.startswith('desktop-00')], '32%'), '', img([f for f in sh if f.startswith('page')], '32%'), '',
+              img([f for f in sh if f.startswith('mobile')], '15%'), '', '</details>', '']
     if a:
         L += [f"- Type : {a.get('type', '')} — secteur : {a.get('secteur', '')}", f"- Style : {', '.join(a.get('style', []))}", f"- Note d'inspiration : {a.get('note_inspiration', '')}/5", '',
               '## En bref', a.get('resume', ''), '', f"**Ambiance :** {a.get('ambiance', '')}", '', f"**Hero :** {a.get('hero', '')}", '',
@@ -89,7 +115,7 @@ def fiche_md(s):
           '- Plus gros fichiers :', li([f"{b['kb']} Ko — {b['type']} — {b['url']}" for b in net.get('biggest', [])]), '- Services tiers : ' + ', '.join(net.get('thirdPartyHosts', [])), '']
     m = d.get('mobile') or {}
     L += ['## Mobile', f"- H1 : {m.get('h1')} · corps : {m.get('body')} · débordement horizontal : {m.get('overflowX')} · menu burger : {m.get('burger')}", '',
-          '## Fichiers', '- `captures/` : arrivée, scroll desktop (1440×900), pleine page, pages internes, mobile (390×844 @2x), vidéo `desktop-scroll.webm`',
+          '## Fichiers', '- `captures/` : arrivée, scroll desktop (1440×900), pleine page, pages internes, mobile (390×844 @2x) ; vidéo de scroll dans la release GitHub « videos » (lien en haut de fiche)',
           '- `page.html` : DOM rendu · `styles.css` : CSS chargé · `scripts/` : JS chargé (index dans `_index.json`) · `shaders.glsl` : shaders extraits · `rea-bundle.json` : analyse REA du bundle (chunks, routes, endpoints)', '']
     if d.get('errors'): L += ['## Incidents de capture', li(d['errors']), '']
     sp = (d.get('steps') or {}).get('subpages') or []
@@ -190,7 +216,10 @@ def fiche_html(s, md):
     sh = s['shots']
     desk = [f for f in sh if f.startswith('desktop')]; mob = [f for f in sh if f.startswith('mobile')]; pages = [f for f in sh if f.startswith('page')]
     g = lambda fs, cls='': f'<div class="gal {cls}">' + ''.join(f'<a href="captures/{f}" target="_blank"><img loading="lazy" src="captures/{f}" alt="{f}"></a>' for f in fs) + '</div>'
-    vid = '<video controls muted preload="none" src="captures/desktop-scroll.webm"></video>' if (SITES / s['dir'] / 'captures' / 'desktop-scroll.webm').exists() else ''
+    vurl = video_url(s)
+    vid = (f'<video controls muted preload="none" src="captures/desktop-scroll.webm"></video>' if (SITES / s['dir'] / 'captures' / 'desktop-scroll.webm').exists()
+           else f'<p><a href="{vurl}" target="_blank">▶ Vidéo de scroll (GitHub)</a></p>' if vurl else '')
+    md = '\n'.join(l for l in md.split('\n') if not l.startswith('<') and not l.startswith('- Vidéo de scroll'))
     body = md_to_html(md, s)
     gal = f'<h2>Captures desktop</h2>{vid}{g(desk)}' + (f'<h2>Pages internes</h2>{g(pages)}' if pages else '') + (f'<h2>Mobile</h2>{g(mob, "m")}' if mob else '')
     body = body.replace('<h2>Stack détectée</h2>', gal + '<h2>Stack détectée</h2>', 1)
@@ -203,6 +232,7 @@ def main():
         (SITES / s['dir'] / 'fiche.md').write_text(md, encoding='utf8')
         (SITES / s['dir'] / 'fiche.html').write_text(fiche_html(s, md), encoding='utf8')
     (ROOT / 'index.html').write_text(index_html(all_), encoding='utf8')
+    (ROOT / 'README.md').write_text(readme_md(all_), encoding='utf8')
     agg = [dict(dossier=s['dir'], nom=s['d']['name'], url=s['d'].get('sourceUrl'), statut=s['d'].get('status'), stack=s['stack'], polices=s['fonts'], palette=s['palette'], fond=s['theme'], **{k: s['a'].get(k) for k in ('type', 'secteur', 'style', 'note_inspiration', 'resume', 'points_forts', 'a_reprendre_pour')}) for s in all_]
     (ROOT / 'bibliotheque.json').write_text(json.dumps(agg, ensure_ascii=False, indent=1), encoding='utf8')
     print(len(all_), 'sites générés')

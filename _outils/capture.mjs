@@ -241,7 +241,7 @@ function fingerprint(jsDir, cssAll, dir) {
 // ---------- capture d'un site ----------
 async function captureSite(s, port) {
   const dir = path.join(ROOT, slug(s)); const cap = path.join(dir, 'captures');
-  if (!force && fs.existsSync(path.join(dir, 'data.json'))) { const prev = JSON.parse(fs.readFileSync(path.join(dir, 'data.json'), 'utf8')); if (!(args.includes('--retry') && prev.status !== 'ok')) { log(s, 'déjà fait'); return; } }
+  if (!force && fs.existsSync(path.join(dir, 'data.json'))) { const prev = JSON.parse(fs.readFileSync(path.join(dir, 'data.json'), 'utf8')); if (!(args.includes('--retry') && prev.status !== 'ok')) { log(s, 'déjà fait'); return 'skip'; } }
   fs.mkdirSync(cap, { recursive: true });
   const t0 = Date.now();
   const profile = fs.mkdtempSync(path.join(os.tmpdir(), 'biblio-'));
@@ -358,7 +358,7 @@ function publish(sl) {
 const queue = [...wanted];
 await Promise.all(Array.from({ length: Math.min(conc, queue.length) }, async (_, w) => {
   while (queue.length) { const s = queue.shift(); const port = 9400 + s.id;
-    try { await withTimeout(captureSite(s, port), 11 * 60000, 'site'); }
+    try { if (await withTimeout(captureSite(s, port), 11 * 60000, 'site') === 'skip') continue; }
     catch (e) { s.aborted = true; const l = live.get(port); if (l) killTree(l.pid); live.delete(port); log(s, 'ÉCHEC', e.message);
       const df = path.join(ROOT, slug(s), 'data.json'); if (!fs.existsSync(df)) { fs.mkdirSync(path.dirname(df), { recursive: true }); fs.writeFileSync(df, JSON.stringify({ id: s.id, name: s.name, sourceUrl: s.url, status: 'timeout', errors: [e.message], capturedAt: new Date().toISOString() })); } }
     if (!noPublish) publish(slug(s));

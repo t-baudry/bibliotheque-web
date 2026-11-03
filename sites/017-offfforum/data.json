@@ -2,23 +2,576 @@
  "id": 17,
  "name": "OFFFForum",
  "sourceUrl": "https://www.offforum.com/",
- "capturedAt": "2026-11-03T08:41:56.288Z",
- "status": "inaccessible",
- "errors": [
-  "shot0 browserContext.newCDPSession: Target page, context or browser has been closed",
-  "extract: page.evaluate: Target page, context or browser has been closed",
-  "fullpage: page.evaluate: Target page, context or browser has been closed",
-  "browser.newContext: Target page, context or browser has been closed"
- ],
+ "capturedAt": "2026-11-03T21:53:41.862Z",
+ "status": "ok",
+ "errors": [],
  "steps": {
   "cookies": [],
   "enter": null,
   "rea": "passe hors ligne (rea-pass.mjs)",
-  "desktopFrames": [],
-  "subpages": [],
-  "video": "desktop-scroll.webm"
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg"
+  ],
+  "fullPage": 1397,
+  "subpages": [
+   {
+    "url": "https://www.offforum.com/privacy-policy/",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg"
+    ]
+   },
+   {
+    "url": "https://www.offforum.com/about/",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.offforum.com/fr/",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
  },
  "httpStatus": 200,
+ "url": "https://www.offforum.com/",
+ "title": "A WEEK OF DESIGN, ART & DIGITAL CULTURE · FORUM · SEPT 15, 2027 · OFFF SEPT 16–17 · SAT, MONTRÉAL",
+ "lang": "en-CA",
+ "generator": null,
+ "seo": {
+  "description": "A one-week festival convening designers, artists, and digital culture practitioners.",
+  "canonical": "https://www.offforum.com/",
+  "robots": "index, follow",
+  "ogTitle": "A WEEK OF DESIGN, ART & DIGITAL CULTURE · FORUM · SEPT 15, 2027 · OFFF SEPT 16–17 · SAT, MONTRÉAL ",
+  "ogImage": "https://www.datocms-assets.com/196883/1772722214-offfforum_og-image.png?auto=format&fit=max&w=1200",
+  "twitterCard": "summary",
+  "jsonLd": [
+   "Organization"
+  ],
+  "h1Count": 1,
+  "headings": [
+   "H1 A WEEK OF DESIGN, ART & DIGITAL CULTURE · FORUM · SEPT 15, 2027 · OFFF SEPT 16–17 · SAT, M",
+   "H3 Join our community and get updates, offers, and exclusive content."
+  ],
+  "imgs": 3,
+  "imgNoAlt": 3,
+  "favicon": "https://www.offforum.com/icons/favicon.ico",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#ffffff",
+    "w": 2114260
+   },
+   {
+    "v": "#000000",
+    "w": 1296000
+   }
+  ],
+  "text": [
+   {
+    "v": "#000000",
+    "w": 442
+   },
+   {
+    "v": "#ffffff",
+    "w": 190
+   }
+  ],
+  "border": [
+   {
+    "v": "#000000",
+    "w": 8
+   },
+   {
+    "v": "#ffffff",
+    "w": 2
+   }
+  ],
+  "fonts": [
+   {
+    "v": "Baikal",
+    "w": 447
+   },
+   {
+    "v": "Forvm",
+    "w": 185
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "14px",
+    "w": 19
+   },
+   {
+    "v": "11px",
+    "w": 14
+   },
+   {
+    "v": "10px",
+    "w": 6
+   },
+   {
+    "v": "18px",
+    "w": 5
+   },
+   {
+    "v": "30px",
+    "w": 4
+   },
+   {
+    "v": "45px",
+    "w": 1
+   },
+   {
+    "v": "32px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "3.35544e+07px",
+    "w": 7
+   },
+   {
+    "v": "40px",
+    "w": 3
+   },
+   {
+    "v": "50%",
+    "w": 2
+   },
+   {
+    "v": "20px",
+    "w": 1
+   }
+  ],
+  "shadows": [
+   {
+    "v": "rgba(0, 0, 0, 0.15) 0px 0px 50px 0px",
+    "w": 1
+   }
+  ],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.4 0.3s",
+    "w": 4
+   },
+   {
+    "v": "cubic-bezier(0.4 0.1s",
+    "w": 4
+   },
+   {
+    "v": "cubic-bezier(0.32 0.3s",
+    "w": 1
+   },
+   {
+    "v": "ease 0.5s",
+    "w": 1
+   },
+   {
+    "v": "cubic-bezier(0.4 0.15s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "Forvm, serif",
+    "size": "45px",
+    "weight": "400",
+    "lineHeight": "43px",
+    "letterSpacing": "-0.9px",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "A WEEK OF DESIGN, ART & DIGITAL CULTURE · FORUM · SEPT 15, 2027 · OFFF SEPT 16–1"
+   },
+   "h3": {
+    "family": "Baikal, sans-serif",
+    "size": "32px",
+    "weight": "600",
+    "lineHeight": "31px",
+    "letterSpacing": "-1.28px",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Join our community and get updates, offers, and exclusive content."
+   },
+   "p": {
+    "family": "Baikal, sans-serif",
+    "size": "14px",
+    "weight": "600",
+    "lineHeight": "15px",
+    "letterSpacing": "-0.28px",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "We use cookies on this site"
+   },
+   "a": {
+    "family": "Baikal, sans-serif",
+    "size": "11px",
+    "weight": "600",
+    "lineHeight": "12px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "terms of use"
+   },
+   "button": {
+    "family": "Baikal, sans-serif",
+    "size": "11px",
+    "weight": "600",
+    "lineHeight": "12px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Allow all cookies"
+   },
+   "li": {
+    "family": "Forvm, serif",
+    "size": "14px",
+    "weight": "400",
+    "lineHeight": "12px",
+    "letterSpacing": "-0.28px",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "About"
+   },
+   "body": {
+    "family": "Baikal, sans-serif",
+    "size": "10px",
+    "weight": "400",
+    "lineHeight": "15px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "<iframe src='https://www.googletagmanager.com/ns.html?id=GTM-NTVT8QWQ' height='0"
+   }
+  },
+  "cssVars": {
+   "--spacing": ".1rem",
+   "--font-weight-semibold": "600",
+   "--ease-in-out": "cubic-bezier(.4, 0, .2, 1)",
+   "--aspect-video": "16 / 9",
+   "--default-transition-duration": ".15s",
+   "--default-transition-timing-function": "cubic-bezier(.4, 0, .2, 1)",
+   "--font-baikal": "\"Baikal\", sans-serif",
+   "--font-forvm": "\"Forvm\", serif",
+   "--text-body-mobile": "1.8rem",
+   "--text-body-mobile--line-height": "2rem",
+   "--text-body-mobile--font-weight": "600",
+   "--text-body-mobile--letter-spacing": "-.04em",
+   "--text-body-desktop": "2.4rem",
+   "--text-body-desktop--line-height": "2.6rem",
+   "--text-body-desktop--font-weight": "600",
+   "--text-body-desktop--letter-spacing": "-.04em",
+   "--text-body-2-mobile": "1.4rem",
+   "--text-body-2-mobile--line-height": "1.7rem",
+   "--text-body-2-mobile--font-weight": "600",
+   "--text-body-2-mobile--letter-spacing": "-.02em",
+   "--text-body-2-desktop": "1.8rem",
+   "--text-body-2-desktop--line-height": "2rem",
+   "--text-body-2-desktop--font-weight": "600",
+   "--text-body-2-desktop--letter-spacing": "-.04em",
+   "--text-button-mobile": "1.1rem",
+   "--text-button-mobile--line-height": "1.2rem",
+   "--text-button-mobile--font-weight": "400",
+   "--text-button-mobile--letter-spacing": "-.02em",
+   "--text-button-desktop": "1.4rem",
+   "--text-button-desktop--line-height": "1.2rem",
+   "--text-button-desktop--font-weight": "400",
+   "--text-button-desktop--letter-spacing": "-.02em",
+   "--text-small": "1.1rem",
+   "--text-small--line-height": "1.2rem",
+   "--text-small--font-weight": "600",
+   "--text-tag-mobile": ".9rem",
+   "--text-tag-mobile--line-height": "1rem",
+   "--text-tag-mobile--font-weight": "400",
+   "--text-tag-desktop": "1.1rem",
+   "--text-tag-desktop--line-height": "1rem",
+   "--text-tag-desktop--font-weight": "400",
+   "--text-tag-desktop--letter-spacing": "-.02em",
+   "--text-h1-mobile-offf": "3.2rem",
+   "--text-h1-mobile-offf--line-height": "3.1rem",
+   "--text-h1-mobile-offf--font-weight": "600",
+   "--text-h1-mobile-offf--letter-spacing": "-.04em",
+   "--text-h1-desktop-offf": "8rem",
+   "--text-h1-desktop-offf--line-height": "7.7rem",
+   "--text-h1-desktop-offf--font-weight": "600",
+   "--text-h1-desktop-offf--letter-spacing": "-.04em",
+   "--text-h2-mobile-offf": "3.2rem",
+   "--text-h2-mobile-offf--line-height": "3.1rem",
+   "--text-h2-mobile-offf--font-weight": "600",
+   "--text-h2-mobile-offf--letter-spacing": "-.04em",
+   "--text-h2-desktop-offf": "4.8rem",
+   "--text-h2-desktop-offf--line-height": "4.6rem",
+   "--text-h2-desktop-offf--font-weight": "600",
+   "--text-h2-desktop-offf--letter-spacing": "-.04em",
+   "--text-h3-mobile-offf": "2.4rem",
+   "--text-h3-mobile-offf--line-height": "2.3rem",
+   "--text-h3-mobile-offf--font-weight": "600",
+   "--text-h3-mobile-offf--letter-spacing": "-.04em",
+   "--text-h3-desktop-offf": "3.2rem",
+   "--text-h3-desktop-offf--line-height": "3.1rem",
+   "--text-h3-desktop-offf--font-weight": "600",
+   "--text-h3-desktop-offf--letter-spacing": "-.04em",
+   "--text-h4-desktop-offf": "1.8rem",
+   "--text-h4-desktop-offf--line-height": "1.7rem",
+   "--text-h4-desktop-offf--font-weight": "600",
+   "--text-h4-desktop-offf--letter-spacing": "-.04em",
+   "--text-h4-mobile-offf": "1.6rem",
+   "--text-h4-mobile-offf--line-height": "1.5rem",
+   "--text-h4-mobile-offf--font-weight": "600",
+   "--text-h4-mobile-offf--letter-spacing": "-.06em",
+   "--text-h5-mobile-offf": "1.2rem",
+   "--text-h5-mobile-offf--line-height": "1.3rem",
+   "--text-h5-mobile-offf--font-weight": "600",
+   "--text-h5-mobile-offf--letter-spacing": "-.02em",
+   "--text-h5-desktop-offf": "1.4rem",
+   "--text-h5-desktop-offf--line-height": "1.5rem",
+   "--text-h5-desktop-offf--font-weight": "600",
+   "--text-h5-desktop-offf--letter-spacing": "-.02em",
+   "--text-h1-mobile-forum": "4.6rem",
+   "--text-h1-mobile-forum--line-height": "4.4rem",
+   "--text-h1-mobile-forum--font-weight": "400",
+   "--text-h1-mobile-forum--letter-spacing": "-.02em",
+   "--text-h1-desktop-forum": "7.6rem",
+   "--text-h1-desktop-forum--line-height": "7.3rem",
+   "--text-h1-desktop-forum--font-weight": "400",
+   "--text-h1-desktop-forum--letter-spacing": "-.02em",
+   "--text-h2-mobile-forum": "3rem",
+   "--text-h2-mobile-forum--line-height": "2.9rem",
+   "--text-h2-mobile-forum--font-weight": "400",
+   "--text-h2-mobile-forum--letter-spacing": "-.02em",
+   "--text-h2-desktop-forum": "4.5rem",
+   "--text-h2-desktop-forum--line-height": "4.3rem",
+   "--text-h2-desktop-forum--font-weight": "400",
+   "--text-h2-desktop-forum--letter-spacing": "-.02em",
+   "--text-h3-mobile-forum": "2.2rem",
+   "--text-h3-mobile-forum--line-height": "2.1rem",
+   "--text-h3-mobile-forum--font-weight": "400",
+   "--text-h3-mobile-forum--letter-spacing": "-.02em",
+   "--text-h3-desktop-forum": "3rem",
+   "--text-h3-desktop-forum--line-height": "2.9rem",
+   "--text-h3-desktop-forum--font-weight": "400",
+   "--text-h3-desktop-forum--letter-spacing": "-.06em",
+   "--text-h4-mobile-forum": "1.5rem",
+   "--text-h4-mobile-forum--line-height": "1.4rem",
+   "--text-h4-mobile-forum--font-weight": "400",
+   "--text-h4-mobile-forum--letter-spacing": "-.03rem",
+   "--text-h4-desktop-forum": "1.7rem",
+   "--text-h4-desktop-forum--line-height": "1.6rem",
+   "--text-h4-desktop-forum--font-weight": "400",
+   "--text-h4-desktop-forum--letter-spacing": "-.03rem",
+   "--text-h5-mobile-forum": "1.1rem",
+   "--text-h5-mobile-forum--line-height": "1.2rem",
+   "--text-h5-mobile-forum--font-weight": "400",
+   "--text-h5-mobile-forum--letter-spacing": "-.02em",
+   "--text-h5-desktop-forum": "1.4rem",
+   "--text-h5-desktop-forum--line-height": "1.5rem",
+   "--text-h5-desktop-forum--font-weight": "400",
+   "--text-h5-desktop-forum--letter-spacing": "-.02em",
+   "--color-black": "#000",
+   "--color-white": "#fff",
+   "--color-red": "#ee3338",
+   "--color-grey": "#c5c5c5",
+   "--spacing-gutter": ".8rem",
+   "--spacing-double-gutter": "1.6rem",
+   "--spacing-header-height": "calc(6.42755vw + 27.8864px)",
+   "--ease-in-out-quart": "cubic-bezier(.76, 0, .24, 1)",
+   "--ease-in-out-expo": "cubic-bezier(.87, 0, .13, 1)"
+  },
+  "fontFaces": [
+   {
+    "family": "Baikal",
+    "weight": "600",
+    "style": "normal",
+    "src": "url(\"./Baikal-SemiBold.DigyPQ5D.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Forvm",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"./Forvm-Roman.TuS1Oc1n.woff2\") format(\"woff2\")"
+   }
+  ],
+  "keyframes": [],
+  "breakpoints": [
+   {
+    "v": "64rem",
+    "w": 21
+   },
+   {
+    "v": "48rem",
+    "w": 2
+   },
+   {
+    "v": "40rem",
+    "w": 1
+   },
+   {
+    "v": "80rem",
+    "w": 1
+   },
+   {
+    "v": "90rem",
+    "w": 1
+   }
+  ],
+  "rulesCount": 800,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "page relative",
+    "h": 1397,
+    "top": 0,
+    "title": "A WEEK OF DESIGN, ART & DIGITAL CULTURE · FORUM · SEPT 15, 2027 · OFFF SEPT 16–1",
+    "media": 4
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "",
+    "href": "https://www.offforum.com/"
+   },
+   {
+    "t": "About",
+    "href": "https://www.offforum.com/about/"
+   },
+   {
+    "t": "fr",
+    "href": "https://www.offforum.com/fr/"
+   },
+   {
+    "t": "fr",
+    "href": "https://www.offforum.com/fr/"
+   },
+   {
+    "t": "About",
+    "href": "https://www.offforum.com/about/"
+   },
+   {
+    "t": "Media room",
+    "href": "https://www.offforum.com/media-room/"
+   },
+   {
+    "t": "Contact",
+    "href": "mailto:info@offforum.com"
+   },
+   {
+    "t": "FAQ",
+    "href": "https://www.offforum.com/faq/"
+   },
+   {
+    "t": "fr",
+    "href": "https://www.offforum.com/fr/"
+   },
+   {
+    "t": "fr",
+    "href": "https://www.offforum.com/fr/"
+   }
+  ],
+  "ctas": [],
+  "pageHeight": 1397,
+  "counts": {
+   "canvas": 0,
+   "videos": 0,
+   "imgs": 3,
+   "svgs": 7,
+   "iframes": 0,
+   "domNodes": 287
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": false,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": true,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": true,
+  "cms": [
+   "datocms"
+  ],
+  "analytics": [
+   "googletagmanager",
+   "gtag"
+  ],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": false
+ },
+ "scripts": [
+  "https://www.googletagmanager.com/gtag/js?id=G-JNKM70V1FF&cx=c&gtm=4e6b20",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-NTVT8QWQ",
+  "https://www.offforum.com/_nuxt/f8tcD554.js",
+  "https://www.gstatic.com/cv/js/sender/v1/cast_sender.js?loadCastFramework=1",
+  "https://www.gstatic.com/cast/sdk/libs/sender/1.0/cast_framework.js",
+  "https://www.gstatic.com/eureka/clank/141/cast_sender.js"
+ ],
+ "internal": [
+  "https://www.offforum.com/privacy-policy/",
+  "https://www.offforum.com/about/",
+  "https://www.offforum.com/fr/",
+  "https://www.offforum.com/media-room/",
+  "https://www.offforum.com/faq/"
+ ],
+ "perf": {
+  "ttfb": 238,
+  "dcl": 373,
+  "load": 792,
+  "lcp": 656,
+  "lcpEl": "H1.px-gutter",
+  "cls": 0.001
+ },
  "libs": {
   "detected": [
    "Nuxt",
@@ -31,43 +584,58 @@
   ],
   "where": {
    "Nuxt": [
+    "002-Qi55dLUh.js",
     "005-B10sOMFq.js",
+    "011-Bl_UZbeB.js",
+    "022-B10sOMFq.js",
     "023-C0lRfm_Q.js",
     "025-Bl_UZbeB.js",
     "026-Qi55dLUh.js",
+    "027-Dzio7UU0.js",
+    "028-Cdnf07N5.js",
+    "034-C0lRfm_Q.js",
+    "035-f8tcD554.js",
     "036-f8tcD554.js",
     "037-Cdnf07N5.js",
     "038-Dzio7UU0.js"
    ],
    "Vue": [
+    "025-DnJNCFy-.js",
+    "029-DtO87taH.js",
     "030-DnJNCFy-.js",
     "031-DtO87taH.js"
    ],
    "GSAP": [
+    "035-f8tcD554.js",
     "036-f8tcD554.js"
    ],
    "ScrollTrigger": [
+    "035-f8tcD554.js",
     "036-f8tcD554.js",
-    "041-bPnh-slD.js"
+    "041-bPnh-slD.js",
+    "042-bPnh-slD.js"
    ],
    "SplitText/SplitType": [
+    "035-f8tcD554.js",
     "036-f8tcD554.js"
    ],
    "Lenis": [
+    "035-f8tcD554.js",
     "036-f8tcD554.js"
    ],
    "Virtual scroll": [
+    "035-f8tcD554.js",
     "036-f8tcD554.js"
    ]
   },
   "gsapVersion": "3.11.0",
   "threeRevision": null,
   "shaders": 0,
-  "scripts": 46
+  "scripts": 90
  },
  "network": {
-  "requests": 81,
-  "totalKb": 7025,
+  "requests": 84,
+  "totalKb": 7268,
   "byType": {
    "Document": {
     "n": 1,
@@ -77,25 +645,25 @@
     "n": 5,
     "kb": 491
    },
-   "Script": {
-    "n": 53,
-    "kb": 840
-   },
-   "Other": {
-    "n": 5,
-    "kb": 82
-   },
    "Stylesheet": {
     "n": 2,
     "kb": 10
    },
-   "Fetch": {
-    "n": 6,
-    "kb": 170
+   "Other": {
+    "n": 5,
+    "kb": 83
+   },
+   "Script": {
+    "n": 53,
+    "kb": 839
    },
    "Font": {
     "n": 2,
     "kb": 38
+   },
+   "Fetch": {
+    "n": 9,
+    "kb": 412
    },
    "TextTrack": {
     "n": 1,
@@ -103,16 +671,16 @@
    },
    "XHR": {
     "n": 6,
-    "kb": 5304
+    "kb": 5305
    }
   },
   "thirdPartyHosts": [
    "www.googletagmanager.com",
-   "region1.google-analytics.com",
-   "www.datocms-assets.com",
    "www.gstatic.com",
    "image.mux.com",
+   "region1.google-analytics.com",
    "stream.mux.com",
+   "www.datocms-assets.com",
    "manifest-oci-us-ashburn-1-vop1.edgemv.mux.com",
    "chunk-oci-us-ashburn-1-vop1.edgemv.mux.com"
   ],
@@ -152,7 +720,7 @@
     "type": "Image"
    },
    {
-    "url": "https://www.googletagmanager.com/gtag/js?id=G-JNKM70V1FF&cx=c&gtm=4e6au1",
+    "url": "https://www.googletagmanager.com/gtag/js?id=G-JNKM70V1FF&cx=c&gtm=4e6b20",
     "kb": 177,
     "type": "Script"
    },
@@ -163,5 +731,14 @@
    }
   ]
  },
- "durationS": 10
+ "mobile": {
+  "h1": {
+   "size": "30px",
+   "lineHeight": "29px"
+  },
+  "body": "10px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 58
 }

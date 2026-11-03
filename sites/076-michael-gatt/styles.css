@@ -1,0 +1,62 @@
+/* ===== https://michaelgatt.com/_nuxt/Cursor.CHx6IGOR.css ===== */
+.a-cursor[data-v-21b4f1d1]{top:-.5em}
+
+
+/* ===== https://michaelgatt.com/_nuxt/Plus.BjMTzWDM.css ===== */
+.plus[data-v-ab720298]{height:var(--57d699d4);transition-duration:.5s;transition-property:transform;transition-timing-function:cubic-bezier(.4,0,.2,1);width:var(--57d699d4)}.plus--hoverable[data-v-ab720298]{cursor:pointer}.plus--hoverable .inner-wrapper[data-v-ab720298]{transition-duration:.5s;transition-property:transform;transition-timing-function:cubic-bezier(.4,0,.2,1)}.plus--hoverable .inner-wrapper[data-v-ab720298]:hover{--tw-rotate:180deg;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.plus .plus__svg[data-v-ab720298]{display:block;height:100%;overflow:visible;width:100%}.plus .plus__line[data-v-ab720298]{stroke:var(--bbc4a020);stroke-width:var(--1975d83f);stroke-linecap:square;vector-effect:non-scaling-stroke}.plus--close[data-v-ab720298]{--tw-rotate:45deg;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.plus--close--active[data-v-ab720298]{transform:rotate(135deg)}.plus--default--active[data-v-ab720298]{transform:rotate(90deg)}
+
+
+/* ===== https://michaelgatt.com/_nuxt/Hamburger.BDjJC73M.css ===== */
+.hamburger .hamburger-box .line[data-v-4dc986e9]{display:block;height:.05rem;left:0;position:absolute;transform-origin:center;transition-duration:.5s;transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1);width:100%}@media (min-width:1024px){.hamburger .hamburger-box .line[data-v-4dc986e9]{height:.125rem}}.hamburger .hamburger-box .line--1[data-v-4dc986e9]{top:0}.hamburger .hamburger-box .line--2[data-v-4dc986e9]{top:50%;transform:translate3d(0,-50%,0)}.hamburger .hamburger-box .line--3[data-v-4dc986e9]{bottom:0}.hamburger--light .line[data-v-4dc986e9]{background-color:#fff9}.hamburger--is-active .hamburger-box .line[data-v-4dc986e9]{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity))}.hamburger--is-active .hamburger-box .line--1[data-v-4dc986e9]{top:50%;transform:translate3d(0,-50%,0) rotate(45deg) translateZ(0);width:100%}.hamburger--is-active .hamburger-box .line--2[data-v-4dc986e9]{opacity:0}.hamburger--is-active .hamburger-box .line--3[data-v-4dc986e9]{bottom:50%;transform:translate3d(0,50%,0) rotate(-45deg) translateZ(0);width:100%}
+
+
+/* ===== https://michaelgatt.com/_nuxt/index.CvCVu1XU.css ===== */
+.app-menu .word[data-v-cf9463b3]{letter-spacing:.35em}.app-menu .router-link-exact-active[data-v-cf9463b3]{--tw-text-opacity:1;color:rgb(230 229 229/var(--tw-text-opacity))}
+
+
+/* ===== https://michaelgatt.com/_nuxt/Header.Crcqn1ot.css ===== */
+.app-header[data-v-0571f58a]{transition-duration:.5s;transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1)}.app-header--has-background[data-v-0571f58a]{--tw-bg-opacity:1;background-color:rgb(0 0 0/var(--tw-bg-opacity))}.app-header--is-hidden[data-v-0571f58a]{--tw-translate-y:-100%;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}
+
+
+/* ===== https://michaelgatt.com/_nuxt/IndexTitle.CIM5jGZK.css ===== */
+@media (min-width:768px){.a-index-title:hover .a-index-title__index[data-v-95ea8150]{--tw-translate-x:-.25rem}.a-index-title:hover .a-index-title__index[data-v-95ea8150],.a-index-title:hover .a-index-title__title[data-v-95ea8150]{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.a-index-title:hover .a-index-title__title[data-v-95ea8150]{--tw-translate-x:.25rem}}
+
+
+/* ===== https://michaelgatt.com/_nuxt/ArrowText.RPqJ-Mp8.css ===== */
+.a-arrow-text--mobile[data-v-55879a84]{-moz-column-gap:.25rem;column-gap:.25rem;height:10px;line-height:1}.a-arrow-text_arrow[data-v-55879a84],.a-arrow-text_title[data-v-55879a84]{align-self:center;line-height:1}.a-arrow-text_title--mobile[data-v-55879a84]{height:10px}.a-arrow-text:hover .a-arrow-text_title[data-v-55879a84]{--tw-text-opacity:1;color:rgb(137 137 137/var(--tw-text-opacity))}.a-arrow-text:hover .a-arrow-text_caption[data-v-55879a84]{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.a-arrow-text:hover .a-arrow-text_arrow[data-v-55879a84]{--tw-translate-x:-.25rem;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}
+
+
+/* ===== https://michaelgatt.com/_nuxt/PageProjects.CBg6IeZd.css ===== */
+.lenis[data-v-9b41abd7]{-webkit-mask-image:linear-gradient(180deg,transparent 4rem,#000 6rem,#000 calc(100% - 12rem),transparent);mask-image:linear-gradient(180deg,transparent 4rem,#000 6rem,#000 calc(100% - 12rem),transparent)}@media (min-width:640px){.lenis[data-v-9b41abd7]{-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 4rem,#000 calc(100% - 12rem),transparent calc(100% - 6rem));mask-image:linear-gradient(180deg,transparent 0,#000 4rem,#000 calc(100% - 12rem),transparent calc(100% - 6rem))}}.lenis[data-v-9b41abd7]{-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-size:100% 100%;mask-size:100% 100%}@media screen and (max-width:639px){.lenis[data-v-9b41abd7]{-webkit-mask-image:none;mask-image:none}}.mobile-bottom-gradient[data-v-9b41abd7]{background:linear-gradient(0deg,#000 0,#000 4rem,rgba(0,0,0,.8) 7rem,transparent 12rem);height:12rem;left:0;pointer-events:none;position:fixed;width:100%;z-index:30}@media screen and (min-width:1024px){.projects-list[data-v-9b41abd7]{box-sizing:border-box;min-height:100vh;padding-bottom:8rem;padding-top:8rem}.projects-list[data-v-9b41abd7]:after,.projects-list[data-v-9b41abd7]:before{content:"";flex:1 1 0;min-height:0}}@media screen and (min-width:1024px) and (max-height:900px){.projects-list[data-v-9b41abd7]{padding-bottom:12rem}}
+
+
+/* ===== https://michaelgatt.com/_nuxt/index.CUfV7Odc.css ===== */
+.html-video[data-v-58baef60]{height:100%;-o-object-fit:cover;object-fit:cover;width:100%}
+
+
+/* ===== https://michaelgatt.com/_nuxt/Lenis.Ce3OL20u.css ===== */
+.lenis.desktop-version[data-v-3c90f05b]{height:100%;position:fixed;width:100%}.lenis.desktop-version.initialized[data-v-3c90f05b]{overflow-x:hidden;overflow-y:visible}
+
+
+/* ===== https://michaelgatt.com/_nuxt/SectionIndicatorAndMusic.DhXrZLvz.css ===== */
+.o-about-section-indicator .current-section-indicator[data-v-ab227d4b]{transform:var(--53820a12)}.o-about-section-indicator .line-wrapper[data-v-ab227d4b]:after{background-color:#fff3;top:0}.o-about-section-indicator .line-wrapper[data-v-ab227d4b]:after,.o-about-section-indicator .o-about-section-indicator-item[data-v-ab227d4b]:after,.o-about-section-indicator .o-about-section-indicator-item[data-v-ab227d4b]:before{content:"";height:100%;left:0;position:absolute;width:1px}
+
+
+/* ===== https://michaelgatt.com/_nuxt/FourVideosAndText.CokOoe9j.css ===== */
+.video-wrapper[data-v-a69fab48]{perspective:90vw}
+
+
+/* ===== https://michaelgatt.com/_nuxt/Countries.BTnDzwp-.css ===== */
+.countries-wrapper[data-v-c7f9caee]{-webkit-mask-image:linear-gradient(180deg,rgba(0,0,0,.2) 0,#000 20%,#000 80%,rgba(0,0,0,.2));mask-image:linear-gradient(180deg,#0003 0,#000 20%,#000 80%,#0003);-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-size:100% 100%;mask-size:100% 100%}
+
+
+/* ===== https://michaelgatt.com/_nuxt/ImageGrid.BioD3QCN.css ===== */
+.o-about-image-grid .transform-3d[data-v-02a99f13]{transform-style:preserve-3d}.o-about-image-grid .perspective-1000[data-v-02a99f13]{perspective:1000px}
+
+
+/* ===== https://michaelgatt.com/_nuxt/index.Lz5OqaHu.css ===== */
+@media (min-width:640px){.outer-el[data-v-6b81c755]{height:2000vh}}
+
+
+/* ===== https://michaelgatt.com/_nuxt/Countries.CQsQkA3v.css ===== */
+.mobile-top-caption[data-v-9db18071]{font-style:normal!important;font-weight:500!important;letter-spacing:.35em!important;line-height:192%!important;text-align:center!important;text-transform:uppercase!important}.mobile-top-caption[data-v-9db18071] p{font-size:inherit!important;font-style:inherit!important;font-weight:inherit!important;letter-spacing:inherit!important;line-height:inherit!important;margin:0!important;text-align:inherit!important;text-transform:inherit!important}.mobile-top-caption[data-v-9db18071] p+p{margin-top:2em!important}

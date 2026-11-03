@@ -1,0 +1,476 @@
+{
+ "id": 76,
+ "name": "Michael Gatt",
+ "sourceUrl": "https://michaelgatt.com/",
+ "capturedAt": "2026-11-03T09:12:43.734Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg"
+  ],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [
+   {
+    "url": "https://michaelgatt.com/projects",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://michaelgatt.com/about",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://michaelgatt.com/contact",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://michaelgatt.com/",
+ "title": "Michael Gatt | Music Composer for Film and Television",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Welcome to Michael Gatt’s universe of Film + TV shows and games music composing",
+  "canonical": null,
+  "robots": "index, follow",
+  "ogTitle": "Music Composer for Film and Television",
+  "ogImage": "https://michael-gatt-website.cachely.io/michael-gatt-website/Z6NzU5bqstJ9-QY6_opengraph.png?auto=format,compress&rect=0,3,2400,1254&w=1200&h=627",
+  "twitterCard": null,
+  "jsonLd": [],
+  "h1Count": 0,
+  "headings": [],
+  "imgs": 0,
+  "imgNoAlt": 0,
+  "favicon": "https://michaelgatt.com/favicon.png",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#000000",
+    "w": 3888000
+   }
+  ],
+  "text": [
+   {
+    "v": "#ffffff",
+    "w": 61
+   },
+   {
+    "v": "#c5c5c5",
+    "w": 19
+   },
+   {
+    "v": "#000000",
+    "w": 14
+   },
+   {
+    "v": "#969da0",
+    "w": 1
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "Zapf-Humanist-Demi",
+    "w": 95
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "13.5px",
+    "w": 14
+   },
+   {
+    "v": "14.9999px",
+    "w": 9
+   },
+   {
+    "v": "10.4895px",
+    "w": 5
+   },
+   {
+    "v": "17.9995px",
+    "w": 3
+   },
+   {
+    "v": "11.988px",
+    "w": 1
+   }
+  ],
+  "radius": [],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.4 0.5s",
+    "w": 5
+   }
+  ],
+  "typo": {
+   "p": {
+    "family": "Zapf-Humanist-Demi",
+    "size": "13.5px",
+    "weight": "400",
+    "lineHeight": "16.875px",
+    "letterSpacing": "2.025px",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "Clickanywheretoturnonyoursoundsound"
+   },
+   "a": {
+    "family": "Zapf-Humanist-Demi",
+    "size": "17.9995px",
+    "weight": "400",
+    "lineHeight": "22.4994px",
+    "letterSpacing": "6.29984px",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "work"
+   },
+   "body": {
+    "family": "Zapf-Humanist-Demi",
+    "size": "13.5px",
+    "weight": "400",
+    "lineHeight": "20.25px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "ClickanywheretoturnonyoursoundsoundEnter without soundUnmuteLearn Moretheworkand"
+   }
+  },
+  "cssVars": {
+   "--zapf-bumanist-font": "\"Zapf-Humanist-Demi\",sans-serif",
+   "--tw-bg-opacity": "1"
+  },
+  "fontFaces": [
+   {
+    "family": "Zapf-Humanist-Demi",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/fonts/ZapfHumanist601BT-Demi.woff2\") format(\"woff2\")"
+   }
+  ],
+  "keyframes": [
+   "spin-d7aabb08"
+  ],
+  "breakpoints": [
+   {
+    "v": "1024px",
+    "w": 23
+   },
+   {
+    "v": "768px",
+    "w": 17
+   },
+   {
+    "v": "640px",
+    "w": 6
+   },
+   {
+    "v": "1280px",
+    "w": 2
+   },
+   {
+    "v": "1536px",
+    "w": 2
+   },
+   {
+    "v": "0px",
+    "w": 1
+   },
+   {
+    "v": "375px",
+    "w": 1
+   },
+   {
+    "v": "1600px",
+    "w": 1
+   },
+   {
+    "v": "639px",
+    "w": 1
+   },
+   {
+    "v": "900px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 2004,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "w-full h-full fixed top-0 left-0 z-10 bg-pureBlack overscroll-none touch-none",
+    "h": 900,
+    "title": "",
+    "media": 1
+   }
+  ],
+  "navLinks": [],
+  "ctas": [],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 1,
+   "videos": 0,
+   "imgs": 0,
+   "svgs": 1,
+   "iframes": 0,
+   "domNodes": 223
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "171",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": true,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": true,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": true,
+  "cms": [
+   "prismic"
+  ],
+  "analytics": [
+   "googletagmanager",
+   "gtag"
+  ],
+  "customCursor": true,
+  "audio": true,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://michaelgatt.com/_nuxt/CaSYcmUf.js",
+  "https://www.googletagmanager.com/gtag/js?id=G-7PQLZVDF62"
+ ],
+ "internal": [
+  "https://michaelgatt.com/projects",
+  "https://michaelgatt.com/about",
+  "https://michaelgatt.com/contact"
+ ],
+ "perf": {
+  "ttfb": 300,
+  "dcl": 572,
+  "load": 607,
+  "lcp": 516,
+  "lcpEl": "DIV.block",
+  "cls": 0
+ },
+ "libs": {
+  "detected": [
+   "Prismic",
+   "Postprocessing",
+   "GSAP",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Lenis",
+   "Three.js",
+   "Vue",
+   "Nuxt",
+   "Contentful",
+   "Virtual scroll"
+  ],
+  "where": {
+   "Prismic": [
+    "011-D0mNnXIv.js",
+    "030-CaSYcmUf.js",
+    "082-BjWKGzKy.js"
+   ],
+   "Postprocessing": [
+    "018-20FGYwto.js"
+   ],
+   "GSAP": [
+    "030-CaSYcmUf.js",
+    "063-BxzRBbb5.js"
+   ],
+   "ScrollTrigger": [
+    "030-CaSYcmUf.js"
+   ],
+   "SplitText/SplitType": [
+    "030-CaSYcmUf.js"
+   ],
+   "Lenis": [
+    "030-CaSYcmUf.js",
+    "047-DeZKUmqB.js",
+    "082-BjWKGzKy.js",
+    "styles.css"
+   ],
+   "Three.js": [
+    "030-CaSYcmUf.js"
+   ],
+   "Vue": [
+    "030-CaSYcmUf.js"
+   ],
+   "Nuxt": [
+    "030-CaSYcmUf.js",
+    "082-BjWKGzKy.js"
+   ],
+   "Contentful": [
+    "030-CaSYcmUf.js"
+   ],
+   "Virtual scroll": [
+    "047-DeZKUmqB.js"
+   ]
+  },
+  "gsapVersion": "3.15.0",
+  "threeRevision": null,
+  "shaders": 12,
+  "scripts": 87
+ },
+ "network": {
+  "requests": 216,
+  "totalKb": 2792,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 37
+   },
+   "Script": {
+    "n": 96,
+    "kb": 662
+   },
+   "Other": {
+    "n": 5,
+    "kb": 553
+   },
+   "Font": {
+    "n": 1,
+    "kb": 14
+   },
+   "Stylesheet": {
+    "n": 16,
+    "kb": 12
+   },
+   "Fetch": {
+    "n": 3,
+    "kb": 1
+   },
+   "Image": {
+    "n": 93,
+    "kb": 1513
+   },
+   "Media": {
+    "n": 1,
+    "kb": 0
+   }
+  },
+  "thirdPartyHosts": [
+   "www.googletagmanager.com",
+   "michael-gatt-website.cachely.io",
+   "region1.google-analytics.com"
+  ],
+  "fontFiles": [
+   "https://michaelgatt.com/fonts/ZapfHumanist601BT-Demi.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://michaelgatt.com/_nuxt/CYtiSaOr.js",
+    "kb": 541,
+    "type": "Other"
+   },
+   {
+    "url": "https://michaelgatt.com/_nuxt/CaSYcmUf.js",
+    "kb": 310,
+    "type": "Script"
+   },
+   {
+    "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Z5oXoZbqstJ99_KL_DnD-Album-News-1.png?auto=format,compress",
+    "kb": 225,
+    "type": "Image"
+   },
+   {
+    "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Z6N4rpbqstJ9-Qd9_DnD-Album-News-FI-scaled.png?auto=format,compress",
+    "kb": 208,
+    "type": "Image"
+   },
+   {
+    "url": "https://www.googletagmanager.com/gtag/js?id=G-7PQLZVDF62",
+    "kb": 178,
+    "type": "Script"
+   },
+   {
+    "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/ZzBqu68jQArT0qMF_Tiamat.JPG?auto=format,compress",
+    "kb": 92,
+    "type": "Image"
+   },
+   {
+    "url": "https://michaelgatt.com/",
+    "kb": 37,
+    "type": "Document"
+   },
+   {
+    "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzd2iK8jQArT07KW_Maskgroup.png?auto=format,compress",
+    "kb": 36,
+    "type": "Image"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": null,
+  "body": "21.9375px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 92
+}

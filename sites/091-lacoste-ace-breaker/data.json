@@ -1,0 +1,553 @@
+{
+ "id": 91,
+ "name": "Lacoste Ace Breaker",
+ "sourceUrl": "https://members-play.lacoste.com/ace-breaker-rg",
+ "capturedAt": "2026-11-03T21:59:45.463Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [
+   "#didomi-notice-agree-button"
+  ],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg"
+  ],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [
+   {
+    "url": "https://members-play.lacoste.com/ace-breaker-rg/[https://www.lacoste.com/fr](https://www.lacoste.com/fr)",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://members-play.lacoste.com/ace-breaker-rg/fr/fr/",
+ "title": "Lacoste - Ace Breaker",
+ "lang": "fr",
+ "generator": null,
+ "seo": {
+  "description": "Joue et tente de gagner des prix exclusifs",
+  "canonical": null,
+  "robots": "index,follow",
+  "ogTitle": "Lacoste - Ace Breaker",
+  "ogImage": "https://members-play.lacoste.com/ace-breaker-rg/share/share_fr/fr.png?v=b63dcca5",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [],
+  "h1Count": 1,
+  "headings": [
+   "H1 LacosteAce Breaker"
+  ],
+  "imgs": 0,
+  "imgNoAlt": 0,
+  "favicon": "https://members-play.lacoste.com/ace-breaker-rg/favicon.ico?v=b63dcca5",
+  "themeColor": "#000000"
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#00503c",
+    "w": 1782000
+   },
+   {
+    "v": "#ffffff",
+    "w": 28647
+   },
+   {
+    "v": "#f3f2e1",
+    "w": 2760
+   }
+  ],
+  "text": [
+   {
+    "v": "#f3f2e1",
+    "w": 108
+   },
+   {
+    "v": "#fcd757",
+    "w": 13
+   },
+   {
+    "v": "#082415",
+    "w": 10
+   },
+   {
+    "v": "#ffffff",
+    "w": 8
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "MonaSans",
+    "w": 139
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "18px",
+    "w": 24
+   },
+   {
+    "v": "18.4px",
+    "w": 3
+   },
+   {
+    "v": "50px",
+    "w": 2
+   },
+   {
+    "v": "47.3973px",
+    "w": 2
+   },
+   {
+    "v": "34.6484px",
+    "w": 2
+   },
+   {
+    "v": "139.821px",
+    "w": 2
+   }
+  ],
+  "radius": [
+   {
+    "v": "142.192px",
+    "w": 2
+   },
+   {
+    "v": "103.945px",
+    "w": 2
+   },
+   {
+    "v": "8px",
+    "w": 1
+   },
+   {
+    "v": "50px",
+    "w": 1
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.25 0.3s",
+    "w": 15
+   },
+   {
+    "v": "cubic-bezier(0.55 0.3s",
+    "w": 8
+   },
+   {
+    "v": "cubic-bezier(0.19 0.5s",
+    "w": 5
+   },
+   {
+    "v": "ease-in-out 0.5s",
+    "w": 2
+   },
+   {
+    "v": "ease 0.3s",
+    "w": 1
+   },
+   {
+    "v": "ease-in-out 0.3s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "MonaSans, Arial, Helvetica, sans-serif",
+    "size": "139.821px",
+    "weight": "500",
+    "lineHeight": "146.812px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "LacosteAce Breaker"
+   },
+   "a": {
+    "family": "MonaSans, Arial, Helvetica, sans-serif",
+    "size": "18.4px",
+    "weight": "500",
+    "lineHeight": "19.32px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#f3f2e1",
+    "sample": "Conditions d'utilisations"
+   },
+   "button": {
+    "family": "MonaSans, Arial, Helvetica, sans-serif",
+    "size": "47.3973px",
+    "weight": "400",
+    "lineHeight": "49.7671px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#fcd757",
+    "sample": "Jouer"
+   }
+  },
+  "cssVars": {
+   "--base-text": "calc((80px) * var(--h-demult, 1))",
+   "--color-main": "#00503c",
+   "--color-accent": "#fcd757",
+   "--color-green": "#008A20",
+   "--padding": "calc(var(--base-text))",
+   "--font-btn": "MonaSans, Arial, Helvetica, sans-serif",
+   "--font-title": "var(--font-system)",
+   "--font-text": "var(--font-system)",
+   "--font-system": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+   "--font-popin": "var(--font-system)",
+   "--logo-size": "calc((80px) * var(--h-demult, 1))"
+  },
+  "fontFaces": [
+   {
+    "family": "MonaSans",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/ace-breaker-rg/assets/mona-sans-regular.713fcaa7526f9beb.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "MonaSans",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"/ace-breaker-rg/assets/mona-sans-medium.c9b12174526f9beb.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "MonaSans",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/ace-breaker-rg/assets/mona-sans-regular.713fcaa7526f9beb.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "MonaSans",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"/ace-breaker-rg/assets/mona-sans-medium.c9b12174526f9beb.woff2\") format(\"woff2\")"
+   }
+  ],
+  "keyframes": [
+   "spinit-bd309550",
+   "shakeX-15c4d962",
+   "splide-loading",
+   "paddleMove",
+   "bounce",
+   "opacityIn",
+   "blinkIn2",
+   "blinkIn",
+   "rotateDevice-767a1a33",
+   "appear-767a1a33",
+   "appearNegative-767a1a33",
+   "lds-ellipsis1",
+   "lds-ellipsis3",
+   "lds-ellipsis2"
+  ],
+  "breakpoints": [
+   {
+    "v": "1200px",
+    "w": 22
+   },
+   {
+    "v": "768px",
+    "w": 19
+   },
+   {
+    "v": "1024px",
+    "w": 18
+   },
+   {
+    "v": "699px",
+    "w": 18
+   },
+   {
+    "v": "400px",
+    "w": 18
+   },
+   {
+    "v": "1920px",
+    "w": 15
+   },
+   {
+    "v": "767px",
+    "w": 13
+   },
+   {
+    "v": "1921px",
+    "w": 12
+   },
+   {
+    "v": "639px",
+    "w": 12
+   },
+   {
+    "v": "1201px",
+    "w": 11
+   },
+   {
+    "v": "1023px",
+    "w": 10
+   },
+   {
+    "v": "1439px",
+    "w": 4
+   }
+  ],
+  "rulesCount": 2173,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "aside",
+    "id": null,
+    "cls": "transition-overlay",
+    "h": 900,
+    "top": 0,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "bg app-background",
+    "h": 900,
+    "top": 0,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "page page-home",
+    "h": 900,
+    "top": 0,
+    "title": "LacosteAce Breaker",
+    "media": 0
+   }
+  ],
+  "navLinks": [],
+  "ctas": [],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 1,
+   "videos": 0,
+   "imgs": 0,
+   "svgs": 13,
+   "iframes": 1,
+   "domNodes": 281
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": false,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": true,
+  "cms": [],
+  "analytics": [
+   "googletagmanager",
+   "gtag"
+  ],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://www.googletagmanager.com/gtag/js?id=G-2GZQP7KMEX&cx=c&gtm=4e6b20",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-TXDR5Z2",
+  "https://sdk.privacy-center.org/c4b94491-7507-4531-9592-bb109817d4ab/loader.js?target_type=notice&target=aCG3Ge6w",
+  "https://sdk.privacy-center.org/sdk/f26639897e05410a63a27fbfd9dae19ea2f8534a/modern/sdk.f26639897e05410a63a27fbfd9dae19ea2f8534a.js",
+  "https://members-play.lacoste.com/ace-breaker-rg/assets/main.47e034a4526f9beb.js"
+ ],
+ "internal": [
+  "https://members-play.lacoste.com/ace-breaker-rg/[https://www.lacoste.com/fr](https://www.lacoste.com/fr)"
+ ],
+ "perf": {
+  "ttfb": 34,
+  "dcl": 244,
+  "load": 1080,
+  "lcp": 0,
+  "lcpEl": null,
+  "cls": 0
+ },
+ "libs": {
+  "detected": [
+   "Barba.js",
+   "Vue",
+   "Three.js"
+  ],
+  "where": {
+   "Barba.js": [
+    "002-vendor.6be70aa8526f9beb.js"
+   ],
+   "Vue": [
+    "002-vendor.6be70aa8526f9beb.js"
+   ],
+   "Three.js": [
+    "003-webgl.a9816380526f9beb.js"
+   ]
+  },
+  "gsapVersion": null,
+  "threeRevision": null,
+  "shaders": 11,
+  "scripts": 9
+ },
+ "network": {
+  "requests": 44,
+  "totalKb": 24122,
+  "byType": {
+   "Document": {
+    "n": 2,
+    "kb": 46
+   },
+   "Stylesheet": {
+    "n": 3,
+    "kb": 16
+   },
+   "Script": {
+    "n": 11,
+    "kb": 756
+   },
+   "Image": {
+    "n": 13,
+    "kb": 19564
+   },
+   "Font": {
+    "n": 2,
+    "kb": 42
+   },
+   "XHR": {
+    "n": 5,
+    "kb": 2508
+   },
+   "Fetch": {
+    "n": 3,
+    "kb": 1186
+   },
+   "Other": {
+    "n": 3,
+    "kb": 3
+   },
+   "Preflight": {
+    "n": 1,
+    "kb": 0
+   },
+   "Ping": {
+    "n": 1,
+    "kb": 1
+   }
+  },
+  "thirdPartyHosts": [
+   "sdk.privacy-center.org",
+   "api.privacy-center.org",
+   "www.googletagmanager.com",
+   "www.google.fr",
+   "region1.analytics.google.com",
+   "stats.g.doubleclick.net"
+  ],
+  "fontFiles": [
+   "https://members-play.lacoste.com/ace-breaker-rg/assets/mona-sans-regular.713fcaa7526f9beb.woff2",
+   "https://members-play.lacoste.com/ace-breaker-rg/assets/mona-sans-medium.c9b12174526f9beb.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://members-play.lacoste.com/ace-breaker-rg/assets/stadiumRoughness-v2.66efc130526f9beb.png",
+    "kb": 9738,
+    "type": "Image"
+   },
+   {
+    "url": "https://members-play.lacoste.com/ace-breaker-rg/assets/ground.4a21dcf0526f9beb.png",
+    "kb": 7165,
+    "type": "Image"
+   },
+   {
+    "url": "https://members-play.lacoste.com/ace-breaker-rg/assets/ambLoop.54048db0526f9beb.m4a",
+    "kb": 2119,
+    "type": "XHR"
+   },
+   {
+    "url": "https://members-play.lacoste.com/ace-breaker-rg/assets/model.a91ccef3526f9beb.glb",
+    "kb": 1080,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://members-play.lacoste.com/ace-breaker-rg/assets/floor-roughness.647961b0526f9beb.jpg",
+    "kb": 615,
+    "type": "Image"
+   },
+   {
+    "url": "https://members-play.lacoste.com/ace-breaker-rg/assets/floor-normal.068212cd526f9beb.jpg",
+    "kb": 585,
+    "type": "Image"
+   },
+   {
+    "url": "https://members-play.lacoste.com/ace-breaker-rg/assets/floor-color.4a6fe46d526f9beb.jpg",
+    "kb": 517,
+    "type": "Image"
+   },
+   {
+    "url": "https://members-play.lacoste.com/ace-breaker-rg/assets/floor-height.e8f84b88526f9beb.jpg",
+    "kb": 494,
+    "type": "Image"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "45px",
+   "lineHeight": "47.25px"
+  },
+  "body": "22.1527px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 81
+}

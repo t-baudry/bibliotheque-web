@@ -1,0 +1,47 @@
+[
+ {
+  "file": "001-main.47e034a4526f9beb.js",
+  "url": "https://members-play.lacoste.com/ace-breaker-rg/assets/main.47e034a4526f9beb.js",
+  "kb": 39
+ },
+ {
+  "file": "002-vendor.6be70aa8526f9beb.js",
+  "url": "https://members-play.lacoste.com/ace-breaker-rg/assets/vendor.6be70aa8526f9beb.js",
+  "kb": 270
+ },
+ {
+  "file": "003-webgl.a9816380526f9beb.js",
+  "url": "https://members-play.lacoste.com/ace-breaker-rg/assets/webgl.a9816380526f9beb.js",
+  "kb": 683
+ },
+ {
+  "file": "004-PhysicsWorker.cc067449526f9beb.js",
+  "url": "https://members-play.lacoste.com/ace-breaker-rg/assets/PhysicsWorker.cc067449526f9beb.js",
+  "kb": 18
+ },
+ {
+  "file": "005-loader.js",
+  "url": "https://sdk.privacy-center.org/c4b94491-7507-4531-9592-bb109817d4ab/loader.js?target_type=notice&target=aCG3Ge6w",
+  "kb": 113
+ },
+ {
+  "file": "006-sdk.f26639897e05410a63a27fbfd9dae19ea2f8534a.js",
+  "url": "https://sdk.privacy-center.org/sdk/f26639897e05410a63a27fbfd9dae19ea2f8534a/modern/sdk.f26639897e05410a63a27fbfd9dae19ea2f8534a.js",
+  "kb": 475
+ },
+ {
+  "file": "007-draco_decoder.js",
+  "url": "https://members-play.lacoste.com/ace-breaker-rg/draco/draco_decoder.js",
+  "kb": 703
+ },
+ {
+  "file": "008-src_sdk_core_modules_integrations_sdk-integrations_providers.js",
+  "url": "https://sdk.privacy-center.org/sdk/f26639897e05410a63a27fbfd9dae19ea2f8534a/modern/src_sdk_core_modules_integrations_sdk-integrations_providers_gcm_gcm_js.f26639897e05410a63a27fbfd9dae19ea2f8534a.js",
+  "kb": 3
+ },
+ {
+  "file": "009-ui-web-en-web.f26639897e05410a63a27fbfd9dae19ea2f8534a.js",
+  "url": "https://sdk.privacy-center.org/sdk/f26639897e05410a63a27fbfd9dae19ea2f8534a/modern/ui-web-en-web.f26639897e05410a63a27fbfd9dae19ea2f8534a.js",
+  "kb": 259
+ }
+]

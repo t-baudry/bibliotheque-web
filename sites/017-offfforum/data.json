@@ -2,11 +2,9 @@
  "id": 17,
  "name": "OFFFForum",
  "sourceUrl": "https://www.offforum.com/",
- "capturedAt": "2026-11-02T23:30:24.775Z",
+ "capturedAt": "2026-11-03T08:41:56.288Z",
  "status": "inaccessible",
  "errors": [
-  "goto load: page.goto: Target page, context or browser has been closed",
-  "goto dcl: page.goto: Target page, context or browser has been closed",
   "shot0 browserContext.newCDPSession: Target page, context or browser has been closed",
   "extract: page.evaluate: Target page, context or browser has been closed",
   "fullpage: page.evaluate: Target page, context or browser has been closed",
@@ -17,24 +15,153 @@
   "enter": null,
   "rea": "passe hors ligne (rea-pass.mjs)",
   "desktopFrames": [],
-  "subpages": []
+  "subpages": [],
+  "video": "desktop-scroll.webm"
  },
- "httpStatus": null,
+ "httpStatus": 200,
  "libs": {
-  "detected": [],
-  "where": {},
-  "gsapVersion": null,
+  "detected": [
+   "Nuxt",
+   "Vue",
+   "GSAP",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Lenis",
+   "Virtual scroll"
+  ],
+  "where": {
+   "Nuxt": [
+    "005-B10sOMFq.js",
+    "023-C0lRfm_Q.js",
+    "025-Bl_UZbeB.js",
+    "026-Qi55dLUh.js",
+    "036-f8tcD554.js",
+    "037-Cdnf07N5.js",
+    "038-Dzio7UU0.js"
+   ],
+   "Vue": [
+    "030-DnJNCFy-.js",
+    "031-DtO87taH.js"
+   ],
+   "GSAP": [
+    "036-f8tcD554.js"
+   ],
+   "ScrollTrigger": [
+    "036-f8tcD554.js",
+    "041-bPnh-slD.js"
+   ],
+   "SplitText/SplitType": [
+    "036-f8tcD554.js"
+   ],
+   "Lenis": [
+    "036-f8tcD554.js"
+   ],
+   "Virtual scroll": [
+    "036-f8tcD554.js"
+   ]
+  },
+  "gsapVersion": "3.11.0",
   "threeRevision": null,
   "shaders": 0,
-  "scripts": 0
+  "scripts": 46
  },
  "network": {
-  "requests": 0,
-  "totalKb": 0,
-  "byType": {},
-  "thirdPartyHosts": [],
-  "fontFiles": [],
-  "biggest": []
+  "requests": 81,
+  "totalKb": 7025,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 88
+   },
+   "Image": {
+    "n": 5,
+    "kb": 491
+   },
+   "Script": {
+    "n": 53,
+    "kb": 840
+   },
+   "Other": {
+    "n": 5,
+    "kb": 82
+   },
+   "Stylesheet": {
+    "n": 2,
+    "kb": 10
+   },
+   "Fetch": {
+    "n": 6,
+    "kb": 170
+   },
+   "Font": {
+    "n": 2,
+    "kb": 38
+   },
+   "TextTrack": {
+    "n": 1,
+    "kb": 2
+   },
+   "XHR": {
+    "n": 6,
+    "kb": 5304
+   }
+  },
+  "thirdPartyHosts": [
+   "www.googletagmanager.com",
+   "region1.google-analytics.com",
+   "www.datocms-assets.com",
+   "www.gstatic.com",
+   "image.mux.com",
+   "stream.mux.com",
+   "manifest-oci-us-ashburn-1-vop1.edgemv.mux.com",
+   "chunk-oci-us-ashburn-1-vop1.edgemv.mux.com"
+  ],
+  "fontFiles": [
+   "https://www.offforum.com/_nuxt/Forvm-Roman.TuS1Oc1n.woff2",
+   "https://www.offforum.com/_nuxt/Baikal-SemiBold.DigyPQ5D.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://chunk-oci-us-ashburn-1-vop1.edgemv.mux.com/v1/chunk/2cfus2FJoswScqyV1BH01N9iJvibvfJmvPWPgFfsSLfh5vUvMmtsVn2Y1vTElcWozRhg2yZqck7HJEugPg79NCkV3KFdU4MFM/1.",
+    "kb": 2782,
+    "type": "XHR"
+   },
+   {
+    "url": "https://chunk-oci-us-ashburn-1-vop1.edgemv.mux.com/v1/chunk/V01bxG2E3wcGMMjw02sVY3AogQFvsOZPrngRZpZJdXdBC02C3QZ6eks01HOiEZ1os00g1Z02kxfGQi68PSfG15b00h00tg/2.ts?",
+    "kb": 1342,
+    "type": "XHR"
+   },
+   {
+    "url": "https://chunk-oci-us-ashburn-1-vop1.edgemv.mux.com/v1/chunk/B8inz76cuUHs02xbmmH36N7vweZtYO9zwCYs8iYYROAo1uCBr02NRwMBoYqV2eNY96AQmAGL01UCe1nE02qgMzvpqsEBdkknBfxT",
+    "kb": 1174,
+    "type": "XHR"
+   },
+   {
+    "url": "https://image.mux.com/t2555yS2RTeMEpkc3FV2BFuQJWnl101Ot/thumbnail.jpg",
+    "kb": 311,
+    "type": "Image"
+   },
+   {
+    "url": "https://www.offforum.com/_nuxt/lXDCeS-c.js",
+    "kb": 271,
+    "type": "Script"
+   },
+   {
+    "url": "https://www.datocms-assets.com/196883/1772210668-forum-video-thumbnail.jpg?dpr=0.75&fm=webp",
+    "kb": 181,
+    "type": "Image"
+   },
+   {
+    "url": "https://www.googletagmanager.com/gtag/js?id=G-JNKM70V1FF&cx=c&gtm=4e6au1",
+    "kb": 177,
+    "type": "Script"
+   },
+   {
+    "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NTVT8QWQ",
+    "kb": 131,
+    "type": "Script"
+   }
+  ]
  },
- "durationS": 24
+ "durationS": 10
 }

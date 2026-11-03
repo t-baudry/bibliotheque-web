@@ -1,0 +1,985 @@
+{
+ "id": 89,
+ "name": "Alethia",
+ "sourceUrl": "https://www.alethia.earth/",
+ "capturedAt": "2026-11-03T21:55:15.981Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg",
+   "desktop-13.jpg",
+   "desktop-14.jpg"
+  ],
+  "fullPage": 13460,
+  "subpages": [
+   {
+    "url": "https://www.alethia.earth/our-company",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.alethia.earth/contact",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg"
+    ]
+   },
+   {
+    "url": "https://www.alethia.earth/solutions/nature-based",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://www.alethia.earth/",
+ "title": "Alethia",
+ "lang": null,
+ "generator": "Framer c54c588",
+ "seo": {
+  "description": "Know your impact—precisely.  End-to-end environmental intelligence powered by science, blockchain, and transparent data you can trust.",
+  "canonical": "https://www.alethia.earth/",
+  "robots": "max-image-preview:large",
+  "ogTitle": "Alethia",
+  "ogImage": "https://framerusercontent.com/images/k8WA7briA9x0PBCfBvn6GdVLS4.png",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [],
+  "h1Count": 1,
+  "headings": [
+   "H1 Where Ecosystem Science and Enterprise Strategy Meet",
+   "H3 our vision",
+   "H2 From Data Chaos to Science-Backed, Actionable Insights",
+   "H3 our solutions",
+   "H2 Validating What the Ecosystem Does Naturally",
+   "H3 our technology",
+   "H2 Scientific Rigor.Commercial Precision.Unmatched Trust.",
+   "H3 Atmospheric-Based MRV",
+   "H2 We’re the first to bring Atmospheric-Based Digital MRV—trusted by top climate institutions",
+   "H3 Blockchain technology",
+   "H2 Built on blockchain, our system makes every data point fully traceable, tamper-proof, and ",
+   "H3 No Spreadsheets",
+   "H3 No Guesswork",
+   "H2 Just Real, Measured Insight Delivered with Integrity.",
+   "H3 Alethia Solves",
+   "H3 The Biggest Problem in Climate Action: Trust",
+   "H2 We’re Not Just Evolving the System.",
+   "H2 We’re Redefining It.",
+   "H3 Bring WMO-grade atmospheric monitoring to commercial use",
+   "H3 Integrate real-time sensors, GHG flux tracking, & satellite imaging into one platform",
+   "H3 Apply algorithmic processing at every stage of data collection",
+   "H3 Secure every metric with blockchain for complete traceability and auditability",
+   "H3 case studies",
+   "H2 Explore how leading organizations are using alethia to measure emissions, verify progress,",
+   "H3 Success Story",
+   "H3 Success Story",
+   "H3 Latest News & Insights",
+   "H2 Insights that Move the Market.",
+   "H2 Turn Climate Data Into",
+   "H2 Business Results"
+  ],
+  "imgs": 40,
+  "imgNoAlt": 34,
+  "favicon": "https://framerusercontent.com/images/oRfXolERtzOKYMr39hpwvykRGA.png",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#f5f4f2",
+    "w": 7269031
+   },
+   {
+    "v": "#0f1f10",
+    "w": 6244371
+   },
+   {
+    "v": "#200f85",
+    "w": 3888000
+   },
+   {
+    "v": "#ffffff",
+    "w": 3554423
+   },
+   {
+    "v": "#000000",
+    "w": 3019381
+   },
+   {
+    "v": "#828282",
+    "w": 2345873
+   },
+   {
+    "v": "#0f0f0f",
+    "w": 1296000
+   },
+   {
+    "v": "#c6f19d",
+    "w": 76907
+   },
+   {
+    "v": "#cc8343",
+    "w": 65790
+   },
+   {
+    "v": "#e8ab41",
+    "w": 16252
+   },
+   {
+    "v": "#2fe0ba",
+    "w": 11594
+   },
+   {
+    "v": "#9fcf69",
+    "w": 8602
+   }
+  ],
+  "text": [
+   {
+    "v": "#0f1f10",
+    "w": 1305
+   },
+   {
+    "v": "#ffffff",
+    "w": 809
+   },
+   {
+    "v": "#f5f4f2",
+    "w": 560
+   },
+   {
+    "v": "#d5eebc",
+    "w": 278
+   },
+   {
+    "v": "#c6f19d",
+    "w": 100
+   },
+   {
+    "v": "#f3f3f3",
+    "w": 48
+   },
+   {
+    "v": "#000000",
+    "w": 19
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "Geist Medium",
+    "w": 897
+   },
+   {
+    "v": "Geist",
+    "w": 824
+   },
+   {
+    "v": "Geist Regular",
+    "w": 666
+   },
+   {
+    "v": "Geist Mono",
+    "w": 659
+   },
+   {
+    "v": "Geist SemiBold",
+    "w": 54
+   },
+   {
+    "v": "sans-serif",
+    "w": 19
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "14px",
+    "w": 38
+   },
+   {
+    "v": "12px",
+    "w": 13
+   },
+   {
+    "v": "16px",
+    "w": 13
+   },
+   {
+    "v": "15px",
+    "w": 11
+   },
+   {
+    "v": "24px",
+    "w": 11
+   },
+   {
+    "v": "18px",
+    "w": 10
+   },
+   {
+    "v": "40px",
+    "w": 9
+   },
+   {
+    "v": "72px",
+    "w": 5
+   },
+   {
+    "v": "20px",
+    "w": 5
+   },
+   {
+    "v": "10.74px",
+    "w": 4
+   },
+   {
+    "v": "64px",
+    "w": 3
+   },
+   {
+    "v": "56px",
+    "w": 3
+   },
+   {
+    "v": "32px",
+    "w": 2
+   },
+   {
+    "v": "8.11599px",
+    "w": 2
+   },
+   {
+    "v": "44px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "24px",
+    "w": 13
+   },
+   {
+    "v": "3px",
+    "w": 12
+   },
+   {
+    "v": "99px",
+    "w": 8
+   },
+   {
+    "v": "12px",
+    "w": 5
+   },
+   {
+    "v": "5px",
+    "w": 4
+   },
+   {
+    "v": "8px",
+    "w": 4
+   },
+   {
+    "v": "999px",
+    "w": 4
+   },
+   {
+    "v": "6px",
+    "w": 3
+   }
+  ],
+  "shadows": [],
+  "transitions": [],
+  "typo": {
+   "h1": {
+    "family": "\"Geist Medium\", \"Geist Medium Placeholder\", sans-serif",
+    "size": "72px",
+    "weight": "500",
+    "lineHeight": "68.4px",
+    "letterSpacing": "-3.6px",
+    "transform": "none",
+    "color": "#f5f4f2",
+    "sample": "Where Ecosystem Science and Enterprise Strategy Meet"
+   },
+   "h2": {
+    "family": "\"Geist SemiBold\", \"Geist SemiBold Placeholder\", sans-serif",
+    "size": "64px",
+    "weight": "600",
+    "lineHeight": "60.8px",
+    "letterSpacing": "-3.2px",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "From Data Chaos to Science-Backed, Actionable Insights"
+   },
+   "h3": {
+    "family": "\"Geist Mono\", monospace",
+    "size": "14px",
+    "weight": "500",
+    "lineHeight": "12.6px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#0f1f10",
+    "sample": "our vision"
+   },
+   "h4": {
+    "family": "\"Geist Regular\", \"Geist Regular Placeholder\", sans-serif",
+    "size": "24px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "-0.96px",
+    "transform": "none",
+    "color": "#f5f4f2",
+    "sample": "Know your impact—precisely. End-to-end environmental intelligence powered by sci"
+   },
+   "p": {
+    "family": "\"Geist Mono\", monospace",
+    "size": "15px",
+    "weight": "600",
+    "lineHeight": "13.5px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "Solutions"
+   },
+   "a": {
+    "family": "sans-serif",
+    "size": "12px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Solutions"
+   },
+   "body": {
+    "family": "sans-serif",
+    "size": "12px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": ":root body { background: var(--token-89eb458f-c22d-4db9-991d-dedbff9f9de0, rgb(1"
+   }
+  },
+  "cssVars": {
+   "--token-89eb458f-c22d-4db9-991d-dedbff9f9de0": "#0f1f10",
+   "--token-29b0dbc5-7e1f-4b3e-8954-a3e1672ca3b5": "#c6f19d",
+   "--token-4574eca4-72c6-4afc-909d-0f5a71c6a6f3": "#f5f4f2",
+   "--token-85221088-9e29-4b0c-9543-d806ed6d5f2c": "#fff",
+   "--token-95995eb5-c56a-4901-8fd5-d6ed3e73179d": "#0f0f0f",
+   "--token-5f262070-87f5-4094-8d22-4032ed81bf56": "#e0e0e0",
+   "--framer-will-change-override": "transform",
+   "--framer-will-change-filter-override": "filter",
+   "--overflow-clip-fallback": "hidden",
+   "--one-if-corner-shape-supported": "1",
+   "--framer-aspect-ratio-supported": "auto"
+  },
+  "fontFaces": [
+   {
+    "family": "Geist",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geist/v5/gyBhhwUxId8gMGYQMKR3pzfaWI_RnOMIl5na-1Q.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geist/v5/gyBhhwUxId8gMGYQMKR3pzfaWI_RnOMInpna-1Q.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geist/v5/gyBhhwUxId8gMGYQMKR3pzfaWI_RnOMIlZna-1Q.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geist/v5/gyBhhwUxId8gMGYQMKR3pzfaWI_RnOMIlJna-1Q.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geist/v5/gyBhhwUxId8gMGYQMKR3pzfaWI_RnOMImpna.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Fragment Mono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB45HhrUI.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Fragment Mono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB41HhrUI.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Fragment Mono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB4NHhg.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geistmono/v6/or3nQ6H-1_WfwkMZI_qYFrodmgPn.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geistmono/v6/or3nQ6H-1_WfwkMZI_qYFrMdmgPn.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geistmono/v6/or3nQ6H-1_WfwkMZI_qYFg08vz7ehw.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geistmono/v6/or3nQ6H-1_WfwkMZI_qYFrgdmgPn.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geistmono/v6/or3nQ6H-1_WfwkMZI_qYFrkdmgPn.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geistmono/v6/or3nQ6H-1_WfwkMZI_qYFrcdmg.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "600",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geistmono/v6/or3nQ6H-1_WfwkMZI_qYFrodmgPn.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "600",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geistmono/v6/or3nQ6H-1_WfwkMZI_qYFrMdmgPn.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "600",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geistmono/v6/or3nQ6H-1_WfwkMZI_qYFg08vz7ehw.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "600",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geistmono/v6/or3nQ6H-1_WfwkMZI_qYFrgdmgPn.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "600",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geistmono/v6/or3nQ6H-1_WfwkMZI_qYFrkdmgPn.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "600",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geistmono/v6/or3nQ6H-1_WfwkMZI_qYFrcdmg.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "900",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geistmono/v6/or3nQ6H-1_WfwkMZI_qYFrodmgPn.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "900",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geistmono/v6/or3nQ6H-1_WfwkMZI_qYFrMdmgPn.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "900",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geistmono/v6/or3nQ6H-1_WfwkMZI_qYFg08vz7ehw.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "900",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geistmono/v6/or3nQ6H-1_WfwkMZI_qYFrgdmgPn.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "900",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geistmono/v6/or3nQ6H-1_WfwkMZI_qYFrkdmgPn.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "900",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geistmono/v6/or3nQ6H-1_WfwkMZI_qYFrcdmg.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist",
+    "weight": "600",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geist/v5/gyBhhwUxId8gMGYQMKR3pzfaWI_RQuQ4mJPby1QNtA.woff2\")"
+   },
+   {
+    "family": "Geist",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geist/v5/gyBhhwUxId8gMGYQMKR3pzfaWI_RruM4mJPby1QNtA.woff2\")"
+   },
+   {
+    "family": "Geist",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geist/v4/gyBhhwUxId8gMGYQMKR3pzfaWI_Re-Q4mJPby1QNtA.woff2\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geistmono/v3/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeEPKJ5W7ihaO_CS.woff2\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geistmono/v3/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeHaL55W7ihaO_CS.woff2\")"
+   },
+   {
+    "family": "Geist Medium",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/dNqH0c4qjo3RGmYZnJknwKtT0.woff2\")"
+   },
+   {
+    "family": "Geist Regular",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/fmgcvoo7Pvi75XN7wkBOp5g4i4s.woff2\")"
+   },
+   {
+    "family": "Geist SemiBold",
+    "weight": "600",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/AsR3mvOFEzx32e1r910gRJOHeyY.woff2\")"
+   },
+   {
+    "family": "Geist Regular",
+    "weight": "",
+    "style": "",
+    "src": "url(\"https://framerusercontent.com/assets/fmgcvoo7Pvi75XN7wkBOp5g4i4s.woff2\")"
+   },
+   {
+    "family": "Geist SemiBold",
+    "weight": "",
+    "style": "",
+    "src": "url(\"https://framerusercontent.com/assets/AsR3mvOFEzx32e1r910gRJOHeyY.woff2\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/EOr0mi4hNtlgWNn9if640EZzXCo.woff2\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/Y9k9QrlZAqio88Klkmbd8VoMQc.woff2\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/OYrD2tBIBPvoJXiIHnLoOXnY9M.woff2\")"
+   }
+  ],
+  "keyframes": [
+   "__framer-editorbar-spinner-spin"
+  ],
+  "breakpoints": [
+   {
+    "v": "2559px",
+    "w": 12
+   },
+   {
+    "v": "1440px",
+    "w": 9
+   },
+   {
+    "v": "1439px",
+    "w": 9
+   },
+   {
+    "v": "960px",
+    "w": 6
+   },
+   {
+    "v": "959px",
+    "w": 6
+   },
+   {
+    "v": "1000px",
+    "w": 4
+   },
+   {
+    "v": "999px",
+    "w": 3
+   },
+   {
+    "v": "1199px",
+    "w": 3
+   },
+   {
+    "v": "1198px",
+    "w": 3
+   },
+   {
+    "v": "809px",
+    "w": 3
+   },
+   {
+    "v": "808px",
+    "w": 3
+   },
+   {
+    "v": "1439.98px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 1365,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "framer-luWdx framer-1b9l3f5",
+    "h": 13472,
+    "top": 0,
+    "title": "Where Ecosystem Science and Enterprise Strategy Meet",
+    "media": 46
+   }
+  ],
+  "navLinks": [],
+  "ctas": [
+   "Let’s Talk"
+  ],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 1,
+   "videos": 5,
+   "imgs": 40,
+   "svgs": 35,
+   "iframes": 1,
+   "domNodes": 1241
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": false,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": true,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": true,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [
+   "googletagmanager",
+   "gtag"
+  ],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": false
+ },
+ "scripts": [
+  "https://www.googletagmanager.com/gtag/js?id=G-4TSC0KS8G3",
+  "https://www.googletagmanager.com/gtag/js?id=G-4TSC0KS8G3",
+  "https://events.framer.com/script?v=2",
+  "https://framerusercontent.com/sites/6AN2yDPkGAirmFqcg2kbn3/script_main.CPsdJQ5r.mjs"
+ ],
+ "internal": [
+  "https://www.alethia.earth/our-company",
+  "https://www.alethia.earth/contact",
+  "https://www.alethia.earth/solutions/nature-based",
+  "https://www.alethia.earth/solutions/supply-chain",
+  "https://www.alethia.earth/our-tech/amrv",
+  "https://www.alethia.earth/resources/case-studies/scaling-alethias-intelligence-with-ai",
+  "https://www.alethia.earth/resources/case-studies/turning-regenerative-ag-into-verified-climate-performance",
+  "https://www.alethia.earth/resources/news-and-media",
+  "https://www.alethia.earth/resources/news-and-media/alethias-atmospheric-based-measurement-reporting-and-verification-approach",
+  "https://www.alethia.earth/our-tech/blockchain",
+  "https://www.alethia.earth/resources/research-and-insights",
+  "https://www.alethia.earth/resources/case-studies",
+  "https://www.alethia.earth/privacy-policy",
+  "https://www.alethia.earth/terms-of-use"
+ ],
+ "perf": {
+  "ttfb": 119,
+  "dcl": 735,
+  "load": 2467,
+  "lcp": 1588,
+  "lcpEl": "VIDEO",
+  "cls": 0.006
+ },
+ "libs": {
+  "detected": [
+   "Contentful",
+   "React",
+   "Lenis",
+   "Lottie",
+   "Virtual scroll"
+  ],
+  "where": {
+   "Contentful": [
+    "001-script.js",
+    "025-script.js",
+    "028-script.js"
+   ],
+   "React": [
+    "026-react.CI8P-fjo.js",
+    "029-script_main.CPsdJQ5r.js",
+    "030-react.CI8P-fjo.js",
+    "035-init.js",
+    "058-script_main.CPsdJQ5r.js",
+    "059-init.js"
+   ],
+   "Lenis": [
+    "027-lenis.Bx1xXL3z.js",
+    "033-LcK_7RZeQikWli4wNRP5nVau9E6EGM-MCQ8LiUn4dW0.4CJlDhNj.js",
+    "035-init.js",
+    "040-LcK_7RZeQikWli4wNRP5nVau9E6EGM-MCQ8LiUn4dW0.4CJlDhNj.js",
+    "041-lenis.Bx1xXL3z.js",
+    "043-BW5SL5ArUkcForuZVqW01P2pe5Tl6fVueG8rh8g-8O0.DNmexJk7.js",
+    "047-Lenis.BPtVa-Wd.js",
+    "048-TsjqSABouseOnEXafZZuSeDtoI9ZH2IpFLJ0PyN-m_U.Bp0fmqGB.js",
+    "053-SPHVdsZS80eJjj6FnZ8RFKvvE4RVc_I9CmVtMva0T10.DDTWEjF0.js",
+    "057-EBmGJpbB1_B-ZoRGOwWZ_fG3gJKYKfmjOloRJcor2Jw.BwQZxEVn.js",
+    "059-init.js",
+    "061-BW5SL5ArUkcForuZVqW01P2pe5Tl6fVueG8rh8g-8O0.DNmexJk7.js",
+    "061-_bNJjxd_rDSDMDlDFyC-7_SJ9QH5qvCP2xezv4YvdHc.DJjQtCFx.js",
+    "062-Lenis.BPtVa-Wd.js",
+    "064-9ovKySQ99imHj9s_-0tr39F3Y0gRN70ZnIOOjc90iaQ.BgYfnlen.js",
+    "066-TsjqSABouseOnEXafZZuSeDtoI9ZH2IpFLJ0PyN-m_U.Bp0fmqGB.js",
+    "067-jgGgWp_f5ooPSR4VA1ut55JSnS0DuSBwEgjYk8PgTZM.DM8So6n-.js",
+    "072-8PKhJRRDNvxXoZ3-O1jB0g6Q-BP8vM6NQ14GcRUsR_M.CB6yfEa9.js",
+    "077-SPHVdsZS80eJjj6FnZ8RFKvvE4RVc_I9CmVtMva0T10.DDTWEjF0.js",
+    "078-EBmGJpbB1_B-ZoRGOwWZ_fG3gJKYKfmjOloRJcor2Jw.BwQZxEVn.js",
+    "085-_bNJjxd_rDSDMDlDFyC-7_SJ9QH5qvCP2xezv4YvdHc.DJjQtCFx.js",
+    "088-9ovKySQ99imHj9s_-0tr39F3Y0gRN70ZnIOOjc90iaQ.BgYfnlen.js",
+    "091-jgGgWp_f5ooPSR4VA1ut55JSnS0DuSBwEgjYk8PgTZM.DM8So6n-.js",
+    "096-8PKhJRRDNvxXoZ3-O1jB0g6Q-BP8vM6NQ14GcRUsR_M.CB6yfEa9.js"
+   ],
+   "Lottie": [
+    "027-lenis.Bx1xXL3z.js",
+    "032-Lottie.G79Lt6jk.js",
+    "041-lenis.Bx1xXL3z.js",
+    "042-Lottie.G79Lt6jk.js",
+    "056-yHHHWGvRC.Cxw6zjZQ.js",
+    "061-_bNJjxd_rDSDMDlDFyC-7_SJ9QH5qvCP2xezv4YvdHc.DJjQtCFx.js",
+    "083-yHHHWGvRC.Cxw6zjZQ.js",
+    "085-_bNJjxd_rDSDMDlDFyC-7_SJ9QH5qvCP2xezv4YvdHc.DJjQtCFx.js"
+   ],
+   "Virtual scroll": [
+    "047-Lenis.BPtVa-Wd.js",
+    "062-Lenis.BPtVa-Wd.js"
+   ]
+  },
+  "gsapVersion": null,
+  "threeRevision": null,
+  "shaders": 0,
+  "scripts": 169
+ },
+ "network": {
+  "requests": 346,
+  "totalKb": 38754,
+  "byType": {
+   "Document": {
+    "n": 2,
+    "kb": 90
+   },
+   "Image": {
+    "n": 45,
+    "kb": 1705
+   },
+   "Script": {
+    "n": 67,
+    "kb": 920
+   },
+   "Font": {
+    "n": 8,
+    "kb": 254
+   },
+   "Fetch": {
+    "n": 214,
+    "kb": 25124
+   },
+   "Media": {
+    "n": 8,
+    "kb": 10658
+   },
+   "Ping": {
+    "n": 1,
+    "kb": 0
+   },
+   "Other": {
+    "n": 1,
+    "kb": 2
+   }
+  },
+  "thirdPartyHosts": [
+   "framerusercontent.com",
+   "fonts.gstatic.com",
+   "events.framer.com",
+   "www.googletagmanager.com",
+   "region1.google-analytics.com",
+   "framer.com",
+   "app.framerstatic.com",
+   "r2-assets.alethia.earth",
+   "axtvqad8id6e.objectstorage.sa-santiago-1.oci.customer-oci.com"
+  ],
+  "fontFiles": [
+   "https://framerusercontent.com/assets/fmgcvoo7Pvi75XN7wkBOp5g4i4s.woff2",
+   "https://framerusercontent.com/assets/dNqH0c4qjo3RGmYZnJknwKtT0.woff2",
+   "https://fonts.gstatic.com/s/geist/v5/gyBhhwUxId8gMGYQMKR3pzfaWI_RnOMImpna.woff2",
+   "https://framerusercontent.com/assets/AsR3mvOFEzx32e1r910gRJOHeyY.woff2",
+   "https://fonts.gstatic.com/s/geistmono/v3/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeEPKJ5W7ihaO_CS.woff2",
+   "https://fonts.gstatic.com/s/geist/v5/gyBhhwUxId8gMGYQMKR3pzfaWI_RruM4mJPby1QNtA.woff2",
+   "https://fonts.gstatic.com/s/geistmono/v6/or3nQ6H-1_WfwkMZI_qYFrcdmg.woff2",
+   "https://fonts.gstatic.com/s/geist/v5/gyBhhwUxId8gMGYQMKR3pzfaWI_RQuQ4mJPby1QNtA.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://r2-assets.alethia.earth/framer/videos/loop1.webm",
+    "kb": 3847,
+    "type": "Media"
+   },
+   {
+    "url": "https://r2-assets.alethia.earth/framer/videos/loop2.webm",
+    "kb": 3108,
+    "type": "Media"
+   },
+   {
+    "url": "https://r2-assets.alethia.earth/framer/videos/scan.webm",
+    "kb": 1619,
+    "type": "Media"
+   },
+   {
+    "url": "https://axtvqad8id6e.objectstorage.sa-santiago-1.oci.customer-oci.com/p/gnTJf-AfCGKPaYKV4WFqHx40Xy1v69-Fcmxeug9Lgj10XnKaTpRcviJWvU97GpSG/n/axtvqad8id6e/b/alethi",
+    "kb": 1110,
+    "type": "Media"
+   },
+   {
+    "url": "https://framerusercontent.com/assets/Nv9KLH1oQf2N4kwYx94DiQnhI.mp4",
+    "kb": 949,
+    "type": "Media"
+   },
+   {
+    "url": "https://r2-assets.alethia.earth/framer/1920/floating-island_00182.webp",
+    "kb": 408,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://r2-assets.alethia.earth/framer/1920/floating-island_00179.webp",
+    "kb": 408,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://r2-assets.alethia.earth/framer/1920/floating-island_00181.webp",
+    "kb": 406,
+    "type": "Fetch"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "32px",
+   "lineHeight": "30.4px"
+  },
+  "body": "12px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 96
+}

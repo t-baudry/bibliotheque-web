@@ -1,0 +1,969 @@
+{
+ "id": 75,
+ "name": "LIKOVA",
+ "sourceUrl": "https://likova.space/",
+ "capturedAt": "2026-11-03T09:10:45.279Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [
+   "txt:accept"
+  ],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg"
+  ],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [
+   {
+    "url": "https://likova.space/en/favourites",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://likova.space/",
+ "title": "Class A Business Center",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Conveniently located, with flexible office layouts, extensive amenities, and spacious parking. Learn more.",
+  "canonical": "https://likova.space/en/",
+  "robots": null,
+  "ogTitle": "Class A Business Center",
+  "ogImage": "https://likova.space/assets/manifest/og.png",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "Organization",
+   "WebSite",
+   "BreadcrumbList",
+   "WebPage"
+  ],
+  "h1Count": 1,
+  "headings": [
+   "H1 LIKOVA — Where future gains momentum",
+   "H2 Impressive ideas. Daring inspiration.",
+   "H2 Информация",
+   "H2 Location",
+   "H2 Reach your goals with excellent transport connectivity",
+   "H2 Exciting environment for those who are always on the move",
+   "H2 The Master Plan",
+   "H2 Architecture",
+   "H2 Lobby",
+   "H2 Offices",
+   "H2 Priceless ideas are born in comfort.",
+   "H2 Technology",
+   "H2 Infrastructure",
+   "H2 Our Team"
+  ],
+  "imgs": 96,
+  "imgNoAlt": 95,
+  "favicon": "https://likova.space/favicon.ico?v=1782384571",
+  "themeColor": "#070B20"
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#070b20",
+    "w": 16896569
+   },
+   {
+    "v": "#ffffff",
+    "w": 4348567
+   },
+   {
+    "v": "#e3e6eb",
+    "w": 3019680
+   },
+   {
+    "v": "#0e1224",
+    "w": 1296000
+   },
+   {
+    "v": "#000000",
+    "w": 110
+   }
+  ],
+  "text": [
+   {
+    "v": "#ffffff",
+    "w": 3508
+   },
+   {
+    "v": "#070b20",
+    "w": 366
+   },
+   {
+    "v": "#57566a",
+    "w": 79
+   },
+   {
+    "v": "#232739",
+    "w": 44
+   }
+  ],
+  "border": [
+   {
+    "v": "#ffffff",
+    "w": 9
+   }
+  ],
+  "fonts": [
+   {
+    "v": "TT Norms Pro",
+    "w": 3997
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "14px",
+    "w": 189
+   },
+   {
+    "v": "11px",
+    "w": 166
+   },
+   {
+    "v": "20px",
+    "w": 62
+   },
+   {
+    "v": "143px",
+    "w": 17
+   },
+   {
+    "v": "50px",
+    "w": 17
+   },
+   {
+    "v": "85px",
+    "w": 17
+   }
+  ],
+  "radius": [
+   {
+    "v": "10px",
+    "w": 17
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.7 0.5s",
+    "w": 58
+   },
+   {
+    "v": "cubic-bezier(0.7 1s",
+    "w": 2
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "\"TT Norms Pro\", Helvetica, Arial, sans-serif",
+    "size": "143px",
+    "weight": "400",
+    "lineHeight": "150px",
+    "letterSpacing": "-5.72px",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "LIKOVA — Where future gains momentum"
+   },
+   "h2": {
+    "family": "\"TT Norms Pro\", Helvetica, Arial, sans-serif",
+    "size": "14px",
+    "weight": "450",
+    "lineHeight": "17.9999px",
+    "letterSpacing": "0.56px",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "Impressive ideas. Daring inspiration."
+   },
+   "p": {
+    "family": "\"TT Norms Pro\", Helvetica, Arial, sans-serif",
+    "size": "20px",
+    "weight": "450",
+    "lineHeight": "24px",
+    "letterSpacing": "-0.2px",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "Where future gains momentum"
+   },
+   "a": {
+    "family": "\"TT Norms Pro\", Helvetica, Arial, sans-serif",
+    "size": "14px",
+    "weight": "450",
+    "lineHeight": "17.9999px",
+    "letterSpacing": "0.56px",
+    "transform": "uppercase",
+    "color": "#070b20",
+    "sample": "Skip to main content"
+   },
+   "button": {
+    "family": "\"TT Norms Pro\", Helvetica, Arial, sans-serif",
+    "size": "14px",
+    "weight": "450",
+    "lineHeight": "17.9999px",
+    "letterSpacing": "0.56px",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "LED lighting"
+   },
+   "li": {
+    "family": "\"TT Norms Pro\", Helvetica, Arial, sans-serif",
+    "size": "14px",
+    "weight": "450",
+    "lineHeight": "17.9999px",
+    "letterSpacing": "0.56px",
+    "transform": "uppercase",
+    "color": "#070b20",
+    "sample": "<picture class=\" img-full parallax-image-move\" draggable=\"false\" > <source srcse"
+   },
+   "body": {
+    "family": "\"TT Norms Pro\", Helvetica, Arial, sans-serif",
+    "size": "14px",
+    "weight": "450",
+    "lineHeight": "17.9999px",
+    "letterSpacing": "0.56px",
+    "transform": "uppercase",
+    "color": "#070b20",
+    "sample": "Skip to main content Select office space 0 Contact US LIKOVA — Where future gain"
+   }
+  },
+  "cssVars": {
+   "--fos": "-0.11em",
+   "--foe": "-0.19em",
+   "--lh": "var(--xxxxl,1.2em) var(--n-xxxxl,var(--xxxl,1.17647em) var(--n-xxxl,var(--xxl,1.28571em) var(--n-xxl,1.36364em)))",
+   "--scale-px": "max(0.5px,min(1px,calc(0.5px + 0.5 * ((var(--vw100) - 980px) / 220))))",
+   "--scale-rem": "max(0.5rem,min(1rem,calc(0.5rem + 5 * ((var(--vw100) - 980px) / 220))))",
+   "--scale-em": "1em",
+   "--scale-text-px": "max(0.7px,min(1px,calc(0.7px + 0.3 * ((var(--vw100) - 980px) / 220))))",
+   "--scale-text-rem": "max(0.7rem,min(1rem,calc(0.7rem + 3 * ((var(--vw100) - 980px) / 220))))",
+   "--scale-text-em": "1em",
+   "--spacing": "var(--xxxl,calc(var(--scale-px) * 60)) var(--n-xxxl,var(--md,calc(var(--scale-px) * 40)) var(--n-md,calc(var(--scale-px) * 20)))",
+   "--spacing-layout": "var(--xxxl,calc(var(--scale-px) * 30)) var(--n-xxxl,calc(var(--scale-px) * 20))",
+   "--sm": "initial",
+   "--n-sm": "",
+   "--md": "initial",
+   "--n-md": "",
+   "--lg": "initial",
+   "--n-lg": "",
+   "--xl": "initial",
+   "--n-xl": "",
+   "--xxl": "initial",
+   "--n-xxl": "",
+   "--xxxl": "initial",
+   "--n-xxxl": "",
+   "--xxxxl": "initial",
+   "--n-xxxxl": "",
+   "--vw": "1vw",
+   "--vw100": "100vw",
+   "--c-white": "#fff",
+   "--c-white-rgb": "255,255,255",
+   "--c-blue-gray": "#070b20",
+   "--c-blue-gray-rgb": "7,11,32",
+   "--c-blue-dark": "#232739",
+   "--c-blue-dark-rgb": "35,39,57",
+   "--c-blue-deep": "#57566a",
+   "--c-blue-deep-rgb": "87,86,106",
+   "--c-gray": "#bdbec4",
+   "--c-gray-rgb": "189,190,196",
+   "--c-gray-light": "#e3e6eb",
+   "--c-gray-light-rgb": "227,230,235",
+   "--c-border": "#393c4d",
+   "--c-border-rgb": "57,60,77",
+   "--c-metal": "linear-gradient(180deg,#c7cbd4,#5a5f65)",
+   "--c-tap-highlight": "rgba(0,0,0,.2)",
+   "--c-tap-highlight-rgb": "0,0,0",
+   "--c-error": "#ce1d20",
+   "--c-error-rgb": "206,29,32",
+   "--t-background": "var(--c-white)",
+   "--t-background-rgb": "var(--c-white-rgb)",
+   "--t-background-alternative": "var(--c-gray-light)",
+   "--t-background-alternative-rgb": "var(--c-gray-light-rgb)",
+   "--t-line": "rgba(var(--c-blue-dark-rgb),0.2)",
+   "--t-line-rgb": "var(--c-blue-dark-rgb)",
+   "--t-small": "var(--c-blue-deep)",
+   "--t-small-rgb": "var(--c-blue-deep-rgb)",
+   "--t-small-transparent": "rgba(var(--c-blue-dark-rgb),0.6)",
+   "--t-small-transparent-rgb": "var(--c-blue-dark-rgb)",
+   "--t-text": "var(--c-blue-gray)",
+   "--t-text-rgb": "var(--c-blue-gray-rgb)",
+   "--t-heading": "var(--c-blue-dark)",
+   "--t-heading-rgb": "var(--c-blue-dark-rgb)",
+   "--t-primary": "var(--c-blue-gray)",
+   "--t-primary-rgb": "var(--c-blue-gray-rgb)",
+   "--t-secondary": "var(--c-blue-gray)",
+   "--t-secondary-rgb": "var(--c-blue-gray-rgb)",
+   "--t-button-bitten-corner-text": "var(--t-background)",
+   "--t-button-bitten-corner-text-rgb": "var(--t-background-rgb)",
+   "--t-button-bitten-corner-background": "var(--t-primary)",
+   "--t-button-bitten-corner-background-rgb": "var(--t-primary-rgb)",
+   "--t-button-bitten-corner-hover-text": "var(--t-background)",
+   "--t-button-bitten-corner-hover-text-rgb": "var(--t-background-rgb)",
+   "--t-button-bitten-corner-hover-background": "var(--t-primary)",
+   "--t-button-bitten-corner-hover-background-rgb": "var(--t-primary-rgb)",
+   "--t-button-bitten-corner-active-text": "var(--t-background)",
+   "--t-button-bitten-corner-active-text-rgb": "var(--t-background-rgb)",
+   "--t-button-bitten-corner-active-background": "var(--t-primary)",
+   "--t-button-bitten-corner-active-background-rgb": "var(--t-primary-rgb)",
+   "--t-button-bitten-corner-disabled-text": "var(--t-background)",
+   "--t-button-bitten-corner-disabled-text-rgb": "var(--t-background-rgb)",
+   "--t-button-bitten-corner-disabled-background": "rgba(var(--t-primary-rgb),0.4)",
+   "--t-button-bitten-corner-disabled-background-rgb": "var(--t-primary-rgb)",
+   "--t-button-bitten-corner-active-hover-text": "var(--t-background)",
+   "--t-button-bitten-corner-active-hover-text-rgb": "var(--t-background-rgb)",
+   "--t-button-bitten-corner-active-hover-background": "var(--t-primary)",
+   "--t-button-bitten-corner-active-hover-background-rgb": "var(--t-primary-rgb)",
+   "--t-button-bitten-corner--outline-text": "var(--t-text)",
+   "--t-button-bitten-corner--outline-text-rgb": "var(--t-text-rgb)",
+   "--t-button-bitten-corner--outline-background": "transparent",
+   "--t-button-bitten-corner--outline-hover-text": "var(--t-text)",
+   "--t-button-bitten-corner--outline-hover-text-rgb": "var(--t-text-rgb)",
+   "--t-button-bitten-corner--outline-hover-background": "transparent",
+   "--t-button-bitten-corner--outline-active-text": "var(--t-text)",
+   "--t-button-bitten-corner--outline-active-text-rgb": "var(--t-text-rgb)",
+   "--t-button-bitten-corner--outline-active-background": "transparent",
+   "--t-button-bitten-corner--outline-disabled-text": "rgba(var(--t-text-rgb),0.2)",
+   "--t-button-bitten-corner--outline-disabled-text-rgb": "var(--t-text-rgb)",
+   "--t-button-bitten-corner--outline-disabled-border": "rgba(var(--t-text-rgb),0.2)",
+   "--t-button-bitten-corner--outline-disabled-border-rgb": "var(--t-text-rgb)",
+   "--t-button-bitten-corner--outline-disabled-background": "transparent",
+   "--t-button-bitten-corner--outline-active-hover-text": "var(--t-text)",
+   "--t-button-bitten-corner--outline-active-hover-text-rgb": "var(--t-text-rgb)",
+   "--t-button-bitten-corner--outline-active-hover-background": "transparent",
+   "--t-button-bitten-tab-text": "var(--t-text)",
+   "--t-button-bitten-tab-text-rgb": "var(--t-text-rgb)",
+   "--t-button-bitten-tab-background": "transparent",
+   "--t-button-bitten-tab-hover-text": "var(--t-text)",
+   "--t-button-bitten-tab-hover-text-rgb": "var(--t-text-rgb)",
+   "--t-button-bitten-tab-hover-background": "var(--t-background)",
+   "--t-button-bitten-tab-hover-background-rgb": "var(--t-background-rgb)",
+   "--t-button-bitten-tab-active-text": "var(--t-background)",
+   "--t-button-bitten-tab-active-text-rgb": "var(--t-background-rgb)",
+   "--t-button-bitten-tab-active-background": "var(--t-text)",
+   "--t-button-bitten-tab-active-background-rgb": "var(--t-text-rgb)",
+   "--t-button-bitten-tab-disabled-text": "var(--t-text)",
+   "--t-button-bitten-tab-disabled-text-rgb": "var(--t-text-rgb)",
+   "--t-button-bitten-tab-disabled-background": "transparent",
+   "--t-button-bitten-tab-active-hover-text": "var(--t-background)",
+   "--t-button-bitten-tab-active-hover-text-rgb": "var(--t-background-rgb)",
+   "--t-button-bitten-tab-active-hover-background": "var(--c-white)",
+   "--t-button-bitten-tab-active-hover-background-rgb": "var(--c-white-rgb)",
+   "--t-button-tab-text": "var(--t-text)",
+   "--t-button-tab-text-rgb": "var(--t-text-rgb)",
+   "--t-button-tab-background": "var(--t-background)",
+   "--t-button-tab-background-rgb": "var(--t-background-rgb)",
+   "--t-button-tab-border": "var(--c-border)",
+   "--t-button-tab-border-rgb": "var(--c-border-rgb)",
+   "--t-button-tab-hover-text": "var(--t-small)",
+   "--t-button-tab-hover-text-rgb": "var(--t-small-rgb)",
+   "--t-button-tab-hover-background": "var(--t-background)",
+   "--t-button-tab-hover-background-rgb": "var(--t-background-rgb)",
+   "--t-button-tab-hover-border": "var(--c-border)",
+   "--t-button-tab-hover-border-rgb": "var(--c-border-rgb)",
+   "--t-button-tab-active-text": "var(--t-background)",
+   "--t-button-tab-active-text-rgb": "var(--t-background-rgb)",
+   "--t-button-tab-active-background": "var(--t-text)",
+   "--t-button-tab-active-background-rgb": "var(--t-text-rgb)",
+   "--t-button-tab-active-border": "var(--t-text)",
+   "--t-button-tab-active-border-rgb": "var(--t-text-rgb)",
+   "--t-button-tab-active-hover-text": "var(--t-background)",
+   "--t-button-tab-active-hover-text-rgb": "var(--t-background-rgb)",
+   "--t-button-tab-active-hover-border": "var(--t-text)",
+   "--t-button-tab-active-hover-border-rgb": "var(--t-text-rgb)",
+   "--t-button-tab-active-hover-background": "var(--t-text)",
+   "--t-button-tab-active-hover-background-rgb": "var(--t-text-rgb)",
+   "--t-button-lang-text": "var(--t-text)",
+   "--t-button-lang-text-rgb": "var(--t-text-rgb)",
+   "--t-button-lang-background": "transparent",
+   "--t-button-lang-border": "rgba(var(--t-heading-rgb),0.3)",
+   "--t-button-lang-border-rgb": "var(--t-heading-rgb)",
+   "--t-button-lang-hover-text": "var(--t-text)",
+   "--t-button-lang-hover-text-rgb": "var(--t-text-rgb)",
+   "--t-button-lang-hover-background": "transparent",
+   "--t-button-lang-hover-border": "var(--t-text)",
+   "--t-button-lang-hover-border-rgb": "var(--t-text-rgb)",
+   "--t-button-lang-active-text": "var(--t-text)",
+   "--t-button-lang-active-text-rgb": "var(--t-text-rgb)",
+   "--t-button-lang-active-background": "transparent",
+   "--t-button-lang-active-border": "var(--t-text)",
+   "--t-button-lang-active-border-rgb": "var(--t-text-rgb)",
+   "--t-button-primary-text": "var(--t-background)",
+   "--t-button-primary-text-rgb": "var(--t-background-rgb)",
+   "--t-button-primary-background": "var(--t-primary)",
+   "--t-button-primary-background-rgb": "var(--t-primary-rgb)",
+   "--t-button-primary-hover-text": "var(--t-text)",
+   "--t-button-primary-hover-text-rgb": "var(--t-text-rgb)",
+   "--t-button-primary-hover-background": "rgba(var(--t-heading-rgb),0.2)",
+   "--t-button-primary-hover-background-rgb": "var(--t-heading-rgb)",
+   "--t-button-primary-active-text": "var(--t-text)",
+   "--t-button-primary-active-text-rgb": "var(--t-text-rgb)",
+   "--t-button-primary-active-background": "rgba(var(--t-heading-rgb),0.2)",
+   "--t-button-primary-active-background-rgb": "var(--t-heading-rgb)",
+   "--t-button-primary-disabled-text": "var(--t-background)",
+   "--t-button-primary-disabled-text-rgb": "var(--t-background-rgb)",
+   "--t-button-primary-disabled-background": "rgba(var(--t-primary-rgb),0.4)",
+   "--t-button-primary-disabled-background-rgb": "var(--t-primary-rgb)",
+   "--t-button-primary-active-hover-text": "var(--t-background)",
+   "--t-button-primary-active-hover-text-rgb": "var(--t-background-rgb)",
+   "--t-button-primary-active-hover-background": "var(--t-primary)",
+   "--t-button-primary-active-hover-background-rgb": "var(--t-primary-rgb)",
+   "--t-button-card-corner-text": "var(--t-text)",
+   "--t-button-card-corner-text-rgb": "var(--t-text-rgb)",
+   "--t-button-card-corner-background": "var(--t-background)",
+   "--t-button-card-corner-background-rgb": "var(--t-background-rgb)",
+   "--t-button-card-corner-hover-text": "var(--t-background)",
+   "--t-button-card-corner-hover-text-rgb": "var(--t-background-rgb)",
+   "--t-button-card-corner-hover-background": "var(--t-text)",
+   "--t-button-card-corner-hover-background-rgb": "var(--t-text-rgb)",
+   "--t-button-card-corner-active-text": "var(--t-background)",
+   "--t-button-card-corner-active-text-rgb": "var(--t-background-rgb)",
+   "--t-button-card-corner-active-background": "var(--t-text)",
+   "--t-button-card-corner-active-background-rgb": "var(--t-text-rgb)",
+   "--t-button-card-corner-active-hover-text": "var(--t-text)",
+   "--t-button-card-corner-active-hover-text-rgb": "var(--t-text-rgb)",
+   "--t-button-card-corner-active-hover-background": "var(--t-background)",
+   "--t-button-card-corner-active-hover-background-rgb": "var(--t-background-rgb)",
+   "--t-button-card-corner--favourite-text": "var(--t-text)",
+   "--t-button-card-corner--favourite-text-rgb": "var(--t-text-rgb)",
+   "--t-button-card-corner--favourite-background": "transparent",
+   "--t-button-card-corner--favourite-hover-text": "var(--t-background)",
+   "--t-button-card-corner--favourite-hover-text-rgb": "var(--t-background-rgb)",
+   "--t-button-card-corner--favourite-hover-background": "var(--t-text)",
+   "--t-button-card-corner--favourite-hover-background-rgb": "var(--t-text-rgb)",
+   "--t-button-card-corner--favourite-active-text": "var(--t-text)",
+   "--t-button-card-corner--favourite-active-text-rgb": "var(--t-text-rgb)",
+   "--t-button-card-corner--favourite-active-background": "transparent",
+   "--t-button-card-corner--favourite-active-hover-text": "var(--t-background)",
+   "--t-button-card-corner--favourite-active-hover-text-rgb": "var(--t-background-rgb)",
+   "--t-button-card-corner--favourite-active-hover-background": "var(--t-text)",
+   "--t-button-card-corner--favourite-active-hover-background-rgb": "var(--t-text-rgb)",
+   "--t-button-card-icon-text": "var(--t-background)",
+   "--t-button-card-icon-text-rgb": "var(--t-background-rgb)",
+   "--t-button-card-icon-background": "var(--t-text)",
+   "--t-button-card-icon-background-rgb": "var(--t-text-rgb)",
+   "--t-button-card-icon-hover-text": "var(--t-text)",
+   "--t-button-card-icon-hover-text-rgb": "var(--t-text-rgb)",
+   "--t-button-card-icon-hover-background": "var(--t-background)",
+   "--t-button-card-icon-hover-background-rgb": "var(--t-background-rgb)",
+   "--t-button-card-icon-active-text": "var(--t-text)",
+   "--t-button-card-icon-active-text-rgb": "var(--t-text-rgb)",
+   "--t-button-card-icon-active-background": "var(--t-background)",
+   "--t-button-card-icon-active-background-rgb": "var(--t-background-rgb)",
+   "--t-button-card-icon-active-hover-text": "var(--t-background)",
+   "--t-button-card-icon-active-hover-text-rgb": "var(--t-background-rgb)",
+   "--t-button-card-icon-active-hover-background": "var(--t-text)",
+   "--t-button-card-icon-active-hover-background-rgb": "var(--t-text-rgb)",
+   "--t-button-card-icon--favourite-text": "var(--t-text)",
+   "--t-button-card-icon--favourite-text-rgb": "var(--t-text-rgb)",
+   "--t-button-card-icon--favourite-background": "var(--t-transparent)",
+   "--t-button-card-icon--favourite-background-rgb": "var(--t-transparent-rgb)",
+   "--t-button-card-icon--favourite-border": "rgba(var(--t-heading-rgb),0.3)",
+   "--t-button-card-icon--favourite-border-rgb": "var(--t-heading-rgb)",
+   "--t-button-card-icon--favourite-hover-text": "var(--t-background)",
+   "--t-button-card-icon--favourite-hover-text-rgb": "var(--t-background-rgb)",
+   "--t-button-card-icon--favourite-hover-background": "var(--t-transparent)",
+   "--t-button-card-icon--favourite-hover-background-rgb": "var(--t-transparent-rgb)",
+   "--t-button-card-icon--favourite-hover-border": "rgba(var(--t-background-rgb),0.2)",
+   "--t-button-card-icon--favourite-hover-border-rgb": "var(--t-background-rgb)",
+   "--t-button-card-icon--favourite-active-text": "var(--t-background)",
+   "--t-button-card-icon--favourite-active-text-rgb": "var(--t-background-rgb)",
+   "--t-button-card-icon--favourite-active-background": "var(--t-text)",
+   "--t-button-card-icon--favourite-active-background-rgb": "var(--t-text-rgb)",
+   "--t-button-card-icon--favourite-active-hover-text": "var(--t-text)",
+   "--t-button-card-icon--favourite-active-hover-text-rgb": "var(--t-text-rgb)",
+   "--t-button-card-icon--favourite-active-hover-background": "var(--t-background)",
+   "--t-button-card-icon--favourite-active-hover-background-rgb": "var(--t-background-rgb)",
+   "--t-button-card-doc-icon-text": "var(--t-background)",
+   "--t-button-card-doc-icon-text-rgb": "var(--t-background-rgb)",
+   "--t-button-card-doc-icon-background": "rgba(var(--c-white-rgb),0.2)",
+   "--t-button-card-doc-icon-background-rgb": "var(--c-white-rgb)",
+   "--t-button-card-doc-icon-hover-text": "var(--t-background)",
+   "--t-button-card-doc-icon-hover-text-rgb": "var(--t-background-rgb)"
+  },
+  "fontFaces": [
+   {
+    "family": "TT Norms Pro",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/tt-norms-pro-regular.woff2\") format(\"woff2\"), url(\"/assets/fonts/tt-norms-pro-regular.woff\") format(\"woff\")"
+   },
+   {
+    "family": "TT Norms Pro",
+    "weight": "450",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/tt-norms-pro-normal.woff2\") format(\"woff2\"), url(\"/assets/fonts/tt-norms-pro-normal.woff\") format(\"woff\")"
+   }
+  ],
+  "keyframes": [
+   "arrowDown",
+   "loader"
+  ],
+  "breakpoints": [
+   {
+    "v": "668px",
+    "w": 124
+   },
+   {
+    "v": "667px",
+    "w": 94
+   },
+   {
+    "v": "980px",
+    "w": 77
+   },
+   {
+    "v": "700px",
+    "w": 69
+   },
+   {
+    "v": "568px",
+    "w": 65
+   },
+   {
+    "v": "416px",
+    "w": 61
+   },
+   {
+    "v": "979px",
+    "w": 37
+   },
+   {
+    "v": "1920px",
+    "w": 35
+   },
+   {
+    "v": "1440px",
+    "w": 32
+   },
+   {
+    "v": "567px",
+    "w": 32
+   },
+   {
+    "v": "415px",
+    "w": 30
+   },
+   {
+    "v": "2400px",
+    "w": 17
+   }
+  ],
+  "rulesCount": 4182,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "intro section ui-dark ui-background",
+    "h": 3800,
+    "title": "LIKOVA — Where future gains momentum",
+    "media": 6
+   },
+   {
+    "tag": "section",
+    "id": "about",
+    "cls": "idea section section--top ui-dark ",
+    "h": 2101,
+    "title": "Impressive ideas. Daring inspiration.",
+    "media": 6
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "information section ui-dark ui-background",
+    "h": 5400,
+    "title": "Информация",
+    "media": 1
+   },
+   {
+    "tag": "section",
+    "id": "location",
+    "cls": "location section ui-dark ui-background",
+    "h": 7650,
+    "title": "Location",
+    "media": 14
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "accessibility section ui-light ui-background",
+    "h": 7650,
+    "title": "Reach your goals with excellent transport connectivity",
+    "media": 16
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "environment section ui-dark ui-background",
+    "h": 5400,
+    "title": "Exciting environment for those who are always on the move",
+    "media": 24
+   },
+   {
+    "tag": "section",
+    "id": "genplan",
+    "cls": "general-plan section ui-light ui-background-alternative",
+    "h": 2097,
+    "title": "The Master Plan",
+    "media": 4
+   },
+   {
+    "tag": "section",
+    "id": "architecture",
+    "cls": "architecture section ui-dark ui-background",
+    "h": 7947,
+    "title": "Architecture",
+    "media": 26
+   },
+   {
+    "tag": "section",
+    "id": "lobby",
+    "cls": "lobby section ui-dark ui-background",
+    "h": 5595,
+    "title": "Lobby",
+    "media": 26
+   },
+   {
+    "tag": "section",
+    "id": "offices",
+    "cls": "offices section ui-dark ui-background",
+    "h": 5247,
+    "title": "Offices",
+    "media": 22
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section section--top-2 ui-light ui-background",
+    "h": 1255,
+    "title": "Priceless ideas are born in comfort.",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": "engineering",
+    "cls": "engineering section section--top ui-dark ui-background",
+    "h": 3486,
+    "title": "Technology",
+    "media": 3
+   },
+   {
+    "tag": "section",
+    "id": "infrastructure",
+    "cls": "infrastructure section ui-dark ui-background",
+    "h": 7998,
+    "title": "Infrastructure",
+    "media": 32
+   },
+   {
+    "tag": "section",
+    "id": "team",
+    "cls": "team section section--top ui-light ui-background",
+    "h": 900,
+    "title": "Our Team",
+    "media": 6
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "",
+    "href": "https://likova.space/#menu"
+   },
+   {
+    "t": "",
+    "href": "https://likova.space/#top"
+   },
+   {
+    "t": "Select office space",
+    "href": "https://likova.space/#selector"
+   },
+   {
+    "t": "0",
+    "href": "https://likova.space/en/favourites"
+   },
+   {
+    "t": "Contact US",
+    "href": "https://likova.space/#callback-modal"
+   },
+   {
+    "t": "",
+    "href": "https://likova.space/#top"
+   },
+   {
+    "t": "Select office space",
+    "href": "https://likova.space/#selector"
+   },
+   {
+    "t": "0",
+    "href": "https://likova.space/en/favourites"
+   },
+   {
+    "t": "Contact US",
+    "href": "https://likova.space/#callback-modal"
+   },
+   {
+    "t": "Contact US",
+    "href": "https://likova.space/#callback-modal"
+   },
+   {
+    "t": "",
+    "href": "https://likova.space/#menu"
+   },
+   {
+    "t": "",
+    "href": "https://likova.space/#top"
+   },
+   {
+    "t": "Select office space",
+    "href": "https://likova.space/#selector"
+   },
+   {
+    "t": "0",
+    "href": "https://likova.space/en/favourites"
+   },
+   {
+    "t": "Contact US",
+    "href": "https://likova.space/#callback-modal"
+   },
+   {
+    "t": "Contact US",
+    "href": "https://likova.space/#callback-modal"
+   }
+  ],
+  "ctas": [],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 1,
+   "videos": 4,
+   "imgs": 96,
+   "svgs": 160,
+   "iframes": 0,
+   "domNodes": 3274
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": false,
+  "locomotive": true,
+  "three": true,
+  "threeRevision": "180",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": true,
+  "swup": false,
+  "highway": true,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://likova.space/assets/javascripts/threejs.js?v=1782384571",
+  "https://likova.space/assets/javascripts/22.js?v=1782384571",
+  "https://likova.space/assets/javascripts/browser-message/browser-message.js?v=1782384571",
+  "https://likova.space/assets/javascripts/shared.js?v=1782384571",
+  "https://likova.space/assets/javascripts/landing.js?v=1782384571"
+ ],
+ "internal": [
+  "https://likova.space/en/favourites",
+  "https://likova.space/en/parametric-selector-office",
+  "https://likova.space/en/privacy-policy",
+  "https://likova.space/en/parking-visual-selector-l",
+  "https://likova.space/en/promotional-emails-consent",
+  "https://likova.space/en/advertising",
+  "https://likova.space/en/visual-selector"
+ ],
+ "perf": {
+  "ttfb": 243,
+  "dcl": 512,
+  "load": 606,
+  "lcp": 540,
+  "lcpEl": "P.preloader__content__cover",
+  "cls": 0.007
+ },
+ "libs": {
+  "detected": [
+   "Keen slider",
+   "SplitText/SplitType",
+   "Locomotive Scroll",
+   "Barba.js",
+   "jQuery",
+   "Three.js",
+   "Lil-GUI/Tweakpane (debug)"
+  ],
+  "where": {
+   "Keen slider": [
+    "001-landing.js"
+   ],
+   "SplitText/SplitType": [
+    "003-shared.js"
+   ],
+   "Locomotive Scroll": [
+    "003-shared.js",
+    "styles.css"
+   ],
+   "Barba.js": [
+    "003-shared.js"
+   ],
+   "jQuery": [
+    "003-shared.js"
+   ],
+   "Three.js": [
+    "004-22.js",
+    "005-threejs.js"
+   ],
+   "Lil-GUI/Tweakpane (debug)": [
+    "005-threejs.js"
+   ]
+  },
+  "gsapVersion": null,
+  "threeRevision": null,
+  "shaders": 6,
+  "scripts": 6
+ },
+ "network": {
+  "requests": 129,
+  "totalKb": 17356,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 49
+   },
+   "Stylesheet": {
+    "n": 2,
+    "kb": 64
+   },
+   "Image": {
+    "n": 103,
+    "kb": 8607
+   },
+   "Script": {
+    "n": 5,
+    "kb": 408
+   },
+   "Other": {
+    "n": 3,
+    "kb": 13
+   },
+   "Font": {
+    "n": 2,
+    "kb": 197
+   },
+   "Fetch": {
+    "n": 11,
+    "kb": 2645
+   },
+   "Media": {
+    "n": 2,
+    "kb": 5373
+   }
+  },
+  "thirdPartyHosts": [
+   "unpkg.com"
+  ],
+  "fontFiles": [
+   "https://likova.space/assets/fonts/tt-norms-pro-regular.woff2",
+   "https://likova.space/assets/fonts/tt-norms-pro-normal.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://likova.space/uploads/video/landing/5.accessibility.mp4",
+    "kb": 4201,
+    "type": "Media"
+   },
+   {
+    "url": "https://likova.space/assets/webgl-dark/dark.glb",
+    "kb": 2572,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://likova.space/uploads/video/landing/7.general-plan.mp4",
+    "kb": 1172,
+    "type": "Media"
+   },
+   {
+    "url": "https://likova.space/assets/images/media/landing/8.architecture/slider-1@xxl.webp?v=1782384571",
+    "kb": 537,
+    "type": "Image"
+   },
+   {
+    "url": "https://likova.space/assets/images/media/landing/8.architecture/slider-3@xxl.webp?v=1782384571",
+    "kb": 496,
+    "type": "Image"
+   },
+   {
+    "url": "https://likova.space/assets/images/media/landing/1.intro/building-lights@xxl.webp?v=1782384571",
+    "kb": 494,
+    "type": "Image"
+   },
+   {
+    "url": "https://likova.space/assets/images/media/landing/1.intro/building@xxl.webp?v=1782384571",
+    "kb": 455,
+    "type": "Image"
+   },
+   {
+    "url": "https://likova.space/assets/images/media/landing/13.infrastructure/slider-2@xxl.webp?v=1782384571",
+    "kb": 447,
+    "type": "Image"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "86px",
+   "lineHeight": "89.9999px"
+  },
+  "body": "11px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 118
+}

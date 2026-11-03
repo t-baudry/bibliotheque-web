@@ -1,0 +1,1 @@
+import{aI as i}from"./CaSYcmUf.js";const a="https://michael-gatt-website.cachely.io",r=[`${i}.cdn.prismic.io`,"images.prismic.io"];function s(t){if(!t)return t;let e;try{e=new URL(t)}catch{return t}return r.includes(e.hostname)?`${a}${e.pathname}${e.search}`:t}export{s as t};

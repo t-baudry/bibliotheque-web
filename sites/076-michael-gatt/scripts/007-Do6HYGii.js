@@ -1,0 +1,1 @@
+import{f as o,i as u}from"./CaSYcmUf.js";function r(){const n=o(),{isMenuOpen:e}=u(n);return{isMenuOpen:e,openMenu:()=>{e.value=!0},closeMenu:()=>{e.value=!1},toggleMenu:()=>{e.value=!e.value}}}export{r as u};

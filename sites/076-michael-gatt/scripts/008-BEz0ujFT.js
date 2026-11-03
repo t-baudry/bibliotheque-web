@@ -1,0 +1,1 @@
+import{L as u,m as o}from"./CaSYcmUf.js";const c=()=>{const t=u(),r=o(()=>{var e;return((e=t.query)==null?void 0:e.video)==="true"}),s=o(()=>{var e;return((e=t.query)==null?void 0:e.instruments)==="true"});return{videoExpanded:r,showInstruments:s,route:t}};export{c as u};

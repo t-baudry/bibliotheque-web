@@ -1,0 +1,32 @@
+[
+ {
+  "file": "001-landing.js",
+  "url": "https://likova.space/assets/javascripts/landing.js?v=1782384571",
+  "kb": 28
+ },
+ {
+  "file": "002-browser-message.js",
+  "url": "https://likova.space/assets/javascripts/browser-message/browser-message.js?v=1782384571",
+  "kb": 3
+ },
+ {
+  "file": "003-shared.js",
+  "url": "https://likova.space/assets/javascripts/shared.js?v=1782384571",
+  "kb": 550
+ },
+ {
+  "file": "004-22.js",
+  "url": "https://likova.space/assets/javascripts/22.js?v=1782384571",
+  "kb": 23
+ },
+ {
+  "file": "005-threejs.js",
+  "url": "https://likova.space/assets/javascripts/threejs.js?v=1782384571",
+  "kb": 851
+ },
+ {
+  "file": "006-draco_wasm_wrapper.js",
+  "url": "https://unpkg.com/three@0.180.0/examples/jsm/libs/draco/gltf/draco_wasm_wrapper.js",
+  "kb": 57
+ }
+]

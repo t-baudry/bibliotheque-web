@@ -1,0 +1,658 @@
+{
+ "id": 101,
+ "name": "Spotify Wrapped Party",
+ "sourceUrl": "https://wrapped-party.activetheory.dev/",
+ "capturedAt": "2026-11-03T22:19:54.974Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg"
+  ],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://wrapped-party.activetheory.dev/unsupported",
+ "title": "Wrapped Party",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Compare your Wrapped with up to nine friends.",
+  "canonical": null,
+  "robots": null,
+  "ogTitle": "Wrapped Party",
+  "ogImage": "https://wrapped-party-development.web.app/assets/images/og-ltr.png",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [],
+  "h1Count": 1,
+  "headings": [
+   "H1 Wrapped Party by Spotify."
+  ],
+  "imgs": 0,
+  "imgNoAlt": 0,
+  "favicon": "https://wrapped-party-development.web.app/assets/favicon/favicon-32x32.png",
+  "themeColor": "#121212"
+ },
+ "design": {
+  "bg": [],
+  "text": [
+   {
+    "v": "#f5f5f5",
+    "w": 25
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "Times New Roman",
+    "w": 25
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "20px",
+    "w": 1
+   },
+   {
+    "v": "10px",
+    "w": 1
+   }
+  ],
+  "radius": [],
+  "shadows": [],
+  "transitions": [],
+  "typo": {
+   "h1": {
+    "family": "\"Times New Roman\"",
+    "size": "20px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#f5f5f5",
+    "sample": "Wrapped Party by Spotify."
+   },
+   "body": {
+    "family": "\"Times New Roman\"",
+    "size": "10px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#f5f5f5",
+    "sample": "Wrapped Party by Spotify. <p style=\"background: black; color: white; font-size: "
+   }
+  },
+  "cssVars": {
+   "--primary-color": "#f5f5f5",
+   "--secondary-color": "#121212",
+   "--sab": "env(safe-area-inset-bottom,0)",
+   "--inline-direction-scalar": "-1",
+   "--line-padding": ".5em 1em"
+  },
+  "fontFaces": [
+   {
+    "family": "SpotifyMixWide",
+    "weight": "800",
+    "style": "",
+    "src": "url(\"assets/fonts/SpotifyMixWide/SpotifyMixWide-Extrabold.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "SpotifyMixWide",
+    "weight": "500",
+    "style": "",
+    "src": "url(\"assets/fonts/SpotifyMixWide/SpotifyMixWide-Medium.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "SpotifyMixWide",
+    "weight": "400",
+    "style": "",
+    "src": "url(\"assets/fonts/SpotifyMixWide/SpotifyMixWide-Regular.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "SpotifyMixNarrow",
+    "weight": "800",
+    "style": "",
+    "src": "url(\"assets/fonts/SpotifyMixNarrow/SpotifyMixNarrow-Extrabold.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "SpotifyMix",
+    "weight": "500",
+    "style": "",
+    "src": "url(\"assets/fonts/SpotifyMix/SpotifyMix-Medium.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "SpotifyMix",
+    "weight": "700",
+    "style": "",
+    "src": "url(\"assets/fonts/SpotifyMix/SpotifyMix-Bold.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "SpotifyMix",
+    "weight": "800",
+    "style": "",
+    "src": "url(\"assets/fonts/SpotifyMix/SpotifyMix-Extrabold.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "CircularSp-Arab",
+    "weight": "800",
+    "style": "",
+    "src": "url(\"assets/fonts/CircularSp-Arab/CircularSp-Arab-Black.woff2\") format(\"woff2\"), url(\"assets/fonts/CircularSp-Arab/CircularSp-Arab-Black.woff\") format(\"woff\")"
+   },
+   {
+    "family": "CircularSp-Arab",
+    "weight": "700",
+    "style": "",
+    "src": "url(\"assets/fonts/CircularSp-Arab/CircularSp-Arab-Bold.woff2\") format(\"woff2\"), url(\"assets/fonts/CircularSp-Arab/CircularSp-Arab-Bold.woff\") format(\"woff\")"
+   },
+   {
+    "family": "CircularSp-Arab",
+    "weight": "400",
+    "style": "",
+    "src": "url(\"assets/fonts/CircularSp-Arab/CircularSp-Arab-Book.woff2\") format(\"woff2\"), url(\"assets/fonts/CircularSp-Arab/CircularSp-Arab-Book.woff\") format(\"woff\")"
+   },
+   {
+    "family": "CircularSp-Grek",
+    "weight": "800",
+    "style": "",
+    "src": "url(\"assets/fonts/CircularSp-Grek/CircularSp-Grek-Black.woff2\") format(\"woff2\"), url(\"assets/fonts/CircularSp-Grek/CircularSp-Grek-Black.woff\") format(\"woff\")"
+   },
+   {
+    "family": "CircularSp-Grek",
+    "weight": "700",
+    "style": "",
+    "src": "url(\"assets/fonts/CircularSp-Grek/CircularSp-Grek-Bold.woff2\") format(\"woff2\"), url(\"assets/fonts/CircularSp-Grek/CircularSp-Grek-Bold.woff\") format(\"woff\")"
+   },
+   {
+    "family": "CircularSp-Grek",
+    "weight": "400",
+    "style": "",
+    "src": "url(\"assets/fonts/CircularSp-Grek/CircularSp-Grek-Book.woff2\") format(\"woff2\"), url(\"assets/fonts/CircularSp-Grek/CircularSp-Grek-Book.woff\") format(\"woff\")"
+   },
+   {
+    "family": "CircularSp-Hebr",
+    "weight": "800",
+    "style": "",
+    "src": "url(\"assets/fonts/CircularSp-Hebr/CircularSp-Hebr-Black.woff2\") format(\"woff2\"), url(\"assets/fonts/CircularSp-Hebr/CircularSp-Hebr-Black.woff\") format(\"woff\")"
+   },
+   {
+    "family": "CircularSp-Hebr",
+    "weight": "700",
+    "style": "",
+    "src": "url(\"assets/fonts/CircularSp-Hebr/CircularSp-Hebr-Bold.woff2\") format(\"woff2\"), url(\"assets/fonts/CircularSp-Hebr/CircularSp-Hebr-Bold.woff\") format(\"woff\")"
+   },
+   {
+    "family": "CircularSp-Hebr",
+    "weight": "400",
+    "style": "",
+    "src": "url(\"assets/fonts/CircularSp-Hebr/CircularSp-Hebr-Book.woff2\") format(\"woff2\"), url(\"assets/fonts/CircularSp-Hebr/CircularSp-Hebr-Book.woff\") format(\"woff\")"
+   },
+   {
+    "family": "CircularSp-Cyrl",
+    "weight": "800",
+    "style": "",
+    "src": "url(\"assets/fonts/CircularSp-Cyrl/CircularSp-Cyrl-Black.woff2\") format(\"woff2\"), url(\"assets/fonts/CircularSp-Cyrl/CircularSp-Cyrl-Black.woff\") format(\"woff\")"
+   },
+   {
+    "family": "CircularSp-Cyrl",
+    "weight": "700",
+    "style": "",
+    "src": "url(\"assets/fonts/CircularSp-Cyrl/CircularSp-Cyrl-Bold.woff2\") format(\"woff2\"), url(\"assets/fonts/CircularSp-Cyrl/CircularSp-Cyrl-Bold.woff\") format(\"woff\")"
+   },
+   {
+    "family": "CircularSp-Cyrl",
+    "weight": "400",
+    "style": "",
+    "src": "url(\"assets/fonts/CircularSp-Cyrl/CircularSp-Cyrl-Book.woff2\") format(\"woff2\"), url(\"assets/fonts/CircularSp-Cyrl/CircularSp-Cyrl-Book.woff\") format(\"woff\")"
+   },
+   {
+    "family": "KoreanSWGI",
+    "weight": "300",
+    "style": "",
+    "src": "url(\"assets/fonts/KoreanSWGI/KoreanSWGI-Spotify-Light.woff2\") format(\"woff2\"), url(\"assets/fonts/KoreanSWGI/KoreanSWGI-Spotify-Light.woff\") format(\"woff\")"
+   },
+   {
+    "family": "KoreanSWGI",
+    "weight": "500",
+    "style": "",
+    "src": "url(\"assets/fonts/KoreanSWGI/KoreanSWGI-Spotify-Medium.woff2\") format(\"woff2\"), url(\"assets/fonts/KoreanSWGI/KoreanSWGI-Spotify-Medium.woff\") format(\"woff\")"
+   },
+   {
+    "family": "KoreanSWGI",
+    "weight": "700",
+    "style": "",
+    "src": "url(\"assets/fonts/KoreanSWGI/KoreanSWGI-Spotify-Bold.woff2\") format(\"woff2\"), url(\"assets/fonts/KoreanSWGI/KoreanSWGI-Spotify-Bold.woff\") format(\"woff\")"
+   },
+   {
+    "family": "KoreanSWGI",
+    "weight": "900",
+    "style": "",
+    "src": "url(\"assets/fonts/KoreanSWGI/KoreanSWGI-Spotify-Black.woff2\") format(\"woff2\"), url(\"assets/fonts/KoreanSWGI/KoreanSWGI-Spotify-Black.woff\") format(\"woff\")"
+   },
+   {
+    "family": "NotoSansThai",
+    "weight": "800",
+    "style": "",
+    "src": "url(\"assets/fonts/NotoSansThai/NotoSansThai-Black.woff2\") format(\"woff2\"), url(\"assets/fonts/NotoSansThai/NotoSansThai-Black.woff\") format(\"woff\")"
+   },
+   {
+    "family": "NotoSansThai",
+    "weight": "700",
+    "style": "",
+    "src": "url(\"assets/fonts/NotoSansThai/NotoSansThai-Bold.woff2\") format(\"woff2\"), url(\"assets/fonts/NotoSansThai/NotoSansThai-Bold.woff\") format(\"woff\")"
+   },
+   {
+    "family": "NotoSansThai",
+    "weight": "500",
+    "style": "",
+    "src": "url(\"assets/fonts/NotoSansThai/NotoSansThai-Medium.woff2\") format(\"woff2\"), url(\"assets/fonts/NotoSansThai/NotoSansThai-Medium.woff\") format(\"woff\")"
+   },
+   {
+    "family": "NotoSansThai",
+    "weight": "400",
+    "style": "",
+    "src": "url(\"assets/fonts/NotoSansThai/NotoSansThai-Regular.woff2\") format(\"woff2\"), url(\"assets/fonts/NotoSansThai/NotoSansThai-Regular.woff\") format(\"woff\")"
+   },
+   {
+    "family": "UDShinGoPro",
+    "weight": "800",
+    "style": "",
+    "src": "url(\"assets/fonts/udshingopro/UDShinGoPro-Heavy.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "UDShinGoPro",
+    "weight": "700",
+    "style": "",
+    "src": "url(\"assets/fonts/udshingopro/UDShinGoPro-Bold.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "UDShinGoPro",
+    "weight": "500",
+    "style": "",
+    "src": "url(\"assets/fonts/udshingopro/UDShinGoPro-Medium.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Noto Sans TC",
+    "weight": "100 900",
+    "style": "normal",
+    "src": "url(\"assets/fonts/NotoSansTC/-nF7OG829Oofr2wohFbTp9iFOisNA_cTyNromxqQuEMQ2wHYwbnmy1R1jDujLebozBXCo2qYhRo.0.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Noto Sans TC",
+    "weight": "100 900",
+    "style": "normal",
+    "src": "url(\"assets/fonts/NotoSansTC/-nF7OG829Oofr2wohFbTp9iFOisNA_cTyNromxqQuEMQ2wHYwbnmy1R1jDujLebozBXCo2qYhRo.6.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Noto Sans TC",
+    "weight": "100 900",
+    "style": "normal",
+    "src": "url(\"assets/fonts/NotoSansTC/-nF7OG829Oofr2wohFbTp9iFOisNA_cTyNromxqQuEMQ2wHYwbnmy1R1jDujLebozBXCo2qYhRo.7.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Noto Sans TC",
+    "weight": "100 900",
+    "style": "normal",
+    "src": "url(\"assets/fonts/NotoSansTC/-nF7OG829Oofr2wohFbTp9iFOisNA_cTyNromxqQuEMQ2wHYwbnmy1R1jDujLebozBXCo2qYhRo.8.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Noto Sans TC",
+    "weight": "100 900",
+    "style": "normal",
+    "src": "url(\"assets/fonts/NotoSansTC/-nF7OG829Oofr2wohFbTp9iFOisNA_cTyNromxqQuEMQ2wHYwbnmy1R1jDujLebozBXCo2qYhRo.19.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Noto Sans TC",
+    "weight": "100 900",
+    "style": "normal",
+    "src": "url(\"assets/fonts/NotoSansTC/-nF7OG829Oofr2wohFbTp9iFOisNA_cTyNromxqQuEMQ2wHYwbnmy1R1jDujLebozBXCo2qYhRo.20.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Noto Sans TC",
+    "weight": "100 900",
+    "style": "normal",
+    "src": "url(\"assets/fonts/NotoSansTC/-nF7OG829Oofr2wohFbTp9iFOisNA_cTyNromxqQuEMQ2wHYwbnmy1R1jDujLebozBXCo2qYhRo.21.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Noto Sans TC",
+    "weight": "100 900",
+    "style": "normal",
+    "src": "url(\"assets/fonts/NotoSansTC/-nF7OG829Oofr2wohFbTp9iFOisNA_cTyNromxqQuEMQ2wHYwbnmy1R1jDujLebozBXCo2qYhRo.22.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Noto Sans TC",
+    "weight": "100 900",
+    "style": "normal",
+    "src": "url(\"assets/fonts/NotoSansTC/-nF7OG829Oofr2wohFbTp9iFOisNA_cTyNromxqQuEMQ2wHYwbnmy1R1jDujLebozBXCo2qYhRo.23.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Noto Sans TC",
+    "weight": "100 900",
+    "style": "normal",
+    "src": "url(\"assets/fonts/NotoSansTC/-nF7OG829Oofr2wohFbTp9iFOisNA_cTyNromxqQuEMQ2wHYwbnmy1R1jDujLebozBXCo2qYhRo.24.woff2\") format(\"woff2\")"
+   }
+  ],
+  "keyframes": [
+   "reveal",
+   "pulse",
+   "muted",
+   "pulseOuter",
+   "pulseInner",
+   "lrotate",
+   "ldash",
+   "ldash-small",
+   "spin",
+   "horizontal-shaking"
+  ],
+  "breakpoints": [
+   {
+    "v": "960px",
+    "w": 23
+   },
+   {
+    "v": "768px",
+    "w": 21
+   },
+   {
+    "v": "1280px",
+    "w": 18
+   },
+   {
+    "v": "320px",
+    "w": 17
+   },
+   {
+    "v": "430px",
+    "w": 17
+   },
+   {
+    "v": "1920px",
+    "w": 17
+   },
+   {
+    "v": "700px",
+    "w": 10
+   },
+   {
+    "v": "687px",
+    "w": 3
+   },
+   {
+    "v": "475px",
+    "w": 2
+   },
+   {
+    "v": "400px",
+    "w": 2
+   },
+   {
+    "v": "340px",
+    "w": 2
+   },
+   {
+    "v": "460px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 13869,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [],
+  "navLinks": [],
+  "ctas": [],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 0,
+   "videos": 0,
+   "imgs": 0,
+   "svgs": 1,
+   "iframes": 0,
+   "domNodes": 191
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": true,
+  "lenis": false,
+  "locomotive": false,
+  "three": false,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [
+   "googletagmanager",
+   "google-analytics"
+  ],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": false
+ },
+ "scripts": [
+  "https://wrapped-party.activetheory.dev/assets/js/app.1780921720462.js"
+ ],
+ "internal": [],
+ "perf": {
+  "ttfb": 7,
+  "dcl": 38,
+  "load": 260,
+  "lcp": 0,
+  "lcpEl": null,
+  "cls": 0
+ },
+ "libs": {
+  "detected": [
+   "GSAP",
+   "SplitText/SplitType",
+   "Flip (GSAP)",
+   "Matter.js",
+   "Barba.js",
+   "Sanity"
+  ],
+  "where": {
+   "GSAP": [
+    "001-app.1780921720462.js",
+    "003-app.1780921720462.js",
+    "004-app.1780921720462.js",
+    "006-app.1780921720462.js",
+    "008-app.1780921720462.js",
+    "010-app.1780921720462.js",
+    "012-app.1780921720462.js",
+    "014-app.1780921720462.js",
+    "016-app.1780921720462.js",
+    "018-app.1780921720462.js",
+    "020-app.1780921720462.js"
+   ],
+   "SplitText/SplitType": [
+    "001-app.1780921720462.js",
+    "003-app.1780921720462.js",
+    "004-app.1780921720462.js",
+    "006-app.1780921720462.js",
+    "008-app.1780921720462.js",
+    "010-app.1780921720462.js",
+    "012-app.1780921720462.js",
+    "014-app.1780921720462.js",
+    "016-app.1780921720462.js",
+    "018-app.1780921720462.js",
+    "020-app.1780921720462.js"
+   ],
+   "Flip (GSAP)": [
+    "001-app.1780921720462.js",
+    "003-app.1780921720462.js",
+    "004-app.1780921720462.js",
+    "006-app.1780921720462.js",
+    "008-app.1780921720462.js",
+    "010-app.1780921720462.js",
+    "012-app.1780921720462.js",
+    "014-app.1780921720462.js",
+    "016-app.1780921720462.js",
+    "018-app.1780921720462.js",
+    "020-app.1780921720462.js"
+   ],
+   "Matter.js": [
+    "001-app.1780921720462.js",
+    "003-app.1780921720462.js",
+    "004-app.1780921720462.js",
+    "006-app.1780921720462.js",
+    "008-app.1780921720462.js",
+    "010-app.1780921720462.js",
+    "012-app.1780921720462.js",
+    "014-app.1780921720462.js",
+    "016-app.1780921720462.js",
+    "018-app.1780921720462.js",
+    "020-app.1780921720462.js"
+   ],
+   "Barba.js": [
+    "001-app.1780921720462.js",
+    "003-app.1780921720462.js",
+    "004-app.1780921720462.js",
+    "006-app.1780921720462.js",
+    "008-app.1780921720462.js",
+    "010-app.1780921720462.js",
+    "012-app.1780921720462.js",
+    "014-app.1780921720462.js",
+    "016-app.1780921720462.js",
+    "018-app.1780921720462.js",
+    "020-app.1780921720462.js"
+   ],
+   "Sanity": [
+    "001-app.1780921720462.js",
+    "003-app.1780921720462.js",
+    "004-app.1780921720462.js",
+    "006-app.1780921720462.js",
+    "008-app.1780921720462.js",
+    "010-app.1780921720462.js",
+    "012-app.1780921720462.js",
+    "014-app.1780921720462.js",
+    "016-app.1780921720462.js",
+    "018-app.1780921720462.js",
+    "020-app.1780921720462.js"
+   ]
+  },
+  "gsapVersion": null,
+  "threeRevision": null,
+  "shaders": 40,
+  "scripts": 21
+ },
+ "network": {
+  "requests": 659,
+  "totalKb": 939,
+  "byType": {
+   "Document": {
+    "n": 84,
+    "kb": 328
+   },
+   "Image": {
+    "n": 250,
+    "kb": 0
+   },
+   "Script": {
+    "n": 242,
+    "kb": 601
+   },
+   "Fetch": {
+    "n": 83,
+    "kb": 10
+   }
+  },
+  "thirdPartyHosts": [
+   "js.sentry-cdn.com",
+   "browser.sentry-cdn.com"
+  ],
+  "fontFiles": [],
+  "biggest": [
+   {
+    "url": "https://wrapped-party.activetheory.dev/assets/js/app.1780921720462.js",
+    "kb": 554,
+    "type": "Script"
+   },
+   {
+    "url": "https://wrapped-party.activetheory.dev/",
+    "kb": 164,
+    "type": "Document"
+   },
+   {
+    "url": "https://wrapped-party.activetheory.dev/unsupported",
+    "kb": 164,
+    "type": "Document"
+   },
+   {
+    "url": "https://browser.sentry-cdn.com/10.78.0/bundle.min.js",
+    "kb": 30,
+    "type": "Script"
+   },
+   {
+    "url": "https://wrapped-party.activetheory.dev/assets/js/lib/intl.C0aSRDRo.esm.js",
+    "kb": 12,
+    "type": "Script"
+   },
+   {
+    "url": "https://wrapped-party.activetheory.dev/assets/data/uil.1780921720462.json",
+    "kb": 10,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://js.sentry-cdn.com/7bb23ac7ffa09413f6c7a8d9bae0084f.min.js",
+    "kb": 3,
+    "type": "Script"
+   },
+   {
+    "url": "https://wrapped-party.activetheory.dev/assets/js/app.1780921720462.js",
+    "kb": 0,
+    "type": "Script"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": null,
+  "body": "16px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 58
+}

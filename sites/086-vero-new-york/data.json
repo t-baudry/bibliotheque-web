@@ -1,0 +1,884 @@
+{
+ "id": 86,
+ "name": "Vero New-York",
+ "sourceUrl": "https://verostudio.com/",
+ "capturedAt": "2026-11-03T09:27:29.814Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg",
+   "desktop-13.jpg",
+   "desktop-14.jpg"
+  ],
+  "fullPage": 15031,
+  "subpages": [
+   {
+    "url": "https://www.verostudio.com/purchase",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg"
+    ]
+   },
+   {
+    "url": "https://www.verostudio.com/about",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.verostudio.com/process",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://www.verostudio.com/",
+ "title": "Vero",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Vero is a luxury fine-art studio that creates a sculpture of your wedding gown. ",
+  "canonical": "https://verostudio.com/",
+  "robots": null,
+  "ogTitle": "Vero",
+  "ogImage": "https://cdn.sanity.io/images/xei5vqg0/production/8e3034304dca200363d214d56484cafa014a2326-20604x11590.jpg?w=1200&h=630&fit=crop",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "Organization",
+   "WebSite"
+  ],
+  "h1Count": 2,
+  "headings": [
+   "H1 Custom sculpture of your wedding dress.",
+   "H1 Custom sculpture of your wedding dress.",
+   "H2 Vero is a luxury fine-art studio that transforms your wedding dress into a timeless sculpt",
+   "H2 so that you become art.",
+   "H2 so that you",
+   "H2 become art.",
+   "H2 will foreverbe a masterpiece.",
+   "H2 will forever",
+   "H2 be a masterpiece."
+  ],
+  "imgs": 33,
+  "imgNoAlt": 0,
+  "favicon": "https://www.verostudio.com/apple-touch-icon.png",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#181615",
+    "w": 6866
+   },
+   {
+    "v": "#f3f0ed",
+    "w": 213
+   }
+  ],
+  "text": [
+   {
+    "v": "#181615",
+    "w": 2948
+   },
+   {
+    "v": "#979696",
+    "w": 202
+   },
+   {
+    "v": "#f8f8f8",
+    "w": 77
+   },
+   {
+    "v": "#f3f0ed",
+    "w": 36
+   },
+   {
+    "v": "#ffffff",
+    "w": 20
+   }
+  ],
+  "border": [
+   {
+    "v": "#d9d9d9",
+    "w": 1
+   }
+  ],
+  "fonts": [
+   {
+    "v": "Louize Display",
+    "w": 2406
+   },
+   {
+    "v": "Beausite Classic",
+    "w": 877
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "16px",
+    "w": 69
+   },
+   {
+    "v": "15px",
+    "w": 54
+   },
+   {
+    "v": "120px",
+    "w": 37
+   },
+   {
+    "v": "18px",
+    "w": 27
+   },
+   {
+    "v": "21px",
+    "w": 23
+   },
+   {
+    "v": "30px",
+    "w": 16
+   },
+   {
+    "v": "93.6px",
+    "w": 14
+   },
+   {
+    "v": "168px",
+    "w": 10
+   },
+   {
+    "v": "67.7293px",
+    "w": 7
+   },
+   {
+    "v": "14px",
+    "w": 1
+   },
+   {
+    "v": "12px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "2px",
+    "w": 2
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.25 0.6s",
+    "w": 41
+   },
+   {
+    "v": "cubic-bezier(0.25 0.65s",
+    "w": 34
+   },
+   {
+    "v": "cubic-bezier(0.19 1.4s",
+    "w": 28
+   },
+   {
+    "v": "cubic-bezier(0.19 1.2s",
+    "w": 24
+   },
+   {
+    "v": "cubic-bezier(0.55 0.3s",
+    "w": 15
+   },
+   {
+    "v": "cubic-bezier(0.25 0.3s",
+    "w": 10
+   },
+   {
+    "v": "cubic-bezier(0.76 0.8s",
+    "w": 8
+   },
+   {
+    "v": "cubic-bezier(0.22 1.6s",
+    "w": 4
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "\"Louize Display\", Georgia, \"Times New Roman\", Garamond, \"Palatino Linotype\", \"Book Antiqua\", serif",
+    "size": "21px",
+    "weight": "400",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#f3f0ed",
+    "sample": "Custom sculpture of your wedding dress."
+   },
+   "h2": {
+    "family": "\"Beausite Classic\", Roboto, \"Helvetica Neue\", Helvetica, Arial, \"Segoe UI\", sans-serif",
+    "size": "30px",
+    "weight": "500",
+    "lineHeight": "31.8px",
+    "letterSpacing": "-0.6px",
+    "transform": "none",
+    "color": "#181615",
+    "sample": "Vero is a luxury fine-art studio that transforms your wedding dress into a timel"
+   },
+   "p": {
+    "family": "\"Louize Display\", Georgia, \"Times New Roman\", Garamond, \"Palatino Linotype\", \"Book Antiqua\", serif",
+    "size": "15px",
+    "weight": "400",
+    "lineHeight": "15px",
+    "letterSpacing": "0.9px",
+    "transform": "none",
+    "color": "#f8f8f8",
+    "sample": "start your Commission"
+   },
+   "a": {
+    "family": "\"Beausite Classic\", Roboto, \"Helvetica Neue\", Helvetica, Arial, \"Segoe UI\", sans-serif",
+    "size": "14px",
+    "weight": "400",
+    "lineHeight": "14px",
+    "letterSpacing": "0.28px",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Skip to main content"
+   },
+   "button": {
+    "family": "\"Louize Display\", Georgia, \"Times New Roman\", Garamond, \"Palatino Linotype\", \"Book Antiqua\", serif",
+    "size": "15px",
+    "weight": "400",
+    "lineHeight": "15px",
+    "letterSpacing": "0.9px",
+    "transform": "uppercase",
+    "color": "#f8f8f8",
+    "sample": "MenuMenuCloseClose"
+   },
+   "li": {
+    "family": "\"Beausite Classic\", Roboto, \"Helvetica Neue\", Helvetica, Arial, \"Segoe UI\", sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#181615",
+    "sample": "Vero"
+   },
+   "body": {
+    "family": "\"Beausite Classic\", Roboto, \"Helvetica Neue\", Helvetica, Arial, \"Segoe UI\", sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#181615",
+    "sample": "Skip to main contentMenuMenuCloseClosestart your Commissionstart your Commission"
+   }
+  },
+  "cssVars": {
+   "--color-black": "#000",
+   "--color-white": "#fff",
+   "--color-grey-100": "#f8f8f8",
+   "--color-grey-300": "#d9d9d9",
+   "--color-grey-600": "#979696",
+   "--color-grey-900": "#181615",
+   "--color-beige-100": "#f3f0ed",
+   "--color-beige-300": "#e6d8cc",
+   "--color-orange": "#e97e00",
+   "--color-red": "#9d1414",
+   "--color-background-primary": "var(--color-beige-100)",
+   "--color-background-secondary": "var(--color-beige-300)",
+   "--color-error": "var(--color-red)",
+   "--ease-custom-1": "cubic-bezier(.25, .1, .25, 1)",
+   "--ease-custom-1-reverse": "cubic-bezier(.75, 0, .75, .9)",
+   "--ease-out-expo": "cubic-bezier(.19, 1, .22, 1)",
+   "--ease-in-out-expo": "cubic-bezier(.87, 0, .13, 1)",
+   "--ease-in-quart": "cubic-bezier(.5, 0, .75, 0)",
+   "--ease-out-quart": "cubic-bezier(.25, 1, .5, 1)",
+   "--ease-in-out-quart": "cubic-bezier(.76, 0, .24, 1)",
+   "--ease-in-sine": "cubic-bezier(.12, 0, .39, 0)",
+   "--ease-out-sine": "cubic-bezier(.61, 1, .88, 1)",
+   "--ease-in-quint": "cubic-bezier(.64, 0, .78, 0)",
+   "--ease-out-quint": "cubic-bezier(.22, 1, .36, 1)",
+   "--ease-in-out-quint": "cubic-bezier(.83, 0, .17, 1)",
+   "--ease-in-out-circ": "cubic-bezier(.85, 0, .15, 1)",
+   "--ease-out-cubic": "cubic-bezier(.33, 1, .68, 1)",
+   "--ease-in-cubic": "cubic-bezier(.32, 0, .67, 0)",
+   "--ease-in-out-cubic": "cubic-bezier(.65, 0, .35, 1)",
+   "--ease-in-quad": "cubic-bezier(.55, .085, .68, .53)",
+   "--ease-out-quad": "cubic-bezier(.25, .46, .45, .94)",
+   "--ease-in-out-quad": "cubic-bezier(.455, .03, .515, .955)",
+   "--font-family-primary": "\"Louize Display\", \"Georgia\", \"Times New Roman\", \"Garamond\", \"Palatino Linotype\", \"Book Antiqua\", serif",
+   "--font-family-content": "\"Beausite Classic\", \"Roboto\", \"Helvetica Neue\", Helvetica, Arial, \"Segoe UI\", sans-serif",
+   "--font-weight-regular": "400",
+   "--font-weight-medium": "500",
+   "--font-display-1": "var(--font-weight-regular) 7.5rem / 1 var(--font-family-primary)",
+   "--font-display-2": "var(--font-weight-regular) 2.5rem / 1 var(--font-family-primary)",
+   "--font-display-3": "var(--font-weight-regular) 5rem / 1 var(--font-family-primary)",
+   "--font-display-4": "var(--font-weight-medium) 1.875rem / 1.06 var(--font-family-content)",
+   "--font-display-5": "var(--font-weight-regular) 1.3125rem / 1 var(--font-family-primary)",
+   "--font-body": "var(--font-weight-regular) 1.125rem / 1.5 var(--font-family-primary)",
+   "--font-label-1": "var(--font-weight-regular) 1rem / 1.1 var(--font-family-primary)",
+   "--font-label-2": "var(--font-weight-medium) .9375rem / 1.5 var(--font-family-content)",
+   "--font-label-form": "var(--font-weight-regular) .9375rem / 1 var(--font-family-content)",
+   "--font-tiny-1": "var(--font-weight-regular) .8125rem / 1.6 var(--font-family-content)",
+   "--font-tiny-2": "var(--font-weight-regular) .625rem / 1.4 var(--font-family-content)",
+   "--font-button": "var(--font-weight-regular) .9375rem / 1 var(--font-family-primary)",
+   "--font-header": "var(--font-weight-regular) clamp(46px, 6.5vw, 120px) / 1 var(--font-family-primary)",
+   "--grid-columns": "12",
+   "--grid-gap": "10px"
+  },
+  "fontFaces": [
+   {
+    "family": "Louize Display",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/fonts/LouizeDisplay.woff2\") format(\"woff2\"), url(\"/fonts/LouizeDisplay.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Louize Display",
+    "weight": "400",
+    "style": "italic",
+    "src": "url(\"/fonts/LouizeDisplay-Italic.woff2\") format(\"woff2\"), url(\"/fonts/LouizeDisplay-Italic.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Beausite Classic",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/fonts/BeausiteClassicWebTrial-Regular.woff2\") format(\"woff2\"), url(\"/fonts/BeausiteClassicWebTrial-Regular.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Beausite Classic",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"/fonts/BeausiteClassicWebTrial-Medium.woff2\") format(\"woff2\"), url(\"/fonts/BeausiteClassicWebTrial-Medium.woff\") format(\"woff\")"
+   }
+  ],
+  "keyframes": [
+   "Button-module-scss-module__VLzsWq__loading",
+   "RootLayoutHeader-module-scss-module__96vZrq__slide-down",
+   "RootLayoutHeader-module-scss-module__96vZrq__translate-up",
+   "RootLayoutHeader-module-scss-module__96vZrq__slide-up",
+   "RootLayoutHeader-module-scss-module__96vZrq__reveal",
+   "RootLayoutHeader-module-scss-module__96vZrq__pulsate",
+   "DressDiscover-module-scss-module__6gNPWa__enter",
+   "DressDiscover-module-scss-module__6gNPWa__leave",
+   "EditoMediaCarousel-module-scss-module__Kf5NSa__fade-in",
+   "EditoMediaCarousel-module-scss-module__Kf5NSa__fade-out",
+   "InlineButton-module-scss-module__1EV81q__inline-button-always-animation",
+   "Skeleton-module-scss-module__c6gN4a__skeleton_loading",
+   "RadioGroupWithChildrenDemo-module-scss-module__e-Kt7W__slideDown",
+   "RadioGroupWithChildrenDemo-module-scss-module__e-Kt7W__slideUp",
+   "RootLayoutLoader-module-scss-module__-0Eava__dynamic-fade-in",
+   "RootLayoutLoader-module-scss-module__-0Eava__fade-in",
+   "RootLayoutLoader-module-scss-module__-0Eava__mask-expand",
+   "RootLayoutLoader-module-scss-module__-0Eava__mask-full",
+   "RootLayoutLoader-module-scss-module__-0Eava__content-expand",
+   "RootLayoutLoader-module-scss-module__-0Eava__content-full",
+   "RootLayoutLoader-module-scss-module__-0Eava__dynamic-slide",
+   "RootLayoutLoader-module-scss-module__-0Eava__slide-out",
+   "LargeAccordionsEdito-module-scss-module__r_rAHq__slideDown",
+   "LargeAccordionsEdito-module-scss-module__r_rAHq__slideUp",
+   "RootLayoutFooterCredits-module-scss-module__PB550W__fade-in",
+   "RootLayoutFooterCredits-module-scss-module__PB550W__fade-out",
+   "MediaGrid-module-scss-module__k9ek4G__slide-in",
+   "MediaGrid-module-scss-module__k9ek4G__slide-out",
+   "ProductPageDetails-module-scss-module__XqKTbG__slideDown",
+   "ProductPageDetails-module-scss-module__XqKTbG__slideUp",
+   "ScrollCue-module-scss-module__UbqG-W__scroll-cue",
+   "GalleryMediaGrid-module-scss-module__GiwTpa__fade-in",
+   "GalleryMediaGrid-module-scss-module__GiwTpa__fade-out"
+  ],
+  "breakpoints": [
+   {
+    "v": "930px",
+    "w": 168
+   },
+   {
+    "v": "768px",
+    "w": 33
+   },
+   {
+    "v": "1728px",
+    "w": 19
+   },
+   {
+    "v": "1788px",
+    "w": 17
+   },
+   {
+    "v": "929px",
+    "w": 13
+   },
+   {
+    "v": "1280px",
+    "w": 2
+   },
+   {
+    "v": "480px",
+    "w": 2
+   },
+   {
+    "v": "1727px",
+    "w": 1
+   },
+   {
+    "v": "375px",
+    "w": 1
+   },
+   {
+    "v": "1440px",
+    "w": 1
+   },
+   {
+    "v": "767px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 1495,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "",
+    "h": 900,
+    "title": "Custom sculpture of your wedding dress.",
+    "media": 3
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "",
+    "h": 2700,
+    "title": "Vero is a luxury fine-art studio that transforms your wedding dress into a timel",
+    "media": 1
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "",
+    "h": 3840,
+    "title": "",
+    "media": 6
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "",
+    "h": 290,
+    "title": "so that you become art.",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "",
+    "h": 2410,
+    "title": "",
+    "media": 7
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "",
+    "h": 290,
+    "title": "will foreverbe a masterpiece.",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "",
+    "h": 1268,
+    "title": "",
+    "media": 20
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "",
+    "h": 1374,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "",
+    "h": 230,
+    "title": "",
+    "media": 0
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "start your Commissionstart your Commissi",
+    "href": "https://www.verostudio.com/purchase"
+   },
+   {
+    "t": "homehome",
+    "href": "https://www.verostudio.com/"
+   },
+   {
+    "t": "About usAbout us",
+    "href": "https://www.verostudio.com/about"
+   },
+   {
+    "t": "ProcessProcess",
+    "href": "https://www.verostudio.com/process"
+   },
+   {
+    "t": "GalleryGallery",
+    "href": "https://www.verostudio.com/gallery"
+   },
+   {
+    "t": "OrderOrder",
+    "href": "https://www.verostudio.com/product"
+   },
+   {
+    "t": "RegistryRegistry",
+    "href": "https://www.verostudio.com/registry"
+   },
+   {
+    "t": "FAQFAQ",
+    "href": "https://www.verostudio.com/legals/faq"
+   },
+   {
+    "t": "Featured Designers & PhotographyFeatured",
+    "href": "https://www.verostudio.com/featured-designers"
+   },
+   {
+    "t": "Terms & ConditionsTerms & Conditions",
+    "href": "https://www.verostudio.com/legals/terms"
+   },
+   {
+    "t": "Privacy PolicyPrivacy Policy",
+    "href": "https://www.verostudio.com/legals/policy"
+   },
+   {
+    "t": "Terms & Conditions",
+    "href": "https://www.verostudio.com/legals/terms"
+   },
+   {
+    "t": "Privacy Policy",
+    "href": "https://www.verostudio.com/legals/policy"
+   },
+   {
+    "t": "Featured Designers",
+    "href": "https://www.verostudio.com/featured-designers"
+   },
+   {
+    "t": "HomeHome",
+    "href": "https://www.verostudio.com/"
+   },
+   {
+    "t": "OrderOrder",
+    "href": "https://www.verostudio.com/product"
+   },
+   {
+    "t": "ProcessProcess",
+    "href": "https://www.verostudio.com/process"
+   },
+   {
+    "t": "AboutAbout",
+    "href": "https://www.verostudio.com/about"
+   },
+   {
+    "t": "GalleryGallery",
+    "href": "https://www.verostudio.com/gallery"
+   }
+  ],
+  "ctas": [
+   "Skip to main content"
+  ],
+  "pageHeight": 15031,
+  "counts": {
+   "canvas": 2,
+   "videos": 2,
+   "imgs": 33,
+   "svgs": 19,
+   "iframes": 0,
+   "domNodes": 928
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": false,
+  "locomotive": false,
+  "three": false,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": true,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [
+   "sanity"
+  ],
+  "analytics": [
+   "posthog"
+  ],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://www.verostudio.com/_next/static/chunks/0f4lvirgu_tl7.js?dpl=dpl_HnykAjQxM9S7CAJQjdCBETrFHLhR",
+  "https://www.verostudio.com/_next/static/chunks/0rg57dqhtc7mz.js?dpl=dpl_HnykAjQxM9S7CAJQjdCBETrFHLhR",
+  "https://www.verostudio.com/_next/static/chunks/0k7clit8ax_.~.js?dpl=dpl_HnykAjQxM9S7CAJQjdCBETrFHLhR",
+  "https://www.verostudio.com/_next/static/chunks/0fkbmzrhnu075.js?dpl=dpl_HnykAjQxM9S7CAJQjdCBETrFHLhR",
+  "https://www.verostudio.com/_next/static/chunks/15mtmc03urkfq.js?dpl=dpl_HnykAjQxM9S7CAJQjdCBETrFHLhR",
+  "https://www.verostudio.com/_next/static/chunks/0yw34h1reer-v.js?dpl=dpl_HnykAjQxM9S7CAJQjdCBETrFHLhR",
+  "https://www.verostudio.com/_next/static/chunks/115-ylee-fuct.js?dpl=dpl_HnykAjQxM9S7CAJQjdCBETrFHLhR",
+  "https://www.verostudio.com/_next/static/chunks/turbopack-14z8go47ns0k4.js?dpl=dpl_HnykAjQxM9S7CAJQjdCBETrFHLhR",
+  "https://www.verostudio.com/_next/static/chunks/0ef4m39ocpitv.js?dpl=dpl_HnykAjQxM9S7CAJQjdCBETrFHLhR",
+  "https://www.verostudio.com/_next/static/chunks/0tgsa3kk2ystz.js?dpl=dpl_HnykAjQxM9S7CAJQjdCBETrFHLhR",
+  "https://www.verostudio.com/_next/static/chunks/0_-owz2gqauyp.js?dpl=dpl_HnykAjQxM9S7CAJQjdCBETrFHLhR",
+  "https://www.verostudio.com/_next/static/chunks/0lt-.ha_261u8.js?dpl=dpl_HnykAjQxM9S7CAJQjdCBETrFHLhR",
+  "https://www.verostudio.com/_next/static/chunks/0jnvfabahyhmj.js?dpl=dpl_HnykAjQxM9S7CAJQjdCBETrFHLhR",
+  "https://www.verostudio.com/_next/static/chunks/0qq0ayp93ndjx.js?dpl=dpl_HnykAjQxM9S7CAJQjdCBETrFHLhR",
+  "https://www.verostudio.com/_next/static/chunks/0zjg_4s8nezvs.js?dpl=dpl_HnykAjQxM9S7CAJQjdCBETrFHLhR",
+  "https://www.verostudio.com/_next/static/chunks/040~pl7oz.8jg.js?dpl=dpl_HnykAjQxM9S7CAJQjdCBETrFHLhR",
+  "https://www.verostudio.com/_next/static/chunks/0jqyc~uh~avzs.js?dpl=dpl_HnykAjQxM9S7CAJQjdCBETrFHLhR",
+  "https://www.verostudio.com/_next/static/chunks/0fruuqydg84mu.js?dpl=dpl_HnykAjQxM9S7CAJQjdCBETrFHLhR",
+  "https://www.verostudio.com/_next/static/chunks/0n6hizhi3wore.js?dpl=dpl_HnykAjQxM9S7CAJQjdCBETrFHLhR",
+  "https://www.verostudio.com/_next/static/chunks/0h~h~4-em9w7g.js?dpl=dpl_HnykAjQxM9S7CAJQjdCBETrFHLhR",
+  "https://www.verostudio.com/_next/static/chunks/0~lwf2j7ysl9h.js?dpl=dpl_HnykAjQxM9S7CAJQjdCBETrFHLhR",
+  "https://www.verostudio.com/_next/static/chunks/0l9~aahaua.gc.js?dpl=dpl_HnykAjQxM9S7CAJQjdCBETrFHLhR",
+  "https://www.verostudio.com/_next/static/chunks/052uyh96p_mzs.js?dpl=dpl_HnykAjQxM9S7CAJQjdCBETrFHLhR",
+  "https://www.verostudio.com/_next/static/chunks/07yqe6s1w-tze.js?dpl=dpl_HnykAjQxM9S7CAJQjdCBETrFHLhR",
+  "https://www.verostudio.com/_next/static/chunks/03~yq9q893hmn.js?dpl=dpl_HnykAjQxM9S7CAJQjdCBETrFHLhR",
+  "https://www.verostudio.com/_next/static/chunks/11sswtocfulc~.js?dpl=dpl_HnykAjQxM9S7CAJQjdCBETrFHLhR",
+  "https://www.verostudio.com/_next/static/chunks/0ejpr-~b5t07-.js?dpl=dpl_HnykAjQxM9S7CAJQjdCBETrFHLhR",
+  "https://www.verostudio.com/_next/static/chunks/02-hft6hve4np.js?dpl=dpl_HnykAjQxM9S7CAJQjdCBETrFHLhR",
+  "https://www.verostudio.com/_next/static/chunks/16pkz_gj_i_z..js?dpl=dpl_HnykAjQxM9S7CAJQjdCBETrFHLhR",
+  "https://www.verostudio.com/_next/static/chunks/0llrukolnvf9j.js?dpl=dpl_HnykAjQxM9S7CAJQjdCBETrFHLhR",
+  "https://www.verostudio.com/_next/static/chunks/113pxml9t0jd6.js?dpl=dpl_HnykAjQxM9S7CAJQjdCBETrFHLhR",
+  "https://www.verostudio.com/_next/static/chunks/00xrugsl5evzx.js?dpl=dpl_HnykAjQxM9S7CAJQjdCBETrFHLhR",
+  "https://www.verostudio.com/_vercel/insights/script.js",
+  "https://www.verostudio.com/ingest/static/exception-autocapture.js?v=1.386.8",
+  "https://www.verostudio.com/ingest/static/surveys.js?v=1.386.8",
+  "https://www.verostudio.com/ingest/static/exception-autocapture.js?v=1.386.8",
+  "https://www.verostudio.com/ingest/array/phc_nSNjyLxeJi8CXsFwPCWphVHqPoDae5fYZYdy9qLXeNNH/config.js",
+  "https://www.verostudio.com/ingest/static/exception-autocapture.js?v=1.386.8",
+  "https://www.verostudio.com/_next/static/chunks/17gsouh7epk3e.js?dpl=dpl_HnykAjQxM9S7CAJQjdCBETrFHLhR"
+ ],
+ "internal": [
+  "https://www.verostudio.com/purchase",
+  "https://www.verostudio.com/about",
+  "https://www.verostudio.com/process",
+  "https://www.verostudio.com/gallery",
+  "https://www.verostudio.com/product",
+  "https://www.verostudio.com/registry",
+  "https://www.verostudio.com/legals/faq",
+  "https://www.verostudio.com/featured-designers",
+  "https://www.verostudio.com/legals/terms",
+  "https://www.verostudio.com/legals/policy",
+  "https://www.verostudio.com/accessibility"
+ ],
+ "perf": {
+  "ttfb": 296,
+  "dcl": 672,
+  "load": 3265,
+  "lcp": 2968,
+  "lcpEl": "VIDEO.VideoPlayer-module-scss-module__UceEyW__video",
+  "cls": 0.004
+ },
+ "libs": {
+  "detected": [
+   "React",
+   "Next.js",
+   "Sanity",
+   "Anime.js",
+   "SplitText/SplitType"
+  ],
+  "where": {
+   "React": [
+    "003-0rg57dqhtc7mz.js",
+    "020-0qq0ayp93ndjx.js",
+    "025-15mtmc03urkfq.js"
+   ],
+   "Next.js": [
+    "003-0rg57dqhtc7mz.js",
+    "020-0qq0ayp93ndjx.js"
+   ],
+   "Sanity": [
+    "005-0zjg_4s8nezvs.js",
+    "007-0fruuqydg84mu.js",
+    "012-0h_h_4-em9w7g.js",
+    "020-0qq0ayp93ndjx.js"
+   ],
+   "Anime.js": [
+    "016-0l9_aahaua.gc.js"
+   ],
+   "SplitText/SplitType": [
+    "019-052uyh96p_mzs.js",
+    "024-0_lwf2j7ysl9h.js"
+   ]
+  },
+  "gsapVersion": null,
+  "threeRevision": null,
+  "shaders": 8,
+  "scripts": 38
+ },
+ "network": {
+  "requests": 98,
+  "totalKb": 6230,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 23
+   },
+   "Stylesheet": {
+    "n": 5,
+    "kb": 31
+   },
+   "Font": {
+    "n": 4,
+    "kb": 111
+   },
+   "Other": {
+    "n": 3,
+    "kb": 6
+   },
+   "Script": {
+    "n": 36,
+    "kb": 533
+   },
+   "Media": {
+    "n": 4,
+    "kb": 1524
+   },
+   "EventSource": {
+    "n": 1,
+    "kb": 0
+   },
+   "Fetch": {
+    "n": 13,
+    "kb": 3459
+   },
+   "Image": {
+    "n": 31,
+    "kb": 544
+   }
+  },
+  "thirdPartyHosts": [
+   "cdn.sanity.io",
+   "xei5vqg0.api.sanity.io"
+  ],
+  "fontFiles": [
+   "https://www.verostudio.com/fonts/LouizeDisplay-Italic.woff2",
+   "https://www.verostudio.com/fonts/LouizeDisplay.woff2",
+   "https://www.verostudio.com/fonts/BeausiteClassicWebTrial-Regular.woff2",
+   "https://www.verostudio.com/fonts/BeausiteClassicWebTrial-Medium.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://cdn.sanity.io/files/xei5vqg0/production/bea646a70445ada4b773c2621bc82183bbb837d6.mp4",
+    "kb": 1491,
+    "type": "Media"
+   },
+   {
+    "url": "https://www.verostudio.com/webgl/dress-felicity/dress-felicity.glb",
+    "kb": 1287,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://www.verostudio.com/webgl/dress-felicity/dress-felicity-normal.jpg",
+    "kb": 1129,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://www.verostudio.com/webgl/dress-felicity/dress-felicity-occlusion.jpg",
+    "kb": 1038,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://www.verostudio.com/webgl/logo/font.png",
+    "kb": 86,
+    "type": "Image"
+   },
+   {
+    "url": "https://www.verostudio.com/_next/static/chunks/15mtmc03urkfq.js?dpl=dpl_HnykAjQxM9S7CAJQjdCBETrFHLhR",
+    "kb": 75,
+    "type": "Script"
+   },
+   {
+    "url": "https://cdn.sanity.io/images/xei5vqg0/production/042f1a38d440362b5028b2c08b587898242a650a-814x1120.png?w=750&q=90&auto=format",
+    "kb": 73,
+    "type": "Image"
+   },
+   {
+    "url": "https://www.verostudio.com/_next/static/chunks/0fkbmzrhnu075.js?dpl=dpl_HnykAjQxM9S7CAJQjdCBETrFHLhR",
+    "kb": 65,
+    "type": "Script"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "18px",
+   "lineHeight": "27px"
+  },
+  "body": "16px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 159
+}

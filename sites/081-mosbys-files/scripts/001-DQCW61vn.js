@@ -1,0 +1,1 @@
+import{q as t,R as n}from"./DwAQhwlc.js";function s(){const e=()=>{const o=["background: #0e0e0e","color: #fff","padding: 24px 16px"].join(";");console.log("%c Coded with ♥️ by Tubik Studio: https://tubikstudio.com",o)};t(()=>{e()})}const r={__name:"default",setup(e){return s(),(o,u)=>n(o.$slots,"default")}};export{r as default};

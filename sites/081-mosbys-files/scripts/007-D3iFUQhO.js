@@ -1,0 +1,1 @@
+import{b as n,c as s,a as c,J as o,W as a}from"./DwAQhwlc.js";const p=["innerHTML"],x={__name:"RichText",props:{text:{type:Object,required:!0}},setup(e){const t=e,r=o(()=>a(t.text));return(_,i)=>(n(),s("span",{class:"rich-text",innerHTML:c(r)},null,8,p))}};export{x as _};

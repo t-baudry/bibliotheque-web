@@ -1,0 +1,595 @@
+{
+ "id": 80,
+ "name": "HAOQI.DESIGN",
+ "sourceUrl": "https://haoqi.design/",
+ "capturedAt": "2026-11-03T09:16:25.333Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg"
+  ],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [
+   {
+    "url": "https://haoqi.design/reunimos",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://haoqi.design/inspire_mono",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://haoqi.design/wasm_design_utils",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://haoqi.design/",
+ "title": "HAOQI©2026",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Digital Product Designer & Builder © 2026",
+  "canonical": null,
+  "robots": null,
+  "ogTitle": null,
+  "ogImage": null,
+  "twitterCard": null,
+  "jsonLd": [],
+  "h1Count": 0,
+  "headings": [],
+  "imgs": 0,
+  "imgNoAlt": 0,
+  "favicon": "https://haoqi.design/icon.svg?icon.f022d428.svg",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [],
+  "text": [
+   {
+    "v": "#000000",
+    "w": 810
+   },
+   {
+    "v": "#363630",
+    "w": 68
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "tiktok",
+    "w": 430
+   },
+   {
+    "v": "tronica-mono",
+    "w": 251
+   },
+   {
+    "v": "mono",
+    "w": 197
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "16px",
+    "w": 29
+   },
+   {
+    "v": "14px",
+    "w": 28
+   },
+   {
+    "v": "80.64px",
+    "w": 7
+   },
+   {
+    "v": "60.48px",
+    "w": 5
+   },
+   {
+    "v": "12px",
+    "w": 5
+   },
+   {
+    "v": "97.92px",
+    "w": 3
+   },
+   {
+    "v": "30px",
+    "w": 2
+   }
+  ],
+  "radius": [],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0 0.3s",
+    "w": 3
+   },
+   {
+    "v": "cubic-bezier(0 0.15s",
+    "w": 3
+   },
+   {
+    "v": "ease 0.3s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "p": {
+    "family": "tiktok, sans-serif",
+    "size": "60.48px",
+    "weight": "400",
+    "lineHeight": "60.48px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "I explore how to shape AI-era workflows with craft and taste, building the next "
+   },
+   "a": {
+    "family": "tiktok, sans-serif",
+    "size": "16px",
+    "weight": "700",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#000000",
+    "sample": "haoqi.design"
+   },
+   "button": {
+    "family": "tronica-mono, monospace",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#000000",
+    "sample": "Work"
+   },
+   "body": {
+    "family": "tiktok, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "haoqi.designWorkContactTHEME[A]SOUND[-]10:16 19°CGMT+8 CN 10:16 19°C0720 X 0450 "
+   }
+  },
+  "cssVars": {
+   "--font-sans": "\"tiktok\",sans-serif",
+   "--font-mono": "\"mono\",monospace",
+   "--color-black": "#000",
+   "--color-white": "#fff",
+   "--spacing": ".25rem",
+   "--text-xs": ".75rem",
+   "--text-xs--line-height": "calc(1/.75)",
+   "--text-sm": ".875rem",
+   "--text-sm--line-height": "calc(1.25/.875)",
+   "--text-base": "1rem",
+   "--text-base--line-height": "calc(1.5/1)",
+   "--text-lg": "1.125rem",
+   "--text-lg--line-height": "calc(1.75/1.125)",
+   "--text-xl": "1.25rem",
+   "--text-xl--line-height": "calc(1.75/1.25)",
+   "--text-2xl": "1.5rem",
+   "--text-2xl--line-height": "calc(2/1.5)",
+   "--text-3xl": "1.875rem",
+   "--text-3xl--line-height": "calc(2.25/1.875)",
+   "--text-5xl": "3rem",
+   "--text-5xl--line-height": "1",
+   "--font-weight-medium": "500",
+   "--font-weight-semibold": "600",
+   "--font-weight-bold": "700",
+   "--tracking-tight": "-.025em",
+   "--tracking-normal": "0em",
+   "--tracking-wide": ".025em",
+   "--leading-tight": "1.25",
+   "--leading-snug": "1.375",
+   "--leading-relaxed": "1.625",
+   "--radius-md": ".375rem",
+   "--radius-xl": ".75rem",
+   "--ease-out": "cubic-bezier(0,0,.2,1)",
+   "--default-transition-duration": ".15s",
+   "--default-transition-timing-function": "cubic-bezier(.4,0,.2,1)",
+   "--default-font-family": "var(--font-sans)",
+   "--default-mono-font-family": "var(--font-mono)",
+   "--color-l1": "var(--label-1)",
+   "--color-l2": "var(--label-2)",
+   "--color-l3": "var(--label-3)",
+   "--color-line": "var(--line)",
+   "--color-b1": "var(--background-1)",
+   "--color-be": "var(--background-elevated)",
+   "--color-selection": "var(--selection-bg)",
+   "--ease-66": "var(--cubic-66)",
+   "--font-mono-2": "\"tronica-mono\",monospace",
+   "--lightningcss-light": "initial",
+   "--lightningcss-dark": "",
+   "--label": "0,0,0",
+   "--label-d": "54,54,48",
+   "--background-deep": "251,250,244",
+   "--label-1": "rgba(var(--label),1)",
+   "--label-2": "rgba(var(--label-d),.6)",
+   "--label-3": "rgba(var(--label-d),.32)",
+   "--label-4": "rgba(var(--label-d),.18)",
+   "--line": "rgba(var(--label-d),.1)",
+   "--background-1": "rgb(var(--background-deep))",
+   "--background-elevated": "#efede7",
+   "--cubic-66": "cubic-bezier(.66,0,.01,1)",
+   "--selection-bg": "lab(92.9242% -39.8464 87.367)",
+   "--code-comment": "rgba(var(--label-d),.45)",
+   "--code-string": "lab(43.8263% -47.6118 18.596)",
+   "--code-number": "lab(46.7992% 8.99872 72.9973)",
+   "--code-keyword": "lab(43.3789% 36.2819 -73.3524)",
+   "--code-function": "lab(47.3165% -8.24019 -45.3882)",
+   "--code-tag": "lab(47.2741% 51.266 23.7532)",
+   "--code-operator": "rgba(var(--label-d),.75)",
+   "--leva-colors-elevation1": "#292d39",
+   "--leva-colors-elevation2": "#181c20",
+   "--leva-colors-elevation3": "#373c4b",
+   "--leva-colors-accent1": "#0066dc",
+   "--leva-colors-accent2": "#007bff",
+   "--leva-colors-accent3": "#3c93ff",
+   "--leva-colors-highlight1": "#535760",
+   "--leva-colors-highlight2": "#8c92a4",
+   "--leva-colors-highlight3": "#fefefe",
+   "--leva-colors-vivid1": "#ffcc00",
+   "--leva-colors-folderWidgetColor": "var(--leva-colors-highlight2)",
+   "--leva-colors-folderTextColor": "var(--leva-colors-highlight3)",
+   "--leva-colors-toolTipBackground": "var(--leva-colors-highlight3)",
+   "--leva-colors-toolTipText": "var(--leva-colors-elevation2)",
+   "--leva-radii-xs": "2px",
+   "--leva-radii-sm": "3px",
+   "--leva-radii-lg": "10px",
+   "--leva-space-xs": "3px",
+   "--leva-space-sm": "6px",
+   "--leva-space-md": "10px",
+   "--leva-space-rowGap": "7px",
+   "--leva-space-colGap": "7px",
+   "--leva-fonts-mono": "ui-monospace, SFMono-Regular, Menlo, 'Roboto Mono', monospace",
+   "--leva-fonts-sans": "system-ui, sans-serif",
+   "--leva-fontSizes-root": "11px",
+   "--leva-fontSizes-toolTip": "var(--leva-fontSizes-root)",
+   "--leva-sizes-rootWidth": "280px",
+   "--leva-sizes-controlWidth": "160px",
+   "--leva-sizes-numberInputMinWidth": "38px",
+   "--leva-sizes-scrubberWidth": "8px",
+   "--leva-sizes-scrubberHeight": "16px",
+   "--leva-sizes-rowHeight": "24px",
+   "--leva-sizes-folderTitleHeight": "20px",
+   "--leva-sizes-checkboxSize": "16px",
+   "--leva-sizes-joystickWidth": "100px",
+   "--leva-sizes-joystickHeight": "100px",
+   "--leva-sizes-colorPickerWidth": "var(--leva-sizes-controlWidth)",
+   "--leva-sizes-colorPickerHeight": "100px",
+   "--leva-sizes-imagePreviewWidth": "var(--leva-sizes-controlWidth)",
+   "--leva-sizes-imagePreviewHeight": "100px",
+   "--leva-sizes-monitorHeight": "60px",
+   "--leva-sizes-titleBarHeight": "39px",
+   "--leva-shadows-level1": "0 0 9px 0 #00000088",
+   "--leva-shadows-level2": "0 4px 14px #00000033",
+   "--leva-borderWidths-root": "0px",
+   "--leva-borderWidths-input": "1px",
+   "--leva-borderWidths-focus": "1px",
+   "--leva-borderWidths-hover": "1px",
+   "--leva-borderWidths-active": "1px",
+   "--leva-borderWidths-folder": "1px",
+   "--leva-fontWeights-label": "normal",
+   "--leva-fontWeights-folder": "normal",
+   "--leva-fontWeights-button": "normal"
+  },
+  "fontFaces": [],
+  "keyframes": [
+   "caret-blink",
+   "ltBlink",
+   "rtSpin",
+   "hsstFadeIn",
+   "hsstFadeOut",
+   "svg-sign-draw",
+   "svg-sign-show"
+  ],
+  "breakpoints": [
+   {
+    "v": "64rem",
+    "w": 5
+   },
+   {
+    "v": "40rem",
+    "w": 2
+   },
+   {
+    "v": "48rem",
+    "w": 2
+   },
+   {
+    "v": "80rem",
+    "w": 2
+   },
+   {
+    "v": "96rem",
+    "w": 2
+   },
+   {
+    "v": "1024px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 652,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [],
+  "navLinks": [
+   {
+    "t": "haoqi.design",
+    "href": "https://haoqi.design/"
+   }
+  ],
+  "ctas": [],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 1,
+   "videos": 0,
+   "imgs": 0,
+   "svgs": 5,
+   "iframes": 0,
+   "domNodes": 282
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "184",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": true,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://haoqi.design/_next/static/chunks/7cc1924554447827.js?dpl=dpl_CydG2SHX387W4U5vX9NPppQSvmSt",
+  "https://haoqi.design/_next/static/chunks/ee513d663d42744e.js?dpl=dpl_CydG2SHX387W4U5vX9NPppQSvmSt",
+  "https://haoqi.design/_next/static/chunks/8c2d1abc8462562b.js?dpl=dpl_CydG2SHX387W4U5vX9NPppQSvmSt",
+  "https://haoqi.design/_next/static/chunks/turbopack-e3b4066090a54cd6.js?dpl=dpl_CydG2SHX387W4U5vX9NPppQSvmSt",
+  "https://haoqi.design/_next/static/chunks/1552c7742c37f06d.js?dpl=dpl_CydG2SHX387W4U5vX9NPppQSvmSt",
+  "https://haoqi.design/_next/static/chunks/8f06fe72571f37b9.js?dpl=dpl_CydG2SHX387W4U5vX9NPppQSvmSt",
+  "https://haoqi.design/_next/static/chunks/3c6cc5b2fcccdee5.js?dpl=dpl_CydG2SHX387W4U5vX9NPppQSvmSt",
+  "https://haoqi.design/_next/static/chunks/d59f7a97fb1c563f.js?dpl=dpl_CydG2SHX387W4U5vX9NPppQSvmSt",
+  "https://haoqi.design/_next/static/chunks/1098c2541054fc77.js?dpl=dpl_CydG2SHX387W4U5vX9NPppQSvmSt",
+  "https://haoqi.design/_next/static/chunks/2689132c4e070b68.js?dpl=dpl_CydG2SHX387W4U5vX9NPppQSvmSt",
+  "https://haoqi.design/_next/static/chunks/4d3f3b68dbbde33a.js?dpl=dpl_CydG2SHX387W4U5vX9NPppQSvmSt",
+  "https://haoqi.design/_next/static/chunks/a6dad97d9634a72d.js?dpl=dpl_CydG2SHX387W4U5vX9NPppQSvmSt",
+  "https://haoqi.design/_next/static/chunks/56b0d8f9f2c1e441.js?dpl=dpl_CydG2SHX387W4U5vX9NPppQSvmSt"
+ ],
+ "internal": [
+  "https://haoqi.design/reunimos",
+  "https://haoqi.design/inspire_mono",
+  "https://haoqi.design/wasm_design_utils",
+  "https://haoqi.design/adrive",
+  "https://haoqi.design/shore_icon",
+  "https://haoqi.design/teambition"
+ ],
+ "perf": {
+  "ttfb": 287,
+  "dcl": 544,
+  "load": 3761,
+  "lcp": 5636,
+  "lcpEl": "SPAN",
+  "cls": 0.031
+ },
+ "libs": {
+  "detected": [
+   "Lenis",
+   "React Three Fiber",
+   "Postprocessing",
+   "React",
+   "Next.js",
+   "Three.js",
+   "Virtual scroll"
+  ],
+  "where": {
+   "Lenis": [
+    "002-3c6cc5b2fcccdee5.js",
+    "006-2689132c4e070b68.js",
+    "011-4d3f3b68dbbde33a.js",
+    "012-1098c2541054fc77.js"
+   ],
+   "React Three Fiber": [
+    "002-3c6cc5b2fcccdee5.js",
+    "011-4d3f3b68dbbde33a.js",
+    "012-1098c2541054fc77.js"
+   ],
+   "Postprocessing": [
+    "002-3c6cc5b2fcccdee5.js",
+    "011-4d3f3b68dbbde33a.js",
+    "012-1098c2541054fc77.js"
+   ],
+   "React": [
+    "005-56b0d8f9f2c1e441.js",
+    "006-2689132c4e070b68.js",
+    "008-8c2d1abc8462562b.js"
+   ],
+   "Next.js": [
+    "005-56b0d8f9f2c1e441.js",
+    "006-2689132c4e070b68.js"
+   ],
+   "Three.js": [
+    "006-2689132c4e070b68.js",
+    "012-1098c2541054fc77.js"
+   ],
+   "Virtual scroll": [
+    "012-1098c2541054fc77.js"
+   ]
+  },
+  "gsapVersion": null,
+  "threeRevision": null,
+  "shaders": 40,
+  "scripts": 12
+ },
+ "network": {
+  "requests": 83,
+  "totalKb": 15552,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 7
+   },
+   "Script": {
+    "n": 12,
+    "kb": 768
+   },
+   "Stylesheet": {
+    "n": 1,
+    "kb": 9
+   },
+   "Image": {
+    "n": 42,
+    "kb": 7918
+   },
+   "Fetch": {
+    "n": 18,
+    "kb": 3121
+   },
+   "Media": {
+    "n": 1,
+    "kb": 0
+   },
+   "Font": {
+    "n": 3,
+    "kb": 557
+   },
+   "XHR": {
+    "n": 1,
+    "kb": 0
+   },
+   "Other": {
+    "n": 4,
+    "kb": 3170
+   }
+  },
+  "thirdPartyHosts": [
+   "devapi.qweather.com"
+  ],
+  "fontFiles": [
+   "https://haoqi.design/fonts/TikTokSans.ttf",
+   "https://haoqi.design/fonts/GeistMono[wght].ttf",
+   "https://haoqi.design/fonts/DepartureMono-Regular.otf"
+  ],
+  "biggest": [
+   {
+    "url": "data:application/octet-stream;base64,BrrzP0MKh0D69BvABrrzP0MKh0D69BvAwVjjP2tqqEAQ7RTA4Mi3P+tmxUDATwDA6BVsP4hC3EAhEMG/OH6MPgJA60ArBGC/BOPvvhyi8EB5WxK+ubiavwJA60A",
+    "kb": 2142,
+    "type": "Other"
+   },
+   {
+    "url": "https://haoqi.design/model/cnt.gltf",
+    "kb": 1385,
+    "type": "Fetch"
+   },
+   {
+    "url": "data:application/octet-stream;base64,OwerwBreRr8A4ObAOwerwBreRr8A4ObAgcK1wIrPhz0RzNzAT0y7wDRvTD+XdsvAZ567wCEhsD+wnLTAibK2wNWZ4D94+5nAd4KswAEC8j8WoHrALjmewNWZ4D8",
+    "kb": 1018,
+    "type": "Other"
+   },
+   {
+    "url": "https://haoqi.design/img/m3.png",
+    "kb": 989,
+    "type": "Image"
+   },
+   {
+    "url": "https://haoqi.design/bgm.mp3",
+    "kb": 914,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://haoqi.design/work/wasm01.png",
+    "kb": 912,
+    "type": "Image"
+   },
+   {
+    "url": "https://haoqi.design/work/c4.png",
+    "kb": 828,
+    "type": "Image"
+   },
+   {
+    "url": "https://haoqi.design/model/hello.gltf",
+    "kb": 803,
+    "type": "Fetch"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": null,
+  "body": "16px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 143
+}

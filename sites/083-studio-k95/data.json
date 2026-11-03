@@ -1,0 +1,655 @@
+{
+ "id": 83,
+ "name": "Studio K95",
+ "sourceUrl": "https://k95.it/",
+ "capturedAt": "2026-11-03T09:23:00.941Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [
+   "txt:Accept"
+  ],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg"
+  ],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [
+   {
+    "url": "https://k95.it/en/works",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://k95.it/en",
+ "title": "Studio K95 | Brand & Digital Design Studio based in Italy",
+ "lang": "en-US",
+ "generator": null,
+ "seo": {
+  "description": "K95 is an Italian brand and digital design studio creating brand identities, UX/UI systems, and high-performance websites for growth-focused companies.",
+  "canonical": "https://k95.it/en",
+  "robots": "index, follow",
+  "ogTitle": "Studio K95 |  Brand & Digital Design Studio based in Italy",
+  "ogImage": "https://pub-9ea8cedb4c66409db918ceb74fd28b5a.r2.dev/OG_9248c0fe12.jpg",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "Organization",
+   "ProfessionalService",
+   "WebSite"
+  ],
+  "h1Count": 1,
+  "headings": [
+   "H1 K95 — Brand & Digital Design Studio",
+   "H2 Cookies",
+   "H2 Cookie preferences"
+  ],
+  "imgs": 23,
+  "imgNoAlt": 8,
+  "favicon": null,
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#1500e1",
+    "w": 2592000
+   },
+   {
+    "v": "#000000",
+    "w": 1296000
+   },
+   {
+    "v": "#1c1c1c",
+    "w": 148216
+   },
+   {
+    "v": "#ffffff",
+    "w": 31931
+   }
+  ],
+  "text": [
+   {
+    "v": "#ffffff",
+    "w": 315
+   },
+   {
+    "v": "#1500e1",
+    "w": 53
+   }
+  ],
+  "border": [
+   {
+    "v": "#ffffff",
+    "w": 7
+   }
+  ],
+  "fonts": [
+   {
+    "v": "adaptive",
+    "w": 368
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "14px",
+    "w": 54
+   },
+   {
+    "v": "13.3333px",
+    "w": 11
+   },
+   {
+    "v": "14.4px",
+    "w": 7
+   },
+   {
+    "v": "13.12px",
+    "w": 6
+   },
+   {
+    "v": "16px",
+    "w": 5
+   },
+   {
+    "v": "15.2px",
+    "w": 3
+   },
+   {
+    "v": "32px",
+    "w": 1
+   },
+   {
+    "v": "16.8px",
+    "w": 1
+   },
+   {
+    "v": "13.68px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "999px",
+    "w": 7
+   },
+   {
+    "v": "100px",
+    "w": 1
+   },
+   {
+    "v": "50%",
+    "w": 1
+   },
+   {
+    "v": "16px",
+    "w": 1
+   }
+  ],
+  "shadows": [
+   {
+    "v": "rgba(0, 0, 2, 0.3) 0px 10px 30px 0px",
+    "w": 1
+   }
+  ],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.4 0.35s",
+    "w": 44
+   },
+   {
+    "v": "ease 0.15s",
+    "w": 5
+   },
+   {
+    "v": "ease 0.3s",
+    "w": 4
+   },
+   {
+    "v": "cubic-bezier(0.16 0.95s",
+    "w": 3
+   },
+   {
+    "v": "ease 0.2s",
+    "w": 2
+   },
+   {
+    "v": "ease 0.7s",
+    "w": 2
+   },
+   {
+    "v": "ease 0.22s",
+    "w": 2
+   },
+   {
+    "v": "ease 0.25s",
+    "w": 2
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "adaptive, system-ui, sans-serif",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "normal",
+    "letterSpacing": "0.5px",
+    "transform": "none",
+    "color": "#1500e1",
+    "sample": "K95 — Brand & Digital Design Studio"
+   },
+   "h2": {
+    "family": "adaptive, system-ui, sans-serif",
+    "size": "16.8px",
+    "weight": "600",
+    "lineHeight": "19.32px",
+    "letterSpacing": "0.5px",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Cookies"
+   },
+   "p": {
+    "family": "adaptive, system-ui, sans-serif",
+    "size": "14.4px",
+    "weight": "400",
+    "lineHeight": "21.6px",
+    "letterSpacing": "0.5px",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "We use technical cookies and, with your consent, analytics cookies to understand"
+   },
+   "a": {
+    "family": "adaptive, system-ui, sans-serif",
+    "size": "14px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "0.5px",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "AAllll WWoorrkkss"
+   },
+   "button": {
+    "family": "adaptive, system-ui, sans-serif",
+    "size": "14px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "IT"
+   },
+   "li": {
+    "family": "adaptive, system-ui, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "0.5px",
+    "transform": "none",
+    "color": "#1500e1",
+    "sample": "AAllll WWoorrkkss"
+   },
+   "body": {
+    "family": "adaptive, system-ui, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "0.5px",
+    "transform": "none",
+    "color": "#1500e1",
+    "sample": "[100]AAllll WWoorrkkssSSttuuddiiooCCoonnttaaccttIT/EN× CLOSEMENU×CLOSEK95 — Bran"
+   }
+  },
+  "cssVars": {
+   "--color-bg": "#1500e1",
+   "--color-white": "#fff",
+   "--color-glass": "rgba(28,28,28,.1)",
+   "--color-glass-border": "hsla(0,0%,100%,.2)",
+   "--margin-big": "40px",
+   "--margin": "40px",
+   "--col": "calc(8.33333vw - var(--margin)*2/12)",
+   "--gap": "calc(var(--col)*.25)",
+   "--spaceHigh": "160px",
+   "--spaceMedium": "80px",
+   "--spaceMin": "60px",
+   "--tpyesize-35": "2.188em",
+   "--tpyesize-28": "1.75em",
+   "--tpyesize-25": "1.563em",
+   "--tpyesize-20": "1.25em",
+   "--tpyesize-18": "1.125em",
+   "--tpyesize-16": "1em",
+   "--tpyesize-14": ".875em",
+   "--cc-font-family": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\"",
+   "--cc-modal-border-radius": ".5rem",
+   "--cc-btn-border-radius": ".4rem",
+   "--cc-modal-transition-duration": ".25s",
+   "--cc-link-color": "var(--cc-btn-primary-bg)",
+   "--cc-modal-margin": "1rem",
+   "--cc-z-index": "2147483647",
+   "--cc-bg": "#fff",
+   "--cc-primary-color": "#2c2f31",
+   "--cc-secondary-color": "#5e6266",
+   "--cc-btn-primary-bg": "#30363c",
+   "--cc-btn-primary-color": "#fff",
+   "--cc-btn-primary-border-color": "var(--cc-btn-primary-bg)",
+   "--cc-btn-primary-hover-bg": "#000",
+   "--cc-btn-primary-hover-color": "#fff",
+   "--cc-btn-primary-hover-border-color": "var(--cc-btn-primary-hover-bg)",
+   "--cc-btn-secondary-bg": "#eaeff2",
+   "--cc-btn-secondary-color": "var(--cc-primary-color)",
+   "--cc-btn-secondary-border-color": "var(--cc-btn-secondary-bg)",
+   "--cc-btn-secondary-hover-bg": "#d4dae0",
+   "--cc-btn-secondary-hover-color": "#000",
+   "--cc-btn-secondary-hover-border-color": "#d4dae0",
+   "--cc-separator-border-color": "#f0f4f7",
+   "--cc-toggle-on-bg": "var(--cc-btn-primary-bg)",
+   "--cc-toggle-off-bg": "#667481",
+   "--cc-toggle-on-knob-bg": "#fff",
+   "--cc-toggle-off-knob-bg": "var(--cc-toggle-on-knob-bg)",
+   "--cc-toggle-enabled-icon-color": "var(--cc-bg)",
+   "--cc-toggle-disabled-icon-color": "var(--cc-bg)",
+   "--cc-toggle-readonly-bg": "#d5dee2",
+   "--cc-toggle-readonly-knob-bg": "#fff",
+   "--cc-toggle-readonly-knob-icon-color": "var(--cc-toggle-readonly-bg)",
+   "--cc-section-category-border": "var(--cc-cookie-category-block-bg)",
+   "--cc-cookie-category-block-bg": "#f0f4f7",
+   "--cc-cookie-category-block-border": "#f0f4f7",
+   "--cc-cookie-category-block-hover-bg": "#e9eff4",
+   "--cc-cookie-category-block-hover-border": "#e9eff4",
+   "--cc-cookie-category-expanded-block-bg": "transparent",
+   "--cc-cookie-category-expanded-block-hover-bg": "#dee4e9",
+   "--cc-overlay-bg": "rgba(0,0,0,.65)",
+   "--cc-webkit-scrollbar-bg": "var(--cc-section-category-border)",
+   "--cc-webkit-scrollbar-hover-bg": "var(--cc-btn-primary-hover-bg)",
+   "--cc-footer-bg": "var(--cc-btn-secondary-bg)",
+   "--cc-footer-color": "var(--cc-secondary-color)",
+   "--cc-footer-border-color": "#e4eaed",
+   "--cc-pm-toggle-border-radius": "4em"
+  },
+  "fontFaces": [
+   {
+    "family": "adaptive",
+    "weight": "100 900",
+    "style": "normal",
+    "src": "url(\"./adaptive.BWbb4rbN.woff2\") format(\"woff2\")"
+   }
+  ],
+  "keyframes": [
+   "mobileCharIn",
+   "mobileCharIn-5fd1d236"
+  ],
+  "breakpoints": [
+   {
+    "v": "767px",
+    "w": 11
+   },
+   {
+    "v": "768px",
+    "w": 6
+   },
+   {
+    "v": "1023px",
+    "w": 4
+   },
+   {
+    "v": "640px",
+    "w": 3
+   },
+   {
+    "v": "1300px",
+    "w": 2
+   },
+   {
+    "v": "1024px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 945,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "canvas",
+    "id": null,
+    "cls": "webgl is-revealed",
+    "h": 900,
+    "title": "",
+    "media": 0
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "",
+    "href": "https://k95.it/en"
+   },
+   {
+    "t": "AAllll WWoorrkkss",
+    "href": "https://k95.it/en/works"
+   },
+   {
+    "t": "SSttuuddiioo",
+    "href": "https://k95.it/en/studio"
+   },
+   {
+    "t": "CCoonnttaacctt",
+    "href": "https://k95.it/en/contacts"
+   }
+  ],
+  "ctas": [
+   "Accept",
+   "Reject",
+   "Necessary cookies",
+   "Analytics cookies",
+   "Accept all",
+   "Reject all",
+   "Save preferences"
+  ],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 2,
+   "videos": 0,
+   "imgs": 23,
+   "svgs": 11,
+   "iframes": 0,
+   "domNodes": 355
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "183",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": true,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": true,
+  "cms": [
+   "strapi"
+  ],
+  "analytics": [
+   "googletagmanager",
+   "gtag"
+  ],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://k95.it/_nuxt/Cx6gWqY_.js",
+  "https://www.googletagmanager.com/gtag/js?id=G-LMDD97N85N"
+ ],
+ "internal": [
+  "https://k95.it/en/works",
+  "https://k95.it/en/studio",
+  "https://k95.it/en/contacts",
+  "https://k95.it/en/projects/mn-motorcycle-helmet-company",
+  "https://k95.it/en/projects/amts-card",
+  "https://k95.it/en/projects/tap-2",
+  "https://k95.it/en/projects/acaf-riti-della-settimana-santa",
+  "https://k95.it/en/projects/cosmo",
+  "https://k95.it/en/projects/malattie-infettive",
+  "https://k95.it/en/projects/etinvest",
+  "https://k95.it/en/projects/wratislavia-cantans",
+  "https://k95.it/en/projects/stelvio-grotesk",
+  "https://k95.it/en/projects/ortigia-design",
+  "https://k95.it/en/projects/massoneria-e-fascismo",
+  "https://k95.it/en/projects/herbert-typeface",
+  "https://k95.it/en/projects/marocco",
+  "https://k95.it/en/privacy"
+ ],
+ "perf": {
+  "ttfb": 140,
+  "dcl": 195,
+  "load": 196,
+  "lcp": 7392,
+  "lcpEl": "P.cm__desc",
+  "cls": 0
+ },
+ "libs": {
+  "detected": [
+   "Three.js",
+   "Lenis",
+   "Vue",
+   "Nuxt",
+   "Virtual scroll",
+   "GSAP",
+   "ScrollTrigger"
+  ],
+  "where": {
+   "Three.js": [
+    "001-Ds9T5XbZ.js",
+    "007-Cx6gWqY.js",
+    "008-Cx6gWqY.js",
+    "009-Ds9T5XbZ.js",
+    "010-C64vahhe.js",
+    "017-CbzmU9t4.js"
+   ],
+   "Lenis": [
+    "007-Cx6gWqY.js",
+    "008-Cx6gWqY.js",
+    "017-CbzmU9t4.js"
+   ],
+   "Vue": [
+    "007-Cx6gWqY.js",
+    "008-Cx6gWqY.js"
+   ],
+   "Nuxt": [
+    "007-Cx6gWqY.js",
+    "008-Cx6gWqY.js"
+   ],
+   "Virtual scroll": [
+    "007-Cx6gWqY.js",
+    "008-Cx6gWqY.js"
+   ],
+   "GSAP": [
+    "016-BDA7kSH2.js"
+   ],
+   "ScrollTrigger": [
+    "016-BDA7kSH2.js"
+   ]
+  },
+  "gsapVersion": null,
+  "threeRevision": null,
+  "shaders": 23,
+  "scripts": 18
+ },
+ "network": {
+  "requests": 93,
+  "totalKb": 2272,
+  "byType": {
+   "Document": {
+    "n": 2,
+    "kb": 17
+   },
+   "Stylesheet": {
+    "n": 8,
+    "kb": 20
+   },
+   "Script": {
+    "n": 22,
+    "kb": 553
+   },
+   "Other": {
+    "n": 4,
+    "kb": 8
+   },
+   "Font": {
+    "n": 2,
+    "kb": 78
+   },
+   "Image": {
+    "n": 48,
+    "kb": 1589
+   },
+   "Fetch": {
+    "n": 7,
+    "kb": 7
+   }
+  },
+  "thirdPartyHosts": [
+   "cdn.k95.it",
+   "www.googletagmanager.com",
+   "region1.google-analytics.com"
+  ],
+  "fontFiles": [
+   "https://k95.it/_nuxt/adaptive.BWbb4rbN.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://k95.it/_nuxt/C64vahhe.js",
+    "kb": 182,
+    "type": "Script"
+   },
+   {
+    "url": "https://cdn.k95.it/large_cover_6cc5e46bed.jpg",
+    "kb": 173,
+    "type": "Image"
+   },
+   {
+    "url": "https://www.googletagmanager.com/gtag/js?id=G-LMDD97N85N",
+    "kb": 160,
+    "type": "Script"
+   },
+   {
+    "url": "https://k95.it/_nuxt/Cx6gWqY_.js",
+    "kb": 120,
+    "type": "Script"
+   },
+   {
+    "url": "https://cdn.k95.it/large_Frame_62_fd64a2478f.webp",
+    "kb": 111,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.k95.it/large_cover_f3fc78436b.webp",
+    "kb": 104,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.k95.it/large_Frame_67_cf6bf1ed7b.webp",
+    "kb": 92,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.k95.it/large_Frame_54_result_cb2c59b7b4.webp",
+    "kb": 87,
+    "type": "Image"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "32px",
+   "lineHeight": "normal"
+  },
+  "body": "16px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 148
+}

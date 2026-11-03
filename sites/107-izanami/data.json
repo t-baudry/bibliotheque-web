@@ -1,0 +1,632 @@
+{
+ "id": 107,
+ "name": "IZANAMI",
+ "sourceUrl": "https://izanami-official.com/",
+ "capturedAt": "2026-11-03T22:31:58.655Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg"
+  ],
+  "fullPage": 8665,
+  "subpages": [
+   {
+    "url": "https://izanami-official.com/ja/",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://izanami-official.com/philosophy/",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://izanami-official.com/projects/",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://izanami-official.com/",
+ "title": "Izanami | Sharing the Japanese Spirit of Harmony",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Harmony is not something to be created — it is something to be remembered. Guided by the spirit of Wa, Izanami designs harmony across life through School, Craft, and Retreat.",
+  "canonical": null,
+  "robots": null,
+  "ogTitle": "IZANAMI",
+  "ogImage": "https://izanami-official.com/assets/img/ogp.png",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [],
+  "h1Count": 1,
+  "headings": [
+   "H1 Remember who you are",
+   "H2 philosophy",
+   "H2 projects",
+   "H3 01 School",
+   "H3 02 Craft",
+   "H3 03 Retreat",
+   "H2 company"
+  ],
+  "imgs": 4,
+  "imgNoAlt": 4,
+  "favicon": "https://izanami-official.com/favicon.ico",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#d9d7d4",
+    "w": 5232
+   }
+  ],
+  "text": [
+   {
+    "v": "#d9d7d4",
+    "w": 1033
+   },
+   {
+    "v": "#ffffff",
+    "w": 20
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "Shippori Mincho",
+    "w": 591
+   },
+   {
+    "v": "Cinzel",
+    "w": 421
+   },
+   {
+    "v": "Playfair Display",
+    "w": 115
+   },
+   {
+    "v": "Helvetica Neue",
+    "w": 2
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "18px",
+    "w": 151
+   },
+   {
+    "v": "12.6px",
+    "w": 45
+   },
+   {
+    "v": "14.4px",
+    "w": 40
+   },
+   {
+    "v": "36px",
+    "w": 21
+   },
+   {
+    "v": "16.2px",
+    "w": 13
+   },
+   {
+    "v": "16px",
+    "w": 11
+   },
+   {
+    "v": "45px",
+    "w": 10
+   },
+   {
+    "v": "27px",
+    "w": 5
+   }
+  ],
+  "radius": [
+   {
+    "v": "50%",
+    "w": 3
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "linear 0.4s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "\"Helvetica Neue\", Arial, \"Hiragino Kaku Gothic ProN\", \"Hiragino Sans\", Meiryo, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Remember who you are"
+   },
+   "h2": {
+    "family": "Cinzel, serif",
+    "size": "18px",
+    "weight": "400",
+    "lineHeight": "18px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#d9d7d4",
+    "sample": "philosophy"
+   },
+   "h3": {
+    "family": "\"Helvetica Neue\", Arial, \"Hiragino Kaku Gothic ProN\", \"Hiragino Sans\", Meiryo, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#d9d7d4",
+    "sample": "01 School"
+   },
+   "p": {
+    "family": "\"Helvetica Neue\", Arial, \"Hiragino Kaku Gothic ProN\", \"Hiragino Sans\", Meiryo, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#d9d7d4",
+    "sample": "Sharing the Japanese Spirit of Harmony"
+   },
+   "a": {
+    "family": "\"Helvetica Neue\", Arial, \"Hiragino Kaku Gothic ProN\", \"Hiragino Sans\", Meiryo, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#d9d7d4",
+    "sample": "IZANAMI"
+   },
+   "button": {
+    "family": "\"Helvetica Neue\", Arial, \"Hiragino Kaku Gothic ProN\", \"Hiragino Sans\", Meiryo, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#d9d7d4",
+    "sample": "menu close menu close"
+   },
+   "li": {
+    "family": "\"Helvetica Neue\", Arial, \"Hiragino Kaku Gothic ProN\", \"Hiragino Sans\", Meiryo, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#d9d7d4",
+    "sample": "home"
+   },
+   "body": {
+    "family": "\"Helvetica Neue\", Arial, \"Hiragino Kaku Gothic ProN\", \"Hiragino Sans\", Meiryo, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#d9d7d4",
+    "sample": "IZANAMI enenjaja menu close menu close homephilosophyprojectsschoolschoolcraftcr"
+   }
+  },
+  "cssVars": {
+   "--color-white-pure": "#fff",
+   "--color-white": "#d9d7d4",
+   "--color-black": "#0a0801",
+   "--color-black-pure": "#000",
+   "--color-yellow": "#caa100",
+   "--grid-index": "100",
+   "--loader-index": "90",
+   "--header-index": "80",
+   "--transition-index": "70",
+   "--nav-webgl-index": "60",
+   "--nav-index": "50",
+   "--aside-index": "40"
+  },
+  "fontFaces": [
+   {
+    "family": "Satoshi",
+    "weight": "",
+    "style": "",
+    "src": "url(\"./Satoshi-Regular.woff\") format(\"woff\")"
+   }
+  ],
+  "keyframes": [
+   "cloudMove01",
+   "cloudMove02",
+   "notFoundCloudMove01",
+   "notFoundCloudMove02"
+  ],
+  "breakpoints": [
+   {
+    "v": "768px",
+    "w": 4
+   },
+   {
+    "v": "767px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 1100,
+  "crossOriginSheets": 1
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "homeHeader",
+    "h": 1440,
+    "top": 0,
+    "title": "Remember who you are",
+    "media": 8
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "homePhilosophy",
+    "h": 1816,
+    "top": 1440,
+    "title": "philosophy",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "homeProjects",
+    "h": 3158,
+    "top": 3256,
+    "title": "projects",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "homeCompany",
+    "h": 1440,
+    "top": 6414,
+    "title": "company",
+    "media": 0
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "IZANAMI",
+    "href": "https://izanami-official.com/"
+   },
+   {
+    "t": "enen",
+    "href": "https://izanami-official.com/"
+   },
+   {
+    "t": "jaja",
+    "href": "https://izanami-official.com/ja/"
+   },
+   {
+    "t": "home",
+    "href": "https://izanami-official.com/"
+   },
+   {
+    "t": "philosophy",
+    "href": "https://izanami-official.com/philosophy/"
+   },
+   {
+    "t": "projects",
+    "href": "https://izanami-official.com/projects/"
+   },
+   {
+    "t": "schoolschool",
+    "href": "https://izanami-official.com/projects/school/"
+   },
+   {
+    "t": "craftcraft",
+    "href": "https://izanami-official.com/projects/craft/"
+   },
+   {
+    "t": "izanami spaceizanami space",
+    "href": "https://izanami-official.com/projects/craft-space/"
+   },
+   {
+    "t": "retreatretreat",
+    "href": "https://izanami-official.com/projects/retreat/"
+   },
+   {
+    "t": "company",
+    "href": "https://izanami-official.com/company/"
+   },
+   {
+    "t": "contact",
+    "href": "https://izanami-official.com/contact/"
+   },
+   {
+    "t": "privacy policyprivacy policy",
+    "href": "https://izanami-official.com/privacy/"
+   },
+   {
+    "t": "homehome",
+    "href": "https://izanami-official.com/"
+   },
+   {
+    "t": "philosophyphilosophy",
+    "href": "https://izanami-official.com/philosophy/"
+   },
+   {
+    "t": "projectsprojects",
+    "href": "https://izanami-official.com/projects/"
+   },
+   {
+    "t": "companycompany",
+    "href": "https://izanami-official.com/company/"
+   },
+   {
+    "t": "contactcontact",
+    "href": "https://izanami-official.com/contact/"
+   }
+  ],
+  "ctas": [],
+  "pageHeight": 8665,
+  "counts": {
+   "canvas": 2,
+   "videos": 0,
+   "imgs": 4,
+   "svgs": 5,
+   "iframes": 0,
+   "domNodes": 734
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "182",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": true,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [
+   "googletagmanager",
+   "gtag"
+  ],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://www.googletagmanager.com/gtag/js?id=G-2SL94CX264",
+  "https://izanami-official.com/assets/js/index.PhJuwueo.js"
+ ],
+ "internal": [
+  "https://izanami-official.com/ja/",
+  "https://izanami-official.com/philosophy/",
+  "https://izanami-official.com/projects/",
+  "https://izanami-official.com/projects/school/",
+  "https://izanami-official.com/projects/craft/",
+  "https://izanami-official.com/projects/craft-space/",
+  "https://izanami-official.com/projects/retreat/",
+  "https://izanami-official.com/company/",
+  "https://izanami-official.com/contact/",
+  "https://izanami-official.com/privacy/"
+ ],
+ "perf": {
+  "ttfb": 1287,
+  "dcl": 2901,
+  "load": 3223,
+  "lcp": 1636,
+  "lcpEl": "H1.homeHeader_title",
+  "cls": 0
+ },
+ "libs": {
+  "detected": [
+   "GSAP",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Lenis",
+   "Three.js",
+   "Swup",
+   "Alpine.js",
+   "Virtual scroll"
+  ],
+  "where": {
+   "GSAP": [
+    "001-index.PhJuwueo.js"
+   ],
+   "ScrollTrigger": [
+    "001-index.PhJuwueo.js"
+   ],
+   "SplitText/SplitType": [
+    "001-index.PhJuwueo.js"
+   ],
+   "Lenis": [
+    "001-index.PhJuwueo.js",
+    "styles.css"
+   ],
+   "Three.js": [
+    "001-index.PhJuwueo.js"
+   ],
+   "Swup": [
+    "001-index.PhJuwueo.js"
+   ],
+   "Alpine.js": [
+    "001-index.PhJuwueo.js"
+   ],
+   "Virtual scroll": [
+    "001-index.PhJuwueo.js"
+   ]
+  },
+  "gsapVersion": null,
+  "threeRevision": null,
+  "shaders": 31,
+  "scripts": 1
+ },
+ "network": {
+  "requests": 26,
+  "totalKb": 3483,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 13
+   },
+   "Script": {
+    "n": 2,
+    "kb": 408
+   },
+   "Stylesheet": {
+    "n": 3,
+    "kb": 45
+   },
+   "Fetch": {
+    "n": 2,
+    "kb": 0
+   },
+   "Image": {
+    "n": 11,
+    "kb": 2909
+   },
+   "Font": {
+    "n": 5,
+    "kb": 106
+   },
+   "Other": {
+    "n": 2,
+    "kb": 3
+   }
+  },
+  "thirdPartyHosts": [
+   "www.googletagmanager.com",
+   "region1.google-analytics.com",
+   "fonts.googleapis.com",
+   "fonts.gstatic.com"
+  ],
+  "fontFiles": [
+   "https://fonts.gstatic.com/s/cinzel/v26/8vIU7ww63mVu7gtR-kwKxNvkNOjw-tbnfY3lDQ.woff2",
+   "https://fonts.gstatic.com/s/shipporimincho/v17/VdGGAZweH5EbgHY6YExcZfDoj0BA3peS7qtgjp7PoXk4LwzLxlAlXE-_3UM.112.woff2",
+   "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKdFvXDXbtM.woff2",
+   "https://fonts.gstatic.com/s/shipporimincho/v17/VdGGAZweH5EbgHY6YExcZfDoj0Bw3PWD.woff2",
+   "https://izanami-official.com/assets/font/Satoshi-Regular.woff"
+  ],
+  "biggest": [
+   {
+    "url": "https://izanami-official.com/assets/img/common_fv_cloud01.webp",
+    "kb": 936,
+    "type": "Image"
+   },
+   {
+    "url": "https://izanami-official.com/assets/img/home_fv_img.webp",
+    "kb": 494,
+    "type": "Image"
+   },
+   {
+    "url": "https://izanami-official.com/assets/img/common_fv_cloud02.webp",
+    "kb": 378,
+    "type": "Image"
+   },
+   {
+    "url": "https://izanami-official.com/assets/img/home_philosophy_img01.webp",
+    "kb": 333,
+    "type": "Image"
+   },
+   {
+    "url": "https://izanami-official.com/assets/img/home_company_img.webp",
+    "kb": 298,
+    "type": "Image"
+   },
+   {
+    "url": "https://izanami-official.com/assets/js/index.PhJuwueo.js",
+    "kb": 230,
+    "type": "Script"
+   },
+   {
+    "url": "https://izanami-official.com/assets/img/home_projects_img.webp",
+    "kb": 228,
+    "type": "Image"
+   },
+   {
+    "url": "https://www.googletagmanager.com/gtag/js?id=G-2SL94CX264",
+    "kb": 177,
+    "type": "Script"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "16px",
+   "lineHeight": "normal"
+  },
+  "body": "16px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 114
+}

@@ -1,0 +1,1 @@
+import{t as e}from"./DK3Fl9T5.js";import{Rt as t,S as n,m as r,z as i}from"./DtO87taH.js";var a={class:`text-tag rounded-full bg-[#C5C5C5]/20 px-8 py-5`},o=n({__name:`Tag`,props:{content:{}},setup(e){return(n,o)=>(i(),r(`div`,a,t(e.content),1))}}),s=e({default:()=>c}),c=Object.assign(o,{__name:`Tag`});export{s as n,c as t};

@@ -1,0 +1,1 @@
+import{_t as e,t}from"./Cdnf07N5.js";import{i as n}from"./DqAJPSBA.js";var r=e=>{};function i(r){let i=t();e(()=>({htmlAttrs:{lang:i.value.htmlAttrs.lang},link:[...i.value.link||[]],meta:[...i.value.meta||[]]})),e(n(r))}export{r as n,i as t};

@@ -2,11 +2,611 @@
  "id": 15,
  "name": "Signal-A Studio",
  "sourceUrl": "https://signal-a.studio/",
- "capturedAt": "2026-11-02T23:30:17.350Z",
- "status": "inaccessible",
- "errors": [
-  "browserContext.newPage: Target page, context or browser has been closed"
+ "capturedAt": "2026-11-03T08:40:20.494Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg"
+  ],
+  "fullPage": 6278,
+  "subpages": [
+   {
+    "url": "https://signal-a.studio/case-studies",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://signal-a.studio/archive",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg"
+    ]
+   },
+   {
+    "url": "https://signal-a.studio/about",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://signal-a.studio/",
+ "title": "Signal-A Studio • Award–Winning Web Design & Product Design Studio",
+ "lang": null,
+ "generator": null,
+ "seo": {
+  "description": "Meticulously crafted, award-winning Web Design and Product Design. Tailored to connect with your audience. Engineered for the lasting impact.",
+  "canonical": "https://signal-a.studio/",
+  "robots": null,
+  "ogTitle": "Signal-A Studio • Award–Winning Web Design & Product Design Studio",
+  "ogImage": "https://cdn.prod.website-files.com/678617fee0f8375ca169e7ae/694f076479842b6de0ddb22b_signal-a-studio-og.jpg",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "Organization"
+  ],
+  "h1Count": 0,
+  "headings": [],
+  "imgs": 54,
+  "imgNoAlt": 53,
+  "favicon": "https://cdn.prod.website-files.com/678617fee0f8375ca169e7ae/6954567f330dcefc22a7d092_Frame%203615.png",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#ffffff",
+    "w": 498011
+   },
+   {
+    "v": "#000000",
+    "w": 455051
+   }
+  ],
+  "text": [
+   {
+    "v": "#000000",
+    "w": 1640
+   }
+  ],
+  "border": [
+   {
+    "v": "#000000",
+    "w": 1
+   },
+   {
+    "v": "#ffffff",
+    "w": 1
+   }
+  ],
+  "fonts": [
+   {
+    "v": "Gt America Mono",
+    "w": 1364
+   },
+   {
+    "v": "Neue Haas Grotesk Text Pro",
+    "w": 276
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "12px",
+    "w": 315
+   },
+   {
+    "v": "17px",
+    "w": 104
+   },
+   {
+    "v": "23px",
+    "w": 12
+   },
+   {
+    "v": "50px",
+    "w": 6
+   },
+   {
+    "v": "100px",
+    "w": 6
+   },
+   {
+    "v": "30px",
+    "w": 4
+   },
+   {
+    "v": "16px",
+    "w": 1
+   },
+   {
+    "v": "13px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "10px",
+    "w": 1
+   },
+   {
+    "v": "1px",
+    "w": 1
+   }
+  ],
+  "shadows": [],
+  "transitions": [],
+  "typo": {
+   "a": {
+    "family": "\"Gt America Mono\", Arial, sans-serif",
+    "size": "12px",
+    "weight": "300",
+    "lineHeight": "12px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#000000",
+    "sample": "Home"
+   },
+   "body": {
+    "family": "\"Gt America Mono\", Arial, sans-serif",
+    "size": "12px",
+    "weight": "300",
+    "lineHeight": "12px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#000000",
+    "sample": "S—A[menu][close]InstagramBehanceHomeCase StudiesArchiveAboutContactHomeCase Stud"
+   }
+  },
+  "cssVars": {
+   "--s-a-black": "#000",
+   "--s-a-mono-font-default": "10px",
+   "--s-a-site-margin-default": "10px",
+   "--s-a-gap-default": "10px",
+   "--s-a-black-persistent": "black",
+   "--s-a-default-text": "13px",
+   "--s-a-mono-font-gap-default": "4px",
+   "--s-a-stroke-width-default": "1px",
+   "--s-a-case-study-color-variable": "#fff",
+   "--s-a-line-height-mono-default": "130%",
+   "--s-a-menu-back-height-px": "39px",
+   "--s-a-social-buttons-hover": "0px",
+   "--s-a-case-study-color-variable-overwrite": "#0000",
+   "--s-a-menu-back-height": "39%"
+  },
+  "fontFaces": [
+   {
+    "family": "webflow-icons",
+    "weight": "normal",
+    "style": "normal",
+    "src": "url(\"data:application/x-font-ttf;charset=utf-8;base64,AAEAAAALAIAAAwAwT1MvMg8SBiUAAAC8AAAAYGNtYXDpP+a4AAABHAAAAFxnYXNwAAAAEAAAAXgAAAAIZ2x5ZmhS2XEAAAGAAAADHGhlYWQTFw3HAAAEnAAAADZoaGVhCXYFgQAABNQAAAAkaG"
+   },
+   {
+    "family": "Gt America Mono",
+    "weight": "300",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/678617fee0f8375ca169e7ae/67861e262170bcb8bb054418_GT-America-Mono-Light.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Neue Haas Grotesk Text Pro",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/678617fee0f8375ca169e7ae/67861e519defbf311ba039fa_font.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "PPEditorialNew",
+    "weight": "200",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/678617fee0f8375ca169e7ae/67865a190e53853e62fa9794_PPEditorialNew-Ultralight.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "PPEditorialNew",
+    "weight": "100",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/678617fee0f8375ca169e7ae/67865a1914387179695736ee_PPEditorialNew-Thin.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Neue Haas Grotesk Text Pro",
+    "weight": "300",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/678617fee0f8375ca169e7ae/6945e1bcc8dd6ad7ea75f127_font.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Neue Haas Grotesk Display Pro",
+    "weight": "300",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/678617fee0f8375ca169e7ae/6946c8aa27441b800c75131f_light.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Neue Haas Grotesk Display Pro",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/678617fee0f8375ca169e7ae/6946c8aa73b78faada54ae09_regular.woff2\") format(\"woff2\")"
+   }
+  ],
+  "keyframes": [
+   "spin",
+   "translateX"
+  ],
+  "breakpoints": [
+   {
+    "v": "991px",
+    "w": 12
+   },
+   {
+    "v": "767px",
+    "w": 10
+   },
+   {
+    "v": "479px",
+    "w": 7
+   },
+   {
+    "v": "768px",
+    "w": 7
+   },
+   {
+    "v": "992px",
+    "w": 6
+   },
+   {
+    "v": "1920px",
+    "w": 2
+   },
+   {
+    "v": "1400px",
+    "w": 2
+   },
+   {
+    "v": "1399px",
+    "w": 2
+   },
+   {
+    "v": "480px",
+    "w": 2
+   },
+   {
+    "v": "2500px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 2009,
+  "crossOriginSheets": 1
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "w-layout-vflex s-a-above-the-fold-wrapper",
+    "h": 855,
+    "title": "",
+    "media": 5
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "s-a-video-wrapper-muted s-a-video-wrapper",
+    "h": 533,
+    "title": "",
+    "media": 1
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "s-a-spacer-250",
+    "h": 250,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "s-a-grid-1-row s-a-hide-on-mobile",
+    "h": 2151,
+    "title": "",
+    "media": 7
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "s-a-spacer-320",
+    "h": 320,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "s-a-spacer-320",
+    "h": 320,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "s-a-grid-1-row s-a-hide-on-mobile top-line",
+    "h": 551,
+    "title": "",
+    "media": 10
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "s-a-footer section-3",
+    "h": 524,
+    "title": "",
+    "media": 5
+   }
+  ],
+  "navLinks": [],
+  "ctas": [],
+  "pageHeight": 5921,
+  "counts": {
+   "canvas": 0,
+   "videos": 1,
+   "imgs": 54,
+   "svgs": 0,
+   "iframes": 0,
+   "domNodes": 903
+  }
+ },
+ "tech": {
+  "gsap": true,
+  "gsapVersion": "3.15.0",
+  "scrollTrigger": true,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": true,
+  "three": false,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": true,
+  "webflow": true,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": false
+ },
+ "scripts": [
+  "https://unpkg.com/lenis@1.1.20/dist/lenis.min.js",
+  "https://cloud.umami.is/script.js",
+  "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js",
+  "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=678617fee0f8375ca169e7ae",
+  "https://cdn.prod.website-files.com/678617fee0f8375ca169e7ae/js/webflow.schunk.36b8fb49256177c8.js",
+  "https://cdn.prod.website-files.com/678617fee0f8375ca169e7ae/js/webflow.schunk.81e2b88bbbc87da6.js",
+  "https://cdn.prod.website-files.com/678617fee0f8375ca169e7ae/js/webflow.df007856.2a3e180d992e8d72.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js",
+  "https://player.vimeo.com/api/player.js"
  ],
- "steps": {},
- "durationS": 3
+ "internal": [
+  "https://signal-a.studio/case-studies",
+  "https://signal-a.studio/archive",
+  "https://signal-a.studio/about",
+  "https://signal-a.studio/contact",
+  "https://signal-a.studio/case-studies/laura-makabresku",
+  "https://signal-a.studio/case-studies/livwrk",
+  "https://signal-a.studio/case-studies/ada-sokol",
+  "https://signal-a.studio/case-studies/ttmm",
+  "https://signal-a.studio/case-studies/aggressive",
+  "https://signal-a.studio/case-studies/peter-tarka"
+ ],
+ "perf": {
+  "ttfb": 373,
+  "dcl": 869,
+  "load": 1104,
+  "lcp": 784,
+  "lcpEl": "IMG.s-a-main-header-a",
+  "cls": 0.061
+ },
+ "libs": {
+  "detected": [
+   "Lenis",
+   "Virtual scroll",
+   "GSAP",
+   "ScrollTrigger",
+   "Lottie",
+   "jQuery",
+   "SplitText/SplitType",
+   "Contentful",
+   "Swiper"
+  ],
+  "where": {
+   "Lenis": [
+    "001-lenis.min.js",
+    "styles.css"
+   ],
+   "Virtual scroll": [
+    "001-lenis.min.js"
+   ],
+   "GSAP": [
+    "004-ScrollTrigger.min.js",
+    "006-gsap.min.js"
+   ],
+   "ScrollTrigger": [
+    "004-ScrollTrigger.min.js",
+    "006-gsap.min.js"
+   ],
+   "Lottie": [
+    "005-webflow.schunk.81e2b88bbbc87da6.js"
+   ],
+   "jQuery": [
+    "005-webflow.schunk.81e2b88bbbc87da6.js",
+    "007-jquery-3.5.1.min.dc5e7f18c8.js",
+    "010-player.js"
+   ],
+   "SplitText/SplitType": [
+    "006-gsap.min.js"
+   ],
+   "Contentful": [
+    "008-script.js"
+   ],
+   "Swiper": [
+    "009-swiper-bundle.min.js"
+   ]
+  },
+  "gsapVersion": "3.11.0",
+  "threeRevision": null,
+  "shaders": 0,
+  "scripts": 10
+ },
+ "network": {
+  "requests": 51,
+  "totalKb": 15491,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 38
+   },
+   "Stylesheet": {
+    "n": 2,
+    "kb": 0
+   },
+   "Image": {
+    "n": 30,
+    "kb": 1977
+   },
+   "Script": {
+    "n": 10,
+    "kb": 189
+   },
+   "Font": {
+    "n": 4,
+    "kb": 159
+   },
+   "Media": {
+    "n": 1,
+    "kb": 13126
+   },
+   "Other": {
+    "n": 1,
+    "kb": 1
+   },
+   "Preflight": {
+    "n": 1,
+    "kb": 0
+   },
+   "Fetch": {
+    "n": 1,
+    "kb": 1
+   }
+  },
+  "thirdPartyHosts": [
+   "cdn.prod.website-files.com",
+   "unpkg.com",
+   "d3e54v103j8qbb.cloudfront.net",
+   "cloud.umami.is",
+   "cdn.jsdelivr.net",
+   "s-i-g.nl",
+   "player.vimeo.com",
+   "gateway.umami.is"
+  ],
+  "fontFiles": [
+   "https://cdn.prod.website-files.com/678617fee0f8375ca169e7ae/67861e262170bcb8bb054418_GT-America-Mono-Light.woff2",
+   "https://cdn.prod.website-files.com/678617fee0f8375ca169e7ae/67865a1914387179695736ee_PPEditorialNew-Thin.woff2",
+   "https://cdn.prod.website-files.com/678617fee0f8375ca169e7ae/67861e519defbf311ba039fa_font.woff2",
+   "https://cdn.prod.website-files.com/678617fee0f8375ca169e7ae/6945e1bcc8dd6ad7ea75f127_font.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://s-i-g.nl/signal-a-showreel-short-2026.mp4",
+    "kb": 13126,
+    "type": "Media"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/678617fee0f8375ca169e7ae/67fe06b30d981a7b05a44ea1_cursor-aggressive.png",
+    "kb": 347,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/678617fee0f8375ca169e7ae/6800deb413a461efe97654e3_cursor-laura-b.png",
+    "kb": 250,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/678617fee0f8375ca169e7ae/68179238cda64534a0ae7ca3_b-cs-cursor-adasokol-hover23%20(2).jpg",
+    "kb": 214,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/678617fee0f8375ca169e7ae/67ca41f1a2b077e9ea4b62a4_laura-a.jpg",
+    "kb": 176,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/678617fee0f8375ca169e7ae/67fe06b3bb72e35d9291029a_cursor-adasokol.png",
+    "kb": 167,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/678617fee0f8375ca169e7ae/68566aa87ab8a96457168e0d_cursor-tarka.png",
+    "kb": 155,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/678617fee0f8375ca169e7ae/681686d5cda64534a02f540d_b-cs-cursor-aggressive2.jpg",
+    "kb": 124,
+    "type": "Image"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": null,
+  "body": "10px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 96
 }

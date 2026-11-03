@@ -1,0 +1,551 @@
+{
+ "id": 81,
+ "name": "Mosbys Files",
+ "sourceUrl": "https://www.mosbyfiles.com/",
+ "capturedAt": "2026-11-03T09:18:48.534Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg"
+  ],
+  "fullPage": 1404,
+  "subpages": [
+   {
+    "url": "https://www.mosbyfiles.com/about",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg"
+    ]
+   },
+   {
+    "url": "https://www.mosbyfiles.com/cases/frank-lloyd-wright",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://www.mosbyfiles.com/",
+ "title": "Mosby’s Files—American Modernist Architecture",
+ "lang": "en_US",
+ "generator": null,
+ "seo": {
+  "description": "A research-driven archive exploring the architects who built American Modernism—independently of Europe, and on their own radical terms.",
+  "canonical": null,
+  "robots": null,
+  "ogTitle": "Mosby’s Files—American Modernist Architecture",
+  "ogImage": "https://a.storyblok.com/f/290489675855311/1200x630/16e4014d16/og.png",
+  "twitterCard": "summary",
+  "jsonLd": [],
+  "h1Count": 1,
+  "headings": [
+   "H1 American modernism"
+  ],
+  "imgs": 9,
+  "imgNoAlt": 7,
+  "favicon": "https://a.storyblok.com/f/290489675855311/96x96/1651f017d9/favicon-96x96.png",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#1e4bd7",
+    "w": 3146102
+   },
+   {
+    "v": "#d71e1e",
+    "w": 2924128
+   },
+   {
+    "v": "#0c7866",
+    "w": 2077899
+   },
+   {
+    "v": "#581e70",
+    "w": 1951020
+   },
+   {
+    "v": "#ffe927",
+    "w": 989134
+   },
+   {
+    "v": "#000000",
+    "w": 989134
+   },
+   {
+    "v": "#191919",
+    "w": 86925
+   }
+  ],
+  "text": [
+   {
+    "v": "#ffffff",
+    "w": 1545
+   },
+   {
+    "v": "#787a7f",
+    "w": 194
+   },
+   {
+    "v": "#fdfaf7",
+    "w": 52
+   },
+   {
+    "v": "#000000",
+    "w": 31
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "IBM Plex Mono",
+    "w": 1399
+   },
+   {
+    "v": "Signifier",
+    "w": 406
+   },
+   {
+    "v": "Founders Grotesk",
+    "w": 17
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "26px",
+    "w": 18
+   },
+   {
+    "v": "144.06px",
+    "w": 17
+   },
+   {
+    "v": "12px",
+    "w": 11
+   },
+   {
+    "v": "16px",
+    "w": 3
+   },
+   {
+    "v": "20px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "4px",
+    "w": 20
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.33 0.65s",
+    "w": 22
+   },
+   {
+    "v": "ease 0.65s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "\"Founders Grotesk\", sans-serif",
+    "size": "144.06px",
+    "weight": "700",
+    "lineHeight": "115.248px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#fdfaf7",
+    "sample": "American modernism"
+   },
+   "p": {
+    "family": "Signifier, serif",
+    "size": "20px",
+    "weight": "400",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#787a7f",
+    "sample": "A project exploring early 20th-century American architects, contrasting them wit"
+   },
+   "a": {
+    "family": "\"IBM Plex Mono\", sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "32px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#fdfaf7",
+    "sample": "About"
+   },
+   "body": {
+    "family": "Signifier, serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#fdfaf7",
+    "sample": "AboutAmerican modernismA project exploring early 20th-century American architect"
+   }
+  },
+  "cssVars": {
+   "--stack-border-radius": "4px",
+   "--stack-group-height-sm": "15vh",
+   "--stack-group-height-lg": "80vh",
+   "--stack-group-offset": "3.75rem",
+   "--stack-perspective": "3000px",
+   "--stack-rotation-angle": "-3deg",
+   "--stack-rotation-offset": "1rem",
+   "--stack-shadow": "0 -1px 8px rgba(0,0,0,.15)",
+   "--folder-shadow": "1px 0 8px rgba(0,0,0,.15)",
+   "--folder-offset": "65vh",
+   "--tag-height": "2.25rem",
+   "--tag-aspect-ratio": "1.409",
+   "--case-content-width": "calc(var(--container-size) - var(--tag-height))",
+   "--color-light": "#fdfaf7",
+   "--color-gray": "#787a7f",
+   "--color-dark": "#191919",
+   "--color-primary": "var(--color-dark)",
+   "--color-contrast": "var(--color-light)",
+   "--container-size": "calc(100vw - var(--container-offset)*2)",
+   "--container-offset": "18px"
+  },
+  "fontFaces": [
+   {
+    "family": "Signifier",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"../fonts/signifier-light.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Founders Grotesk",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"../fonts/founders-grotesk-x-condensed-bold.woff2\") format(\"woff2\")"
+   }
+  ],
+  "keyframes": [
+   "plyr-progress",
+   "plyr-popup",
+   "plyr-fade-in"
+  ],
+  "breakpoints": [
+   {
+    "v": "1024px",
+    "w": 73
+   },
+   {
+    "v": "480px",
+    "w": 67
+   },
+   {
+    "v": "768px",
+    "w": 64
+   },
+   {
+    "v": "1025px",
+    "w": 16
+   },
+   {
+    "v": "900px",
+    "w": 2
+   },
+   {
+    "v": "320px",
+    "w": 2
+   },
+   {
+    "v": "1440px",
+    "w": 2
+   },
+   {
+    "v": "1920px",
+    "w": 2
+   }
+  ],
+  "rulesCount": 1016,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "section",
+    "id": "hero",
+    "cls": "section-hero container",
+    "h": 900,
+    "title": "American modernism",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "page-home__stack container",
+    "h": 504,
+    "title": "",
+    "media": 9
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "",
+    "href": "https://www.mosbyfiles.com/#hero"
+   },
+   {
+    "t": "About",
+    "href": "https://www.mosbyfiles.com/about"
+   }
+  ],
+  "ctas": [],
+  "pageHeight": 1404,
+  "counts": {
+   "canvas": 0,
+   "videos": 0,
+   "imgs": 9,
+   "svgs": 21,
+   "iframes": 0,
+   "domNodes": 331
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": false,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": true,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": true,
+  "cms": [
+   "storyblok"
+  ],
+  "analytics": [],
+  "customCursor": false,
+  "audio": true,
+  "webglCanvas": false
+ },
+ "scripts": [
+  "https://www.mosbyfiles.com/_nuxt/DwAQhwlc.js",
+  "https://www.mosbyfiles.com/011577f85c59f7d4/script.js"
+ ],
+ "internal": [
+  "https://www.mosbyfiles.com/about",
+  "https://www.mosbyfiles.com/cases/frank-lloyd-wright",
+  "https://www.mosbyfiles.com/cases/irving-gill",
+  "https://www.mosbyfiles.com/cases/frank-gehry",
+  "https://www.mosbyfiles.com/cases/louis-kahn",
+  "https://www.mosbyfiles.com/cases/i-m-pei",
+  "https://www.mosbyfiles.com/cases/paul-rudolph",
+  "https://www.mosbyfiles.com/cases/mary-colter",
+  "https://www.mosbyfiles.com/cases/louis-sullivan"
+ ],
+ "perf": {
+  "ttfb": 172,
+  "dcl": 809,
+  "load": 839,
+  "lcp": 2264,
+  "lcpEl": "P.section-hero__desc",
+  "cls": 0
+ },
+ "libs": {
+  "detected": [
+   "SplitText/SplitType",
+   "Storyblok",
+   "GSAP",
+   "ScrollTrigger",
+   "Lenis",
+   "Swiper",
+   "Vue",
+   "Nuxt",
+   "Virtual scroll"
+  ],
+  "where": {
+   "SplitText/SplitType": [
+    "006-CVQ6qitU.js",
+    "008-DwAQhwlc.js",
+    "011-DhJT0uft.js"
+   ],
+   "Storyblok": [
+    "006-CVQ6qitU.js",
+    "008-DwAQhwlc.js",
+    "011-DhJT0uft.js"
+   ],
+   "GSAP": [
+    "008-DwAQhwlc.js"
+   ],
+   "ScrollTrigger": [
+    "008-DwAQhwlc.js"
+   ],
+   "Lenis": [
+    "008-DwAQhwlc.js",
+    "010-DD2_rTkE.js",
+    "011-DhJT0uft.js",
+    "styles.css"
+   ],
+   "Swiper": [
+    "008-DwAQhwlc.js"
+   ],
+   "Vue": [
+    "008-DwAQhwlc.js"
+   ],
+   "Nuxt": [
+    "008-DwAQhwlc.js"
+   ],
+   "Virtual scroll": [
+    "008-DwAQhwlc.js"
+   ]
+  },
+  "gsapVersion": "3.11.0",
+  "threeRevision": null,
+  "shaders": 0,
+  "scripts": 11
+ },
+ "network": {
+  "requests": 41,
+  "totalKb": 1538,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 67
+   },
+   "Script": {
+    "n": 11,
+    "kb": 1026
+   },
+   "Stylesheet": {
+    "n": 9,
+    "kb": 19
+   },
+   "Image": {
+    "n": 9,
+    "kb": 287
+   },
+   "Font": {
+    "n": 3,
+    "kb": 79
+   },
+   "Other": {
+    "n": 1,
+    "kb": 15
+   },
+   "Preflight": {
+    "n": 3,
+    "kb": 0
+   },
+   "Fetch": {
+    "n": 4,
+    "kb": 45
+   }
+  },
+  "thirdPartyHosts": [
+   "a.storyblok.com",
+   "fonts.googleapis.com",
+   "fonts.gstatic.com",
+   "api.storyblok.com"
+  ],
+  "fontFiles": [
+   "https://www.mosbyfiles.com/fonts/signifier-light.woff2",
+   "https://www.mosbyfiles.com/fonts/founders-grotesk-x-condensed-bold.woff2",
+   "https://fonts.gstatic.com/s/ibmplexmono/v20/-F63fjptAgt5VM-kVkqdyU8n1i8q1w.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://www.mosbyfiles.com/_nuxt/DwAQhwlc.js",
+    "kb": 1010,
+    "type": "Script"
+   },
+   {
+    "url": "https://a.storyblok.com/f/290489675855311/1000x1000/468e4bf99e/f-1.png",
+    "kb": 83,
+    "type": "Image"
+   },
+   {
+    "url": "https://www.mosbyfiles.com/",
+    "kb": 67,
+    "type": "Document"
+   },
+   {
+    "url": "https://www.mosbyfiles.com/fonts/signifier-light.woff2",
+    "kb": 52,
+    "type": "Font"
+   },
+   {
+    "url": "https://a.storyblok.com/f/290489675855311/1000x1000/8b5a7398ab/f-5.png",
+    "kb": 51,
+    "type": "Image"
+   },
+   {
+    "url": "https://a.storyblok.com/f/290489675855311/600x600/34412f0df3/f-6.avif",
+    "kb": 45,
+    "type": "Image"
+   },
+   {
+    "url": "https://api.storyblok.com/v2/cdn/stories/global?cv=1786438017&resolve_level=2&resolve_relations=stack-group.cases&token=WdeDlX0eomdlf8mnDLcSYQtt&version=publish",
+    "kb": 43,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://a.storyblok.com/f/290489675855311/1000x1000/d95be3fd6c/f-3.png",
+    "kb": 42,
+    "type": "Image"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "81.42px",
+   "lineHeight": "65.136px"
+  },
+  "body": "13px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 59
+}

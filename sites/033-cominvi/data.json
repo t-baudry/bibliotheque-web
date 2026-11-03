@@ -2,11 +2,790 @@
  "id": 33,
  "name": "CoMinVi",
  "sourceUrl": "https://www.cominvi.com.mx/",
- "capturedAt": "2026-11-02T23:42:53.691Z",
- "status": "inaccessible",
- "errors": [
-  "browserContext.newPage: Target page, context or browser has been closed"
+ "capturedAt": "2026-11-03T08:49:29.767Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg"
+  ],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [
+   {
+    "url": "https://www.cominvi.com.mx/our-services",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.cominvi.com.mx/technology",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.cominvi.com.mx/safety",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://www.cominvi.com.mx/",
+ "title": "CoMinVi | Underground Mining Contractor in Mexico",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Leading underground mining contractor in Mexico with 20+ years experience. Specializing in tunnel development, ground support, and mineral extraction.",
+  "canonical": null,
+  "robots": null,
+  "ogTitle": "CoMinVi | Underground Mining Contractor in Mexico",
+  "ogImage": "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/69034eae044d2b697b4bbb9d_og-img.jpg",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "Organization"
+  ],
+  "h1Count": 1,
+  "headings": [
+   "H1 Your trusted partnerin underground mining",
+   "H2 About us",
+   "H2 Our services",
+   "H3 Engineering",
+   "H3 Ground Support & Fortification",
+   "H3 Development",
+   "H3 Production",
+   "H3 Hauling",
+   "H3 Minerals we extract",
+   "H2 Minerals",
+   "H2 Safety Policy",
+   "H2 Technology",
+   "H3 Motor Grader",
+   "H3 Telehandler",
+   "H3 Compactor",
+   "H3 Backhoe Loaders With Baskets",
+   "H3 Face-Drilling Rig",
+   "H3 Load-Haul-Dump Loader",
+   "H2 Our Team",
+   "H3 Operation",
+   "H3 Quality Processes",
+   "H3 Security",
+   "H3 Maintenance",
+   "H3 Administration & ressources",
+   "H2 Our Partners"
+  ],
+  "imgs": 24,
+  "imgNoAlt": 1,
+  "favicon": "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/690b4b79b2b59fd6a07eff55_Favicon32.svg",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#ffffff",
+    "w": 15463554
+   },
+   {
+    "v": "#ebf0ed",
+    "w": 6903954
+   },
+   {
+    "v": "#151515",
+    "w": 5384169
+   },
+   {
+    "v": "#020202",
+    "w": 1296000
+   },
+   {
+    "v": "#e0e0e0",
+    "w": 194173
+   }
+  ],
+  "text": [
+   {
+    "v": "#151515",
+    "w": 3403
+   },
+   {
+    "v": "#ebf0ed",
+    "w": 1204
+   },
+   {
+    "v": "#ffffff",
+    "w": 275
+   },
+   {
+    "v": "#f47920",
+    "w": 2
+   }
+  ],
+  "border": [
+   {
+    "v": "#151515",
+    "w": 19
+   },
+   {
+    "v": "#000000",
+    "w": 8
+   },
+   {
+    "v": "#ffffff",
+    "w": 5
+   }
+  ],
+  "fonts": [
+   {
+    "v": "Helvetica Now Display",
+    "w": 4429
+   },
+   {
+    "v": "PP Supply Mono",
+    "w": 455
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "48px",
+    "w": 1117
+   },
+   {
+    "v": "16px",
+    "w": 77
+   },
+   {
+    "v": "12px",
+    "w": 43
+   },
+   {
+    "v": "11.2px",
+    "w": 22
+   },
+   {
+    "v": "32px",
+    "w": 20
+   },
+   {
+    "v": "20px",
+    "w": 8
+   },
+   {
+    "v": "40px",
+    "w": 6
+   },
+   {
+    "v": "13.008px",
+    "w": 3
+   },
+   {
+    "v": "14px",
+    "w": 2
+   },
+   {
+    "v": "56px",
+    "w": 2
+   },
+   {
+    "v": "10.8px",
+    "w": 2
+   },
+   {
+    "v": "24px",
+    "w": 1
+   },
+   {
+    "v": "112px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "4px",
+    "w": 23
+   },
+   {
+    "v": "8px",
+    "w": 17
+   },
+   {
+    "v": "2px",
+    "w": 2
+   },
+   {
+    "v": "1000px",
+    "w": 1
+   },
+   {
+    "v": "100%",
+    "w": 1
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "ease 0.4s",
+    "w": 26
+   },
+   {
+    "v": "cubic-bezier(0.5 0.8s",
+    "w": 23
+   },
+   {
+    "v": "ease-in-out 0.15s",
+    "w": 13
+   },
+   {
+    "v": "cubic-bezier(0.5 0.4s",
+    "w": 6
+   },
+   {
+    "v": "ease-in-out 0.2s",
+    "w": 3
+   },
+   {
+    "v": "cubic-bezier(0.6 0.5s",
+    "w": 2
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "\"Helvetica Now Display\", Arial, sans-serif",
+    "size": "16px",
+    "weight": "700",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Your trusted partnerin underground mining"
+   },
+   "h2": {
+    "family": "\"PP Supply Mono\", Arial, sans-serif",
+    "size": "11.2px",
+    "weight": "300",
+    "lineHeight": "10.08px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "About us"
+   },
+   "h3": {
+    "family": "\"Helvetica Now Display\", Arial, sans-serif",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "35.2px",
+    "letterSpacing": "-0.8px",
+    "transform": "none",
+    "color": "#151515",
+    "sample": "Engineering"
+   },
+   "p": {
+    "family": "\"Helvetica Now Display\", Arial, sans-serif",
+    "size": "48px",
+    "weight": "700",
+    "lineHeight": "48px",
+    "letterSpacing": "-0.4704px",
+    "transform": "none",
+    "color": "#151515",
+    "sample": "CoMinVi is a leading underground miningcontractor with our Corporate Office andC"
+   },
+   "a": {
+    "family": "\"Helvetica Now Display\", Arial, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#151515",
+    "sample": "Our Services"
+   },
+   "button": {
+    "family": "\"Helvetica Now Display\", Arial, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "MenuMenuopen menu"
+   },
+   "li": {
+    "family": "\"Helvetica Now Display\", Arial, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#151515",
+    "sample": "Our Services"
+   },
+   "body": {
+    "family": "\"Helvetica Now Display\", Arial, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#151515",
+    "sample": "Turn your phone for a better experience /* ------------------------- Scaling Sys"
+   }
+  },
+  "cssVars": {
+   "--primary": "#151515",
+   "--white": "white",
+   "--_spacings---site-margin": "1em",
+   "--accent": "#f47920",
+   "--light-green": "#ebf0ed",
+   "--_ui-colors---button-bg": "var(--primary)",
+   "--_ui-colors---button-text": "var(--white)",
+   "--gray": "#e0e0e0",
+   "--_ui-colors---button-arrow-1-bg": "var(--white)",
+   "--_ui-colors---button-arrow-1-el": "var(--primary)",
+   "--_ui-colors---button-arrow-2-bg": "var(--primary)",
+   "--_ui-colors---button-bg-hover": "var(--accent)",
+   "--_ui-colors---button-text-hover": "var(--primary)",
+   "--_ui-colors---button-arrow-2-el": "var(--accent)",
+   "--size-unit": "16",
+   "--size-container-ideal": "390",
+   "--size-container-min": "320px",
+   "--size-container-max": "479px",
+   "--size-container": "clamp(var(--size-container-min), 100vw, var(--size-container-max))",
+   "--size-font": "calc(var(--size-container) / (var(--size-container-ideal) / var(--size-unit)))"
+  },
+  "fontFaces": [
+   {
+    "family": "webflow-icons",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"data:application/x-font-ttf;charset=utf-8;base64,AAEAAAALAIAAAwAwT1MvMg8SBiUAAAC8AAAAYGNtYXDpP+a4AAABHAAAAFxnYXNwAAAAEAAAAXgAAAAIZ2x5ZmhS2XEAAAGAAAADHGhlYWQTFw3HAAAEnAAAADZoaGVhCXYFgQAABNQAAAAkaG"
+   },
+   {
+    "family": "Helvetica Now Display",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/6899ad166b8e51fe05dc4a3d_HelveticaNowDisplay-Bold.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "PP Supply Mono",
+    "weight": "300",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/6899ad2cbb853e01ecffd64d_PPSupplyMono-Light.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Helvetica Now Display",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/6899baf306f22ae8957e5654_HelveticaNowDisplay-Medium.woff2\") format(\"woff2\")"
+   }
+  ],
+  "keyframes": [
+   "spin"
+  ],
+  "breakpoints": [
+   {
+    "v": "991px",
+    "w": 15
+   },
+   {
+    "v": "767px",
+    "w": 11
+   },
+   {
+    "v": "479px",
+    "w": 9
+   },
+   {
+    "v": "768px",
+    "w": 6
+   },
+   {
+    "v": "1440px",
+    "w": 2
+   },
+   {
+    "v": "992px",
+    "w": 2
+   },
+   {
+    "v": "1439px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 2331,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "section_hero",
+    "h": 900,
+    "title": "Your trusted partnerin underground mining",
+    "media": 8
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "section_about",
+    "h": 1538,
+    "title": "About us",
+    "media": 1
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "section_services",
+    "h": 1648,
+    "title": "Our services",
+    "media": 5
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "section_minerals",
+    "h": 2430,
+    "title": "Minerals we extract",
+    "media": 1
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "section_safety is-lenis-sticky",
+    "h": 1635,
+    "title": "Safety Policy",
+    "media": 1
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "section_technology",
+    "h": 3112,
+    "title": "Technology",
+    "media": 6
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "section_teams",
+    "h": 1977,
+    "title": "Our Team",
+    "media": 5
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "section_partners",
+    "h": 2917,
+    "title": "Our Partners",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "section_next",
+    "h": 900,
+    "title": "",
+    "media": 1
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "footer",
+    "h": 447,
+    "title": "",
+    "media": 0
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "",
+    "href": "https://www.cominvi.com.mx/"
+   },
+   {
+    "t": "En",
+    "href": "https://www.cominvi.com.mx/"
+   },
+   {
+    "t": "Es",
+    "href": "https://www.cominvi.com.mx/es"
+   }
+  ],
+  "ctas": [
+   "About usSee more about us",
+   "See Morelearn more about our services",
+   "Our FleetSee more about our fleet",
+   "Operation",
+   "Quality Processes",
+   "Security",
+   "Maintenance",
+   "Administration & ressources",
+   "Job offersSee our job offers",
+   "Our ServicesSee more about our services"
+  ],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 2,
+   "videos": 2,
+   "imgs": 24,
+   "svgs": 53,
+   "iframes": 0,
+   "domNodes": 3650
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": false,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": true,
+  "unicornStudio": false,
+  "barba": true,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": true,
+  "webflow": true,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": false
+ },
+ "scripts": [
+  "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6899a2f3f7995d5e3e31b7c6",
+  "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/js/webflow.schunk.380a9cc3d7b92fe0.js",
+  "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/js/webflow.45db7ba0.6a7654b6d67a8b28.js",
+  "https://cominvi.pages.dev/main.js"
  ],
- "steps": {},
- "durationS": 3
+ "internal": [
+  "https://www.cominvi.com.mx/our-services",
+  "https://www.cominvi.com.mx/technology",
+  "https://www.cominvi.com.mx/safety",
+  "https://www.cominvi.com.mx/about-us",
+  "https://www.cominvi.com.mx/blog",
+  "https://www.cominvi.com.mx/contact",
+  "https://www.cominvi.com.mx/join-the-team",
+  "https://www.cominvi.com.mx/es",
+  "https://www.cominvi.com.mx/notice-of-privacy"
+ ],
+ "perf": {
+  "ttfb": 133,
+  "dcl": 1256,
+  "load": 1774,
+  "lcp": 1056,
+  "lcpEl": "SPAN.navlink_label",
+  "cls": 0.338
+ },
+ "libs": {
+  "detected": [
+   "jQuery",
+   "GSAP",
+   "ScrollTrigger",
+   "Lenis",
+   "Lottie",
+   "Barba.js",
+   "Swiper",
+   "Virtual scroll",
+   "SplitText/SplitType"
+  ],
+  "where": {
+   "jQuery": [
+    "002-jquery-3.5.1.min.dc5e7f18c8.js",
+    "003-webflow.schunk.380a9cc3d7b92fe0.js"
+   ],
+   "GSAP": [
+    "004-main.js"
+   ],
+   "ScrollTrigger": [
+    "004-main.js",
+    "008-minerals.js",
+    "010-cards-reveal.js",
+    "015-safety-sticky.js"
+   ],
+   "Lenis": [
+    "004-main.js",
+    "005-cylinder.js",
+    "008-minerals.js",
+    "010-cards-reveal.js",
+    "013-text-reveal.js",
+    "015-safety-sticky.js"
+   ],
+   "Lottie": [
+    "004-main.js",
+    "019-service-icons.js"
+   ],
+   "Barba.js": [
+    "004-main.js",
+    "007-service-cards.js",
+    "012-minerals-canvas-local-debug.js",
+    "019-service-icons.js"
+   ],
+   "Swiper": [
+    "004-main.js"
+   ],
+   "Virtual scroll": [
+    "004-main.js"
+   ],
+   "SplitText/SplitType": [
+    "009-index.js"
+   ]
+  },
+  "gsapVersion": "3.13.0",
+  "threeRevision": null,
+  "shaders": 0,
+  "scripts": 19
+ },
+ "network": {
+  "requests": 223,
+  "totalKb": 24586,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 64
+   },
+   "Stylesheet": {
+    "n": 1,
+    "kb": 0
+   },
+   "Other": {
+    "n": 10,
+    "kb": 4033
+   },
+   "Image": {
+    "n": 174,
+    "kb": 15335
+   },
+   "Script": {
+    "n": 19,
+    "kb": 247
+   },
+   "Font": {
+    "n": 4,
+    "kb": 107
+   },
+   "Fetch": {
+    "n": 2,
+    "kb": 4781
+   },
+   "Media": {
+    "n": 1,
+    "kb": 0
+   },
+   "XHR": {
+    "n": 11,
+    "kb": 19
+   }
+  },
+  "thirdPartyHosts": [
+   "cdn.prod.website-files.com",
+   "d3e54v103j8qbb.cloudfront.net",
+   "cominvi.netlify.app",
+   "cominvi.pages.dev"
+  ],
+  "fontFiles": [
+   "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/6899ad2cbb853e01ecffd64d_PPSupplyMono-Light.woff2",
+   "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/6899baf306f22ae8957e5654_HelveticaNowDisplay-Medium.woff2",
+   "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/6899ad166b8e51fe05dc4a3d_HelveticaNowDisplay-Bold.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://cominvi.pages.dev/minerals/minerals-sequence.af",
+    "kb": 4780,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://cominvi.pages.dev/cave-scene/intro.mp4",
+    "kb": 3675,
+    "type": "Other"
+   },
+   {
+    "url": "https://www.cominvi.com.mx/our-services",
+    "kb": 147,
+    "type": "Other"
+   },
+   {
+    "url": "https://cominvi.pages.dev/main.js",
+    "kb": 106,
+    "type": "Script"
+   },
+   {
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00048.webp",
+    "kb": 104,
+    "type": "Image"
+   },
+   {
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00106.webp",
+    "kb": 104,
+    "type": "Image"
+   },
+   {
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00049.webp",
+    "kb": 104,
+    "type": "Image"
+   },
+   {
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00028.webp",
+    "kb": 104,
+    "type": "Image"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "16px",
+   "lineHeight": "16px"
+  },
+  "body": "16px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 119
 }

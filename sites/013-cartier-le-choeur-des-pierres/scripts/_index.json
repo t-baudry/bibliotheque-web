@@ -1,1 +1,167 @@
-[]
+[
+ {
+  "file": "001-csrf.min.js",
+  "url": "https://www.cartier.com/etc.clientlibs/clientlibs/granite/jquery/granite/csrf.min.js",
+  "kb": 4
+ },
+ {
+  "file": "002-core-scripts.js",
+  "url": "https://www.cartier.com/static/core-scripts.js",
+  "kb": 1
+ },
+ {
+  "file": "003-container.min.js",
+  "url": "https://www.cartier.com/etc.clientlibs/core/wcm/components/commons/site/clientlibs/container.min.js",
+  "kb": 1
+ },
+ {
+  "file": "004-site.min.js",
+  "url": "https://www.cartier.com/etc.clientlibs/core/wcm/components/accordion/v1/accordion/clientlibs/site.min.js",
+  "kb": 7
+ },
+ {
+  "file": "005-site.min.js",
+  "url": "https://www.cartier.com/etc.clientlibs/core/wcm/components/carousel/v1/carousel/clientlibs/site.min.js",
+  "kb": 8
+ },
+ {
+  "file": "006-utils.min.js",
+  "url": "https://www.cartier.com/etc.clientlibs/clientlibs/granite/utils.min.js",
+  "kb": 8
+ },
+ {
+  "file": "007-AuthButton.umd.js",
+  "url": "https://www.cartier.com/static/webcomponents/AuthButton/AuthButton.umd.js",
+  "kb": 810
+ },
+ {
+  "file": "008-jquery.min.js",
+  "url": "https://www.cartier.com/etc.clientlibs/clientlibs/granite/jquery.min.js",
+  "kb": 99
+ },
+ {
+  "file": "009-MiniBag.umd.js",
+  "url": "https://www.cartier.com/static/webcomponents/MiniBag/MiniBag.umd.js",
+  "kb": 826
+ },
+ {
+  "file": "010-clientlib-site.2-2-0.min.js",
+  "url": "https://www.cartier.com/etc.clientlibs/richemont-car/ui/clientlibs-car/clientlib-site.2-2-0.min.js",
+  "kb": 1253
+ },
+ {
+  "file": "011-datadog-rum.js",
+  "url": "https://www.datadoghq-browser-agent.com/eu1/v6/datadog-rum.js",
+  "kb": 179
+ },
+ {
+  "file": "012-3U5UD-A3KVH-XWX9Q-ND4WL-URRMD.js",
+  "url": "https://s.go-mpulse.net/boomerang/3U5UD-A3KVH-XWX9Q-ND4WL-URRMD",
+  "kb": 214
+ },
+ {
+  "file": "013-wishListButton.umd.js",
+  "url": "https://www.cartier.com/static/webcomponents/wishListButton/wishListButton.umd.js",
+  "kb": 611
+ },
+ {
+  "file": "014-1bcd5199.js",
+  "url": "https://www.cartier.com/akam/13/1bcd5199",
+  "kb": 26
+ },
+ {
+  "file": "015-rM3E.js",
+  "url": "https://www.cartier.com/BcOO0tE8ccqnO/noeM-H/fnN8KhFg/aEufDtzcb1pQJS/JhFjQxRXaw/FgIEQXV/rM3E",
+  "kb": 592
+ },
+ {
+  "file": "016-index.js",
+  "url": "https://websitefactory.cartier.com/akamai-storage/videos/choeur/assets/index.js",
+  "kb": 63
+ },
+ {
+  "file": "017-useTracking-DHYniQfJ.js",
+  "url": "https://websitefactory.cartier.com/akamai-storage/videos/choeur/assets/useTracking-DHYniQfJ.js",
+  "kb": 1
+ },
+ {
+  "file": "018-CancelContractForm.umd.js",
+  "url": "https://fea-core-features.richemont.com/static/webcomponents/CancelContractForm/CancelContractForm.umd.js",
+  "kb": 3287
+ },
+ {
+  "file": "019-useGL-BwBaJ84P.js",
+  "url": "https://websitefactory.cartier.com/akamai-storage/videos/choeur/assets/useGL-BwBaJ84P.js",
+  "kb": 578
+ },
+ {
+  "file": "020-runtime-core.esm-bundler-C5_2IjLl.js",
+  "url": "https://websitefactory.cartier.com/akamai-storage/videos/choeur/assets/runtime-core.esm-bundler-C5_2IjLl.js",
+  "kb": 65
+ },
+ {
+  "file": "021-applePayExpressButton.umd.js",
+  "url": "https://www.cartier.com/static/webcomponents/applePayExpressButton/applePayExpressButton.umd.js",
+  "kb": 770
+ },
+ {
+  "file": "022-PaypalExpressButton.umd.js",
+  "url": "https://www.cartier.com/static/webcomponents/PaypalExpressButton/PaypalExpressButton.umd.js",
+  "kb": 738
+ },
+ {
+  "file": "023-forter-script.js",
+  "url": "https://www.cartier.com/static/forter/forter-script.js",
+  "kb": 14
+ },
+ {
+  "file": "024-fr-fr-BkGZhKp1.js",
+  "url": "https://websitefactory.cartier.com/akamai-storage/videos/choeur/assets/fr-fr-BkGZhKp1.js",
+  "kb": 5
+ },
+ {
+  "file": "025-sound-C9bVhiR6.js",
+  "url": "https://websitefactory.cartier.com/akamai-storage/videos/choeur/assets/sound-C9bVhiR6.js",
+  "kb": 1
+ },
+ {
+  "file": "026-en-fr-DK32az1i.js",
+  "url": "https://websitefactory.cartier.com/akamai-storage/videos/choeur/assets/en-fr-DK32az1i.js",
+  "kb": 5
+ },
+ {
+  "file": "027-logo-choeur-pierres-Bd46DJSc.js",
+  "url": "https://websitefactory.cartier.com/akamai-storage/videos/choeur/assets/logo-choeur-pierres-Bd46DJSc.js",
+  "kb": 9
+ },
+ {
+  "file": "028-logo-cartier-WlGZ-7qK.js",
+  "url": "https://websitefactory.cartier.com/akamai-storage/videos/choeur/assets/logo-cartier-WlGZ-7qK.js",
+  "kb": 3
+ },
+ {
+  "file": "029-privacy_v2_1.js",
+  "url": "https://cdn.trustcommander.net/privacy/7424/privacy_v2_1.js",
+  "kb": 83
+ },
+ {
+  "file": "030-HomeView-Bp4QoEKb.js",
+  "url": "https://websitefactory.cartier.com/akamai-storage/videos/choeur/assets/HomeView-Bp4QoEKb.js",
+  "kb": 2
+ },
+ {
+  "file": "031-ProductsUI-bOGgZxrD.js",
+  "url": "https://websitefactory.cartier.com/akamai-storage/videos/choeur/assets/ProductsUI-bOGgZxrD.js",
+  "kb": 8
+ },
+ {
+  "file": "032-0fc16b88-b630-4631-ae55-404544920f8b.js",
+  "url": "blob:https://www.cartier.com/0fc16b88-b630-4631-ae55-404544920f8b",
+  "kb": 69
+ },
+ {
+  "file": "033-basis.worker.js",
+  "url": "https://websitefactory.cartier.com/akamai-storage/videos/choeur/assets/basis.worker.js",
+  "kb": 69
+ }
+]

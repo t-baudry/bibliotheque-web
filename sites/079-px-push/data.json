@@ -1,0 +1,708 @@
+{
+ "id": 79,
+ "name": "PX PUSH",
+ "sourceUrl": "https://pxpush.com/",
+ "capturedAt": "2026-11-03T09:15:43.256Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg",
+   "desktop-13.jpg",
+   "desktop-14.jpg"
+  ],
+  "fullPage": 11435,
+  "subpages": [
+   {
+    "url": "https://pxpush.com/about",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://pxpush.com/journal",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://pxpush.com/start",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://pxpush.com/",
+ "title": "PX PUSH — Design subscription service",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "The best design subscription service for agencies, startups, and entrepreneurs.",
+  "canonical": "https://pxpush.com/",
+  "robots": null,
+  "ogTitle": "PX PUSH — Design subscription service",
+  "ogImage": "/img/og/index.jpg",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "Organization"
+  ],
+  "h1Count": 32,
+  "headings": [
+   "H1 ●On–Demand Design Department",
+   "H1 ●On–Demand Design Department",
+   "H1 ●On–Demand Design Department",
+   "H1 ●On–Demand Design Department",
+   "H1 ●On–Demand Design Department",
+   "H1 ●On–Demand Design Department",
+   "H1 ●On–Demand Design Department",
+   "H1 ●On–Demand Design Department",
+   "H1 ●PX PUSH",
+   "H1 ●PX PUSH",
+   "H1 ●PX PUSH",
+   "H1 ●PX PUSH",
+   "H1 ●PX PUSH",
+   "H1 ●PX PUSH",
+   "H1 ●PX PUSH",
+   "H1 ●PX PUSH",
+   "H1 ●Packages",
+   "H1 ●Packages",
+   "H1 ●Packages",
+   "H1 ●Packages",
+   "H1 ●Packages",
+   "H1 ●Packages",
+   "H1 ●Packages",
+   "H1 ●Packages",
+   "H1 ●Brand Sprint",
+   "H1 ●Brand Sprint",
+   "H1 ●Brand Sprint",
+   "H1 ●Brand Sprint",
+   "H1 ●Brand Sprint",
+   "H1 ●Brand Sprint",
+   "H1 ●Brand Sprint",
+   "H1 ●Brand Sprint"
+  ],
+  "imgs": 50,
+  "imgNoAlt": 45,
+  "favicon": "https://pxpush.com/favicon.png",
+  "themeColor": "#1a1a1a"
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#03049c",
+    "w": 12589343
+   },
+   {
+    "v": "#111111",
+    "w": 3553853
+   },
+   {
+    "v": "#71737d",
+    "w": 2369498
+   },
+   {
+    "v": "#1a1a1a",
+    "w": 2332894
+   },
+   {
+    "v": "#bababa",
+    "w": 113254
+   },
+   {
+    "v": "#000000",
+    "w": 103680
+   }
+  ],
+  "text": [
+   {
+    "v": "#bababa",
+    "w": 1971
+   },
+   {
+    "v": "#ffffff",
+    "w": 1302
+   },
+   {
+    "v": "#111111",
+    "w": 962
+   },
+   {
+    "v": "#d9d9d9",
+    "w": 922
+   },
+   {
+    "v": "#03049c",
+    "w": 26
+   },
+   {
+    "v": "#1a1a1a",
+    "w": 22
+   },
+   {
+    "v": "#00ff00",
+    "w": 1
+   }
+  ],
+  "border": [
+   {
+    "v": "#ffffff",
+    "w": 10
+   },
+   {
+    "v": "#bababa",
+    "w": 2
+   },
+   {
+    "v": "#111111",
+    "w": 1
+   }
+  ],
+  "fonts": [
+   {
+    "v": "Mono",
+    "w": 3188
+   },
+   {
+    "v": "SemiSqueezed",
+    "w": 1996
+   },
+   {
+    "v": "obviously",
+    "w": 13
+   },
+   {
+    "v": "Arial",
+    "w": 9
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "40.32px",
+    "w": 1520
+   },
+   {
+    "v": "12.24px",
+    "w": 1076
+   },
+   {
+    "v": "17.136px",
+    "w": 214
+   },
+   {
+    "v": "172.8px",
+    "w": 64
+   },
+   {
+    "v": "86.4px",
+    "w": 51
+   },
+   {
+    "v": "24.48px",
+    "w": 30
+   },
+   {
+    "v": "25.704px",
+    "w": 13
+   },
+   {
+    "v": "63.648px",
+    "w": 5
+   },
+   {
+    "v": "42px",
+    "w": 4
+   },
+   {
+    "v": "31.824px",
+    "w": 1
+   },
+   {
+    "v": "10.8px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "7.2px",
+    "w": 8
+   },
+   {
+    "v": "999px",
+    "w": 1
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "ease 0.3s",
+    "w": 242
+   },
+   {
+    "v": "ease 0.35s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "SemiSqueezed, sans-serif",
+    "size": "172.8px",
+    "weight": "400",
+    "lineHeight": "165.888px",
+    "letterSpacing": "-1.44px",
+    "transform": "none",
+    "color": "#d9d9d9",
+    "sample": "●On–Demand Design Department"
+   },
+   "h4": {
+    "family": "SemiSqueezed, sans-serif",
+    "size": "86.4px",
+    "weight": "400",
+    "lineHeight": "73.44px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#bababa",
+    "sample": "It’s a whole new level — you’ll wonder how you managed before."
+   },
+   "p": {
+    "family": "Mono",
+    "size": "12.24px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "-0.72px",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "v.02 ------------------ Welcome to Px Push ------------------ //The department i"
+   },
+   "a": {
+    "family": "SemiSqueezed, sans-serif",
+    "size": "24.48px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#d9d9d9",
+    "sample": "Index"
+   },
+   "li": {
+    "family": "Mono",
+    "size": "17.136px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "-0.72px",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "1 request at a time"
+   },
+   "body": {
+    "family": "Graphik, sans-serif",
+    "size": "24.48px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#d9d9d9",
+    "sample": "Click to closeHold to skimIndexAboutJournalGet started●MenuIndexAboutJournalGet "
+   }
+  },
+  "cssVars": {
+   "--bgcolor": "#1a1a1a",
+   "--primarycolor": "#bababa",
+   "--red": "#ff001a",
+   "--grey": "#bababa",
+   "--black": "#111",
+   "--lightblue": "#9fe4f3",
+   "--blue": "#03049c",
+   "--cream": "#bab5a6",
+   "--green": "#0f0",
+   "--pink": "#a7849d",
+   "--lightgrey": "#71737d",
+   "--columns": "20",
+   "--bannerHeight": "100lvh",
+   "--radius": "1vh",
+   "--border": "1px solid hsla(0,0%,100%,.7)",
+   "--borderFade": "1px solid hsla(0,0%,100%,.5)"
+  },
+  "fontFaces": [
+   {
+    "family": "Graphik",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/Graphik-Regular-Web.C0YoM5Bw.woff2\") format(\"woff2\"), url(\"/_nuxt/Graphik-Regular-Web.BEFUpiPJ.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Graphik",
+    "weight": "200",
+    "style": "normal",
+    "src": "url(\"/_nuxt/Graphik-Extralight-Web.B0XNIUHm.woff2\") format(\"woff2\"), url(\"/_nuxt/Graphik-Extralight-Web.D4UB56cn.woff\") format(\"woff\")"
+   },
+   {
+    "family": "SemiSqueezed",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/SemiSqueezedMedium.DVwdXl-1.woff2\") format(\"woff2\"), url(\"/_nuxt/SemiSqueezedMedium.jvqHsRH_.woff\") format(\"woff\")"
+   },
+   {
+    "family": "GeistMono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/GeistMono-Regular.BvzGdOCK.woff2\") format(\"woff2\"), url(\"/_nuxt/GeistMono-Regular.T8hdO4yr.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Mono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/PPNeueMontrealMono-Book.D9DlBA0F.woff2\") format(\"woff2\"), url(\"/_nuxt/PPNeueMontrealMono-Book.DxAIKoty.woff\") format(\"woff\")"
+   }
+  ],
+  "keyframes": [
+   "foreground",
+   "scanline",
+   "scanlines"
+  ],
+  "breakpoints": [
+   {
+    "v": "600px",
+    "w": 153
+   },
+   {
+    "v": "1300px",
+    "w": 5
+   }
+  ],
+  "rulesCount": 847,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "scanlines",
+    "h": 900,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "gloom",
+    "h": 900,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "vignette",
+    "h": 900,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "wrapper",
+    "h": 11435,
+    "title": "●On–Demand Design Department",
+    "media": 58
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "cursor",
+    "h": 900,
+    "title": "",
+    "media": 0
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "",
+    "href": "https://pxpush.com/"
+   },
+   {
+    "t": "Index",
+    "href": "https://pxpush.com/"
+   },
+   {
+    "t": "About",
+    "href": "https://pxpush.com/about"
+   },
+   {
+    "t": "Journal",
+    "href": "https://pxpush.com/journal"
+   },
+   {
+    "t": "Get started",
+    "href": "mailto:hi@pxpush.com"
+   }
+  ],
+  "ctas": [
+   "Get started with Standard↗",
+   "Get started with Pro↗",
+   "Get started with Brand Sprint↗"
+  ],
+  "pageHeight": 11435,
+  "counts": {
+   "canvas": 3,
+   "videos": 1,
+   "imgs": 50,
+   "svgs": 7,
+   "iframes": 0,
+   "domNodes": 4841
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "180",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": true,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": true,
+  "cms": [],
+  "analytics": [
+   "googletagmanager",
+   "gtag"
+  ],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://pxpush.com/_nuxt/OS4hgONa.js",
+  "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092"
+ ],
+ "internal": [
+  "https://pxpush.com/about",
+  "https://pxpush.com/journal",
+  "https://pxpush.com/start",
+  "https://pxpush.com/terms",
+  "https://pxpush.com/privacy"
+ ],
+ "perf": {
+  "ttfb": 301,
+  "dcl": 469,
+  "load": 563,
+  "lcp": 8224,
+  "lcpEl": "SPAN.line__inner",
+  "cls": 0.001
+ },
+ "libs": {
+  "detected": [
+   "SplitText/SplitType",
+   "Lenis",
+   "Contentful",
+   "GSAP",
+   "ScrollTrigger",
+   "Vue",
+   "Nuxt",
+   "Virtual scroll",
+   "Three.js"
+  ],
+  "where": {
+   "SplitText/SplitType": [
+    "002-kReKbN7K.js",
+    "003-BJvwdrpy.js",
+    "004-BB9HWyGd.js",
+    "008-D51e8WyG.js",
+    "010-OS4hgONa.js",
+    "012-nB834Cm-.js",
+    "015-CMp1Mc-4.js",
+    "017-BqHRUe3X.js"
+   ],
+   "Lenis": [
+    "004-BB9HWyGd.js",
+    "008-D51e8WyG.js",
+    "010-OS4hgONa.js"
+   ],
+   "Contentful": [
+    "009-vce701823e78c4301a35b7e07294d87301792088814092.js"
+   ],
+   "GSAP": [
+    "010-OS4hgONa.js"
+   ],
+   "ScrollTrigger": [
+    "010-OS4hgONa.js"
+   ],
+   "Vue": [
+    "010-OS4hgONa.js"
+   ],
+   "Nuxt": [
+    "010-OS4hgONa.js"
+   ],
+   "Virtual scroll": [
+    "010-OS4hgONa.js"
+   ],
+   "Three.js": [
+    "011-CYqYa4ZY.js"
+   ]
+  },
+  "gsapVersion": "3.13.0",
+  "threeRevision": null,
+  "shaders": 8,
+  "scripts": 18
+ },
+ "network": {
+  "requests": 93,
+  "totalKb": 10292,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 21
+   },
+   "Script": {
+    "n": 19,
+    "kb": 365
+   },
+   "Stylesheet": {
+    "n": 12,
+    "kb": 14
+   },
+   "Image": {
+    "n": 41,
+    "kb": 7850
+   },
+   "Media": {
+    "n": 3,
+    "kb": 825
+   },
+   "Other": {
+    "n": 8,
+    "kb": 39
+   },
+   "Font": {
+    "n": 3,
+    "kb": 138
+   },
+   "XHR": {
+    "n": 1,
+    "kb": 0
+   },
+   "Fetch": {
+    "n": 5,
+    "kb": 1039
+   }
+  },
+  "thirdPartyHosts": [
+   "static.cloudflareinsights.com"
+  ],
+  "fontFiles": [
+   "https://pxpush.com/_nuxt/Graphik-Regular-Web.C0YoM5Bw.woff2",
+   "https://pxpush.com/_nuxt/PPNeueMontrealMono-Book.D9DlBA0F.woff2",
+   "https://pxpush.com/_nuxt/SemiSqueezedMedium.DVwdXl-1.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://pxpush.com/img/home/floppy_disk/textures/material_0_specularGlossiness.png",
+    "kb": 3494,
+    "type": "Image"
+   },
+   {
+    "url": "https://pxpush.com/img/home/floppy_disk/textures/material_0_normal.png",
+    "kb": 1017,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://pxpush.com/img/home/floppy_disk/textures/material_0_diffuse.png",
+    "kb": 999,
+    "type": "Image"
+   },
+   {
+    "url": "https://pxpush.com/img/home/pxpush.mp4",
+    "kb": 789,
+    "type": "Media"
+   },
+   {
+    "url": "https://pxpush.com/img/works/work15.webp",
+    "kb": 528,
+    "type": "Image"
+   },
+   {
+    "url": "https://pxpush.com/img/works/work11.webp",
+    "kb": 231,
+    "type": "Image"
+   },
+   {
+    "url": "https://pxpush.com/img/works/work5.webp",
+    "kb": 186,
+    "type": "Image"
+   },
+   {
+    "url": "https://pxpush.com/img/works/work1.webp",
+    "kb": 149,
+    "type": "Image"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "78px",
+   "lineHeight": "74.88px"
+  },
+  "body": "20px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 438
+}

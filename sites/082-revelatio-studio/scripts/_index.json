@@ -1,0 +1,297 @@
+[
+ {
+  "file": "001-SplitText.min.js",
+  "url": "https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js",
+  "kb": 8
+ },
+ {
+  "file": "002-webflow.schunk.36b8fb49256177c8.js",
+  "url": "https://cdn.prod.website-files.com/6a1dba8694fc8f455cf5585d/js/webflow.schunk.36b8fb49256177c8.js",
+  "kb": 40
+ },
+ {
+  "file": "003-Observer.min.js",
+  "url": "https://cdn.prod.website-files.com/gsap/3.15.0/Observer.min.js",
+  "kb": 10
+ },
+ {
+  "file": "004-ScrambleTextPlugin.min.js",
+  "url": "https://cdn.prod.website-files.com/gsap/3.15.0/ScrambleTextPlugin.min.js",
+  "kb": 11
+ },
+ {
+  "file": "005-webflow.schunk.9c9bac37621a7d42.js",
+  "url": "https://cdn.prod.website-files.com/6a1dba8694fc8f455cf5585d/js/webflow.schunk.9c9bac37621a7d42.js",
+  "kb": 149
+ },
+ {
+  "file": "006-webflow.2e1ed329.7340a7630389fa56.js",
+  "url": "https://cdn.prod.website-files.com/6a1dba8694fc8f455cf5585d/js/webflow.2e1ed329.7340a7630389fa56.js",
+  "kb": 2
+ },
+ {
+  "file": "007-ScrollTrigger.min.js",
+  "url": "https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js",
+  "kb": 44
+ },
+ {
+  "file": "008-circle-cursor.js",
+  "url": "https://revelatio.vercel.app/scripts/circle-cursor.js",
+  "kb": 3
+ },
+ {
+  "file": "009-brazil-time.js",
+  "url": "https://revelatio.vercel.app/scripts/brazil-time.js",
+  "kb": 2
+ },
+ {
+  "file": "010-preloader.js",
+  "url": "https://revelatio.vercel.app/scripts/preloader.js",
+  "kb": 10
+ },
+ {
+  "file": "011-drag-marquee.js",
+  "url": "https://revelatio.vercel.app/scripts/drag-marquee.js",
+  "kb": 6
+ },
+ {
+  "file": "012-image-trail.js",
+  "url": "https://revelatio.vercel.app/scripts/image-trail.js",
+  "kb": 2
+ },
+ {
+  "file": "013-ascii-logo-footer.js",
+  "url": "https://revelatio.vercel.app/scripts/ascii-logo-footer.js",
+  "kb": 28
+ },
+ {
+  "file": "014-mobile-menu.js",
+  "url": "https://revelatio.vercel.app/scripts/mobile-menu.js",
+  "kb": 10
+ },
+ {
+  "file": "015-gsap.min.js",
+  "url": "https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js",
+  "kb": 71
+ },
+ {
+  "file": "016-jquery-3.5.1.min.dc5e7f18c8.js",
+  "url": "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6a1dba8694fc8f455cf5585d",
+  "kb": 87
+ },
+ {
+  "file": "017-fs-cc.js",
+  "url": "https://cdn.jsdelivr.net/npm/@finsweet/cookie-consent@1/fs-cc.js",
+  "kb": 29
+ },
+ {
+  "file": "018-swiper-bundle.min.js",
+  "url": "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js",
+  "kb": 151
+ },
+ {
+  "file": "019-page-transition.js",
+  "url": "https://revelatio.vercel.app/scripts/page-transition.js",
+  "kb": 3
+ },
+ {
+  "file": "020-locations-highlight.js",
+  "url": "https://revelatio.vercel.app/scripts/locations-highlight.js",
+  "kb": 2
+ },
+ {
+  "file": "021-testimonials.js",
+  "url": "https://revelatio.vercel.app/scripts/testimonials.js",
+  "kb": 7
+ },
+ {
+  "file": "022-scramble-text.js",
+  "url": "https://revelatio.vercel.app/scripts/scramble-text.js",
+  "kb": 6
+ },
+ {
+  "file": "023-video-ascii.js",
+  "url": "https://revelatio.vercel.app/scripts/video-ascii.js",
+  "kb": 28
+ },
+ {
+  "file": "024-scramble-cursor.js",
+  "url": "https://revelatio.vercel.app/scripts/scramble-cursor.js",
+  "kb": 3
+ },
+ {
+  "file": "025-news-swiper.js",
+  "url": "https://revelatio.vercel.app/scripts/news-swiper.js",
+  "kb": 3
+ },
+ {
+  "file": "026-services-item-entrance.js",
+  "url": "https://revelatio.vercel.app/scripts/services-item-entrance.js",
+  "kb": 5
+ },
+ {
+  "file": "027-projects-filter.js",
+  "url": "https://revelatio.vercel.app/scripts/projects-filter.js",
+  "kb": 6
+ },
+ {
+  "file": "028-color-inversion.js",
+  "url": "https://revelatio.vercel.app/scripts/color-inversion.js",
+  "kb": 7
+ },
+ {
+  "file": "029-odometer.js",
+  "url": "https://revelatio.vercel.app/scripts/odometer.js",
+  "kb": 13
+ },
+ {
+  "file": "030-vendor.module.js",
+  "url": "https://f.vimeocdn.com/p/4.46.136/js/vendor.module.js",
+  "kb": 316
+ },
+ {
+  "file": "031-vendor.module.js",
+  "url": "https://f.vimeocdn.com/p/4.46.136/js/vendor.module.js",
+  "kb": 316
+ },
+ {
+  "file": "032-vendor.module.js",
+  "url": "https://f.vimeocdn.com/p/4.46.136/js/vendor.module.js",
+  "kb": 316
+ },
+ {
+  "file": "033-vendor.module.js",
+  "url": "https://f.vimeocdn.com/p/4.46.136/js/vendor.module.js",
+  "kb": 316
+ },
+ {
+  "file": "034-vendor.module.js",
+  "url": "https://f.vimeocdn.com/p/4.46.136/js/vendor.module.js",
+  "kb": 316
+ },
+ {
+  "file": "035-main.js",
+  "url": "https://player.vimeo.com/cdn-cgi/challenge-platform/h/g/scripts/precursor/5c2e6b612edd/main.js?ray=a54a4c9ffe0eb1aa",
+  "kb": 53
+ },
+ {
+  "file": "036-main.js",
+  "url": "https://player.vimeo.com/cdn-cgi/challenge-platform/h/g/scripts/precursor/5c2e6b612edd/main.js?ray=a54a4c9ffe12b1aa",
+  "kb": 52
+ },
+ {
+  "file": "037-main.js",
+  "url": "https://player.vimeo.com/cdn-cgi/challenge-platform/h/g/scripts/precursor/5c2e6b612edd/main.js?ray=a54a4c9ffe10b1aa",
+  "kb": 51
+ },
+ {
+  "file": "038-main.js",
+  "url": "https://player.vimeo.com/cdn-cgi/challenge-platform/h/g/scripts/precursor/5c2e6b612edd/main.js?ray=a54a4c9ffe09b1aa",
+  "kb": 52
+ },
+ {
+  "file": "039-main.js",
+  "url": "https://player.vimeo.com/cdn-cgi/challenge-platform/h/g/scripts/precursor/5c2e6b612edd/main.js?ray=a54a4c9ffe13b1aa",
+  "kb": 51
+ },
+ {
+  "file": "040-player.fr-FR.module.js",
+  "url": "https://f.vimeocdn.com/p/4.46.136/js/player.fr-FR.module.js",
+  "kb": 912
+ },
+ {
+  "file": "041-player.fr-FR.module.js",
+  "url": "https://f.vimeocdn.com/p/4.46.136/js/player.fr-FR.module.js",
+  "kb": 912
+ },
+ {
+  "file": "042-player.fr-FR.module.js",
+  "url": "https://f.vimeocdn.com/p/4.46.136/js/player.fr-FR.module.js",
+  "kb": 912
+ },
+ {
+  "file": "043-player.fr-FR.module.js",
+  "url": "https://f.vimeocdn.com/p/4.46.136/js/player.fr-FR.module.js",
+  "kb": 912
+ },
+ {
+  "file": "044-player.fr-FR.module.js",
+  "url": "https://f.vimeocdn.com/p/4.46.136/js/player.fr-FR.module.js",
+  "kb": 912
+ },
+ {
+  "file": "045-vuid.min.js",
+  "url": "https://f.vimeocdn.com/js_opt/modules/utils/vuid.min.js",
+  "kb": 2
+ },
+ {
+  "file": "046-vuid.min.js",
+  "url": "https://f.vimeocdn.com/js_opt/modules/utils/vuid.min.js",
+  "kb": 2
+ },
+ {
+  "file": "047-hls-js.module.js",
+  "url": "https://f.vimeocdn.com/p/4.46.136/js/hls-js.module.js",
+  "kb": 601
+ },
+ {
+  "file": "048-vuid.min.js",
+  "url": "https://f.vimeocdn.com/js_opt/modules/utils/vuid.min.js",
+  "kb": 2
+ },
+ {
+  "file": "049-hls-js.module.js",
+  "url": "https://f.vimeocdn.com/p/4.46.136/js/hls-js.module.js",
+  "kb": 601
+ },
+ {
+  "file": "050-hls-js.module.js",
+  "url": "https://f.vimeocdn.com/p/4.46.136/js/hls-js.module.js",
+  "kb": 601
+ },
+ {
+  "file": "051-vuid.min.js",
+  "url": "https://f.vimeocdn.com/js_opt/modules/utils/vuid.min.js",
+  "kb": 2
+ },
+ {
+  "file": "052-vuid.min.js",
+  "url": "https://f.vimeocdn.com/js_opt/modules/utils/vuid.min.js",
+  "kb": 2
+ },
+ {
+  "file": "053-hls-js.module.js",
+  "url": "https://f.vimeocdn.com/p/4.46.136/js/hls-js.module.js",
+  "kb": 601
+ },
+ {
+  "file": "054-hls-js.module.js",
+  "url": "https://f.vimeocdn.com/p/4.46.136/js/hls-js.module.js",
+  "kb": 601
+ },
+ {
+  "file": "055-e286dff1-90b8-4a21-8d9c-dd5341052ce7.js",
+  "url": "blob:https://player.vimeo.com/e286dff1-90b8-4a21-8d9c-dd5341052ce7",
+  "kb": 601
+ },
+ {
+  "file": "056-6b58f3d2-1f4f-4656-bbb3-6f1c9613a4fa.js",
+  "url": "blob:https://player.vimeo.com/6b58f3d2-1f4f-4656-bbb3-6f1c9613a4fa",
+  "kb": 601
+ },
+ {
+  "file": "057-b938f8df-944f-4ad0-8f77-0c4fd4f449cc.js",
+  "url": "blob:https://player.vimeo.com/b938f8df-944f-4ad0-8f77-0c4fd4f449cc",
+  "kb": 601
+ },
+ {
+  "file": "058-5328326e-7688-4aae-b4be-af9d34b12db5.js",
+  "url": "blob:https://player.vimeo.com/5328326e-7688-4aae-b4be-af9d34b12db5",
+  "kb": 601
+ },
+ {
+  "file": "059-3d7a977e-e10f-4954-a61c-c1363d3a46cc.js",
+  "url": "blob:https://player.vimeo.com/3d7a977e-e10f-4954-a61c-c1363d3a46cc",
+  "kb": 601
+ }
+]

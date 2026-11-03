@@ -1,0 +1,674 @@
+{
+ "id": 71,
+ "name": "Kononenko Architectural Bureau",
+ "sourceUrl": "https://kononenkogroup.com/",
+ "capturedAt": "2026-11-03T09:05:31.101Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg",
+   "desktop-13.jpg",
+   "desktop-14.jpg"
+  ],
+  "fullPage": 19034,
+  "subpages": [
+   {
+    "url": "https://kononenkogroup.com/work",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://kononenkogroup.com/about",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://kononenkogroup.com/contact",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://kononenkogroup.com/",
+ "title": "Kononenko Architectural Bureau",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Architectural Bureau",
+  "canonical": "http://kononenkogroup.com/",
+  "robots": "noindex, nofollow",
+  "ogTitle": "Kononenko Architectural Bureau",
+  "ogImage": "https://images.prismic.io/kononenko/ajJbI41P9HI4UmtO_hero_hd.jpg?auto=format,compress",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "WebSite",
+   "WebPage"
+  ],
+  "h1Count": 3,
+  "headings": [
+   "H1 KononenkoArchitecturalBureau",
+   "H1 Kononenko Architectural Bureau",
+   "H2 SystematicClarity & Creativity",
+   "H3 Founded",
+   "H3 Founder",
+   "H3 Services",
+   "H3 Achievement",
+   "H3 Awards",
+   "H3 Publications",
+   "H2 Architectural concept, facade and planning solutions, sketch project, working documentatio",
+   "H2 From Sketch to Strategy",
+   "H2 Precision in Development",
+   "H2 Pokrovskoe Private House",
+   "H2 Millenium Private Park",
+   "H2 Bolshevik Residential",
+   "H2 KNS Stolbovo",
+   "H2 Kotelnaya Kinetics",
+   "H2 Vision Mansion",
+   "H2 Almaty Hotel Ornament Stone",
+   "H2 Eli House Corner Plot",
+   "H2 Refined & Bold Essential",
+   "H2 Simplicity & Clarity of Approach",
+   "H2 People & Process",
+   "H3 A studio shaped by clarity, trust, and a collective pursuit of thoughtful design.",
+   "H2 2011 Year of Foundation",
+   "H3 15+",
+   "H3 Years of experience",
+   "H3 490+",
+   "H3 Completed projects",
+   "H3 45+",
+   "H3 Professionals on the team",
+   "H3 40K",
+   "H3 Total area covered",
+   "H2 The World’s Most Ambitious Brands Choose to Work With Us",
+   "H1 KononenkoArchitecturalBureau"
+  ],
+  "imgs": 27,
+  "imgNoAlt": 0,
+  "favicon": "https://kononenkogroup.com/favicon.ico",
+  "themeColor": "#000000"
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#000000",
+    "w": 6507000
+   },
+   {
+    "v": "#f8f8f8",
+    "w": 203018
+   }
+  ],
+  "text": [
+   {
+    "v": "#000000",
+    "w": 2572
+   },
+   {
+    "v": "#929292",
+    "w": 1375
+   },
+   {
+    "v": "#ffffff",
+    "w": 778
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "n",
+    "w": 2885
+   },
+   {
+    "v": "h",
+    "w": 1840
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "12px",
+    "w": 176
+   },
+   {
+    "v": "30px",
+    "w": 22
+   },
+   {
+    "v": "88.5px",
+    "w": 19
+   },
+   {
+    "v": "131.25px",
+    "w": 16
+   },
+   {
+    "v": "60px",
+    "w": 13
+   },
+   {
+    "v": "9px",
+    "w": 8
+   },
+   {
+    "v": "14.25px",
+    "w": 6
+   },
+   {
+    "v": "33px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "50%",
+    "w": 17
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.17 0.6s",
+    "w": 17
+   },
+   {
+    "v": "cubic-bezier(0.17 1.109s",
+    "w": 8
+   },
+   {
+    "v": "ease 0.3s",
+    "w": 4
+   },
+   {
+    "v": "cubic-bezier(0.17 0.3s",
+    "w": 3
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "n, sans-serif",
+    "size": "14.25px",
+    "weight": "400",
+    "lineHeight": "14.25px",
+    "letterSpacing": "-0.285px",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "KononenkoArchitecturalBureau"
+   },
+   "h2": {
+    "family": "n, sans-serif",
+    "size": "131.25px",
+    "weight": "400",
+    "lineHeight": "91.875px",
+    "letterSpacing": "-3.9375px",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "SystematicClarity & Creativity"
+   },
+   "h3": {
+    "family": "h, serif",
+    "size": "12px",
+    "weight": "400",
+    "lineHeight": "14.4px",
+    "letterSpacing": "-0.24px",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Founded"
+   },
+   "p": {
+    "family": "n, sans-serif",
+    "size": "12px",
+    "weight": "400",
+    "lineHeight": "14.4px",
+    "letterSpacing": "-0.24px",
+    "transform": "none",
+    "color": "#929292",
+    "sample": "Sustainability strategy, material efficiency, passive systems, energy modeling, "
+   },
+   "a": {
+    "family": "n, sans-serif",
+    "size": "12px",
+    "weight": "400",
+    "lineHeight": "14.4px",
+    "letterSpacing": "-0.24px",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "KononenkoArchitecturalBureau"
+   },
+   "li": {
+    "family": "n, sans-serif",
+    "size": "12px",
+    "weight": "400",
+    "lineHeight": "14.4px",
+    "letterSpacing": "-0.24px",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Index,"
+   },
+   "body": {
+    "family": "n, sans-serif",
+    "size": "12px",
+    "weight": "400",
+    "lineHeight": "14.4px",
+    "letterSpacing": "-0.24px",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "KononenkoArchitecturalBureauIndex,Work,About,Contact Kononenko Architectural Bur"
+   }
+  },
+  "cssVars": {},
+  "fontFaces": [
+   {
+    "family": "n",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"../fonts/n.woff2\") format(\"woff2\"), url(\"../fonts/n.woff\") format(\"woff\")"
+   },
+   {
+    "family": "h",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"../fonts/h.woff2\") format(\"woff2\"), url(\"../fonts/h.woff\") format(\"woff\")"
+   }
+  ],
+  "keyframes": [],
+  "breakpoints": [
+   {
+    "v": "767.98px",
+    "w": 213
+   },
+   {
+    "v": "767.99px",
+    "w": 6
+   }
+  ],
+  "rulesCount": 1214,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "ean",
+    "h": 900,
+    "title": "Kononenko Architectural Bureau",
+    "media": 2
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "phv",
+    "h": 1135,
+    "title": "SystematicClarity & Creativity",
+    "media": 2
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "aie rfi",
+    "h": 598,
+    "title": "Founded",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "lmr",
+    "h": 904,
+    "title": "Architectural concept, facade and planning solutions, sketch project, working do",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "pvg",
+    "h": 3447,
+    "title": "From Sketch to Strategy",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "lxo",
+    "h": 3494,
+    "title": "Pokrovskoe Private House",
+    "media": 16
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "nmc",
+    "h": 1800,
+    "title": "Refined & Bold Essential",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "nwv",
+    "h": 4239,
+    "title": "People & Process",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "uod",
+    "h": 903,
+    "title": "The World’s Most Ambitious Brands Choose to Work With Us",
+    "media": 34
+   },
+   {
+    "tag": "footer",
+    "id": null,
+    "cls": "anj avd",
+    "h": 916,
+    "title": "KononenkoArchitecturalBureau",
+    "media": 0
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "KononenkoArchitecturalBureau",
+    "href": "https://kononenkogroup.com/"
+   },
+   {
+    "t": "Index,",
+    "href": "https://kononenkogroup.com/"
+   },
+   {
+    "t": "Work,",
+    "href": "https://kononenkogroup.com/work"
+   },
+   {
+    "t": "About,",
+    "href": "https://kononenkogroup.com/about"
+   },
+   {
+    "t": "Contact",
+    "href": "https://kononenkogroup.com/contact"
+   }
+  ],
+  "ctas": [],
+  "pageHeight": 19034,
+  "counts": {
+   "canvas": 1,
+   "videos": 0,
+   "imgs": 27,
+   "svgs": 16,
+   "iframes": 0,
+   "domNodes": 1034
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "184",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": true,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": true,
+  "cms": [
+   "prismic"
+  ],
+  "analytics": [
+   "googletagmanager",
+   "gtag"
+  ],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://kononenkogroup.com/_nuxt/BJv2xQ-z.js",
+  "https://www.googletagmanager.com/gtag/js?id=G-VT0FEXWY3P"
+ ],
+ "internal": [
+  "https://kononenkogroup.com/work",
+  "https://kononenkogroup.com/about",
+  "https://kononenkogroup.com/contact",
+  "https://kononenkogroup.com/work/pokrovskoe-private-house",
+  "https://kononenkogroup.com/work/millenium-park",
+  "https://kononenkogroup.com/work/bolshevik-residential",
+  "https://kononenkogroup.com/work/kns-stolbovo",
+  "https://kononenkogroup.com/work/kotelnaya-kinetics",
+  "https://kononenkogroup.com/work/vision-mansion",
+  "https://kononenkogroup.com/work/almaty-hotelornament-stone",
+  "https://kononenkogroup.com/work/eli-house-corner-plot",
+  "https://kononenkogroup.com/legal"
+ ],
+ "perf": {
+  "ttfb": 143,
+  "dcl": 353,
+  "load": 516,
+  "lcp": 328,
+  "lcpEl": "H1.fn-h4",
+  "cls": 0
+ },
+ "libs": {
+  "detected": [
+   "SplitText/SplitType",
+   "Lenis",
+   "Nuxt",
+   "Prismic",
+   "GSAP",
+   "ScrollTrigger",
+   "Three.js",
+   "Vue",
+   "Svelte",
+   "Virtual scroll"
+  ],
+  "where": {
+   "SplitText/SplitType": [
+    "003-PW1ZnYel.js",
+    "008-Bjm0Mb1V.js",
+    "009-BILhttA3.js",
+    "010-BJv2xQ-z.js",
+    "014-CZdctyg0.js",
+    "015-BIOC-to.js",
+    "016-DsaZH8ff.js",
+    "018-B8Pdm4Mz.js",
+    "019-Ce_dRGXl.js"
+   ],
+   "Lenis": [
+    "003-PW1ZnYel.js",
+    "004-DyEDNfwB.js",
+    "009-BILhttA3.js",
+    "010-BJv2xQ-z.js",
+    "013-C4zIfOvW.js",
+    "014-CZdctyg0.js",
+    "015-BIOC-to.js",
+    "018-B8Pdm4Mz.js",
+    "019-Ce_dRGXl.js",
+    "styles.css"
+   ],
+   "Nuxt": [
+    "005-CWTQ_9Hg.js",
+    "010-BJv2xQ-z.js"
+   ],
+   "Prismic": [
+    "005-CWTQ_9Hg.js",
+    "010-BJv2xQ-z.js"
+   ],
+   "GSAP": [
+    "010-BJv2xQ-z.js"
+   ],
+   "ScrollTrigger": [
+    "010-BJv2xQ-z.js"
+   ],
+   "Three.js": [
+    "010-BJv2xQ-z.js"
+   ],
+   "Vue": [
+    "010-BJv2xQ-z.js"
+   ],
+   "Svelte": [
+    "010-BJv2xQ-z.js"
+   ],
+   "Virtual scroll": [
+    "010-BJv2xQ-z.js"
+   ]
+  },
+  "gsapVersion": "3.11.0",
+  "threeRevision": null,
+  "shaders": 16,
+  "scripts": 19
+ },
+ "network": {
+  "requests": 102,
+  "totalKb": 2473,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 18
+   },
+   "Other": {
+    "n": 3,
+    "kb": 24
+   },
+   "Stylesheet": {
+    "n": 11,
+    "kb": 19
+   },
+   "Image": {
+    "n": 27,
+    "kb": 1579
+   },
+   "Script": {
+    "n": 20,
+    "kb": 579
+   },
+   "Font": {
+    "n": 2,
+    "kb": 83
+   },
+   "Fetch": {
+    "n": 38,
+    "kb": 170
+   }
+  },
+  "thirdPartyHosts": [
+   "images.prismic.io",
+   "www.googletagmanager.com",
+   "region1.google-analytics.com"
+  ],
+  "fontFiles": [
+   "https://kononenkogroup.com/fonts/n.woff2",
+   "https://kononenkogroup.com/fonts/h.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://kononenkogroup.com/_nuxt/BJv2xQ-z.js",
+    "kb": 306,
+    "type": "Script"
+   },
+   {
+    "url": "https://images.prismic.io/kononenko/afYFYcBOoF08xjTN_intro.jpg?auto=format,compress&w=1400&fm=webp&q=95",
+    "kb": 304,
+    "type": "Image"
+   },
+   {
+    "url": "https://images.prismic.io/kononenko/ajJbI41P9HI4UmtO_hero_hd.jpg?auto=format,compress&w=1536&fm=webp&q=95",
+    "kb": 283,
+    "type": "Image"
+   },
+   {
+    "url": "https://www.googletagmanager.com/gtag/js?id=G-VT0FEXWY3P",
+    "kb": 178,
+    "type": "Script"
+   },
+   {
+    "url": "https://images.prismic.io/kononenko/aikwFAeQX7-eXIgS_eli-house-corner-plot-1.jpg?auto=format,compress&w=768&fm=webp&q=95",
+    "kb": 129,
+    "type": "Image"
+   },
+   {
+    "url": "https://images.prismic.io/kononenko/ajD8wY1P9HI4UjWj_bolshevik-residential-complex-1.jpg?auto=format,compress&w=768&fm=webp&q=95",
+    "kb": 102,
+    "type": "Image"
+   },
+   {
+    "url": "https://images.prismic.io/kononenko/aip0ZqlQnVZVEMsw_vision-mansion-private-2.jpg?auto=format,compress&w=768&fm=webp&q=95",
+    "kb": 90,
+    "type": "Image"
+   },
+   {
+    "url": "https://images.prismic.io/kononenko/ajFvlY1P9HI4UlLH_millenium-park-1.jpg?auto=format,compress&w=768&fm=webp&q=95",
+    "kb": 82,
+    "type": "Image"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "14.56px",
+   "lineHeight": "14.56px"
+  },
+  "body": "14.56px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 95
+}

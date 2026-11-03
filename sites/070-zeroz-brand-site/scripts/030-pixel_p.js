@@ -1,0 +1,1 @@
+(function(d){(function(c,g){function e(f){var a=c.getElementsByTagName("body");if(a&&1<=a.length){a=a[0];var b=c.createElement("iframe");b.src=f;b.width=1;b.height=1;b.style.display="none";a.appendChild(b)}else window.setTimeout(function(){e(f)},100)}e(g)})(document,d.p13);})({"p13":"https://um.ladsp.com/match/iframe?pids=10000&ts=1793696735501&svid=73"});

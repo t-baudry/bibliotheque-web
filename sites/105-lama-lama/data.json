@@ -1,0 +1,784 @@
+{
+ "id": 105,
+ "name": "Lama Lama",
+ "sourceUrl": "https://lamalama.com/",
+ "capturedAt": "2026-11-03T22:27:42.126Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg"
+  ],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [
+   {
+    "url": "https://lamalama.com/work/",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://lamalama.com/services/branding/",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://lamalama.com/about-us/",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://lamalama.com/",
+ "title": "Lama Lama | Creative Digital Agency Amsterdam",
+ "lang": "en-US",
+ "generator": "WPML ver:5.2.0 stt:59,37,1,28;",
+ "seo": {
+  "description": "Lama Lama is a creative digital agency in Amsterdam, building brands, websites and campaigns for ambitious companies. See the work.",
+  "canonical": "https://lamalama.com/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "ogTitle": "Lama Lama | Creative Digital Agency Amsterdam",
+  "ogImage": "https://lamalama.com/wp-content/uploads/2025/12/share_image.jpg",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "WebPage",
+   "BreadcrumbList",
+   "WebSite",
+   "Organization"
+  ],
+  "h1Count": 1,
+  "headings": [
+   "H1 A creative digital agency that goes all in or not at all.",
+   "H2 We partner with brands that dare to lead and help them grow through digital. Here’s a tast",
+   "H2 What we do.",
+   "H2 Brief us something.",
+   "H2 A creative digital agency that goes all in or not at all.",
+   "H2 Small team.Big energy.No fluff.",
+   "H2 What we do",
+   "H3 [ branding ]",
+   "H3 [ digital ]",
+   "H3 [ marketing ]",
+   "H2 Rock 'n roll minds with warm hearts",
+   "H3 Think wildcraft sharp",
+   "H3 Keep ithuman",
+   "H3 Impact withheart",
+   "H3 Everythingwe got",
+   "H2 All in ornothing.",
+   "H2 We design brands people feel",
+   "H2 Clients with a heart",
+   "H2 Say no more. it’s a match"
+  ],
+  "imgs": 131,
+  "imgNoAlt": 0,
+  "favicon": "https://lamalama.com/wp-content/themes/lamalama2025/dist/icons/favicon-96x96.png",
+  "themeColor": "#000000"
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#f9f4eb",
+    "w": 1121923
+   },
+   {
+    "v": "#000000",
+    "w": 182926
+   },
+   {
+    "v": "#ff0000",
+    "w": 16
+   }
+  ],
+  "text": [
+   {
+    "v": "#f9f4eb",
+    "w": 5342
+   },
+   {
+    "v": "#000000",
+    "w": 78
+   },
+   {
+    "v": "#ffffff",
+    "w": 42
+   },
+   {
+    "v": "#1a1c1c",
+    "w": 40
+   }
+  ],
+  "border": [
+   {
+    "v": "#f9f4eb",
+    "w": 22
+   }
+  ],
+  "fonts": [
+   {
+    "v": "SuisseBPIntl",
+    "w": 3936
+   },
+   {
+    "v": "Sometype",
+    "w": 1566
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "16.014px",
+    "w": 430
+   },
+   {
+    "v": "10px",
+    "w": 277
+   },
+   {
+    "v": "40px",
+    "w": 45
+   },
+   {
+    "v": "32px",
+    "w": 43
+   },
+   {
+    "v": "16px",
+    "w": 39
+   },
+   {
+    "v": "20.04px",
+    "w": 30
+   },
+   {
+    "v": "48.048px",
+    "w": 28
+   },
+   {
+    "v": "17.9083px",
+    "w": 27
+   },
+   {
+    "v": "12.048px",
+    "w": 15
+   },
+   {
+    "v": "20px",
+    "w": 14
+   },
+   {
+    "v": "14px",
+    "w": 12
+   },
+   {
+    "v": "72px",
+    "w": 12
+   },
+   {
+    "v": "76.75px",
+    "w": 8
+   },
+   {
+    "v": "23.025px",
+    "w": 8
+   },
+   {
+    "v": "80px",
+    "w": 6
+   },
+   {
+    "v": "38.375px",
+    "w": 4
+   }
+  ],
+  "radius": [
+   {
+    "v": "4px",
+    "w": 92
+   },
+   {
+    "v": "2px",
+    "w": 4
+   },
+   {
+    "v": "9999px",
+    "w": 4
+   }
+  ],
+  "shadows": [],
+  "transitions": [],
+  "typo": {
+   "h1": {
+    "family": "SuisseBPIntl, Helvetica, Arial, sans-serif",
+    "size": "72px",
+    "weight": "700",
+    "lineHeight": "57.6px",
+    "letterSpacing": "-1.44px",
+    "transform": "uppercase",
+    "color": "#f9f4eb",
+    "sample": "A creative digital agency that goes all in or not at all."
+   },
+   "h2": {
+    "family": "SuisseBPIntl, Helvetica, Arial, sans-serif",
+    "size": "48.048px",
+    "weight": "400",
+    "lineHeight": "43.2432px",
+    "letterSpacing": "-0.96096px",
+    "transform": "none",
+    "color": "#f9f4eb",
+    "sample": "We partner with brands that dare to lead and help them grow through digital. Her"
+   },
+   "h3": {
+    "family": "Sometype, Helvetica, Arial, sans-serif",
+    "size": "12.048px",
+    "weight": "500",
+    "lineHeight": "21.6864px",
+    "letterSpacing": "-0.24096px",
+    "transform": "uppercase",
+    "color": "#010101",
+    "sample": "[ branding ]"
+   },
+   "h4": {
+    "family": "SuisseBPIntl, Helvetica, Arial, sans-serif",
+    "size": "17.9083px",
+    "weight": "400",
+    "lineHeight": "25.0716px",
+    "letterSpacing": "-0.358166px",
+    "transform": "none",
+    "color": "#010101",
+    "sample": "Brand identity"
+   },
+   "p": {
+    "family": "SuisseBPIntl, Helvetica, Arial, sans-serif",
+    "size": "20.04px",
+    "weight": "400",
+    "lineHeight": "24.048px",
+    "letterSpacing": "-0.4008px",
+    "transform": "none",
+    "color": "#f9f4eb",
+    "sample": "We craft brands, products and experiences that hit harder, work smarter and conn"
+   },
+   "a": {
+    "family": "SuisseBPIntl, Helvetica, Arial, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "22.4px",
+    "letterSpacing": "-0.32px",
+    "transform": "none",
+    "color": "#f9f4eb",
+    "sample": "Work"
+   },
+   "button": {
+    "family": "SuisseBPIntl, Helvetica, Arial, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "22.4px",
+    "letterSpacing": "-0.32px",
+    "transform": "none",
+    "color": "#f9f4eb",
+    "sample": "What we do"
+   },
+   "body": {
+    "family": "Sometype, \"sans-serif\"",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#f9f4eb",
+    "sample": "<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PSJFHZN\" height=\"0\""
+   }
+  },
+  "cssVars": {
+   "--ll-margin-desktop": "2.5rem",
+   "--ll-gutter-desktop": "1.5rem",
+   "--ll-cols-desktop": "12",
+   "--ll-margin-mobile": "1rem",
+   "--ll-gutter-mobile": ".625rem",
+   "--ll-cols-mobile": "6",
+   "--ll-grid-gap": "1.5rem",
+   "--ll-col-count": "12",
+   "--ll-grid-margin": "2.5rem",
+   "--spacing-xs": "max(calc(8 / 16 * 1rem), calc(12 / 1440 * 100vw))",
+   "--spacing-sm": "max(calc(12 / 16 * 1rem), calc(16 / 1440 * 100vw))",
+   "--spacing-md": "max(calc(16 / 16 * 1rem), calc(24 / 1440 * 100vw))",
+   "--spacing-lg": "max(calc(24 / 16 * 1rem), calc(32 / 1440 * 100vw))",
+   "--spacing-xl": "max(calc(32 / 16 * 1rem), calc(48 / 1440 * 100vw))",
+   "--spacing-2xl": "max(calc(48 / 16 * 1rem), calc(64 / 1440 * 100vw))",
+   "--spacing-hero": "max(calc(110 / 16 * 1rem), calc(90 / 1440 * 100vw))",
+   "--section-3xs": "max(calc(10 / 16 * 1rem), calc(20 / 1440 * 100vw))",
+   "--section-2xs": "max(calc(20 / 16 * 1rem), calc(40 / 1440 * 100vw))",
+   "--section-xs": "max(calc(30 / 16 * 1rem), calc(60 / 1440 * 100vw))",
+   "--section-sm": "max(calc(40 / 16 * 1rem), calc(80 / 1440 * 100vw))",
+   "--section-md": "max(calc(60 / 16 * 1rem), calc(120 / 1440 * 100vw))",
+   "--section-lg": "max(calc(80 / 16 * 1rem), calc(160 / 1440 * 100vw))",
+   "--section-xl": "max(calc(100 / 16 * 1rem), calc(200 / 1440 * 100vw))",
+   "--section-2xl": "max(calc(110 / 16 * 1rem), calc(220 / 1440 * 100vw))",
+   "--section-3xl": "max(calc(120 / 16 * 1rem), calc(240 / 1440 * 100vw))",
+   "--section-4xl": "max(calc(160 / 16 * 1rem), calc(320 / 1440 * 100vw))",
+   "--tw-shadow": "0 0 #0000",
+   "--tw-shadow-colored": "0 0 #0000",
+   "--tw-translate-y": "50%",
+   "--tw-translate-x": "100%",
+   "--content-inline": "calc(((100vw - (2 * var(--ll-grid-margin) + (var(--ll-col-count) - 1) * var(--ll-grid-gap))) / var(--ll-col-count)) * 6 + 5 * var(--ll-grid-",
+   "--content-boxed": "calc(((100vw - (2 * var(--ll-grid-margin) + (var(--ll-col-count) - 1) * var(--ll-grid-gap))) / var(--ll-col-count)) * 8 + 7 * var(--ll-grid-",
+   "--black": "0 0 0",
+   "--white": "255 255 255",
+   "--offBlack": "1 1 1",
+   "--dark": "26 28 28",
+   "--red": "231 93 96",
+   "--green": "208 255 126",
+   "--pink": "255 198 218",
+   "--blue": "220 242 244",
+   "--offWhite": "249 244 235",
+   "--bgPrimary": "var(--dark)",
+   "--textPrimary": "var(--offWhite)",
+   "--textSecondary": "var(--offWhite)",
+   "--signal": "var(--offWhite)",
+   "--content-spacing": "var(--section-sm)"
+  },
+  "fontFaces": [
+   {
+    "family": "SuisseBPIntl",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"https://lamalama.com/wp-content/themes/lamalama2025/dist/fonts/SuisseBPIntl-Bold.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "SuisseBPIntl",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"https://lamalama.com/wp-content/themes/lamalama2025/dist/fonts/SuisseBPIntl-Medium.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "SuisseBPIntl",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://lamalama.com/wp-content/themes/lamalama2025/dist/fonts/SuisseBPIntl-Regular.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "SuisseBPIntl",
+    "weight": "300",
+    "style": "normal",
+    "src": "url(\"https://lamalama.com/wp-content/themes/lamalama2025/dist/fonts/SuisseBPIntl-Light.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Sometype",
+    "weight": "400 700",
+    "style": "normal",
+    "src": "url(\"https://lamalama.com/wp-content/themes/lamalama2025/dist/fonts/Sometype-Mono.woff2\") format(\"woff2\")"
+   }
+  ],
+  "keyframes": [
+   "spin"
+  ],
+  "breakpoints": [
+   {
+    "v": "1440px",
+    "w": 39
+   },
+   {
+    "v": "1000px",
+    "w": 10
+   },
+   {
+    "v": "800px",
+    "w": 10
+   },
+   {
+    "v": "601px",
+    "w": 6
+   },
+   {
+    "v": "799px",
+    "w": 5
+   },
+   {
+    "v": "399px",
+    "w": 4
+   },
+   {
+    "v": "600px",
+    "w": 4
+   },
+   {
+    "v": "999px",
+    "w": 4
+   },
+   {
+    "v": "599px",
+    "w": 4
+   },
+   {
+    "v": "1280px",
+    "w": 3
+   },
+   {
+    "v": "1600px",
+    "w": 2
+   },
+   {
+    "v": "1279px",
+    "w": 2
+   }
+  ],
+  "rulesCount": 1167,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "ll-scroller js-scroller lenis",
+    "h": 900,
+    "top": 0,
+    "title": "A creative digital agency that goes all in or not at all.",
+    "media": 100
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "",
+    "href": "https://lamalama.com/"
+   },
+   {
+    "t": "Work",
+    "href": "https://lamalama.com/work/"
+   },
+   {
+    "t": "Branding",
+    "href": "https://lamalama.com/services/branding/"
+   },
+   {
+    "t": "Websites",
+    "href": "https://lamalama.com/services/websites/"
+   },
+   {
+    "t": "E-commerce",
+    "href": "https://lamalama.com/services/ecommerce/"
+   },
+   {
+    "t": "Marketing",
+    "href": "https://lamalama.com/services/marketing/"
+   },
+   {
+    "t": "About us",
+    "href": "https://lamalama.com/about-us/"
+   },
+   {
+    "t": "Careers",
+    "href": "https://lamalama.homerun.co/"
+   },
+   {
+    "t": "Contact",
+    "href": "https://lamalama.com/contact/"
+   },
+   {
+    "t": "Schedule a call Schedule a call Schedule",
+    "href": "https://lamalama.com/#cal"
+   },
+   {
+    "t": "Start a project Start a project Start a ",
+    "href": "https://lamalama.com/#form"
+   },
+   {
+    "t": "Get in touch Get in touch Get in touch",
+    "href": "https://lamalama.com/contact/"
+   }
+  ],
+  "ctas": [
+   "Welcome",
+   "Who we are",
+   "What we do",
+   "Our vibe",
+   "Core values",
+   "What we believe",
+   "The work",
+   "Awards",
+   "Clients",
+   "Let's talk"
+  ],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 3,
+   "videos": 24,
+   "imgs": 131,
+   "svgs": 92,
+   "iframes": 0,
+   "domNodes": 3114
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": false,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": true,
+  "highway": false,
+  "taxi": false,
+  "swiper": true,
+  "webflow": false,
+  "framer": false,
+  "wordpress": true,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [
+   "googletagmanager",
+   "gtag",
+   "segment"
+  ],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://www.googletagmanager.com/gtag/js?id=G-4XH4L2MNDM&cx=c&gtm=4e6b20",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-PSJFHZN",
+  "https://lamalama.com/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js",
+  "https://cdn.usefathom.com/script.js",
+  "https://app.cal.com/embed/embed.js",
+  "https://d5yoctgpv4cpx.cloudfront.net/RUM-OQ15K0OSPJ/v5-lamalama.com.js",
+  "https://lamalama.com/wp-content/themes/lamalama2025/dist/assets/main-CFwsl4JV.js"
+ ],
+ "internal": [
+  "https://lamalama.com/work/",
+  "https://lamalama.com/services/branding/",
+  "https://lamalama.com/services/websites/",
+  "https://lamalama.com/services/ecommerce/",
+  "https://lamalama.com/services/marketing/",
+  "https://lamalama.com/about-us/",
+  "https://lamalama.com/contact/",
+  "https://lamalama.com/nl/",
+  "https://lamalama.com/cases/moov/",
+  "https://lamalama.com/cases/gardeners/",
+  "https://lamalama.com/cases/neurons-lab/",
+  "https://lamalama.com/cases/voor-rookvrij/",
+  "https://lamalama.com/cases/prazeres-united/",
+  "https://lamalama.com/cases/home-agency/",
+  "https://lamalama.com/cases/ajax/"
+ ],
+ "perf": {
+  "ttfb": 160,
+  "dcl": 536,
+  "load": 812,
+  "lcp": 1668,
+  "lcpEl": "VIDEO.ll-part--video",
+  "cls": 0
+ },
+ "libs": {
+  "detected": [
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Lenis",
+   "Swup",
+   "Vue",
+   "Virtual scroll",
+   "GSAP",
+   "Swiper"
+  ],
+  "where": {
+   "ScrollTrigger": [
+    "008-app-B1J_BPa2.js",
+    "020-gsapConfig-BpbtjO5.js",
+    "022-CSSPlugin-5K9CJVu3.js",
+    "030-hero_extended-BxwHrnbz.js",
+    "031-backdrop_theme-oiWC0z41.js",
+    "032-case_highlighted-uk06KCTe.js",
+    "038-webgl_video-ClV8PZIm.js",
+    "043-footer-w48xjlwr.js"
+   ],
+   "SplitText/SplitType": [
+    "008-app-B1J_BPa2.js",
+    "022-CSSPlugin-5K9CJVu3.js"
+   ],
+   "Lenis": [
+    "008-app-B1J_BPa2.js"
+   ],
+   "Swup": [
+    "008-app-B1J_BPa2.js"
+   ],
+   "Vue": [
+    "008-app-B1J_BPa2.js"
+   ],
+   "Virtual scroll": [
+    "008-app-B1J_BPa2.js"
+   ],
+   "GSAP": [
+    "020-gsapConfig-BpbtjO5.js",
+    "022-CSSPlugin-5K9CJVu3.js"
+   ],
+   "Swiper": [
+    "037-case_item-BevQ-mZ0.js",
+    "039-a11y-Bk0pdSgy.js",
+    "040-services-BXdB81cW.js",
+    "041-scrollbar-DpHi0A-A.js"
+   ]
+  },
+  "gsapVersion": "3.11.0",
+  "threeRevision": null,
+  "shaders": 12,
+  "scripts": 43
+ },
+ "network": {
+  "requests": 235,
+  "totalKb": 26183,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 32
+   },
+   "Stylesheet": {
+    "n": 1,
+    "kb": 14
+   },
+   "Font": {
+    "n": 5,
+    "kb": 130
+   },
+   "Image": {
+    "n": 73,
+    "kb": 1568
+   },
+   "Script": {
+    "n": 50,
+    "kb": 746
+   },
+   "Fetch": {
+    "n": 6,
+    "kb": 0
+   },
+   "XHR": {
+    "n": 96,
+    "kb": 23692
+   },
+   "Ping": {
+    "n": 2,
+    "kb": 1
+   },
+   "Other": {
+    "n": 1,
+    "kb": 1
+   }
+  },
+  "thirdPartyHosts": [
+   "cdn.usefathom.com",
+   "app.cal.com",
+   "www.googletagmanager.com",
+   "ad.doubleclick.net",
+   "www.google.com",
+   "d5yoctgpv4cpx.cloudfront.net",
+   "vz-f76b55f9-7b8.b-cdn.net",
+   "stats.g.doubleclick.net",
+   "www.google.fr",
+   "region1.analytics.google.com"
+  ],
+  "fontFiles": [
+   "https://lamalama.com/wp-content/themes/lamalama2025/dist/fonts/Sometype-Mono.woff2",
+   "https://lamalama.com/wp-content/themes/lamalama2025/dist/fonts/SuisseBPIntl-Medium.woff2",
+   "https://lamalama.com/wp-content/themes/lamalama2025/dist/fonts/SuisseBPIntl-Regular.woff2",
+   "https://lamalama.com/wp-content/themes/lamalama2025/dist/fonts/SuisseBPIntl-Bold.woff2",
+   "https://lamalama.com/wp-content/themes/lamalama2025/dist/fonts/SuisseBPIntl-Light.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://vz-f76b55f9-7b8.b-cdn.net/56efda27-ec41-4816-91bd-abf9cd8be014/1080p/video1.ts",
+    "kb": 3757,
+    "type": "XHR"
+   },
+   {
+    "url": "https://vz-f76b55f9-7b8.b-cdn.net/56efda27-ec41-4816-91bd-abf9cd8be014/1080p/video0.ts",
+    "kb": 3673,
+    "type": "XHR"
+   },
+   {
+    "url": "https://vz-f76b55f9-7b8.b-cdn.net/078e30bf-d893-43a9-b157-70591b82d7f9/1080p/video2.ts",
+    "kb": 2706,
+    "type": "XHR"
+   },
+   {
+    "url": "https://vz-f76b55f9-7b8.b-cdn.net/078e30bf-d893-43a9-b157-70591b82d7f9/1080p/video1.ts",
+    "kb": 2702,
+    "type": "XHR"
+   },
+   {
+    "url": "https://vz-f76b55f9-7b8.b-cdn.net/078e30bf-d893-43a9-b157-70591b82d7f9/1080p/video0.ts",
+    "kb": 2146,
+    "type": "XHR"
+   },
+   {
+    "url": "https://vz-f76b55f9-7b8.b-cdn.net/363fda16-3a35-4a16-9908-32d4510d2196/1080p/video0.ts",
+    "kb": 2009,
+    "type": "XHR"
+   },
+   {
+    "url": "https://vz-f76b55f9-7b8.b-cdn.net/56efda27-ec41-4816-91bd-abf9cd8be014/1080p/video2.ts",
+    "kb": 1336,
+    "type": "XHR"
+   },
+   {
+    "url": "https://vz-f76b55f9-7b8.b-cdn.net/078e30bf-d893-43a9-b157-70591b82d7f9/1080p/video3.ts",
+    "kb": 720,
+    "type": "XHR"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "40px",
+   "lineHeight": "32px"
+  },
+  "body": "16px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 86
+}

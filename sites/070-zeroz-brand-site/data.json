@@ -1,0 +1,932 @@
+{
+ "id": 70,
+ "name": "zeroz Brand Site",
+ "sourceUrl": "https://otsuka-air.jp/",
+ "capturedAt": "2026-11-03T09:05:23.278Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg",
+   "desktop-13.jpg",
+   "desktop-14.jpg"
+  ],
+  "fullPage": 44331,
+  "subpages": [
+   {
+    "url": "https://otsuka-air.jp/about/",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://otsuka-air.jp/science_technology/",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://otsuka-air.jp/product/zeroz/",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://otsuka-air.jp/",
+ "title": "/zeroz（ゼロズ）公式サイト | 大塚製薬",
+ "lang": "ja",
+ "generator": null,
+ "seo": {
+  "description": "大塚製薬は、からだ本来の力を呼び覚ます、“Active Inner Resource”という思想にたどり着きました。その思想を形にしたのが、酸素を活かす成分「ケンフェロール」を含有したセルフコンディショニングフード「/zeroz（ゼロズ）」です。",
+  "canonical": "https://otsuka-air.jp/",
+  "robots": "max-image-preview:large",
+  "ogTitle": "/zeroz（ゼロズ）公式サイト | 大塚製薬",
+  "ogImage": "https://otsuka-air.jp/_astro/ogp.CSVrUM2_.jpg",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "WebPage"
+  ],
+  "h1Count": 1,
+  "headings": [
+   "H1 /zeroz（ゼロズ）公式サイト | 大塚製薬",
+   "H2 生命エネルギーは、健やかさの源。",
+   "H2 酸素を利用する力は、年齢や生活習慣で変化する。",
+   "H2 長年の研究が導き出した、酸素を活用する鍵。植物由来の成分「ケンフェロール」",
+   "H2 酸素を活かし、本来の自分の力を。Active Inner Resource 「/zeroz（ゼロズ）」",
+   "H2 各界の識者・トップランナーも注目する、革新的アプローチ。",
+   "H2 すべての人が、すべてのシーンで、 自分らしく健やかであるために。",
+   "H3 About",
+   "H3 About",
+   "H3 Science & Technology",
+   "H3 Science & Technology",
+   "H3 Product",
+   "H3 Product",
+   "H3 Interview",
+   "H3 Interview"
+  ],
+  "imgs": 61,
+  "imgNoAlt": 61,
+  "favicon": "https://otsuka-air.jp/favicon.ico",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#00a852",
+    "w": 2354983
+   },
+   {
+    "v": "#ffffff",
+    "w": 823661
+   },
+   {
+    "v": "#a9b1ae",
+    "w": 167743
+   }
+  ],
+  "text": [
+   {
+    "v": "#000000",
+    "w": 958
+   },
+   {
+    "v": "#ffffff",
+    "w": 896
+   },
+   {
+    "v": "#111312",
+    "w": 616
+   },
+   {
+    "v": "#00a852",
+    "w": 63
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "HelveticaNowDisplay-Regular",
+    "w": 1013
+   },
+   {
+    "v": "TazuganeGothicStdN-Regular",
+    "w": 977
+   },
+   {
+    "v": "ui-sans-serif",
+    "w": 308
+   },
+   {
+    "v": "TazuganeGothicStdN-Medium",
+    "w": 212
+   },
+   {
+    "v": "TazuganeGothicStdN-Bold",
+    "w": 15
+   },
+   {
+    "v": "IwaOGoPro-Db",
+    "w": 8
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "20px",
+    "w": 84
+   },
+   {
+    "v": "18px",
+    "w": 56
+   },
+   {
+    "v": "80px",
+    "w": 52
+   },
+   {
+    "v": "14px",
+    "w": 47
+   },
+   {
+    "v": "16px",
+    "w": 41
+   },
+   {
+    "v": "30px",
+    "w": 23
+   },
+   {
+    "v": "24px",
+    "w": 11
+   },
+   {
+    "v": "40px",
+    "w": 10
+   },
+   {
+    "v": "60px",
+    "w": 7
+   },
+   {
+    "v": "15px",
+    "w": 6
+   },
+   {
+    "v": "12px",
+    "w": 6
+   },
+   {
+    "v": "13px",
+    "w": 6
+   }
+  ],
+  "radius": [
+   {
+    "v": "9999px",
+    "w": 6
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.3 0.3s",
+    "w": 68
+   },
+   {
+    "v": "cubic-bezier(0.47 0.5s",
+    "w": 6
+   },
+   {
+    "v": "cubic-bezier(0.3 0.5s",
+    "w": 4
+   },
+   {
+    "v": "cubic-bezier(0.3 1s",
+    "w": 4
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "/zeroz（ゼロズ）公式サイト | 大塚製薬"
+   },
+   "h2": {
+    "family": "TazuganeGothicStdN-Medium, sans-serif",
+    "size": "30px",
+    "weight": "400",
+    "lineHeight": "54px",
+    "letterSpacing": "6px",
+    "transform": "none",
+    "color": "#111312",
+    "sample": "生命エネルギーは、健やかさの源。"
+   },
+   "h3": {
+    "family": "HelveticaNowDisplay-Regular, sans-serif",
+    "size": "30px",
+    "weight": "400",
+    "lineHeight": "30px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#111312",
+    "sample": "About"
+   },
+   "p": {
+    "family": "HelveticaNowDisplay-Regular, sans-serif",
+    "size": "15px",
+    "weight": "400",
+    "lineHeight": "18px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#00a852",
+    "sample": "Online store"
+   },
+   "a": {
+    "family": "HelveticaNowDisplay-Regular, sans-serif",
+    "size": "15px",
+    "weight": "400",
+    "lineHeight": "18px",
+    "letterSpacing": "normal",
+    "transform": "capitalize",
+    "color": "#ffffff",
+    "sample": "About"
+   },
+   "button": {
+    "family": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "About / Concept"
+   },
+   "li": {
+    "family": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "About"
+   },
+   "body": {
+    "family": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PFCFBJ\" height=\"0\" "
+   }
+  },
+  "cssVars": {
+   "--tw-text-opacity": "1",
+   "--tw-translate-x": "-50%",
+   "--header-color": "#ffffff",
+   "--header-color-duration": ".5s",
+   "--header-color-easing": "cubic-bezier(.3, .26, .38, 1)",
+   "--progress-bar-color": "#ffffff",
+   "--l-padding-left": "34px",
+   "--l-padding-right": "10px"
+  },
+  "fontFaces": [
+   {
+    "family": "fpbf_ac93d8111",
+    "weight": "",
+    "style": "",
+    "src": "url(\"https://s3-ap-northeast-1.amazonaws.com/fp-bf/3d4c80e6\") format(\"woff\")"
+   },
+   {
+    "family": "TazuganeGothicStdN-Regular",
+    "weight": "bold",
+    "style": "",
+    "src": "url(\"https://webfont.fontplus.jp/accessor/reqf/con=fp_7e5ccde62260f833cfaa371a7dd05efb&cha=UTF-8&dmode=&aa=1&ab=2&l=aHR0cHMlM0ElMkYlMkZvdHN1a2EtYWlyLmpwJTJG&chws=&fa=VGF6dWdhbmVHb3RoaWNTdGROLVJlZ3VsYX"
+   },
+   {
+    "family": "HelveticaNowDisplay-Regular",
+    "weight": "bold",
+    "style": "",
+    "src": "url(\"https://webfont.fontplus.jp/accessor/reqf/con=fp_7e5ccde62260f833cfaa371a7dd05efb&cha=UTF-8&dmode=&aa=1&ab=2&l=aHR0cHMlM0ElMkYlMkZvdHN1a2EtYWlyLmpwJTJG&chws=&fa=SGVsdmV0aWNhTm93RGlzcGxheS1SZWd1bG"
+   },
+   {
+    "family": "TazuganeGothicStdN-Medium",
+    "weight": "bold",
+    "style": "",
+    "src": "url(\"https://webfont.fontplus.jp/accessor/reqf/con=fp_7e5ccde62260f833cfaa371a7dd05efb&cha=UTF-8&dmode=&aa=1&ab=2&l=aHR0cHMlM0ElMkYlMkZvdHN1a2EtYWlyLmpwJTJG&chws=&fa=VGF6dWdhbmVHb3RoaWNTdGROLU1lZGl1bQ"
+   },
+   {
+    "family": "IwaOGoPro-Db",
+    "weight": "bold",
+    "style": "",
+    "src": "url(\"https://webfont.fontplus.jp/accessor/reqf/con=fp_7e5ccde62260f833cfaa371a7dd05efb&cha=UTF-8&dmode=&aa=1&ab=2&l=aHR0cHMlM0ElMkYlMkZvdHN1a2EtYWlyLmpwJTJG&chws=&fa=SXdhT0dvUHJvLURi&lst=0&lsc=0&s=5aG"
+   },
+   {
+    "family": "TazuganeGothicStdN-Bold",
+    "weight": "bold",
+    "style": "",
+    "src": "url(\"https://webfont.fontplus.jp/accessor/reqf/con=fp_7e5ccde62260f833cfaa371a7dd05efb&cha=UTF-8&dmode=&aa=1&ab=2&l=aHR0cHMlM0ElMkYlMkZvdHN1a2EtYWlyLmpwJTJG&chws=&fa=VGF6dWdhbmVHb3RoaWNTdGROLUJvbGQ&ls"
+   }
+  ],
+  "keyframes": [
+   "enter",
+   "exit"
+  ],
+  "breakpoints": [
+   {
+    "v": "768px",
+    "w": 294
+   },
+   {
+    "v": "1024px",
+    "w": 29
+   },
+   {
+    "v": "1280px",
+    "w": 7
+   },
+   {
+    "v": "376px",
+    "w": 6
+   },
+   {
+    "v": "430px",
+    "w": 6
+   },
+   {
+    "v": "1025px",
+    "w": 5
+   },
+   {
+    "v": "640px",
+    "w": 3
+   },
+   {
+    "v": "721px",
+    "w": 1
+   },
+   {
+    "v": "1440px",
+    "w": 1
+   },
+   {
+    "v": "1920px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 2179,
+  "crossOriginSheets": 1
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "w-full in-view in-view-from-bottom is-on",
+    "h": 2250,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "w-full",
+    "h": 9430,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "w-full",
+    "h": 5850,
+    "title": "生命エネルギーは、健やかさの源。",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "w-full",
+    "h": 5175,
+    "title": "酸素を利用する力は、年齢や生活習慣で変化する。",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "h-svh",
+    "h": 900,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "w-full",
+    "h": 5175,
+    "title": "長年の研究が導き出した、酸素を活用する鍵。植物由来の成分「ケンフェロール」",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": "chapter04",
+    "cls": "w-full",
+    "h": 6450,
+    "title": "酸素を活かし、本来の自分の力を。Active Inner Resource 「/zeroz（ゼロズ）」",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": "chapter05",
+    "cls": "w-full",
+    "h": 5325,
+    "title": "各界の識者・トップランナーも注目する、革新的アプローチ。",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "w-full",
+    "h": 4500,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "w-full",
+    "h": 5150,
+    "title": "すべての人が、すべてのシーンで、 自分らしく健やかであるために。",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "scene-navi is-ready",
+    "h": 216,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "is-home !bg-transparent",
+    "h": 469,
+    "title": "About",
+    "media": 16
+   },
+   {
+    "tag": "footer",
+    "id": null,
+    "cls": "",
+    "h": 858,
+    "title": "",
+    "media": 0
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "",
+    "href": "https://otsuka-air.jp/"
+   },
+   {
+    "t": "About",
+    "href": "https://otsuka-air.jp/about/"
+   },
+   {
+    "t": "Science & Technology",
+    "href": "https://otsuka-air.jp/science_technology/"
+   },
+   {
+    "t": "Product",
+    "href": "https://otsuka-air.jp/product/zeroz/"
+   },
+   {
+    "t": "Interview",
+    "href": "https://otsuka-air.jp/interview/"
+   },
+   {
+    "t": "Online store Online store",
+    "href": "https://www.otsuka-plus1.com/shop/a/azeroz-brand/"
+   },
+   {
+    "t": "About",
+    "href": "https://otsuka-air.jp/about/"
+   },
+   {
+    "t": "Science & Technology",
+    "href": "https://otsuka-air.jp/science_technology/"
+   },
+   {
+    "t": "Product",
+    "href": "https://otsuka-air.jp/product/zeroz/"
+   },
+   {
+    "t": "Interview",
+    "href": "https://otsuka-air.jp/interview/"
+   },
+   {
+    "t": "Online store",
+    "href": "https://www.otsuka-plus1.com/shop/a/azeroz-brand/"
+   }
+  ],
+  "ctas": [],
+  "pageHeight": 44331,
+  "counts": {
+   "canvas": 1,
+   "videos": 8,
+   "imgs": 61,
+   "svgs": 61,
+   "iframes": 4,
+   "domNodes": 1691
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "164",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": true,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": true,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [
+   "googletagmanager",
+   "gtag",
+   "segment",
+   "fbevents"
+  ],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://px.ladsp.com/pixel_p?advertiser_id=27422&f=1&fm=&sfp=&rp=--d10s--&su=2&site_url=https%3A%2F%2Fotsuka-air.jp%2F&ts=1793696739681&ismc=1",
+  "https://px.ladsp.com/pixel_p?advertiser_id=27465&f=1&fm=&sfp=&rp=--d10s--&su=2&site_url=https%3A%2F%2Fotsuka-air.jp%2F&ts=1793696739678&ismc=1",
+  "https://px.ladsp.com/pixel_p?advertiser_id=00027053&f=1&fm=&sfp=&rp=--d10s--&su=2&site_url=https%3A%2F%2Fotsuka-air.jp%2F&ts=1793696736836&ismc=1",
+  "https://dmp.im-apps.net/sdk/log.js",
+  "https://score.im-apps.net/v1/fraud?escvid=18436&imid=&callback=im1793696727860",
+  "https://penta.a.one.impact-ad.jp/combo?oid=aa68307d2e7cbaa0&dd_rft=k&dd_jsonp=a1tracker.cb._10&fu=ed7c21c9-7bc0-4d5a-9fd0-88ca0529194c&i5=0&src=https%3A%2F%2Fotsuka-air.jp%2F&l=fr-fr&sr=1440x900&vp=1440x900&cd=24-bit&tgsrc=itm_a1common&dsc=%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC%E3%81%AF%E3%80%81%E3%81%8B%E3%82%89%E3%81%9F%E3%82%99%E6%9C%AC%E6%9D%A5%E3%81%AE%E5%8A%9B%E3%82%92%E5%91%BC%E3%81%B2%E3%82%99%E8%A6%9A%E3%81%BE%E3%81%99%E3%80%81%E2%80%9CActive%20Inner%20Resource%E2%80%9D%E3%81%A8%E3%81%84%E3%81%86%E6%80%9D%E6%83%B3%E3%81%AB%E3%81%9F%E3%81%A8%E3%82%99%E3%82%8A%E7%9D%80%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F%E3%80%82%E3%81%9D%E3%81%AE%E6%80%9D%E6%83%B3%E3%82%92%E5%BD%A2%E3%81%AB%E3%81%97%E3%81%9F%E3%81%AE%E3%81%8B%E3%82%99%E3%80%81%E9%85%B8%E7%B4%A0%E3%82%92%E6%B4%BB%E3%81%8B%E3%81%99%E6%88%90%E5%88%86%E3%80%8C%E3%82%B1%E3%83%B3%E3%83%95%E3%82%A7%E3%83%AD%E3%83%BC%E3%83%AB%E3%80%8D%E3%82%92%E5%90%AB%E6%9C%89%E3%81%97%E3%81%9F%E3%82%BB%E3%83%AB%E3%83%95%E3%82%B3%E3%83%B3%E3%83%86%E3%82%99%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%8B%E3%83%B3%E3%82%AF%E3%82%99%E3%83%95%E3%83%BC%E3%83%88%E3%82%99%E3%80%8C%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E3%80%8D%E3%81%A7%E3%81%99%E3%80%82&dt=%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%7C%20%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC",
+  "https://px.ladsp.com/pixel?advertiser_id=27422&f=1&su=2&site_url=https%3A%2F%2Fotsuka-air.jp%2F&fm=&sfp=&ts=1793696728176&sua=eyJhcmNoaXRlY3R1cmUiOiJ4ODYiLCJiaXRuZXNzIjoiNjQiLCJtb2RlbCI6IiIsIm1vYmlsZSI6ZmFsc2UsInBsYXRmb3JtIjoiV2luZG93cyIsInBsYXRmb3JtVmVyc2lvbiI6IjEwLjAiLCJmdWxsVmVyc2lvbkxpc3QiOlt7ImJyYW5kIjoiTm90OkEtQnJhbmQiLCJ2ZXJzaW9uIjoiOC4wLjAuMCJ9LHsiYnJhbmQiOiJDaHJvbWl1bSIsInZlcnNpb24iOiIxNTYuMC44MDc4Ljc0In0seyJicmFuZCI6Ikdvb2dsZSBDaHJvbWUiLCJ2ZXJzaW9uIjoiMTU2LjAuODA3OC43NCJ9XX0%3D&ismc=1",
+  "https://px.ladsp.com/pixel?advertiser_id=27465&f=1&su=2&site_url=https%3A%2F%2Fotsuka-air.jp%2F&fm=&sfp=&ts=1793696728176&sua=eyJhcmNoaXRlY3R1cmUiOiJ4ODYiLCJiaXRuZXNzIjoiNjQiLCJtb2RlbCI6IiIsIm1vYmlsZSI6ZmFsc2UsInBsYXRmb3JtIjoiV2luZG93cyIsInBsYXRmb3JtVmVyc2lvbiI6IjEwLjAiLCJmdWxsVmVyc2lvbkxpc3QiOlt7ImJyYW5kIjoiTm90OkEtQnJhbmQiLCJ2ZXJzaW9uIjoiOC4wLjAuMCJ9LHsiYnJhbmQiOiJDaHJvbWl1bSIsInZlcnNpb24iOiIxNTYuMC44MDc4Ljc0In0seyJicmFuZCI6Ikdvb2dsZSBDaHJvbWUiLCJ2ZXJzaW9uIjoiMTU2LjAuODA3OC43NCJ9XX0%3D&ismc=1",
+  "https://cd.ladsp.com/script/pb_pixel2_p_delay.js",
+  "https://cd.ladsp.com/script/pb_pixel2.js",
+  "https://dmp.im-apps.net/sdk/im-uid.js",
+  "https://dmp.im-apps.net/scripts/set.js?cid=11310&sid=10104568&token=6b825cf5b3339ce50a7dc764f0d8c304",
+  "https://amplify.outbrain.com/cp/obtp.js",
+  "https://www.googletagmanager.com/gtag/destination?id=AW-11310_GDN_RE_%E6%88%90%E6%9E%9C%E5%A0%B1%E9%85%AC&l=itm_dl1_11310&cx=c&gtm=4e6au1h1",
+  "https://www.googletagmanager.com/gtag/destination?id=DC-8133062&l=itm_dl1_11310&cx=c&gtm=4e6au1h1",
+  "https://dmp.im-apps.net/sdk/log.2.js",
+  "https://dmp.im-apps.net/sdk/log.3.js",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-PBZQ7J&l=itm_dl1_11310",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-T3NCB9N3&l=itm_dl1_1024683",
+  "https://px.ladsp.com/pixel?advertiser_id=00027053&f=1&su=2&site_url=https%3A%2F%2Fotsuka-air.jp%2F&fm=&sfp=&ts=1793696726836&sua=eyJhcmNoaXRlY3R1cmUiOiJ4ODYiLCJiaXRuZXNzIjoiNjQiLCJtb2RlbCI6IiIsIm1vYmlsZSI6ZmFsc2UsInBsYXRmb3JtIjoiV2luZG93cyIsInBsYXRmb3JtVmVyc2lvbiI6IjEwLjAiLCJmdWxsVmVyc2lvbkxpc3QiOlt7ImJyYW5kIjoiTm90OkEtQnJhbmQiLCJ2ZXJzaW9uIjoiOC4wLjAuMCJ9LHsiYnJhbmQiOiJDaHJvbWl1bSIsInZlcnNpb24iOiIxNTYuMC44MDc4Ljc0In0seyJicmFuZCI6Ikdvb2dsZSBDaHJvbWUiLCJ2ZXJzaW9uIjoiMTU2LjAuODA3OC43NCJ9XX0%3D&ismc=1",
+  "https://img.ak.impact-ad.jp/ut/a1/tracking.min.js",
+  "https://s.yimg.jp/images/listing/tool/cv/ytag.js",
+  "https://www.googletagmanager.com/gtag/js?id=G-EPYRMKR13P&cx=c&gtm=4e6au1",
+  "https://dmp.im-apps.net/js/1024683/0001/itm.js",
+  "https://cdn.hera.d2c.ne.jp/1.0/index.js",
+  "https://cdn.smartnews-ads.com/i/pixel.js",
+  "https://cdn.hera.d2c.ne.jp/1.0/index.js",
+  "https://cd.ladsp.com/script/pixel2_p_delay.js",
+  "https://cd.ladsp.com/script/pixel2.js",
+  "https://static.ads-twitter.com/uwt.js",
+  "https://connect.facebook.net/signals/config/1433269845159599?v=2.9.433&r=stable&domain=otsuka-air.jp&hme=4453c87d489b6902031c012cadd2731893cd69feb64fe8a61b339727247a7703&ex_m=118%2C242%2C171%2C27%2C82%2C83%2C162%2C78%2C77%2C11%2C181%2C102%2C20%2C153%2C141%2C46%2C85%2C90%2C149%2C176%2C183%2C8%2C4%2C5%2C7%2C6%2C3%2C103%2C115%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C37%2C55%2C163%2C87%2C126%2C22%2C24%2C51%2C47%2C49%2C48%2C95%2C104%2C108%2C124%2C160%2C164%2C53%2C125%2C29%2C26%2C133%2C79%2C43%2C166%2C165%2C167%2C157%2C155%2C30%2C42%2C66%2C123%2C178%2C80%2C21%2C128%2C93%2C76%2C23%2C97%2C98%2C130%2C96%2C151%2C150%2C154%2C109%2C177%2C180%2C41%2C56%2C127%2C54%2C161%2C72%2C185%2C110%2C184%2C211%2C263%2C84%2C283%2C282%2C281%2C14%2C25%2C28%2C40%2C62%2C117%2C68%2C10%2C73%2C111%2C112%2C113%2C119%2C144%2C38%2C36%2C146%2C147%2C148%2C143%2C142%2C172%2C86%2C175%2C173%2C174%2C57%2C69%2C67%2C137%2C19%2C179%2C52%2C333%2C334%2C335%2C332%2C349%2C371%2C256%2C238%2C70%2C239%2C237%2C374%2C365%2C59%2C257%2C121%2C145%2C92%2C135%2C61%2C134%2C140%2C139%2C65%2C74%2C168%2C88%2C89%2C129%2C44%2C39%2C60%2C63%2C114%2C182%2C1%2C138%2C16%2C136%2C12%2C2%2C64%2C105%2C15%2C75%2C71%2C132%2C101%2C100%2C187%2C188%2C106%2C107%2C9%2C116%2C186%2C58%2C158%2C99%2C91%2C81%2C131%2C120%2C169%2C50%2C159%2C0%2C94%2C152%2C156%2C170%2C45%2C122%2C13%2C189",
+  "https://connect.facebook.net/en_US/fbevents.js",
+  "https://img.ak.impact-ad.jp/ut/aa68307d2e7cbaa0_2738.js",
+  "https://cs.nakanohito.jp/b3/bi.js",
+  "https://dmp.im-apps.net/js/11310/0001/itm.js",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-WLR8TPDV&gtm=4e6au1",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-NCLGSKDQ&gtm=4e6au1",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-WTP72FWX&gtm=4e6au1",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-K9H2S437&gtm=4e6au1",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-5BZ8C2WJ&gtm=4e6au1",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-PRN8SKKG&gtm=4e6au1",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-NGZP6X9K&gtm=4e6au1",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-TPFNSZJ6&gtm=4e6au1",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-KT35N2SJ&gtm=4e6au1",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-MD3HRP8C&gtm=4e6au1",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-KL7BRGJ4&gtm=4e6au1",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-NXXSXJXR&gtm=4e6au1",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-MVNDX6Q3&gtm=4e6au1",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-K4R9KGGN&gtm=4e6au1",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-TRKBBZFM&gtm=4e6au1",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-5NQT69KM&gtm=4e6au1",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-KS9LXQGJ&gtm=4e6au1",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-KMFPJPCH&gtm=4e6au1",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-TFSNN4N8&gtm=4e6au1",
+  "https://s.yimg.jp/images/listing/tool/cv/ytag.js",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-WS3WF7B",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-PFCFBJ",
+  "https://webfont.fontplus.jp/accessor/script/fontplus.js?qeKl1mCCy7A%3D&box=QAczRizjTNQ%3D&timeout=15&aa=1&ab=2",
+  "https://otsuka-air.jp/_astro/hoisted.B1SGfLJ6.js",
+  "https://js.api.nidan.d2c.ne.jp/id/nidan/pre?callback=d2c.nidan.ns&origin=https%3A%2F%2Fotsuka-air.jp&domain=otsuka-air.jp&referrer=&nv=h2",
+  "https://nidan.addlv.smt.docomo.ne.jp/id/daisy/sync?callback=d2c.nidan.ds&origin=https%3A%2F%2Fotsuka-air.jp&domain=otsuka-air.jp&referrer=",
+  "https://tr.webantenna.info/js/webantenna.js",
+  "https://tag.flvcdn.net/lytag.js",
+  "https://b92.yahoo.co.jp/js/s_retargeting.js",
+  "https://dmp.im-apps.net/sdk/im-uid.js"
+ ],
+ "internal": [
+  "https://otsuka-air.jp/about/",
+  "https://otsuka-air.jp/science_technology/",
+  "https://otsuka-air.jp/product/zeroz/",
+  "https://otsuka-air.jp/interview/",
+  "https://otsuka-air.jp/interview/takashidoi_01",
+  "https://otsuka-air.jp/interview/takashidoi_02",
+  "https://otsuka-air.jp/interview/yukarimiwa_01",
+  "https://otsuka-air.jp/interview/yukarimiwa_02",
+  "https://otsuka-air.jp/interview/oi_hirose_01",
+  "https://otsuka-air.jp/interview/oi_hirose_02",
+  "https://otsuka-air.jp/interview/masaoyoshida_01",
+  "https://otsuka-air.jp/interview/masaoyoshida_02",
+  "https://otsuka-air.jp/interview/yokonakano_01",
+  "https://otsuka-air.jp/interview/yokonakano_02",
+  "https://otsuka-air.jp/interview/makikootsuka_01",
+  "https://otsuka-air.jp/interview/makikootsuka_02",
+  "https://otsuka-air.jp/interview/scarz_01",
+  "https://otsuka-air.jp/interview/scarz_02",
+  "https://otsuka-air.jp/interview/takahiromatsui_01",
+  "https://otsuka-air.jp/interview/takahiromatsui_02",
+  "https://otsuka-air.jp/interview/akikayasuda_01",
+  "https://otsuka-air.jp/interview/akikayasuda_02",
+  "https://otsuka-air.jp/interview/kawadanaoki_01",
+  "https://otsuka-air.jp/interview/kawadanaoki_02",
+  "https://otsuka-air.jp/interview/yujiemoto_01",
+  "https://otsuka-air.jp/interview/yujiemoto_02"
+ ],
+ "perf": {
+  "ttfb": 911,
+  "dcl": 3395,
+  "load": 7921,
+  "lcp": 0,
+  "lcpEl": null,
+  "cls": 0
+ },
+ "libs": {
+  "detected": [
+   "jQuery",
+   "GSAP",
+   "ScrollTrigger",
+   "Lenis",
+   "Three.js",
+   "Postprocessing",
+   "Barba.js",
+   "Alpine.js",
+   "Lil-GUI/Tweakpane (debug)",
+   "Virtual scroll"
+  ],
+  "where": {
+   "jQuery": [
+    "001-fontplus.js",
+    "003-aa68307d2e7cbaa0_2738.js"
+   ],
+   "GSAP": [
+    "011-hoisted.B1SGfLJ6.js"
+   ],
+   "ScrollTrigger": [
+    "011-hoisted.B1SGfLJ6.js"
+   ],
+   "Lenis": [
+    "011-hoisted.B1SGfLJ6.js",
+    "015-index.CYOdfaCW.js",
+    "styles.css"
+   ],
+   "Three.js": [
+    "011-hoisted.B1SGfLJ6.js"
+   ],
+   "Postprocessing": [
+    "011-hoisted.B1SGfLJ6.js"
+   ],
+   "Barba.js": [
+    "011-hoisted.B1SGfLJ6.js"
+   ],
+   "Alpine.js": [
+    "011-hoisted.B1SGfLJ6.js"
+   ],
+   "Lil-GUI/Tweakpane (debug)": [
+    "011-hoisted.B1SGfLJ6.js"
+   ],
+   "Virtual scroll": [
+    "011-hoisted.B1SGfLJ6.js"
+   ]
+  },
+  "gsapVersion": "3.14.2",
+  "threeRevision": null,
+  "shaders": 40,
+  "scripts": 31
+ },
+ "network": {
+  "requests": 336,
+  "totalKb": 35539,
+  "byType": {
+   "Document": {
+    "n": 6,
+    "kb": 165
+   },
+   "Stylesheet": {
+    "n": 7,
+    "kb": 56
+   },
+   "Script": {
+    "n": 70,
+    "kb": 4552
+   },
+   "Fetch": {
+    "n": 66,
+    "kb": 6242
+   },
+   "Image": {
+    "n": 149,
+    "kb": 23339
+   },
+   "Media": {
+    "n": 13,
+    "kb": 253
+   },
+   "Ping": {
+    "n": 5,
+    "kb": 1
+   },
+   "XHR": {
+    "n": 12,
+    "kb": 673
+   },
+   "Font": {
+    "n": 6,
+    "kb": 252
+   },
+   "Other": {
+    "n": 2,
+    "kb": 7
+   }
+  },
+  "thirdPartyHosts": [
+   "fonts.googleapis.com",
+   "webfont.fontplus.jp",
+   "www.googletagmanager.com",
+   "ad.doubleclick.net",
+   "static.ads-twitter.com",
+   "img.ak.impact-ad.jp",
+   "connect.facebook.net",
+   "cdn.hera.d2c.ne.jp",
+   "www.google.com",
+   "cd.ladsp.com",
+   "cdn.smartnews-ads.com",
+   "t.co",
+   "analytics.twitter.com",
+   "s.yimg.jp",
+   "www.facebook.com",
+   "dmp.im-apps.net",
+   "region1.analytics.google.com",
+   "i6.smartnews-ads.com",
+   "www.google.fr",
+   "tr.webantenna.info",
+   "cs.nakanohito.jp",
+   "stats.g.doubleclick.net",
+   "js.api.nidan.d2c.ne.jp",
+   "capig.stape.pw",
+   "b6.im-apps.net",
+   "sync6.im-apps.net",
+   "lb.eu-1-id5-sync.com",
+   "id5-sync.com",
+   "pixel-tag.insight.rakuten.co.jp",
+   "nidan.addlv.smt.docomo.ne.jp",
+   "d1.eu-3-id5-sync.com",
+   "d2.eu-3-id5-sync.com",
+   "d0.eu-3-id5-sync.com",
+   "d4.eu-3-id5-sync.com",
+   "d3.eu-3-id5-sync.com",
+   "d5.eu-3-id5-sync.com",
+   "d6.eu-3-id5-sync.com",
+   "d7.eu-3-id5-sync.com",
+   "d2.eu-4-id5-sync.com",
+   "d1.eu-4-id5-sync.com"
+  ],
+  "fontFiles": [
+   "https://webfont.fontplus.jp/accessor/reqf/con=fp_7e5ccde62260f833cfaa371a7dd05efb&cha=UTF-8&dmode=&aa=1&ab=2&l=aHR0cHMlM0ElMkYlMkZvdHN1a2EtYWlyLmpwJTJG&chws=&fa=VGF6dWdhbmVHb3RoaWNTdGROLUJvbGQ&lst=0&lsc=0&s=44CB44CC44GL44Gu44KJ44KS5LuK5YiG5Yqb5pel5pys5p2l6Ieq&ivs=0",
+   "https://webfont.fontplus.jp/accessor/reqf/con=fp_7e5ccde62260f833cfaa371a7dd05efb&cha=UTF-8&dmode=&aa=1&ab=2&l=aHR0cHMlM0ElMkYlMkZvdHN1a2EtYWlyLmpwJTJG&chws=&fa=SXdhT0dvUHJvLURi&lst=0&lsc=0&s=5aGa5aSn6Jas6KO9&ivs=0",
+   "https://webfont.fontplus.jp/accessor/reqf/con=fp_7e5ccde62260f833cfaa371a7dd05efb&cha=UTF-8&dmode=&aa=1&ab=2&l=aHR0cHMlM0ElMkYlMkZvdHN1a2EtYWlyLmpwJTJG&chws=&fa=VGF6dWdhbmVHb3RoaWNTdGROLU1lZGl1bQ&lst=0&lsc=0&s=KCkvQUNFR0lLTk9SU1RaYWNlaWtub3JzdHV2euKAnOKAneOAgeOAguOAheOAjOOAjeOBguOBhOOBhuOBiOOBi-OBjOOBjeOBj-OBkeOBleOBl-OBmeOBm-OBneOBn-OBoOOBo-OBpuOBp-OBqOOBqeOBquOBq-OBruOBr-OBs-OBueOBvuOBv-OCgeOCguOChOOCieOCiuOCi-OCj-OCkuOCouOCo-OCpOOCpuOCp-OCqOOCrOOCruOCr-OCsOOCseOCs-OCteOCt-OCueOCuuOCu-OCvOOCv-ODgOODgeODg-ODhuODh-ODiOODieODiuODi-ODjeODkOODkeODleODluODl-ODnuODouODp-ODqOODqeODquODq-ODrOODreODr-ODs-ODu-ODvOS4h-S4ieS4reS5n-S6leS6uuS7iuS7o-S8keS8muWBpeWCmeWDjeWFg-WHuuWIhuWIqeWKm-WLleWMluWPluWQhOWQieWQq-WRvOWRveWSjOWbsuWbveWcn-WhmuWjq-WkieWkj-Wkp-Wlj-WtkOWuieWwjuWxseWys-W3neW4guW4q-W5tOW7o-W8j-W9ouW9ueaAneaBr-aCoOaDs-aFjuaFo-aIkOaUr-aWsOaXpeaYjOaYjuaZguacieacrOadpeadvuagquaji-akjeanmOaoueasoOawkeaxn-azqOa0u-a1qea6kOa7i-eArOeJqeeUn-eUqOeUsOeUseeVjOeahOebruebtOedgOeekeeglOeigeekvueptue0gOe0oOe3oOe_kuiAheiHquiKseiWrOihqOijveimmuism-itmOiwt-i8nemDqOmFuOmHjumNi-mNtemVt-mZtemZvemahumam-mdqemmmem9ou-8iO-8ie-8jw&ivs=0",
+   "https://webfont.fontplus.jp/accessor/reqf/con=fp_7e5ccde62260f833cfaa371a7dd05efb&cha=UTF-8&dmode=&aa=1&ab=2&l=aHR0cHMlM0ElMkYlMkZvdHN1a2EtYWlyLmpwJTJG&chws=&fa=SGVsdmV0aWNhTm93RGlzcGxheS1SZWd1bGFy&lst=0&lsc=0&s=IiYoKSwuLzAxMjM0NUFCQ0RFRkhJS0xNTk9QUlNUVVZXWVphYmNkZWZnaGlqa2xtbm9wcnN0dXZ3eHl6wqnigJzigJ3jgIHjgILjgIzjgI3jgYTjgYbjgYvjgZnjgZ_jgajjga7jgbLjgb7jgoLjgoTjgonjgpLjgpnjgqPjgqfjgq_jgrHjgrPjgrfjgrrjgrvjgrzjg4bjg4jjg4vjg5Xjg6fjg6vjg63jg7Pjg7zku4rliIblipvlkITlkbzlrrblsILmgJ3mg7PmiJDml6XmnKzmnaXms6jmtLvnlYznm67ntKDogIXoh6ropprorZjphbjploDvvIjvvIk&ivs=0",
+   "https://webfont.fontplus.jp/accessor/reqf/con=fp_7e5ccde62260f833cfaa371a7dd05efb&cha=UTF-8&dmode=&aa=1&ab=2&l=aHR0cHMlM0ElMkYlMkZvdHN1a2EtYWlyLmpwJTJG&chws=&fa=VGF6dWdhbmVHb3RoaWNTdGROLVJlZ3VsYXI&lst=0&lsc=0&s=Ii4vMDE5QUlSY2Vpbm9yc3R1dnrigJ3jgIHjgILjgIXjgIzjgI3jgYLjgYTjgYbjgYjjgYrjgYvjgYzjgY3jgY7jgY_jgZHjgZLjgZPjgZTjgZXjgZbjgZfjgZjjgZnjgZrjgZvjgZ3jgZ7jgZ_jgaDjgaHjgaPjgaTjgaXjgabjgafjgajjganjgarjgavjga7jga_jgbDjgbLjgbjjgbnjgb7jgb_jgoDjgoHjgoLjgoTjgojjgonjgorjgovjgozjgo3jgo_jgpLjgpPjgpnjgqLjgqPjgqTjgqbjgqfjgqjjgqnjgqvjgqzjgq3jgq7jgq_jgrDjgrHjgrPjgrXjgrfjgrjjgrnjgrrjgrvjgrzjgr_jg4Djg4Hjg4Pjg4Tjg4bjg4fjg4jjg4njg4rjg4vjg43jg5Djg5Hjg5Pjg5Xjg5bjg5fjg5njg5rjg5vjg53jg57jg6Djg6Pjg6fjg6jjg6njg6rjg6vjg6zjg63jg6_jg7Pjg7zkuIDkuI3kuI7kuJbkuovkuozkuqTkurrku4rkvJHkvJrkvJ3kvZPlgIvlgaXlgpnlg43lhYXlhYjlhaXlhajlhoXlh7rliIbliKnliY3lipvlip_li5XljJbljYHlj47lj5blj6Plj6_lkITlkIjlkJHlkKvlkLjlkbPlkbzlkb3lk6HllY_lm7LlnLDln4vloLHloZrlpInlpJrlpJzlpKflq4zlrojlronlrp_lrrblsILlsI7lsL3lsbHluLjlubTluoPluqblurflvLXlvaLlvpPlv4Xlv5nmgJ3mgKfmga_mg4Xmg7PmhI_mhaPmiJDmibHmioDmip7mi6DmjIHmj5vmj67mkoPmlLnmlL7mlbDmlrDmlrnmlr3ml6XmmYLmma_mnIDmnInmnKzmnaXmoITmpI3mpa3mpb3mp5jmqLnmqZ_mrKDmrLLmrbPmr47msJfmsLTmsYLms6jmtLvmtYHmtojmt7HmuoDmupDmupbngrnnhLbnhrHnianni4Lni6znj77nkIPnlJ_nlKjnlLHnlYznmbrnmoTnm6Tnm67nnKDnnYDnnaHnn63nooHnp4Hnp5Lnq4vntKDntYLntYTntYzntbbntprntq3nt5rnuZTnv5LogIPogIXogqLog73oh6roia_oibLokL3olqzooZPooZ3oo73opIfopoHopobopprop6PoqJjoqK3orZjosrvotbDotqPouI_ouo3ovrzov73pgJrpgYvpgbjphbjpjLLplbfploDplovplpPpmZDpm4bpnaLpnanppIrpqJPprYXpvaLvvIjvvIk&ivs=0"
+  ],
+  "biggest": [
+   {
+    "url": "https://otsuka-air.jp/assets/models/otsuka_main_export.glb",
+    "kb": 4338,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://otsuka-air.jp/assets/images/textures/high/intro05.webp",
+    "kb": 964,
+    "type": "Image"
+   },
+   {
+    "url": "https://otsuka-air.jp/assets/images/interview/yujiemoto01/hero-top.webp",
+    "kb": 817,
+    "type": "Image"
+   },
+   {
+    "url": "https://otsuka-air.jp/assets/images/interview/scarz01/hero-top.webp",
+    "kb": 804,
+    "type": "Image"
+   },
+   {
+    "url": "https://otsuka-air.jp/assets/images/interview/masaoyoshida01/hero-top.webp",
+    "kb": 785,
+    "type": "Image"
+   },
+   {
+    "url": "https://otsuka-air.jp/assets/models/otsuka_bag_tantai_export.glb",
+    "kb": 700,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://otsuka-air.jp/assets/images/textures/high/intro02.webp",
+    "kb": 560,
+    "type": "Image"
+   },
+   {
+    "url": "https://otsuka-air.jp/assets/images/textures/high/intro03.webp",
+    "kb": 557,
+    "type": "Image"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "16px",
+   "lineHeight": "24px"
+  },
+  "body": "16px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 321
+}

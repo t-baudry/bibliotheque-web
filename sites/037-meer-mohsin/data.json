@@ -2,60 +2,722 @@
  "id": 37,
  "name": "MEER MOHSIN",
  "sourceUrl": "https://www.meermohsin.me/",
- "capturedAt": "2026-11-02T23:47:20.772Z",
- "status": "inaccessible",
- "errors": [
-  "goto load: page.goto: Target page, context or browser has been closed",
-  "goto dcl: page.goto: Target page, context or browser has been closed",
-  "shot0 browserContext.newCDPSession: Target page, context or browser has been closed",
-  "extract: page.evaluate: Target page, context or browser has been closed",
-  "fullpage: page.evaluate: Target page, context or browser has been closed",
-  "browser.newContext: Target page, context or browser has been closed"
- ],
+ "capturedAt": "2026-11-03T08:49:31.173Z",
+ "status": "ok",
+ "errors": [],
  "steps": {
   "cookies": [],
   "enter": null,
   "rea": "passe hors ligne (rea-pass.mjs)",
-  "desktopFrames": [],
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg",
+   "desktop-13.jpg",
+   "desktop-14.jpg"
+  ],
+  "fullPage": 28172,
   "subpages": [],
-  "video": "desktop-scroll.webm"
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
  },
- "httpStatus": null,
+ "httpStatus": 200,
+ "url": "https://www.meermohsin.me/",
+ "title": "Meer Mohsin | Front-End Developer, UI/UX Designer & 3D Web Developer",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Mohsin Meer is a Front-End Developer, UI/UX Designer, and 3D Web Developer from Pakistan, creating award-level digital experiences using Three.js, GSAP, WebGL, JavaScript, HTML, CSS, and modern web technologies.",
+  "canonical": "https://meermohsin.me/",
+  "robots": "index, follow, max-image-preview:large",
+  "ogTitle": "Mohsin Meer | Front-End Developer, UI/UX Designer & 3D Web Developer",
+  "ogImage": "https://meermohsin.me/mohsin-face.jpg",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "Person"
+  ],
+  "h1Count": 15,
+  "headings": [
+   "H1 GET IN TOUCH",
+   "H1 LOREM IPSUM",
+   "H1 This Will Feel Different",
+   "H1 10+",
+   "H1 25+",
+   "H1 6+",
+   "H1 lorem ipsum",
+   "H3 Gallery",
+   "H1 01",
+   "H1 My work",
+   "H1 Discovery",
+   "H1 Creative Direction",
+   "H1 Digital Craftsmanship",
+   "H1 Launch & Evolution",
+   "H1 From the First Idea to the Final Frame Every Step Is Crafted to Create an Unforgettable Di",
+   "H2 AWARDS &RECOGNIZATIONS",
+   "H2 AWARDS & RECOGNIZATIONS",
+   "H1 Every Great Story Needs APowerful Ending."
+  ],
+  "imgs": 55,
+  "imgNoAlt": 14,
+  "favicon": "https://www.meermohsin.me/assets/favicon-96x96-BhyCdcue.png",
+  "themeColor": "#0D0D0D"
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#990000",
+    "w": 4708894
+   },
+   {
+    "v": "#000000",
+    "w": 1366917
+   },
+   {
+    "v": "#090909",
+    "w": 1296000
+   },
+   {
+    "v": "#222222",
+    "w": 880944
+   },
+   {
+    "v": "#ffffff",
+    "w": 13777
+   },
+   {
+    "v": "#170d0d",
+    "w": 42
+   }
+  ],
+  "text": [
+   {
+    "v": "#990000",
+    "w": 1020
+   },
+   {
+    "v": "#ffffff",
+    "w": 674
+   },
+   {
+    "v": "#f5f5f5",
+    "w": 358
+   },
+   {
+    "v": "#000000",
+    "w": 301
+   },
+   {
+    "v": "#d60407",
+    "w": 42
+   },
+   {
+    "v": "#f1f1f1",
+    "w": 26
+   },
+   {
+    "v": "#e4e0e0",
+    "w": 4
+   }
+  ],
+  "border": [
+   {
+    "v": "#ffffff",
+    "w": 4
+   },
+   {
+    "v": "#e6e1e1",
+    "w": 1
+   },
+   {
+    "v": "#f3f3f3",
+    "w": 1
+   },
+   {
+    "v": "#000000",
+    "w": 1
+   }
+  ],
+  "fonts": [
+   {
+    "v": "regular-font",
+    "w": 1458
+   },
+   {
+    "v": "light-font",
+    "w": 821
+   },
+   {
+    "v": "ruthie",
+    "w": 140
+   },
+   {
+    "v": "Bebas Neue",
+    "w": 6
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "17.9993px",
+    "w": 291
+   },
+   {
+    "v": "14.3994px",
+    "w": 83
+   },
+   {
+    "v": "29.9988px",
+    "w": 38
+   },
+   {
+    "v": "89.9964px",
+    "w": 36
+   },
+   {
+    "v": "59.9976px",
+    "w": 32
+   },
+   {
+    "v": "191.992px",
+    "w": 27
+   },
+   {
+    "v": "23.999px",
+    "w": 22
+   },
+   {
+    "v": "119.995px",
+    "w": 8
+   },
+   {
+    "v": "71.9971px",
+    "w": 8
+   },
+   {
+    "v": "13.1995px",
+    "w": 6
+   },
+   {
+    "v": "131.995px",
+    "w": 6
+   },
+   {
+    "v": "35.9986px",
+    "w": 4
+   },
+   {
+    "v": "227.991px",
+    "w": 4
+   },
+   {
+    "v": "239.99px",
+    "w": 4
+   },
+   {
+    "v": "15.5994px",
+    "w": 4
+   },
+   {
+    "v": "11.9995px",
+    "w": 4
+   }
+  ],
+  "radius": [
+   {
+    "v": "599.976px",
+    "w": 4
+   },
+   {
+    "v": "50%",
+    "w": 1
+   },
+   {
+    "v": "359.986px",
+    "w": 1
+   },
+   {
+    "v": "839.966px",
+    "w": 1
+   }
+  ],
+  "shadows": [
+   {
+    "v": "rgba(17, 17, 17, 0.67) 0px 0px 0px 0.355116px",
+    "w": 1
+   }
+  ],
+  "transitions": [
+   {
+    "v": "ease 0.35s",
+    "w": 44
+   },
+   {
+    "v": "ease 0.3s",
+    "w": 20
+   },
+   {
+    "v": "ease 0.5s",
+    "w": 4
+   },
+   {
+    "v": "ease 0.1s",
+    "w": 3
+   },
+   {
+    "v": "cubic-bezier(0.075 2s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "regular-font",
+    "size": "59.9976px",
+    "weight": "100",
+    "lineHeight": "59.9976px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "GET IN TOUCH"
+   },
+   "h2": {
+    "family": "regular-font",
+    "size": "155.994px",
+    "weight": "100",
+    "lineHeight": "132.595px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#990000",
+    "sample": "AWARDS &RECOGNIZATIONS"
+   },
+   "h3": {
+    "family": "light-font",
+    "size": "35.9986px",
+    "weight": "100",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Gallery"
+   },
+   "h4": {
+    "family": "light-font",
+    "size": "227.991px",
+    "weight": "500",
+    "lineHeight": "227.991px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "It Was Always Going to Be This Way."
+   },
+   "p": {
+    "family": "light-font",
+    "size": "17.9993px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "1.07996px",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius corrupti non ipsa"
+   },
+   "a": {
+    "family": "light-font",
+    "size": "14.3994px",
+    "weight": "200",
+    "lineHeight": "14.3994px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#f5f5f5",
+    "sample": "HOME"
+   },
+   "li": {
+    "family": "light-font",
+    "size": "13.1995px",
+    "weight": "200",
+    "lineHeight": "13.1995px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#f5f5f5",
+    "sample": "HOME"
+   },
+   "body": {
+    "family": "regular-font",
+    "size": "11.9995px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "ONLINE Let's Connect HOME ABOUT SERVICES WORK BLOG CONTACT MY E-MAIL meermohsn87"
+   }
+  },
+  "cssVars": {},
+  "fontFaces": [
+   {
+    "family": "light-font",
+    "weight": "",
+    "style": "",
+    "src": "url(\"./StackSansHeadline-ExtraLight-DrnyAU8g.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "regular-font",
+    "weight": "",
+    "style": "",
+    "src": "url(\"./StackSansHeadline-Regular-ud1Ia6Hx.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "ruthie",
+    "weight": "",
+    "style": "",
+    "src": "url(\"./ruthie-BmbrwlET.woff2\") format(\"woff2\")"
+   }
+  ],
+  "keyframes": [
+   "ringRotate",
+   "noiseMovement",
+   "wave-sm",
+   "wave-md",
+   "wave-lg",
+   "gradientMove",
+   "liveBlink",
+   "regFluidGradient"
+  ],
+  "breakpoints": [
+   {
+    "v": "800px",
+    "w": 134
+   },
+   {
+    "v": "768px",
+    "w": 2
+   },
+   {
+    "v": "700px",
+    "w": 2
+   },
+   {
+    "v": "720px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 687,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "canvas",
+    "id": "fluid2",
+    "cls": "",
+    "h": 900,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "modal-contact-us",
+    "h": 948,
+    "title": "GET IN TOUCH",
+    "media": 1
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "modal-blogs",
+    "h": 795,
+    "title": "LOREM IPSUM",
+    "media": 1
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "roman-statue-viewer",
+    "h": 900,
+    "title": "",
+    "media": 1
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "hero-section-home",
+    "h": 900,
+    "title": "",
+    "media": 2
+   },
+   {
+    "tag": "div",
+    "id": "about",
+    "cls": "about-us",
+    "h": 1215,
+    "title": "This Will Feel Different",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "facts-figure-container",
+    "h": 2250,
+    "title": "10+",
+    "media": 2
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "box-section-ups",
+    "h": 270,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "pin-spacer",
+    "h": 7110,
+    "title": "",
+    "media": 12
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "case-study-side-bar",
+    "h": 924,
+    "title": "lorem ipsum",
+    "media": 2
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "pin-spacer",
+    "h": 5400,
+    "title": "01",
+    "media": 7
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "step-of-work",
+    "h": 3600,
+    "title": "Discovery",
+    "media": 1
+   },
+   {
+    "tag": "div",
+    "id": "blog",
+    "cls": "blog-section",
+    "h": 1080,
+    "title": "",
+    "media": 3
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "pin-spacer",
+    "h": 4950,
+    "title": "AWARDS &RECOGNIZATIONS",
+    "media": 1
+   },
+   {
+    "tag": "div",
+    "id": "contact",
+    "cls": "before-footer-cta",
+    "h": 900,
+    "title": "Every Great Story Needs APowerful Ending.",
+    "media": 1
+   },
+   {
+    "tag": "footer",
+    "id": "footer",
+    "cls": "footer-hit",
+    "h": 900,
+    "title": "",
+    "media": 0
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "HOME",
+    "href": "https://www.meermohsin.me/#home"
+   },
+   {
+    "t": "ABOUT",
+    "href": "https://www.meermohsin.me/#about"
+   },
+   {
+    "t": "SERVICES",
+    "href": "https://www.meermohsin.me/#services"
+   },
+   {
+    "t": "WORK",
+    "href": "https://www.meermohsin.me/#work"
+   },
+   {
+    "t": "BLOG",
+    "href": "https://www.meermohsin.me/#blog"
+   },
+   {
+    "t": "CONTACT US",
+    "href": "https://www.meermohsin.me/#contact"
+   },
+   {
+    "t": "TIKTOK",
+    "href": ""
+   },
+   {
+    "t": "INSTAGRAM",
+    "href": ""
+   },
+   {
+    "t": "BEHANCE",
+    "href": ""
+   }
+  ],
+  "ctas": [],
+  "pageHeight": 28172,
+  "counts": {
+   "canvas": 3,
+   "videos": 0,
+   "imgs": 55,
+   "svgs": 6,
+   "iframes": 0,
+   "domNodes": 1019
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "180",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [],
+  "customCursor": true,
+  "audio": true,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://www.meermohsin.me/assets/index-BXnpqJiu.js"
+ ],
+ "internal": [],
+ "perf": {
+  "ttfb": 255,
+  "dcl": 991,
+  "load": 4027,
+  "lcp": 816,
+  "lcpEl": "IMG.face-image",
+  "cls": 0
+ },
  "libs": {
-  "detected": [],
-  "where": {},
-  "gsapVersion": null,
+  "detected": [
+   "GSAP",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Lenis",
+   "Three.js",
+   "Virtual scroll"
+  ],
+  "where": {
+   "GSAP": [
+    "001-index-BXnpqJiu.js"
+   ],
+   "ScrollTrigger": [
+    "001-index-BXnpqJiu.js"
+   ],
+   "SplitText/SplitType": [
+    "001-index-BXnpqJiu.js"
+   ],
+   "Lenis": [
+    "001-index-BXnpqJiu.js"
+   ],
+   "Three.js": [
+    "001-index-BXnpqJiu.js"
+   ],
+   "Virtual scroll": [
+    "001-index-BXnpqJiu.js"
+   ]
+  },
+  "gsapVersion": "3.13.0",
   "threeRevision": null,
-  "shaders": 0,
-  "scripts": 0
+  "shaders": 22,
+  "scripts": 1
  },
  "network": {
-  "requests": 16,
-  "totalKb": 1605,
+  "requests": 42,
+  "totalKb": 3883,
   "byType": {
    "Document": {
     "n": 1,
     "kb": 14
    },
    "Image": {
-    "n": 8,
-    "kb": 1248
+    "n": 30,
+    "kb": 2106
    },
    "Stylesheet": {
     "n": 1,
     "kb": 11
    },
-   "Media": {
-    "n": 1,
-    "kb": 0
-   },
    "Font": {
     "n": 4,
     "kb": 94
    },
+   "Media": {
+    "n": 2,
+    "kb": 44
+   },
    "Script": {
     "n": 1,
     "kb": 238
+   },
+   "Fetch": {
+    "n": 2,
+    "kb": 1372
+   },
+   "Other": {
+    "n": 1,
+    "kb": 5
    }
   },
   "thirdPartyHosts": [
@@ -64,8 +726,8 @@
   "fontFiles": [
    "https://www.meermohsin.me/fonts/NeueMontreal.woff2",
    "https://www.meermohsin.me/assets/StackSansHeadline-ExtraLight-DrnyAU8g.woff2",
-   "https://www.meermohsin.me/assets/StackSansHeadline-Regular-ud1Ia6Hx.woff2",
-   "https://www.meermohsin.me/assets/ruthie-BmbrwlET.woff2"
+   "https://www.meermohsin.me/assets/ruthie-BmbrwlET.woff2",
+   "https://www.meermohsin.me/assets/StackSansHeadline-Regular-ud1Ia6Hx.woff2"
   ],
   "biggest": [
    {
@@ -74,9 +736,24 @@
     "type": "Image"
    },
    {
+    "url": "https://www.meermohsin.me/assets/model1-hZVyFTy0.glb",
+    "kb": 846,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://www.meermohsin.me/assets/floor-Bfx8nsPH.glb",
+    "kb": 526,
+    "type": "Fetch"
+   },
+   {
     "url": "https://www.meermohsin.me/assets/index-BXnpqJiu.js",
     "kb": 238,
     "type": "Script"
+   },
+   {
+    "url": "https://www.meermohsin.me/assets/falling-BiHYeG99.gif",
+    "kb": 230,
+    "type": "Image"
    },
    {
     "url": "https://www.meermohsin.me/assets/logo-m-D6UUDeXR.png",
@@ -84,31 +761,25 @@
     "type": "Image"
    },
    {
-    "url": "https://www.meermohsin.me/assets/Meer-mohsin-BIdMWGjW.avif",
-    "kb": 59,
+    "url": "https://www.meermohsin.me/assets/paper-tore-7VX6INnu.png",
+    "kb": 164,
     "type": "Image"
    },
    {
-    "url": "https://www.meermohsin.me/assets/shade-BqXoo-Hs-CzAjxAPx.webp",
-    "kb": 47,
+    "url": "https://www.meermohsin.me/assets/services-4-yGPU2s6w.webp",
+    "kb": 72,
     "type": "Image"
-   },
-   {
-    "url": "https://www.meermohsin.me/assets/ruthie-BmbrwlET.woff2",
-    "kb": 34,
-    "type": "Font"
-   },
-   {
-    "url": "https://www.meermohsin.me/assets/StackSansHeadline-Regular-ud1Ia6Hx.woff2",
-    "kb": 30,
-    "type": "Font"
-   },
-   {
-    "url": "https://www.meermohsin.me/assets/StackSansHeadline-ExtraLight-DrnyAU8g.woff2",
-    "kb": 30,
-    "type": "Font"
    }
   ]
  },
- "durationS": 14
+ "mobile": {
+  "h1": {
+   "size": "48.7481px",
+   "lineHeight": "48.7481px"
+  },
+  "body": "3.24987px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 229
 }

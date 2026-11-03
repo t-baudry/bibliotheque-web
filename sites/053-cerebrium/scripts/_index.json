@@ -5,34 +5,34 @@
   "kb": 1
  },
  {
-  "file": "002-Layout.astro_astro_type_script_index_0_lang.Uecdo5Qu.js",
-  "url": "https://cerebrium.ai/_astro/Layout.astro_astro_type_script_index_0_lang.Uecdo5Qu.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
-  "kb": 24
- },
- {
-  "file": "003-Header.astro_astro_type_script_index_0_lang.BtAjWJU9.js",
-  "url": "https://cerebrium.ai/_astro/Header.astro_astro_type_script_index_0_lang.BtAjWJU9.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
-  "kb": 0
- },
- {
-  "file": "004-HeroHome.astro_astro_type_script_index_0_lang.BXXELPVp.js",
-  "url": "https://cerebrium.ai/_astro/HeroHome.astro_astro_type_script_index_0_lang.BXXELPVp.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
-  "kb": 0
- },
- {
-  "file": "005-Rail.astro_astro_type_script_index_0_lang.CZr9GlFT.js",
+  "file": "002-Rail.astro_astro_type_script_index_0_lang.CZr9GlFT.js",
   "url": "https://cerebrium.ai/_astro/Rail.astro_astro_type_script_index_0_lang.CZr9GlFT.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
   "kb": 0
  },
  {
-  "file": "006-SplitTitle.astro_astro_type_script_index_0_lang.BbZ1CTCO.js",
-  "url": "https://cerebrium.ai/_astro/SplitTitle.astro_astro_type_script_index_0_lang.BbZ1CTCO.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
-  "kb": 1
+  "file": "003-SegmentedControls.astro_astro_type_script_index_0_lang.B8mFL.js",
+  "url": "https://cerebrium.ai/_astro/SegmentedControls.astro_astro_type_script_index_0_lang.B8mFLyTV.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+  "kb": 0
  },
  {
-  "file": "007-CarouselTile.astro_astro_type_script_index_0_lang.DW5EwKCf.j.js",
-  "url": "https://cerebrium.ai/_astro/CarouselTile.astro_astro_type_script_index_0_lang.DW5EwKCf.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+  "file": "004-FeatureCardRangeChart.astro_astro_type_script_index_0_lang.D.js",
+  "url": "https://cerebrium.ai/_astro/FeatureCardRangeChart.astro_astro_type_script_index_0_lang.DqfGEs_c.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
   "kb": 0
+ },
+ {
+  "file": "005-Header.astro_astro_type_script_index_0_lang.BtAjWJU9.js",
+  "url": "https://cerebrium.ai/_astro/Header.astro_astro_type_script_index_0_lang.BtAjWJU9.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+  "kb": 0
+ },
+ {
+  "file": "006-DatoImage.astro_astro_type_script_index_0_lang.D-dDcxY7.js",
+  "url": "https://cerebrium.ai/_astro/DatoImage.astro_astro_type_script_index_0_lang.D-dDcxY7.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+  "kb": 0
+ },
+ {
+  "file": "007-SplitTitle.astro_astro_type_script_index_0_lang.BbZ1CTCO.js",
+  "url": "https://cerebrium.ai/_astro/SplitTitle.astro_astro_type_script_index_0_lang.BbZ1CTCO.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+  "kb": 1
  },
  {
   "file": "008-FeatureCardTerminal.astro_astro_type_script_index_0_lang.TN8.js",
@@ -40,38 +40,228 @@
   "kb": 0
  },
  {
-  "file": "009-SegmentedControls.astro_astro_type_script_index_0_lang.B8mFL.js",
-  "url": "https://cerebrium.ai/_astro/SegmentedControls.astro_astro_type_script_index_0_lang.B8mFLyTV.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
-  "kb": 0
- },
- {
-  "file": "010-DatoImage.astro_astro_type_script_index_0_lang.D-dDcxY7.js",
-  "url": "https://cerebrium.ai/_astro/DatoImage.astro_astro_type_script_index_0_lang.D-dDcxY7.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
-  "kb": 0
- },
- {
-  "file": "011-FeatureCardRangeChart.astro_astro_type_script_index_0_lang.D.js",
-  "url": "https://cerebrium.ai/_astro/FeatureCardRangeChart.astro_astro_type_script_index_0_lang.DqfGEs_c.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
-  "kb": 0
- },
- {
-  "file": "012-InteractiveDots.astro_astro_type_script_index_0_lang.Cz09iMZ.js",
+  "file": "009-InteractiveDots.astro_astro_type_script_index_0_lang.Cz09iMZ.js",
   "url": "https://cerebrium.ai/_astro/InteractiveDots.astro_astro_type_script_index_0_lang.Cz09iMZ4.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
   "kb": 0
  },
  {
-  "file": "013-FeatureCardWorldMapAnimation.astro_astro_type_script_index_0.js",
-  "url": "https://cerebrium.ai/_astro/FeatureCardWorldMapAnimation.astro_astro_type_script_index_0_lang.9Xz-3fuD.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+  "file": "010-Layout.astro_astro_type_script_index_0_lang.Uecdo5Qu.js",
+  "url": "https://cerebrium.ai/_astro/Layout.astro_astro_type_script_index_0_lang.Uecdo5Qu.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+  "kb": 24
+ },
+ {
+  "file": "011-CarouselTile.astro_astro_type_script_index_0_lang.DW5EwKCf.js",
+  "url": "https://cerebrium.ai/_astro/CarouselTile.astro_astro_type_script_index_0_lang.DW5EwKCf.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
   "kb": 0
  },
  {
-  "file": "014-AnimatedChart.astro_astro_type_script_index_0_lang.Dx07ukeg.js",
+  "file": "012-HeroHome.astro_astro_type_script_index_0_lang.BXXELPVp.js",
+  "url": "https://cerebrium.ai/_astro/HeroHome.astro_astro_type_script_index_0_lang.BXXELPVp.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+  "kb": 0
+ },
+ {
+  "file": "013-AnimatedChart.astro_astro_type_script_index_0_lang.Dx07ukeg.js",
   "url": "https://cerebrium.ai/_astro/AnimatedChart.astro_astro_type_script_index_0_lang.Dx07ukeg.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
   "kb": 0
  },
  {
-  "file": "015-FeatureCards.astro_astro_type_script_index_0_lang.KQojuyvT.j.js",
+  "file": "014-FeatureCards.astro_astro_type_script_index_0_lang.KQojuyvT.js",
   "url": "https://cerebrium.ai/_astro/FeatureCards.astro_astro_type_script_index_0_lang.KQojuyvT.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
   "kb": 0
+ },
+ {
+  "file": "015-FeatureCardWorldMapAnimation.astro_astro_type_script_index_0.js",
+  "url": "https://cerebrium.ai/_astro/FeatureCardWorldMapAnimation.astro_astro_type_script_index_0_lang.9Xz-3fuD.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+  "kb": 0
+ },
+ {
+  "file": "016-preload-helper.CVfkMyKi.js",
+  "url": "https://cerebrium.ai/_astro/preload-helper.CVfkMyKi.js",
+  "kb": 1
+ },
+ {
+  "file": "017-intersection-observer-manager.modern.BLXhoylW.js",
+  "url": "https://cerebrium.ai/_astro/intersection-observer-manager.modern.BLXhoylW.js",
+  "kb": 3
+ },
+ {
+  "file": "018-component-manager.modern.DNc_OPSh.js",
+  "url": "https://cerebrium.ai/_astro/component-manager.modern.DNc_OPSh.js",
+  "kb": 2
+ },
+ {
+  "file": "019-index.C4HJ1O9m.js",
+  "url": "https://cerebrium.ai/_astro/index.C4HJ1O9m.js",
+  "kb": 1
+ },
+ {
+  "file": "020-ModalDemo.Deo1gZBy.js",
+  "url": "https://cerebrium.ai/_astro/ModalDemo.Deo1gZBy.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+  "kb": 1
+ },
+ {
+  "file": "021-ScrambleTextPlugin.C2WjG6PH.js",
+  "url": "https://cerebrium.ai/_astro/ScrambleTextPlugin.C2WjG6PH.js",
+  "kb": 11
+ },
+ {
+  "file": "022-ModalContact.CcOSelA9.js",
+  "url": "https://cerebrium.ai/_astro/ModalContact.CcOSelA9.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+  "kb": 1
+ },
+ {
+  "file": "023-client.DaaVUJUT.js",
+  "url": "https://cerebrium.ai/_astro/client.DaaVUJUT.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+  "kb": 178
+ },
+ {
+  "file": "024-Transitions.CDveHI5v.js",
+  "url": "https://cerebrium.ai/_astro/Transitions.CDveHI5v.js",
+  "kb": 46
+ },
+ {
+  "file": "025-Scroll.cO9MU0Pv.js",
+  "url": "https://cerebrium.ai/_astro/Scroll.cO9MU0Pv.js",
+  "kb": 34
+ },
+ {
+  "file": "026-modalRoutes.CC8eIeSE.js",
+  "url": "https://cerebrium.ai/_astro/modalRoutes.CC8eIeSE.js",
+  "kb": 0
+ },
+ {
+  "file": "027-screen.L2lDMJZF.js",
+  "url": "https://cerebrium.ai/_astro/screen.L2lDMJZF.js",
+  "kb": 1
+ },
+ {
+  "file": "028-DemoForm.zJLSyMIo.js",
+  "url": "https://cerebrium.ai/_astro/DemoForm.zJLSyMIo.js",
+  "kb": 7
+ },
+ {
+  "file": "029-deviceStatus.BpahwZ5Y.js",
+  "url": "https://cerebrium.ai/_astro/deviceStatus.BpahwZ5Y.js",
+  "kb": 1
+ },
+ {
+  "file": "030-ModalDrawer.BoWjr6Dr.js",
+  "url": "https://cerebrium.ai/_astro/ModalDrawer.BoWjr6Dr.js",
+  "kb": 61
+ },
+ {
+  "file": "031-index.Ds70isV4.js",
+  "url": "https://cerebrium.ai/_astro/index.Ds70isV4.js",
+  "kb": 8
+ },
+ {
+  "file": "032-index.CblFWnZ2.js",
+  "url": "https://cerebrium.ai/_astro/index.CblFWnZ2.js",
+  "kb": 4
+ },
+ {
+  "file": "033-jsx-runtime.u17CrQMm.js",
+  "url": "https://cerebrium.ai/_astro/jsx-runtime.u17CrQMm.js",
+  "kb": 0
+ },
+ {
+  "file": "034-index.BclezDAm.js",
+  "url": "https://cerebrium.ai/_astro/index.BclezDAm.js",
+  "kb": 0
+ },
+ {
+  "file": "035-ContactForm.CwhMibk4.js",
+  "url": "https://cerebrium.ai/_astro/ContactForm.CwhMibk4.js",
+  "kb": 6
+ },
+ {
+  "file": "036-GOYPYHD1P1OX.js.gz.js",
+  "url": "https://ddwl4m2hdecbv.cloudfront.net/b/GOYPYHD1P1OX/GOYPYHD1P1OX.js.gz",
+  "kb": 32
+ },
+ {
+  "file": "037-BackgroundCanvas.Bg_NUauP.js",
+  "url": "https://cerebrium.ai/_astro/BackgroundCanvas.Bg_NUauP.js",
+  "kb": 1182
+ },
+ {
+  "file": "038-CSSPlugin.DXs0xWkv.js",
+  "url": "https://cerebrium.ai/_astro/CSSPlugin.DXs0xWkv.js",
+  "kb": 68
+ },
+ {
+  "file": "039-SplitTitle.B2QJBP10.js",
+  "url": "https://cerebrium.ai/_astro/SplitTitle.B2QJBP10.js",
+  "kb": 9
+ },
+ {
+  "file": "040-Header.DBfWKcAI.js",
+  "url": "https://cerebrium.ai/_astro/Header.DBfWKcAI.js",
+  "kb": 6
+ },
+ {
+  "file": "041-InteractiveDots.C7kD-9WX.js",
+  "url": "https://cerebrium.ai/_astro/InteractiveDots.C7kD-9WX.js",
+  "kb": 4
+ },
+ {
+  "file": "042-DatoImage.pG7u5_ql.js",
+  "url": "https://cerebrium.ai/_astro/DatoImage.pG7u5_ql.js",
+  "kb": 1
+ },
+ {
+  "file": "043-HeroHome.BVyja4RL.js",
+  "url": "https://cerebrium.ai/_astro/HeroHome.BVyja4RL.js",
+  "kb": 9
+ },
+ {
+  "file": "044-FeatureCardRangeChart.Dfz4s3Vd.js",
+  "url": "https://cerebrium.ai/_astro/FeatureCardRangeChart.Dfz4s3Vd.js",
+  "kb": 3
+ },
+ {
+  "file": "045-SegmentedControls.CSkc8zFG.js",
+  "url": "https://cerebrium.ai/_astro/SegmentedControls.CSkc8zFG.js",
+  "kb": 29
+ },
+ {
+  "file": "046-FeatureCardWorldMapAnimation.D7NAwJpY.js",
+  "url": "https://cerebrium.ai/_astro/FeatureCardWorldMapAnimation.D7NAwJpY.js",
+  "kb": 1
+ },
+ {
+  "file": "047-Rail.D6K3w7re.js",
+  "url": "https://cerebrium.ai/_astro/Rail.D6K3w7re.js",
+  "kb": 3
+ },
+ {
+  "file": "048-AnimatedChart.DDKWcnD5.js",
+  "url": "https://cerebrium.ai/_astro/AnimatedChart.DDKWcnD5.js",
+  "kb": 2
+ },
+ {
+  "file": "049-FeatureCardTerminal.DNPFJKpV.js",
+  "url": "https://cerebrium.ai/_astro/FeatureCardTerminal.DNPFJKpV.js",
+  "kb": 1
+ },
+ {
+  "file": "050-FeatureCards.CVo7_SA1.js",
+  "url": "https://cerebrium.ai/_astro/FeatureCards.CVo7_SA1.js",
+  "kb": 2
+ },
+ {
+  "file": "051-CarouselTile.DoCIG5tT.js",
+  "url": "https://cerebrium.ai/_astro/CarouselTile.DoCIG5tT.js",
+  "kb": 77
+ },
+ {
+  "file": "052-lottie_light.BKS0DOqd.js",
+  "url": "https://cerebrium.ai/_astro/lottie_light.BKS0DOqd.js",
+  "kb": 165
+ },
+ {
+  "file": "053-draco_wasm_wrapper.js",
+  "url": "https://cerebrium.ai/static/libs/draco/draco_wasm_wrapper.js",
+  "kb": 57
  }
 ]

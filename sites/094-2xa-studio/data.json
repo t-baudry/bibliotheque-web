@@ -1,0 +1,688 @@
+{
+ "id": 94,
+ "name": "2xA Studio",
+ "sourceUrl": "https://2xa.studio/",
+ "capturedAt": "2026-11-03T22:06:55.600Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [
+   "txt:Accept all"
+  ],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg"
+  ],
+  "fullPage": 8881,
+  "subpages": [
+   {
+    "url": "https://2xa.studio/about",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://2xa.studio/projects",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://2xa.studio/contact",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://2xa.studio/",
+ "title": "2xA — Home",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Award-winning computational design studio crafting digital experiences, visual systems, and research-driven projects through code, technology, and creative experimentation. Located in Amsterdam and Athens.",
+  "canonical": "https://2xa.studio/",
+  "robots": "all",
+  "ogTitle": "2xA — Home",
+  "ogImage": "https://2xa.studio/media/site/3677d4a2a6-1780488903/2xa_share-03-1200x630-crop.png",
+  "twitterCard": null,
+  "jsonLd": [],
+  "h1Count": 0,
+  "headings": [
+   "H2 Generative Code Explorations",
+   "H2 Code- Driven Design Studio Between Amsterdam & Athens (Read More)",
+   "H2 On Computation As A Way Of Thinking",
+   "H2 Selected Projects View All (5)",
+   "H3 ABR Festival",
+   "H3 Buna Tetu",
+   "H3 Miao World",
+   "H2 Made With Care And A Lot Of Code",
+   "H2 Awards & Achievements",
+   "H2 Good Work Tends To Get Noticed",
+   "H2 Code-Driven Design Studio Between Amsterdam & Athens",
+   "H2 This site uses cookies"
+  ],
+  "imgs": 2,
+  "imgNoAlt": 0,
+  "favicon": "https://2xa.studio/static/img/favicon.png",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#fdfdfd",
+    "w": 5962623
+   },
+   {
+    "v": "#0f0f0f",
+    "w": 1282500
+   }
+  ],
+  "text": [
+   {
+    "v": "#858585",
+    "w": 2780
+   },
+   {
+    "v": "#fdfdfd",
+    "w": 275
+   },
+   {
+    "v": "#0f0f0f",
+    "w": 146
+   },
+   {
+    "v": "#cecece",
+    "w": 80
+   },
+   {
+    "v": "#1a1a1a",
+    "w": 22
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "2XAMONOVF",
+    "w": 2901
+   },
+   {
+    "v": "HelveticaProRoman",
+    "w": 448
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "28.5px",
+    "w": 102
+   },
+   {
+    "v": "23.75px",
+    "w": 89
+   },
+   {
+    "v": "19px",
+    "w": 30
+   },
+   {
+    "v": "144px",
+    "w": 16
+   },
+   {
+    "v": "13.12px",
+    "w": 3
+   },
+   {
+    "v": "15.2px",
+    "w": 2
+   },
+   {
+    "v": "16.8px",
+    "w": 1
+   },
+   {
+    "v": "14.4px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "1.6px",
+    "w": 19
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0 0.5s",
+    "w": 8
+   },
+   {
+    "v": "cubic-bezier(0 0.1s",
+    "w": 4
+   },
+   {
+    "v": "cubic-bezier(0 1s",
+    "w": 3
+   }
+  ],
+  "typo": {
+   "h2": {
+    "family": "HelveticaProRoman, Helvetica, sans-serif",
+    "size": "144px",
+    "weight": "400",
+    "lineHeight": "144px",
+    "letterSpacing": "-2.16px",
+    "transform": "none",
+    "color": "#cecece",
+    "sample": "Generative Code Explorations"
+   },
+   "h3": {
+    "family": "HelveticaProRoman, Helvetica, sans-serif",
+    "size": "23.75px",
+    "weight": "400",
+    "lineHeight": "23.75px",
+    "letterSpacing": "-0.35625px",
+    "transform": "none",
+    "color": "#0f0f0f",
+    "sample": "ABR Festival"
+   },
+   "p": {
+    "family": "\"2XAMONOVF\", monospace",
+    "size": "19px",
+    "weight": "400",
+    "lineHeight": "22.8px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#858585",
+    "sample": "Digital systems shape perception, labor, communication, and power. Computation i"
+   },
+   "a": {
+    "family": "\"2XAMONOVF\", monospace",
+    "size": "23.75px",
+    "weight": "400",
+    "lineHeight": "23.75px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#fdfdfd",
+    "sample": "2xA STUDIO"
+   },
+   "button": {
+    "family": "\"2XAMONOVF\", monospace",
+    "size": "23.75px",
+    "weight": "400",
+    "lineHeight": "23.75px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#fdfdfd",
+    "sample": "Privacy"
+   },
+   "li": {
+    "family": "\"2XAMONOVF\", monospace",
+    "size": "23.75px",
+    "weight": "400",
+    "lineHeight": "23.75px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#fdfdfd",
+    "sample": "About"
+   },
+   "body": {
+    "family": "HelveticaProRoman, Helvetica, sans-serif",
+    "size": "15.2px",
+    "weight": "400",
+    "lineHeight": "15.2px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#fdfdfd",
+    "sample": "2xA STUDIO ATH(GR) 00 07 AMS(NL) 23 07 About Projects Contact Generative Code Ex"
+   }
+  },
+  "cssVars": {
+   "--xl": "1512px",
+   "--lg": "1280px",
+   "--md": "1024px",
+   "--sm": "768px",
+   "--xs": "584px",
+   "--font-sans": "\"HelveticaProRoman\", \"Helvetica\", sans-serif",
+   "--font-mono": "\"2XAMONOVF\", monospace",
+   "--font-scale": ".8",
+   "--font-sm": "calc(1rem * var(--font-scale))",
+   "--font-sd": "calc(1.25rem * var(--font-scale))",
+   "--font-md": "calc(1.5625rem * var(--font-scale))",
+   "--font-lg": "calc(1.875rem * var(--font-scale))",
+   "--pad": ".5rem",
+   "--gap": ".5rem",
+   "--nav-height": "calc(var(--font-md) + var(--pad) * 2)",
+   "--white": "#fdfdfd",
+   "--grey": "#cecece",
+   "--ash": "#858585",
+   "--coal": "#1a1a1a",
+   "--black": "#0f0f0f",
+   "--vanta": "#000000",
+   "--blue": "#0000ff",
+   "--red": "#d4373a",
+   "--transparent": "transparent",
+   "--foreground": "var(--grey)",
+   "--foreground-dim": "var(--ash)",
+   "--foreground-dimmed": "var(--coal)",
+   "--background": "var(--black)",
+   "--accent": "var(--blue)",
+   "--ease-out": "cubic-bezier(0, 1, 1, 1)",
+   "--ease-out-expo": "cubic-bezier(0, 1, 0, 1)",
+   "--ease-in": "cubic-bezier(1, 0, 1, 1)",
+   "--ease-in-expo": "cubic-bezier(1, 0, 1, 0)",
+   "--ease-in-out": "cubic-bezier(.785, .135, .15, .86)",
+   "--border-radius": ".1rem",
+   "--border-radius-text": ".15rem",
+   "--box-shadow": "none",
+   "--swiper-theme-color": "#007aff",
+   "--swiper-navigation-size": "44px",
+   "--cc-font-family": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol",
+   "--cc-modal-border-radius": ".5rem",
+   "--cc-btn-border-radius": ".4rem",
+   "--cc-modal-transition-duration": ".25s",
+   "--cc-link-color": "var(--cc-btn-primary-bg)",
+   "--cc-modal-margin": "1rem",
+   "--cc-z-index": "2147483647",
+   "--cc-bg": "#fff",
+   "--cc-primary-color": "#2c2f31",
+   "--cc-secondary-color": "#5e6266",
+   "--cc-btn-primary-bg": "#30363c",
+   "--cc-btn-primary-color": "#fff",
+   "--cc-btn-primary-border-color": "var(--cc-btn-primary-bg)",
+   "--cc-btn-primary-hover-bg": "#000",
+   "--cc-btn-primary-hover-color": "#fff",
+   "--cc-btn-primary-hover-border-color": "var(--cc-btn-primary-hover-bg)",
+   "--cc-btn-secondary-bg": "#eaeff2",
+   "--cc-btn-secondary-color": "var(--cc-primary-color)",
+   "--cc-btn-secondary-border-color": "var(--cc-btn-secondary-bg)",
+   "--cc-btn-secondary-hover-bg": "#d4dae0",
+   "--cc-btn-secondary-hover-color": "#000",
+   "--cc-btn-secondary-hover-border-color": "#d4dae0",
+   "--cc-separator-border-color": "#f0f4f7",
+   "--cc-toggle-on-bg": "var(--cc-btn-primary-bg)",
+   "--cc-toggle-off-bg": "#667481",
+   "--cc-toggle-on-knob-bg": "#fff",
+   "--cc-toggle-off-knob-bg": "var(--cc-toggle-on-knob-bg)",
+   "--cc-toggle-enabled-icon-color": "var(--cc-bg)",
+   "--cc-toggle-disabled-icon-color": "var(--cc-bg)",
+   "--cc-toggle-readonly-bg": "#d5dee2",
+   "--cc-toggle-readonly-knob-bg": "#fff",
+   "--cc-toggle-readonly-knob-icon-color": "var(--cc-toggle-readonly-bg)",
+   "--cc-section-category-border": "var(--cc-cookie-category-block-bg)",
+   "--cc-cookie-category-block-bg": "#f0f4f7",
+   "--cc-cookie-category-block-border": "#f0f4f7",
+   "--cc-cookie-category-block-hover-bg": "#e9eff4",
+   "--cc-cookie-category-block-hover-border": "#e9eff4",
+   "--cc-cookie-category-expanded-block-bg": "transparent",
+   "--cc-cookie-category-expanded-block-hover-bg": "#dee4e9",
+   "--cc-overlay-bg": "rgba(0, 0, 0, .65)",
+   "--cc-webkit-scrollbar-bg": "var(--cc-section-category-border)",
+   "--cc-webkit-scrollbar-hover-bg": "var(--cc-btn-primary-hover-bg)",
+   "--cc-footer-bg": "var(--cc-btn-secondary-bg)",
+   "--cc-footer-color": "var(--cc-secondary-color)",
+   "--cc-footer-border-color": "#e4eaed",
+   "--cc-pm-toggle-border-radius": "4em"
+  },
+  "fontFaces": [
+   {
+    "family": "Geist",
+    "weight": "100 900",
+    "style": "normal",
+    "src": "url(\"/src/css/fonts/Geist.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "GeistMono",
+    "weight": "100 900",
+    "style": "normal",
+    "src": "url(\"/src/css/fonts/GeistMono.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "HelveticaProRoman",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/public/dist/assets/HelveticaProRoman-CPlYd_WS.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "2XAMONOVF",
+    "weight": "100 900",
+    "style": "normal",
+    "src": "url(\"/public/dist/assets/2XAMONOVF-D3wu236a.woff\") format(\"woff\")"
+   },
+   {
+    "family": "swiper-icons",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"data:application/font-woff;charset=utf-8;base64, d09GRgABAAAAAAZgABAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAAGRAAAABoAAAAci6qHkUdERUYAAAWgAAAAIwAAACQAYABXR1BPUwAABhQAAAAuAAAANuAY7+xHU1VCAA"
+   }
+  ],
+  "keyframes": [
+   "hover-fill-in",
+   "hover-fill-out",
+   "marquee",
+   "noise",
+   "swiper-preloader-spin"
+  ],
+  "breakpoints": [
+   {
+    "v": "768px",
+    "w": 49
+   },
+   {
+    "v": "1024px",
+    "w": 11
+   },
+   {
+    "v": "584px",
+    "w": 5
+   },
+   {
+    "v": "1512px",
+    "w": 3
+   },
+   {
+    "v": "640px",
+    "w": 3
+   },
+   {
+    "v": "1280px",
+    "w": 2
+   }
+  ],
+  "rulesCount": 951,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "article",
+    "id": null,
+    "cls": "page page--home",
+    "h": 7981,
+    "top": 0,
+    "title": "Generative Code Explorations",
+    "media": 17
+   },
+   {
+    "tag": "footer",
+    "id": null,
+    "cls": "theme--dark",
+    "h": 900,
+    "top": 7981,
+    "title": "",
+    "media": 0
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "2xA STUDIO",
+    "href": "https://2xa.studio/"
+   },
+   {
+    "t": "About",
+    "href": "https://2xa.studio/about"
+   },
+   {
+    "t": "Projects",
+    "href": "https://2xa.studio/projects"
+   },
+   {
+    "t": "Contact",
+    "href": "https://2xa.studio/contact"
+   }
+  ],
+  "ctas": [
+   "Accept all",
+   "Reject all",
+   "Manage preferences"
+  ],
+  "pageHeight": 8881,
+  "counts": {
+   "canvas": 8,
+   "videos": 8,
+   "imgs": 2,
+   "svgs": 6,
+   "iframes": 0,
+   "domNodes": 1057
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "184",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": true,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [
+   "googletagmanager",
+   "gtag"
+  ],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://www.googletagmanager.com/gtag/js?id=G-9V0NZV2FR8",
+  "https://2xa.studio/public/dist/assets/main-CzlVfecv.js"
+ ],
+ "internal": [
+  "https://2xa.studio/about",
+  "https://2xa.studio/projects",
+  "https://2xa.studio/contact",
+  "https://2xa.studio/about/",
+  "https://2xa.studio/projects/",
+  "https://2xa.studio/projects/abr-festival",
+  "https://2xa.studio/projects/buna-tetu",
+  "https://2xa.studio/projects/miao-world"
+ ],
+ "perf": {
+  "ttfb": 699,
+  "dcl": 1155,
+  "load": 1428,
+  "lcp": 1488,
+  "lcpEl": "VIDEO",
+  "cls": 0
+ },
+ "libs": {
+  "detected": [
+   "GSAP",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Lenis",
+   "Three.js",
+   "Swup",
+   "Virtual scroll"
+  ],
+  "where": {
+   "GSAP": [
+    "001-main-CzlVfecv.js"
+   ],
+   "ScrollTrigger": [
+    "001-main-CzlVfecv.js"
+   ],
+   "SplitText/SplitType": [
+    "001-main-CzlVfecv.js",
+    "002-splitting-BCPD88_F.js",
+    "004-in-D6omnzjw.js"
+   ],
+   "Lenis": [
+    "001-main-CzlVfecv.js"
+   ],
+   "Three.js": [
+    "001-main-CzlVfecv.js"
+   ],
+   "Swup": [
+    "001-main-CzlVfecv.js"
+   ],
+   "Virtual scroll": [
+    "001-main-CzlVfecv.js"
+   ]
+  },
+  "gsapVersion": "3.11.0",
+  "threeRevision": null,
+  "shaders": 11,
+  "scripts": 17
+ },
+ "network": {
+  "requests": 49,
+  "totalKb": 21494,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 13
+   },
+   "Stylesheet": {
+    "n": 1,
+    "kb": 17
+   },
+   "Media": {
+    "n": 15,
+    "kb": 19319
+   },
+   "Image": {
+    "n": 4,
+    "kb": 1633
+   },
+   "Font": {
+    "n": 2,
+    "kb": 51
+   },
+   "Script": {
+    "n": 18,
+    "kb": 418
+   },
+   "Other": {
+    "n": 1,
+    "kb": 2
+   },
+   "Fetch": {
+    "n": 6,
+    "kb": 40
+   },
+   "Ping": {
+    "n": 1,
+    "kb": 1
+   }
+  },
+  "thirdPartyHosts": [
+   "www.googletagmanager.com",
+   "ad.doubleclick.net",
+   "region1.analytics.google.com",
+   "www.google.fr",
+   "www.google.com",
+   "stats.g.doubleclick.net"
+  ],
+  "fontFiles": [
+   "https://2xa.studio/public/dist/assets/2XAMONOVF-D3wu236a.woff",
+   "https://2xa.studio/public/dist/assets/HelveticaProRoman-CPlYd_WS.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://2xa.studio/media/pages/home/b35e46934a-1775055056/no-signal.mp4",
+    "kb": 18153,
+    "type": "Media"
+   },
+   {
+    "url": "https://2xa.studio/media/pages/projects/buna-tetu/f1d7c01224-1775473644/2xa_buna_tetu_posters_hanging-1440x-q100.jpg",
+    "kb": 1224,
+    "type": "Image"
+   },
+   {
+    "url": "https://2xa.studio/media/pages/home/87bec698a3-1793608563/1793213424762.mp4",
+    "kb": 1003,
+    "type": "Media"
+   },
+   {
+    "url": "https://2xa.studio/media/pages/projects/miao-world/47a7f4c5d2-1775477376/2xa_studio_miao_typography-1440x-q100.jpg",
+    "kb": 392,
+    "type": "Image"
+   },
+   {
+    "url": "https://www.googletagmanager.com/gtag/js?id=G-9V0NZV2FR8",
+    "kb": 195,
+    "type": "Script"
+   },
+   {
+    "url": "https://2xa.studio/public/dist/assets/main-CzlVfecv.js",
+    "kb": 193,
+    "type": "Script"
+   },
+   {
+    "url": "https://2xa.studio/media/pages/home/e1b0b9ecb9-1781962760/dither.mp4",
+    "kb": 92,
+    "type": "Media"
+   },
+   {
+    "url": "https://2xa.studio/public/dist/assets/HelveticaProRoman-CPlYd_WS.woff2",
+    "kb": 36,
+    "type": "Font"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": null,
+  "body": "12.8px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 99
+}

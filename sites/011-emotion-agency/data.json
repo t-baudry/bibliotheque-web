@@ -1,1 +1,1230 @@
-{"id":11,"name":"Emotion Agency","sourceUrl":"https://emotion-agency.com/","status":"timeout","errors":["timeout site"],"capturedAt":"2026-11-02T23:38:36.275Z"}
+{
+ "id": 11,
+ "name": "Emotion Agency",
+ "sourceUrl": "https://emotion-agency.com/",
+ "capturedAt": "2026-11-03T08:37:09.722Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg"
+  ],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [
+   {
+    "url": "https://emotion-agency.com/about",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://emotion-agency.com/projects",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://emotion-agency.com/contact",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://emotion-agency.com/",
+ "title": "Emotion Agency — Interfaces People Remember",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Award-winning websites and digital products for the brands of tomorrow. Design and engineering under one roof since 2018 — 76 international design awards.",
+  "canonical": "https://emotion-agency.com/",
+  "robots": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+  "ogTitle": "Where ambitious ideas become interfaces people remember",
+  "ogImage": "https://emotion-agency.com/meta/og-image.jpg",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "Organization",
+   "ProfessionalService",
+   "WebSite",
+   "WebPage"
+  ],
+  "h1Count": 1,
+  "headings": [
+   "H1 Where ambitious ideas become interfaces people remember",
+   "H2 We build ↪more than websites and products",
+   "H2 Technology ↪as emotion",
+   "H2 Beauty Witha reason",
+   "H2 We ↪build with people who care how things feel",
+   "H2 ↪ We design and engineer digital products for ambitious teams — from launch sites to full-",
+   "H2 Some Of our ⟶⟶ projects",
+   "H3 E Promo",
+   "H3 Flashform",
+   "H3 Sofia Shcherbak",
+   "H3 Relive by Coco",
+   "H3 smp fnnc.",
+   "H3 Ksh Design",
+   "H3 Aura",
+   "H3 Kairos Capital",
+   "H2 Awards & recognitions",
+   "H3 AWWWARDS",
+   "H3 CSS Design Awards",
+   "H3 Behance",
+   "H3 Communication Arts",
+   "H3 Codrops",
+   "H2 Let’s build ↪something meaningful"
+  ],
+  "imgs": 6,
+  "imgNoAlt": 0,
+  "favicon": "https://emotion-agency.com/favicon.ico",
+  "themeColor": "#f5efff"
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#f5efff",
+    "w": 51157
+   },
+   {
+    "v": "#2a1647",
+    "w": 12483
+   },
+   {
+    "v": "#9047ff",
+    "w": 4981
+   },
+   {
+    "v": "#6b7280",
+    "w": 1344
+   },
+   {
+    "v": "#94a3b8",
+    "w": 1024
+   },
+   {
+    "v": "#ffffff",
+    "w": 256
+   },
+   {
+    "v": "#9ca3af",
+    "w": 144
+   }
+  ],
+  "text": [
+   {
+    "v": "#2a1647",
+    "w": 1574
+   },
+   {
+    "v": "#ffffff",
+    "w": 322
+   },
+   {
+    "v": "#581c87",
+    "w": 150
+   },
+   {
+    "v": "#6b7280",
+    "w": 98
+   },
+   {
+    "v": "#94a3b8",
+    "w": 25
+   },
+   {
+    "v": "#000000",
+    "w": 1
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "IBM Plex Mono",
+    "w": 866
+   },
+   {
+    "v": "Emotion Serif",
+    "w": 727
+   },
+   {
+    "v": "PP Neue Montreal",
+    "w": 577
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "12px",
+    "w": 682
+   },
+   {
+    "v": "10px",
+    "w": 347
+   },
+   {
+    "v": "48px",
+    "w": 134
+   },
+   {
+    "v": "24px",
+    "w": 31
+   },
+   {
+    "v": "96px",
+    "w": 22
+   },
+   {
+    "v": "14px",
+    "w": 18
+   },
+   {
+    "v": "20px",
+    "w": 8
+   },
+   {
+    "v": "32px",
+    "w": 8
+   },
+   {
+    "v": "72px",
+    "w": 7
+   },
+   {
+    "v": "16px",
+    "w": 4
+   }
+  ],
+  "radius": [
+   {
+    "v": "9999px",
+    "w": 13
+   },
+   {
+    "v": "24px",
+    "w": 8
+   },
+   {
+    "v": "50%",
+    "w": 3
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.65 0.3s",
+    "w": 16
+   },
+   {
+    "v": "cubic-bezier(0.16 0.5s",
+    "w": 12
+   },
+   {
+    "v": "cubic-bezier(0.16 0.4s",
+    "w": 6
+   },
+   {
+    "v": "ease 1s",
+    "w": 5
+   },
+   {
+    "v": "ease 0.3s",
+    "w": 2
+   },
+   {
+    "v": "cubic-bezier(0.33 0.5s",
+    "w": 1
+   },
+   {
+    "v": "ease 0.13s",
+    "w": 1
+   },
+   {
+    "v": "ease 0.9s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "\"Emotion Serif\", serif",
+    "size": "96px",
+    "weight": "300",
+    "lineHeight": "76.8px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "Where ambitious ideas become interfaces people remember"
+   },
+   "h2": {
+    "family": "\"Emotion Serif\", serif",
+    "size": "96px",
+    "weight": "300",
+    "lineHeight": "76.8px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "We build ↪more than websites and products"
+   },
+   "h3": {
+    "family": "\"Emotion Serif\", serif",
+    "size": "32px",
+    "weight": "300",
+    "lineHeight": "25.6px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#2a1647",
+    "sample": "E Promo"
+   },
+   "h4": {
+    "family": "\"Emotion Serif\", serif",
+    "size": "24px",
+    "weight": "300",
+    "lineHeight": "19.2px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#2a1647",
+    "sample": "Studio of the year nominee"
+   },
+   "p": {
+    "family": "\"IBM Plex Mono\", \"IBM Plex Mono Fallback: Courier New\", \"IBM Plex Mono Fallback: Roboto Mono\", \"IBM Plex Mono Fallback: ",
+    "size": "12px",
+    "weight": "500",
+    "lineHeight": "13.8px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#2a1647",
+    "sample": "Award-winning websites and digital products for the brands of tomorrow"
+   },
+   "a": {
+    "family": "\"IBM Plex Mono\", \"IBM Plex Mono Fallback: Courier New\", \"IBM Plex Mono Fallback: Roboto Mono\", \"IBM Plex Mono Fallback: ",
+    "size": "12px",
+    "weight": "500",
+    "lineHeight": "13.8px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "About"
+   },
+   "button": {
+    "family": "\"PP Neue Montreal\", sans-serif",
+    "size": "14px",
+    "weight": "500",
+    "lineHeight": "14px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#581c87",
+    "sample": "Enter with audio Enter with audio"
+   },
+   "li": {
+    "family": "\"IBM Plex Mono\", \"IBM Plex Mono Fallback: Courier New\", \"IBM Plex Mono Fallback: Roboto Mono\", \"IBM Plex Mono Fallback: ",
+    "size": "12px",
+    "weight": "500",
+    "lineHeight": "13.8px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "About"
+   },
+   "body": {
+    "family": "\"IBM Plex Mono\", \"IBM Plex Mono Fallback: Courier New\", \"IBM Plex Mono Fallback: Roboto Mono\", \"IBM Plex Mono Fallback: ",
+    "size": "12px",
+    "weight": "500",
+    "lineHeight": "13.8px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#2a1647",
+    "sample": "Award-winning websites and digital products for the brands of tomorrow Enter wit"
+   }
+  },
+  "cssVars": {
+   "--primary": "#9047ff",
+   "--primary-rgb": "144,71,255",
+   "--primary-active": "#7114ff",
+   "--primary-active-rgb": "113,20,255",
+   "--status-danger": "#ff3b30",
+   "--status-danger-rgb": "255,59,48",
+   "--status-danger-active": "#c91b11",
+   "--status-danger-active-rgb": "201,27,17",
+   "--status-success": "#319f43",
+   "--status-success-rgb": "49,159,67",
+   "--background": "#121212",
+   "--background-rgb": "18,18,18",
+   "--foreground": "#fff",
+   "--foreground-rgb": "255,255,255",
+   "--foreground-muted": "#a3a6c1",
+   "--foreground-muted-rgb": "163,166,193",
+   "--border": "#30343f",
+   "--border-rgb": "48,52,63",
+   "--card": "#181818",
+   "--card-rgb": "24,24,24",
+   "--muted": "#25282e",
+   "--muted-rgb": "37,40,46",
+   "--contrast": "#fff",
+   "--contrast-rgb": "255,255,255",
+   "--glass": "#000",
+   "--glass-rgb": "0,0,0",
+   "--backdrop": "rgba(0, 0, 0, 0.9)",
+   "--backdrop-rgb": "0,0,0",
+   "--btn-color": "#e5e5e5",
+   "--btn-color-rgb": "229,229,229",
+   "--rounded-sm": "4px",
+   "--rounded-md": "8px",
+   "--rounded-lg": "12px",
+   "--rounded-xl": "16px",
+   "--rounded-xxl": "20px",
+   "--rounded-full": "9999px",
+   "--gradient-opacity": ".2",
+   "--card-shadow-color": "rgba(var(--contrast-rgb),.05)",
+   "--card-shadow-b": "0px 1px 2px 0px var(--card-shadow-color)",
+   "--card-shadow": "0px 1px 2px 0px var(--card-shadow-color),0px -1px 2px 0px var(--card-shadow-color)",
+   "--card-shadow-md": "rgba(14,18,22,.35) 0px 10px 38px -10px,rgba(14,18,22,.2) 0px 10px 20px -15px",
+   "--btn-stroke-angle": "90deg",
+   "--btn-stroke-colors": "#2d257d 0%,#8e2de2 4%,#f5efff 31%,#f5efff 60%,#cbd5e1 85%,#8e2de2 100%",
+   "--btn-stroke": "linear-gradient(var(--btn-stroke-angle),var(--btn-stroke-colors))",
+   "--color-base-black": "#000",
+   "--color-base-white": "#fff",
+   "--color-slate-50": "#f8fafc",
+   "--color-slate-100": "#f1f5f9",
+   "--color-slate-200": "#e2e8f0",
+   "--color-slate-300": "#cbd5e1",
+   "--color-slate-400": "#94a3b8",
+   "--color-slate-500": "#64748b",
+   "--color-slate-600": "#475569",
+   "--color-slate-700": "#334155",
+   "--color-slate-800": "#1e293b",
+   "--color-slate-900": "#0f172a",
+   "--color-slate-950": "#020617",
+   "--color-gray-50": "#f9fafb",
+   "--color-gray-100": "#f3f4f6",
+   "--color-gray-200": "#e5e7eb",
+   "--color-gray-300": "#d1d5db",
+   "--color-gray-400": "#9ca3af",
+   "--color-gray-500": "#6b7280",
+   "--color-gray-600": "#4b5563",
+   "--color-gray-700": "#374151",
+   "--color-gray-800": "#1f2937",
+   "--color-gray-900": "#111827",
+   "--color-gray-950": "#030712",
+   "--color-zinc-50": "#fafafa",
+   "--color-zinc-100": "#f4f4f5",
+   "--color-zinc-200": "#e4e4e7",
+   "--color-zinc-300": "#d4d4d8",
+   "--color-zinc-400": "#a1a1aa",
+   "--color-zinc-500": "#71717a",
+   "--color-zinc-600": "#52525b",
+   "--color-zinc-700": "#3f3f46",
+   "--color-zinc-800": "#27272a",
+   "--color-zinc-900": "#18181b",
+   "--color-zinc-950": "#09090b",
+   "--color-neutral-50": "#fafafa",
+   "--color-neutral-100": "#f5f5f5",
+   "--color-neutral-200": "#e5e5e5",
+   "--color-neutral-300": "#d4d4d4",
+   "--color-neutral-400": "#a3a3a3",
+   "--color-neutral-500": "#737373",
+   "--color-neutral-600": "#525252",
+   "--color-neutral-700": "#404040",
+   "--color-neutral-800": "#262626",
+   "--color-neutral-900": "#171717",
+   "--color-neutral-950": "#0a0a0a",
+   "--color-stone-50": "#fafaf9",
+   "--color-stone-100": "#f5f5f4",
+   "--color-stone-200": "#e7e5e4",
+   "--color-stone-300": "#d6d3d1",
+   "--color-stone-400": "#a8a29e",
+   "--color-stone-500": "#78716c",
+   "--color-stone-600": "#57534e",
+   "--color-stone-700": "#44403c",
+   "--color-stone-800": "#292524",
+   "--color-stone-900": "#1c1917",
+   "--color-stone-950": "#0c0a09",
+   "--color-red-50": "#fef2f2",
+   "--color-red-100": "#fee2e2",
+   "--color-red-200": "#fecaca",
+   "--color-red-300": "#fca5a5",
+   "--color-red-400": "#f87171",
+   "--color-red-500": "#ef4444",
+   "--color-red-600": "#dc2626",
+   "--color-red-700": "#b91c1c",
+   "--color-red-800": "#991b1b",
+   "--color-red-900": "#7f1d1d",
+   "--color-red-950": "#450a0a",
+   "--color-orange-50": "#fff7ed",
+   "--color-orange-100": "#ffedd5",
+   "--color-orange-200": "#fed7aa",
+   "--color-orange-300": "#fdba74",
+   "--color-orange-400": "#fb923c",
+   "--color-orange-500": "#f97316",
+   "--color-orange-600": "#ea580c",
+   "--color-orange-700": "#c2410c",
+   "--color-orange-800": "#9a3412",
+   "--color-orange-900": "#7c2d12",
+   "--color-orange-950": "#431407",
+   "--color-amber-50": "#fffbeb",
+   "--color-amber-100": "#fef3c7",
+   "--color-amber-200": "#fde68a",
+   "--color-amber-300": "#fcd34d",
+   "--color-amber-400": "#fbbf24",
+   "--color-amber-500": "#f59e0b",
+   "--color-amber-600": "#d97706",
+   "--color-amber-700": "#b45309",
+   "--color-amber-800": "#92400e",
+   "--color-amber-900": "#78350f",
+   "--color-amber-950": "#451a03",
+   "--color-yellow-50": "#fefce8",
+   "--color-yellow-100": "#fef9c3",
+   "--color-yellow-200": "#fef08a",
+   "--color-yellow-300": "#fde047",
+   "--color-yellow-400": "#facc15",
+   "--color-yellow-500": "#eab308",
+   "--color-yellow-600": "#ca8a04",
+   "--color-yellow-700": "#a16207",
+   "--color-yellow-800": "#854d0e",
+   "--color-yellow-900": "#713f12",
+   "--color-yellow-950": "#422006",
+   "--color-lime-50": "#f7fee7",
+   "--color-lime-100": "#ecfccb",
+   "--color-lime-200": "#d9f99d",
+   "--color-lime-300": "#bef264",
+   "--color-lime-400": "#a3e635",
+   "--color-lime-500": "#84cc16",
+   "--color-lime-600": "#65a30d",
+   "--color-lime-700": "#4d7c0f",
+   "--color-lime-800": "#3f6212",
+   "--color-lime-900": "#365314",
+   "--color-lime-950": "#111",
+   "--color-green-50": "#f0fdf4",
+   "--color-green-100": "#dcfce7",
+   "--color-green-200": "#bbf7d0",
+   "--color-green-300": "#86efac",
+   "--color-green-400": "#4ade80",
+   "--color-green-500": "#22c55e",
+   "--color-green-600": "#16a34a",
+   "--color-green-700": "#15803d",
+   "--color-green-800": "#166534",
+   "--color-green-900": "#14532d",
+   "--color-green-950": "#052e16",
+   "--color-emerald-50": "#ecfdf5",
+   "--color-emerald-100": "#d1fae5",
+   "--color-emerald-200": "#a7f3d0",
+   "--color-emerald-300": "#6ee7b7",
+   "--color-emerald-400": "#34d399",
+   "--color-emerald-500": "#10b981",
+   "--color-emerald-600": "#059669",
+   "--color-emerald-700": "#047857",
+   "--color-emerald-800": "#065f46",
+   "--color-emerald-900": "#064e3b",
+   "--color-emerald-950": "#022c22",
+   "--color-teal-50": "#f0fdfa",
+   "--color-teal-100": "#ccfbf1",
+   "--color-teal-200": "#99f6e4",
+   "--color-teal-300": "#5eead4",
+   "--color-teal-400": "#2dd4bf",
+   "--color-teal-500": "#14b8a6",
+   "--color-teal-600": "#0d9488",
+   "--color-teal-700": "#0f766e",
+   "--color-teal-800": "#115e59",
+   "--color-teal-900": "#134e4a",
+   "--color-teal-950": "#042f2e",
+   "--color-cyan-50": "#ecfeff",
+   "--color-cyan-100": "#cffafe",
+   "--color-cyan-200": "#a5f3fc",
+   "--color-cyan-300": "#67e8f9",
+   "--color-cyan-400": "#22d3ee",
+   "--color-cyan-500": "#06b6d4",
+   "--color-cyan-600": "#0891b2",
+   "--color-cyan-700": "#0e7490",
+   "--color-cyan-800": "#155e75",
+   "--color-cyan-900": "#164e63",
+   "--color-cyan-950": "#083344",
+   "--color-sky-50": "#f0f9ff",
+   "--color-sky-100": "#e0f2fe",
+   "--color-sky-200": "#bae6fd",
+   "--color-sky-300": "#7dd3fc",
+   "--color-sky-400": "#38bdf8",
+   "--color-sky-500": "#0ea5e9",
+   "--color-sky-600": "#0284c7",
+   "--color-sky-700": "#0369a1",
+   "--color-sky-800": "#075985",
+   "--color-sky-900": "#0c4a6e",
+   "--color-sky-950": "#082f49",
+   "--color-blue-50": "#eff6ff",
+   "--color-blue-100": "#dbeafe",
+   "--color-blue-200": "#bfdbfe",
+   "--color-blue-300": "#93c5fd",
+   "--color-blue-400": "#60a5fa",
+   "--color-blue-500": "#3b82f6",
+   "--color-blue-600": "#2563eb",
+   "--color-blue-700": "#1d4ed8",
+   "--color-blue-800": "#1e40af",
+   "--color-blue-900": "#1e3a8a",
+   "--color-blue-950": "#172554",
+   "--color-indigo-50": "#eef2ff",
+   "--color-indigo-100": "#e0e7ff",
+   "--color-indigo-200": "#c7d2fe",
+   "--color-indigo-300": "#a5b4fc",
+   "--color-indigo-400": "#818cf8",
+   "--color-indigo-500": "#6366f1",
+   "--color-indigo-600": "#4f46e5",
+   "--color-indigo-700": "#4338ca",
+   "--color-indigo-800": "#3730a3",
+   "--color-indigo-900": "#312e81",
+   "--color-indigo-950": "#1e1b4b",
+   "--color-violet-50": "#f5f3ff",
+   "--color-violet-100": "#ede9fe",
+   "--color-violet-200": "#ddd6fe",
+   "--color-violet-300": "#c4b5fd",
+   "--color-violet-400": "#a78bfa",
+   "--color-violet-500": "#8b5cf6",
+   "--color-violet-600": "#7c3aed",
+   "--color-violet-700": "#6d28d9",
+   "--color-violet-800": "#5b21b6",
+   "--color-violet-900": "#4c1d95",
+   "--color-violet-950": "#2e1065",
+   "--color-purple-50": "#faf5ff",
+   "--color-purple-100": "#f3e8ff",
+   "--color-purple-200": "#e9d5ff",
+   "--color-purple-300": "#d8b4fe",
+   "--color-purple-400": "#c084fc",
+   "--color-purple-500": "#a855f7"
+  },
+  "fontFaces": [
+   {
+    "family": "IBM Plex Mono",
+    "weight": "500",
+    "style": "normal",
+    "src": "local(\"IBM Plex Mono Medium\"), url(\"/fonts/IBMPlexMono-Medium-Latin1.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "IBM Plex Mono Fallback: Courier New",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Courier New\")"
+   },
+   {
+    "family": "IBM Plex Mono Fallback: Roboto Mono",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Roboto Mono\")"
+   },
+   {
+    "family": "IBM Plex Mono Fallback: Noto Sans Mono",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Noto Sans Mono\")"
+   },
+   {
+    "family": "IBM Plex Mono",
+    "weight": "500",
+    "style": "normal",
+    "src": "local(\"IBM Plex Mono Medium\"), url(\"/fonts/IBMPlexMono-Medium-Latin1.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "IBM Plex Mono Fallback: Courier New",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Courier New\")"
+   },
+   {
+    "family": "IBM Plex Mono Fallback: Roboto Mono",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Roboto Mono\")"
+   },
+   {
+    "family": "IBM Plex Mono Fallback: Noto Sans Mono",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Noto Sans Mono\")"
+   },
+   {
+    "family": "PP Neue Montreal",
+    "weight": "500",
+    "style": "normal",
+    "src": "local(\"PP Neue Montreal Medium\"), url(\"/fonts/PPNeueMontreal-Medium.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "IBM Plex Mono",
+    "weight": "500",
+    "style": "normal",
+    "src": "local(\"IBM Plex Mono Medium\"), url(\"/fonts/IBMPlexMono-Medium-Latin1.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "IBM Plex Mono Fallback: Roboto Mono",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Roboto Mono\")"
+   },
+   {
+    "family": "IBM Plex Mono Fallback: Courier New",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Courier New\")"
+   },
+   {
+    "family": "IBM Plex Mono Fallback: Noto Sans Mono",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Noto Sans Mono\")"
+   },
+   {
+    "family": "PP Neue Montreal",
+    "weight": "500",
+    "style": "normal",
+    "src": "local(\"PP Neue Montreal Medium\"), url(\"/fonts/PPNeueMontreal-Medium.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "IBM Plex Mono",
+    "weight": "500",
+    "style": "normal",
+    "src": "local(\"IBM Plex Mono Medium\"), url(\"/fonts/IBMPlexMono-Medium-Latin1.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "IBM Plex Mono Fallback: Courier New",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Courier New\")"
+   },
+   {
+    "family": "IBM Plex Mono Fallback: Roboto Mono",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Roboto Mono\")"
+   },
+   {
+    "family": "IBM Plex Mono Fallback: Noto Sans Mono",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Noto Sans Mono\")"
+   },
+   {
+    "family": "IBM Plex Mono",
+    "weight": "500",
+    "style": "normal",
+    "src": "local(\"IBM Plex Mono Medium\"), url(\"/fonts/IBMPlexMono-Medium-Latin1.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "IBM Plex Mono Fallback: Courier New",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Courier New\")"
+   },
+   {
+    "family": "IBM Plex Mono Fallback: Roboto Mono",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Roboto Mono\")"
+   },
+   {
+    "family": "IBM Plex Mono Fallback: Noto Sans Mono",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Noto Sans Mono\")"
+   },
+   {
+    "family": "IBM Plex Mono",
+    "weight": "500",
+    "style": "normal",
+    "src": "local(\"IBM Plex Mono Medium\"), url(\"/fonts/IBMPlexMono-Medium-Latin1.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "IBM Plex Mono Fallback: Courier New",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Courier New\")"
+   },
+   {
+    "family": "IBM Plex Mono Fallback: Roboto Mono",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Roboto Mono\")"
+   },
+   {
+    "family": "IBM Plex Mono Fallback: Noto Sans Mono",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Noto Sans Mono\")"
+   },
+   {
+    "family": "IBM Plex Mono",
+    "weight": "500",
+    "style": "normal",
+    "src": "local(\"IBM Plex Mono Medium\"), url(\"/fonts/IBMPlexMono-Medium-Latin1.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "IBM Plex Mono Fallback: Courier New",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Courier New\")"
+   },
+   {
+    "family": "IBM Plex Mono Fallback: Roboto Mono",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Roboto Mono\")"
+   },
+   {
+    "family": "IBM Plex Mono Fallback: Noto Sans Mono",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Noto Sans Mono\")"
+   },
+   {
+    "family": "PP Neue Montreal",
+    "weight": "500",
+    "style": "normal",
+    "src": "local(\"PP Neue Montreal Medium\"), url(\"/fonts/PPNeueMontreal-Medium.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "IBM Plex Mono",
+    "weight": "500",
+    "style": "normal",
+    "src": "local(\"IBM Plex Mono Medium\"), url(\"/fonts/IBMPlexMono-Medium-Latin1.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "IBM Plex Mono Fallback: Courier New",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Courier New\")"
+   },
+   {
+    "family": "IBM Plex Mono Fallback: Roboto Mono",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Roboto Mono\")"
+   },
+   {
+    "family": "IBM Plex Mono Fallback: Noto Sans Mono",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Noto Sans Mono\")"
+   },
+   {
+    "family": "IBM Plex Mono",
+    "weight": "500",
+    "style": "normal",
+    "src": "local(\"IBM Plex Mono Medium\"), url(\"/fonts/IBMPlexMono-Medium-Latin1.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "IBM Plex Mono Fallback: Courier New",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Courier New\")"
+   },
+   {
+    "family": "IBM Plex Mono Fallback: Roboto Mono",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Roboto Mono\")"
+   },
+   {
+    "family": "IBM Plex Mono Fallback: Noto Sans Mono",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Noto Sans Mono\")"
+   },
+   {
+    "family": "IBM Plex Mono",
+    "weight": "500",
+    "style": "normal",
+    "src": "local(\"IBM Plex Mono Medium\"), url(\"/fonts/IBMPlexMono-Medium-Latin1.woff2\") format(\"woff2\")"
+   }
+  ],
+  "keyframes": [
+   "dots-33582e99",
+   "applePanelClose",
+   "appleBlobOpen",
+   "appleContentReveal",
+   "appleItemsClip",
+   "appleBlobClose",
+   "appleContentBlurOut",
+   "appleItemsClipClose",
+   "slideUpAndFade",
+   "slideRightAndFade",
+   "slideDownAndFade",
+   "slideLeftAndFade",
+   "ai-bubble-morph-e2f13c5d",
+   "arrow-25a66d7e",
+   "ai-glow-spin-1ad4dabb",
+   "ai-dot-pulse-4802e666",
+   "rotate-5d5662a1",
+   "dash-5d5662a1",
+   "ai-decode-cursor-ba0c6b61",
+   "ai-ring-spin-ae3abfb1",
+   "ai-dictation-in-ae3abfb1"
+  ],
+  "breakpoints": [
+   {
+    "v": "1024px",
+    "w": 320
+   },
+   {
+    "v": "640px",
+    "w": 104
+   },
+   {
+    "v": "360px",
+    "w": 52
+   },
+   {
+    "v": "768px",
+    "w": 15
+   },
+   {
+    "v": "460px",
+    "w": 12
+   },
+   {
+    "v": "395px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 2635,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "hero-storytelling",
+    "h": 18000,
+    "title": "Where ambitious ideas become interfaces people remember",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "home-main-content",
+    "h": 8280,
+    "title": "↪ We design and engineer digital products for ambitious teams — from launch site",
+    "media": 12
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "",
+    "href": "https://emotion-agency.com/"
+   },
+   {
+    "t": "About",
+    "href": "https://emotion-agency.com/about"
+   },
+   {
+    "t": "Work",
+    "href": "https://emotion-agency.com/projects"
+   },
+   {
+    "t": "Contact",
+    "href": "https://emotion-agency.com/contact"
+   },
+   {
+    "t": "Let's talk Let's talk",
+    "href": "https://emotion-agency.com/contact"
+   },
+   {
+    "t": "01Home",
+    "href": "https://emotion-agency.com/"
+   },
+   {
+    "t": "02About",
+    "href": "https://emotion-agency.com/about"
+   },
+   {
+    "t": "03Work",
+    "href": "https://emotion-agency.com/projects"
+   },
+   {
+    "t": "04Contact",
+    "href": "https://emotion-agency.com/contact"
+   },
+   {
+    "t": "Let's talk Let's talk",
+    "href": "https://emotion-agency.com/contact"
+   },
+   {
+    "t": "",
+    "href": "https://emotion-agency.com/"
+   }
+  ],
+  "ctas": [
+   "Enter with audio Enter with audio",
+   "Let's talk Let's talk",
+   "More about us More about us",
+   "View all projects View all projects",
+   "More about us More about us",
+   "Start project Start project"
+  ],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 11,
+   "videos": 2,
+   "imgs": 6,
+   "svgs": 37,
+   "iframes": 0,
+   "domNodes": 2195
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "185",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": true,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": true,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": true,
+  "cms": [
+   "storyblok"
+  ],
+  "analytics": [
+   "googletagmanager",
+   "gtag"
+  ],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://emotion-agency.com/_nuxt/MGdOx5d6.js"
+ ],
+ "internal": [
+  "https://emotion-agency.com/about",
+  "https://emotion-agency.com/projects",
+  "https://emotion-agency.com/contact",
+  "https://emotion-agency.com/projects/e-promo",
+  "https://emotion-agency.com/projects/flashform",
+  "https://emotion-agency.com/projects/sofia-shcherbak",
+  "https://emotion-agency.com/projects/relive-by-coco",
+  "https://emotion-agency.com/projects/smp-fnnc",
+  "https://emotion-agency.com/projects/ksh-design",
+  "https://emotion-agency.com/projects/aura",
+  "https://emotion-agency.com/projects/kairos",
+  "https://emotion-agency.com/legal/terms-of-service",
+  "https://emotion-agency.com/legal/privacy-policy"
+ ],
+ "perf": {
+  "ttfb": 259,
+  "dcl": 708,
+  "load": 768,
+  "lcp": 676,
+  "lcpEl": "P.loader__text",
+  "cls": 0
+ },
+ "libs": {
+  "detected": [
+   "Nuxt",
+   "GSAP",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Lenis",
+   "Three.js",
+   "Postprocessing",
+   "Howler (audio)",
+   "Vue",
+   "Virtual scroll",
+   "Storyblok"
+  ],
+  "where": {
+   "Nuxt": [
+    "003-OM97HJzU.js",
+    "004-DFJPvhsl.js",
+    "007-qKIOv2Nj.js",
+    "008-DFJPvhsl.js",
+    "008-OM97HJzU.js",
+    "010-qKIOv2Nj.js",
+    "015-MGdOx5d6.js",
+    "021-DfWgQ0O5.js",
+    "022-DfWgQ0O5.js"
+   ],
+   "GSAP": [
+    "015-MGdOx5d6.js"
+   ],
+   "ScrollTrigger": [
+    "015-MGdOx5d6.js"
+   ],
+   "SplitText/SplitType": [
+    "015-MGdOx5d6.js"
+   ],
+   "Lenis": [
+    "015-MGdOx5d6.js",
+    "021-DfWgQ0O5.js",
+    "022-DfWgQ0O5.js",
+    "styles.css"
+   ],
+   "Three.js": [
+    "015-MGdOx5d6.js"
+   ],
+   "Postprocessing": [
+    "015-MGdOx5d6.js"
+   ],
+   "Howler (audio)": [
+    "015-MGdOx5d6.js"
+   ],
+   "Vue": [
+    "015-MGdOx5d6.js"
+   ],
+   "Virtual scroll": [
+    "015-MGdOx5d6.js"
+   ],
+   "Storyblok": [
+    "015-MGdOx5d6.js"
+   ]
+  },
+  "gsapVersion": "3.11.0",
+  "threeRevision": null,
+  "shaders": 40,
+  "scripts": 44
+ },
+ "network": {
+  "requests": 119,
+  "totalKb": 10395,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 30
+   },
+   "Stylesheet": {
+    "n": 13,
+    "kb": 34
+   },
+   "Script": {
+    "n": 23,
+    "kb": 691
+   },
+   "Font": {
+    "n": 6,
+    "kb": 299
+   },
+   "Other": {
+    "n": 5,
+    "kb": 260
+   },
+   "Image": {
+    "n": 7,
+    "kb": 360
+   },
+   "XHR": {
+    "n": 2,
+    "kb": 1734
+   },
+   "Fetch": {
+    "n": 60,
+    "kb": 5869
+   },
+   "Media": {
+    "n": 2,
+    "kb": 1118
+   }
+  },
+  "thirdPartyHosts": [],
+  "fontFiles": [
+   "https://emotion-agency.com/fonts/IBMPlexMono-Medium-Latin1.woff2",
+   "https://emotion-agency.com/fonts/PPNeueMontreal-Medium.woff2",
+   "https://emotion-agency.com/fonts/EmotionSerif-LightItalic.woff2",
+   "https://emotion-agency.com/fonts/EmotionSerif-Light.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://emotion-agency.com/models/office.glb",
+    "kb": 2962,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://emotion-agency.com/audio/background/webm/main.webm",
+    "kb": 1722,
+    "type": "XHR"
+   },
+   {
+    "url": "https://emotion-agency.com/projects/e-promo.mp4",
+    "kb": 762,
+    "type": "Media"
+   },
+   {
+    "url": "https://emotion-agency.com/_nuxt/MGdOx5d6.js",
+    "kb": 599,
+    "type": "Script"
+   },
+   {
+    "url": "https://emotion-agency.com/models/projects/floor/ktx/painted_concrete_02_nor_gl_1k.ktx2",
+    "kb": 534,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://emotion-agency.com/projects/flshfrm.mp4",
+    "kb": 356,
+    "type": "Media"
+   },
+   {
+    "url": "https://emotion-agency.com/_nuxt/oak_normal_1k.CeTw_IV2.ktx2",
+    "kb": 294,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://emotion-agency.com/_nuxt/oak_color_1k.X86cJ5CF.ktx2",
+    "kb": 275,
+    "type": "Fetch"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "46px",
+   "lineHeight": "36.8px"
+  },
+  "body": "12px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 660
+}

@@ -1,0 +1,452 @@
+{
+ "id": 108,
+ "name": "Hiroto Sato",
+ "sourceUrl": "https://www.hirotos.com/",
+ "capturedAt": "2026-11-03T22:34:27.353Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg"
+  ],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [
+   {
+    "url": "https://www.hirotos.com/projects",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.hirotos.com/about",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.hirotos.com/contact",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://www.hirotos.com/",
+ "title": "Hiroto Sato",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Portfolio site of Hiroto Sato.",
+  "canonical": null,
+  "robots": null,
+  "ogTitle": null,
+  "ogImage": null,
+  "twitterCard": null,
+  "jsonLd": [],
+  "h1Count": 1,
+  "headings": [
+   "H1 HIROTO SATO"
+  ],
+  "imgs": 0,
+  "imgNoAlt": 0,
+  "favicon": "https://www.hirotos.com/favicon.ico?favicon.12lado4ku_uav.ico",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#ffffff",
+    "w": 1296000
+   }
+  ],
+  "text": [
+   {
+    "v": "#0b0b0a",
+    "w": 136
+   }
+  ],
+  "border": [
+   {
+    "v": "#0b0b0a",
+    "w": 3
+   }
+  ],
+  "fonts": [
+   {
+    "v": "helvetica-neue-lt-pro",
+    "w": 136
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "12px",
+    "w": 11
+   },
+   {
+    "v": "16px",
+    "w": 5
+   },
+   {
+    "v": "40.32px",
+    "w": 1
+   }
+  ],
+  "radius": [],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "ease 0.18s",
+    "w": 4
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "helvetica-neue-lt-pro, sans-serif",
+    "size": "40.32px",
+    "weight": "500",
+    "lineHeight": "39.5136px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#0b0b0a",
+    "sample": "HIROTO SATO"
+   },
+   "p": {
+    "family": "helvetica-neue-lt-pro, sans-serif",
+    "size": "12px",
+    "weight": "500",
+    "lineHeight": "12px",
+    "letterSpacing": "0.54px",
+    "transform": "uppercase",
+    "color": "#0b0b0a",
+    "sample": "Creative Developer"
+   },
+   "a": {
+    "family": "helvetica-neue-lt-pro, sans-serif",
+    "size": "12px",
+    "weight": "400",
+    "lineHeight": "12px",
+    "letterSpacing": "0.54px",
+    "transform": "uppercase",
+    "color": "#0b0b0a",
+    "sample": "Home"
+   },
+   "body": {
+    "family": "helvetica-neue-lt-pro, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#10100f",
+    "sample": "Creative DeveloperHIROTO SATOBaseTokyo, JapanFocusCreative development / Motion "
+   }
+  },
+  "cssVars": {
+   "--background": "#fff",
+   "--foreground": "#10100f",
+   "--muted": "#10100fad",
+   "--line": "#10100f24",
+   "--accent": "#8f6200",
+   "--ui-gutter-x": "clamp(14px, 2.6vw, 44px)",
+   "--ui-gutter-y": "clamp(18px, 2.8vw, 40px)",
+   "--ui-edge-x": "var(--ui-gutter-x)"
+  },
+  "fontFaces": [],
+  "keyframes": [
+   "projectsZoomIn",
+   "projectsImageZoomIn",
+   "projectsGalleryLoop"
+  ],
+  "breakpoints": [
+   {
+    "v": "620px",
+    "w": 2
+   },
+   {
+    "v": "960px",
+    "w": 1
+   },
+   {
+    "v": "720px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 243,
+  "crossOriginSheets": 1
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "hero-section page-shell",
+    "h": 900,
+    "top": 0,
+    "title": "HIROTO SATO",
+    "media": 0
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "Home",
+    "href": "https://www.hirotos.com/"
+   },
+   {
+    "t": "Projects",
+    "href": "https://www.hirotos.com/projects"
+   },
+   {
+    "t": "About",
+    "href": "https://www.hirotos.com/about"
+   },
+   {
+    "t": "Contact",
+    "href": "https://www.hirotos.com/contact"
+   }
+  ],
+  "ctas": [],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 1,
+   "videos": 0,
+   "imgs": 0,
+   "svgs": 3,
+   "iframes": 0,
+   "domNodes": 70
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": false,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "184",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": true,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://www.hirotos.com/_next/static/chunks/0rithic.aky3l.js",
+  "https://www.hirotos.com/_next/static/chunks/07lhk_q6pmm3r.js",
+  "https://www.hirotos.com/_next/static/chunks/0m52qbjc0ohcs.js",
+  "https://www.hirotos.com/_next/static/chunks/turbopack-0~h-.zbyee~j8.js",
+  "https://www.hirotos.com/_next/static/chunks/0dbhjjzl8qfwv.js",
+  "https://www.hirotos.com/_next/static/chunks/0prlkf15mqsq4.js",
+  "https://www.hirotos.com/_next/static/chunks/03~yq9q893hmn.js",
+  "https://www.hirotos.com/_next/static/chunks/15xrurgzs99gv.js"
+ ],
+ "internal": [
+  "https://www.hirotos.com/projects",
+  "https://www.hirotos.com/about",
+  "https://www.hirotos.com/contact"
+ ],
+ "perf": {
+  "ttfb": 1041,
+  "dcl": 1969,
+  "load": 2851,
+  "lcp": 2956,
+  "lcpEl": "SPAN.preloader__text",
+  "cls": 0.001
+ },
+ "libs": {
+  "detected": [
+   "Next.js",
+   "React",
+   "GSAP",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Three.js",
+   "React Three Fiber",
+   "Postprocessing"
+  ],
+  "where": {
+   "Next.js": [
+    "001-15xrurgzs99gv.js"
+   ],
+   "React": [
+    "005-07lhk_q6pmm3r.js"
+   ],
+   "GSAP": [
+    "007-0prlkf15mqsq4.js"
+   ],
+   "ScrollTrigger": [
+    "007-0prlkf15mqsq4.js"
+   ],
+   "SplitText/SplitType": [
+    "007-0prlkf15mqsq4.js"
+   ],
+   "Three.js": [
+    "007-0prlkf15mqsq4.js"
+   ],
+   "React Three Fiber": [
+    "007-0prlkf15mqsq4.js"
+   ],
+   "Postprocessing": [
+    "007-0prlkf15mqsq4.js"
+   ]
+  },
+  "gsapVersion": "3.15.0",
+  "threeRevision": null,
+  "shaders": 22,
+  "scripts": 7
+ },
+ "network": {
+  "requests": 28,
+  "totalKb": 9872,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 2
+   },
+   "Script": {
+    "n": 7,
+    "kb": 727
+   },
+   "Stylesheet": {
+    "n": 3,
+    "kb": 8
+   },
+   "Font": {
+    "n": 4,
+    "kb": 77
+   },
+   "Fetch": {
+    "n": 3,
+    "kb": 2349
+   },
+   "Other": {
+    "n": 1,
+    "kb": 15
+   },
+   "Image": {
+    "n": 8,
+    "kb": 113
+   },
+   "Media": {
+    "n": 1,
+    "kb": 6580
+   }
+  },
+  "thirdPartyHosts": [
+   "use.typekit.net",
+   "p.typekit.net",
+   "raw.githubusercontent.com"
+  ],
+  "fontFiles": [
+   "https://use.typekit.net/af/69bcfb/0000000000000000775ad3aa/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3",
+   "https://use.typekit.net/af/45d708/0000000000000000775ad3ab/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+   "https://use.typekit.net/af/dece30/0000000000000000774b9a94/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+   "https://use.typekit.net/af/6240b8/0000000000000000775ad3b2/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3"
+  ],
+  "biggest": [
+   {
+    "url": "https://www.hirotos.com/videos/hirotos_showreel.mp4",
+    "kb": 6580,
+    "type": "Media"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/pmndrs/drei-assets/456060a26bbeb8fdf79326f224b6d99b8bcce736/hdri/potsdamer_platz_1k.hdr",
+    "kb": 1506,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://www.hirotos.com/models/model.glb",
+    "kb": 843,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://www.hirotos.com/_next/static/chunks/0prlkf15mqsq4.js",
+    "kb": 558,
+    "type": "Script"
+   },
+   {
+    "url": "https://www.hirotos.com/_next/static/chunks/07lhk_q6pmm3r.js",
+    "kb": 82,
+    "type": "Script"
+   },
+   {
+    "url": "https://www.hirotos.com/_next/static/chunks/0m52qbjc0ohcs.js",
+    "kb": 45,
+    "type": "Script"
+   },
+   {
+    "url": "https://www.hirotos.com/stickers/developer_certificate.png",
+    "kb": 42,
+    "type": "Image"
+   },
+   {
+    "url": "https://www.hirotos.com/stickers/certificate-hiroto-sato-sotd.png",
+    "kb": 40,
+    "type": "Image"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "24px",
+   "lineHeight": "23.52px"
+  },
+  "body": "16px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 336
+}

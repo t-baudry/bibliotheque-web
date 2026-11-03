@@ -1,0 +1,920 @@
+{
+ "id": 65,
+ "name": "HOBRO DIGITAL",
+ "sourceUrl": "https://hobro.digital/",
+ "capturedAt": "2026-11-03T08:56:11.106Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg",
+   "desktop-13.jpg",
+   "desktop-14.jpg"
+  ],
+  "fullPage": 15934,
+  "subpages": [
+   {
+    "url": "https://hobro.digital/contact/",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://hobro.digital/privacy-policy/",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://hobro.digital/",
+ "title": "HOBRO - Design-first full-cycle digital agency",
+ "lang": "en",
+ "generator": "Payload CMS",
+ "seo": {
+  "description": "Hobro Digital designs and builds purposeful digital experiences - from websites and products to branding and creative systems. We’re a full-cycle agency focused on clarity, craft, and long-term impact.",
+  "canonical": "https://hobro.digital/",
+  "robots": "index, follow",
+  "ogTitle": "HOBRO - Design-first full-cycle digital agency",
+  "ogImage": "http://hobro.digital/api/media/file/share-banner.webp",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [],
+  "h1Count": 1,
+  "headings": [
+   "H1 HOBRO DIGITAL",
+   "H3 Discover How We Can Help - Request Our Capabilities Deck",
+   "H2 What We DO",
+   "H3 Discover How We Can Help -Request Our Capabilities Deck",
+   "H3 Fresh Drop",
+   "H3 Fresh Drop",
+   "H3 Selected Cases",
+   "H2 Core Vision",
+   "H2 Discover How We Can Help - Request Our Capabilities Deck",
+   "H3 Clients BRANDS",
+   "H2 Our core identity",
+   "H2 HOBRO LNK",
+   "H2 Capabilities Deck",
+   "H2 Great!"
+  ],
+  "imgs": 212,
+  "imgNoAlt": 154,
+  "favicon": "https://hobro.digital/assets/favicon/favicon.svg",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#000000",
+    "w": 6252271
+   },
+   {
+    "v": "#ffffff",
+    "w": 6124895
+   },
+   {
+    "v": "#dddddd",
+    "w": 477409
+   },
+   {
+    "v": "#00fb96",
+    "w": 36
+   }
+  ],
+  "text": [
+   {
+    "v": "#000000",
+    "w": 3170
+   },
+   {
+    "v": "#ffffff",
+    "w": 1540
+   }
+  ],
+  "border": [
+   {
+    "v": "#000000",
+    "w": 4
+   },
+   {
+    "v": "#414141",
+    "w": 4
+   },
+   {
+    "v": "#ffffff",
+    "w": 1
+   }
+  ],
+  "fonts": [
+   {
+    "v": "PPNeueMontreal",
+    "w": 3269
+   },
+   {
+    "v": "AkkuratMonoLLWeb",
+    "w": 1365
+   },
+   {
+    "v": "Kamerik205",
+    "w": 41
+   },
+   {
+    "v": "FreigBigProLigIta",
+    "w": 35
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "60px",
+    "w": 260
+   },
+   {
+    "v": "18px",
+    "w": 249
+   },
+   {
+    "v": "14px",
+    "w": 212
+   },
+   {
+    "v": "22px",
+    "w": 123
+   },
+   {
+    "v": "16px",
+    "w": 85
+   },
+   {
+    "v": "12px",
+    "w": 26
+   },
+   {
+    "v": "20px",
+    "w": 20
+   },
+   {
+    "v": "180px",
+    "w": 18
+   },
+   {
+    "v": "67.5px",
+    "w": 16
+   },
+   {
+    "v": "33.75px",
+    "w": 15
+   },
+   {
+    "v": "75px",
+    "w": 4
+   },
+   {
+    "v": "21px",
+    "w": 4
+   },
+   {
+    "v": "16.5px",
+    "w": 3
+   },
+   {
+    "v": "80px",
+    "w": 2
+   },
+   {
+    "v": "217.5px",
+    "w": 1
+   },
+   {
+    "v": "10.5px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "50%",
+    "w": 6
+   },
+   {
+    "v": "33px",
+    "w": 4
+   },
+   {
+    "v": "15px",
+    "w": 2
+   },
+   {
+    "v": "100%",
+    "w": 2
+   },
+   {
+    "v": "14px",
+    "w": 1
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "linear 0.3s",
+    "w": 51
+   },
+   {
+    "v": "ease 0.3s",
+    "w": 7
+   },
+   {
+    "v": "ease-out 0.3s",
+    "w": 5
+   },
+   {
+    "v": "cubic-bezier(0.785 1s",
+    "w": 3
+   },
+   {
+    "v": "ease-out 0.6s",
+    "w": 1
+   },
+   {
+    "v": "ease 0.5s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h2": {
+    "family": "PPNeueMontreal, Helvetica, Arial, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "What We DO"
+   },
+   "h3": {
+    "family": "PPNeueMontreal, Helvetica, Arial, sans-serif",
+    "size": "16px",
+    "weight": "500",
+    "lineHeight": "16px",
+    "letterSpacing": "-0.24px",
+    "transform": "uppercase",
+    "color": "#000000",
+    "sample": "Discover How We Can Help - Request Our Capabilities Deck"
+   },
+   "p": {
+    "family": "PPNeueMontreal, Helvetica, Arial, sans-serif",
+    "size": "18px",
+    "weight": "400",
+    "lineHeight": "21.6px",
+    "letterSpacing": "-0.27px",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Hobro is headquartered in Calgary, Canada. With a distributed team of designers,"
+   },
+   "a": {
+    "family": "PPNeueMontreal, Helvetica, Arial, sans-serif",
+    "size": "22px",
+    "weight": "500",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Projects"
+   },
+   "button": {
+    "family": "AkkuratMonoLLWeb, Arial, sans-serif",
+    "size": "14px",
+    "weight": "500",
+    "lineHeight": "14px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "GET CAPABILITIES DECK"
+   },
+   "li": {
+    "family": "PPNeueMontreal, Helvetica, Arial, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Projects Services"
+   },
+   "body": {
+    "family": "PPNeueMontreal, Helvetica, Arial, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Loading... GET CAPABILITIES DECK Projects Services Agency Contact address: 200-6"
+   }
+  },
+  "cssVars": {
+   "--side-gutters": "1rem",
+   "--header-height": "4rem",
+   "--c-brand-primary": "#00FB96",
+   "--c-brand-secondary": "#DBDCCA",
+   "--c-bg-primary": "#000",
+   "--c-bg-secondary": "#fff",
+   "--c-scroll": "#d5d4d4",
+   "--c-bg-aims": "#161616",
+   "--fz-base": "16",
+   "--c-font-primary": "#000",
+   "--c-font-secondary": "#fff",
+   "--c-font-error": "#E6B0B0",
+   "--c-font-subtitle": "#000",
+   "--font-title": "Kamerik205,Arial,sans-serif",
+   "--font-text": "PPNeueMontreal,Helvetica,Arial,sans-serif",
+   "--font-cursive": "FreigBigProLigIta,Arial,sans-serif",
+   "--font-typewriter": "AkkuratMonoLLWeb,Arial,sans-serif",
+   "--c-border-default": "#636262",
+   "--c-border": "1px solid var(--c-border-default)",
+   "--c-border-grid": "#4141413B",
+   "--cursor-dot": "var(--c-brand-primary)",
+   "--cursor-circle": "#000",
+   "--loader-scale": "0.09",
+   "--anim-fallback-delay": "0s",
+   "--anim-default-delay": ".27s",
+   "--anim-default-time": ".75s"
+  },
+  "fontFaces": [
+   {
+    "family": "FreigBigProLigIta",
+    "weight": "300",
+    "style": "italic",
+    "src": "url(\"../assets/fonts/FreigBigProLigIta.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "AkkuratMonoLLWeb",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"../assets/fonts/AkkuratMonoLLWeb-Regular.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Kamerik205",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"../assets/fonts/Kamerik205-Regular.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Kamerik205",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"../assets/fonts/Kamerik205-Medium.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Kamerik205",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"../assets/fonts/Kamerik205-Bold.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "PPNeueMontreal",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"../assets/fonts/PPNeueMontreal-Medium.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "PPNeueMontreal",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"../assets/fonts/PPNeueMontreal-Regular.woff2\") format(\"woff2\")"
+   }
+  ],
+  "keyframes": [
+   "fadeInOut",
+   "moveUp",
+   "marquee",
+   "animate-svg-logo",
+   "curtains",
+   "title-scale",
+   "toTop",
+   "slideUp"
+  ],
+  "breakpoints": [
+   {
+    "v": "1023px",
+    "w": 38
+   },
+   {
+    "v": "1024px",
+    "w": 37
+   },
+   {
+    "v": "767px",
+    "w": 34
+   },
+   {
+    "v": "768px",
+    "w": 28
+   },
+   {
+    "v": "1025px",
+    "w": 18
+   },
+   {
+    "v": "919px",
+    "w": 10
+   },
+   {
+    "v": "1920px",
+    "w": 6
+   },
+   {
+    "v": "599px",
+    "w": 5
+   },
+   {
+    "v": "1439px",
+    "w": 4
+   },
+   {
+    "v": "1921px",
+    "w": 4
+   },
+   {
+    "v": "1440px",
+    "w": 4
+   },
+   {
+    "v": "769px",
+    "w": 3
+   }
+  ],
+  "rulesCount": 1053,
+  "crossOriginSheets": 2
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "about js-about",
+    "h": 900,
+    "title": "HOBRO DIGITAL",
+    "media": 14
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "stickers stickers-box-js",
+    "h": 1052,
+    "title": "",
+    "media": 17
+   },
+   {
+    "tag": "section",
+    "id": "services",
+    "cls": "wwd",
+    "h": 1464,
+    "title": "What We DO",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "features",
+    "h": 817,
+    "title": "Discover How We Can Help -Request Our Capabilities Deck",
+    "media": 6
+   },
+   {
+    "tag": "section",
+    "id": "projects",
+    "cls": "cases",
+    "h": 3954,
+    "title": "Fresh Drop",
+    "media": 14
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "cta cta--inverse",
+    "h": 274,
+    "title": "",
+    "media": 9
+   },
+   {
+    "tag": "section",
+    "id": "agency",
+    "cls": "aims",
+    "h": 2367,
+    "title": "Core Vision",
+    "media": 1
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "capabilities-cta-full-width ccfw",
+    "h": 175,
+    "title": "Discover How We Can Help - Request Our Capabilities Deck",
+    "media": 1
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "partners",
+    "h": 715,
+    "title": "Clients BRANDS",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "team",
+    "h": 2258,
+    "title": "Our core identity",
+    "media": 27
+   },
+   {
+    "tag": "footer",
+    "id": null,
+    "cls": "footer",
+    "h": 1148,
+    "title": "HOBRO LNK",
+    "media": 1
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "",
+    "href": "https://hobro.digital/"
+   },
+   {
+    "t": "Projects",
+    "href": "https://hobro.digital/#projects"
+   },
+   {
+    "t": "Services",
+    "href": "https://hobro.digital/#services"
+   },
+   {
+    "t": "Agency",
+    "href": "https://hobro.digital/#agency"
+   },
+   {
+    "t": "Contact",
+    "href": "https://hobro.digital/contact/"
+   },
+   {
+    "t": "+1 (587) 326-3456",
+    "href": "tel:+15873263456"
+   },
+   {
+    "t": "hi@hobro.digital",
+    "href": "mailto:hi@hobro.digital"
+   },
+   {
+    "t": "",
+    "href": "https://www.linkedin.com/company/hobro-digital/"
+   },
+   {
+    "t": "",
+    "href": "https://www.instagram.com/hobro.digital/"
+   },
+   {
+    "t": "",
+    "href": "https://dribbble.com/hobro-digital"
+   },
+   {
+    "t": "",
+    "href": "https://www.facebook.com/hobro.digital"
+   },
+   {
+    "t": "",
+    "href": "https://x.com/hobro_digital"
+   },
+   {
+    "t": "privacy policy",
+    "href": "https://hobro.digital/privacy-policy/"
+   }
+  ],
+  "ctas": [
+   "GET CAPABILITIES DECK",
+   "GET YOUR COPY",
+   "GET YOUR COPY",
+   "GET CAPABILITIES DECK",
+   "GET CAPABILITIES DECK",
+   "Submit"
+  ],
+  "pageHeight": 15934,
+  "counts": {
+   "canvas": 0,
+   "videos": 60,
+   "imgs": 212,
+   "svgs": 37,
+   "iframes": 1,
+   "domNodes": 2567
+  }
+ },
+ "tech": {
+  "gsap": true,
+  "gsapVersion": "3.12.7",
+  "scrollTrigger": true,
+  "splitText": true,
+  "lenis": true,
+  "locomotive": false,
+  "three": false,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": true,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [
+   "googletagmanager",
+   "gtag",
+   "hubspot"
+  ],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": false
+ },
+ "scripts": [
+  "https://www.gstatic.com/recaptcha/releases/bSuJ2xBC8cHT21-c68JXN31m/recaptcha__fr.js",
+  "https://www.googletagmanager.com/gtag/js?id=G-7FCH9801RP",
+  "https://www.google.com/recaptcha/api.js?render=6LcdQhcrAAAAAO2mHY7vKfN6RiOCL5XhM9QApEOM",
+  "https://cdn.jsdelivr.net/npm/ua-parser-js/dist/ua-parser.min.js",
+  "https://cdn.jsdelivr.net/npm/body-scroll-lock@4.0.0-beta.0/lib/bodyScrollLock.min.js",
+  "https://cdn.jsdelivr.net/npm/lenis@1.3.4/dist/lenis.min.js",
+  "https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js",
+  "https://hobro.digital/plugins/ScrollSmoother.min.js",
+  "https://hobro.digital/plugins/CustomEase.min.js",
+  "https://hobro.digital/plugins/CustomBounce.min.js",
+  "https://hobro.digital/plugins/Draggable.min.js",
+  "https://hobro.digital/plugins/InertiaPlugin.min.js",
+  "https://hobro.digital/plugins/SplitText.min.js",
+  "https://hobro.digital/plugins/MorphSVGPlugin.min.js",
+  "https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js",
+  "https://cdn.jsdelivr.net/npm/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs",
+  "https://cdn.jsdelivr.net/npm/flatpickr",
+  "https://cdn.jsdelivr.net/npm/sortablejs@1.15.6/Sortable.min.js",
+  "https://hobro.digital/js/main-698d9cf43f.js",
+  "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092"
+ ],
+ "internal": [
+  "https://hobro.digital/contact/",
+  "https://hobro.digital/privacy-policy/"
+ ],
+ "perf": {
+  "ttfb": 239,
+  "dcl": 733,
+  "load": 735,
+  "lcp": 7344,
+  "lcpEl": "VIDEO.about__video",
+  "cls": 0.115
+ },
+ "libs": {
+  "detected": [
+   "GSAP",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "DrawSVG/MorphSVG",
+   "Lenis",
+   "Lottie",
+   "Virtual scroll",
+   "Contentful",
+   "jQuery",
+   "Howler (audio)"
+  ],
+  "where": {
+   "GSAP": [
+    "002-main-698d9cf43f.js",
+    "003-CustomBounce.min.js",
+    "003-ScrollSmoother.min.js",
+    "004-CustomEase.min.js",
+    "004-MorphSVGPlugin.min.js",
+    "005-InertiaPlugin.min.js",
+    "005-SplitText.min.js",
+    "006-Draggable.min.js",
+    "006-InertiaPlugin.min.js",
+    "007-CustomBounce.min.js",
+    "007-ScrollSmoother.min.js",
+    "008-CustomEase.min.js",
+    "008-MorphSVGPlugin.min.js",
+    "009-SplitText.min.js",
+    "012-gsap.min.js",
+    "013-gsap.min.js",
+    "015-Draggable.min.js",
+    "016-ScrollTrigger.min.js",
+    "017-ScrollTrigger.min.js"
+   ],
+   "ScrollTrigger": [
+    "002-main-698d9cf43f.js",
+    "003-ScrollSmoother.min.js",
+    "007-ScrollSmoother.min.js",
+    "012-gsap.min.js",
+    "013-gsap.min.js",
+    "016-ScrollTrigger.min.js",
+    "017-ScrollTrigger.min.js"
+   ],
+   "SplitText/SplitType": [
+    "002-main-698d9cf43f.js",
+    "005-SplitText.min.js",
+    "009-SplitText.min.js"
+   ],
+   "DrawSVG/MorphSVG": [
+    "002-main-698d9cf43f.js",
+    "004-MorphSVGPlugin.min.js",
+    "008-MorphSVGPlugin.min.js"
+   ],
+   "Lenis": [
+    "002-main-698d9cf43f.js",
+    "010-lenis.min.js",
+    "015-lenis.min.js",
+    "styles.css"
+   ],
+   "Lottie": [
+    "002-main-698d9cf43f.js",
+    "009-dotlottie-player.js",
+    "010-dotlottie-player.js",
+    "019-chunk-ODPU3M3Z.js",
+    "021-chunk-ODPU3M3Z.js",
+    "022-chunk-TRZ6EGBZ.js",
+    "024-lottie_svg-MJGYILXD-NRTSROOT.js"
+   ],
+   "Virtual scroll": [
+    "010-lenis.min.js",
+    "015-lenis.min.js"
+   ],
+   "Contentful": [
+    "011-vce701823e78c4301a35b7e07294d87301792088814092.js"
+   ],
+   "jQuery": [
+    "014-ua-parser.min.js",
+    "016-flatpickr.js",
+    "017-flatpickr.js",
+    "018-Sortable.min.js"
+   ],
+   "Howler (audio)": [
+    "022-chunk-TRZ6EGBZ.js"
+   ]
+  },
+  "gsapVersion": "3.12.7",
+  "threeRevision": null,
+  "shaders": 0,
+  "scripts": 39
+ },
+ "network": {
+  "requests": 266,
+  "totalKb": 37582,
+  "byType": {
+   "Document": {
+    "n": 3,
+    "kb": 12
+   },
+   "Other": {
+    "n": 2,
+    "kb": 2
+   },
+   "Stylesheet": {
+    "n": 4,
+    "kb": 22
+   },
+   "Script": {
+    "n": 27,
+    "kb": 817
+   },
+   "Font": {
+    "n": 6,
+    "kb": 220
+   },
+   "Fetch": {
+    "n": 10,
+    "kb": 582
+   },
+   "XHR": {
+    "n": 2,
+    "kb": 1
+   },
+   "Image": {
+    "n": 171,
+    "kb": 4422
+   },
+   "Media": {
+    "n": 41,
+    "kb": 31503
+   }
+  },
+  "thirdPartyHosts": [
+   "cdn.jsdelivr.net",
+   "static.cloudflareinsights.com",
+   "www.googletagmanager.com",
+   "region1.google-analytics.com",
+   "www.google.com",
+   "www.gstatic.com"
+  ],
+  "fontFiles": [
+   "https://hobro.digital/assets/fonts/AkkuratMonoLLWeb-Regular.woff2",
+   "https://hobro.digital/assets/fonts/PPNeueMontreal-Regular.woff2",
+   "https://hobro.digital/assets/fonts/FreigBigProLigIta.woff2",
+   "https://hobro.digital/assets/fonts/PPNeueMontreal-Medium.woff2",
+   "https://hobro.digital/assets/fonts/Kamerik205-Bold.woff2",
+   "https://hobro.digital/assets/fonts/Kamerik205-Regular.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://hobro.digital/media/video/4K-Hobro-Hero.av1.mp4",
+    "kb": 10585,
+    "type": "Media"
+   },
+   {
+    "url": "https://hobro.digital/media/video/features4.av1.mp4",
+    "kb": 8827,
+    "type": "Media"
+   },
+   {
+    "url": "https://hobro.digital/media/video/flowers.av1.mp4",
+    "kb": 5100,
+    "type": "Media"
+   },
+   {
+    "url": "https://hobro.digital/media/video/cases/case-brinc-bg.av1.mp4",
+    "kb": 2631,
+    "type": "Media"
+   },
+   {
+    "url": "https://hobro.digital/media/video/cases/case-alva-bg.av1.mp4",
+    "kb": 1398,
+    "type": "Media"
+   },
+   {
+    "url": "https://hobro.digital/media/video/features2.av1.mp4",
+    "kb": 1184,
+    "type": "Media"
+   },
+   {
+    "url": "https://hobro.digital/media/video/features-mgroup.av1.mp4",
+    "kb": 728,
+    "type": "Media"
+   },
+   {
+    "url": "https://hobro.digital/media/video/features5.av1.mp4",
+    "kb": 678,
+    "type": "Media"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "16px",
+   "lineHeight": "24px"
+  },
+  "body": "16px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 257
+}

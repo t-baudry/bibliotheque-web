@@ -1,0 +1,933 @@
+{
+ "id": 102,
+ "name": "NORMAL IS BORING",
+ "sourceUrl": "https://normalisboring.es/",
+ "capturedAt": "2026-11-03T22:21:31.100Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [
+   ".cky-btn-accept"
+  ],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg",
+   "desktop-13.jpg",
+   "desktop-14.jpg"
+  ],
+  "fullPage": 15176,
+  "subpages": [
+   {
+    "url": "https://normalisboring.es/conocenos/",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://normalisboring.es/proyectos/",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://normalisboring.es/lasolana",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://normalisboring.es/",
+ "title": "Home - Normal is Boring",
+ "lang": "es",
+ "generator": "WordPress 7.1.4",
+ "seo": {
+  "description": null,
+  "canonical": "https://normalisboring.es/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "ogTitle": "Home - Normal is Boring",
+  "ogImage": null,
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "WebPage",
+   "BreadcrumbList",
+   "WebSite"
+  ],
+  "h1Count": 0,
+  "headings": [],
+  "imgs": 32,
+  "imgNoAlt": 30,
+  "favicon": "https://normalisboring.es/wp-content/uploads/2025/05/favicon-150x150.png",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#ece4da",
+    "w": 7556401
+   },
+   {
+    "v": "#ffffff",
+    "w": 3823186
+   },
+   {
+    "v": "#000000",
+    "w": 2811519
+   },
+   {
+    "v": "#c7d7e9",
+    "w": 1684800
+   },
+   {
+    "v": "#db5c59",
+    "w": 1296121
+   },
+   {
+    "v": "#707070",
+    "w": 972000
+   }
+  ],
+  "text": [
+   {
+    "v": "#000000",
+    "w": 2465
+   },
+   {
+    "v": "#ffffff",
+    "w": 334
+   }
+  ],
+  "border": [
+   {
+    "v": "#000000",
+    "w": 1
+   }
+  ],
+  "fonts": [
+   {
+    "v": "Izmir-Regular",
+    "w": 1790
+   },
+   {
+    "v": "Juana-Regular",
+    "w": 494
+   },
+   {
+    "v": "Editorialnew-Ultralight",
+    "w": 443
+   },
+   {
+    "v": "Juana-Medium",
+    "w": 68
+   },
+   {
+    "v": "Editorialnew-UltralightItalic",
+    "w": 4
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "33.75px",
+    "w": 200
+   },
+   {
+    "v": "12.75px",
+    "w": 109
+   },
+   {
+    "v": "21px",
+    "w": 102
+   },
+   {
+    "v": "52.5px",
+    "w": 97
+   },
+   {
+    "v": "24.75px",
+    "w": 70
+   },
+   {
+    "v": "12px",
+    "w": 42
+   },
+   {
+    "v": "15px",
+    "w": 35
+   },
+   {
+    "v": "45px",
+    "w": 10
+   },
+   {
+    "v": "97.5px",
+    "w": 10
+   },
+   {
+    "v": "14px",
+    "w": 7
+   },
+   {
+    "v": "16px",
+    "w": 5
+   },
+   {
+    "v": "10.5px",
+    "w": 5
+   },
+   {
+    "v": "67.2px",
+    "w": 3
+   },
+   {
+    "v": "142.5px",
+    "w": 3
+   },
+   {
+    "v": "20px",
+    "w": 2
+   },
+   {
+    "v": "180px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "50%",
+    "w": 1
+   },
+   {
+    "v": "71.9625px",
+    "w": 1
+   }
+  ],
+  "shadows": [
+   {
+    "v": "rgb(236, 228, 218) 0px -1px 0px 0px",
+    "w": 8
+   },
+   {
+    "v": "rgb(255, 255, 255) 0px -1px 0px 0px",
+    "w": 3
+   },
+   {
+    "v": "rgb(199, 215, 233) 0px -1px 0px 0px",
+    "w": 2
+   },
+   {
+    "v": "rgb(0, 0, 0) 0px -1px 0px 0px",
+    "w": 1
+   },
+   {
+    "v": "rgb(219, 92, 89) 0px -1px 0px 0px",
+    "w": 1
+   }
+  ],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.34 0.33s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "p": {
+    "family": "Juana-Regular, sans-serif",
+    "size": "12px",
+    "weight": "90",
+    "lineHeight": "18px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#191919",
+    "sample": "Usamos cookies para ayudarle a navegar de manera eficiente y realizar ciertas fu"
+   },
+   "a": {
+    "family": "Izmir-Regular, sans-serif",
+    "size": "12.75px",
+    "weight": "400",
+    "lineHeight": "17.25px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#000000",
+    "sample": "Conócenos"
+   },
+   "button": {
+    "family": "Juana-Regular, sans-serif",
+    "size": "12px",
+    "weight": "100",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#191919",
+    "sample": "Mostrar más"
+   },
+   "li": {
+    "family": "Izmir-Regular, sans-serif",
+    "size": "12.75px",
+    "weight": "400",
+    "lineHeight": "17.25px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#000000",
+    "sample": "ConócenosConócenos"
+   },
+   "body": {
+    "family": "Juana-Regular, sans-serif",
+    "size": "15px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Valoramos tu privacidad Usamos cookies para mejorar su experiencia de navegación"
+   }
+  },
+  "cssVars": {
+   "--wp-block-synced-color": "#7a00df",
+   "--wp-block-synced-color--rgb": "122,0,223",
+   "--wp-bound-block-color": "var(--wp-block-synced-color)",
+   "--wp-editor-canvas-background": "#ddd",
+   "--wp-admin-theme-color": "#007cba",
+   "--wp-admin-theme-color--rgb": "0,124,186",
+   "--wp-admin-theme-color-darker-10": "#006ba1",
+   "--wp-admin-theme-color-darker-10--rgb": "0,107,160.5",
+   "--wp-admin-theme-color-darker-20": "#005a87",
+   "--wp-admin-theme-color-darker-20--rgb": "0,90,135",
+   "--wp-admin-border-width-focus": "1.5px",
+   "--wp--preset--font-size--normal": "16px",
+   "--wp--preset--font-size--huge": "42px",
+   "--wp-admin--admin-bar--position-offset": "0px",
+   "--wp--preset--aspect-ratio--square": "1",
+   "--wp--preset--aspect-ratio--4-3": "4/3",
+   "--wp--preset--aspect-ratio--3-4": "3/4",
+   "--wp--preset--aspect-ratio--3-2": "3/2",
+   "--wp--preset--aspect-ratio--2-3": "2/3",
+   "--wp--preset--aspect-ratio--16-9": "16/9",
+   "--wp--preset--aspect-ratio--9-16": "9/16",
+   "--wp--preset--color--black": "#000000",
+   "--wp--preset--color--cyan-bluish-gray": "#abb8c3",
+   "--wp--preset--color--white": "#ffffff",
+   "--wp--preset--color--pale-pink": "#f78da7",
+   "--wp--preset--color--vivid-red": "#cf2e2e",
+   "--wp--preset--color--luminous-vivid-orange": "#ff6900",
+   "--wp--preset--color--luminous-vivid-amber": "#fcb900",
+   "--wp--preset--color--light-green-cyan": "#7bdcb5",
+   "--wp--preset--color--vivid-green-cyan": "#00d084",
+   "--wp--preset--color--pale-cyan-blue": "#8ed1fc",
+   "--wp--preset--color--vivid-cyan-blue": "#0693e3",
+   "--wp--preset--color--vivid-purple": "#9b51e0",
+   "--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple": "linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%)",
+   "--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan": "linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%)",
+   "--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange": "linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%)",
+   "--wp--preset--gradient--luminous-vivid-orange-to-vivid-red": "linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%)",
+   "--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray": "linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%)",
+   "--wp--preset--gradient--cool-to-warm-spectrum": "linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 1",
+   "--wp--preset--gradient--blush-light-purple": "linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%)",
+   "--wp--preset--gradient--blush-bordeaux": "linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%)",
+   "--wp--preset--gradient--luminous-dusk": "linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%)",
+   "--wp--preset--gradient--pale-ocean": "linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%)",
+   "--wp--preset--gradient--electric-grass": "linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%)",
+   "--wp--preset--gradient--midnight": "linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%)",
+   "--wp--preset--font-size--small": "13px",
+   "--wp--preset--font-size--medium": "20px",
+   "--wp--preset--font-size--large": "36px",
+   "--wp--preset--font-size--x-large": "42px",
+   "--wp--preset--spacing--20": "0.44rem",
+   "--wp--preset--spacing--30": "0.67rem",
+   "--wp--preset--spacing--40": "1rem",
+   "--wp--preset--spacing--50": "1.5rem",
+   "--wp--preset--spacing--60": "2.25rem",
+   "--wp--preset--spacing--70": "3.38rem",
+   "--wp--preset--spacing--80": "5.06rem",
+   "--wp--preset--shadow--natural": "6px 6px 9px rgba(0, 0, 0, 0.2)",
+   "--wp--preset--shadow--deep": "12px 12px 50px rgba(0, 0, 0, 0.4)",
+   "--wp--preset--shadow--sharp": "6px 6px 0px rgba(0, 0, 0, 0.2)",
+   "--wp--preset--shadow--outlined": "6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0)",
+   "--wp--preset--shadow--crisp": "6px 6px 0px rgb(0, 0, 0)",
+   "--fsize": "5.3333333333vw",
+   "--f-regular": "\"Juana-Regular\", sans-serif",
+   "--f-medium": "\"Juana-Medium\", sans-serif",
+   "--f-light": "\"Juana-Light\", sans-serif",
+   "--f-edit": "\"Editorialnew-Ultralight\", sans-serif",
+   "--f-edit-regular": "\"Editorialnew-Regular\", sans-serif",
+   "--f-edit-italic": "\"Editorialnew-UltralightItalic\", sans-serif",
+   "--f-izmir": "\"Izmir-Regular\", sans-serif",
+   "--supertitulo-xl": "3rem",
+   "--supertitulo-l": "3rem",
+   "--supertitulo": "2.2rem",
+   "--titulo-xxl": "1.75rem",
+   "--titulo-xl": "1.75rem",
+   "--titulo-l": "1.4rem",
+   "--titulo": "1rem",
+   "--parrafo-xl": "0.85rem",
+   "--parrafo-l": "0.8rem",
+   "--parrafo": "0.75rem",
+   "--subtitulo": "0.65rem",
+   "--supertitulo-xl-lh": "2.7rem",
+   "--supertitulo-l-lh": "2.7rem",
+   "--supertitulo-lh": "2.2rem",
+   "--titulo-xxl-lh": "1.75rem",
+   "--titulo-xl-lh": "2rem",
+   "--titulo-l-lh": "1.7rem",
+   "--titulo-lh": "1.3rem",
+   "--parrafo-xl-lh": "1.2rem",
+   "--parrafo-l-lh": "1.1rem",
+   "--parrafo-lh": "0.95rem",
+   "--subtitulo-lh": "0.85rem",
+   "--grid-gap": "0.75rem",
+   "--wrapper-padd": "0.75rem",
+   "--padding": "5rem",
+   "--padding-md": "4rem",
+   "--padding-sm": "2.5rem",
+   "--padding-xs": "1rem",
+   "--border-radius": "1rem",
+   "--black": "#000000",
+   "--beige": "#ECE4DA",
+   "--red": "#DB5C59",
+   "--blue": "#C7D7E9",
+   "--grey": "#707070",
+   "--green": "#ADAA8A"
+  },
+  "fontFaces": [
+   {
+    "family": "Juana-Medium",
+    "weight": "100",
+    "style": "normal",
+    "src": "url(\"fonts/juana-medium.woff2\") format(\"woff2\"), url(\"fonts/juana-medium.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Juana-Regular",
+    "weight": "100",
+    "style": "normal",
+    "src": "url(\"fonts/juana-regular.woff2\") format(\"woff2\"), url(\"fonts/juana-regular.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Juana-Light",
+    "weight": "100",
+    "style": "normal",
+    "src": "url(\"fonts/juana-light.woff2\") format(\"woff2\"), url(\"fonts/juana-light.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Editorialnew-Ultralight",
+    "weight": "100",
+    "style": "normal",
+    "src": "url(\"fonts/editorialnew-ultralight.woff2\") format(\"woff2\"), url(\"fonts/editorialnew-ultralight.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Editorialnew-Regular",
+    "weight": "100",
+    "style": "normal",
+    "src": "url(\"fonts/editorialnew-regular.woff2\") format(\"woff2\"), url(\"fonts/editorialnew-regular.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Izmir-Regular",
+    "weight": "100",
+    "style": "normal",
+    "src": "url(\"fonts/izmir-regular.woff2\") format(\"woff2\"), url(\"fonts/izmir-regular.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Editorialnew-UltralightItalic",
+    "weight": "100",
+    "style": "normal",
+    "src": "url(\"fonts/editorialnew-ultralightitalic.woff2\") format(\"woff2\"), url(\"fonts/editorialnew-ultralightitalic.woff\") format(\"woff\")"
+   }
+  ],
+  "keyframes": [
+   "spin",
+   "blink"
+  ],
+  "breakpoints": [
+   {
+    "v": "950px",
+    "w": 160
+   },
+   {
+    "v": "1024px",
+    "w": 66
+   },
+   {
+    "v": "468px",
+    "w": 14
+   },
+   {
+    "v": "576px",
+    "w": 11
+   },
+   {
+    "v": "768px",
+    "w": 4
+   },
+   {
+    "v": "352px",
+    "w": 4
+   },
+   {
+    "v": "375px",
+    "w": 3
+   },
+   {
+    "v": "440px",
+    "w": 3
+   },
+   {
+    "v": "425px",
+    "w": 3
+   },
+   {
+    "v": "1366px",
+    "w": 2
+   },
+   {
+    "v": "600px",
+    "w": 1
+   },
+   {
+    "v": "6rem",
+    "w": 1
+   }
+  ],
+  "rulesCount": 1395,
+  "crossOriginSheets": 1
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "mod-scroll",
+    "h": 900,
+    "top": 0,
+    "title": "",
+    "media": 26
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "mod-title wrapper mod-title--chapter  bg-beige c-black pt-md pb-sm anim-line",
+    "h": 641,
+    "top": 900,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "mod-media mod-media--double bg-beige c-black none pb-xs  wrapper",
+    "h": 834,
+    "top": 1541,
+    "title": "",
+    "media": 2
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "mod-title wrapper mod-title--lines  bg-beige c-black none pb-md no-anim",
+    "h": 428,
+    "top": 2375,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "mod-content wrapper mod-content--cols bg-beige c-black none pb-md no-anim",
+    "h": 397,
+    "top": 2802,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "mod-content wrapper mod-content--center bg-beige c-black none pb-md no-anim",
+    "h": 218,
+    "top": 3199,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "mod-footer wrapper bg-beige c-black pt-xs pb-xs",
+    "h": 1392,
+    "top": 3417,
+    "title": "",
+    "media": 1
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "Menú",
+    "href": ""
+   },
+   {
+    "t": "",
+    "href": ""
+   },
+   {
+    "t": "ConócenosConócenos",
+    "href": "https://normalisboring.es/conocenos/"
+   },
+   {
+    "t": "ProyectosProyectos",
+    "href": "https://normalisboring.es/proyectos/"
+   },
+   {
+    "t": "ContactoContacto",
+    "href": "http://contacto/"
+   },
+   {
+    "t": "DisponibilidadDisponibilidad",
+    "href": "http://disponibilidad/"
+   },
+   {
+    "t": "",
+    "href": "https://normalisboring.es/lasolana"
+   },
+   {
+    "t": "Ver todos",
+    "href": "https://normalisboring.es/proyectos/"
+   },
+   {
+    "t": "(1)La solana Oleiros (1) La solana Oleir",
+    "href": "https://normalisboring.es/lasolana/"
+   },
+   {
+    "t": "(2)Plaza España 9 A Coruña (2) Plaza Esp",
+    "href": "https://normalisboring.es/plaza-espana/"
+   },
+   {
+    "t": "(3)Pexegueiro Oleiros (3) Pexegueiro Ole",
+    "href": "https://normalisboring.es/rua-pexegueiro/"
+   },
+   {
+    "t": "(4)Juno (Icaria IV) Proximamente (4) Jun",
+    "href": "https://normalisboring.es/lasolana/"
+   },
+   {
+    "t": "(5)Pol 43 Montrove Proximamente (5) Pol ",
+    "href": "https://normalisboring.es/lasolana/"
+   },
+   {
+    "t": "contacto@normalisboring.escontacto@norma",
+    "href": "tel:contacto@normalisboring.es"
+   },
+   {
+    "t": "(Contacta)",
+    "href": "https://normalisboring.es/#"
+   }
+  ],
+  "ctas": [
+   "Rechazar todo",
+   "Guardar mis preferencias",
+   "Aceptar todo",
+   "El proyecto",
+   "El proyecto",
+   "El proyecto",
+   "Próximamente",
+   "Próximamente",
+   "Ver todas",
+   "Solicitar información"
+  ],
+  "pageHeight": 15159,
+  "counts": {
+   "canvas": 0,
+   "videos": 0,
+   "imgs": 32,
+   "svgs": 6,
+   "iframes": 0,
+   "domNodes": 1632
+  }
+ },
+ "tech": {
+  "gsap": true,
+  "gsapVersion": "3.12.7",
+  "scrollTrigger": true,
+  "splitText": true,
+  "lenis": true,
+  "locomotive": false,
+  "three": false,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": true,
+  "highway": false,
+  "taxi": false,
+  "swiper": true,
+  "webflow": false,
+  "framer": false,
+  "wordpress": true,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": false
+ },
+ "scripts": [
+  "https://www.youtube.com/s/player/d8a33f35/www-widgetapi.vflset/www-widgetapi.js",
+  "https://normalisboring.es/wp-content/plugins/cookie-law-info/lite/frontend/js/script.min.js?ver=3.3.1",
+  "https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js?ver=1.0",
+  "https://www.youtube.com/player_api?ver=1.0",
+  "https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js?ver=1.0",
+  "https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js?ver=1.0",
+  "https://unpkg.com/swup@4?ver=1.0",
+  "https://normalisboring.es/wp-content/themes/normalisboring25/js/gsap/ScrollSmoother.min.js?ver=1.0",
+  "https://normalisboring.es/wp-content/themes/normalisboring25/js/gsap/SplitText.min.js?ver=1.0",
+  "https://normalisboring.es/wp-content/themes/normalisboring25/js/gsap/MorphSVGPlugin.min.js?ver=1.0",
+  "https://unpkg.com/lenis@1.3.1/dist/lenis.min.js?ver=1.0",
+  "https://normalisboring.es/wp-content/themes/normalisboring25/js/preloader.js?ver=926",
+  "https://normalisboring.es/wp-includes/js/wp-emoji-release.min.js?ver=7.1.4",
+  "https://normalisboring.es/wp-includes/js/dist/hooks.min.js?ver=f0f188028580e8dc1255",
+  "https://normalisboring.es/wp-includes/js/dist/i18n.min.js?ver=1dfe7db3940c23ea9216",
+  "https://normalisboring.es/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1",
+  "https://normalisboring.es/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1",
+  "https://normalisboring.es/wp-content/themes/normalisboring25/js/root.js?ver=694",
+  "https://normalisboring.es/wp-content/themes/normalisboring25/js/rollovers.js?ver=227",
+  "https://normalisboring.es/wp-content/themes/normalisboring25/js/animations.js?ver=65",
+  "https://normalisboring.es/wp-content/themes/normalisboring25/js/clicks.js?ver=455",
+  "https://normalisboring.es/wp-content/themes/normalisboring25/js/scroll.js?ver=50",
+  "https://normalisboring.es/wp-content/themes/normalisboring25/js/main.js?ver=594",
+  "https://normalisboring.es/wp-content/plugins/rocket-lazy-load/assets/js/16.1/lazyload.min.js"
+ ],
+ "internal": [
+  "https://normalisboring.es/conocenos/",
+  "https://normalisboring.es/proyectos/",
+  "https://normalisboring.es/lasolana",
+  "https://normalisboring.es/lasolana/",
+  "https://normalisboring.es/plaza-espana/",
+  "https://normalisboring.es/rua-pexegueiro/",
+  "https://normalisboring.es/plaza-espana",
+  "https://normalisboring.es/rua-pexegueiro",
+  "https://normalisboring.es/contacto",
+  "https://normalisboring.es/contacto@normalisboring.es",
+  "https://normalisboring.es/politica-de-privacidad/",
+  "https://normalisboring.es/politica-de-cookies/",
+  "https://normalisboring.es/aviso-legal/"
+ ],
+ "perf": {
+  "ttfb": 821,
+  "dcl": 1202,
+  "load": 1471,
+  "lcp": 5896,
+  "lcpEl": "P",
+  "cls": 0.088
+ },
+ "libs": {
+  "detected": [
+   "GSAP",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Swiper",
+   "Lenis",
+   "Virtual scroll",
+   "DrawSVG/MorphSVG",
+   "Swup"
+  ],
+  "where": {
+   "GSAP": [
+    "001-ScrollSmoother.min.js",
+    "002-SplitText.min.js",
+    "007-ScrollTrigger.min.js",
+    "008-gsap.min.js",
+    "009-preloader.js",
+    "010-MorphSVGPlugin.min.js",
+    "013-root.js",
+    "016-rollovers.js",
+    "017-animations.js",
+    "020-clicks.js",
+    "021-main.js",
+    "022-scroll.js"
+   ],
+   "ScrollTrigger": [
+    "001-ScrollSmoother.min.js",
+    "007-ScrollTrigger.min.js",
+    "008-gsap.min.js",
+    "013-root.js",
+    "017-animations.js",
+    "021-main.js",
+    "022-scroll.js"
+   ],
+   "SplitText/SplitType": [
+    "002-SplitText.min.js",
+    "009-preloader.js",
+    "016-rollovers.js",
+    "017-animations.js",
+    "020-clicks.js",
+    "022-scroll.js"
+   ],
+   "Swiper": [
+    "004-swiper-bundle.min.js",
+    "021-main.js"
+   ],
+   "Lenis": [
+    "005-lenis.min.js",
+    "013-root.js",
+    "020-clicks.js",
+    "021-main.js"
+   ],
+   "Virtual scroll": [
+    "005-lenis.min.js"
+   ],
+   "DrawSVG/MorphSVG": [
+    "010-MorphSVGPlugin.min.js",
+    "013-root.js"
+   ],
+   "Swup": [
+    "011-Swup.umd.js",
+    "013-root.js",
+    "020-clicks.js",
+    "021-main.js",
+    "022-scroll.js"
+   ]
+  },
+  "gsapVersion": "3.11.0",
+  "threeRevision": null,
+  "shaders": 0,
+  "scripts": 24
+ },
+ "network": {
+  "requests": 68,
+  "totalKb": 16841,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 27
+   },
+   "Stylesheet": {
+    "n": 3,
+    "kb": 20
+   },
+   "Font": {
+    "n": 7,
+    "kb": 195
+   },
+   "Image": {
+    "n": 31,
+    "kb": 16415
+   },
+   "Script": {
+    "n": 24,
+    "kb": 181
+   },
+   "Other": {
+    "n": 1,
+    "kb": 3
+   },
+   "Fetch": {
+    "n": 1,
+    "kb": 1
+   }
+  },
+  "thirdPartyHosts": [
+   "cdnjs.cloudflare.com",
+   "unpkg.com",
+   "www.youtube.com",
+   "cdn.jsdelivr.net"
+  ],
+  "fontFiles": [
+   "https://normalisboring.es/wp-content/themes/normalisboring25/css/fonts/editorialnew-regular.woff2",
+   "https://normalisboring.es/wp-content/themes/normalisboring25/css/fonts/editorialnew-regular.woff",
+   "https://normalisboring.es/wp-content/themes/normalisboring25/css/fonts/izmir-regular.woff2",
+   "https://normalisboring.es/wp-content/themes/normalisboring25/css/fonts/editorialnew-ultralightitalic.woff2",
+   "https://normalisboring.es/wp-content/themes/normalisboring25/css/fonts/juana-medium.woff2",
+   "https://normalisboring.es/wp-content/themes/normalisboring25/css/fonts/editorialnew-ultralight.woff2",
+   "https://normalisboring.es/wp-content/themes/normalisboring25/css/fonts/juana-regular.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://normalisboring.es/wp-content/uploads/2025/08/HOME_6.1-previa.jpg",
+    "kb": 2538,
+    "type": "Image"
+   },
+   {
+    "url": "https://normalisboring.es/wp-content/uploads/2026/04/la-solana.jpg",
+    "kb": 1009,
+    "type": "Image"
+   },
+   {
+    "url": "https://normalisboring.es/wp-content/uploads/2026/04/HOME_8_POghjL.jpg",
+    "kb": 994,
+    "type": "Image"
+   },
+   {
+    "url": "https://normalisboring.es/wp-content/uploads/2026/04/HOME_8_POL-1.jpg",
+    "kb": 959,
+    "type": "Image"
+   },
+   {
+    "url": "https://normalisboring.es/wp-content/uploads/2026/04/HOME_8_JUN-1.jpg",
+    "kb": 956,
+    "type": "Image"
+   },
+   {
+    "url": "https://normalisboring.es/wp-content/uploads/2026/04/HOME_8_POLdfg.jpg",
+    "kb": 798,
+    "type": "Image"
+   },
+   {
+    "url": "https://normalisboring.es/wp-content/uploads/2025/08/HOME_4.1_previa.jpg",
+    "kb": 715,
+    "type": "Image"
+   },
+   {
+    "url": "https://normalisboring.es/wp-content/uploads/2026/04/HOME_6.1-previa-1rgf.jpg",
+    "kb": 690,
+    "type": "Image"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": null,
+  "body": "16.6667px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 93
+}

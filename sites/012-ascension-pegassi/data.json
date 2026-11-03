@@ -1,0 +1,574 @@
+{
+ "id": 12,
+ "name": "Ascension - Pegassi",
+ "sourceUrl": "https://ascension.pegassi.be/",
+ "capturedAt": "2026-11-02T23:27:40.044Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg"
+  ],
+  "fullPage": 5398,
+  "subpages": [
+   {
+    "url": "https://ascension.pegassi.be/about",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://ascension.pegassi.be/privacy",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://ascension.pegassi.be/terms",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://ascension.pegassi.be/",
+ "title": "Ascension — Pegassi",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "The debut EP from Belgian electronic artist Pegassi. Four tracks — Ascension, Circles, Forest Walk, Twinflame. Out 4 September 2026.",
+  "canonical": "https://ascension.pegassi.be/",
+  "robots": "index, follow",
+  "ogTitle": "Ascension — Pegassi",
+  "ogImage": "https://ascension.pegassi.be/OG-ascension.jpg",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "MusicAlbum"
+  ],
+  "h1Count": 1,
+  "headings": [
+   "H1 Pegassi — Ascension EP"
+  ],
+  "imgs": 6,
+  "imgNoAlt": 3,
+  "favicon": "https://ascension.pegassi.be/favicon.ico",
+  "themeColor": "#000000"
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#000000",
+    "w": 1282500
+   }
+  ],
+  "text": [
+   {
+    "v": "#7d7d7d",
+    "w": 2723
+   }
+  ],
+  "border": [
+   {
+    "v": "#272727",
+    "w": 1
+   }
+  ],
+  "fonts": [
+   {
+    "v": "sans",
+    "w": 2723
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "16.15px",
+    "w": 70
+   },
+   {
+    "v": "47.5px",
+    "w": 37
+   },
+   {
+    "v": "12.35px",
+    "w": 16
+   },
+   {
+    "v": "28.5px",
+    "w": 6
+   }
+  ],
+  "radius": [
+   {
+    "v": "4.75px",
+    "w": 6
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "ease-out 0.5s",
+    "w": 14
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "sans, sans-serif",
+    "size": "16.15px",
+    "weight": "700",
+    "lineHeight": "25.65px",
+    "letterSpacing": "-0.1615px",
+    "transform": "none",
+    "color": "#7d7d7d",
+    "sample": "Pegassi — Ascension EP"
+   },
+   "p": {
+    "family": "sans, sans-serif",
+    "size": "16.15px",
+    "weight": "700",
+    "lineHeight": "25.65px",
+    "letterSpacing": "-0.1615px",
+    "transform": "none",
+    "color": "#7d7d7d",
+    "sample": "EP"
+   },
+   "a": {
+    "family": "sans, sans-serif",
+    "size": "16.15px",
+    "weight": "700",
+    "lineHeight": "25.65px",
+    "letterSpacing": "-0.1615px",
+    "transform": "none",
+    "color": "#7d7d7d",
+    "sample": "Spotify"
+   },
+   "button": {
+    "family": "sans, sans-serif",
+    "size": "16.15px",
+    "weight": "600",
+    "lineHeight": "20.9px",
+    "letterSpacing": "-0.1615px",
+    "transform": "none",
+    "color": "#7d7d7d",
+    "sample": "Site Credits"
+   },
+   "body": {
+    "family": "sans, sans-serif",
+    "size": "16.15px",
+    "weight": "700",
+    "lineHeight": "25.65px",
+    "letterSpacing": "-0.1615px",
+    "transform": "none",
+    "color": "#7d7d7d",
+    "sample": "Pegassi — Ascension EPEP01Spotify● TRACKLIST This EP is all about showing my ver"
+   }
+  },
+  "cssVars": {
+   "--font-sans": "\"sans\", sans-serif",
+   "--font-mono": "\"mono\", monospace",
+   "--color-black": "#000",
+   "--color-white": "#fff",
+   "--spacing": ".1rem",
+   "--font-weight-bold": "700",
+   "--ease-out": "cubic-bezier(0, 0, .2, 1)",
+   "--blur-sm": "8px",
+   "--default-transition-duration": ".15s",
+   "--default-transition-timing-function": "cubic-bezier(.4, 0, .2, 1)",
+   "--default-font-family": "var(--font-sans)",
+   "--default-mono-font-family": "var(--font-mono)",
+   "--breakpoint-s": "650px",
+   "--color-ink": "#7d7d7d",
+   "--color-ink-dim": "#232323",
+   "--color-surface": "#121314",
+   "--color-surface-2": "#1d1f21",
+   "--color-line": "#313233",
+   "--color-rule": "#272727",
+   "--color-chalk": "#d9d9d9",
+   "--color-hairline": "#ffffff1a",
+   "--color-wash": "#ffffff08",
+   "--color-chip": "#ffffff80",
+   "--color-scrim": "#000000f2",
+   "--color-green": "#96ff1e",
+   "--color-blue": "#3b9aff",
+   "--color-green-glow": "#96ff1ea6",
+   "--ease-out-quad": "cubic-bezier(.25, .46, .45, .94)",
+   "--ease-out-quart": "cubic-bezier(.165, .84, .44, 1)",
+   "--ease-reveal": "linear(0, .0031, .0148, .0428, .109, .2893, .5995, .7782, .8706, .9091, .9306, .947, .9592, .9688, .9761, .982, .9867, .9903, .9932, .9955, ",
+   "--ease-flip": "linear(0, .0101, .0374, .0781, .1289, .1869, .2496, .3149, .381, .4465, .5102, .5713, .629, .683, .7328, .7782, .8193, .8561, .8887, .9172, ",
+   "--ease-snappy": "linear(0, .0191, .062, .1566, .3378, .5335, .6892, .8, .8686, .912, .9469, .964, .9741, .981, .9859, .9896, .9923, .9946, .9961, .9976, .998",
+   "--size": "1500",
+   "--bar-gap": ".6rem",
+   "--menu-button": "7.5rem",
+   "--menu-slot": "calc(var(--menu-button) + var(--bar-gap))"
+  },
+  "fontFaces": [
+   {
+    "family": "sans",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"./PPNeueMontreal-Book.Oo-9ba79.woff2\") format(\"woff2\"), url(\"./PPNeueMontreal-Book.C75M5Gm-.woff\") format(\"woff\")"
+   },
+   {
+    "family": "sans",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"./PPNeueMontreal-Medium.BCmCQQaX.woff2\") format(\"woff2\"), url(\"./PPNeueMontreal-Medium.CQ8xbuaV.woff\") format(\"woff\")"
+   },
+   {
+    "family": "sans",
+    "weight": "600",
+    "style": "normal",
+    "src": "url(\"./PPNeueMontreal-Semibold.AAHsuF-J.woff2\") format(\"woff2\"), url(\"./PPNeueMontreal-Semibold.CdJ_CYu6.woff\") format(\"woff\")"
+   },
+   {
+    "family": "sans",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"./PPNeueMontreal-Bold.l3ulKZJq.woff2\") format(\"woff2\"), url(\"./PPNeueMontreal-Bold.DV22cyV6.woff\") format(\"woff\")"
+   },
+   {
+    "family": "mono",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"./PPNeueMontrealMono-Medium.DUem7D_U.woff2\") format(\"woff2\"), url(\"./PPNeueMontrealMono-Medium.BNn5A5Jy.woff\") format(\"woff\")"
+   }
+  ],
+  "keyframes": [
+   "platter-2506e3db"
+  ],
+  "breakpoints": [
+   {
+    "v": "650px",
+    "w": 35
+   },
+   {
+    "v": "1100px",
+    "w": 1
+   },
+   {
+    "v": "1300px",
+    "w": 1
+   },
+   {
+    "v": "1400px",
+    "w": 1
+   },
+   {
+    "v": "48rem",
+    "w": 1
+   },
+   {
+    "v": "64rem",
+    "w": 1
+   },
+   {
+    "v": "80rem",
+    "w": 1
+   },
+   {
+    "v": "96rem",
+    "w": 1
+   }
+  ],
+  "rulesCount": 860,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "hero relative min-h-svh overflow-x-clip s:overflow-visible",
+    "h": 1371,
+    "title": "Pegassi — Ascension EP",
+    "media": 3
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "relative overflow-hidden",
+    "h": 2277,
+    "title": "",
+    "media": 2
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "border-t border-rule",
+    "h": 352,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "site-max site-grid mt-125 s:mt-260",
+    "h": 716,
+    "title": "",
+    "media": 2
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "",
+    "href": "https://ascension.pegassi.be/"
+   },
+   {
+    "t": "Listen",
+    "href": "https://ascension.pegassi.be/listen"
+   },
+   {
+    "t": "Sequencer",
+    "href": "https://ascension.pegassi.be/sequencer"
+   },
+   {
+    "t": "About",
+    "href": "https://ascension.pegassi.be/about"
+   },
+   {
+    "t": "Buy",
+    "href": "https://ascension.pegassi.be/buy"
+   }
+  ],
+  "ctas": [],
+  "pageHeight": 5398,
+  "counts": {
+   "canvas": 1,
+   "videos": 3,
+   "imgs": 6,
+   "svgs": 1,
+   "iframes": 0,
+   "domNodes": 439
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "185",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": true,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": true,
+  "cms": [],
+  "analytics": [],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://ascension.pegassi.be/_nuxt/B3cVYYkG.js"
+ ],
+ "internal": [
+  "https://ascension.pegassi.be/about",
+  "https://ascension.pegassi.be/privacy",
+  "https://ascension.pegassi.be/terms",
+  "https://ascension.pegassi.be/listen",
+  "https://ascension.pegassi.be/sequencer",
+  "https://ascension.pegassi.be/buy"
+ ],
+ "perf": {
+  "ttfb": 216,
+  "dcl": 603,
+  "load": 669,
+  "lcp": 620,
+  "lcpEl": "IMG.absolute",
+  "cls": 0
+ },
+ "libs": {
+  "detected": [
+   "Vue",
+   "Nuxt",
+   "GSAP",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Three.js",
+   "Lenis",
+   "Virtual scroll"
+  ],
+  "where": {
+   "Vue": [
+    "007-H2AGsyCA.js",
+    "021-BcL1QBv6.js"
+   ],
+   "Nuxt": [
+    "016-DZDOU0Ql.js",
+    "024-B3cVYYkG.js"
+   ],
+   "GSAP": [
+    "020-Co8Gqqe3.js",
+    "024-B3cVYYkG.js"
+   ],
+   "ScrollTrigger": [
+    "020-Co8Gqqe3.js",
+    "024-B3cVYYkG.js"
+   ],
+   "SplitText/SplitType": [
+    "020-Co8Gqqe3.js",
+    "024-B3cVYYkG.js"
+   ],
+   "Three.js": [
+    "022-BBS_-sb2.js",
+    "023-CZEyUk1w.js"
+   ],
+   "Lenis": [
+    "024-B3cVYYkG.js",
+    "styles.css"
+   ],
+   "Virtual scroll": [
+    "024-B3cVYYkG.js"
+   ]
+  },
+  "gsapVersion": "3.11.0",
+  "threeRevision": null,
+  "shaders": 18,
+  "scripts": 38
+ },
+ "network": {
+  "requests": 88,
+  "totalKb": 2739,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 8
+   },
+   "Image": {
+    "n": 16,
+    "kb": 1400
+   },
+   "Stylesheet": {
+    "n": 10,
+    "kb": 18
+   },
+   "Script": {
+    "n": 40,
+    "kb": 396
+   },
+   "Other": {
+    "n": 4,
+    "kb": 22
+   },
+   "Font": {
+    "n": 2,
+    "kb": 120
+   },
+   "Fetch": {
+    "n": 7,
+    "kb": 775
+   },
+   "Media": {
+    "n": 8,
+    "kb": 0
+   }
+  },
+  "thirdPartyHosts": [],
+  "fontFiles": [
+   "https://ascension.pegassi.be/_nuxt/PPNeueMontreal-Bold.l3ulKZJq.woff2",
+   "https://ascension.pegassi.be/_nuxt/PPNeueMontreal-Semibold.AAHsuF-J.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://ascension.pegassi.be/wordmark/data.png",
+    "kb": 647,
+    "type": "Image"
+   },
+   {
+    "url": "https://ascension.pegassi.be/glyphs/sans-700.bin",
+    "kb": 273,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://ascension.pegassi.be/glyphs/sans-600.bin",
+    "kb": 273,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://ascension.pegassi.be/cover.webp",
+    "kb": 159,
+    "type": "Image"
+   },
+   {
+    "url": "https://ascension.pegassi.be/wordmark/logo-final.glb",
+    "kb": 149,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://ascension.pegassi.be/_nuxt/B3cVYYkG.js",
+    "kb": 97,
+    "type": "Script"
+   },
+   {
+    "url": "https://ascension.pegassi.be/_nuxt/CZEyUk1w.js",
+    "kb": 84,
+    "type": "Script"
+   },
+   {
+    "url": "https://ascension.pegassi.be/videos/home-twinflame1.webp",
+    "kb": 84,
+    "type": "Image"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "16.4925px",
+   "lineHeight": "26.194px"
+  },
+  "body": "16.4925px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 157
+}

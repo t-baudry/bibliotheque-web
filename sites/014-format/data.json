@@ -1,0 +1,671 @@
+{
+ "id": 14,
+ "name": "FORMAT",
+ "sourceUrl": "https://format.obys.agency/",
+ "capturedAt": "2026-11-02T23:28:31.347Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg",
+   "desktop-13.jpg",
+   "desktop-14.jpg"
+  ],
+  "fullPage": 15451,
+  "subpages": [],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://format.obys.agency/",
+ "title": "FORMAT",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "FORMAT is an interactive Obys × DES Special Project exploring format as a design tool. Discover how different shapes, proportions, and boundaries can change the way we think, compose, and design.",
+  "canonical": null,
+  "robots": null,
+  "ogTitle": "FORMAT",
+  "ogImage": "https://format.obys.agency/og.png",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [],
+  "h1Count": 0,
+  "headings": [
+   "H2 Vertical",
+   "H2 Horizontal",
+   "H2 Horizontal",
+   "H2 Vertical",
+   "H2 Horizontal",
+   "H2 Horizontal (Rounded)",
+   "H2 Circle",
+   "H2 Circle",
+   "H2 Triangle",
+   "H2 Horizontal (Special)",
+   "H2 Circle",
+   "H2 Triangle",
+   "H2 The format is Part of the Bigger idea (0)",
+   "H3 Split format Into smaller (1)",
+   "H3 Make the Edges work (2)",
+   "H2 Circle"
+  ],
+  "imgs": 87,
+  "imgNoAlt": 87,
+  "favicon": "https://format.obys.agency/favicon.svg",
+  "themeColor": "#222222"
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#ffffff",
+    "w": 2373780
+   },
+   {
+    "v": "#222222",
+    "w": 2304225
+   },
+   {
+    "v": "#d9d9d9",
+    "w": 1439456
+   },
+   {
+    "v": "#000000",
+    "w": 540810
+   },
+   {
+    "v": "#d1d1d1",
+    "w": 99700
+   },
+   {
+    "v": "#e9e9e9",
+    "w": 30678
+   },
+   {
+    "v": "#dedede",
+    "w": 4624
+   }
+  ],
+  "text": [
+   {
+    "v": "#000000",
+    "w": 3609
+   },
+   {
+    "v": "#bfbfbf",
+    "w": 1292
+   },
+   {
+    "v": "#ffffff",
+    "w": 771
+   }
+  ],
+  "border": [
+   {
+    "v": "#ffffff",
+    "w": 4
+   },
+   {
+    "v": "#222222",
+    "w": 2
+   },
+   {
+    "v": "#e9e9e9",
+    "w": 1
+   }
+  ],
+  "fonts": [
+   {
+    "v": "Obys Sans",
+    "w": 5934
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "8px",
+    "w": 228
+   },
+   {
+    "v": "42px",
+    "w": 179
+   },
+   {
+    "v": "12px",
+    "w": 79
+   },
+   {
+    "v": "92px",
+    "w": 33
+   },
+   {
+    "v": "3.50904px",
+    "w": 13
+   },
+   {
+    "v": "5px",
+    "w": 6
+   },
+   {
+    "v": "43.9695px",
+    "w": 4
+   },
+   {
+    "v": "45.316px",
+    "w": 1
+   },
+   {
+    "v": "2.33936px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "50%",
+    "w": 11
+   },
+   {
+    "v": "79px",
+    "w": 1
+   }
+  ],
+  "shadows": [
+   {
+    "v": "rgba(0, 0, 0, 0.25) 0px 0px 4px 0px",
+    "w": 2
+   }
+  ],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.22 0.45s",
+    "w": 46
+   },
+   {
+    "v": "ease 0.35s",
+    "w": 9
+   },
+   {
+    "v": "ease 0.5s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h2": {
+    "family": "\"Obys Sans\", system-ui, sans-serif",
+    "size": "12px",
+    "weight": "400",
+    "lineHeight": "18px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Vertical"
+   },
+   "p": {
+    "family": "\"Obys Sans\", system-ui, sans-serif",
+    "size": "12px",
+    "weight": "400",
+    "lineHeight": "18px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Format — Obys and DES Special Project"
+   },
+   "a": {
+    "family": "\"Obys Sans\", system-ui, sans-serif",
+    "size": "12px",
+    "weight": "400",
+    "lineHeight": "12px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Obys"
+   },
+   "button": {
+    "family": "\"Obys Sans\", system-ui, sans-serif",
+    "size": "12px",
+    "weight": "400",
+    "lineHeight": "18px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Notes Mode"
+   },
+   "body": {
+    "family": "\"Obys Sans\", system-ui, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Format — Obys and DES Special Project This project is a part of Grids Seasonby D"
+   }
+  },
+  "cssVars": {
+   "--s": "calc(100vw / 1440)",
+   "--color-bg": "#222",
+   "--color-logo": "#fff",
+   "--color-plate": "#fff",
+   "--color-plate-ink": "#000",
+   "--color-nav-muted": "#939393",
+   "--color-dial": "#fff",
+   "--color-mark": "#bfbfbf",
+   "--color-mark-active": "#000",
+   "--color-hand": "#000",
+   "--color-dot": "#000",
+   "--color-note": "#e0ddbf",
+   "--color-note-ink": "#000",
+   "--layer-header": "0",
+   "--layer-content": "1",
+   "--layer-burst": "10",
+   "--layer-curtain": "50",
+   "--parallax": "70",
+   "--drift": ".07",
+   "--grid-columns": "8",
+   "--grid-margin": "20",
+   "--grid-gutter": "20",
+   "--content-width": "1400"
+  },
+  "fontFaces": [
+   {
+    "family": "Obys Sans",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/fonts/ObysSans-Regular.woff2\") format(\"woff2\")"
+   }
+  ],
+  "keyframes": [
+   "field-flick"
+  ],
+  "breakpoints": [
+   {
+    "v": "767px",
+    "w": 1
+   },
+   {
+    "v": "620px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 464,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "logo-fixed",
+    "h": 215,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "screen",
+    "h": 810,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "article",
+    "id": null,
+    "cls": "block-one",
+    "h": 426,
+    "title": "Vertical",
+    "media": 4
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "ground",
+    "h": 999,
+    "title": "",
+    "media": 1
+   },
+   {
+    "tag": "article",
+    "id": null,
+    "cls": "wide",
+    "h": 448,
+    "title": "Horizontal",
+    "media": 2
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "clock-section",
+    "h": 513,
+    "title": "",
+    "media": 1
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "fog",
+    "h": 1290,
+    "title": "",
+    "media": 1
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "deck",
+    "h": 426,
+    "title": "Vertical",
+    "media": 7
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "seven__ground",
+    "h": 1701,
+    "title": "",
+    "media": 1
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "seven",
+    "h": 2646,
+    "title": "Horizontal",
+    "media": 28
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "fan",
+    "h": 697,
+    "title": "Circle",
+    "media": 15
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "win",
+    "h": 697,
+    "title": "",
+    "media": 9
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "vee",
+    "h": 841,
+    "title": "Triangle",
+    "media": 5
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "gauge",
+    "h": 2050,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "poster",
+    "h": 1617,
+    "title": "The format is Part of the Bigger idea (0)",
+    "media": 2
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "field",
+    "h": 1247,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "footer",
+    "id": null,
+    "cls": "footer",
+    "h": 273,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "clock-spacer",
+    "h": 2882,
+    "title": "",
+    "media": 0
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "Obys",
+    "href": "https://obys.agency/"
+   },
+   {
+    "t": "DES",
+    "href": "https://des.obys.agency/"
+   },
+   {
+    "t": "Grids Season",
+    "href": "https://des.obys.agency/grids/"
+   },
+   {
+    "t": "Obys",
+    "href": "https://obys.agency/"
+   },
+   {
+    "t": "DES",
+    "href": "https://des.obys.agency/"
+   }
+  ],
+  "ctas": [],
+  "pageHeight": 15451,
+  "counts": {
+   "canvas": 0,
+   "videos": 0,
+   "imgs": 87,
+   "svgs": 7,
+   "iframes": 0,
+   "domNodes": 1044
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": false,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [
+   "googletagmanager",
+   "gtag"
+  ],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": false
+ },
+ "scripts": [
+  "https://www.googletagmanager.com/gtag/js?id=G-R8KYY8LG8Y",
+  "https://format.obys.agency/assets/index-CzAHO6hM.js"
+ ],
+ "internal": [],
+ "perf": {
+  "ttfb": 528,
+  "dcl": 4249,
+  "load": 4435,
+  "lcp": 7388,
+  "lcpEl": "IMG",
+  "cls": 0
+ },
+ "libs": {
+  "detected": [
+   "GSAP",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Lenis",
+   "Matter.js",
+   "Virtual scroll"
+  ],
+  "where": {
+   "GSAP": [
+    "001-index-CzAHO6hM.js"
+   ],
+   "ScrollTrigger": [
+    "001-index-CzAHO6hM.js"
+   ],
+   "SplitText/SplitType": [
+    "001-index-CzAHO6hM.js"
+   ],
+   "Lenis": [
+    "001-index-CzAHO6hM.js"
+   ],
+   "Matter.js": [
+    "001-index-CzAHO6hM.js"
+   ],
+   "Virtual scroll": [
+    "001-index-CzAHO6hM.js"
+   ]
+  },
+  "gsapVersion": "3.11.0",
+  "threeRevision": null,
+  "shaders": 0,
+  "scripts": 1
+ },
+ "network": {
+  "requests": 59,
+  "totalKb": 3037,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 23
+   },
+   "Image": {
+    "n": 51,
+    "kb": 2735
+   },
+   "Stylesheet": {
+    "n": 1,
+    "kb": 9
+   },
+   "Font": {
+    "n": 1,
+    "kb": 6
+   },
+   "Script": {
+    "n": 2,
+    "kb": 262
+   },
+   "Other": {
+    "n": 1,
+    "kb": 1
+   },
+   "Fetch": {
+    "n": 2,
+    "kb": 0
+   }
+  },
+  "thirdPartyHosts": [
+   "www.googletagmanager.com",
+   "region1.google-analytics.com"
+  ],
+  "fontFiles": [
+   "https://format.obys.agency/fonts/ObysSans-Regular.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://format.obys.agency/assets/bg7-DimjdT4q.webp",
+    "kb": 568,
+    "type": "Image"
+   },
+   {
+    "url": "https://format.obys.agency/assets/hrzntl-DfNaFLW7.webp",
+    "kb": 553,
+    "type": "Image"
+   },
+   {
+    "url": "https://format.obys.agency/assets/flower-CVKgWteV.webp",
+    "kb": 474,
+    "type": "Image"
+   },
+   {
+    "url": "https://format.obys.agency/assets/tri-bg-BUX7DWVI.webp",
+    "kb": 273,
+    "type": "Image"
+   },
+   {
+    "url": "https://www.googletagmanager.com/gtag/js?id=G-R8KYY8LG8Y",
+    "kb": 178,
+    "type": "Script"
+   },
+   {
+    "url": "https://format.obys.agency/assets/horizontal-CWAIze4S.webp",
+    "kb": 145,
+    "type": "Image"
+   },
+   {
+    "url": "https://format.obys.agency/assets/rec-left-CR_1c09C.webp",
+    "kb": 115,
+    "type": "Image"
+   },
+   {
+    "url": "https://format.obys.agency/assets/special-DCkX6FsC.webp",
+    "kb": 107,
+    "type": "Image"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": null,
+  "body": "16px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 113
+}

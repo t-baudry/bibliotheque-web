@@ -1,0 +1,875 @@
+{
+ "id": 7,
+ "name": "A24",
+ "sourceUrl": "https://a24.raviklaassens.com/",
+ "capturedAt": "2026-11-02T23:14:38.478Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg"
+  ],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [
+   {
+    "url": "https://a24.raviklaassens.com/television",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://a24.raviklaassens.com/production/backrooms",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   }
+  ],
+  "rea": "ok (15 Ko)",
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://a24.raviklaassens.com/",
+ "title": "A24 — Films",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Explore A24's acclaimed film catalog featuring award-winning independent cinema from visionary directors. Discover upcoming releases and praised movies.",
+  "canonical": "https://a24.raviklaassens.com/",
+  "robots": null,
+  "ogTitle": "A24 — Films",
+  "ogImage": "https://a24.raviklaassens.com/images/a24thumb.png",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "CollectionPage"
+  ],
+  "h1Count": 1,
+  "headings": [
+   "H2 Backrooms",
+   "H2 The Invite",
+   "H2 Tony",
+   "H2 Marty Supreme",
+   "H2 The Smashing Machine",
+   "H2 The Brutalist",
+   "H2 The Zone of Interest",
+   "H2 Everything Everywhere All at Once",
+   "H2 Uncut Gems",
+   "H2 Hereditary",
+   "H2 Lady Bird",
+   "H2 Ex Machina",
+   "H1 Discover the A24 library of Films"
+  ],
+  "imgs": 0,
+  "imgNoAlt": 0,
+  "favicon": "https://a24.raviklaassens.com/images/favicon.png",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#f2f2f2",
+    "w": 1296000
+   },
+   {
+    "v": "#000000",
+    "w": 13
+   }
+  ],
+  "text": [
+   {
+    "v": "#000000",
+    "w": 425
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "Ppneuemontreal",
+    "w": 278
+   },
+   {
+    "v": "Ppeiko",
+    "w": 97
+   },
+   {
+    "v": "Ppmuseum",
+    "w": 50
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "7.5px",
+    "w": 187
+   },
+   {
+    "v": "13.5px",
+    "w": 37
+   },
+   {
+    "v": "21px",
+    "w": 4
+   },
+   {
+    "v": "12px",
+    "w": 2
+   },
+   {
+    "v": "9px",
+    "w": 1
+   },
+   {
+    "v": "120px",
+    "w": 1
+   },
+   {
+    "v": "30px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "3px",
+    "w": 3
+   },
+   {
+    "v": "50%",
+    "w": 1
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.77 0.3s",
+    "w": 32
+   },
+   {
+    "v": "cubic-bezier(0.32 0.3s",
+    "w": 2
+   },
+   {
+    "v": "cubic-bezier(0.32 0.4s",
+    "w": 2
+   },
+   {
+    "v": "cubic-bezier(0.32 0.46s",
+    "w": 1
+   },
+   {
+    "v": "cubic-bezier(0.32 0.2s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "Ppeiko, Arial, sans-serif",
+    "size": "120px",
+    "weight": "400",
+    "lineHeight": "120px",
+    "letterSpacing": "-4.8px",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Discover the A24 library of Films"
+   },
+   "h2": {
+    "family": "Ppneuemontreal, Arial, sans-serif",
+    "size": "13.5px",
+    "weight": "500",
+    "lineHeight": "18.9px",
+    "letterSpacing": "-0.3375px",
+    "transform": "none",
+    "color": "#f2f2f2",
+    "sample": "Backrooms"
+   },
+   "p": {
+    "family": "Ppeiko, Arial, sans-serif",
+    "size": "9px",
+    "weight": "400",
+    "lineHeight": "9px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#d6d3d1",
+    "sample": "00:00 / 00:00"
+   },
+   "a": {
+    "family": "Ppneuemontreal, Arial, sans-serif",
+    "size": "12px",
+    "weight": "500",
+    "lineHeight": "16.8px",
+    "letterSpacing": "-0.3px",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Films"
+   },
+   "button": {
+    "family": "Ppneuemontreal, Arial, sans-serif",
+    "size": "12px",
+    "weight": "500",
+    "lineHeight": "16.8px",
+    "letterSpacing": "-0.3px",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Index12"
+   },
+   "li": {
+    "family": "Ppneuemontreal, Arial, sans-serif",
+    "size": "12px",
+    "weight": "500",
+    "lineHeight": "16.8px",
+    "letterSpacing": "-0.3px",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Films"
+   },
+   "body": {
+    "family": "Ppneuemontreal, Arial, sans-serif",
+    "size": "12px",
+    "weight": "500",
+    "lineHeight": "16.8px",
+    "letterSpacing": "-0.3px",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Projecting Films Television Index12 Backrooms2026 The Invite2026 Tony2026 Marty "
+   }
+  },
+  "cssVars": {
+   "--_theme---background": "var(--_colors---swatch--white)",
+   "--_paragraphs---paragraph-regular--font": "var(--_fonts---fonts--paragraph)",
+   "--_theme---body-text": "var(--_colors---swatch--black)",
+   "--_paragraphs---paragraph-regular--line-height": "1.4em",
+   "--_paragraphs---paragraph-regular--font-weight": "var(--_fonts---font-weight--medium)",
+   "--_paragraphs---paragraph-regular--letter-spacing": "-.025em",
+   "--_fonts---fonts--heading": "Ppeiko, Arial, sans-serif",
+   "--_headings---heading-xxl--font-size": "var(--_sizes---size--104px)",
+   "--_headings---heading-xxl--line-height": "1em",
+   "--_headings---heading-xxl--font-weight": "var(--_fonts---font-weight--normal)",
+   "--_headings---heading-xxl--letter-spacing": "-.04em",
+   "--_headings---heading-xl--font": "var(--_fonts---fonts--heading)",
+   "--_headings---heading-xl--font-size": "var(--_sizes---size--96px)",
+   "--_headings---heading-xl--font-weight": "var(--_fonts---font-weight--normal)",
+   "--_headings---heading-xl--letter-spacing": "-.04em",
+   "--_headings---heading-l--font": "var(--_fonts---fonts--heading)",
+   "--_headings---heading-l--font-size": "var(--_sizes---size--72px)",
+   "--_headings---heading-xl--line-height": "1.2em",
+   "--_headings---heading-l--font-weight": "var(--_fonts---font-weight--normal)",
+   "--_headings---heading-l--letter-spacing": "-.04em",
+   "--_headings---heading-m--font": "var(--_fonts---fonts--heading)",
+   "--_headings---heading-m--font-size": "var(--_sizes---size--48px)",
+   "--_headings---heading-m--line-height": "1em",
+   "--_headings---heading-m--font-weight": "var(--_fonts---font-weight--normal)",
+   "--_headings---heading-m--letter-spacing": "-.04em",
+   "--_headings---heading-s--font": "var(--_fonts---fonts--heading)",
+   "--_headings---heading-s--font-size": "var(--_sizes---size--32px)",
+   "--_headings---heading-s--line-height": "1.1em",
+   "--_headings---heading-s--font-weight": "var(--_fonts---font-weight--normal)",
+   "--_headings---heading-s--letter-spacing": "-.04em",
+   "--_headings---heading-xs--font": "var(--_fonts---fonts--heading)",
+   "--_headings---heading-xs--font-size": "var(--_sizes---size--28px)",
+   "--_headings---heading-xs--line-height": "1.1em",
+   "--_headings---heading-xs--font-weight": "var(--_fonts---font-weight--normal)",
+   "--_headings---heading-xs--letter-spacing": "-.04em",
+   "--color-mode-default--body-text<deleted|variable-cb61a870-d154-a6fe-c8a0-f25e0e5af2eb>": "var(--swatch--gunmetal\\<deleted\\|variable-7aae26b0-9412-ed86-55f6-0d55abbd998f\\>)",
+   "--_layout---padding-global--page-padding": "1.25em",
+   "--_layout---padding-global--tablet<deleted|variable-a729b81a-e434-9b17-3dd4-232b48219fba>": "1.5em",
+   "--_layout---padding-global--mobile<deleted|variable-c1796e7f-e37f-9814-266d-d39e03ff04a2>": "1rem",
+   "--_sizes---size--96px": "3.5em",
+   "--_sizes---size--128px": "4.75em",
+   "--_sizes---size--320px": "12em",
+   "--_sizes---size--64px": "2.5em",
+   "--_sizes---size--40px": "1.75em",
+   "--_sizes---size--16px": "1em",
+   "--color-mode-default--active-state<deleted|variable-43f921cb-bd7a-3666-9ac5-0f1d734b1a8f>": "var(--swatch--honeydew\\<deleted\\|variable-ce750e9f-1666-65be-5b8a-2186b18b3781\\>)",
+   "--_paragraphs---paragraph-regular--font-size": "1em",
+   "--_headings---heading-l--line-height": "1em",
+   "--_paragraphs---paragraph-xl--font": "var(--_fonts---fonts--paragraph)",
+   "--_paragraphs---paragraph-xl--font-size": "2em",
+   "--_paragraphs---paragraph-xl--line-height": "1.3em",
+   "--_paragraphs---paragraph-xl--font-weight": "var(--_fonts---font-weight--medium)",
+   "--_paragraphs---paragraph-xl--letter-spacing": "-.025em",
+   "--_paragraphs---paragraph-l--font": "var(--_fonts---fonts--paragraph)",
+   "--_paragraphs---paragraph-l--font-size": "1.5em",
+   "--_paragraphs---paragraph-l--line-height": "1.4em",
+   "--_paragraphs---paragraph-l--font-weight": "var(--_fonts---font-weight--medium)",
+   "--_paragraphs---paragraph-l--letter-spacing": "-.025em",
+   "--_paragraphs---paragraph-m--font": "var(--_fonts---fonts--paragraph)",
+   "--_paragraphs---paragraph-m--font-size": "1.125em",
+   "--_paragraphs---paragraph-m--line-height": "1.4em",
+   "--_paragraphs---paragraph-m--letter-spacing": "-.025em",
+   "--_paragraphs---paragraph-s--font": "var(--_fonts---fonts--paragraph)",
+   "--_paragraphs---paragraph-s--font-size": ".875em",
+   "--_paragraphs---paragraph-s--line-height": "1.3em",
+   "--_paragraphs---paragraph-s--font-weight": "var(--_fonts---font-weight--medium)",
+   "--_paragraphs---paragraph-s--letter-spacing": "-.025em",
+   "--_paragraphs---paragraph-xs--font-size": ".75em",
+   "--_paragraphs---paragraph-xs--font-weight": "var(--_fonts---font-weight--medium)",
+   "--_paragraphs---paragraph-xxs--font": "var(--_fonts---fonts--paragraph)",
+   "--_paragraphs---paragraph-xxs--font-size": ".625em",
+   "--_paragraphs---paragraph-xxs--line-height": "1.4em",
+   "--_paragraphs---paragraph-xxs--font-weight": "var(--_fonts---font-weight--medium)",
+   "--_paragraphs---paragraph-xxs--letter-spacing": "-.025em",
+   "--element-button--gap<deleted|variable-0282ece1-564b-3134-a176-8a733f25aca8>": "1em",
+   "--_layout---grid--gap": "1.25em",
+   "--_layout---grid--gap-tablet<deleted|variable-ff4ab7d8-1b7d-e830-21bf-aa88e5d5e74c>": "1.5em",
+   "--_layout---grid--gap-mobile<deleted|variable-4fadcf1f-040e-5667-91a8-46bc48510e01>": "1em",
+   "--element-button--height<deleted|variable-d0d4f496-fb53-f8c5-27d6-19ba5c3f0b43>": "3rem",
+   "--element-button--radius-desktop<deleted|variable-f8d99249-c057-b20e-d4ea-c9ff0273add7>": ".5em",
+   "--swatch--eerie-black<deleted|variable-96a5984c-58ac-dea9-ceed-345ea1a68be0>": "#171c1c",
+   "--swatch--anti-flash-white<deleted|variable-2b55c37a-a697-95d1-de06-5cd18e98aa75>": "#eef0f2",
+   "--element-button--radius-tablet<deleted|variable-5e60258f-bfd2-096e-5216-491e715da2a6>": ".25em",
+   "--element-button--radius-mobile<deleted|variable-3defd336-edc9-0654-9420-78e55b6eb313>": ".5em",
+   "--element-card--card-tablet<deleted|variable-8802b6d5-a8b9-c5b5-b6e7-ea525c156394>": "1.25em",
+   "--element-card--radius-mobile<deleted|variable-853e8ebc-2621-fa73-dacc-84aa8de9e8de>": "1em",
+   "--color-mode-default--background-transparent<deleted|variable-8a828534-93a1-419c-aaf6-274fb4d2cc93>": "var(--swatch--transparent-white\\<deleted\\|variable-03753bb9-6a2d-beec-b4e9-06f7b439f1a5\\>)",
+   "--element-card--padding-tablet<deleted|variable-c28b41a6-a697-24b0-1cb7-c9d16b5f21d9>": "1em",
+   "--element-card--padding-mobile<deleted|variable-27437fc3-c1c5-926b-2762-44eab12995d9>": "1em",
+   "--color-mode-default--bp-card-bg<deleted|variable-4ed1ea21-6547-af99-3c69-f02950a385c2>": "var(--color-mode-default--bp-label-bg\\<deleted\\|variable-fd68ec54-23b7-4749-ebbb-80c097cd5cd4\\>)",
+   "--blueprint--gap": "1em",
+   "--blueprint--label-height": "3em",
+   "--_colors---swatch--black": "black",
+   "--_colors---swatch--grey": "#d6d3d1",
+   "--blueprint--label-text-size": ".875em",
+   "--element-label--radius-tablet<deleted|variable-32c37fc7-7a2d-27cf-3450-597acbf4740b>": ".25em",
+   "--element-label--radius-mobile<deleted|variable-50db59c2-591f-ccbd-8db7-883048e9293b>": ".25em",
+   "--element-border--regular<deleted|variable-8015d590-9b6a-d5c6-03d9-d0ec4248d695>": "1px",
+   "--color-mode-default--button-outline<deleted|variable-7e835c89-7b86-8033-7fa0-f32c43db959e>": "var(--swatch--gunmetal\\<deleted\\|variable-7aae26b0-9412-ed86-55f6-0d55abbd998f\\>)",
+   "--element-field--text-size<deleted|variable-bb6b4bc2-df1d-cb98-174b-12f265efaa7b>": "1em",
+   "--color-mode-default--heading<deleted|variable-63623ff2-f93a-6dbc-537d-501639045b22>": "var(--swatch--eerie-black\\<deleted\\|variable-96a5984c-58ac-dea9-ceed-345ea1a68be0\\>)",
+   "--color-mode-default--background<deleted|variable-c0c89dc0-00da-9374-de7c-29979972e8ac>": "var(--swatch--anti-flash-white\\<deleted\\|variable-2b55c37a-a697-95d1-de06-5cd18e98aa75\\>)",
+   "--color-mode-default--button-bg<deleted|variable-09c6d403-c69d-6535-5389-2450cdc1de75>": "var(--swatch--ash-grey\\<deleted\\|variable-dec3fd67-9c25-d8c5-a38a-7241449f34ed\\>)",
+   "--element-field--padding<deleted|variable-04151b8e-2d25-fe18-4d6f-ee1c48ad3804>": "1em",
+   "--element-field--text-area-padding<deleted|variable-fef68998-fe96-422c-105c-91c0def0d39f>": ".75em",
+   "--element-label--gap<deleted|variable-8142a8e4-aa6a-fab1-8d32-88edc71fc83d>": ".5em",
+   "--element-field--height<deleted|variable-af4c4744-50fe-ad09-4c4d-09ff8bc415e5>": "3em",
+   "--element-field--text-area-height<deleted|variable-fe010bcc-7d76-b7d5-6e12-278725850868>": "12em",
+   "--_headings---heading-xxl--font": "var(--_fonts---fonts--heading)",
+   "--_theme---navigation--nav-text": "var(--_colors---swatch--white)",
+   "--_theme---navigation--menu-bg": "var(--_colors---swatch--black)",
+   "--_layout---container--container-padding": ".5em",
+   "--_theme---cursor-select-bg": "var(--_colors---swatch--brand)",
+   "--_colors---swatch--white": "#f2f2f2",
+   "--_subheadings---subheading-xl--font": "var(--_fonts---fonts--eyebrow)",
+   "--_subheadings---subheading-xl--font-size": "2em",
+   "--_subheadings---subheading-xl--line-height": "1.3em",
+   "--_subheadings---subheading-xl--font-weight": "var(--_fonts---font-weight--normal)",
+   "--_subheadings---subheading-xl--letter-spacing": ".2em",
+   "--_subheadings---subheading-l--font": "var(--_fonts---fonts--eyebrow)",
+   "--_subheadings---subheading-l--font-size": "1.5em",
+   "--_subheadings---subheading-l--line-height": "1.4em",
+   "--_subheadings---subheading-l--font-weight": "var(--_fonts---font-weight--normal)",
+   "--_subheadings---subheading-l--letter-spacing": ".2em",
+   "--_subheadings---subheading-m--font": "var(--_fonts---fonts--eyebrow)",
+   "--_subheadings---subheading-m--font-size": "1.25em",
+   "--_subheadings---subheading-m--line-height": "1.4em",
+   "--_subheadings---subheading-m--font-weight": "var(--_fonts---font-weight--normal)",
+   "--_subheadings---subheading-m--letter-spacing": ".2em",
+   "--_subheadings---subheading-regular--font": "var(--_fonts---fonts--eyebrow)",
+   "--_subheadings---subheading-regular--font-size": "1em",
+   "--_subheadings---subheading-regular--line-height": "1.4em",
+   "--_subheadings---subheading-regular--font-weight": "var(--_fonts---font-weight--normal)",
+   "--_subheadings---subheading-regular--letter-spacing": ".2em",
+   "--_subheadings---subheading-s--font": "var(--_fonts---fonts--eyebrow)",
+   "--_subheadings---subheading-s--font-size": ".875em",
+   "--_subheadings---subheading-s--line-height": "1.3em",
+   "--_subheadings---subheading-s--font-weight": "var(--_fonts---font-weight--normal)",
+   "--_subheadings---subheading-s--letter-spacing": ".2em",
+   "--_subheadings---subheading-xs--font": "var(--_fonts---fonts--eyebrow)",
+   "--_subheadings---subheading-xs--font-size": ".625em",
+   "--_subheadings---subheading-xs--line-height": "1.3em",
+   "--_subheadings---subheading-xs--font-weight": "var(--_fonts---font-weight--normal)",
+   "--_subheadings---subheading-xs--letter-spacing": ".2em",
+   "--_subheadings---subheading-xxs--font": "var(--_fonts---fonts--eyebrow)",
+   "--_subheadings---subheading-xxs--font-size": ".625em",
+   "--_subheadings---subheading-xxs--line-height": "1.4em",
+   "--_subheadings---subheading-xxs--font-weight": "var(--_fonts---font-weight--normal)",
+   "--_subheadings---subheading-xxs--letter-spacing": ".2em",
+   "--_paragraphs---paragraph-m--font-weight": "var(--_fonts---font-weight--medium)",
+   "--_theme---background-dark": "var(--_colors---swatch--grey)",
+   "--_theme---heading": "var(--_colors---swatch--black)",
+   "--_theme---border": "var(--_colors---swatch--black)",
+   "--_theme---cursor-select-text": "var(--_colors---swatch--white)",
+   "--_theme---button-outline": "var(--_colors---swatch--black)",
+   "--_theme---button-text": "var(--_colors---swatch--black)",
+   "--_theme---navigation--nav-logo": "var(--_colors---swatch--brand)",
+   "--_theme---navigation--menu-bg__overlay": "var(--_colors---swatch--black)",
+   "--_fonts---fonts--paragraph": "Ppneuemontreal, Arial, sans-serif",
+   "--_fonts---fonts--eyebrow": "Ppmuseum, Arial, sans-serif",
+   "--_paragraphs---paragraph-xs--font": "var(--_fonts---fonts--paragraph)",
+   "--_paragraphs---paragraph-xs--line-height": "1.3em",
+   "--_paragraphs---paragraph-xs--letter-spacing": "-.025em",
+   "--_layout---space--xs": "2.667vh",
+   "--_layout---space--s": "5.333vh",
+   "--_layout---space--regular": "9.778vh",
+   "--_layout---space--m": "21.333vh",
+   "--_layout---space--l": "28.444vh",
+   "--_sizes---size--256px": "9.5em",
+   "--_layout---space--xl": "35.556vh",
+   "--_sizes---size--224px": "8.5em",
+   "--_layout---space--xxl": "49.778vh",
+   "--_sizes---size--192px": "7.25em",
+   "--_sizes---size--160px": "6em",
+   "--_sizes---size--112px": "4.25em",
+   "--_sizes---size--104px": "4em",
+   "--_sizes---size--88px": "3.25em",
+   "--_sizes---size--80px": "3em",
+   "--_sizes---size--72px": "2.75em",
+   "--_sizes---size--56px": "2.25em",
+   "--_sizes---size--48px": "2em",
+   "--_sizes---size--32px": "1.5em",
+   "--_sizes---size--28px": "1.375em",
+   "--_sizes---size--24px": "1.25em",
+   "--_sizes---size--12px": ".75em",
+   "--_sizes---size--8px": ".5em",
+   "--_sizes---size--4px": ".25em",
+   "--_sizes---size--2px": ".125em",
+   "--_colors---swatch--brand": "#891a20",
+   "--_fonts---font-weight--thin": "100",
+   "--_fonts---font-weight--extra-light": "200",
+   "--_fonts---font-weight--light": "300",
+   "--_fonts---font-weight--normal": "400",
+   "--_fonts---font-weight--medium": "500",
+   "--_fonts---font-weight--semi-bold": "600",
+   "--_fonts---font-weight--bold": "700",
+   "--_fonts---font-weight--extra-bold": "800",
+   "--_fonts---font-weight--black": "900",
+   "--swatch--gunmetal<deleted|variable-7aae26b0-9412-ed86-55f6-0d55abbd998f>": "#31383b",
+   "--swatch--honeydew<deleted|variable-ce750e9f-1666-65be-5b8a-2186b18b3781>": "#e1f7e1",
+   "--swatch--transparent-white<deleted|variable-03753bb9-6a2d-beec-b4e9-06f7b439f1a5>": "#eef0f200",
+   "--color-mode-default--bp-label-bg<deleted|variable-fd68ec54-23b7-4749-ebbb-80c097cd5cd4>": "var(--swatch--gunmetal\\<deleted\\|variable-7aae26b0-9412-ed86-55f6-0d55abbd998f\\>)",
+   "--swatch--ash-grey<deleted|variable-dec3fd67-9c25-d8c5-a38a-7241449f34ed>": "#acb7c1",
+   "--size-unit": "16",
+   "--size-container-ideal": "479",
+   "--size-container-min": "320px",
+   "--size-container-max": "479px",
+   "--size-container-fluid": "100dvw",
+   "--size-container": "clamp(var(--size-container-min), var(--size-container-fluid), var(--size-container-max))",
+   "--size-font": "calc(var(--size-container) / (var(--size-container-ideal) / var(--size-unit)))",
+   "--container-medium-scale": "1",
+   "--container-small-scale": "1",
+   "--vh": "1vh",
+   "--near-screen-height": "calc(var(--vh) * 80)",
+   "--full-screen-height": "calc(var(--vh) * 100)",
+   "--over-screen-height": "calc(var(--vh) * 120)",
+   "--double-screen-height": "calc(var(--vh) * 200)",
+   "--xxl-screen-height": "calc(var(--vh) * 250)",
+   "--btn-w": "100%",
+   "--btn-gap": "1.5em",
+   "--trailer-dock": "calc(.75em + env(safe-area-inset-bottom,0px))",
+   "--trailer-pad-bottom": "0em",
+   "--trailer-pad-top": "0em",
+   "--trailer-pad-x": "0vw"
+  },
+  "fontFaces": [
+   {
+    "family": "Ppneuemontreal",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"/fonts/PPNeueMontreal-Medium.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Ppmuseum",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/fonts/PPMuseum-Regular.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Ppeiko",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/fonts/PPEiko-Regular.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Ppneuemontreal",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"/fonts/PPNeueMontreal-Medium.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Ppmuseum",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/fonts/PPMuseum-Regular.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Ppeiko",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/fonts/PPEiko-Regular.woff2\") format(\"woff2\")"
+   }
+  ],
+  "keyframes": [
+   "spin",
+   "nav-loading-spin",
+   "grain",
+   "btn-film-jitter",
+   "btn-film-wiggle",
+   "nav-plate-jitter",
+   "nav-text-jitter",
+   "scroll-next-hint"
+  ],
+  "breakpoints": [
+   {
+    "v": "991px",
+    "w": 11
+   },
+   {
+    "v": "767px",
+    "w": 9
+   },
+   {
+    "v": "479px",
+    "w": 7
+   },
+   {
+    "v": "992px",
+    "w": 3
+   },
+   {
+    "v": "768px",
+    "w": 1
+   },
+   {
+    "v": "480px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 1317,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "container",
+    "h": 900,
+    "title": "Discover the A24 library of Films",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "experience-canvas",
+    "h": 900,
+    "title": "",
+    "media": 1
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "",
+    "href": "https://a24.raviklaassens.com/"
+   },
+   {
+    "t": "Films",
+    "href": "https://a24.raviklaassens.com/"
+   },
+   {
+    "t": "Television",
+    "href": "https://a24.raviklaassens.com/television"
+   },
+   {
+    "t": "Backrooms2026",
+    "href": "https://a24.raviklaassens.com/production/backrooms"
+   },
+   {
+    "t": "The Invite2026",
+    "href": "https://a24.raviklaassens.com/production/the-invite"
+   },
+   {
+    "t": "Tony2026",
+    "href": "https://a24.raviklaassens.com/production/tony"
+   },
+   {
+    "t": "Marty Supreme2025",
+    "href": "https://a24.raviklaassens.com/production/marty-supreme"
+   },
+   {
+    "t": "The Smashing Machine2025",
+    "href": "https://a24.raviklaassens.com/production/the-smashing-machine"
+   },
+   {
+    "t": "The Brutalist2024",
+    "href": "https://a24.raviklaassens.com/production/the-brutalist"
+   },
+   {
+    "t": "The Zone of Interest2023",
+    "href": "https://a24.raviklaassens.com/production/the-zone-of-interest"
+   },
+   {
+    "t": "Everything Everywhere All at Once2022",
+    "href": "https://a24.raviklaassens.com/production/everything-everywhere-all-at-once"
+   },
+   {
+    "t": "Uncut Gems2019",
+    "href": "https://a24.raviklaassens.com/production/uncut-gems"
+   },
+   {
+    "t": "Hereditary2018",
+    "href": "https://a24.raviklaassens.com/production/hereditary"
+   },
+   {
+    "t": "Lady Bird2017",
+    "href": "https://a24.raviklaassens.com/production/lady-bird"
+   },
+   {
+    "t": "Ex Machina2015",
+    "href": "https://a24.raviklaassens.com/production/ex-machina"
+   }
+  ],
+  "ctas": [],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 1,
+   "videos": 0,
+   "imgs": 0,
+   "svgs": 18,
+   "iframes": 0,
+   "domNodes": 663
+  }
+ },
+ "tech": {
+  "gsap": true,
+  "gsapVersion": "3.15.0",
+  "scrollTrigger": true,
+  "splitText": true,
+  "lenis": true,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "178",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": true,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": true,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://cloud.umami.is/script.js",
+  "https://a24.raviklaassens.com/_astro/ExportPage.astro_astro_type_script_index_0_lang.DQlUkOwJ.js"
+ ],
+ "internal": [
+  "https://a24.raviklaassens.com/television",
+  "https://a24.raviklaassens.com/production/backrooms",
+  "https://a24.raviklaassens.com/production/the-invite",
+  "https://a24.raviklaassens.com/production/tony",
+  "https://a24.raviklaassens.com/production/marty-supreme",
+  "https://a24.raviklaassens.com/production/the-smashing-machine",
+  "https://a24.raviklaassens.com/production/the-brutalist",
+  "https://a24.raviklaassens.com/production/the-zone-of-interest",
+  "https://a24.raviklaassens.com/production/everything-everywhere-all-at-once",
+  "https://a24.raviklaassens.com/production/uncut-gems",
+  "https://a24.raviklaassens.com/production/hereditary",
+  "https://a24.raviklaassens.com/production/lady-bird",
+  "https://a24.raviklaassens.com/production/ex-machina"
+ ],
+ "perf": {
+  "ttfb": 185,
+  "dcl": 368,
+  "load": 452,
+  "lcp": 11616,
+  "lcpEl": "SPAN",
+  "cls": 0.007
+ },
+ "libs": {
+  "detected": [
+   "Barba.js",
+   "Contentful",
+   "GSAP",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Lenis",
+   "Three.js",
+   "Virtual scroll"
+  ],
+  "where": {
+   "Barba.js": [
+    "001-ExportPage.astro_astro_type_script_index_0_lang.DQlUkOwJ.js",
+    "004-bootstrap.dru0MhUJ.js",
+    "007-main.qdXy8l6N.js"
+   ],
+   "Contentful": [
+    "003-script.js"
+   ],
+   "GSAP": [
+    "004-bootstrap.dru0MhUJ.js",
+    "007-main.qdXy8l6N.js"
+   ],
+   "ScrollTrigger": [
+    "004-bootstrap.dru0MhUJ.js",
+    "007-main.qdXy8l6N.js"
+   ],
+   "SplitText/SplitType": [
+    "004-bootstrap.dru0MhUJ.js",
+    "007-main.qdXy8l6N.js"
+   ],
+   "Lenis": [
+    "004-bootstrap.dru0MhUJ.js",
+    "007-main.qdXy8l6N.js",
+    "styles.css"
+   ],
+   "Three.js": [
+    "004-bootstrap.dru0MhUJ.js",
+    "005-three.module.CFOTFKy5.js",
+    "006-RectAreaLightUniformsLib.DJtkkHJU.js",
+    "007-main.qdXy8l6N.js",
+    "008-three.module.B1_OyRqk.js"
+   ],
+   "Virtual scroll": [
+    "004-bootstrap.dru0MhUJ.js"
+   ]
+  },
+  "gsapVersion": "3.11.0",
+  "threeRevision": null,
+  "shaders": 6,
+  "scripts": 10
+ },
+ "network": {
+  "requests": 41,
+  "totalKb": 2751,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 8
+   },
+   "Stylesheet": {
+    "n": 1,
+    "kb": 27
+   },
+   "Script": {
+    "n": 8,
+    "kb": 429
+   },
+   "Font": {
+    "n": 3,
+    "kb": 247
+   },
+   "Image": {
+    "n": 13,
+    "kb": 1841
+   },
+   "Other": {
+    "n": 1,
+    "kb": 1
+   },
+   "Preflight": {
+    "n": 1,
+    "kb": 0
+   },
+   "Fetch": {
+    "n": 1,
+    "kb": 1
+   },
+   "XHR": {
+    "n": 12,
+    "kb": 197
+   }
+  },
+  "thirdPartyHosts": [
+   "cloud.umami.is",
+   "gateway.umami.is",
+   "raviklaassens.b-cdn.net"
+  ],
+  "fontFiles": [
+   "https://a24.raviklaassens.com/fonts/PPNeueMontreal-Medium.woff2",
+   "https://a24.raviklaassens.com/fonts/PPEiko-Regular.woff2",
+   "https://a24.raviklaassens.com/fonts/PPMuseum-Regular.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://raviklaassens.b-cdn.net/a24/films/backrooms/disc.webp?v=7",
+    "kb": 181,
+    "type": "Image"
+   },
+   {
+    "url": "https://raviklaassens.b-cdn.net/a24/films/uncut-gems/disc.webp?v=7",
+    "kb": 178,
+    "type": "Image"
+   },
+   {
+    "url": "https://raviklaassens.b-cdn.net/a24/films/the-brutalist/disc.webp?v=7",
+    "kb": 175,
+    "type": "Image"
+   },
+   {
+    "url": "https://a24.raviklaassens.com/_astro/three.module.B1_OyRqk.js",
+    "kb": 168,
+    "type": "Script"
+   },
+   {
+    "url": "https://raviklaassens.b-cdn.net/a24/films/tony/disc.webp?v=7",
+    "kb": 165,
+    "type": "Image"
+   },
+   {
+    "url": "https://raviklaassens.b-cdn.net/a24/films/marty-supreme/disc.webp?v=7",
+    "kb": 164,
+    "type": "Image"
+   },
+   {
+    "url": "https://raviklaassens.b-cdn.net/a24/films/everything-everywhere-all-at-once/disc.webp?v=7",
+    "kb": 161,
+    "type": "Image"
+   },
+   {
+    "url": "https://raviklaassens.b-cdn.net/a24/films/hereditary/disc.webp?v=7",
+    "kb": 159,
+    "type": "Image"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "52.1086px",
+   "lineHeight": "52.1086px"
+  },
+  "body": "13.0271px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 355
+}

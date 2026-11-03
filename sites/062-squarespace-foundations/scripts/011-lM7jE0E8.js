@@ -1,0 +1,1 @@
+import{B as r,G as c}from"./K2cKJ6Jp.js";const f=(o,t={})=>{r(()=>{Object.keys(t).forEach(e=>{const s=t[e];s.value&&o.value.style.setProperty(`--${e}`,s.value)})}),Object.keys(t).forEach(e=>{const s=t[e];c(s,a=>{o.value.style.setProperty(`--${e}`,a)})})};export{f as u};

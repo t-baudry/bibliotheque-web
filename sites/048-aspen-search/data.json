@@ -1,0 +1,895 @@
+{
+ "id": 48,
+ "name": "Aspen Search",
+ "sourceUrl": "https://www.aspensearch.com/",
+ "capturedAt": "2026-11-02T23:59:42.573Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg",
+   "desktop-13.jpg",
+   "desktop-14.jpg"
+  ],
+  "fullPage": 10840,
+  "subpages": [],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://www.aspensearch.com/",
+ "title": "Aspen Search - Executive Search for Quantitative Finance & Tech",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Boutique executive search specialists connecting exceptional engineering and research talent with leading quantitative trading firms and venture-backed technology companies",
+  "canonical": "https://aspensearch.com/",
+  "robots": null,
+  "ogTitle": "Aspen Search - Executive Search for Quantitative Finance & Tech",
+  "ogImage": "https://cdn.sanity.io/images/rxr9fhnm/production/b3f36d94ad3ba68a361dcca99b0f6ce63690b68b-1200x630.jpg?w=1200&h=630&q=85&fit=crop&auto=format",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "WebSite",
+   "WebPage"
+  ],
+  "h1Count": 2,
+  "headings": [
+   "H1 Aspen",
+   "H1 Aspen",
+   "H2 Connectingtop-tiertalent",
+   "H3 Quantitative Research",
+   "H3 Quantitative Research",
+   "H3 Engineering & Infrastructure",
+   "H3 Engineering & Infrastructure",
+   "H3 AI & Machine Learning",
+   "H3 AI & Machine Learning",
+   "H3 Leadership & Team Builds",
+   "H3 Leadership & Team Builds",
+   "H2 Clients",
+   "H3 Headlands",
+   "H3 Two Sigma",
+   "H3 EQR - Citadel",
+   "H3 Vatic Labs",
+   "H3 GQS - Citadel",
+   "H3 Syntria",
+   "H2 Team",
+   "H2 Team"
+  ],
+  "imgs": 39,
+  "imgNoAlt": 39,
+  "favicon": "https://cdn.sanity.io/images/rxr9fhnm/production/a1073fc3457e0c555d68b6b9efff2d9005b8a265-512x512.jpg?w=64&h=64&fm=png&q=85&fit=crop",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#ffffff",
+    "w": 8987092
+   },
+   {
+    "v": "#232323",
+    "w": 2862081
+   },
+   {
+    "v": "#e0e0e0",
+    "w": 2643885
+   },
+   {
+    "v": "#a1ffcb",
+    "w": 1352563
+   },
+   {
+    "v": "#d9d9d9",
+    "w": 1045374
+   },
+   {
+    "v": "#08225a",
+    "w": 299670
+   },
+   {
+    "v": "#004b87",
+    "w": 149835
+   },
+   {
+    "v": "#009aa6",
+    "w": 149835
+   },
+   {
+    "v": "#262160",
+    "w": 149835
+   },
+   {
+    "v": "#03598c",
+    "w": 149835
+   }
+  ],
+  "text": [
+   {
+    "v": "#232323",
+    "w": 2878
+   },
+   {
+    "v": "#ffffff",
+    "w": 1620
+   }
+  ],
+  "border": [
+   {
+    "v": "#232323",
+    "w": 12
+   },
+   {
+    "v": "#ffffff",
+    "w": 1
+   }
+  ],
+  "fonts": [
+   {
+    "v": "suisseIntl",
+    "w": 3702
+   },
+   {
+    "v": "suisseIntlMono",
+    "w": 854
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "14px",
+    "w": 125
+   },
+   {
+    "v": "12px",
+    "w": 120
+   },
+   {
+    "v": "16px",
+    "w": 57
+   },
+   {
+    "v": "80px",
+    "w": 35
+   },
+   {
+    "v": "132.163px",
+    "w": 26
+   },
+   {
+    "v": "114.776px",
+    "w": 24
+   },
+   {
+    "v": "37.9102px",
+    "w": 21
+   },
+   {
+    "v": "24px",
+    "w": 20
+   },
+   {
+    "v": "180.669px",
+    "w": 9
+   },
+   {
+    "v": "123.525px",
+    "w": 4
+   },
+   {
+    "v": "107.068px",
+    "w": 3
+   },
+   {
+    "v": "149.467px",
+    "w": 2
+   },
+   {
+    "v": "30.9551px",
+    "w": 2
+   }
+  ],
+  "radius": [],
+  "shadows": [
+   {
+    "v": "rgb(35, 35, 35) 0px 1px 0px 0px",
+    "w": 2
+   },
+   {
+    "v": "rgb(35, 35, 35) 0px 1px 0px 0px inset",
+    "w": 1
+   }
+  ],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.16 0.8s",
+    "w": 32
+   },
+   {
+    "v": "cubic-bezier(0.16 0.6s",
+    "w": 8
+   },
+   {
+    "v": "cubic-bezier(0.87 0.8s",
+    "w": 2
+   },
+   {
+    "v": "cubic-bezier(0.16 0.65s",
+    "w": 1
+   },
+   {
+    "v": "cubic-bezier(0.16 0.2s",
+    "w": 1
+   },
+   {
+    "v": "cubic-bezier(0.34 0.45s",
+    "w": 1
+   },
+   {
+    "v": "cubic-bezier(0.87 0.3s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "suisseIntl, \"suisseIntl Fallback\", Arial, system-ui, sans-serif, ui-sans-serif, system-ui, \"Apple Color Emoji\", \"Segoe U",
+    "size": "180.669px",
+    "weight": "450",
+    "lineHeight": "180.669px",
+    "letterSpacing": "-4%",
+    "transform": "none",
+    "color": "#232323",
+    "sample": "Aspen"
+   },
+   "h2": {
+    "family": "suisseIntl, \"suisseIntl Fallback\", Arial, system-ui, sans-serif, ui-sans-serif, system-ui, \"Apple Color Emoji\", \"Segoe U",
+    "size": "16px",
+    "weight": "450",
+    "lineHeight": "20.8px",
+    "letterSpacing": "-4%",
+    "transform": "uppercase",
+    "color": "#232323",
+    "sample": "Connectingtop-tiertalent"
+   },
+   "h3": {
+    "family": "suisseIntl, \"suisseIntl Fallback\", Arial, system-ui, sans-serif, ui-sans-serif, system-ui, \"Apple Color Emoji\", \"Segoe U",
+    "size": "37.9102px",
+    "weight": "450",
+    "lineHeight": "41.7012px",
+    "letterSpacing": "-4%",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Quantitative Research"
+   },
+   "p": {
+    "family": "suisseIntl, \"suisseIntl Fallback\", Arial, system-ui, sans-serif, ui-sans-serif, system-ui, \"Apple Color Emoji\", \"Segoe U",
+    "size": "180.669px",
+    "weight": "450",
+    "lineHeight": "144.536px",
+    "letterSpacing": "-4%",
+    "transform": "none",
+    "color": "#232323",
+    "sample": "Search"
+   },
+   "a": {
+    "family": "suisseIntl, \"suisseIntl Fallback\", Arial, system-ui, sans-serif, ui-sans-serif, system-ui, \"Apple Color Emoji\", \"Segoe U",
+    "size": "16px",
+    "weight": "450",
+    "lineHeight": "20.8px",
+    "letterSpacing": "-4%",
+    "transform": "none",
+    "color": "#232323",
+    "sample": "About"
+   },
+   "button": {
+    "family": "suisseIntl, \"suisseIntl Fallback\", Arial, system-ui, sans-serif, ui-sans-serif, system-ui, \"Apple Color Emoji\", \"Segoe U",
+    "size": "16px",
+    "weight": "450",
+    "lineHeight": "20.8px",
+    "letterSpacing": "-4%",
+    "transform": "none",
+    "color": "#232323",
+    "sample": "Theme"
+   },
+   "li": {
+    "family": "suisseIntl, \"suisseIntl Fallback\", Arial, system-ui, sans-serif, ui-sans-serif, system-ui, \"Apple Color Emoji\", \"Segoe U",
+    "size": "16px",
+    "weight": "450",
+    "lineHeight": "20.8px",
+    "letterSpacing": "-4%",
+    "transform": "none",
+    "color": "#232323",
+    "sample": "About"
+   },
+   "body": {
+    "family": "suisseIntl, \"suisseIntl Fallback\", Arial, system-ui, sans-serif, ui-sans-serif, system-ui, \"Apple Color Emoji\", \"Segoe U",
+    "size": "16px",
+    "weight": "450",
+    "lineHeight": "20.8px",
+    "letterSpacing": "-4%",
+    "transform": "none",
+    "color": "#232323",
+    "sample": "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"@id\":\"https://aspensearch.co"
+   }
+  },
+  "cssVars": {
+   "--font-sans": "var(--font-suisse-intl), ui-sans-serif, system-ui, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+   "--font-mono": "var(--font-suisse-intl-mono), ui-monospace, monospace",
+   "--spacing": ".0625rem",
+   "--font-weight-medium": "500",
+   "--font-weight-semibold": "600",
+   "--font-weight-bold": "700",
+   "--default-transition-duration": ".15s",
+   "--default-transition-timing-function": "var(--ease-in-out)",
+   "--default-font-family": "var(--font-sans)",
+   "--default-mono-font-family": "var(--font-mono)",
+   "--fluid-min-w": "var(--layout-min-w,375)",
+   "--fluid-max-w": "var(--layout-max-w,1600)",
+   "--fluid-slope": "calc((100vw - calc(var(--spacing) * var(--fluid-min-w))) / (var(--fluid-max-w) - var(--fluid-min-w)))",
+   "--text-caption-10": "calc(var(--spacing) * 12)",
+   "--text-caption-10--font-weight": "400",
+   "--text-caption-10--line-height": "1.1",
+   "--text-caption-10--letter-spacing": "-4%",
+   "--text-caption-20": "calc(var(--spacing) * 14)",
+   "--text-caption-20--font-weight": "400",
+   "--text-caption-20--line-height": "1",
+   "--text-caption-20--letter-spacing": "-4%",
+   "--text-body-10": "calc(var(--spacing) * 16)",
+   "--text-body-10--font-weight": "450",
+   "--text-body-10--line-height": "1.3",
+   "--text-body-10--letter-spacing": "-4%",
+   "--text-body-20": "calc(var(--spacing) * 24)",
+   "--text-body-20--font-weight": "450",
+   "--text-body-20--line-height": "1.1",
+   "--text-body-20--letter-spacing": "-2%",
+   "--text-body-30": "clamp(calc(var(--spacing) * 24), calc(var(--spacing) * 24) + (32 - 24) * var(--fluid-slope), calc(var(--spacing) * 32))",
+   "--text-body-30--font-weight": "450",
+   "--text-body-30--line-height": "1.1",
+   "--text-body-30--letter-spacing": "-2%",
+   "--text-headline-10": "clamp(calc(var(--spacing) * 24), calc(var(--spacing) * 24) + (40 - 24) * var(--fluid-slope), calc(var(--spacing) * 40))",
+   "--text-headline-10--font-weight": "450",
+   "--text-headline-10--line-height": "1.1",
+   "--text-headline-10--letter-spacing": "-4%",
+   "--text-headline-20": "clamp(calc(var(--spacing) * 32), calc(var(--spacing) * 32) + (48 - 32) * var(--fluid-slope), calc(var(--spacing) * 48))",
+   "--text-headline-20--font-weight": "450",
+   "--text-headline-20--line-height": "1",
+   "--text-headline-20--letter-spacing": "-4%",
+   "--text-headline-30": "clamp(calc(var(--spacing) * 40), calc(var(--spacing) * 40) + (56 - 40) * var(--fluid-slope), calc(var(--spacing) * 56))",
+   "--text-headline-30--font-weight": "450",
+   "--text-headline-30--line-height": "1",
+   "--text-headline-30--letter-spacing": "-4%",
+   "--text-headline-40": "clamp(calc(var(--spacing) * 40), calc(var(--spacing) * 40) + (100 - 40) * var(--fluid-slope), calc(var(--spacing) * 100))",
+   "--text-headline-40--font-weight": "450",
+   "--text-headline-40--line-height": "1",
+   "--text-headline-40--letter-spacing": "-4%",
+   "--text-headline-50": "clamp(calc(var(--spacing) * 52), calc(var(--spacing) * 52) + (200 - 52) * var(--fluid-slope), calc(var(--spacing) * 200))",
+   "--text-headline-50--font-weight": "450",
+   "--text-headline-50--line-height": ".8",
+   "--text-headline-50--letter-spacing": "-4%",
+   "--text-digit-10": "calc(var(--spacing) * 80)",
+   "--text-digit-10--font-weight": "450",
+   "--text-digit-10--line-height": "1",
+   "--text-digit-10--letter-spacing": "-4%",
+   "--text-digit-20": "clamp(calc(var(--spacing) * 80), calc(var(--spacing) * 80) + (120 - 80) * var(--fluid-slope), calc(var(--spacing) * 120))",
+   "--text-digit-20--font-weight": "450",
+   "--text-digit-20--line-height": "1",
+   "--text-digit-20--letter-spacing": "-4%",
+   "--text-digit-30": "clamp(calc(var(--spacing) * 80), calc(var(--spacing) * 80) + (140 - 80) * var(--fluid-slope), calc(var(--spacing) * 140))",
+   "--text-digit-30--font-weight": "450",
+   "--text-digit-30--line-height": "1",
+   "--text-digit-30--letter-spacing": "-4%",
+   "--animate-hero-logo-coin": "hero-logo-coin 20s linear infinite",
+   "--animate-typewriter-cursor": "typewriter-cursor-blink 1s step-end infinite",
+   "--layout-min-w": "375",
+   "--layout-max-w": "1600",
+   "--color-black": "#232323",
+   "--color-black-deep": "#000",
+   "--color-white": "#fff",
+   "--color-mint": "#a1ffcb",
+   "--color-grey": "#d9d9d9",
+   "--radius-4": "calc(var(--spacing) * 4)",
+   "--ease-in": "cubic-bezier(.55, 0, 1, .45)",
+   "--ease-out": "cubic-bezier(.16, 1, .3, 1)",
+   "--ease-in-out": "cubic-bezier(.87, 0, .13, 1)",
+   "--color-theme-bg": "rgb(var(--theme-bg))",
+   "--color-theme-fg": "rgb(var(--theme-fg))",
+   "--tw-ring-shadow": "var(--tw-ring-inset,) 0 0 0 calc(4px + var(--tw-ring-offset-width)) var(--tw-ring-color,currentcolor)",
+   "--tw-ring-color": "var(--color-mint)",
+   "--tw-ring-offset-width": "2px",
+   "--tw-ring-offset-shadow": "var(--tw-ring-inset,) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color)",
+   "--tw-outline-style": "none",
+   "--site-header-height": "calc(var(--spacing) * 60)",
+   "--sbw": "0px",
+   "--theme-bg": "35 35 35",
+   "--theme-fg": "255 255 255"
+  },
+  "fontFaces": [
+   {
+    "family": "suisseIntl",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"../media/SuisseIntl_Regular_2-s.0q_h9x_e1ydmp.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "suisseIntl",
+    "weight": "400",
+    "style": "italic",
+    "src": "url(\"../media/SuisseIntl_Italic-s.2v9__hjqxoyof.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "suisseIntl",
+    "weight": "450",
+    "style": "normal",
+    "src": "url(\"../media/SuisseIntl_Book_3-s.2gs6p4k-prhqc.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "suisseIntl",
+    "weight": "450",
+    "style": "italic",
+    "src": "url(\"../media/SuisseIntl_BookItalic-s.2sno-h6f7j7oi.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "suisseIntl",
+    "weight": "600",
+    "style": "normal",
+    "src": "url(\"../media/SuisseIntl_SemiBold-s.3rcxbt9l2d5df.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "suisseIntl",
+    "weight": "600",
+    "style": "italic",
+    "src": "url(\"../media/SuisseIntl_SemiBoldItalic-s.2bc_hgqxv7--3.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "suisseIntl Fallback",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   },
+   {
+    "family": "suisseIntlMono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"../media/SuisseIntlMono_Regular-s.30eez2cnti033.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "suisseIntlMono Fallback",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   }
+  ],
+  "keyframes": [
+   "theme-sweep-ltr",
+   "theme-sweep-rtl",
+   "hero-logo-coin",
+   "typewriter-cursor-blink",
+   "marqyL",
+   "marqyR",
+   "marqyU",
+   "marqyD"
+  ],
+  "breakpoints": [
+   {
+    "v": "64rem",
+    "w": 3
+   },
+   {
+    "v": "40rem",
+    "w": 2
+   },
+   {
+    "v": "48rem",
+    "w": 2
+   },
+   {
+    "v": "80rem",
+    "w": 2
+   },
+   {
+    "v": "96rem",
+    "w": 2
+   }
+  ],
+  "rulesCount": 760,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "relative",
+    "h": 1845,
+    "title": "Aspen",
+    "media": 49
+   },
+   {
+    "tag": "div",
+    "id": "about",
+    "cls": "relative z-1 scroll-mt-(--site-header-height) border-t bg-theme-bg",
+    "h": 1979,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "scroll-mt-(--site-header-height)",
+    "h": 1723,
+    "title": "Connectingtop-tiertalent",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": "clients",
+    "cls": "scroll-mt-(--site-header-height) overflow-clip",
+    "h": 1426,
+    "title": "Clients",
+    "media": 12
+   },
+   {
+    "tag": "div",
+    "id": "testimonials",
+    "cls": "scroll-mt-(--site-header-height)",
+    "h": 840,
+    "title": "",
+    "media": 4
+   },
+   {
+    "tag": "div",
+    "id": "team",
+    "cls": "scroll-mt-(--site-header-height)",
+    "h": 1287,
+    "title": "Team",
+    "media": 15
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "@container relative flex min-h-[calc(100svh-var(--site-header-height))] scroll-m",
+    "h": 1380,
+    "title": "",
+    "media": 0
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "",
+    "href": "https://www.aspensearch.com/"
+   },
+   {
+    "t": "About",
+    "href": "https://www.aspensearch.com/#about"
+   },
+   {
+    "t": "Clients",
+    "href": "https://www.aspensearch.com/#clients"
+   },
+   {
+    "t": "Testimonials",
+    "href": "https://www.aspensearch.com/#testimonials"
+   },
+   {
+    "t": "Team",
+    "href": "https://www.aspensearch.com/#team"
+   },
+   {
+    "t": "About",
+    "href": "https://www.aspensearch.com/#about"
+   },
+   {
+    "t": "Clients",
+    "href": "https://www.aspensearch.com/#clients"
+   },
+   {
+    "t": "Testimonials",
+    "href": "https://www.aspensearch.com/#testimonials"
+   },
+   {
+    "t": "Team",
+    "href": "https://www.aspensearch.com/#team"
+   }
+  ],
+  "ctas": [
+   "Contact",
+   "Start a conversation",
+   "Talk to a partner",
+   "Work with us",
+   "Ben Herman",
+   "Lira Aptekman",
+   "Kunal Batra",
+   "Tyler Guimaraes",
+   "Mike Leonard",
+   "Mario Mlinaric",
+   "Shawn Glabach",
+   "ben@aspensearch.com",
+   "Linkedin"
+  ],
+  "pageHeight": 10840,
+  "counts": {
+   "canvas": 2,
+   "videos": 0,
+   "imgs": 39,
+   "svgs": 39,
+   "iframes": 0,
+   "domNodes": 1478
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "185",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": true,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [
+   "sanity"
+  ],
+  "analytics": [],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://www.aspensearch.com/_next/static/immutable/chunks/2op6nbgnjz_ep.js",
+  "https://www.aspensearch.com/_next/static/immutable/chunks/2dqksrrjy5--x.js",
+  "https://www.aspensearch.com/_next/static/immutable/chunks/2jqd0dpb7brv_.js",
+  "https://www.aspensearch.com/_next/static/immutable/chunks/0d6phlc4x-tuh.js",
+  "https://www.aspensearch.com/_next/static/immutable/chunks/0gkt5ww0qzauz.js",
+  "https://www.aspensearch.com/_next/static/immutable/chunks/turbopack-1cvbnb3nlabgn.js",
+  "https://www.aspensearch.com/_next/static/immutable/chunks/0i1vn4-ujcacu.js",
+  "https://www.aspensearch.com/_next/static/immutable/chunks/2mvtz5y5c6y6t.js",
+  "https://www.aspensearch.com/_next/static/immutable/chunks/2o3_jgsgkzsdf.js",
+  "https://www.aspensearch.com/_next/static/immutable/chunks/11pcn01tdpxww.js",
+  "https://www.aspensearch.com/_next/static/immutable/chunks/3-5ea-z3bxxrc.js",
+  "https://www.aspensearch.com/_next/static/immutable/chunks/24c5op039am4x.js",
+  "https://www.aspensearch.com/_next/static/immutable/chunks/2gdnbggu-1g5l.js",
+  "https://www.aspensearch.com/_next/static/immutable/chunks/3w3i7l-fzj86c.js",
+  "https://www.aspensearch.com/_next/static/immutable/chunks/2f4mkgu1v9h2d.js",
+  "https://www.aspensearch.com/_next/static/immutable/chunks/0qmp8qol32lsa.js",
+  "https://www.aspensearch.com/_next/static/immutable/chunks/30jrbooit6r8x.js",
+  "https://www.aspensearch.com/_next/static/immutable/chunks/0-bzu4-qw8enz.js",
+  "https://www.aspensearch.com/_next/static/immutable/chunks/2uh14_drubug2.js",
+  "https://www.aspensearch.com/_next/static/immutable/chunks/2cg6vnw4n38r2.js",
+  "https://www.aspensearch.com/_next/static/immutable/chunks/0htruxnn-vbya.js",
+  "https://www.aspensearch.com/_next/static/immutable/chunks/25pzknsw23u29.js",
+  "https://www.aspensearch.com/_next/static/immutable/chunks/3otksnprufxtd.js",
+  "https://www.aspensearch.com/_next/static/immutable/chunks/3vq7jcx3y3gsy.js",
+  "https://www.aspensearch.com/_next/static/immutable/chunks/1g0m_ajuacd0v.js",
+  "https://www.aspensearch.com/_next/static/immutable/chunks/32umt4gkci13a.js",
+  "https://www.aspensearch.com/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+  "https://www.aspensearch.com/_next/static/immutable/chunks/2z7o2hhveu0j_.js",
+  "https://www.aspensearch.com/_next/static/immutable/chunks/2w-lj5r9rz98g.js",
+  "https://www.aspensearch.com/_next/static/immutable/chunks/1_7i79z6aobl6.js",
+  "https://www.aspensearch.com/_next/static/immutable/chunks/0n1scj3f699pc.js",
+  "https://www.aspensearch.com/_next/static/immutable/chunks/3w9szmcli-ia7.js",
+  "https://www.aspensearch.com/_next/static/immutable/chunks/1oa_-si95rrhj.js",
+  "https://www.aspensearch.com/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+  "https://cloud.umami.is/script.js"
+ ],
+ "internal": [],
+ "perf": {
+  "ttfb": 145,
+  "dcl": 1683,
+  "load": 1707,
+  "lcp": 5208,
+  "lcpEl": "DIV",
+  "cls": 0.001
+ },
+ "libs": {
+  "detected": [
+   "React",
+   "Lenis",
+   "Sanity",
+   "Virtual scroll",
+   "Lottie",
+   "Next.js",
+   "Contentful",
+   "Three.js",
+   "React Three Fiber",
+   "Postprocessing"
+  ],
+  "where": {
+   "React": [
+    "003-2dqksrrjy5--x.js",
+    "027-2jqd0dpb7brv_.js"
+   ],
+   "Lenis": [
+    "008-0htruxnn-vbya.js",
+    "011-2f4mkgu1v9h2d.js",
+    "014-2cg6vnw4n38r2.js",
+    "019-3vq7jcx3y3gsy.js",
+    "styles.css"
+   ],
+   "Sanity": [
+    "008-0htruxnn-vbya.js",
+    "010-2gdnbggu-1g5l.js",
+    "011-2f4mkgu1v9h2d.js",
+    "012-1g0m_ajuacd0v.js",
+    "016-3otksnprufxtd.js",
+    "017-3-5ea-z3bxxrc.js",
+    "018-24c5op039am4x.js",
+    "019-3vq7jcx3y3gsy.js",
+    "021-25pzknsw23u29.js",
+    "025-0-bzu4-qw8enz.js",
+    "026-32umt4gkci13a.js"
+   ],
+   "Virtual scroll": [
+    "011-2f4mkgu1v9h2d.js",
+    "014-2cg6vnw4n38r2.js"
+   ],
+   "Lottie": [
+    "012-1g0m_ajuacd0v.js",
+    "016-3otksnprufxtd.js",
+    "017-3-5ea-z3bxxrc.js",
+    "021-25pzknsw23u29.js"
+   ],
+   "Next.js": [
+    "020-0d6phlc4x-tuh.js"
+   ],
+   "Contentful": [
+    "030-script.js"
+   ],
+   "Three.js": [
+    "031-1_7i79z6aobl6.js"
+   ],
+   "React Three Fiber": [
+    "031-1_7i79z6aobl6.js"
+   ],
+   "Postprocessing": [
+    "032-0n1scj3f699pc.js"
+   ]
+  },
+  "gsapVersion": null,
+  "threeRevision": null,
+  "shaders": 38,
+  "scripts": 33
+ },
+ "network": {
+  "requests": 89,
+  "totalKb": 1385,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 54
+   },
+   "Stylesheet": {
+    "n": 2,
+    "kb": 12
+   },
+   "Script": {
+    "n": 33,
+    "kb": 734
+   },
+   "Font": {
+    "n": 3,
+    "kb": 120
+   },
+   "Image": {
+    "n": 33,
+    "kb": 233
+   },
+   "Other": {
+    "n": 1,
+    "kb": 3
+   },
+   "Preflight": {
+    "n": 1,
+    "kb": 0
+   },
+   "Fetch": {
+    "n": 15,
+    "kb": 229
+   }
+  },
+  "thirdPartyHosts": [
+   "cdn.sanity.io",
+   "cloud.umami.is",
+   "gateway.umami.is"
+  ],
+  "fontFiles": [
+   "https://www.aspensearch.com/_next/static/immutable/media/SuisseIntl_Book_3-s.2gs6p4k-prhqc.woff2",
+   "https://www.aspensearch.com/_next/static/immutable/media/SuisseIntlMono_Regular-s.30eez2cnti033.woff2",
+   "https://www.aspensearch.com/_next/static/immutable/media/SuisseIntl_Regular_2-s.0q_h9x_e1ydmp.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://www.aspensearch.com/_next/static/immutable/chunks/1_7i79z6aobl6.js",
+    "kb": 236,
+    "type": "Script"
+   },
+   {
+    "url": "https://www.aspensearch.com/_next/static/immutable/chunks/0n1scj3f699pc.js",
+    "kb": 109,
+    "type": "Script"
+   },
+   {
+    "url": "https://www.aspensearch.com/_next/static/immutable/media/SuisseIntl_Regular_2-s.0q_h9x_e1ydmp.woff2",
+    "kb": 65,
+    "type": "Font"
+   },
+   {
+    "url": "https://www.aspensearch.com/_next/static/immutable/chunks/2jqd0dpb7brv_.js",
+    "kb": 65,
+    "type": "Script"
+   },
+   {
+    "url": "https://www.aspensearch.com/",
+    "kb": 54,
+    "type": "Document"
+   },
+   {
+    "url": "https://www.aspensearch.com/_next/static/immutable/media/SuisseIntl_Book_3-s.2gs6p4k-prhqc.woff2",
+    "kb": 42,
+    "type": "Font"
+   },
+   {
+    "url": "https://cdn.sanity.io/images/rxr9fhnm/production/f3b87f2487fff100d177ce92d873ff06d5df50dc-1254x1254.png?rect=181,22,894,810&w=1000&h=906&fm=webp&max-h=2048&max-",
+    "kb": 41,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://cdn.sanity.io/images/rxr9fhnm/production/d2daca672e27ee661c38cfe5cb5e4169b0f8c0f1-1254x1254.png?w=1000&h=1000&fm=webp&max-h=2048&max-w=2048&q=85&auto=fo",
+    "kb": 41,
+    "type": "Fetch"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "53.8122px",
+   "lineHeight": "53.8122px"
+  },
+  "body": "16px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 167
+}

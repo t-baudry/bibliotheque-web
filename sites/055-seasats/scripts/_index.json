@@ -1,0 +1,112 @@
+[
+ {
+  "file": "001-webpack-65c43869c84a28e8.js",
+  "url": "https://www.seasats.com/_next/static/chunks/webpack-65c43869c84a28e8.js",
+  "kb": 6
+ },
+ {
+  "file": "002-main-app-43b4b242c17d47ff.js",
+  "url": "https://www.seasats.com/_next/static/chunks/main-app-43b4b242c17d47ff.js",
+  "kb": 1
+ },
+ {
+  "file": "003-7822-0426072929606d8a.js",
+  "url": "https://www.seasats.com/_next/static/chunks/7822-0426072929606d8a.js",
+  "kb": 20
+ },
+ {
+  "file": "004-c15bf2b0-11d3b8116e36b044.js",
+  "url": "https://www.seasats.com/_next/static/chunks/c15bf2b0-11d3b8116e36b044.js",
+  "kb": 50
+ },
+ {
+  "file": "005-4bd1b696-100b9d70ed4e49c1.js",
+  "url": "https://www.seasats.com/_next/static/chunks/4bd1b696-100b9d70ed4e49c1.js",
+  "kb": 169
+ },
+ {
+  "file": "006-1255-642c76f13c20a3ec.js",
+  "url": "https://www.seasats.com/_next/static/chunks/1255-642c76f13c20a3ec.js",
+  "kb": 168
+ },
+ {
+  "file": "007-2954-8a3d3355581ae6d9.js",
+  "url": "https://www.seasats.com/_next/static/chunks/2954-8a3d3355581ae6d9.js",
+  "kb": 83
+ },
+ {
+  "file": "008-641-dbd1edaa12919922.js",
+  "url": "https://www.seasats.com/_next/static/chunks/641-dbd1edaa12919922.js",
+  "kb": 22
+ },
+ {
+  "file": "009-layout-07e7b1b1d477ef6b.js",
+  "url": "https://www.seasats.com/_next/static/chunks/app/(frontend)/layout-07e7b1b1d477ef6b.js",
+  "kb": 13
+ },
+ {
+  "file": "010-176-652cc20e888daa36.js",
+  "url": "https://www.seasats.com/_next/static/chunks/176-652cc20e888daa36.js",
+  "kb": 9
+ },
+ {
+  "file": "011-9495-79fc1d15e2f22bd7.js",
+  "url": "https://www.seasats.com/_next/static/chunks/9495-79fc1d15e2f22bd7.js",
+  "kb": 8
+ },
+ {
+  "file": "012-3426-7d84bfa17595a05c.js",
+  "url": "https://www.seasats.com/_next/static/chunks/3426-7d84bfa17595a05c.js",
+  "kb": 22
+ },
+ {
+  "file": "013-3492-7000bd1695ecfecb.js",
+  "url": "https://www.seasats.com/_next/static/chunks/3492-7000bd1695ecfecb.js",
+  "kb": 19
+ },
+ {
+  "file": "014-page-94f9d8abdf26b788.js",
+  "url": "https://www.seasats.com/_next/static/chunks/app/(frontend)/page-94f9d8abdf26b788.js",
+  "kb": 0
+ },
+ {
+  "file": "015-541-06b2e01ac6d38102.js",
+  "url": "https://www.seasats.com/_next/static/chunks/541-06b2e01ac6d38102.js",
+  "kb": 22
+ },
+ {
+  "file": "016-email-decode.min.js",
+  "url": "https://www.seasats.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+  "kb": 1
+ },
+ {
+  "file": "017-b536a0f1-a89aaee2c858350d.js",
+  "url": "https://www.seasats.com/_next/static/chunks/b536a0f1-a89aaee2c858350d.js",
+  "kb": 326
+ },
+ {
+  "file": "018-1329d575-913930d6a3ee9f96.js",
+  "url": "https://www.seasats.com/_next/static/chunks/1329d575-913930d6a3ee9f96.js",
+  "kb": 107
+ },
+ {
+  "file": "019-bd904a5c-a41790b73ae35279.js",
+  "url": "https://www.seasats.com/_next/static/chunks/bd904a5c-a41790b73ae35279.js",
+  "kb": 370
+ },
+ {
+  "file": "020-3067-5e667a9ff21b27a9.js",
+  "url": "https://www.seasats.com/_next/static/chunks/3067-5e667a9ff21b27a9.js",
+  "kb": 179
+ },
+ {
+  "file": "021-9297-dbee6a385ac69d9c.js",
+  "url": "https://www.seasats.com/_next/static/chunks/9297-dbee6a385ac69d9c.js",
+  "kb": 510
+ },
+ {
+  "file": "022-basis_transcoder.js",
+  "url": "https://cdn.jsdelivr.net/gh/pmndrs/drei-assets@master/basis/basis_transcoder.js",
+  "kb": 86
+ }
+]

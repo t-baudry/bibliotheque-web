@@ -1,0 +1,735 @@
+{
+ "id": 51,
+ "name": "Warm & Fuzzy",
+ "sourceUrl": "https://www.warmnfuzzy.tv/",
+ "capturedAt": "2026-11-03T00:02:16.659Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [
+   "txt:Accept"
+  ],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg"
+  ],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [
+   {
+    "url": "https://www.warmnfuzzy.tv/info",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.warmnfuzzy.tv/work/dunkin-pumpkin-spice",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.warmnfuzzy.tv/contact",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://www.warmnfuzzy.tv/",
+ "title": "Warm & Fuzzy | Home",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "A FEEL GOOD CREATIVE COMPANY",
+  "canonical": "https://warmnfuzzy.tv/",
+  "robots": null,
+  "ogTitle": "Warm & Fuzzy | Home",
+  "ogImage": "https://a.storyblok.com/f/290952289822093/2406x1258/56b643774f/website_seo_02.png",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [],
+  "h1Count": 1,
+  "headings": [
+   "H1 A FEEL GOOD CREATIVE COMPANY",
+   "H2 FOUNDED BY ARTISTS WITH A HEALTHY RESISTANCE TO BORING.",
+   "H2 SAMENESS IS EASY. DIFFERENCE IS OPPORTUNITY.",
+   "H3 Work",
+   "H2 That’s Warm & Fuzzy.",
+   "H3 For the last decade, we’ve partnered with brands, storytellers, and creative teams to craf",
+   "H2 Services",
+   "H2 Work that grabs you by the eyeballs."
+  ],
+  "imgs": 21,
+  "imgNoAlt": 21,
+  "favicon": "https://www.warmnfuzzy.tv/favicon/apple-touch-icon.png",
+  "themeColor": "rgb(247, 221, 71)"
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#ffffff",
+    "w": 4535758
+   },
+   {
+    "v": "#f7dd47",
+    "w": 3697200
+   },
+   {
+    "v": "#000000",
+    "w": 3592148
+   },
+   {
+    "v": "#190bb6",
+    "w": 3415883
+   }
+  ],
+  "text": [
+   {
+    "v": "#ffffff",
+    "w": 827
+   },
+   {
+    "v": "#000000",
+    "w": 761
+   }
+  ],
+  "border": [
+   {
+    "v": "#000000",
+    "w": 2
+   },
+   {
+    "v": "#ffffff",
+    "w": 1
+   }
+  ],
+  "fonts": [
+   {
+    "v": "SuisseIntl",
+    "w": 1588
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "16.4px",
+    "w": 93
+   },
+   {
+    "v": "135.3px",
+    "w": 13
+   },
+   {
+    "v": "47.15px",
+    "w": 10
+   },
+   {
+    "v": "16px",
+    "w": 6
+   },
+   {
+    "v": "65.6px",
+    "w": 2
+   },
+   {
+    "v": "98.4px",
+    "w": 1
+   }
+  ],
+  "radius": [],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.26 0.5s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "SuisseIntl",
+    "size": "47.15px",
+    "weight": "400",
+    "lineHeight": "49.036px",
+    "letterSpacing": "-1.27305px",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "A FEEL GOOD CREATIVE COMPANY"
+   },
+   "h2": {
+    "family": "SuisseIntl",
+    "size": "16.4px",
+    "weight": "400",
+    "lineHeight": "16.4px",
+    "letterSpacing": "-0.4428px",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "FOUNDED BY ARTISTS WITH A HEALTHY RESISTANCE TO BORING."
+   },
+   "h3": {
+    "family": "SuisseIntl",
+    "size": "135.3px",
+    "weight": "400",
+    "lineHeight": "123.123px",
+    "letterSpacing": "-3.6531px",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "Work"
+   },
+   "p": {
+    "family": "SuisseIntl",
+    "size": "16.4px",
+    "weight": "400",
+    "lineHeight": "20.008px",
+    "letterSpacing": "-0.4428px",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Warm & Fuzzy is a creative company: learn more"
+   },
+   "a": {
+    "family": "SuisseIntl",
+    "size": "16.4px",
+    "weight": "400",
+    "lineHeight": "20.008px",
+    "letterSpacing": "-0.4428px",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "learn more"
+   },
+   "button": {
+    "family": "SuisseIntl",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "hello@warmnfuzzy.tvCopied!hello@warmnfuzzy.tvCopied!"
+   },
+   "li": {
+    "family": "SuisseIntl",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Latest work: Dunkin Pumpkin SpiceLatest work: Dunkin Pumpkin Spice"
+   },
+   "body": {
+    "family": "SuisseIntl",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Warm & Fuzzy is a creative company: learn moreLatest work: Dunkin Pumpkin SpiceL"
+   }
+  },
+  "cssVars": {
+   "--columns": "24",
+   "--target-window-width": "1600",
+   "--scale-modifier": ".2",
+   "--gutter-outer": "16px",
+   "--gutter-inner": "16px",
+   "--outline-offset-default": "2px",
+   "--outline-offset-inset": "-3px",
+   "--outline-offset": "var(--outline-offset-default)",
+   "--single-column-width": "calc((100vw - var(--gutter-outer) * 2 - var(--gutter-inner) * (var(--columns) - 1)) / var(--columns))",
+   "--row-height-large": "round(nearest, max(64px - 64px * var(--scale-modifier) + 100vw * 64 / var(--target-window-width) * var(--scale-modifier), 64px), 1px)",
+   "--row-height": "var(--row-height-large)",
+   "--row-height-small": "var(--row-height-large)",
+   "--cell-width": "max(64px - 64px * var(--scale-modifier) + 100vw * 64 / var(--target-window-width) * var(--scale-modifier), 64px)",
+   "--button-square-size-medium": "max(24px - 24px * var(--scale-modifier) + 100vw * 24 / var(--target-window-width) * var(--scale-modifier), 24px)",
+   "--button-square-size-large": "max(32px - 32px * var(--scale-modifier) + 100vw * 32 / var(--target-window-width) * var(--scale-modifier), 32px)",
+   "--parallax-amount-small": "5svh",
+   "--parallax-amount-large": "25svh",
+   "--parallax-offset-multiplier": "-.8",
+   "--suisse-intl": "'SuisseIntl'"
+  },
+  "fontFaces": [
+   {
+    "family": "SuisseIntl",
+    "weight": "",
+    "style": "",
+    "src": "url(\"../media/700.p.0rngzss8l_a2f.woff2?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo\") format(\"woff2\")"
+   }
+  ],
+  "keyframes": [
+   "reset-scale",
+   "reset-translate",
+   "scroll-persist",
+   "scroll-reveal",
+   "scroll-shift",
+   "grid-module-scss-module__GTNAEG__reset-scale",
+   "grid-module-scss-module__GTNAEG__reset-translate",
+   "assets-module-scss-module__rFhaxG__reset-scale",
+   "assets-module-scss-module__rFhaxG__reset-translate",
+   "asset-module-scss-module__OXOYYW__reset-scale",
+   "asset-module-scss-module__OXOYYW__reset-translate",
+   "assets-stacked-module-scss-module__TS0NUW__reset-scale",
+   "assets-stacked-module-scss-module__TS0NUW__reset-translate",
+   "button-audio-module-scss-module__SST4MW__reset-scale",
+   "button-audio-module-scss-module__SST4MW__reset-translate",
+   "asset-for-project-module-scss-module__lcQrYq__reset-scale",
+   "asset-for-project-module-scss-module__lcQrYq__reset-translate",
+   "scrub-bar-module-scss-module__xM4P7q__reset-scale",
+   "scrub-bar-module-scss-module__xM4P7q__reset-translate",
+   "card-case-study-module-scss-module__RuX5aW__reset-scale",
+   "card-case-study-module-scss-module__RuX5aW__reset-translate",
+   "button-close-module-scss-module__aweooG__reset-scale",
+   "button-close-module-scss-module__aweooG__reset-translate",
+   "canvas-module-scss-module__TNHsrG__reset-scale",
+   "canvas-module-scss-module__TNHsrG__reset-translate",
+   "fallback-module-scss-module__8STKXG__reset-scale",
+   "fallback-module-scss-module__8STKXG__reset-translate",
+   "node-module-scss-module__nstEja__reset-scale",
+   "node-module-scss-module__nstEja__reset-translate",
+   "button-flip-module-scss-module__Zm6ZQa__reset-scale",
+   "button-flip-module-scss-module__Zm6ZQa__reset-translate",
+   "button-nested-module-scss-module__s2IMTa__reset-scale",
+   "button-nested-module-scss-module__s2IMTa__reset-translate",
+   "button-square-module-scss-module__sOjSLG__reset-scale",
+   "button-square-module-scss-module__sOjSLG__reset-translate",
+   "button-playback-module-scss-module__qUVZGq__reset-scale",
+   "button-playback-module-scss-module__qUVZGq__reset-translate",
+   "rich-text-module-scss-module__FigT5G__reset-scale",
+   "rich-text-module-scss-module__FigT5G__reset-translate",
+   "screen-reader-module-scss-module__bSizWa__reset-scale",
+   "screen-reader-module-scss-module__bSizWa__reset-translate",
+   "button-copy-module-scss-module___MCVOq__reset-scale",
+   "button-copy-module-scss-module___MCVOq__reset-translate",
+   "ticker-module-scss-module__57D5dq__reset-scale",
+   "ticker-module-scss-module__57D5dq__reset-translate",
+   "hero-module-scss-module__n1kP8G__reset-scale",
+   "hero-module-scss-module__n1kP8G__reset-translate",
+   "cursor-module-scss-module__KHREJW__reset-scale",
+   "cursor-module-scss-module__KHREJW__reset-translate",
+   "top-row-module-scss-module__nmqJJW__reset-scale",
+   "top-row-module-scss-module__nmqJJW__reset-translate",
+   "button-toggle-module-scss-module__L58ewG__reset-scale",
+   "button-toggle-module-scss-module__L58ewG__reset-translate",
+   "header-module-scss-module__YyVFNW__reset-scale",
+   "header-module-scss-module__YyVFNW__reset-translate",
+   "link-back-to-work-module-scss-module__TiekGG__reset-scale",
+   "link-back-to-work-module-scss-module__TiekGG__reset-translate",
+   "link-logo-module-scss-module__FtgEka__reset-scale",
+   "link-logo-module-scss-module__FtgEka__reset-translate",
+   "nav-laptop-module-scss-module__IBzsbq__reset-scale"
+  ],
+  "breakpoints": [
+   {
+    "v": "1280px",
+    "w": 106
+   },
+   {
+    "v": "768px",
+    "w": 67
+   },
+   {
+    "v": "767px",
+    "w": 12
+   },
+   {
+    "v": "1600px",
+    "w": 2
+   },
+   {
+    "v": "1279px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 1376,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "page-container-module-scss-module__-Q3gMG__scrollContainer lenis",
+    "h": 900,
+    "title": "A FEEL GOOD CREATIVE COMPANY",
+    "media": 39
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "",
+    "href": "https://www.warmnfuzzy.tv/"
+   },
+   {
+    "t": "learn more",
+    "href": "https://www.warmnfuzzy.tv/info"
+   },
+   {
+    "t": "Latest work: Dunkin Pumpkin SpiceLatest ",
+    "href": "https://www.warmnfuzzy.tv/work/dunkin-pumpkin-spice"
+   },
+   {
+    "t": "WorkWork",
+    "href": "https://www.warmnfuzzy.tv/work"
+   },
+   {
+    "t": "InfoInfo",
+    "href": "https://www.warmnfuzzy.tv/info"
+   },
+   {
+    "t": "ContactContact",
+    "href": "https://www.warmnfuzzy.tv/contact"
+   },
+   {
+    "t": "HomeHome",
+    "href": "https://www.warmnfuzzy.tv/"
+   },
+   {
+    "t": "WorkWork",
+    "href": "https://www.warmnfuzzy.tv/work"
+   },
+   {
+    "t": "InfoInfo",
+    "href": "https://www.warmnfuzzy.tv/info"
+   },
+   {
+    "t": "ContactContact",
+    "href": "https://www.warmnfuzzy.tv/contact"
+   },
+   {
+    "t": "InstagramInstagram",
+    "href": "https://www.instagram.com/warmnfuzzy.tv"
+   },
+   {
+    "t": "LinkedInLinkedIn",
+    "href": "https://www.linkedin.com/company/warm-and-fuzzy"
+   }
+  ],
+  "ctas": [],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 18,
+   "videos": 3,
+   "imgs": 21,
+   "svgs": 13,
+   "iframes": 0,
+   "domNodes": 670
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": false,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": true,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [
+   "storyblok"
+  ],
+  "analytics": [
+   "googletagmanager",
+   "gtag",
+   "clarity.ms"
+  ],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://scripts.clarity.ms/0.8.77-beta/clarity.js",
+  "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+  "https://www.clarity.ms/tag/i9l71ww8da?ref=gtm",
+  "https://www.googletagmanager.com/gtag/js?id=G-TCPRGQ7XL4&cx=c&gtm=4e6au1h1",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-K897T3VK",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/14j4zqtl0b.~b.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/0nb5xsdrh8j5d.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/07qf~jc17mo0a.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/09iv92s802q-z.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/0q5u2htnri3zw.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/0olu9n-p0dabj.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/0j~lz5suo8te3.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/09blpiogkqnsz.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/0zp8v06_8-tzt.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/12qjje.o25dkg.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/0ao673ex_ceyc.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/0skjn7eyt7~4a.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/0cuwu28w1rw69.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/0j3bx3v8qnxhf.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/17tq~dg3ss~h7.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/0kcs0e21zmpg9.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/turbopack-09zr0dfm0-cos.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/07n8tkog_8she.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/138.749sst2we.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/0-9pg3v4jydey.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/167t1np0af1c_.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/137nhojgq24sz.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/0zhz_-zej79h8.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/09kzghax1hjwe.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/0vfjpxgat0bl8.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/0b1y7586~f~ts.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/0e8q47rgv4x3j.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/turbopack-01lvsmlvrpxa7.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/build-TfctsWXpff2fKS/_buildManifest.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/build-TfctsWXpff2fKS/_ssgManifest.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/build-TfctsWXpff2fKS/_clientMiddlewareManifest.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/0nwz1f7yv1mvu.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/111rgua_t~gfz.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/06ht1.9_.vprh.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/0lh2af9bi83if.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/0_4mrm86joruc.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/0ffo-x0uvd_80.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/turbopack-068x--8rtl48g.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/0t_gg~hlh_r19.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/turbopack-06jx0zj3su.fu.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/0s5iphth-l9.g.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/turbopack-0gyl620.y9jxu.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/01milz85p~qbv.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/08h8zcz3j9_sq.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/turbopack-0zm76hktz3arp.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/0e-aotfxkh6wx.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/turbopack-06cdlsi4cq_6j.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/0l5x28j3v2dux.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/0r1ailbnqh8yu.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/12ylah~uxp6qy.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/08~ziczk0xtv3.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo",
+  "https://www.warmnfuzzy.tv/_next/static/chunks/14_c8cnwvf~9m.js?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo"
+ ],
+ "internal": [
+  "https://www.warmnfuzzy.tv/info",
+  "https://www.warmnfuzzy.tv/work/dunkin-pumpkin-spice",
+  "https://www.warmnfuzzy.tv/work",
+  "https://www.warmnfuzzy.tv/contact",
+  "https://www.warmnfuzzy.tv/work/ampm",
+  "https://www.warmnfuzzy.tv/work/Elephant-Valley",
+  "https://www.warmnfuzzy.tv/work/crocs",
+  "https://www.warmnfuzzy.tv/work/kane",
+  "https://www.warmnfuzzy.tv/work/conair",
+  "https://www.warmnfuzzy.tv/work/velociti",
+  "https://www.warmnfuzzy.tv/work/olipop",
+  "https://www.warmnfuzzy.tv/work/pearl-jam",
+  "https://www.warmnfuzzy.tv/work?service=design",
+  "https://www.warmnfuzzy.tv/work?service=animation",
+  "https://www.warmnfuzzy.tv/work?service=vfx",
+  "https://www.warmnfuzzy.tv/work?service=experiential",
+  "https://www.warmnfuzzy.tv/cookies"
+ ],
+ "perf": {
+  "ttfb": 143,
+  "dcl": 687,
+  "load": 692,
+  "lcp": 576,
+  "lcpEl": "H1.hero-module-scss-module__5KU1KW__titleTablet",
+  "cls": 0
+ },
+ "libs": {
+  "detected": [
+   "Lenis",
+   "Virtual scroll",
+   "Storyblok",
+   "React",
+   "Next.js"
+  ],
+  "where": {
+   "Lenis": [
+    "009-0-9pg3v4jydey.js",
+    "010-0zhz_-zej79h8.js",
+    "015-07n8tkog_8she.js",
+    "028-137nhojgq24sz.js",
+    "043-01milz85p_qbv.js",
+    "050-08h8zcz3j9_sq.js",
+    "styles.css"
+   ],
+   "Virtual scroll": [
+    "009-0-9pg3v4jydey.js"
+   ],
+   "Storyblok": [
+    "015-07n8tkog_8she.js",
+    "017-0zp8v06_8-tzt.js",
+    "026-0b1y7586_f_ts.js",
+    "028-137nhojgq24sz.js",
+    "042-0e-aotfxkh6wx.js",
+    "043-01milz85p_qbv.js",
+    "045-0lh2af9bi83if.js",
+    "046-0s5iphth-l9.g.js",
+    "049-0t_gg_hlh_r19.js",
+    "050-08h8zcz3j9_sq.js",
+    "051-0ffo-x0uvd_80.js"
+   ],
+   "React": [
+    "017-0zp8v06_8-tzt.js",
+    "020-0kcs0e21zmpg9.js",
+    "027-0skjn7eyt7_4a.js",
+    "030-09kzghax1hjwe.js",
+    "044-0_4mrm86joruc.js"
+   ],
+   "Next.js": [
+    "017-0zp8v06_8-tzt.js",
+    "018-17tq_dg3ss_h7.js",
+    "020-0kcs0e21zmpg9.js",
+    "027-0skjn7eyt7_4a.js",
+    "030-09kzghax1hjwe.js",
+    "044-0_4mrm86joruc.js"
+   ]
+  },
+  "gsapVersion": null,
+  "threeRevision": null,
+  "shaders": 0,
+  "scripts": 57
+ },
+ "network": {
+  "requests": 277,
+  "totalKb": 27624,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 14
+   },
+   "Stylesheet": {
+    "n": 6,
+    "kb": 21
+   },
+   "Script": {
+    "n": 56,
+    "kb": 916
+   },
+   "Image": {
+    "n": 38,
+    "kb": 4933
+   },
+   "Font": {
+    "n": 1,
+    "kb": 14
+   },
+   "Other": {
+    "n": 6,
+    "kb": 6
+   },
+   "Fetch": {
+    "n": 81,
+    "kb": 96
+   },
+   "XHR": {
+    "n": 88,
+    "kb": 21626
+   }
+  },
+  "thirdPartyHosts": [
+   "a.storyblok.com",
+   "stream.mux.com",
+   "manifest-oci-us-ashburn-1-vop1.edgemv.mux.com",
+   "chunk-oci-us-ashburn-1-vop1.edgemv.mux.com",
+   "etnu71agchd40gsj8lv3fm318.litix.io",
+   "www.googletagmanager.com",
+   "www.clarity.ms",
+   "scripts.clarity.ms",
+   "region1.google-analytics.com",
+   "p.clarity.ms",
+   "manifest-oci-us-phoenix-1-vop1.edgemv.mux.com",
+   "chunk-oci-us-phoenix-1-vop1.edgemv.mux.com"
+  ],
+  "fontFiles": [
+   "https://www.warmnfuzzy.tv/_next/static/media/700.p.0rngzss8l_a2f.woff2?dpl=dpl_GhNtJLyg1rjLitK9TaiCb6o2GKxo"
+  ],
+  "biggest": [
+   {
+    "url": "https://chunk-oci-us-ashburn-1-vop1.edgemv.mux.com/v1/chunk/OEKUjM5023eRGjxIBfCPFSs9ZQeZuxEBoti00NJ006cE1t2Cs2q025IBLnDjDvaWIaYqMeq5wJKTTawZInnpNXJst31X901sYGQ2",
+    "kb": 6542,
+    "type": "XHR"
+   },
+   {
+    "url": "https://www.warmnfuzzy.tv/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F290952289822093%2F300x300%2F84b5fa7638%2Fglass_50fps.webp&w=384&q=90",
+    "kb": 3200,
+    "type": "Image"
+   },
+   {
+    "url": "https://chunk-oci-us-ashburn-1-vop1.edgemv.mux.com/v1/chunk/uVrqKUs7g5Xgo5zabwO4LlsZm2EffUPt6MjrTzrvpStwDTb5fkzHawGkxcu7T01iWLcklj6qosA4Uzr602swtfddD3bi7fzMuA/1",
+    "kb": 2467,
+    "type": "XHR"
+   },
+   {
+    "url": "https://chunk-oci-us-ashburn-1-vop1.edgemv.mux.com/v1/chunk/5kMbFrRqedquFopJGxGeDbwU1pXflTt00HXY202N66qwAXzHxPiufFuVxG2vakS58Tcz01H00Inz6yqvAo5tSDwbNA/0.m4s?ski",
+    "kb": 1579,
+    "type": "XHR"
+   },
+   {
+    "url": "https://chunk-oci-us-ashburn-1-vop1.edgemv.mux.com/v1/chunk/k8s3MiobfNxQItprnmrIXh8My00mf1r62TWqN36VANik8LSqrhbSHlqTYUwlHr01q3ltDNTF25bOD00TS02crToSJg/0.m4s?ski",
+    "kb": 1542,
+    "type": "XHR"
+   },
+   {
+    "url": "https://chunk-oci-us-phoenix-1-vop1.edgemv.mux.com/v1/chunk/1LLdfVbNdNUB6BP6IOdQJQPys00pYRgIATxqAunQhSmnBYk2Sqq6kEfRYp801BkTynCIpyyiNDf02c/0.ts?skid=edgemv-defa",
+    "kb": 1192,
+    "type": "XHR"
+   },
+   {
+    "url": "https://chunk-oci-us-ashburn-1-vop1.edgemv.mux.com/v1/chunk/Cw4Q1Dd6Dmw4yFtPWEl02MsoAFtuflNIvKM93EgnsIxQdaTWkC10101rJ82s200U5HSho1xMm00DT5Hg/0.ts?skid=edgemv-de",
+    "kb": 722,
+    "type": "XHR"
+   },
+   {
+    "url": "https://chunk-oci-us-ashburn-1-vop1.edgemv.mux.com/v1/chunk/VTHz9WR7ZjGsJQPZz1teMyXpLgvX02DYkx2gK53OIMH3a019TSLuhcy00OFgGEtoESnbEOE3B015d2qvV01D5Y3Kgdw/2.ts?ski",
+    "kb": 701,
+    "type": "XHR"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "32.256px",
+   "lineHeight": "32.256px"
+  },
+  "body": "16px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 155
+}

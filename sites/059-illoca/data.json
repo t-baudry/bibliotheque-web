@@ -1,0 +1,824 @@
+{
+ "id": 59,
+ "name": "Illoca",
+ "sourceUrl": "https://illoca.unseen.co/",
+ "capturedAt": "2026-11-03T00:07:50.683Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [
+   "txt:Accept"
+  ],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg"
+  ],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [
+   {
+    "url": "https://illoca.unseen.co/legal",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://illoca.unseen.co/",
+ "title": "illoca – Architectural design at the speed of thought",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "illoca is an AI-native design engine built for professional architects. Explore, refine, and move from first ideas to editable 2D and 3D designs with more speed and control.",
+  "canonical": "https://illoca.unseen.co/",
+  "robots": "noindex, nofollow",
+  "ogTitle": null,
+  "ogImage": "https://illoca.unseen.co/images/og-image.png",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "Organization",
+   "WebSite",
+   "WebPage"
+  ],
+  "h1Count": 1,
+  "headings": [
+   "H1 Design at the speed of thoughtDesign at the speed of thoughtDesign at the speed of thought",
+   "H2 Augmented SketchAugmented Sketch",
+   "H2 Adaptive MassingAdaptive Massing",
+   "H2 Prompted PlansPrompted Plans",
+   "H2 Agentic RefinementAgentic Refinement",
+   "H2 Instant FacadesInstant Facades",
+   "H2 An Open LetterAn Open Letter",
+   "H2 Pricing",
+   "H3 Get 1,000 starter credits when you sign up today.",
+   "H2 Explore",
+   "H3 $29.99 / person / month",
+   "H2 Team",
+   "H3 $59.99+ / team / month",
+   "H2 Enterprise",
+   "H3 Custom pricing",
+   "H2 FAQs",
+   "H3 Frequently Asked Questions",
+   "H3 Quick links",
+   "H3 Connect"
+  ],
+  "imgs": 0,
+  "imgNoAlt": 0,
+  "favicon": "https://illoca.unseen.co/waitlist/assets/favicon.svg",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#eadfc9",
+    "w": 5184000
+   },
+   {
+    "v": "#283f7d",
+    "w": 729287
+   },
+   {
+    "v": "#fdf8f0",
+    "w": 66978
+   },
+   {
+    "v": "#fffbf3",
+    "w": 27926
+   },
+   {
+    "v": "#ffffff",
+    "w": 25407
+   },
+   {
+    "v": "#e5d6bc",
+    "w": 3441
+   },
+   {
+    "v": "#5b5b5b",
+    "w": 2674
+   },
+   {
+    "v": "#000000",
+    "w": 310
+   }
+  ],
+  "text": [
+   {
+    "v": "#373737",
+    "w": 1334
+   },
+   {
+    "v": "#fef9f1",
+    "w": 349
+   },
+   {
+    "v": "#eadfc9",
+    "w": 146
+   },
+   {
+    "v": "#9a9393",
+    "w": 79
+   },
+   {
+    "v": "#414141",
+    "w": 59
+   },
+   {
+    "v": "#212121",
+    "w": 58
+   },
+   {
+    "v": "#e0d7c5",
+    "w": 57
+   },
+   {
+    "v": "#000000",
+    "w": 55
+   },
+   {
+    "v": "#636363",
+    "w": 53
+   },
+   {
+    "v": "#c2b192",
+    "w": 53
+   },
+   {
+    "v": "#ffffff",
+    "w": 46
+   },
+   {
+    "v": "#decfb2",
+    "w": 36
+   }
+  ],
+  "border": [
+   {
+    "v": "#a19d94",
+    "w": 2
+   },
+   {
+    "v": "#424242",
+    "w": 1
+   },
+   {
+    "v": "#9c9c9c",
+    "w": 1
+   }
+  ],
+  "fonts": [
+   {
+    "v": "Graphik Web",
+    "w": 1964
+   },
+   {
+    "v": "Geist Mono",
+    "w": 271
+   },
+   {
+    "v": "F37 Analog",
+    "w": 112
+   },
+   {
+    "v": "Architect Pro",
+    "w": 72
+   },
+   {
+    "v": "ui-sans-serif",
+    "w": 55
+   },
+   {
+    "v": "Architect Pro Symbols",
+    "w": 1
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "18px",
+    "w": 208
+   },
+   {
+    "v": "76.5px",
+    "w": 139
+   },
+   {
+    "v": "12px",
+    "w": 87
+   },
+   {
+    "v": "111px",
+    "w": 51
+   },
+   {
+    "v": "72px",
+    "w": 34
+   },
+   {
+    "v": "10.5px",
+    "w": 27
+   },
+   {
+    "v": "13.5px",
+    "w": 21
+   },
+   {
+    "v": "15px",
+    "w": 7
+   },
+   {
+    "v": "9px",
+    "w": 6
+   },
+   {
+    "v": "24px",
+    "w": 6
+   },
+   {
+    "v": "13px",
+    "w": 4
+   },
+   {
+    "v": "27px",
+    "w": 3
+   },
+   {
+    "v": "7.5px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "1.5px",
+    "w": 7
+   },
+   {
+    "v": "3px",
+    "w": 5
+   },
+   {
+    "v": "4px",
+    "w": 2
+   },
+   {
+    "v": "2px",
+    "w": 1
+   },
+   {
+    "v": "10px",
+    "w": 1
+   }
+  ],
+  "shadows": [
+   {
+    "v": "rgba(0, 0, 0, 0.15) 2px 2px 2px 0px",
+    "w": 4
+   },
+   {
+    "v": "rgba(0, 0, 0, 0.1) 4px 4px 0px 0px",
+    "w": 3
+   },
+   {
+    "v": "rgba(0, 0, 0, 0.1) 4px -2px 0px 0px",
+    "w": 1
+   },
+   {
+    "v": "rgba(0, 0, 0, 0.1) 6px 6px 0px 0px",
+    "w": 1
+   },
+   {
+    "v": "rgba(80, 115, 208, 0.2) 0px 2px 3px 0px inset, rgba(0, 0, 0, 0.1) 4px 4px 0px 0px",
+    "w": 1
+   }
+  ],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.4 0.5s",
+    "w": 5
+   },
+   {
+    "v": "cubic-bezier(0.4 0.2s",
+    "w": 2
+   },
+   {
+    "v": "cubic-bezier(0.4 0.15s",
+    "w": 2
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "\"F37 Analog\", sans-serif",
+    "size": "111px",
+    "weight": "500",
+    "lineHeight": "99.9px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#373737",
+    "sample": "Design at the speed of thoughtDesign at the speed of thoughtDesign at the speed "
+   },
+   "h2": {
+    "family": "\"F37 Analog\", sans-serif",
+    "size": "76.5px",
+    "weight": "400",
+    "lineHeight": "76.5px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#373737",
+    "sample": "Augmented SketchAugmented Sketch"
+   },
+   "h3": {
+    "family": "\"Graphik Web\", sans-serif",
+    "size": "24px",
+    "weight": "500",
+    "lineHeight": "24px",
+    "letterSpacing": "-0.48px",
+    "transform": "none",
+    "color": "#373737",
+    "sample": "Get 1,000 starter credits when you sign up today."
+   },
+   "p": {
+    "family": "\"Graphik Web\", sans-serif",
+    "size": "15px",
+    "weight": "400",
+    "lineHeight": "16.5px",
+    "letterSpacing": "-0.45px",
+    "transform": "none",
+    "color": "#373737",
+    "sample": "To those who shape the world,"
+   },
+   "a": {
+    "family": "\"Geist Mono\", monospace",
+    "size": "12px",
+    "weight": "500",
+    "lineHeight": "12px",
+    "letterSpacing": "-0.24px",
+    "transform": "none",
+    "color": "#414141",
+    "sample": "Features Features"
+   },
+   "button": {
+    "family": "\"Graphik Web\", sans-serif",
+    "size": "18px",
+    "weight": "500",
+    "lineHeight": "21.6px",
+    "letterSpacing": "-0.36px",
+    "transform": "none",
+    "color": "#373737",
+    "sample": "How does Tracing Paper differ from generic AI or conventional design tools?"
+   },
+   "li": {
+    "family": "\"Geist Mono\", monospace",
+    "size": "12px",
+    "weight": "500",
+    "lineHeight": "12px",
+    "letterSpacing": "-0.24px",
+    "transform": "none",
+    "color": "#414141",
+    "sample": "Features Features"
+   },
+   "body": {
+    "family": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "size": "12px",
+    "weight": "400",
+    "lineHeight": "18px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "illoca – Architectural design at the speed of thought Try for free Menu Close Fe"
+   }
+  },
+  "cssVars": {
+   "--font-sans": "ui-sans-serif,system-ui,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"",
+   "--font-mono": "ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace",
+   "--color-gray-500": "oklch(55.1% .027 264.364)",
+   "--color-black": "#373737",
+   "--color-white": "#fff",
+   "--spacing": ".0625rem",
+   "--container-sm": "24rem",
+   "--text-sm": ".875rem",
+   "--text-sm--line-height": "1.42857",
+   "--font-weight-medium": "500",
+   "--font-weight-semibold": "600",
+   "--font-weight-bold": "700",
+   "--font-weight-extrabold": "800",
+   "--tracking-tight": "-.025em",
+   "--tracking-widest": ".1em",
+   "--leading-snug": "1.375",
+   "--radius-xl": ".75rem",
+   "--ease-in-out": "cubic-bezier(.4,0,.2,1)",
+   "--default-transition-duration": ".15s",
+   "--default-transition-timing-function": "cubic-bezier(.4,0,.2,1)",
+   "--default-font-family": "var(--font-sans)",
+   "--default-mono-font-family": "var(--font-mono)",
+   "--text-10": ".625rem",
+   "--text-12": ".75rem",
+   "--text-14": ".875rem",
+   "--text-16": "1rem",
+   "--text-18": "1.125rem",
+   "--text-20": "1.25rem",
+   "--text-24": "1.5rem",
+   "--text-32": "2rem",
+   "--text-36": "2.25rem",
+   "--text-40": "2.5rem",
+   "--text-56": "3.5rem",
+   "--text-64": "4rem",
+   "--text-72": "4.5rem",
+   "--text-96": "6rem",
+   "--text-102": "6.375rem",
+   "--text-148": "9.25rem",
+   "--leading-0.9": ".9",
+   "--leading-1": "1",
+   "--leading-1.1": "1.1",
+   "--leading-1.15": "1.15",
+   "--leading-1.2": "1.2",
+   "--leading-1.3": "1.3",
+   "--leading-1.4": "1.4",
+   "--tracking-2": ".02em",
+   "--tracking-3": ".03em",
+   "--tracking-5": ".05em",
+   "--font-weight-400": "400",
+   "--font-weight-500": "500",
+   "--font-weight-600": "600",
+   "--font-weight-700": "700",
+   "--font-f37": "\"F37 Analog\",sans-serif",
+   "--font-graphik": "\"Graphik Web\",sans-serif",
+   "--font-architect": "\"Architect Pro\",sans-serif",
+   "--font-symbols": "\"Architect Pro Symbols\",sans-serif",
+   "--font-geist": "\"Geist Mono\",monospace",
+   "--color-scrollbar": "#000",
+   "--color-light-grey": "#9aa0a6",
+   "--color-error": "#e60076",
+   "--color-nav": "#fffbf3f2",
+   "--color-hole-border": "#3f3f3f",
+   "--color-body": "#636363",
+   "--color-primary": "#283f7d",
+   "--color-orange": "#ec633d",
+   "--color-border": "#424242",
+   "--radius-2": ".125rem",
+   "--radius-4": ".25rem",
+   "--breakpoint-ipadpro": "(hover:none) and (pointer:coarse) and (min-width:1024px)",
+   "--breakpoint-touch": "(pointer:coarse)",
+   "--breakpoint-nottouch": "(hover:hover) and (pointer:fine)",
+   "--breakpoint-portrait": "(orientation:portrait)"
+  },
+  "fontFaces": [
+   {
+    "family": "F37 Analog",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"../fonts/F37Analog-Medium.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Graphik Web",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"../fonts/Graphik-Regular-Web.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Graphik Web",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"../fonts/Graphik-Medium-Web.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Architect Pro Symbols",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"../fonts/ArchitectProSymbols.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Architect Pro",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"../fonts/ArchitectProMarkerCap.woff2\") format(\"woff2\")"
+   }
+  ],
+  "keyframes": [],
+  "breakpoints": [
+   {
+    "v": "1080px",
+    "w": 9
+   },
+   {
+    "v": "1921px",
+    "w": 4
+   },
+   {
+    "v": "768px",
+    "w": 3
+   },
+   {
+    "v": "1024px",
+    "w": 3
+   },
+   {
+    "v": "2400px",
+    "w": 2
+   },
+   {
+    "v": "480px",
+    "w": 1
+   },
+   {
+    "v": "1536px",
+    "w": 1
+   },
+   {
+    "v": "3840px",
+    "w": 1
+   },
+   {
+    "v": "580px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 1125,
+  "crossOriginSheets": 2
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": "__nuxt",
+    "cls": "",
+    "h": 900,
+    "title": "Design at the speed of thoughtDesign at the speed of thoughtDesign at the speed ",
+    "media": 1
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "fixed top-0 right-0 h-full w-8 md:w-[20px] z-[999] opacity-0 transition-opacity ",
+    "h": 900,
+    "title": "",
+    "media": 0
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "",
+    "href": "https://illoca.unseen.co/"
+   },
+   {
+    "t": "Features Features",
+    "href": "https://illoca.unseen.co/?section=features"
+   },
+   {
+    "t": "Pricing Pricing",
+    "href": "https://illoca.unseen.co/?section=pricing"
+   },
+   {
+    "t": "FAQs FAQs",
+    "href": "https://illoca.unseen.co/?section=faqs"
+   },
+   {
+    "t": "Try for free Try for free",
+    "href": "https://app.illoca.com/"
+   }
+  ],
+  "ctas": [
+   "Try for free Try for free",
+   "Sign up Sign up",
+   "Join waitlist Join waitlist",
+   "Contact us Contact us",
+   "hello@illoca.com hello@illoca.com",
+   "Accept",
+   "Reject"
+  ],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 1,
+   "videos": 0,
+   "imgs": 0,
+   "svgs": 49,
+   "iframes": 0,
+   "domNodes": 1217
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "183",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": true,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": true,
+  "cms": [],
+  "analytics": [
+   "posthog"
+  ],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://illoca.unseen.co/_nuxt/DGk6hhCZ.js"
+ ],
+ "internal": [
+  "https://illoca.unseen.co/legal",
+  "https://illoca.unseen.co/legal/terms",
+  "https://illoca.unseen.co/legal/privacy"
+ ],
+ "perf": {
+  "ttfb": 280,
+  "dcl": 1235,
+  "load": 1235,
+  "lcp": 844,
+  "lcpEl": "image",
+  "cls": 0
+ },
+ "libs": {
+  "detected": [
+   "SplitText/SplitType",
+   "Lenis",
+   "GSAP",
+   "ScrollTrigger",
+   "Three.js",
+   "Postprocessing",
+   "Theatre.js",
+   "Vue",
+   "Nuxt",
+   "Virtual scroll"
+  ],
+  "where": {
+   "SplitText/SplitType": [
+    "004-DCGk3jTd.js",
+    "005-DGk6hhCZ.js"
+   ],
+   "Lenis": [
+    "004-DCGk3jTd.js",
+    "005-DGk6hhCZ.js",
+    "styles.css"
+   ],
+   "GSAP": [
+    "005-DGk6hhCZ.js"
+   ],
+   "ScrollTrigger": [
+    "005-DGk6hhCZ.js"
+   ],
+   "Three.js": [
+    "005-DGk6hhCZ.js"
+   ],
+   "Postprocessing": [
+    "005-DGk6hhCZ.js"
+   ],
+   "Theatre.js": [
+    "005-DGk6hhCZ.js"
+   ],
+   "Vue": [
+    "005-DGk6hhCZ.js"
+   ],
+   "Nuxt": [
+    "005-DGk6hhCZ.js"
+   ],
+   "Virtual scroll": [
+    "005-DGk6hhCZ.js"
+   ]
+  },
+  "gsapVersion": "3.11.0",
+  "threeRevision": null,
+  "shaders": 19,
+  "scripts": 8
+ },
+ "network": {
+  "requests": 99,
+  "totalKb": 8367,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 17
+   },
+   "Image": {
+    "n": 61,
+    "kb": 1138
+   },
+   "Stylesheet": {
+    "n": 5,
+    "kb": 16
+   },
+   "Other": {
+    "n": 4,
+    "kb": 6
+   },
+   "Script": {
+    "n": 6,
+    "kb": 624
+   },
+   "Font": {
+    "n": 6,
+    "kb": 195
+   },
+   "Fetch": {
+    "n": 16,
+    "kb": 6371
+   }
+  },
+  "thirdPartyHosts": [
+   "fonts.googleapis.com",
+   "fonts.gstatic.com"
+  ],
+  "fontFiles": [
+   "https://illoca.unseen.co/fonts/Graphik-Medium-Web.woff2",
+   "https://illoca.unseen.co/fonts/ArchitectProSymbols.woff2",
+   "https://illoca.unseen.co/fonts/Graphik-Regular-Web.woff2",
+   "https://illoca.unseen.co/fonts/ArchitectProMarkerCap.woff2",
+   "https://illoca.unseen.co/fonts/F37Analog-Medium.woff2",
+   "https://fonts.gstatic.com/s/geistmono/v6/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeEPKK5U5Ck.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://illoca.unseen.co/webgl/models/building.glb",
+    "kb": 3712,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://illoca.unseen.co/webgl/models/scene.glb",
+    "kb": 1283,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://illoca.unseen.co/_nuxt/DGk6hhCZ.js",
+    "kb": 540,
+    "type": "Script"
+   },
+   {
+    "url": "https://illoca.unseen.co/webgl/textures/voronoi.ktx2",
+    "kb": 426,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://illoca.unseen.co/basis/basis_transcoder.wasm",
+    "kb": 226,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://illoca.unseen.co/webgl/textures/facades.ktx2",
+    "kb": 187,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://illoca.unseen.co/images/grain-400.jpg",
+    "kb": 127,
+    "type": "Image"
+   },
+   {
+    "url": "https://illoca.unseen.co/webgl/textures/floorplan-ai.ktx2",
+    "kb": 113,
+    "type": "Fetch"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "57.7777px",
+   "lineHeight": "52px"
+  },
+  "body": "14.4444px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 440
+}

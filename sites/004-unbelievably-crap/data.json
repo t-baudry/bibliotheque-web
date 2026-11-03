@@ -1,0 +1,750 @@
+{
+ "id": 4,
+ "name": "Unbelievably Crap",
+ "sourceUrl": "https://www.unbelievablycrap.com/",
+ "capturedAt": "2026-11-02T23:07:21.869Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "erreur: Command failed: C:\\Program Files\\nodejs\\node.exe C:\\Users\\Utilisateur\\Documents\\Pro\\Bibliothèque web\\_outils\\node_modules\\rea-agents\\scripts\\rea.mjs analyze-web-bundle http://127.0.0.1:9304 263AF818E3",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg"
+  ],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [
+   {
+    "url": "https://www.unbelievablycrap.com/work",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.unbelievablycrap.com/gallery",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.unbelievablycrap.com/404",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://www.unbelievablycrap.com/",
+ "title": "Liubomyr Ulytskyi - Digital Designer",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Liubomyr Ulytskyi — Digital Designer, award-winning UI/UX Designer, art director, conceptualist.",
+  "canonical": null,
+  "robots": null,
+  "ogTitle": "Liubomyr Ulytskyi - Digital Designer",
+  "ogImage": "https://unbelievablycrap.com/og-image.jpg",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [],
+  "h1Count": 0,
+  "headings": [
+   "H2 find yourway out ofhere"
+  ],
+  "imgs": 13,
+  "imgNoAlt": 13,
+  "favicon": "https://www.unbelievablycrap.com/favicon.ico",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#393939",
+    "w": 2113974
+   },
+   {
+    "v": "#e8271c",
+    "w": 1296025
+   },
+   {
+    "v": "#000000",
+    "w": 1296000
+   },
+   {
+    "v": "#ffffff",
+    "w": 8312
+   },
+   {
+    "v": "#d9d9d9",
+    "w": 72
+   },
+   {
+    "v": "#ff0000",
+    "w": 9
+   }
+  ],
+  "text": [
+   {
+    "v": "#ffffff",
+    "w": 6672
+   },
+   {
+    "v": "#393939",
+    "w": 1449
+   },
+   {
+    "v": "#c8c8c8",
+    "w": 207
+   },
+   {
+    "v": "#daecf1",
+    "w": 200
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "PP Supply Sans",
+    "w": 8528
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "10px",
+    "w": 634
+   },
+   {
+    "v": "14px",
+    "w": 7
+   },
+   {
+    "v": "128px",
+    "w": 3
+   },
+   {
+    "v": "16px",
+    "w": 2
+   },
+   {
+    "v": "64px",
+    "w": 2
+   }
+  ],
+  "radius": [],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "ease 0.18s",
+    "w": 5
+   },
+   {
+    "v": "linear 0.28s",
+    "w": 1
+   },
+   {
+    "v": "cubic-bezier(0.4 0.42s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h2": {
+    "family": "\"PP Supply Sans\", \"Neue Haas Grotesk Text\", Inter, -apple-system, BlinkMacSystemFont, \"Helvetica Neue\", Arial, sans-seri",
+    "size": "128px",
+    "weight": "400",
+    "lineHeight": "102px",
+    "letterSpacing": "-5.12px",
+    "transform": "uppercase",
+    "color": "#000000",
+    "sample": "find yourway out ofhere"
+   },
+   "p": {
+    "family": "\"PP Supply Sans\", \"Neue Haas Grotesk Text\", Inter, -apple-system, BlinkMacSystemFont, \"Helvetica Neue\", Arial, sans-seri",
+    "size": "10px",
+    "weight": "400",
+    "lineHeight": "5px",
+    "letterSpacing": "-0.4px",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "CASE FILE: THE MAN BEHIND THE IMAGE"
+   },
+   "a": {
+    "family": "\"PP Supply Sans\", \"Neue Haas Grotesk Text\", Inter, -apple-system, BlinkMacSystemFont, \"Helvetica Neue\", Arial, sans-seri",
+    "size": "10px",
+    "weight": "400",
+    "lineHeight": "10px",
+    "letterSpacing": "-0.4px",
+    "transform": "uppercase",
+    "color": "#ff0000",
+    "sample": "index"
+   },
+   "button": {
+    "family": "\"PP Supply Sans\", \"Neue Haas Grotesk Text\", Inter, -apple-system, BlinkMacSystemFont, \"Helvetica Neue\", Arial, sans-seri",
+    "size": "10px",
+    "weight": "400",
+    "lineHeight": "10px",
+    "letterSpacing": "-0.4px",
+    "transform": "uppercase",
+    "color": "#ff0000",
+    "sample": "don’t contact me"
+   },
+   "body": {
+    "family": "\"PP Supply Sans\", \"Neue Haas Grotesk Text\", Inter, -apple-system, BlinkMacSystemFont, \"Helvetica Neue\", Arial, sans-seri",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#c8c8c8",
+    "sample": "the crap experience isbest viewed witha desktop sorry, not sorry CASE FILE: THE "
+   }
+  },
+  "cssVars": {
+   "--font-main": "'PP Supply Sans','Neue Haas Grotesk Text','Inter',-apple-system,\n              BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif",
+   "--font-mono": "'PP Supply Mono',ui-monospace,'SF Mono','Roboto Mono',monospace",
+   "--c-white": "#ffffff",
+   "--c-fog": "#afafaf",
+   "--c-slate": "#6e6e6e",
+   "--c-label": "#636363",
+   "--c-fade": "#c3c3c3",
+   "--c-ink": "#1a1a1a",
+   "--hud-size": "11px",
+   "--tracking": "-0.04em",
+   "--ui-ink": "#393939",
+   "--ui-dim": "rgba(57,57,57,.5)",
+   "--ui-red": "#e8271c",
+   "--ui-grey": "#c8c8c8",
+   "--ui-bar": "#393939",
+   "--ui-10": "10px",
+   "--ui-14": "14px",
+   "--ui-track": "-0.04em",
+   "--about-ground": "#e8271c",
+   "--about-ink": "#C8C8C8",
+   "--about-dim": "rgba(200,200,200,.5)",
+   "--grain-blend": "lighten",
+   "--grain-opacity": ".06",
+   "--grain-brightness": "100%",
+   "--grain-contrast": "50%",
+   "--grain-size": "1em",
+   "--ease-osmo": "cubic-bezier(0.625, 0.05, 0, 1)",
+   "--ease-out": "cubic-bezier(.22, .61, .36, 1)",
+   "--loader-ink": "#ffffff",
+   "--loader-ground": "#000000"
+  },
+  "fontFaces": [
+   {
+    "family": "PP Supply Sans",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"../fonts/PPSupplySans-Regular.woff\") format(\"woff\")"
+   },
+   {
+    "family": "PP Supply Sans",
+    "weight": "200",
+    "style": "normal",
+    "src": "url(\"../fonts/PPSupplySans-Ultralight.woff\") format(\"woff\")"
+   },
+   {
+    "family": "PP Supply Mono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"../fonts/PPSupplyMono-Regular.woff\") format(\"woff\")"
+   },
+   {
+    "family": "PP Supply Mono",
+    "weight": "200",
+    "style": "normal",
+    "src": "url(\"../fonts/PPSupplyMono-Ultralight.woff\") format(\"woff\")"
+   }
+  ],
+  "keyframes": [
+   "peekIn",
+   "lineIn",
+   "grain",
+   "lineFadeOnly",
+   "hud-hatch",
+   "ftr-run"
+  ],
+  "breakpoints": [
+   {
+    "v": "720px",
+    "w": 3
+   },
+   {
+    "v": "860px",
+    "w": 1
+   },
+   {
+    "v": "620px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 474,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": "aboutRoot",
+    "cls": "about",
+    "h": 900,
+    "title": "",
+    "media": 5
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "hud is-on",
+    "h": 900,
+    "title": "",
+    "media": 1
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "ts",
+    "h": 1644,
+    "title": "",
+    "media": 14
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "b2 is-held",
+    "h": 900,
+    "title": "",
+    "media": 2
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "ftr",
+    "h": 900,
+    "title": "find yourway out ofhere",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "ftr__sheet",
+    "h": 900,
+    "title": "",
+    "media": 0
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "index",
+    "href": "https://www.unbelievablycrap.com/"
+   },
+   {
+    "t": "work",
+    "href": "https://www.unbelievablycrap.com/work"
+   },
+   {
+    "t": "gallery",
+    "href": "https://www.unbelievablycrap.com/gallery"
+   },
+   {
+    "t": "404",
+    "href": "https://www.unbelievablycrap.com/404"
+   }
+  ],
+  "ctas": [],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 11,
+   "videos": 0,
+   "imgs": 13,
+   "svgs": 19,
+   "iframes": 0,
+   "domNodes": 1230
+  }
+ },
+ "tech": {
+  "gsap": true,
+  "gsapVersion": "3.12.5",
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": false,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "159",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": true,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://www.unbelievablycrap.com/js/err-art.js",
+  "https://www.unbelievablycrap.com/js/err-card.js",
+  "https://www.unbelievablycrap.com/assets/about/figure-lite.js",
+  "https://www.unbelievablycrap.com/assets/about/logo.js",
+  "https://cdn.jsdelivr.net/npm/three@0.159.0/build/three.min.js",
+  "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js",
+  "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/CustomEase.min.js",
+  "https://cdn.jsdelivr.net/npm/@barba/core@2.10.3/dist/barba.umd.min.js",
+  "https://www.unbelievablycrap.com/assets/about/figure.js",
+  "https://www.unbelievablycrap.com/assets/about/skeleton.js",
+  "https://www.unbelievablycrap.com/assets/about/head.js",
+  "https://www.unbelievablycrap.com/assets/about/head-map.js",
+  "https://www.unbelievablycrap.com/assets/about/skull.js",
+  "https://www.unbelievablycrap.com/js/gate.js",
+  "https://www.unbelievablycrap.com/js/fps.js",
+  "https://www.unbelievablycrap.com/js/isolate.js",
+  "https://www.unbelievablycrap.com/js/dissolve-look.js",
+  "https://www.unbelievablycrap.com/js/lifecycle.js",
+  "https://www.unbelievablycrap.com/js/pixelate.js",
+  "https://www.unbelievablycrap.com/js/data.js",
+  "https://www.unbelievablycrap.com/js/main.js",
+  "https://www.unbelievablycrap.com/js/wheel.js",
+  "https://www.unbelievablycrap.com/js/sphere-gallery.js",
+  "https://www.unbelievablycrap.com/js/wheel-ui.js",
+  "https://www.unbelievablycrap.com/js/about-text.js",
+  "https://www.unbelievablycrap.com/js/about-figure.js",
+  "https://www.unbelievablycrap.com/js/figure-host.js",
+  "https://www.unbelievablycrap.com/js/about-xray.js",
+  "https://www.unbelievablycrap.com/js/dormancy.js",
+  "https://www.unbelievablycrap.com/js/mask.js",
+  "https://www.unbelievablycrap.com/js/hud.js",
+  "https://www.unbelievablycrap.com/js/block2.js",
+  "https://www.unbelievablycrap.com/js/head-spin.js",
+  "https://www.unbelievablycrap.com/js/touch-scroll.js",
+  "https://www.unbelievablycrap.com/js/awards.js",
+  "https://www.unbelievablycrap.com/js/tscroll.js",
+  "https://www.unbelievablycrap.com/js/track-switch.js",
+  "https://www.unbelievablycrap.com/js/err.js",
+  "https://www.unbelievablycrap.com/js/footer.js",
+  "https://www.unbelievablycrap.com/js/tunnel.js",
+  "https://www.unbelievablycrap.com/js/path-gallery.js",
+  "https://www.unbelievablycrap.com/js/path-map.js",
+  "https://www.unbelievablycrap.com/js/tint.js",
+  "https://www.unbelievablycrap.com/js/work-grid.js",
+  "https://www.unbelievablycrap.com/js/work-arrive.js",
+  "https://www.unbelievablycrap.com/js/lightbox.js",
+  "https://www.unbelievablycrap.com/js/crt.js",
+  "https://www.unbelievablycrap.com/js/clock.js",
+  "https://www.unbelievablycrap.com/js/err-console.js",
+  "https://www.unbelievablycrap.com/js/path-console.js",
+  "https://www.unbelievablycrap.com/js/tunnel-console.js",
+  "https://www.unbelievablycrap.com/js/work-grid-console.js",
+  "https://www.unbelievablycrap.com/js/mask-scroll.js",
+  "https://www.unbelievablycrap.com/js/work-cursor.js",
+  "https://www.unbelievablycrap.com/js/ui.js",
+  "https://www.unbelievablycrap.com/js/line-reveal.js",
+  "https://www.unbelievablycrap.com/js/contact-cta.js",
+  "https://www.unbelievablycrap.com/js/tuner.js",
+  "https://www.unbelievablycrap.com/js/wheel-console.js",
+  "https://www.unbelievablycrap.com/js/tune-console.js",
+  "https://www.unbelievablycrap.com/js/about-console.js",
+  "https://www.unbelievablycrap.com/js/transition-liquid.js",
+  "https://www.unbelievablycrap.com/js/transition-iris.js",
+  "https://www.unbelievablycrap.com/js/transition-sheet.js",
+  "https://www.unbelievablycrap.com/js/transition.js",
+  "https://www.unbelievablycrap.com/js/loader.js"
+ ],
+ "internal": [
+  "https://www.unbelievablycrap.com/work",
+  "https://www.unbelievablycrap.com/gallery",
+  "https://www.unbelievablycrap.com/404"
+ ],
+ "perf": {
+  "ttfb": 93,
+  "dcl": 1885,
+  "load": 3091,
+  "lcp": 165360,
+  "lcpEl": "P.hud__slashes",
+  "cls": 0.552
+ },
+ "libs": {
+  "detected": [
+   "React Three Fiber",
+   "Swup",
+   "Barba.js",
+   "GSAP",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Three.js",
+   "Svelte",
+   "Lenis"
+  ],
+  "where": {
+   "React Three Fiber": [
+    "001-head-map.js",
+    "001-skeleton.js",
+    "002-skull.js",
+    "008-head-map.js",
+    "015-head.js",
+    "017-head-map.js",
+    "017-skeleton.js",
+    "022-skull.js",
+    "028-skull.js",
+    "030-head.js",
+    "056-skeleton.js",
+    "060-head.js",
+    "061-figure.js",
+    "064-figure-lite.js",
+    "065-figure.js",
+    "066-skeleton.js",
+    "067-head.js",
+    "068-head-map.js",
+    "069-skull.js",
+    "070-figure-lite.js"
+   ],
+   "Swup": [
+    "001-head-map.js",
+    "002-skull.js",
+    "008-head-map.js",
+    "017-head-map.js",
+    "022-skull.js",
+    "028-skull.js",
+    "061-figure.js",
+    "065-figure.js",
+    "068-head-map.js",
+    "069-skull.js"
+   ],
+   "Barba.js": [
+    "001-main.js",
+    "004-sphere-gallery.js",
+    "005-barba.umd.min.js",
+    "006-sphere-gallery.js",
+    "007-about-figure.js",
+    "007-lifecycle.js",
+    "007-sphere-gallery.js",
+    "009-wheel-ui.js",
+    "010-dormancy.js",
+    "010-main.js",
+    "010-wheel.js",
+    "011-wheel-ui.js",
+    "011-wheel.js",
+    "012-about-xray.js",
+    "012-wheel-ui.js",
+    "013-lifecycle.js",
+    "016-dormancy.js",
+    "017-about-figure.js",
+    "018-main.js",
+    "020-barba.umd.min.js",
+    "021-pixelate.js",
+    "023-pixelate.js",
+    "023-wheel.js",
+    "024-about-figure.js",
+    "024-about-xray.js",
+    "026-dormancy.js",
+    "027-about-xray.js",
+    "032-work-cursor.js",
+    "034-work-arrive.js",
+    "037-barba.umd.min.js",
+    "038-transition-sheet.js",
+    "039-line-reveal.js",
+    "040-ui.js",
+    "043-tuner.js",
+    "044-ui.js",
+    "046-loader.js",
+    "046-transition.js",
+    "046-work-arrive.js",
+    "047-transition.js",
+    "048-pixelate.js",
+    "048-work-cursor.js",
+    "049-loader.js",
+    "050-lifecycle.js",
+    "050-tuner.js",
+    "052-line-reveal.js",
+    "053-tuner.js",
+    "055-loader.js",
+    "055-transition.js",
+    "056-work-arrive.js",
+    "057-line-reveal.js",
+    "058-transition-sheet.js",
+    "058-work-cursor.js",
+    "059-transition-sheet.js",
+    "064-barba.umd.min.js"
+   ],
+   "GSAP": [
+    "003-CustomEase.min.js",
+    "004-gsap.min.js",
+    "019-CustomEase.min.js",
+    "023-gsap.min.js",
+    "035-CustomEase.min.js",
+    "036-gsap.min.js",
+    "046-transition.js",
+    "047-transition.js",
+    "055-transition.js",
+    "062-gsap.min.js",
+    "063-CustomEase.min.js"
+   ],
+   "ScrollTrigger": [
+    "004-gsap.min.js",
+    "023-gsap.min.js",
+    "036-gsap.min.js",
+    "046-transition.js",
+    "047-transition.js",
+    "055-transition.js",
+    "062-gsap.min.js"
+   ],
+   "SplitText/SplitType": [
+    "005-about-text.js",
+    "007-about-figure.js",
+    "013-about-text.js",
+    "017-about-figure.js",
+    "024-about-figure.js"
+   ],
+   "Three.js": [
+    "012-about-xray.js",
+    "024-about-xray.js",
+    "027-about-xray.js",
+    "066-three.min.js",
+    "072-three.min.js"
+   ],
+   "Svelte": [
+    "040-mask-scroll.js",
+    "048-mask-scroll.js",
+    "052-mask-scroll.js"
+   ],
+   "Lenis": [
+    "046-transition.js",
+    "047-transition.js",
+    "055-transition.js"
+   ]
+  },
+  "gsapVersion": "3.12.5",
+  "threeRevision": null,
+  "shaders": 40,
+  "scripts": 194
+ },
+ "network": {
+  "requests": 98,
+  "totalKb": 4672,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 17
+   },
+   "Stylesheet": {
+    "n": 23,
+    "kb": 77
+   },
+   "Font": {
+    "n": 1,
+    "kb": 25
+   },
+   "Image": {
+    "n": 6,
+    "kb": 171
+   },
+   "Script": {
+    "n": 66,
+    "kb": 4380
+   },
+   "Other": {
+    "n": 1,
+    "kb": 1
+   }
+  },
+  "thirdPartyHosts": [
+   "cdn.jsdelivr.net"
+  ],
+  "fontFiles": [
+   "https://www.unbelievablycrap.com/fonts/PPSupplySans-Regular.woff"
+  ],
+  "biggest": [
+   {
+    "url": "https://www.unbelievablycrap.com/assets/about/figure.js",
+    "kb": 2586,
+    "type": "Script"
+   },
+   {
+    "url": "https://www.unbelievablycrap.com/assets/about/head.js",
+    "kb": 350,
+    "type": "Script"
+   },
+   {
+    "url": "https://www.unbelievablycrap.com/assets/about/logo.js",
+    "kb": 210,
+    "type": "Script"
+   },
+   {
+    "url": "https://www.unbelievablycrap.com/assets/about/skull.js",
+    "kb": 188,
+    "type": "Script"
+   },
+   {
+    "url": "https://www.unbelievablycrap.com/assets/grain/noise.png",
+    "kb": 166,
+    "type": "Image"
+   },
+   {
+    "url": "https://www.unbelievablycrap.com/assets/about/figure-lite.js",
+    "kb": 166,
+    "type": "Script"
+   },
+   {
+    "url": "https://cdn.jsdelivr.net/npm/three@0.159.0/build/three.min.js",
+    "kb": 162,
+    "type": "Script"
+   },
+   {
+    "url": "https://www.unbelievablycrap.com/assets/about/head-map.js",
+    "kb": 132,
+    "type": "Script"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": null,
+  "body": "16px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 347
+}

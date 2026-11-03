@@ -1,0 +1,3921 @@
+/* ===== https://www.unbelievablycrap.com/css/base.css ===== */
+/* ==========================================================================
+   base.css — fonts, tokens and reset shared by every page.
+
+   WHY THIS FILE EXISTS
+   Barba swaps only the <main data-barba="container">; <head> persists across
+   a navigation. So the two pages can no longer own competing copies of the
+   @font-face block, :root and body rules — whichever page loaded last would
+   dictate them for the rest of the session. Everything global now lives here
+   and loads once; style.css and wheel.css keep only their own components.
+
+   Typeface: PP Supply Sans / PP Supply Mono, licensed files supplied by the
+   client and served locally from /fonts (woff — zlib-compressed, no brotli
+   toolchain was available at build time; fine to re-run through a woff2
+   compressor later, .woff is universally supported as-is).
+   ========================================================================== */
+
+@font-face{
+  font-family:'PP Supply Sans';
+  src:url('../fonts/PPSupplySans-Regular.woff') format('woff');
+  font-weight:400; font-style:normal; font-display:swap;
+}
+@font-face{
+  font-family:'PP Supply Sans';
+  src:url('../fonts/PPSupplySans-Ultralight.woff') format('woff');
+  font-weight:200; font-style:normal; font-display:swap;
+}
+@font-face{
+  font-family:'PP Supply Mono';
+  src:url('../fonts/PPSupplyMono-Regular.woff') format('woff');
+  font-weight:400; font-style:normal; font-display:swap;
+}
+@font-face{
+  font-family:'PP Supply Mono';
+  src:url('../fonts/PPSupplyMono-Ultralight.woff') format('woff');
+  font-weight:200; font-style:normal; font-display:swap;
+}
+
+:root{
+  --font-main:'PP Supply Sans','Neue Haas Grotesk Text','Inter',-apple-system,
+              BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;
+  --font-mono:'PP Supply Mono',ui-monospace,'SF Mono','Roboto Mono',monospace;
+
+  --c-white:#ffffff;
+  --c-fog:#afafaf;
+  --c-slate:#6e6e6e;
+  --c-label:#636363;
+  --c-fade:#c3c3c3;
+
+  /* Body ink. The two pages shipped with different values (#393939 on the
+     wheel, #1a1a1a on the sphere) and only ever used it for `body` colour and
+     ::selection — every visible string sets its own colour. Kept per page
+     anyway rather than silently unifying: `data-page` is set on <body> by the
+     transition, which is the same hook Barba needs for anything else that has
+     to differ between pages. */
+  --c-ink:#393939;
+
+  --hud-size:14px;
+  --tracking:-0.04em;
+}
+body[data-page="gallery"]{ --c-ink:#1a1a1a; }
+
+*,*::before,*::after{ box-sizing:border-box; }
+
+html{ -webkit-text-size-adjust:100%; }
+
+body{
+  margin:0;
+  font-family:var(--font-main);
+  color:var(--c-ink);
+  background:var(--c-white);
+  -webkit-font-smoothing:antialiased;
+
+  /* Both pages are a single fixed screen and both own the wheel/scroll
+     gesture, so nothing here should ever scroll. It also keeps the incoming
+     Barba container — which is position:fixed while it is being revealed —
+     from briefly adding a scrollbar. */
+  overflow:hidden;
+}
+
+img{ display:block; max-width:100%; }
+button{ font:inherit; }
+/* THE SITE'S RED, not the ink. --ui-red lives in css/ui.css, which loads after
+   this file — that is fine for a custom property, because they resolve at use
+   rather than at parse, so the order of the two sheets does not matter here.
+   The literal is a fallback for the one case that would: ui.css failing to
+   load at all, where a selection with no background would be invisible. */
+::selection{ background:var(--ui-red, #e8271c); color:#fff; }
+::-moz-selection{ background:var(--ui-red, #e8271c); color:#fff; }
+
+/* ---------------- shared HUD typography ------------------------------------
+   Corner labels, coordinates and the clock. Currently unused by either
+   shipped page — kept because main.js still wires #clock / #coordX / #coordY
+   the moment those elements are put back. */
+.hud{
+  position:absolute; margin:0; z-index:40;
+  font-size:var(--hud-size); line-height:.5; letter-spacing:var(--tracking);
+  text-transform:uppercase; color:var(--c-label); white-space:nowrap;
+}
+.hud--top{ top:10px; left:50%; transform:translateX(-50%); }
+.hud--x{ left:33px; bottom:17px; }
+.hud--y{ right:10px; bottom:17px; text-align:right; }
+.hud--clock{ left:50%; bottom:17px; transform:translateX(-50%);
+             display:flex; gap:6px; align-items:center; }
+.hud--hint{ bottom:17px; left:50%; transform:translateX(-50%); color:#9a9a9a; }
+
+@media (max-width:720px){
+  :root{ --hud-size:11px; }
+  .hud--x,.hud--y{ display:none; }
+}
+
+/* ---------------- Barba container ------------------------------------------
+   The page body. Static in its resting state; the transition promotes the
+   INCOMING one to a fixed, viewport-sized box while it is clipped open (see
+   js/transition.js) and clears those properties again afterwards.
+
+   Sizing it exactly to the viewport during that window is load-bearing: the
+   transition's gsap.set passes force3D, and a transform makes an element the
+   containing block for its fixed-position descendants (clip-path alone does
+   not — measured). So while the reveal runs, .rail / .cols / .bar / .peek
+   resolve their offsets against this box rather than the viewport, and a box
+   of any other height slides the bottom bar off its edge for the length of
+   the wipe.
+
+   z-index:0 is the load-bearing half of this rule, not decoration. It makes
+   the container a STACKING CONTEXT. Without one, `position:relative` leaves
+   it at z-index auto, its positioned descendants join the ROOT stacking
+   context, and the z-indexes inside the page (.wheel-viewport 20, .cols 40,
+   .rail/.bar 60) are then measured against the OTHER container rather than
+   against their own siblings. During a transition that means the outgoing
+   page's wheel — z-index 20 — paints straight through the incoming page,
+   which is otherwise z-index auto: both pages' cards and copy render on top
+   of each other for the whole wipe. Contained, each page stacks internally
+   and the two are ordered by the single z-index below. */
+[data-barba="container"]{ position:relative; z-index:0; }
+
+
+/* ===== https://www.unbelievablycrap.com/css/mobile.css ===== */
+/* ==========================================================================
+   mobile.css — the phone layout, from Figma 14532:15599 (402 x 874).
+
+   LAST IN THE <link> LIST, and that is the whole architecture. Everything here
+   is an override of a rule that already exists somewhere else, at equal or
+   lower specificity, so loading order is what makes it win. Nothing above it
+   needs to know this file exists, and deleting it leaves the desktop site
+   exactly as it was.
+
+   THE DESKTOP HUD IS BUILT OUT OF 283px BOXES — the map, the coordinates, the
+   panel and the progress bar are all `left:10px; width:283px`, which on a 1920
+   frame is a column down the left edge. Figma's phone frame keeps the 10px
+   margin and lets every one of those run the FULL width instead: 402 - 20 =
+   382. So most of this file is one idea repeated — pin both edges, drop the
+   fixed width — and the pieces inside then land where the design puts them
+   without any of them being positioned again.
+
+   MEASURED AGAINST THE FRAME, NOT COPIED FROM IT. Figma's y values are for a
+   874px-tall phone, and a phone is never 874px tall: the browser chrome moves,
+   the address bar hides on scroll. So a distance from the BOTTOM stays a
+   distance from the bottom (the panel at 90px, the progress at 38px — the same
+   numbers desktop uses, because they are measured off the bar), and the one
+   value that is genuinely a proportion of the height is written as one: the
+   coordinates sit at 435/874 = 49.8%.
+
+   WHY 720px. It is the breakpoint css/base.css already had, and a site with
+   two breakpoints that disagree is worse than one with a breakpoint in a
+   slightly wrong place.
+   ========================================================================== */
+
+@media (max-width: 720px){
+
+  /* ---------------- the HUD's four columns, all of them full width --------- */
+  .hud__map,
+  .hud__panel,
+  .hud__progress{
+    left: 10px;
+    right: 10px;
+    width: auto;
+  }
+  /* The map's inner box carries its own 283 — it is the hatched rectangle the
+     corner ticks and the figure are positioned against, so widening only the
+     wrapper left it at 283 inside a 382 column. Both, or neither. */
+  .hud__mapbox{ width: 100%; }
+  /* The dim track is a string of slashes clipped to a box — it was 283px wide
+     because that was the column. It is the column now. */
+  .hud__slashes{ width: 100%; }
+
+  /* THE MAP'S LABELS ARE POSITIONED IN PIXELS off the left edge (the inline
+     `left:` values in index.html are Figma's own, for a 283px box). At 382 the
+     right-hand pair has to move with the right edge instead, or it sits in the
+     middle of a box half again as wide.
+
+     They are re-anchored rather than re-numbered: `right` beats the inline
+     `left` only because the inline style sets left and this sets right on an
+     absolutely positioned element — so both are declared, and `left:auto`
+     is what actually releases the inline one. */
+  .hud__maplabels p[style*="190px"],
+  .hud__maplabels p[style*="275px"],
+  .hud__maplabels p[style*="234px"]{ left: auto !important; }
+  /* Figma's own right-edge distances: "i am watching you" ends 21px in from
+     the right, the // sits hard against it, "get out" lines up with the row
+     above. */
+  .hud__maplabels p[style*="190px"]{ right: 21px; }   /* i am watching you */
+  .hud__maplabels p[style*="275px"]{ right: 0; }      /* the // after it     */
+  .hud__maplabels p[style*="234px"]{ right: 21px; }   /* get out             */
+
+  /* ---------------- the coordinates ---------------------------------------
+     TIGHT PAIRS AT THE TWO EDGES, not two 283px boxes with space-between. On
+     1920 those boxes have a screen between them; at 402 they overlap in the
+     middle, which is what was happening — the longitude was printing to the
+     LEFT of the latitude. Figma's phone frame draws them as a 60px group at
+     x=0 and a 64px group at x=318, so they are exactly as wide as their type.
+     top is Figma's 435/874. */
+  .hud__coord{
+    top: 49.8%;
+    width: auto;
+    gap: 10px;
+    justify-content: flex-start;
+  }
+  .hud__coord--r{ justify-content: flex-end; }
+
+  /* ---------------- the panel ---------------------------------------------
+     The 219px body inside it is already centred by the panel's
+     `align-items:center`, so widening the panel is the whole change: Figma has
+     the body at x=81.5 of 382, and (382-219)/2 = 81.5 exactly. */
+
+  /* ---------------- the scroll label --------------------------------------
+     It shared `bottom:38px` with the progress bar, which is fine on 1920 where
+     the bar ends at 293 and this sits at 1910. At 402 they are the same strip
+     of screen and the word lands on the slashes. Figma's phone frame has no
+     SCROLL label at all — the progress bar is the scroll indicator — so it
+     goes, rather than being moved somewhere it was never drawn. */
+  .hud__scroll{ display: none; }
+
+  /* ---------------- the bar ------------------------------------------------
+     IT OVERFLOWED. Three nav items at 16px gaps, then the clock, then a
+     124px button do not fit across 402px: "don't contact me" wrapped onto a
+     second line and hung below the bar's 28px.
+
+     The clock is the thing that gives, and the reasoning is that it is the
+     only element here that is not navigation — it is a detail about where I
+     am, and a phone already shows the time. Figma's phone frame predates it
+     and has three nav items and the button, which is what this produces. */
+  .bar__left{ gap: 10px; }
+  .bar__clock{ display: none; }
+  .bar__mail{
+    /* One line, always. The wrap was the actual bug; this is the fix, and the
+       narrower gap is what buys the room for it. */
+    white-space: nowrap;
+    gap: 6px;
+    padding: 0 5px;
+  }
+
+  /* ---------------- block 01's copy ----------------------------------------
+     THE COLUMN PARTS AROUND THE FIGURE'S SILHOUETTE, and --fig-w is the
+     channel it keeps clear. At 420px — the desktop figure's width — there is
+     no room left on either side of a 402px screen and every line is pushed off
+     the edge. Figma's phone figure is 147 wide, so that is the channel. */
+  .about{ --fig-w: 147px; }
+
+  /* ...AND THE FIGURE ITSELF. Figma draws it 296px tall in an 874px frame —
+     0.34 of the viewport where the desktop is 0.46. It is set HERE, on block
+     01's canvas alone, rather than in js/about-figure.js: the breakpoint is
+     already in this file and a matchMedia over there would be a second copy of
+     720px to keep in step. js/about-figure.js reads this in measure() and
+     falls back to its own dial wherever it is unset — which is every other
+     canvas the same renderer draws, block 02's head included. */
+  #aboutFigure{ --fig-height: 0.34; }
+
+  /* Figma's phone copy is roughly half the desktop size, which is what keeps
+     the same number of words on a line a third of the width. The leading is a
+     multiplier, so it follows on its own. */
+  .about__column{ --text-size: 6px; --line-gap: 3px; }
+
+  /* ---------------- and the HUD stands down for it -------------------------
+     ON 1920 THE TWO NEVER MEET: the HUD is a 283px column down the left edge
+     and the story runs past it in the middle. Full width, they are the same
+     screen — the panel's "enemy detected" printed straight through the copy's
+     "he took the picture", and both became unreadable.
+
+     Figma's phone frames say the same thing in pictures: frame 1 is all HUD,
+     and by the frame where the copy has arrived the map, the coordinates and
+     the panel are gone and only the progress bar is left. So they go — as soon
+     as the story starts moving, on js/hud.js's own travel figure.
+
+     THE PROGRESS BAR AND THE BAR STAY, because they are the two things that
+     are still true while you read: how far through you are, and how to leave.
+     Transitioned rather than switched, so it is a hand-off and not a blink. */
+  .hud__map,
+  .hud__coord,
+  .hud__panel{ transition: opacity .3s linear; }
+  .hud.is-deep .hud__map,
+  .hud.is-deep .hud__coord,
+  .hud.is-deep .hud__panel{ opacity: 0; }
+}
+
+/* ---------------- short screens ---------------------------------------------
+   A phone in landscape, and any browser whose chrome eats the height. The HUD
+   is four fixed strips plus a bar, and below about 620px they start meeting in
+   the middle — the panel is 212px tall on its own. The copy and the figure are
+   the page; the panel is the frame around it, so the panel is what goes. */
+@media (max-width: 720px) and (max-height: 620px){
+  .hud__panel{ display: none; }
+}
+
+
+/* ===== https://www.unbelievablycrap.com/css/ui.css ===== */
+/* ==========================================================================
+   ui.css — page chrome shared by both pages
+   Left copy columns · bottom bar · top-right preview panel · film grain
+   Ported from the Figma frames (1920x1080 reference).
+   ========================================================================== */
+
+:root{
+  --ui-ink:#393939;
+  --ui-dim:rgba(57,57,57,.5);
+  --ui-red:#e8271c;
+  --ui-grey:#c8c8c8;
+  --ui-bar:#393939;
+  --ui-10:10px;
+  --ui-14:14px;
+  --ui-track:-0.04em;
+}
+
+/* ---------------- left copy columns ---------------------------------------- */
+/* Figma: text-[10px] leading-[0.5] tracking-[-0.4px], columns at left:200
+   w:91, gap:6 between the mark and the text group and between lines.
+   line-height 0.5 is load-bearing — at 1 each block grows ~40px taller and
+   the 64px gap between blocks collapses to ~13px, which is what made them
+   read as crowded. */
+.cols{ position:fixed; inset:0; z-index:40; pointer-events:none;
+       font-size:var(--ui-10); letter-spacing:-0.4px; text-transform:uppercase;
+       color:var(--ui-ink); line-height:.5; }
+.col{ position:absolute; left:200px; width:91px;
+      display:flex; flex-direction:column; gap:6px; }
+.col__mark{ width:6px; height:6.667px; opacity:.5; }   /* Figma: 50% */
+.col p{ margin:0; }
+.col__label{ position:absolute; left:8px; color:var(--ui-dim); }
+
+/* ---------------- bottom bar ----------------------------------------------- */
+.bar{
+  position:fixed; left:0; right:0; bottom:0; height:28px; z-index:60;
+  background:var(--ui-bar);
+  display:flex; align-items:center; justify-content:space-between;
+  transition:transform var(--bar-out, 420ms) cubic-bezier(.4,0,.2,1);
+}
+/* THE ONE PLACE THE BAR IS ALLOWED TO LEAVE. js/footer.js adds this when the
+   red footer comes up, because that section carries its own navigation in the
+   band and two bars of its own under it — the page bar on top of that would be
+   the same links twice, ten pixels apart.
+
+   IT SLIDES, IT DOES NOT FADE. A half-faded navigation sitting over the red
+   for the length of the transition is a navigation people try to click. Off
+   the bottom edge it is either there or it is not. */
+.bar.is-gone{ transform:translateY(100%); }
+.bar__left{ display:flex; align-items:center; gap:16px; padding-left:10px; }
+.bar__btn{
+  background:none; border:0; padding:0; cursor:pointer;
+  font-family:inherit; font-size:var(--ui-14); letter-spacing:var(--ui-track);
+  text-transform:uppercase; color:var(--ui-grey); line-height:1;
+  display:flex; align-items:center; gap:4px; text-decoration:none;
+  transition:color .18s;
+}
+.bar__btn:hover{ color:#fff; }
+.bar__btn.is-current{ color:#fff; }
+.bar__mark{ width:6px; height:6.667px; }
+
+/* the email button — white block, copies on click */
+.bar__mail{
+  background:#fff; color:var(--ui-ink);
+  height:20px; margin-right:4px; padding:0 6px;
+  display:flex; align-items:center; gap:10px;
+  border:0; cursor:pointer; font-family:inherit; font-size:var(--ui-14);
+  letter-spacing:var(--ui-track); text-transform:uppercase; line-height:1;
+  transition:background .18s, color .18s;
+}
+.bar__mail:hover{ background:var(--ui-grey); }
+.bar__mail.is-copied{ background:var(--ui-red); color:#fff; }
+
+/* ---------------- hover preview (wheel page only) --------------------------- */
+.peek{ position:fixed; inset:0; z-index:50; pointer-events:none;
+       font-size:var(--ui-10); letter-spacing:-0.4px; text-transform:uppercase;
+       color:var(--ui-ink); line-height:1; }
+
+.peek__frame{
+  position:absolute; right:10px; top:10px;
+  /* Always on. It used to be gated behind .peek.is-showing and only appeared
+     while a card was hovered; the brief is now that there is ALWAYS an image
+     up there, changing with hover and with the wheel's own rotation. */
+  opacity:1;
+  /* The frame is now exactly the image — no white mat behind it. Sizing it
+     to the image (rather than centring a smaller image inside a larger white
+     box) also keeps it anchored to the top-right corner instead of drifting
+     inward as the image shrinks. */
+  /* Figma node 14349:12076 — w:343 h:215, right:10 top:10, no fill. */
+  width:var(--peek-w, 210px);
+  height:var(--peek-h, 132px);
+  background:transparent; overflow:hidden;
+}
+/* Each incoming image is its own stacked layer, and the newest resolves out
+   of a blur over the one beneath — the reference (nicolaromei.com/the-archive)
+   swaps with a fast directional blur, not a wipe or a cut. The layer beneath
+   is never faded out; it is simply covered and then removed, which is what
+   keeps the swap readable at speed instead of flashing the empty panel. */
+.peek__layer{
+  position:absolute; inset:0;
+  display:flex; align-items:center; justify-content:center;
+}
+.peek__layer img{
+  width:100%; height:100%; object-fit:cover; display:block;
+}
+.peek__layer.is-entering{
+  animation:peekIn var(--peek-ms, 200ms) cubic-bezier(.22,.61,.36,1) both;
+}
+@keyframes peekIn{
+  from{ opacity:0; filter:blur(16px) saturate(1.4); transform:scale(1.08); }
+  60% { opacity:1; }
+  to  { opacity:1; filter:blur(0) saturate(1);   transform:scale(1); }
+}
+
+@media (prefers-reduced-motion: reduce){
+  .peek__layer.is-entering{ animation-duration:1ms; }
+}
+
+/* awards block, to the left of / under the frame */
+/* Figma positions, expressed against the edges they actually belong to.
+   The awards block is explicitly centred in the frame (top:50%), so the
+   label and the platform block are placed RELATIVE TO THAT CENTRE rather
+   than as absolute tops — otherwise they drift apart on any viewport that
+   isn't exactly 1080 tall. */
+/* "awards" starts exactly where the preview image starts: the frame is
+   right:10 + 210 wide, so its left edge is 220px in from the right. */
+.peek__awardsLabel{ position:absolute;
+                    left:calc(100% - 220px); right:auto;
+                    /* Aligned with the "awwwwards" row, not with the block
+                       that contains it: .peek__awards starts with the 6.667px
+                       plus-mark and a 6px gap, so its first ROW sits 9px above
+                       where the label was. Measured, not derived. */
+                    top:calc(50% - 21px);
+                    color:var(--ui-ink); }
+.peek__awards{ position:absolute; right:10px;              /* 1753+157=1910 */
+               top:50%; transform:translateY(-50%);
+               width:125px; display:flex; flex-direction:column; gap:6px; }
+.peek__row{ display:flex; align-items:center; justify-content:space-between; }
+.peek__row span:last-child{ color:var(--ui-dim); text-align:right; width:35px; }
+/* left edge aligns with the awards block (both left:1753 in Figma) */
+.peek__meta{ position:absolute; right:10px; width:125px;
+             top:calc(50% + 88px);                         /* 628 vs 540 */
+             display:flex; flex-direction:column; gap:6px; }
+.peek__num{ position:absolute; right:10px; width:125px;
+            top:calc(100% - 105px); }                      /* 975 of 1080 */
+.peek .col__mark{ opacity:.5; }
+
+/* ---------------- body text reveal -----------------------------------------
+   Every line resolves from blurred + transparent to sharp, staggered down
+   the page. Titles are deliberately excluded — they carry their own gradient
+   treatment and reading them blurred looks like a rendering fault. */
+/* THE THREE NUMBERS ARE VARIABLES because the stagger is the one that gets
+   outrun. It is a per-line DELAY, so it multiplies: at 42ms and sixty lines the
+   last one does not begin for two and a half seconds, and a reader who scrolls
+   straight down arrives ahead of copy that has not been told to start yet.
+   js/line-reveal.js owns them and puts them on the panel. */
+.anim-line{
+  opacity:0;
+  filter:blur(var(--line-blur, 7px));
+  animation:lineIn var(--line-ms, .52s) cubic-bezier(.22,.61,.36,1) both;
+  animation-delay:calc(var(--i,0) * var(--line-step, 42ms) + var(--group-delay, 0ms));
+}
+@keyframes lineIn{
+  from{ opacity:0; filter:blur(var(--line-blur, 7px)); }
+  60% { opacity:var(--in-opacity, 1); }
+  to  { opacity:var(--in-opacity, 1); filter:blur(0); }
+}
+
+/* WHY THE HEADLINE CARRIES THIS CLASS ITSELF, and not its two line spans.
+   .stage__title / .hero__title paint their glyphs with `background-clip: text`
+   — the gradient is the h1's own background, clipped to the shape of its text,
+   and the spans' `color` is transparent. Animating opacity or filter on a SPAN
+   therefore animates nothing anybody can see: the visible glyphs come from the
+   parent's background and are never touched. Measured with the class on the
+   spans, the headline sat at a darkest value of 226 on every frame of the
+   0.52s animation — the animation ran, and was completely inert.
+
+   Same family as the two other traps this file records: a child of a
+   background-clip:text element cannot be given its own opacity, filter or
+   position and still be painted by the parent's clip. */
+@media (prefers-reduced-motion: reduce){
+  .anim-line{ animation-duration:1ms; animation-delay:0ms; }
+}
+
+
+/* ---------------- film grain -----------------------------------------------
+   Technique supplied by the client. One fixed element, a tiled noise
+   texture, and a stepped background-position animation — no canvas and no
+   per-frame JavaScript at all, which is why it costs essentially nothing.
+
+   The texture is served LOCALLY. The original reference pointed at
+   https://osmo.b-cdn.net/resource-media/noise.avif — swapping that URL back
+   in is a one-line change, but a third-party CDN is a dependency an awards
+   submission does not want, and the tile is generic monochrome noise, so a
+   local copy is equivalent. Drop any noise image in at the same path to
+   replace it.
+
+   Everything is expressed as a custom property so the tuner can move it live.
+   background-size is in `em`: 5em = 80px at a 16px root. SMALLER makes the
+   grain finer, larger makes it chunkier. */
+.grain{
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+  pointer-events: none;
+  /* Declared, not just defaulted. These four used to live only as var()
+     fallbacks, which meant the custom properties were never actually SET —
+     getPropertyValue('--grain-size') returned "" and the tuner's readback fell
+     through to its own hardcoded numbers. The panel then reported, and "Copy
+     settings" exported, 7.8125 / 125% / 60% / 0.6s while the page was really
+     rendering 5em / 300% / 80% / 0.85s. Declaring them here makes the readback
+     tell the truth. Do not collapse these back into the var() fallbacks. */
+  --grain-size: 5em;
+  --grain-opacity: .13;
+  --grain-blend: overlay;
+  --grain-contrast: 300%;
+  --grain-brightness: 80%;
+  --grain-speed: .85s;
+
+  background: url('../assets/grain/noise.png') 50% 50% /
+              var(--grain-size, 5em) repeat;
+  opacity: var(--grain-opacity, .13);
+  filter: contrast(var(--grain-contrast, 300%))
+          brightness(var(--grain-brightness, 80%));
+
+  /* The blend and the four values above are the deviation from the snippet,
+     and they are the client's own tuning — do not "restore" the original.
+
+     The snippet was written for a dark site: `normal` blending at opacity
+     0.5 and brightness 60% is a dark grey wash, and on this near-white page
+     it flattened the whole design to flat grey (measured: everything
+     obscured). It shipped on `multiply` instead, then was tuned by eye to
+     `overlay` at contrast 300%.
+
+     Overlay is worth understanding before touching it: it is a no-op against
+     mid-grey, which is most of a raw noise tile. Two different settings get
+     round that, and this file has shipped both. Pushing CONTRAST hard (300%)
+     drives the tile toward black and white extremes, where overlay bites at
+     both ends. Pushing BRIGHTNESS down (60%, as here) instead makes the whole
+     tile dark, so overlay darkens more or less uniformly and contrast can sit
+     low. Either works; what does not work is low contrast AND neutral
+     brightness together, which is the combination that makes the grain
+     vanish. Move one, check the other. */
+  mix-blend-mode: var(--grain-blend, overlay);
+}
+
+/* Stepped, not eased — the texture must JUMP between positions. A smooth
+   interpolation would slide the noise across the screen, which reads as a
+   moving pattern rather than as grain resampling. */
+.grain[data-grain-animate="true"]{
+  animation: grain var(--grain-speed, .85s) steps(1, end) infinite;
+}
+@keyframes grain{
+  0%   { background-position: 0em 0em; }
+  20%  { background-position: -0.5em 0.3em; }
+  40%  { background-position: 0.4em -0.2em; }
+  60%  { background-position: -0.3em -0.4em; }
+  80%  { background-position: 0.2em 0.5em; }
+}
+@media (prefers-reduced-motion: reduce){
+  .grain[data-grain-animate="true"]{ animation: none; }
+}
+
+/* ---------------- the clock ------------------------------------------------
+   Icon, offset, red mark, time — the order the design gives, reading left to
+   right as: is it light there, how far ahead, and what o'clock exactly.
+
+   `margin-left:auto` rather than a fixed position: the bar is a flex row with
+   space-between, and pinning this by hand would put it somewhere different on
+   every viewport. */
+.bar__clock{
+  margin-left:auto; margin-right:16px;
+  display:flex; align-items:center; gap:6px;
+  font-size:var(--ui-14); letter-spacing:var(--ui-track);
+  text-transform:uppercase; line-height:1;
+  color:var(--ui-grey);
+  /* IT IS NOT A CONTROL. Nothing here is clickable, so it must not swallow a
+     click meant for the bar or show a text caret. */
+  pointer-events:none; user-select:none;
+}
+/* WHICH ICON, from one class on the parent. Not from `hidden` on each SVG:
+   that property belongs to HTMLElement, an <svg> is an SVGElement, and setting
+   it there writes a JavaScript expando that never becomes an attribute — so
+   script reads back the state it wrote while CSS, which only sees attributes,
+   matches nothing at all. See the note in js/clock.js. */
+.bar__sun, .bar__moon{ width:9px; height:9px; display:block; }
+.bar__clock .bar__moon,
+.bar__clock.is-night .bar__sun{ display:none; }
+.bar__clock.is-night .bar__moon{ display:block; }
+
+/* THE GAP BEFORE THE MARK IS WIDER than the others. In the design the offset
+   and the time are two separate readings with a pause between them, and the
+   red square sits in that pause rather than being punctuation inside one
+   phrase. */
+.bar__clockMark{
+  width:5px; height:5px; flex:none;
+  margin-left:6px;
+  background:var(--ui-red);
+}
+/* TABULAR FIGURES, or the line shuffles sideways every time a 1 becomes a 2 —
+   and with seconds running that is a twitch every second rather than every
+   minute. */
+.bar__clockTime{ font-variant-numeric:tabular-nums; font-feature-settings:"tnum" 1; }
+
+
+/* ===== https://www.unbelievablycrap.com/css/wheel.css ===== */
+/* ==========================================================================
+   wheel.css — DESIGN page components (the horizontal card wheel).
+   Fonts, :root tokens and the reset now live in css/base.css — see the note
+   at the top of style.css.
+   ========================================================================== */
+
+/* ---------------- stage ---------------------------------------------------- */
+.stage{
+  position:relative;
+  width:100%;
+  height:100svh;
+  overflow:hidden;
+  background:linear-gradient(to bottom, var(--c-white) 0%, var(--c-fog) 162.59%);
+  display:flex; align-items:center; justify-content:center;
+}
+
+.stage__title{
+  position:relative;
+  z-index:5;                        /* behind the wheel */
+  margin:0;
+  text-align:center;
+  font-weight:400;
+  text-transform:uppercase;
+  letter-spacing:-.04em;
+  font-size:clamp(2.75rem,6.7vw,8rem);
+  line-height:.5;
+  padding:.35em 0;
+  background:linear-gradient(to top, rgba(195,195,195,0) 10%, var(--c-fade) 82%);
+  -webkit-background-clip:text; background-clip:text; color:transparent;
+}
+/* Child selector, not descendant. `.stage__title span` also matched the
+   inline .title__word wrapper added for the tick block, turning it into a
+   block that filled the line — so the tick hung off the right edge of the
+   LONGEST line instead of off the "p" of CRAP. */
+.stage__title > span{ display:block; }
+.stage__title > span:first-child{ margin-bottom:.267em; }
+
+/* ---------------- wheel ------------------------------------------------------ */
+.wheel-viewport{
+  position:absolute; inset:0;
+  z-index:20;
+  perspective:1800px;
+  perspective-origin:50% 50%;
+  touch-action:none;
+  /* No grab/grabbing cursor. The ring is driven by scroll and by pointer
+     movement, not by picking it up, so a hand cursor promises a gesture that
+     is not there. */
+}
+
+.wheel-stage{
+  position:absolute; top:50%; left:50%;
+  width:0; height:0;
+  transform-style:preserve-3d;
+  will-change:transform;
+}
+
+.wheel-card{
+  position:absolute; top:0; left:0;
+  width:var(--card-w,190px);
+  height:var(--card-h,127px);
+  overflow:hidden;
+  border-radius:var(--card-r,0);
+  background:#0000;
+
+  /* Same reason as the sphere: with the default 50% origin the trailing
+     translate(-50%,-50%) composes with the origin shift and offsets every
+     card in stage space, so the ring would orbit its own centre. */
+  transform-origin:0 0;
+  backface-visibility:visible;
+}
+.wheel-card img{
+  width:100%; height:100%;
+  object-fit:cover;
+  pointer-events:none; user-select:none; -webkit-user-drag:none;
+
+}
+
+/* ---------------- the cursor blobs (js/work-cursor.js) ----------------------
+   Above the wheel and the title so it can invert both, below the bar and the
+   film grain so the page's chrome is never flipped with them.
+
+   INSIDE .stage, and that matters more than the z-index. A blend mode
+   composites against its own stacking context's backdrop; .stage is what
+   paints the page's gradient, so difference here has the whole page to invert.
+   Hung on <body> instead it would blend against nothing wherever the page had
+   not painted, and the blobs would read as solid white patches. */
+.work-blobs{
+  position: absolute;
+  inset: 0;
+  /* z-index 1: above .stage's own gradient and BELOW everything the page
+     draws — the title at 5, the wheel at 20. The characters are the page's
+     ground now, not something laid over it, so the cards and the type sit on
+     top of them the way they sit on the gradient.
+
+     It was 20 when the blobs were the foreground and had to invert what they
+     covered; that is the whole change in the stacking, and it is why the blend
+     mode below went back to normal at the same time. A background layer has
+     the gradient as its backdrop and nothing else, so `difference` there would
+     only ever have been inverting a gradient. */
+  z-index: 1;
+  display: block;
+  width: 100%; height: 100%;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+
+/* ===== https://www.unbelievablycrap.com/css/work-arrive.css ===== */
+/* ==========================================================================
+   work-arrive.css — the pictures streaming in.
+
+   THE RESTING STATE IS NOTHING AT ALL. .wgrid__arrive on its own carries no
+   filter, no transform and no will-change, so once a card has arrived this
+   layer costs exactly what an empty div costs. That is deliberate and it is
+   the lesson from the last round: a `filter` left on thirty plates is a render
+   surface per plate re-rasterised on every frame, and it took this page from
+   120fps to 50. The blur here exists for under a second and then genuinely
+   goes away.
+
+   The box is the plate's own box, so adding this wrapper moves nothing.
+   ========================================================================== */
+
+.wgrid__arrive{
+  position: absolute;
+  left: 0; top: 0;
+  width: var(--cell-w);
+  height: var(--plate-h);
+  transform-origin: 50% 50%;
+}
+
+/* WAITING. Squashed to a band and smeared, which between them are most of the
+   reference: flattening a photograph vertically and then blurring it IS what
+   produces those horizontal ribbons of colour — the rainbow edges are the
+   picture's own hues pulled across each other, not a separate effect. */
+.wgrid__arrive.is-waiting{
+  opacity: 0;
+  transform: scaleY(var(--arrive-squash, .08));
+  filter: blur(var(--arrive-blur, 16px));
+}
+
+/* ARRIVING. The transition is added a frame before the waiting class comes
+   off, and taken away again once it has landed, so no card is left carrying a
+   transition rule it will never use. */
+.wgrid__arrive.is-arriving{
+  will-change: transform, opacity, filter;
+  transition:
+    opacity   var(--arrive-ms, 820ms) ease,
+    transform var(--arrive-ms, 820ms) cubic-bezier(.16, .84, .32, 1),
+    filter    var(--arrive-ms, 820ms) ease;
+}
+
+/* SOMEONE WHO ASKED FOR LESS MOVEMENT GETS THE PAGE, NOT THE PERFORMANCE.
+   The cards simply are where they are. */
+@media (prefers-reduced-motion: reduce){
+  .wgrid__arrive.is-waiting{ opacity: 1; transform: none; filter: none; }
+  .wgrid__arrive.is-arriving{ transition: none; will-change: auto; }
+}
+
+
+/* ===== https://www.unbelievablycrap.com/css/path-gallery.css ===== */
+/* ==========================================================================
+   path-gallery.css — the curve gallery's shell.
+
+   Almost nothing lives here: the whole scene is one matrix3d written by
+   js/path-gallery.js every frame, and every plane's place in it is another.
+   What CSS owns is the lens and the ground.
+   ========================================================================== */
+
+.pathg{
+  position: fixed; inset: 0;
+  overflow: hidden;
+  /* THE SITE'S OWN WHITE, the ground this page has always had. The fog is an
+     opacity fade rather than a black wash, so it resolves to whatever is
+     behind — which means the same code fades photographs INTO the paper here
+     and would fade them into black on a dark page, with nothing to change. */
+  background: var(--c-white, #fff);
+  perspective: var(--pg-persp, 900px);
+  perspective-origin: 50% 50%;
+}
+
+/* THE SCENE. Its transform is the VIEW MATRIX — the inverse of where the camera
+   is — so moving the camera forward moves this backward, which is what a camera
+   is in a compositor that has none. preserve-3d on both this and the planes, or
+   the depth is flattened one level down and everything lands on one sheet. */
+.pathg__world{
+  position: absolute; left: 50%; top: 50%;
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+/* PINNED, BUT ONLY THE ONES ON SCREEN — and the order of those two clauses is
+   the whole fix. See the long note below for what happened when it was pinned
+   unconditionally, and js/path-gallery.js's park() for what changed.
+
+   WHY PIN AT ALL. A plane flying past changes its screen SIZE every frame, and
+   an unpinned layer is re-rastered every time that size moves — a photograph
+   right next to the camera is a megapixel of raster redone sixty times a
+   second. Miss the deadline and the compositor shows the tile it has, which is
+   nothing: the picture blinks out for a frame. The ones that blink are always
+   the big near ones, because those are the expensive rasters. `will-change`
+   tells Chrome to raster once and transform that, which is exactly the trade a
+   photograph rushing past wants — it may be a shade soft at the last moment,
+   and it is there.
+
+   WHY IT IS SAFE NOW AND WAS NOT BEFORE. Parked planes are `visibility:hidden`
+   and hidden elements are not composited, so this reaches the hundred or so
+   being drawn instead of all three hundred and twenty. Measured, at count 320:
+   126 layers / 70.7MB unpinned, 122 / 73.5MB pinned. Pinning the PICTURE as
+   well doubles it to 240 layers, which is what the note below is about, so
+   that one stays off. */
+.pathg.is-pinned .pathg__it{ will-change: transform; }
+
+/* NO UNCONDITIONAL will-change HERE, AND THAT WAS HALF THE FLICKER.
+
+   `will-change` is a promise to keep a compositor layer alive, and there are
+   THREE HUNDRED AND TWENTY of these. With it on the plane and on the picture
+   inside it, this page asked Chrome for 645 layers and about 156MB of layer
+   memory; past its budget the compositor starts evicting and re-rasterising
+   tiles, and what that looks like is the whole field vanishing on alternate
+   frames — one frame drawn, one frame blank, at 30Hz, while the copy and the
+   bar (which are not in this scene) stay perfectly still. Measured: 645 layers
+   with it, 326 without, and 125 once the faded planes are hidden as well.
+
+   Nothing is lost by dropping it. These planes carry a 3D transform inside a
+   preserve-3d scene, so the compositor promotes the ones it is actually
+   drawing anyway — `will-change` only pinned the other two hundred as well.
+   It is the one property whose documentation says outright not to apply it to
+   large numbers of elements, and this is what that warning is about. */
+.pathg__it{
+  position: absolute; left: 0; top: 0;
+  transform-style: preserve-3d;
+  backface-visibility: visible;
+}
+/* The filter lives on the ITEM now, not here: it is a function of how far away
+   the photograph is, and js/path-gallery.js writes it per plane per frame.
+
+   The CLIP lives on the item too, and that is what makes the parallax possible:
+   the shape belongs to the window, so the photograph can move underneath it
+   without dragging its own outline along. Put the shape on the picture and a
+   circular frame becomes a circle wandering about inside a square. */
+.pathg__it img{
+  display: block; width: 100%; height: 100%;
+  object-fit: cover;
+  /* ROUNDED WHILE SCROLLING. js/path-gallery.js writes one percentage on the
+     root for the whole field; the same variable name the work page uses for the
+     same idea, on its own root. On the IMAGE rather than on the plane because
+     the plane also carries the shape clip-path — the two then compose, a
+     rounded photograph inside whatever silhouette the shape gives it, instead
+     of one silently winning. */
+  border-radius: var(--card-radius, 0%);
+  /* Drawn LARGER than its window — js/path-gallery.js scales it — and the
+     surplus is the room it has to travel. transform-origin stays central so the
+     surplus is even on all four sides and the clamp is one number per axis. */
+  /* And no will-change on this one either — see the note on .pathg__it. This
+     was the second layer per plane and half of the 645. */
+}
+
+/* THE BLOB, the same one the home page's white block runs — js/work-cursor.js,
+   unchanged, hosted here because a blend composites against its own stacking
+   context's backdrop and .pathg is what paints this page's paper.
+
+   z-index 0 puts it under the photographs: it is the ground the gallery floats
+   over, which is the arrangement it has on the index page too. */
+body[data-page="gallery"] .work-blobs{ z-index: 0; }
+.pathg__world{ z-index: 1; }
+
+
+/* ---------------- the track switch ----------------------------------------
+   Figma 14680:26000: 184x16, black, at x10 y259, with `back` 4px in from the
+   left edge and `next` 4px in from the right.
+
+   ITS X AND Y ARE VARIABLES, not literals, because 259 is an offset inside the
+   file's own frame and the one thing certain about it is that it will want
+   moving once it is on a real screen next to real photographs. js/track-switch.js
+   owns both, so they are one console row each rather than an edit and a deploy. */
+.trk{
+  position: absolute; z-index: 44;
+  left: var(--trk-x, 10px);
+  top: var(--trk-y, 259px);
+  width: 184px; height: 16px;
+  background: #000;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0 4px;
+  /* The gallery's own layer is below and takes the wheel; this must not. */
+  pointer-events: auto;
+}
+.trk__btn{
+  appearance: none; -webkit-appearance: none;
+  background: none; border: 0; margin: 0; padding: 0;
+  font: inherit; color: #fff;
+  font-size: var(--ui-10); letter-spacing: var(--ui-track, -0.4px); line-height: 1;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+/* THE RED IS THE SITE'S, not a second red. Everything that answers to a press
+   on this site goes to --ui-red on hover, and a switch that went to some other
+   colour would read as belonging to something else. */
+.trk__btn:hover{ color: var(--ui-red, #e8271c); }
+.trk__btn:focus-visible{ outline: 1px solid var(--ui-red, #e8271c); outline-offset: 2px; }
+/* WHILE IT IS SWITCHING the presses are ignored — see js/track-switch.js — so
+   the bar says so rather than looking pressable and doing nothing. */
+.trk.is-busy .trk__btn{ color: rgba(255,255,255,.35); cursor: default; }
+
+
+/* ===== https://www.unbelievablycrap.com/css/block2.css ===== */
+/* ==========================================================================
+   block2.css — what rides on the second block's own scroll (js/block2.js).
+
+   PART 1: two columns of type either side of centre, travelling up through the
+   white block. Figma 14528:14029 — 10px / -0.4px / uppercase / line-height .5
+   in #393939, a 91px left column and a 71px right one, 64px apart, each under a
+   6px mark, the pair centred on the viewport.
+
+   The same four type values css/ui.css's .cols already uses, and line-height .5
+   is load-bearing here for the same reason it is there: at 1 the 6px row gaps
+   stop reading as gaps.
+   ========================================================================== */
+
+/* THE TWO COLUMN WIDTHS ARE VARIABLES because the logo's centring is derived
+   from them. They are not the same width — 91 and 71 — so the GAP between the
+   columns is not centred on the pair: it sits (91-71)/2 = 10px to the right of
+   it. Anything placed at the frame's dead centre therefore lands 10px left of
+   the middle of the gap, which is exactly what the mark was doing. Written
+   once here and read in both places, so changing a column width moves the mark
+   with it instead of leaving a stale number behind. */
+.b2{
+  --b2-col-l: 91px;
+  --b2-col-r: 71px;
+  position: fixed; inset: 0; z-index: 41;
+  pointer-events: none;
+  font-size: var(--ui-10); letter-spacing: -0.4px; line-height: .5;
+  text-transform: uppercase; color: #393939;
+  /* Off until the white has arrived. #393939 over the black block would be
+     invisible anyway; this makes that explicit rather than accidental. */
+  opacity: 0; transition: opacity .3s linear;
+}
+.b2.is-on{ opacity: 1; }
+.b2 p{ margin: 0; }
+
+/* ---------------- the travelling pair ------------------------------------- */
+/* CENTRED, then displaced. The centring is a transform on this element and the
+   travel is a second transform inside it, so the two never have to be composed
+   by hand — retune the travel and the rest position is still exactly centre. */
+.b2__cols{
+  position: absolute; left: 50%; top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex; gap: 64px; align-items: flex-start;
+}
+.b2__colsinner{
+  display: flex; gap: 64px; align-items: flex-start;
+  /* js/block2.js writes both of these every frame. */
+  transform: translateY(var(--b2-cols-y, 75vh));
+  opacity: var(--b2-cols-a, 0);
+  will-change: transform, opacity;
+}
+
+.b2__col{ display: flex; flex-direction: column; gap: 6px; }
+.b2__col--l{ width: var(--b2-col-l); align-items: flex-start; }
+.b2__col--r{ width: var(--b2-col-r); align-items: flex-end; text-align: right; }
+.b2__list{ display: flex; flex-direction: column; gap: 6px; width: 100%; }
+.b2__col--l .b2__list p{ width: 71px; }
+
+/* The mark above each column — the same 6 x 6.667 plus the bar and the work
+   page's columns use, at the same 50%. */
+.b2__mark{ width: 6px; height: 6.667px; opacity: .5; display: block; }
+
+/* ---------------- the corner labels --------------------------------------- */
+/* Figma pins these at 10,10 and 115,10/21/33, and mirrors the pair on the
+   right. Static chrome: they do not travel with the columns. */
+.b2__corner{ position: absolute; top: 10px; display: grid; row-gap: 6px; }
+.b2__corner--l{ left: 10px; }
+.b2__corner--r{ right: 10px; text-align: right; }
+.b2__corner .a{ position: absolute; top: 0; }
+.b2__corner--l .a{ left: 0; }
+.b2__corner--r .a{ right: 0; }
+/* How far the stack of three sits in from the outer word. ONE VARIABLE, two
+   mirrored rules: it was a bare 105 in both, and two copies of a number are two
+   numbers the day one of them is edited. js/block2.js writes it. */
+.b2__corner .b{ margin-left: var(--b2-corner-gap, 105px); }
+.b2__corner--r .b{ margin-left: 0; margin-right: var(--b2-corner-gap, 105px); }
+
+/* ---------------- the logo, between the columns ---------------------------
+   .wfig gives it its size and its centring (css/figure-host.css); this only
+   says WHICH box it is centred in. .b2__colsinner is the pair of columns, so
+   the mark lands exactly between them — which is where Figma draws it, and it
+   stays there when the columns move rather than being pinned to the viewport
+   and drifting out of the gap.
+
+   NO `position: relative` IS NEEDED and none is set: .b2__colsinner already
+   carries a transform, and a transform makes an element the containing block
+   for its absolutely positioned descendants on its own. Adding one would read
+   as load-bearing when it is not.
+
+   IT MUST NOT EAT THE POINTER. Block 02 shows "hover to reveal" and tracks the
+   cursor across this whole area; a box that swallowed a pointermove would
+   punch a hole in that. .wfig is already pointer-events:none — this note is to
+   say that is load-bearing here, not decoration. */
+.b2__logo{ z-index: 3; }
+
+/* RIDING WITH THE TEXT INSTEAD, if that is what is wanted. --b2-cols-y is the
+   columns' own travel and js/block2.js writes it on .b2, so it inherits down
+   here and this stays in step with them for free — no second subscription to
+   the scroll, and nothing to keep synchronised.
+
+   The 50vh is the reference: when the columns' top is at mid-screen the mark
+   is at the centre, exactly where the fixed version sits, and it moves one for
+   one with them from there. */
+.b2__logo.is-with-text{
+  transform: translate(-50%, -50%)
+             translate(var(--wfig-dx, 0px), var(--wfig-dy, 0px))
+             /* Into the middle of the GAP rather than the middle of the pair.
+                See the note by --b2-col-l. */
+             translateX(calc((var(--b2-col-l) - var(--b2-col-r)) / 2))
+             translateY(calc(var(--b2-cols-y, 50vh) - 50vh));
+}
+
+/* ---------------- part 2's caption layer ---------------------------------- */
+/* HIDDEN, like .mask-body and .work-blobs, and for the identical reason: on
+   this page the canvas is not something the compositor shows, it is a texture
+   js/mask-scroll.js samples into the white block between the ASCII ground and
+   the head. `visibility` rather than `display`, so it keeps its size and its
+   backing store. */
+.b2-cap{
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+/* THE COLUMNS' ENTRANCE, held until the white block is actually on screen.
+   js/block2.js adds this at mount and removes it once the transition lands —
+   the same mechanism css/loader.css uses for the loader and js/about-text.js
+   uses for the copy, and for the same reason: an animation that plays where
+   nobody is looking has not happened. */
+.b2.is-held .anim-line{ animation-play-state: paused; }
+
+/* The corner labels fade on their own clock — js/block2.js writes this — because
+   they belong to the reading part of the block and not to the footer. */
+.b2__corner{ opacity: var(--b2-corner-a, 1); }
+
+/* ---------------- the cursor's label -------------------------------------- */
+/* Follows the pointer while block 02 has the screen. Fixed rather than inside
+   .b2's transform stack so it is positioned in viewport coordinates — the same
+   coordinates a pointer event reports, which means no conversion and nothing to
+   get wrong when the block scrolls underneath it.
+
+   Note it does NOT inherit .b2's opacity: this has its own show/hide, because
+   "the block is on screen" and "the pointer is over the block" are two
+   different questions and only the second one governs a cursor. */
+.b2__hint{
+  position: fixed; left: 0; top: 0; z-index: 61;
+  margin: 0; pointer-events: none;
+  font-size: var(--ui-10); letter-spacing: -0.4px; line-height: .5;
+  text-transform: uppercase; color: #393939;
+  white-space: nowrap;
+  opacity: 0; transition: opacity .14s linear;
+  will-change: transform;
+}
+.b2__hint.is-on{ opacity: 1; }
+
+
+/* ===== https://www.unbelievablycrap.com/css/lightbox.css ===== */
+/* ==========================================================================
+   lightbox.css — one picture, centred, everything else pushed back.
+
+   Z-INDEX 56, AND THE TWO NUMBERS EITHER SIDE ARE THE WHOLE REASON. The
+   gallery's page tint is 55 and the bottom bar is 60, so this sits in the one
+   gap between them: the veil darkens the tinted page, the picture opens ABOVE
+   the tint and so keeps its own colour, and the bar stays lit and untouched —
+   which is what the mock-ups show and also what the bar is for. It is the
+   site's one constant; a lightbox that dimmed it would make it a different
+   object on this page than on every other.
+
+   THE ROOT IS NEVER HIDDEN. It was — `visibility:hidden` until open — and that
+   quietly threw away half the feature: closing removed the class, the whole
+   overlay vanished on the same frame, and the flight home animated where
+   nobody could see it. So the root stays present and transparent to the
+   pointer, and the three parts inside it are shown and hidden on their own.
+   ========================================================================== */
+
+.lbox{
+  position: fixed; inset: 0; z-index: 56;
+  pointer-events: none;
+}
+.lbox.is-open{ pointer-events: auto; }
+
+.lbox__veil{
+  position: absolute; inset: 0;
+  background: #000;
+  opacity: 0;
+  transition: opacity var(--lbox-ms, 420ms) ease;
+}
+.lbox.is-open .lbox__veil{ opacity: var(--lbox-veil, .6); }
+
+/* VISIBLE WHILE OPEN *AND* WHILE FLYING HOME. `is-flying` is held by the
+   module for exactly the length of the return, which is the only way the way
+   out gets to be as animated as the way in. */
+.lbox__box{
+  position: absolute; top: 0; left: 0;
+  transform-origin: 0 0;
+  will-change: transform;
+  visibility: hidden;
+}
+.lbox.is-open .lbox__box,
+.lbox.is-flying .lbox__box{ visibility: visible; }
+
+.lbox__img{
+  display: block; width: 100%; height: 100%;
+  object-fit: contain;
+  /* CONTAIN, NOT COVER. The grid crops its plates to a fixed frame because
+     thirty of them have to tile; opened on its own, the point is to see the
+     whole photograph, so nothing is cut. */
+}
+
+/* ---- THE PICTURE'S OWN GRAIN ------------------------------------------------
+   THE PAGE'S GRAIN IS NOT THE SAME ON BOTH PAGES, AND THAT IS THE BUG THIS
+   FIXES. .grain is one fixed layer at z-index 999, so it does fall over an
+   opened picture everywhere — but css/work-grid.css deliberately retunes it for
+   the work page, whose field is nearly black:
+
+     gallery (css/ui.css)     overlay · opacity .13 · contrast 300% · 5em
+     work    (work-grid.css)  lighten · opacity .06 · contrast  50% · 1em
+
+   Those numbers are right for that FIELD — the note in that file explains why
+   overlay does nothing against black — and they are why the same photograph
+   opened on the two pages arrives with grain on one and almost none on the
+   other. The field's setting is not the picture's setting.
+
+   So the picture carries its own, at the gallery's values, on both pages. Same
+   tile, same stepped animation, same blend; it lives inside the flying box, so
+   it scales and travels with the photograph instead of sitting still over it.
+   The one thing it must NOT do is take the pointer — a click anywhere on the
+   picture closes it. */
+.lbox__grain{
+  position: absolute; inset: 0;
+  pointer-events: none;
+  opacity: 0;
+  background: url('../assets/grain/noise.png') 50% 50% /
+              var(--lbox-grain-size, 5em) repeat;
+  filter: contrast(var(--lbox-grain-contrast, 300%))
+          brightness(var(--lbox-grain-brightness, 80%));
+  mix-blend-mode: var(--lbox-grain-blend, overlay);
+  transition: opacity 160ms ease;
+}
+.lbox.is-open .lbox__grain,
+.lbox.is-flying .lbox__grain{ opacity: var(--lbox-grain, .13); }
+
+/* Stepped, not eased, for the reason css/ui.css gives about the page's own:
+   the texture has to JUMP between positions or it reads as a pattern sliding
+   across the picture rather than as grain being resampled. */
+.lbox__grain[data-grain-animate="true"]{
+  animation: grain var(--lbox-grain-speed, .85s) steps(1, end) infinite;
+}
+
+/* The same four corner marks the grid puts on its cells, so an opened picture
+   is recognisably the same object as the card it came from. The delay is on
+   the OPEN rule only — on the way out they should leave with everything else
+   rather than linger for the length of the flight. */
+.lbox__tick{
+  position: absolute; width: 5px; height: 5px;
+  background: currentColor;
+  opacity: 0;
+  transition: opacity 140ms ease;
+}
+.lbox.is-open .lbox__tick{
+  opacity: 1;
+  transition: opacity 160ms ease var(--lbox-ms, 420ms);
+}
+.lbox__tick--tl{ left: calc(var(--lbox-out) * -1px); top: calc(var(--lbox-out) * -1px); }
+.lbox__tick--tr{ right: calc(var(--lbox-out) * -1px); top: calc(var(--lbox-out) * -1px); }
+.lbox__tick--bl{ left: calc(var(--lbox-out) * -1px); bottom: calc(var(--lbox-out) * -1px); }
+.lbox__tick--br{ right: calc(var(--lbox-out) * -1px); bottom: calc(var(--lbox-out) * -1px); }
+
+/* FOLLOWS THE POINTER, DOES NOT REPLACE IT. The mock-up keeps the ordinary
+   arrow and puts the words beside it, which is the honest version — a hidden
+   system cursor with a div pretending to be one always lags by a frame.
+
+   Two states, one element: `is-hot` is hovering a picture with nothing open
+   (CLICK TO OPEN), `is-open` is a picture up (CLICK TO CLOSE). */
+.lbox__label{
+  position: fixed; left: 0; top: 0;
+  transform: translate3d(-9999px, -9999px, 0);
+
+  /* THE SITE'S OWN SMALL-LABEL SETTING, not a monospace of its own. This was
+     PP Supply Mono at 10px with +.12em of tracking, which is three separate
+     disagreements with everything around it: the site sets its labels in the
+     main face, and — the one that actually shows — its tracking is NEGATIVE.
+     --ui-track is -0.04em. Letters spaced apart where every other label on the
+     page is tucked together reads as a different typeface even when it is not.
+     `inherit` rather than a named family, so it follows whatever the page is
+     set in and cannot drift again. */
+  font-family: inherit;
+  font-size: var(--ui-10, 10px);
+  font-weight: 400;
+  letter-spacing: var(--ui-track, -0.04em);
+  line-height: 1;
+  text-transform: uppercase;
+
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 160ms ease;
+}
+.lbox.is-hot  .lbox__label,
+.lbox.is-open .lbox__label{ opacity: 1; }
+
+.lbox--light{ color: #fff; }
+.lbox--dark { color: #000; }
+
+/* ==========================================================================
+   LETTING THE CLICK THROUGH, and only the click.
+
+   .wgrid__world is pointer-events:none — deliberately, so the whole field
+   reads as one draggable surface and no individual card can start a native
+   image drag. That also means a pointer event never has a cell as its target.
+
+   The fix is the standard parent-none/child-auto pair: the world stays
+   transparent to the pointer, the cells become targets again. Dragging is
+   unaffected — the event still bubbles from the cell up to the root, which is
+   where js/work-grid.js listens. The <img> inside stays pointer-events:none,
+   so picking a card up still cannot start a browser file-drag.
+
+   NOTE this is not on its own enough on the work page: that root also takes
+   POINTER CAPTURE on pointerdown, which retargets every later event to itself.
+   See the note beside `downCell` in js/lightbox.js.
+   ========================================================================== */
+body[data-page="design"]  .wgrid__cell{ pointer-events: auto; }
+body[data-page="gallery"] .pathg__it { pointer-events: auto; }
+
+
+/* ===== https://www.unbelievablycrap.com/css/path-map.css ===== */
+/* ==========================================================================
+   path-map.css — the ride's map, and the page tint. See js/path-map.js and
+   js/tint.js.
+
+   THE BOX IS FIGMA 14619:12641: 184 x 265 at 10,10 — the same corner the home
+   page's map takes, and deliberately the same instrument. What differs is the
+   proportion (that one is 283x142, landscape; this one is portrait) because
+   what it has to show differs: a cursor inside a screen there, a whole closed
+   loop here.
+
+   THE HATCH IS THE HOME PAGE'S, borrowed by using its variables rather than by
+   restating its numbers — css/hud.css owns --hatch-angle, --hatch-ink,
+   --hatch-thick and --hatch-period, and this reads them. Change the pattern
+   there and both maps change together, which is the point of them being the
+   same instrument. The only thing set here is the INK, because that page is
+   dark and this one is white paper: the same rgba(255,255,255,.11) would be
+   invisible.
+   ========================================================================== */
+
+.pmap{
+  position: fixed;
+  left: 10px; top: 10px;
+  width: 184px; height: 265px;
+  z-index: 42;
+  overflow: hidden;
+  /* IT IS AN INSTRUMENT, NOT A CONTROL. The gallery reads the wheel across the
+     whole viewport; a 184x265 box that swallowed one would be a rectangle of
+     the page where the ride stops. */
+  pointer-events: none;
+  /* THE HOME PAGE'S HATCH IS rgba(255,255,255,.11) ON BLACK. This page is
+     white paper, so the same value is invisible — the ink is the one thing
+     that cannot be borrowed and is set here. */
+  --hatch-ink: rgba(0, 0, 0, .13);
+}
+
+/* The drifting hatch, exactly as css/hud.css builds it — a repeating gradient
+   on its own layer, translated by one horizontal period so the loop closes on
+   a character boundary rather than mid-stripe. */
+.pmap::before{
+  content: "";
+  position: absolute; top: 0; bottom: 0;
+  left: -8px; right: -8px;
+  background: repeating-linear-gradient(var(--hatch-angle, 105deg),
+      var(--hatch-ink) 0px, var(--hatch-ink) var(--hatch-thick, .5px),
+      transparent var(--hatch-thick, .5px), transparent var(--hatch-period, 5px));
+  animation: hud-hatch var(--hatch-speed, .313s) linear infinite;
+}
+
+.pmap canvas{
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  display: block;
+}
+
+/* The four corner ticks, the same 3x3 the home page's map carries. */
+.pmap__tick{
+  position: absolute;
+  width: 3px; height: 3px;
+  background: rgba(0, 0, 0, .45);
+}
+.pmap__tick--tl{ left: 0;  top: 0; }
+.pmap__tick--tr{ right: 0; top: 0; }
+.pmap__tick--bl{ left: 0;  bottom: 0; }
+.pmap__tick--br{ right: 0; bottom: 0; }
+
+/* ---------------- the page tint -------------------------------------------
+   js/tint.js writes the colour, the blend and the strength; this only says
+   where the sheet is and how far up the stack.
+
+   z-index 55 IS THE WHOLE RULE. The bar is 60, so the tint passes under it and
+   the bar stays the one colour it is on every page. Everything else on the
+   page paints below 55 and is covered.
+
+   NO `isolation` ANYWHERE ABOVE IT. mix-blend-mode blends an element with its
+   backdrop inside the nearest stacking context that isolates, so an
+   `isolation: isolate` on an ancestor would quietly reduce this to blending
+   with nothing. It is a child of the Barba container, which is a stacking
+   context but does not isolate — so the blend reaches the whole page. */
+.tint{
+  position: fixed;
+  inset: 0;
+  z-index: 55;
+  pointer-events: none;
+}
+
+
+/* ===== https://www.unbelievablycrap.com/css/work-grid.css ===== */
+/* ==========================================================================
+   work-grid.css — the work page's infinite card field.
+
+   THE PAGE IS BLACK NOW. It was the light gradient the wheel sat on; Figma
+   14584:12146 is a dark field, so the ground and the grain both move to the
+   treatment the home page already has — the grain's `overlay` does nothing
+   against black, so it has to lift instead.
+
+   THE BAR DOES NOT MOVE WITH THEM, and that is deliberate. It is #393939 on
+   every page and every section: it is the one element present everywhere, so
+   it is the site's constant and cannot change identity halfway round.
+
+   EVERY MEASUREMENT HERE IS FIGMA'S, at its 1920 frame:
+
+     cell         475 x 331
+     pitch        491 x 363   (16px between columns, 32px between rows)
+     plate        475 x 311
+     image        inset 32     -> 411 x 247, which is 5:3
+     ticks        3 x 3 at the plate's four corners
+     microtype    5px tall, 15px under the plate
+
+   They are held as custom properties rather than numbers in rules, because
+   js/work-grid.js needs the same values to lay the field out, and two copies of
+   a pitch is a grid that drifts apart by one gutter every screen.
+   ========================================================================== */
+
+body[data-page="design"]{
+  --about-ground: #000000;
+  --about-ink:    #C8C8C8;
+  --about-dim:    rgba(200,200,200,.5);
+  background: var(--about-ground);
+  color: var(--about-ink);
+}
+
+/* The lifted grain the black home page uses. The BAR is deliberately not
+   touched: #393939 on every page and every section, which is ui.css's default
+   — see the note in css/about.css where the old inversion was removed. */
+body[data-page="design"] .grain{
+  --grain-blend: lighten;
+  --grain-opacity: .06;
+  --grain-brightness: 100%;
+  --grain-contrast: 50%;
+  --grain-size: 1em;
+}
+
+/* ---------------- the field ------------------------------------------------
+   TOUCH-ACTION AND OVERSCROLL ARE NOT STYLING, they are the brief. "Turn off
+   the gestures for that page so a user does not accidentally change the page"
+   is three separate browser behaviours, and only one of them can be stopped
+   from JavaScript:
+
+     touch-action: none        stops the browser claiming the gesture for its
+                               own panning before a single event is delivered
+     overscroll-behavior: none stops the two-finger swipe that navigates back,
+                               and stops a scroll chaining out to the document
+     the third is preventDefault on a NON-PASSIVE wheel listener, which
+     js/work-grid.js does — CSS cannot do that one.
+
+   All three are needed. Any two of them still leave a trackpad able to take
+   the visitor off the page mid-drag. */
+.wgrid{
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  background: var(--about-ground);
+  touch-action: none;
+  overscroll-behavior: none;
+  cursor: grab;
+  /* The cell, as Figma draws it. js/work-grid.js reads these back rather than
+     carrying its own copy — see the note at the top. */
+  --cell-w: 475px;
+  --cell-h: 331px;
+  --pitch-x: 491px;
+  --pitch-y: 363px;
+  --plate-h: 311px;
+  --inset: 32px;
+}
+.wgrid.is-dragging{ cursor: grabbing; }
+
+/* The filter's host. Zero-sized and out of flow — it exists only to own the
+   <filter> the photographs reference; nothing about it is ever painted. */
+.wgrid__defs{ position: absolute; width: 0; height: 0; overflow: hidden; }
+
+/* THE FIELD'S ONE LAYER. The photographs were a WebGL canvas under this until
+   the SecurityError in js/work-grid.js's header settled the argument — they are
+   plain <img> now, inside the same cells that carry the ticks and the type, so
+   there is nothing left that could drift out of step with anything else. */
+.wgrid__world{
+  position: absolute; left: 0; top: 0;
+  width: 100%; height: 100%;
+  z-index: 1;
+  pointer-events: none;
+  will-change: transform;
+}
+
+.wgrid__cell{
+  position: absolute; left: 0; top: 0;
+  width: var(--cell-w);
+  height: var(--cell-h);
+  will-change: transform, opacity;
+  /* THE TOP-LEFT CORNER, NOT THE MIDDLE, and this is a correctness fix rather
+     than a preference.
+
+     js/work-grid.js writes `translate3d(top-left) scale(s)`, which is only what
+     it reads as when the scale happens about the origin the translate targeted.
+     At the browser's default 50% 50% the element is translated and THEN scaled
+     about its own centre, so the card lands at
+     `translate + cardW/2 * (1 - s)` — a displacement that is zero only while s
+     is exactly 1. It was not: with the zoom at 2.5 every card sat some hundreds
+     of px from where the code believed it was, uniformly, so the field looked
+     correct and the DWELL TEST was picking the wrong card, because that test is
+     the one thing that compares the pointer with those believed positions.
+
+     The projective placement needs it too: that matrix maps the card's own
+     local coordinates straight to screen coordinates, which is only true from
+     the element's corner. */
+  transform-origin: 0 0;
+  /* THE FOCUS DIM RIDES HERE, on the cell — so the photograph, its ticks and
+     its label fade as one object rather than three that happen to agree. */
+  transition: opacity var(--focus-ms, 420ms) ease;
+}
+
+/* THE CONTAINER THE PICTURE LIES IN — #393939, and it is Figma's Frame 5587:
+   the full 475 x 311 plate, with the photograph inset 32px inside it. It was
+   nothing at all before, so the picture floated on the page's black and the
+   card had no body; this is the card.
+
+   The same #393939 as the bar, which is not a coincidence — it is the site's
+   one furniture colour, and the plate is furniture.
+
+   IT IS ALSO WHAT YOU SEE BEFORE A PHOTOGRAPH ARRIVES. Thirty images decode at
+   their own pace and a plate with no ground shows the page through the hole
+   until they do, which reads as a missing card rather than a loading one. */
+.wgrid__plate{
+  position: absolute;
+  left: 0; top: 0;
+  width: var(--cell-w);
+  height: var(--plate-h);
+  background: var(--plate-bg, #393939);
+  overflow: hidden;
+  /* HOW ROUNDED IT IS WHILE MOVING. One variable on the root, because movement
+     is global and every card rounds by the same amount at the same moment —
+     thirty inline writes would all be carrying the same number. */
+  border-radius: var(--card-radius, 0px);
+  will-change: transform, filter;
+}
+/* The photograph: Figma insets it 32px, so 411 x 247 — a 5:3 window that
+   object-fit fills with the middle of whatever it is given. The set is mixed
+   portrait and landscape and every one of them has to sit in that rectangle. */
+.wgrid__plate img{
+  position: absolute;
+  left: var(--inset); top: var(--inset);
+  width: calc(var(--cell-w) - var(--inset) * 2);
+  height: calc(var(--plate-h) - var(--inset) * 2);
+  object-fit: var(--img-fit, cover);
+  border-radius: inherit;
+  /* The crop, about the window's own centre. The plate's overflow:hidden is
+     what clips it, so scaling up shows less of the photograph rather than
+     spilling it over the container. */
+  transform: scale(var(--img-zoom, 1));
+  /* The drag belongs to the root. An image that can be picked up is an image
+     that starts a native drag-and-drop the moment you try to move the field. */
+  pointer-events: none;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+/* THE GREY COPY, stacked exactly on the colour one. Its filter is CONSTANT —
+   that is the whole point: a constant filter is rasterised once and thereafter
+   only composited, where a filter whose value changes forces the element to be
+   filtered again every time. js/work-grid.js cross-fades this with `opacity`,
+   which the compositor handles without touching a pixel of either layer.
+
+   It inherits every geometric rule from the img rule above, so the two are
+   guaranteed to sit on top of one another; only the filter and the fade are
+   its own. */
+.wgrid__plate .wgrid__grey{
+  filter: grayscale(1);
+  opacity: 0;
+}
+
+/* The four corner ticks. 3x3 at the plate's corners, and they are the thing
+   that BRIGHTENS on focus rather than a border appearing — Figma's focus state
+   changes weight, not shape. */
+.wgrid__tick{
+  position: absolute;
+  width: 3px; height: 3px;
+  background: var(--about-dim);
+  transition: background var(--focus-ms, 420ms) ease;
+}
+.wgrid__tick--tl{ left: 0; top: 0; }
+.wgrid__tick--tr{ right: 0; top: 0; }
+.wgrid__tick--bl{ left: 0; top: var(--plate-h); transform: translateY(-3px); }
+.wgrid__tick--br{ right: 0; top: var(--plate-h); transform: translateY(-3px); }
+.wgrid__cell.is-focus .wgrid__tick{ background: #FFFFFF; }
+
+/* The label strip: 5px tall, 15px under the plate, one cluster hard against
+   each edge. Figma's own 30px and 35px widths are not set here — the type sets
+   them, and pinning both would fight the font. */
+.wgrid__meta{
+  position: absolute;
+  left: 0; right: 0;
+  top: calc(var(--plate-h) + 15px);
+  height: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 5px;
+  line-height: 1;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  color: var(--about-dim);
+  white-space: nowrap;
+  transition: color var(--focus-ms, 420ms) ease;
+}
+.wgrid__cell.is-focus .wgrid__meta{ color: #FFFFFF; }
+.wgrid__meta span{ opacity: .6; }
+.wgrid__cell.is-focus .wgrid__meta span{ opacity: 1; }
+
+/* SCROLL, bottom right, 15px above the bar — Figma has it at y=1037 on a 1080
+   frame with a 28px bar, which is 15px of clearance. */
+.wgrid__scroll{
+  position: fixed;
+  right: 10px;
+  bottom: 43px;
+  z-index: 40;
+  font-size: 5px;
+  line-height: 1;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--about-dim);
+  pointer-events: none;
+}
+
+/* THE BLOB, the home page's block-01 one, hosted here. z-index 0 puts it UNDER
+   the cards, which is where it sits on every other page that carries it — it is
+   the ground the work floats over, not a wash across it. */
+body[data-page="design"] .work-blobs{ z-index: 0; }
+
+@media (prefers-reduced-motion: reduce){
+  .wgrid__cell,
+  .wgrid__tick,
+  .wgrid__meta{ transition: none; }
+}
+
+
+
+/* ===== https://www.unbelievablycrap.com/css/gate.css ===== */
+/* ==========================================================================
+   gate.css — the phone door, from Figma 14790:29095 (402 x 874).
+
+   WHAT THIS IS FOR. The phone layout is finished and it is not going to be
+   shown. Deleting it would be the easy way and the wrong one — it is three
+   hundred lines of measured work and it will be wanted again — so instead the
+   site puts a door in front of it. css/mobile.css stays linked, stays
+   untouched, and simply has nothing on screen to style.
+
+   AND IT MAKES THE PHONE FASTER, NOT SLOWER, which is the part worth being
+   clear about. The door is not a sheet laid OVER a running site: the container
+   is display:none, so nothing inside it is laid out or painted, and
+   js/lifecycle.js does not mount the page's modules at all. On a phone this
+   site is otherwise several WebGL contexts and a handful of animation loops.
+   Behind this door there is one canvas. Desktop pays nothing whatsoever —
+   every rule below is inside a media query it never matches.
+
+   TO SEE THE PHONE LAYOUT ANYWAY, put ?mobile in the URL. The door steps aside
+   and the site comes up as it always did. That is what "hidden, not deleted"
+   means in practice: one query string away, for you, and unreachable for
+   everybody else.
+   ========================================================================== */
+
+/* THE DOOR IS INVISIBLE UNTIL THE FLAG SAYS OTHERWISE, and the flag is set in
+   the <head> before the first paint — see the inline script in each page. A
+   door decided in JS after load is a door you watch swing shut. */
+.gate{ display: none; }
+
+html.is-gated .gate{
+  display: block;
+  position: fixed;
+  inset: 0;
+  z-index: 2147483000;   /* above the transition cover, which is the tallest
+                            thing the site otherwise paints */
+  background: var(--ui-red, #e8271c);
+  overflow: hidden;
+  /* The page underneath cannot be scrolled to, so the door must not bounce
+     either — on iOS a fixed element still rubber-bands without this. */
+  overscroll-behavior: none;
+  touch-action: none;
+}
+
+/* EVERYTHING ELSE, OFF. `display:none` and not `visibility:hidden` or an
+   opacity: those two keep the box, and keeping the box means the phone still
+   lays out, still composites, and every canvas inside still has a size worth
+   drawing into. None is the only one of the three that actually stops work. */
+html.is-gated body > [data-barba="container"],
+html.is-gated [data-barba="wrapper"] > main,
+html.is-gated .grain,
+html.is-gated .loader,
+html.is-gated .tn{ display: none !important; }
+
+/* THE GROUND. js/work-cursor.js mounts its character field into this element
+   when the door is up — the same blob as every other page, not a picture of
+   one. It is the only canvas running on a phone. */
+.gate__bg{
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+.gate__bg canvas{ position: absolute; inset: 0; width: 100%; height: 100%; }
+
+/* THE MARK, DEAD CENTRE. Figma puts the 128px logo at (137, 373) in a
+   402 x 874 frame — 137 + 64 = 201 and 373 + 64 = 437, exactly half of each
+   side. So it is centred, and it is written as centred rather than as those
+   two numbers, which would only be centred on a 402 x 874 phone.
+
+   THE LOGO IS CENTRED, NOT THE PAIR. Wrapping the mark and the line in one
+   centred block sits the block's middle on the screen's middle, which pushes
+   the logo seventeen pixels high — measured, 420 against 437. The design
+   centres the MARK and hangs the line off it, so that is what this does. */
+html.is-gated .gate__logo{
+  position: absolute;
+  left: 50%; top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  display: block;
+  /* BOTH AXES SAID OUT LOUD. css/base.css carries `img{ max-width: 100% }`,
+     which is right everywhere else and here quietly squeezed the mark to its
+     parent's 107px — 107 x 128, measured. Nothing about this one is inherited. */
+  width: 128px; height: 128px; max-width: none;
+}
+
+/* 515 - 501 = 14 under the mark, and the mark's bottom is half the frame plus
+   half of 128. Three lines on a 10px lead; the design reports the block as 30
+   tall, which is those three lines and nothing else. */
+html.is-gated .gate__say{
+  position: absolute;
+  left: 50%;
+  top: calc(50% + 64px + 14px);
+  transform: translateX(-50%);
+  z-index: 1;
+  margin: 0;
+  width: 107px;
+  text-align: center;
+  color: #ffffff;
+  font: 7.5px/10px 'PP Supply Mono', ui-monospace, monospace;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+
+/* 854 + 10 = 864 in an 874 frame: ten pixels off the bottom. Written from the
+   BOTTOM for the reason css/mobile.css gives at its head — a phone is never
+   874 tall, the address bar sees to that, so a distance from the bottom is the
+   only one that survives it. */
+html.is-gated .gate__foot{
+  position: absolute;
+  left: 50%; bottom: 10px;
+  transform: translateX(-50%);
+  z-index: 1;
+  margin: 0;
+  width: 107px;
+  text-align: center;
+  color: #ffffff;
+  font: 7.5px/10px 'PP Supply Mono', ui-monospace, monospace;
+  text-transform: uppercase;
+}
+
+
+/* ===== https://www.unbelievablycrap.com/css/crt.css ===== */
+/* ==========================================================================
+   crt.css — the tube, for whichever page is hosting it. See js/crt.js.
+
+   NOTHING HERE NAMES A PAGE. The module puts the classes and the variables on
+   whatever element it was told is the room, and the subject selector is the
+   one line each page contributes for itself at the bottom — so adding the tube
+   to a third page is one selector, not a copy of this file.
+
+   THE LINES ARE A REPEATING GRADIENT rather than an image: it scales with
+   whatever it is laid over, costs nothing, and its spacing is a dial instead of
+   a baked-in texture.
+   ========================================================================== */
+
+.crt{
+  position: absolute; inset: 0;
+  z-index: 55;
+  display: none;
+  pointer-events: none;
+}
+.is-crt-page .crt{ display: block; }
+
+/* The glass itself: lines, then the vignette over them. */
+.crt::before{
+  content: "";
+  position: absolute; inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse at 50% 50%,
+      rgba(0,0,0,0) 42%,
+      rgba(0,0,0,var(--crt-vig, .35)) 100%),
+    repeating-linear-gradient(0deg,
+      rgba(0,0,0,var(--crt-depth, .18)) 0px,
+      rgba(0,0,0,var(--crt-depth, .18)) 1px,
+      rgba(0,0,0,0) 1px,
+      rgba(0,0,0,0) var(--crt-scan, 3px));
+  /* THE ROLL. Offsetting the whole background rather than animating a
+     transform: a transform on a full-screen layer promotes it and repaints it,
+     and this is a background-position change on something already composited. */
+  background-position: 0 0, 0 var(--crt-roll, 0px);
+}
+
+/* ---------------- which element IS a subject -------------------------------
+   The module knows this selector for its own purposes; the stylesheet needs it
+   too, and naming the host here is cheaper than teaching the module to write a
+   class onto thirty elements on every rebuild. Adding the tube to another page
+   is one more line in this selector.
+
+   A subject's glass is NOT GENERATED AT ALL outside subject scope — `content`
+   is only set inside the rule below — so a page carries nothing while the tube
+   is off or covering everything. */
+.wgrid.is-crt-subject .wgrid__plate::after{
+  content: "";
+  position: absolute; inset: 0;
+  pointer-events: none;
+  border-radius: inherit;
+  background:
+    radial-gradient(ellipse at 50% 50%,
+      rgba(0,0,0,0) 42%,
+      rgba(0,0,0,var(--crt-vig, .35)) 100%),
+    repeating-linear-gradient(0deg,
+      rgba(0,0,0,var(--crt-depth, .18)) 0px,
+      rgba(0,0,0,var(--crt-depth, .18)) 1px,
+      rgba(0,0,0,0) 1px,
+      rgba(0,0,0,0) var(--crt-scan, 3px));
+  background-position: 0 0, 0 var(--crt-roll, 0px);
+}
+
+
+
+/* ===== https://www.unbelievablycrap.com/css/about.css ===== */
+/* ==========================================================================
+   about.css — the About page.
+
+   An inverted page: black ground, light type, and a bottom bar that swaps to
+   #C8C8C8 with #393939 links, the reverse of the other two pages. Everything
+   is scoped under body[data-page="about"] so the shared chrome in ui.css keeps
+   its own colours everywhere else.
+   ========================================================================== */
+
+body[data-page="about"],
+body[data-page="mask"]{
+  --about-ground: #000000;
+  --about-ink:    #C8C8C8;
+  --about-dim:    rgba(200,200,200,.5);
+  background: var(--about-ground);
+  color: var(--about-ink);
+}
+
+/* ---------------- stage ----------------------------------------------------
+   Owns the wheel gesture (js/about-text.js drives a virtual scroll, because
+   body is overflow:hidden site-wide) so it must not pass touch scrolling
+   through to the page underneath. */
+.about{
+  position: relative;
+  width: 100%;
+  height: 100svh;
+  overflow: hidden;
+  background: var(--about-ground);
+  touch-action: none;
+}
+
+/* ---------------- the figure -----------------------------------------------
+   Sits behind the type. The canvas is transparent, so the black comes from
+   .about, which is what lets the saturation layer above reach the ground as
+   well as the model. */
+.about__figure{
+  position: absolute;
+  left: 50%; top: 50%;
+  transform: translate(-50%, -50%);
+  width: var(--fig-w, 420px);
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+}
+/* Two canvases can live here at once: the original WebGL one and, once
+   js/about-xray.js has three.js up and has drawn a frame, its own. They are
+   stacked rather than swapped so the hand-over needs no reflow, and so the
+   first can keep rendering its silhouette buffer underneath. */
+.about__figure canvas{
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%; height: 100%;
+}
+
+/* THE EFFECT.
+
+   In Figma this is a red fill over the model set to Saturation. Reproduced
+   literally with mix-blend-mode, but it only works because of something that
+   is easy to remove by accident: the model is PURE GREY, and a saturation
+   blend over pure grey does nothing at all — grey carries no hue for the blend
+   to saturate. The shader in js/about-figure.js therefore dithers every pixel
+   with a little random colour (CONFIG.grain), and this layer amplifies that
+   dither to full saturation. That is where the speckled colour comes from.
+
+   Turn the shader's grain to 0 and this layer stops doing anything. They are
+   a pair — but they are NOT the same control, which cost a round to work out:
+
+     shader grain  -> DENSITY. A saturation blend takes the saturation of the
+                      source and applies it whole, so it does not care how big
+                      the backdrop's hue difference is, only that there is one.
+                      Dropping grain from 0.09 to 0.022 barely moved the
+                      measured chroma (164 -> 128) — it only thinned out how
+                      many pixels differ at all after 8-bit quantisation.
+     --fx-opacity  -> INTENSITY. This is the real dial. Below 1 the result is a
+                      mix of the plain grey and the fully saturated version,
+                      which is what produces a pastel rather than confetti.
+
+   Both were then swept together against the reference, because the tint in
+   the shader and this layer COMPOUND: the blend amplifies the tint's hue just
+   as it amplifies the noise, so a green tint that measures +6 on its own came
+   out at +29 through the blend. 0.14 with tint #FCFFF8 lands at a green lift
+   of about +12 and a chroma spread of about 28, against the reference's +10.7
+   and 30.2. */
+.about__fx{
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  background: var(--fx-color, #e8271c);
+  mix-blend-mode: var(--fx-blend, saturation);
+  opacity: var(--fx-opacity, 1);
+}
+
+/* ---------------- the text -------------------------------------------------
+   One column of full-width rows. Each row is a three-track grid — left gutter,
+   a channel the width of the figure, right gutter — and the line sits in the
+   left or right track depending on data-side. That is what makes the copy read
+   around the figure instead of over it, while keeping one linear reading order
+   in the markup. */
+.about__stage{
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  overflow: hidden;
+  cursor: default;
+}
+.about__column{
+  position: absolute;
+  left: 0; right: 0;
+  /* The copy begins near the TOP, as the reference does. At 42svh the upper
+     third of the page was empty black and the story looked like it was
+     missing rather than waiting below. */
+  top: var(--start-offset, 6svh);
+  display: flex;
+  flex-direction: column;
+  /* js/about-text.js overwrites this on mount. It is derived there, not set
+     here, because the number that matters is the gap you SEE down one side —
+     and the copy alternates sides, so that is roughly twice this. */
+  gap: var(--line-gap, 4.5px);
+  will-change: transform;
+}
+
+/* Full-width rows. The copy is pushed off one edge by a padding that
+   js/about-text.js recomputes from the figure's live silhouette, so the block
+   parts around the BODY rather than around a fixed column — and re-parts as it
+   turns. The three-track grid this replaced could only ever clear a rectangle. */
+.about__line{
+  display: flex;
+  align-items: baseline;
+  /* every one of these is a dial on the About panel */
+  font-size: var(--text-size, 10px);
+  line-height: var(--text-leading, .5);
+  letter-spacing: var(--text-track, -0.4px);
+  text-transform: uppercase;
+  color: var(--text-color, #FFFFFF);
+  opacity: var(--text-opacity, 1);
+}
+.about__line > *{ margin: 0; white-space: nowrap; }
+.about__line[data-side="l"]{ justify-content: flex-end; }
+.about__line[data-side="r"]{ justify-content: flex-start; }
+.about__line[data-side="c"]{ justify-content: center; }
+
+/* One colour for the whole story. The --head and --quiet classes are kept as
+   hooks, but they no longer set a colour of their own: a dimmed line read as a
+   rendering fault rather than as emphasis, and mixed brightness down a column
+   is the first thing the eye picks up. Change --text-color on the panel to
+   move all of it at once. */
+.about__line--head > *,
+.about__line--quiet > *{ color: inherit; }
+
+/* ---------------- corner label ---------------------------------------------- */
+.about__tag{
+  position: absolute;
+  left: 200px; top: 11px;
+  z-index: 4;
+  font-size: var(--ui-10);
+  line-height: .5;
+  letter-spacing: -0.4px;
+  text-transform: uppercase;
+  color: var(--about-dim);
+}
+
+/* ---------------- the bottom bar is NOT inverted here ------------------------
+   It used to be: #C8C8C8 ground with #393939 links, the reverse of the other
+   pages, on the reasoning that a dark page wants a light bar. That made the
+   bar a different object on the black pages from the one on the light pages,
+   and the bar is the one element that is on every page and every section — it
+   is the site's constant, so it cannot change identity halfway round.
+
+   #393939 EVERYWHERE, which is ui.css's own --ui-bar and what the expanding
+   footer in css/footer.css already paints. Deleting the override IS the fix;
+   re-stating the default here would be a second copy of one colour, which is
+   how the two drifted apart in the first place. */
+
+/* The grain is tuned for a near-white page; against this black ground
+   `overlay` does nothing, for the same reason the loader needed its own
+   settings. Same texture, same animation, `screen` so it can lift. */
+body[data-page="about"] .grain,
+body[data-page="mask"] .grain{
+  --grain-blend: lighten;
+  --grain-opacity: .06;
+  --grain-brightness: 100%;
+  --grain-contrast: 50%;
+  --grain-size: 1em;
+}
+
+@media (prefers-reduced-motion: reduce){
+  .about__column{ transition: none; }
+}
+
+
+/* ---------------- block 02's figure box --------------------------------------
+   .about__figure is --fig-w wide because the copy runs down both sides of it
+   and that box IS the channel the text parts around. Block 02 has no copy, so
+   the same box would only amputate the head the moment it is scaled up — and
+   that page exists to scale it up. Full width there.
+
+   SCOPED TO .mask-body, and it has to be. Written as
+   `body[data-page="mask"] .about__figure` it caught BOTH figures, so block 01
+   — which is the About block, channel and all — had its 420px column widened
+   to the whole viewport. Nothing errored: the copy simply re-flowed around a
+   figure that was now four times wider and rendered at a different aspect, and
+   the block that was supposed to be untouched was the one thing on the page
+   that had changed. A selector that names the page instead of the element is
+   how a "page-scoped" rule reaches something it was never meant to. */
+body[data-page="mask"] .mask-body{
+  left: 0;
+  width: 100%;
+  transform: translateY(-50%);
+}
+/* THE RED EFFECT, AND WHICH BLOCK IT REACHES.
+   .about__fx is a red fill on `saturation`, and it only ever made sense over a
+   PURE GREY model: grey has no saturation of its own, so the blend gives it
+   one and the shader's colour noise decides how much. It was lifted above the
+   dissolve canvas so block 02 would wear the page's look too.
+
+   Then block 02's head got its own photograph, and a saturation blend over a
+   real photograph does not tint it — it drives every pixel to full chroma, and
+   a face comes out burnt orange and black. So the default is back under the
+   sheet: block 01 keeps the treatment, block 02 shows its own colour.
+
+   The class puts it back over everything, for a block 02 with the map off. */
+body[data-page="mask"] .about__fx{ z-index: 2; }
+body[data-page="mask"] .about.is-fx-over .about__fx{ z-index: 6; }
+/* The grab cursor belongs to block 02, so it only appears once block 02 has
+   the screen — js/mask.js adds the class at the same threshold that hands the
+   pointer over. Over block 01 the cursor is the About page's. */
+body[data-page="mask"] .about.is-grabbable{ cursor: grab; }
+body[data-page="mask"] .about.is-dragging{ cursor: grabbing; }
+
+
+/* The white block, as a canvas over the figure (js/mask-scroll.js). Above the
+   model and the effect layer so it genuinely covers them, below the bar and
+   the film grain so the page's chrome survives the transition. */
+.mask-sheet{
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  display: block;
+  width: 100%; height: 100%;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+
+/* The mask page's second-block figure. Hidden from the compositor because it
+   is only ever a texture source for js/mask-scroll.js — `visibility` rather
+   than `display`, so it keeps its size and its backing store. */
+body[data-page="mask"] .mask-body{ visibility: hidden; }
+
+/* ---------------- the ASCII ground on the mask page -------------------------
+   js/work-cursor.js's canvas, mounted inside .about here rather than .stage.
+
+   UNDER THE 3D, which is the whole point of putting it here: z-index 0 puts it
+   beneath the figure, the red effect at 2, the white sheet at 5 and the bar —
+   so the characters are the ground block 02's head stands on, not a veil over
+   it. The work page runs the same canvas at z-index 1 for the same reason,
+   above its gradient and below everything the page draws.
+
+   It has to be INSIDE .about and not on the body: a blend composites against
+   its own stacking context's backdrop, and .about is what paints the white. */
+body[data-page="mask"] .work-blobs{
+  /* VISIBLE, and read twice — which is the only way it reaches both blocks.
+
+     The two blocks are not the same kind of thing. Block 01 is a DOM stack on
+     black, so the canvas simply sits in it at z-index 0: above .about's own
+     background and below the figure, the red effect at 2 and the sheet at 5.
+     Block 02 is one canvas that js/mask-scroll.js paints, so a DOM layer is
+     behind an opaque sheet there and can never show — it reaches that block by
+     being SAMPLED as a texture into the sheet's own ground instead.
+
+     Both at once, and they do not double up: while block 02 is showing, the
+     sheet covers this canvas completely, so what you see is the composited
+     copy. It was `visibility: hidden` when only the second block wanted it. */
+  z-index: 0;
+}
+
+/* THE COPY'S ENTRANCE, held until it is on screen. js/about-text.js adds this
+   at mount and removes it on the first scroll. Same mechanism the loader uses
+   (css/loader.css) and for the same reason: an entrance that plays where nobody
+   is looking has not happened. */
+#aboutColumn.is-held .anim-line{ animation-play-state: paused; }
+
+/* ---------------- THE ENTRANCE, AND WHAT IT COSTS ---------------------------
+   The column is ~250 lines, each of them .anim-line — `opacity` AND
+   `filter: blur()` together, staggered 14ms apart over 1600ms each. That is
+   not a stagger of one animation; at those numbers roughly a hundred and
+   twenty lines are inside their blur at the same moment, and a blur is the one
+   filter the compositor cannot fake: every frame, every line, its own render
+   surface re-filtered. Measured as the drop to ~50fps on arrival.
+
+   So the reveal is a SETTING now, and it is off. js/line-reveal.js owns the
+   class; the three states are genuinely different pictures, not degrees:
+
+     off   the copy is simply there. No animation, no filter, no layers.
+     fade  opacity only. Keeps the entrance and costs essentially nothing —
+           opacity is the one property the compositor animates without
+           touching a pixel.
+     blur  what it was.
+
+   SCOPED TO #aboutColumn ON PURPOSE. .anim-line is also the loader's, the
+   footer's and block 02's; those are a handful of lines each and cost nothing.
+   The column is the only place the count turns the effect into a bill. */
+html.copy-reveal-off #aboutColumn .anim-line{
+  animation: none;
+  /* .anim-line's BASE state is opacity:0 + blur — the animation is what
+     reveals it. Switching the animation off without these two removes the
+     copy from the page entirely. */
+  opacity: var(--in-opacity, 1);
+  filter: none;
+}
+
+html.copy-reveal-fade #aboutColumn .anim-line{
+  animation-name: lineFadeOnly;
+  filter: none;
+}
+@keyframes lineFadeOnly{
+  from{ opacity: 0; }
+  to  { opacity: var(--in-opacity, 1); }
+}
+
+
+/* ===== https://www.unbelievablycrap.com/css/figure-host.css ===== */
+/* ==========================================================================
+   figure-host.css — where the scanned figure stands, on whichever page hosts it.
+
+   TWO HOSTS TODAY: the work page's field, where it is placed by one of five
+   anchors and measured in vh, and the home page's HUD map box, where
+   css/hud.css owns a 283x142px frame and this only has to centre a 52px figure
+   inside it. Nothing below names either page — js/figure-host.js writes the
+   numbers and the unit, and picks the placement class.
+
+   THE MODULE WRITES NUMBERS, THIS FILE OWNS THE GEOMETRY. Everything that
+   changes is a custom property on the host; the five placements are five
+   classes. That split is what keeps js/figure-host.js from carrying a table of
+   `left`/`right`/`top`/`bottom` strings — a placement is a class name there and
+   the anchoring lives here, in the language that has anchoring in it.
+
+   WHY THE BOX IS SQUARE. The renderer is asked to `contain` the model inside
+   whatever frame it is given, so the frame's SHORTER side is what decides how
+   tall the figure comes out. A square frame makes that the same number on both
+   axes, which is what lets one `size` dial mean one thing.
+   ========================================================================== */
+
+.wfig{
+  position: absolute;
+  width: var(--wfig-size, 34vh);
+  height: var(--wfig-size, 34vh);
+  z-index: var(--wfig-z, 45);
+  opacity: var(--wfig-opacity, 1);
+  /* THE FIELD IS DRAGGED THROUGH THIS ELEMENT. .wgrid is one big pointer
+     target — the drag, the wheel and the dwell test all read from it — and an
+     element sitting on top of it that accepts events is a rectangle of the
+     page where the field cannot be picked up. */
+  pointer-events: none;
+  /* The colour treatment. Both of these are inert at their defaults, so a
+     figure set to `normal` costs nothing: `mix-blend-mode: normal` does not
+     even promote the layer. */
+  mix-blend-mode: var(--wfig-blend, normal);
+  filter: var(--wfig-filter, none);
+}
+
+.wfig canvas{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* ---------------- the five placements --------------------------------------
+   The margins are ignored in the centre, which is the one position that is not
+   measured from an edge. */
+/* THE NUDGE IS ITS OWN PAIR OF PROPERTIES, composed into every transform that
+   places a host rather than replacing it. Three writers want this transform —
+   the centring here, the column travel in css/block2.css, and js/figure-host.js
+   writing fig.x / fig.y — and the only way all three survive is if none of them
+   owns the whole string. */
+.wfig{ --wfig-dx: 0px; --wfig-dy: 0px; }
+.wfig--center{
+  left: 50%; top: 50%;
+  transform: translate(-50%, -50%) translate(var(--wfig-dx), var(--wfig-dy));
+}
+.wfig--top-left, .wfig--top-right,
+.wfig--bottom-left, .wfig--bottom-right{
+  transform: translate(var(--wfig-dx), var(--wfig-dy));
+}
+.wfig--top-left    { left:  var(--wfig-mx, 4vh); top:    var(--wfig-my, 4vh); }
+.wfig--top-right   { right: var(--wfig-mx, 4vh); top:    var(--wfig-my, 4vh); }
+.wfig--bottom-left { left:  var(--wfig-mx, 4vh); bottom: var(--wfig-my, 4vh); }
+.wfig--bottom-right{ right: var(--wfig-mx, 4vh); bottom: var(--wfig-my, 4vh); }
+
+/* OFF IS HIDDEN, NOT REMOVED. `display:none` would collapse the canvas to
+   0x0, and the renderer solves its camera from the box it is given — a zero
+   box is a divide the camera does not survive, and it would have to be
+   re-solved on the way back anyway. Hiding costs one composited layer that
+   draws nothing. */
+.wfig.is-off{ visibility: hidden; opacity: 0; }
+
+
+/* ===== https://www.unbelievablycrap.com/css/tunnel.css ===== */
+/* ==========================================================================
+   tunnel.css — the gallery page’s corridor.
+
+   TWO THINGS MAKE THE TUNNEL, and only one of them is 3D.
+
+   The WALLS are a picture: Figma 14550:10603 is a linear ramp on a skewed rect
+   mirrored into four quadrants, which is how a diamond gradient is built, and
+   the result is a box corridor seen down its axis — black at the far end,
+   lifting to grey where the near walls pass the camera. It is a background
+   image, not geometry, and it is exactly the file's own SVG.
+
+   The IMAGES are 3D: CSS transforms in a perspective container, the same tool
+   the wheel and the sphere already use here rather than a renderer this site
+   does not carry. Each one is a plane at a depth, either lying on a wall or
+   turned to face you, and the camera moves along z.
+
+   Infinity is a modulo. There is no end to reach, so there is no end to build.
+   ========================================================================== */
+
+.tunnel{
+  position: fixed; inset: 0;
+  overflow: hidden;
+  background: #000;
+  perspective: var(--tun-persp, 900px);
+  perspective-origin: 50% 50%;
+}
+
+/* ---------------- the corridor, as GEOMETRY -------------------------------
+   Four planes, not a picture. It was a picture: Figma's gradient painted onto
+   one flat element, which looks right until anything moves — a poster of a
+   tunnel spun about its centre is a spinning poster, and the photographs inside
+   it were rotating against a corridor that could not.
+
+   These are real walls in the same 3D tree as the images, so they recede with
+   the same perspective, turn with the same rotation and pass the camera at the
+   same rate. The gradient in the design is not painted on them at all: it is
+   what DISTANCE does to a lit surface, and with real geometry the fog produces
+   it for free at every angle instead of only at the one the file was drawn at.
+
+   Sized from tileZ so the wrap is invisible: the walls are three tiles long and
+   the camera wraps every tile, which means the join is always the same distance
+   away and always inside the fog. */
+.tunnel__wall{
+  position: absolute; left: 50%; top: 50%;
+  transform-origin: 50% 50%;
+  background: var(--tun-wallCol, #d9d9d9);
+  backface-visibility: hidden;
+}
+/* The grid the reference rules onto its walls. Two repeating gradients rather
+   than an image, so it scales with the wall and costs nothing. */
+.tunnel__wall::after{
+  content: ""; position: absolute; inset: 0;
+  background:
+    repeating-linear-gradient(90deg,
+      rgba(0,0,0,var(--tun-gridA,0)) 0 1px, transparent 1px var(--tun-grid,240px)),
+    repeating-linear-gradient(0deg,
+      rgba(0,0,0,var(--tun-gridA,0)) 0 1px, transparent 1px var(--tun-grid,240px));
+}
+
+/* The camera. Everything that moves the viewer moves THIS, so the items only
+   ever have to know where they are — js/tunnel.js writes the transform. */
+.tunnel__cam{
+  position: absolute; inset: 0;
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+/* One image. Its own depth and wall are inline, written once when the tunnel is
+   built and again when the arrangement changes; the per-frame work is the
+   camera's alone. */
+.tunnel__it{
+  position: absolute; left: 50%; top: 50%;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+.tunnel__it img{
+  display: block;
+  width: 100%; height: 100%;
+  object-fit: cover;
+  /* The site's own treatment: no colour on the photographs until they are close
+     enough to be looked at. js/tunnel.js fades this with depth. */
+  filter: grayscale(var(--tun-grey, 1)) contrast(var(--tun-contrast, 1));
+}
+
+/* The far end swallows things. A single overlay rather than a per-item opacity:
+   depth fog is a property of the corridor, not of any photograph in it. */
+.tunnel__fog{
+  position: absolute; inset: 0;
+  pointer-events: none;
+  background: radial-gradient(ellipse at 50% 50%,
+      rgba(0,0,0,var(--tun-fog, .85)) 0%,
+      rgba(0,0,0,0) var(--tun-fogEnd, 62%));
+}
+
+/* The title sits over the corridor, exactly as the page already had it. */
+body[data-page="gallery"] .hero{ position: relative; z-index: 3; }
+body[data-page="gallery"] .cols{ z-index: 41; }
+
+/* The blob, on this page too. Inside .tunnel because a blend composites against
+   its own stacking context's backdrop and .tunnel is what paints the corridor —
+   the same rule the work page's .stage and the index page's .about follow.
+   z-index 1: over the walls, under the photographs, so the corridor's ground is
+   what it clears rather than the pictures. */
+
+
+
+/* ===== https://www.unbelievablycrap.com/css/style.css ===== */
+/* ==========================================================================
+   style.css — PHOTOGRAPHY page components.
+   Fonts, :root tokens and the reset now live in css/base.css: Barba keeps
+   <head> across a navigation, so both pages load base.css + style.css +
+   wheel.css + ui.css and each of these files may only own its own selectors.
+   ========================================================================== */
+
+/* Gradient rectangle — Figma node 14320:10762. 26 x 90px, centred on
+   x = 50% + 144px, y = 549 of the 1080 frame. Gradient stops are Figma's:
+   rgba(195,195,195,0) -> #c3c3c3, "to top". */
+.tick{
+  position: absolute;
+  left: calc(50% + 144px);
+  top: 50.83%;              /* 549 / 1080 */
+  transform: translateX(-50%);
+  width: 26px;
+  height: 90px;
+  background: linear-gradient(to top, rgba(195,195,195,0) 0%, var(--c-fade) 100%);
+  z-index: 15;
+}
+
+/* ==========================================================================
+   HERO — 1:1 port of Figma node 14320:10757
+   ========================================================================== */
+.hero{
+  position: relative;
+  width: 100%;
+  min-height: 100svh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, var(--c-white) 0%, var(--c-fog) 162.59%);
+}
+
+.hero__title{
+  position: relative;
+  z-index: 5;          /* sits behind the sphere */
+  margin: 0;
+  text-align: center;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: -0.04em; /* -5.12px at the design's 128px size */
+  font-size: clamp(2.75rem, 6.7vw, 8rem);
+
+  /* line-height 0.5 is load-bearing, not a typo: it makes the text BOX far
+     shorter than the glyphs, so the glyphs overflow it. The gradient below is
+     sized to that short box, which is what lets line 2 sit in the visible
+     upper part of the ramp instead of falling past the transparent stop.
+     Loosening this makes "CRAP!" disappear entirely. */
+  line-height: 0.5;
+
+  /* PP Supply Sans has a 1.2em content box (hhea 990/-210 over 1000upm).
+     Against line-height 0.5 that means glyphs overflow each line box by
+     exactly 0.35em top and bottom. Padding by that amount makes the
+     PADDING box — which is what the background is painted over — equal the
+     real glyph extent. That's the box Figma measured its stop percentages
+     against, so the values below can be used verbatim and land correctly.
+     Without this the stops are measured against a box ~35% too short and
+     line 2 falls past the transparent stop and vanishes. */
+  padding-top: 0.35em;
+  padding-bottom: 0.35em;
+
+  /* Gradient fill. Colors and direction are Figma's verbatim
+     (rgba(195,195,195,0) -> #c3c3c3, "to top"). The STOP POSITIONS are
+     re-anchored: Figma measures its 44.172% / 117.18% against its own text
+     layer box, which sits differently against the glyphs than a CSS line
+     box does, so pasting those numbers renders line 2 invisible. These
+     stops put the same ramp over the padded glyph-extent box above and
+     reproduce the design: line 1 near-solid, line 2 lighter and dissolving
+     toward its baseline. Verified against the Figma render. */
+  background: linear-gradient(to top, rgba(195,195,195,0) 10%, var(--c-fade) 82%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+  /* Tuned by eye against the sphere sitting over it. The wheel page's
+     .stage__title is deliberately left at 1 — it has no sphere in front of
+     it. Match them if the two pages ever need to read identically.
+
+     Expressed as the value the reveal LANDS on rather than as a static
+     opacity: the headline now carries .anim-line, whose keyframes would
+     otherwise finish at opacity 1 and undo this. */
+  --in-opacity: .7;
+}
+.hero__title > span{
+  display: block;
+}
+.hero__title > span:first-child{
+  margin-bottom: 0.267em; /* 34.2px at the design's 128px size */
+}
+
+/* ==========================================================================
+   SPHERE GALLERY — GSAP-driven CSS 3D, layered over the headline in the
+   same first screen. Cards are tangent to the sphere surface; the placement
+   math lives in js/sphere-gallery.js.
+   ========================================================================== */
+.sphere-viewport{
+  z-index: 20;
+  position: absolute;
+  inset: 0;
+  perspective: 1400px;
+  perspective-origin: 50% 50%;
+  touch-action: none;
+  cursor: grab;
+
+  /* The blend lives HERE, on the whole sphere layer, not on the individual
+     cards. Two reasons: a card's blend would be isolated inside the 3D
+     stacking context (so it'd blend against nothing), and mix-blend-mode on
+     a child of a preserve-3d parent forces the group to flatten, which
+     collapses the sphere. Blending the layer as a group keeps the 3D intact
+     and lets the headline read through the images. */
+  mix-blend-mode: multiply;
+}
+.sphere-viewport.is-dragging{ cursor: grabbing; }
+
+.sphere-stage{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+.sphere-item{
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  /* CRITICAL — do not remove.
+     The browser applies transforms as T(origin) . M . T(-origin). With the
+     default 50% 50% origin, the trailing translate(-50%,-50%) in the card's
+     transform composes with that and leaves every card offset by
+     (w/2, h/2) in STAGE space. That offset rotates with the sphere, so the
+     whole cloud orbits the pivot at a radius of half a card diagonal — the
+     sphere visibly slides from A to B while you drag, even though the pivot
+     itself never moves. Anchoring the origin at the top-left makes the
+     transform chain mean what it says: card centres land exactly on the
+     sphere, concentric with the pivot. */
+  transform-origin: 0 0;
+  width: var(--item-w, 132px);
+  height: var(--item-h, 176px);
+  overflow: hidden;
+  /* Cards are tangent to the sphere, so far-side cards legitimately face
+     away — backfaces stay visible so the sphere reads as a full volume
+     rather than a hollow front hemisphere. */
+}
+/* ---- halftone echo layer -------------------------------------------------
+   A second sphere stacked over the real one, running on its rotation from
+   htDelayMs ago. Every dial arrives as a custom property set on this
+   container by applyHalftoneStyle(), so the 65 cards inherit rather than
+   each needing a write. It must never take the pointer — the drag belongs
+   to the real sphere underneath. */
+.sphere-viewport--ghost{
+  z-index: 21;
+  pointer-events: none;
+  mix-blend-mode: var(--ht-blend, normal);
+  opacity: var(--ht-opacity, 0.85);
+}
+
+.sphere-item--ghost img{
+  filter: var(--ht-filter, none);
+
+  /* The dot screen. The mask tile is an inline SVG built in JS, so the
+     shape (circle / square / cross) and its size within the cell are fully
+     controllable. It masks the IMAGE, not the card, so the dots ride along
+     with the card's 3D transform and scale with it as you zoom. */
+  -webkit-mask-image: var(--ht-mask);
+          mask-image: var(--ht-mask);
+  -webkit-mask-size: var(--ht-size, 6px) var(--ht-size, 6px);
+          mask-size: var(--ht-size, 6px) var(--ht-size, 6px);
+  -webkit-mask-repeat: repeat;
+          mask-repeat: repeat;
+}
+
+.sphere-item img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+  user-select: none;
+  -webkit-user-drag: none;
+
+  /* object-fit: cover is what lets landscape source photos fill the
+     vertical card — they crop rather than letterbox. */
+}
+
+
+/* ===== https://www.unbelievablycrap.com/css/contact-cta.css ===== */
+/* ==========================================================================
+   contact-cta.css — the refusing button.
+
+   LOADED AFTER ui.css, and that is load-bearing rather than tidy. The hover
+   rule below is `.bar__mail:hover`, exactly the same specificity as the one in
+   ui.css that turns the chip grey. Equal specificity means the later sheet
+   wins, so the order in <head> is what makes the red apply. Move this line
+   above ui.css and the button silently goes back to grey.
+   ========================================================================== */
+
+/* THE CHIP STAYS WHITE, THE WORDS GO RED. ui.css greys the whole chip on
+   hover; the brief is a colour change, not a fill change, and red type on the
+   white block is the louder of the two — the chip is already the brightest
+   thing in the bar, so darkening it reads as it being pressed rather than as
+   it warning you. */
+.bar__mail:hover{
+  background: #fff;
+  color: var(--ui-red);
+}
+/* THE FOOTER'S COPY OF THIS BUTTON IS NOT LISTED HERE. It sits on a black bar
+   inside a red screen and has its own hover in css/footer.css; the rule above
+   turns the chip white, which is right in the grey bar and wrong in there. The
+   two rules below ARE shared, because they are about the label not re-wrapping
+   and the scramble not being smeared by a transition — which is true wherever
+   the button is. */
+
+/* The little cross rides the same colour, since it is drawn with
+   stroke="currentColor". Nothing to do but let it. */
+
+/* THE LABEL IS A BLOCK SO IT CAN HOLD A WIDTH. js/contact-cta.js measures the
+   longest of the four lines once the webfont has landed and pins min-width to
+   it, so the chip does not resize four times on the way through the sequence.
+   inline elements ignore min-width, which is why this is here and not left to
+   the default. */
+.bar__mail [data-label],
+.ftr__bar [data-label],
+.ftr__err [data-label]{
+  display: inline-block;
+  /* Whatever glyph is mid-decode, the line never re-wraps. A phrase that
+     wrapped for three frames in the middle of resolving would shift the whole
+     bar. */
+  white-space: nowrap;
+}
+
+/* NO TRANSITION ON THE TEXT ITSELF. The scramble is doing the work a frame at
+   a time; a CSS transition on top of it would smear two animations together
+   and neither would read. Only the colour eases. */
+.bar__mail,
+.ftr__bar{
+  transition: background .18s ease, color .18s ease;
+}
+
+
+/* ===== https://www.unbelievablycrap.com/css/err.css ===== */
+/* ==========================================================================
+   err.css — the 404's room.
+
+   THERE IS ALMOST NOTHING TO STYLE, because the page is a canvas. What is here
+   is the four things CSS still has to decide: the paper the canvas sits on
+   while it boots, the canvas filling the window, the blob canvas being kept
+   ALIVE but out of sight, and one heading nobody sees.
+   ========================================================================== */
+
+/* THE PAPER, AND IT MATTERS FOR ONE FRAME. The canvas paints the red itself,
+   so this only shows before the first draw — but without it that frame is the
+   site's white and the page opens with a flash. --about-ground is the variable
+   .about paints with; naming it rather than setting `background` directly is
+   what keeps this page inside the same room as the other two. */
+body[data-page="err"]{
+  --about-ground: #e8271c;
+  background: var(--about-ground);
+}
+
+/* THE ORDINARY POINTER. It was a crosshair, which is a cursor for a tool —
+   this page has one thing to click and nothing to aim at. */
+.err{ cursor: default; }
+
+/* ---- THE GO HOME BARS -------------------------------------------------------
+   Real links, above the canvas, one over every place a ticket's bar lands.
+   js/err.js moves them with the camera and js/contact-cta.js gives them the
+   site's scramble hover, the same one the bottom bar's buttons have.
+
+   THEY ARE OUTSIDE THE LENS, and that is the trade. Everything else on the page
+   is a texture the CRT shader warps; these are DOM, so they stay crisp and
+   flat while the field bulges behind them. The alternative was a bar inside the
+   picture, which cannot be clicked, cannot be hovered and cannot be read by
+   anything. A button that works beats a button that matches. */
+.err__bars{
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  pointer-events: none;   /* only the bars themselves take the pointer */
+}
+.err__go{
+  position: absolute;
+  top: 0; left: 0;
+  width: 462px; height: 16px;
+  transform-origin: 50% 50%;
+  display: block;
+  background: #000000;
+  color: var(--about-ground, #e8271c);
+  font: 7px/16px 'PP Supply Mono', ui-monospace, monospace;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 0 0 10px;
+  box-sizing: border-box;
+  white-space: nowrap;
+  pointer-events: auto;
+  cursor: pointer;
+}
+/* The site's hover, in the site's colour: the label descrambles and goes
+   white, exactly as it does on the bottom bar. */
+.err__go:hover{ color: #ffffff; }
+
+/* The canvas is the page. Absolute rather than fixed on purpose: a fixed
+   element makes its own stacking context, and .about is already the context
+   everything here composites in. */
+.err > canvas{
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%; height: 100%;
+}
+
+/* THE BLOBS, ALIVE AND UNSEEN — the same trick css/about.css plays on block
+   02's figure, and for the same reason. js/work-cursor.js keeps drawing into
+   this canvas and js/err.js uploads it as a texture every frame; the browser
+   must not ALSO composite it, or the ground would appear twice, once warped by
+   the lens and once flat on top of it.
+
+   `visibility: hidden` and not `display: none`: a display-none canvas has no
+   box, so it never gets sized, and what you would sample is a 300x150 default
+   with nothing in it. Hidden keeps the size, the backing store and the draws —
+   it only stops the compositor. */
+/* !important, AND IT IS EARNED. js/work-cursor.js writes
+   `canvas.style.visibility` INLINE on its own canvas every frame, so a plain
+   rule here loses to it — measured: the canvas came back `visible`, composited
+   itself on top of the field at its own z-index 1, and the ground appeared
+   twice, once warped by the lens and once flat over the tickets. An inline
+   declaration is beaten by an important one and by nothing else short of
+   editing that module, which belongs to three other pages. */
+body[data-page="err"] .work-blobs{ visibility: hidden !important; }
+
+/* Read, never seen. The page's text lives in the texture, where no screen
+   reader and no crawler can reach it, so it is said once here properly.
+   Clipped rather than `display:none` — the latter is not read out either. */
+.err__say{
+  position: absolute;
+  width: 1px; height: 1px;
+  margin: -1px; padding: 0; border: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* ---- THE STRIP -------------------------------------------------------------
+   Figma 14783:21804, at that node's own numbers: 16px tall, full width, and one
+   centred 191px group holding "//", the line, and "//" — 8, 18 and 183 from the
+   group's left edge, which is a 10px gap either side of the text.
+
+   THE NEGATIVE. `backdrop-filter: invert(1)` inverts whatever the strip is
+   sitting on rather than painting a colour of its own, so it carries the field,
+   the tickets, the blob and the lens's own grain through inverted — a true
+   photographic negative of the page, sixteen pixels tall, wherever you put it.
+   The red field comes back cyan, the black ink comes back white.
+
+   IT HAS TO BE DOM, and that is not a preference. The invert must read the
+   FINISHED picture, and inside the field shader the lens has not run yet — the
+   strip would be inverting a half-drawn page. Above the canvas it inverts what
+   is actually on screen.
+
+   HORIZONTALLY IT IS CENTRED BY FLEX, NOT BY FIGMA'S NUMBER, and that is on
+   purpose. That file's group sits at x=864.5 with a width of 191, which centres
+   the BOX on 960 — but the box has 8px of slack on its left and none on its
+   right, so the ink inside it lands 4px right of centre. Centring the ink is
+   what "dead centre" means to the eye; copying the box would reproduce the
+   slack instead.
+
+   `--err-strip-y` is the only thing about it that is not Figma's: that file's
+   frame puts it 615 down a 1080-tall page, which is not the middle, and the
+   brief is the middle. 50%. */
+.err__strip{
+  position: absolute;
+  left: 0; right: 0;
+  /* DEAD CENTRE, and the -8px is what makes that true rather than nearly true.
+     `top` places the strip's TOP edge, so at 50% the strip hangs eight pixels
+     BELOW the middle of the window — half its own height. Subtracting that half
+     puts the strip's own centre line on the page's centre line, and it also
+     makes the dial mean what it says: err.stripY is where the middle of the
+     strip sits, not where its top edge does. */
+  top: calc(var(--err-strip-y, 50%) - 8px);
+  height: 16px;
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  -webkit-backdrop-filter: invert(1);
+  backdrop-filter: invert(1);
+}
+.err__stripIn{
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  color: var(--about-ground, #e8271c);
+  font: 7px/16px 'PP Supply Mono', ui-monospace, monospace;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+/* 155px in the design, and it is the text that sets the group's 191 — so the
+   width is left to the type rather than pinned, and the two // stay 10px off
+   whatever it measures. */
+.err__stripSay{ letter-spacing: 0; }
+/* The dial's off state. Written as a data attribute rather than by removing
+   the property so the strip keeps its place while you compare the two. */
+.err__strip[data-neg="off"]{ -webkit-backdrop-filter: none; backdrop-filter: none; }
+
+
+/* ===== https://www.unbelievablycrap.com/css/tscroll.css ===== */
+/* ==========================================================================
+   tscroll.css — the strip of text you scroll through, Figma 14719:22210.
+
+   WHERE IT SITS. Inside .b2, so it belongs to the white block and inherits
+   its fade: before the head lands there is nothing here to show, and this
+   type over the black block would be invisible anyway. js/block2.js drives
+   --b2-ts-y the same way it drives --b2-cols-y, so the strip, the columns and
+   the white texts are one phase moving on one clock rather than three layers
+   agreeing to move at the same speed.
+
+   1644px TALL AND IT PASSES. Not pinned, not held — the block's own height is
+   the distance you scroll through it, and js/block2.js adds exactly that to
+   everything after it so the columns start where the strip ends.
+   ========================================================================== */
+/* A SIBLING OF .b2, NOT A CHILD, and that is the whole point of this rule.
+   .b2 is held at opacity 0 until the white has FULLY arrived and then fades
+   in over .3s — correct for the columns, which belong to what comes after the
+   transition, and wrong for this, which has to be on the white the moment the
+   white is there. Inside that gate the type could only ever appear after the
+   block did. Out here it carries the white's own progress instead, so the two
+   arrive together and there is nothing left to watch turn up. */
+.ts{
+  position: fixed; left: 0; right: 0; top: 0;
+  z-index: 41;
+  pointer-events: none;
+  opacity: var(--b2-ts-a, 0);
+  height: 1644px;
+  transform: translateY(var(--b2-ts-y, 100vh));
+  will-change: transform;
+  color: #393939;
+  font-size: var(--ui-10);
+  line-height: 11px;
+  letter-spacing: -0.4px;
+  text-transform: uppercase;
+}
+.ts__c{ position: absolute; inset: 0; }
+
+/* THE TOP HALF IS THE BOTTOM HALF, TURNED. See the note in index.html — the
+   origin is the file's own centre of symmetry, x as a share of its 1900 frame
+   and y in the pixels the line pitch is measured in. */
+.ts__c--flip{ transform-origin: 50.4158% 824.5px; transform: rotate(180deg); }
+
+.ts__t, .ts__slash, .ts__bc, .ts__dots, .ts__brk, .ts__num, .ts__mark{ position: absolute; }
+
+/* ONE LINE, ALWAYS. Measured, not assumed: rendered at the file's own 70px
+   box, ROAMING AROUND, MYSTERY OF LIFE and NON-FUNCTIONAL each broke onto a
+   second line and took every baseline under them with it. */
+.ts__t{ white-space: nowrap; }
+.ts__t p{ margin: 0; height: 11px; }
+
+.ts__slash{ font-size: 64px; line-height: .9; letter-spacing: -0.06em; }
+
+.ts__bc{
+  background: repeating-linear-gradient(to bottom,
+    currentColor 0 2px, transparent 2px 4px,
+    currentColor 4px 5px, transparent 5px 9px,
+    currentColor 9px 12px, transparent 12px 14px);
+}
+
+.ts__dots{ display: flex; flex-direction: column; gap: 2px; }
+.ts__dots i{ width: 3px; height: 3px; background: currentColor; }
+
+/* THE FILE'S OWN CORNER, TURNED FOUR WAYS. These were four divs with two
+   borders each — close, and not the same drawing: the supplied arrow has an
+   asymmetric foot that a border pair cannot produce. assets/tscroll/arrow.svg
+   is drawn as the TOP-RIGHT corner, so the other three are quarter turns of
+   it and the order below follows the markup. */
+.ts__brk img{ position: absolute; display: block; }
+.ts__brk img:nth-child(1){ right: 0; top: 0; }
+.ts__brk img:nth-child(2){ right: 0; bottom: 0; transform: rotate(90deg); }
+.ts__brk img:nth-child(3){ left: 0; bottom: 0; transform: rotate(180deg); }
+.ts__brk img:nth-child(4){ left: 0; top: 0; transform: rotate(270deg); }
+
+/* THE NUMERAL IS THE FILE'S VECTOR, not type. It shipped as text in a
+   substitute face first, which is a different drawing wearing the same
+   digits. 91 wide, 10 of gap, the figure bottom-aligned beside it. */
+.ts__num{ display: flex; align-items: flex-end; gap: 10px; }
+.ts__digits{ display: block; }
+/* 32x64 on the page, 64x128 of buffer — the same 2x the rest of the site's
+   small canvases use, so it is sharp on a retina screen and cheap on any. */
+.ts__fig{ display: block; width: 32px; height: 64px; }
+
+/* THE MARK IN THE MIDDLE, as drawn. It was assembled here from a cross, a
+   label and four corners; the supplied file is one drawing and replaces all
+   of that. Rebuilding artwork from parts is how a mark ends up nearly right. */
+.ts__mark img{ display: block; }
+
+/* ---------------- it arrives, it is not already there ----------------------
+   The brief's one hard requirement. Every label uses the site's own reveal,
+   held at frame zero until the strip is actually on screen and released once
+   — so the visitor watches it resolve rather than scrolling into finished
+   text. Paused rather than hidden: an animation that starts from `display`
+   or opacity would replay from the wrong place on the way back up. */
+/* ---------------- it does not arrive, it is simply there -------------------
+   The block is reached, not entered: by the time it is on screen the type has
+   to be finished, not finishing. It was the site's own reveal, held and then
+   released — and at thirty labels that reads as a wait however short it is
+   made, because the visitor is already looking at the place it will appear.
+
+   The markup keeps .anim-line: the class is what block 01's copy uses and
+   the labels are generated by the same code path. Neutralised here rather
+   than stripped from sixty elements, so the two blocks stay one description.
+
+   `animation: none` ON ITS OWN TOOK THE TEXT AWAY, and the reason is worth
+   keeping. .anim-line is not a plain element that an animation moves: its
+   BASE state in css/ui.css is `opacity: 0` plus a blur, and the animation is
+   what brings it to 1. Remove the animation and the base state is all that is
+   left — the labels were still there, laid out, and invisible. So the two
+   properties the animation was undoing have to be undone here instead. */
+.ts .anim-line{
+  animation: none;
+  opacity: 1;
+  filter: none;
+}
+
+
+/* ===== https://www.unbelievablycrap.com/css/transition.css ===== */
+/* ==========================================================================
+   transition.css — the pixel-wipe page transition overlay.
+
+   Markup is supplied as a single seed column with a single seed pixel; the
+   pixelGrid() helper in js/transition.js clones both up to the grid the
+   viewport needs, and rebuilds it on every navigation so an orientation
+   change is picked up. Nothing here is animated by CSS — GSAP drives the
+   pixel opacities and the container's stepped clip-path.
+
+   The overlay sits ABOVE the page (z-index 100) but BELOW the film grain
+   (z-index 999), so the grain rides over the transition too and the wipe
+   never reads as a separate, cleaner surface pasted over the site.
+   ========================================================================== */
+
+.transition{
+  position:fixed;
+  inset:0;
+  z-index:100;
+  pointer-events:none;
+  overflow:clip;
+}
+
+.transition__panel{
+  position:absolute;
+  top:0; left:0;
+  width:100%; height:100%;
+  display:flex;
+  flex-flow:row;
+  opacity:0;
+}
+
+.transition__col{
+  display:flex;
+  flex-flow:column;
+  justify-content:flex-start;
+  align-items:stretch;
+  width:100%;
+}
+
+.transition__pixel{
+  width:100%;
+  aspect-ratio:1;
+
+  /* The site's ink, and the same value as the bottom bar (--ui-bar), so the
+     wipe reads as the bar flooding the screen rather than as a foreign
+     colour. Replaces the reference snippet's #7948e9. */
+  background-color:#393939;
+}
+
+/* ---------------- fallback cover -------------------------------------------
+   Set by the two-line script in <head> when a page is arrived at with the
+   #wipe hash, i.e. from the no-Barba fallback path in js/transition.js. It
+   paints a flat #393939 sheet over everything BEFORE the first paint, which
+   is what hides the real page load happening underneath; transition.js then
+   sweeps it off with the pixel grid. Nothing else in the site uses it. */
+   THE COLOUR IS THE ACTIVE OVERLAY'S, not this file's own taste. It is painted
+   before any script has run, so it cannot ask what the transition is; it has to
+   be told in advance. #FFFFFF is js/transition-sheet.js's `foot`. If the sheet
+   is ever turned off and the iris or the pixel grid takes over, this goes back
+   to #393939 — the two are a pair and moving one alone is a flash of a colour
+   that belongs to neither. */
+html.is-wiping .transition__panel{
+  opacity:1;
+  background-color:#FFFFFF;
+}
+
+/* Nothing to wipe if the visitor has asked for less motion — js/transition.js
+   swaps to an instant cut, and this makes sure no stray pixel can flash. */
+@media (prefers-reduced-motion: reduce){
+  .transition__panel{ display:none; }
+}
+
+
+/* ==========================================================================
+   The liquid transition's canvas (js/transition-liquid.js).
+
+   Above the pixel panel, because the two are alternatives and whichever runs
+   has to be on top; outside every container, like the panel and the grain, so
+   a Barba swap underneath cannot clip it away mid-animation.
+
+   `visibility` rather than `display` for the off state: the canvas keeps its
+   backing store and its GL context, so the next navigation does not pay for a
+   context it already had. */
+.liquid{
+  position: fixed;
+  inset: 0;
+  z-index: 120;
+  width: 100%;
+  height: 100%;
+  display: block;
+  pointer-events: none;
+  visibility: hidden;
+}
+.liquid.is-on{ visibility: visible; }
+
+
+/* The iris overlay (js/transition-iris.js). Same layer and the same reasons as
+   .liquid above it: over the pixel panel because they are alternatives, outside
+   every container so a Barba swap cannot clip it mid-animation, and hidden with
+   `visibility` so the GL context survives between navigations. */
+.iris{
+  position: fixed;
+  inset: 0;
+  z-index: 121;
+  width: 100%; height: 100%;
+  display: block;
+  pointer-events: none;
+  visibility: hidden;
+}
+.iris.is-on{ visibility: visible; }
+
+
+/* The sheet overlay (js/transition-sheet.js) — the home page's block boundary,
+   reused as the page transition. Same layer and the same reasons as .iris and
+   .liquid above: over the pixel panel because the three are alternatives,
+   outside every container so a Barba swap cannot clip it mid-animation, and
+   hidden with `visibility` rather than `display` so its GL context survives
+   between navigations instead of being built again on every click. */
+.sheetfx{
+  position: fixed;
+  inset: 0;
+  z-index: 122;
+  width: 100%; height: 100%;
+  display: block;
+  pointer-events: none;
+  visibility: hidden;
+}
+.sheetfx.is-on{ visibility: visible; }
+
+/* ---- ABOVE THE LOADER, for the loader's own exit only --------------------
+   122 is right for a navigation: the sheet covers the page and the page is
+   all there is. It was wrong for the intro, and invisibly so — css/loader.css
+   sits at 900, so the sheet's COVER ran underneath it, at full duration, with
+   nobody able to see a pixel of it. The screen then went red in one frame at
+   the hand-off, when the loader was taken away and the already-solid red
+   behind it was revealed.
+
+   That single frame is what read as "the screen becomes red very abruptly":
+   not a fast animation, an animation nobody was shown.
+
+   950 for the length of the loader's exit, then back. Above the loader,
+   below the page-transition overlay's own layers. */
+.sheetfx.is-front{ z-index: 950; }
+
+/* MULTIPLIED, for the one caller that is not a page transition. js/footer.js
+   scrubs this canvas to bring its red up over block 02, and that red has to
+   let the head and the ground underneath through — the same treatment the
+   gallery gives its own page. A transition covers; this one tints. */
+.sheetfx.is-blend{ mix-blend-mode: multiply; z-index: 61; }
+
+
+/* ===== https://www.unbelievablycrap.com/css/loader.css ===== */
+/* ==========================================================================
+   loader.css — the intro loader.
+
+   Layout is Figma node 14395:24530 ("Use this"), a 1920x1080 frame, taken
+   verbatim. Every left/top below is that frame's value, unscaled:
+
+     logo             left 0    top 0     30 x 30
+     "design is dead" left 200  top 11
+     white rule       left 346  top 10    5 x 20
+     "who killed it?" left 355  top 11    gap 8
+     roles            left 200  top 142   gap 6, w 91
+     "*** / loading / 2026"   left 200  top 523   gap 10, w 119
+     "14"             left 200  bottom 200
+     "do not enjoy"   left 288  bottom 200
+     red line         left 0    bottom 0  3px tall
+
+   The type is the SITE'S system, inverted: PP Supply Sans, 10px,
+   line-height .5, letter-spacing -0.4px, uppercase, left:200px — the same
+   values .col already uses in ui.css, which is why the loader's copy sits on
+   exactly the grid the page underneath it uses.
+   ========================================================================== */
+
+:root{
+  /* The site's transition easing, as a CSS variable so the loader can use it
+     without GSAP. Identical curve to CustomEase "osmo" registered in
+     js/transition.js: 0.625, 0.05, 0, 1. */
+  --ease-osmo: cubic-bezier(0.625, 0.05, 0, 1);
+
+  /* The site's other easing — the one .anim-line already uses in ui.css. Its
+     fast start is what the flood and the cover need: `osmo` is deliberately
+     slow off the mark (0.625, 0.05), which is lovely for copy gathering speed
+     as it leaves, and useless for a panel that has to take the screen. With
+     osmo on the flood the red had barely lifted off the bottom before the
+     white started covering it, and the whole step went unseen. Measured. */
+  --ease-out: cubic-bezier(.22, .61, .36, 1);
+
+  --loader-ink: #ffffff;
+  --loader-ground: #000000;
+}
+
+/* ---------------- the layer ------------------------------------------------
+   z-index 900: above the page and above the page-transition overlay (100),
+   below the film grain (999) so the grain rides over the loader exactly as it
+   rides over everything else. */
+.loader{
+  position: fixed;
+  inset: 0;
+  z-index: 900;
+  display: none;
+  background: var(--loader-ground);
+  color: var(--loader-ink);
+  font-size: 10px;
+  line-height: .5;
+  letter-spacing: -0.4px;
+  text-transform: uppercase;
+  overflow: hidden;
+
+  /* It SHOULD swallow input: it is an opaque full-screen layer over a page
+     that is not ready to be used yet. What it must not do is inherit the
+     cursor of whatever sits underneath — the sphere viewport sets `grab`, so
+     the loader was showing a drag cursor over a screen with nothing to drag. */
+  cursor: default;
+}
+html.is-loading .loader{ display: block; }
+
+.loader p{ margin: 0; }
+
+/* ---------------- copy blocks ----------------------------------------------
+   Every block is its own transform context so the exit can stagger them
+   independently. translate3d keeps the move on the compositor. */
+.loader__block{
+  position: absolute;
+  will-change: transform;
+}
+.loader{ --exit-x: calc(100vw - 526px); }
+.loader.is-exiting .loader__block{
+  /* Figma 14395:24636 is the END state: every block moves from left:200 to
+     left:1594 on the 1920 frame — one uniform +1394px shift, and it STAYS
+     there. It is a move across the screen, not an exit off it.
+
+     1394 = 1920 - 526, where 526 is the 200px start inset plus the 119px
+     status block plus the 207px it ends up from the right edge. Expressed
+     against 100vw so the same relationship holds at any width. */
+  transform: translate3d(var(--exit-x), 0, 0);
+  transition: transform var(--exit-dur, 1.1s) var(--ease-osmo);
+  transition-delay: var(--exit-delay, 0s);
+}
+
+/* ---------------- logo -----------------------------------------------------
+   Figma 14395:24560: left 0, top 0, 30x30. Hard into the corner, against both
+   edges — NOT centred. The supplied Logo.svg, whole: its two paths are
+   interlocking hooks that each cross the centre line, so it must never be
+   clipped or split into halves.
+
+   It blurs in with the copy but does NOT carry .loader__block, so it takes no
+   part in the exit and holds the corner while everything else leaves. */
+.loader__logo{
+  position: absolute;
+  left: 0; top: 0;
+  width: 30px; height: 30px;
+  background: url('../assets/logo.svg') 50% 50% / contain no-repeat;
+}
+
+/* ---------------- top-left copy --------------------------------------------
+   The frame carries a SECOND "design is dead" at top 78. That was a duplicate
+   left in the Figma by mistake, confirmed by the client — it is not in the
+   markup. */
+/* ---- nowrap, AND IT IS THE WHOLE FIX FOR THE OVERLAP ----------------------
+   THE SYMPTOM: for the first few hundred milliseconds of a cold load, "design
+   is dead" and "who killed it?" rendered as two lines sitting ON TOP of each
+   other, then snapped onto one line. Filmed at 120fps, it reads as the copy
+   jumping.
+
+   THE CAUSE IS THE TWO NUMBERS IN THESE RULES MEETING EACH OTHER. The 71px is
+   Figma's box, which is a MEASUREMENT OF THE STRING IN PP SUPPLY SANS — nine
+   characters of a face that advances 4/7 of its size. Until the webfont lands,
+   `font-display: swap` paints the fallback, which is wider, the string no
+   longer fits 71px, and it wraps. And `line-height: .5` on .loader above means
+   the second line lands FIVE pixels below the first while the glyphs are about
+   seven tall — so a wrap here does not stack, it overlaps.
+
+   Neither number is wrong on its own. A 71px box is the file's own width and a
+   5px line box is this site's micro-type system; together, with any face but
+   the real one, they are a collision.
+
+   nowrap removes the wrap, so the worst a missing font can do is paint the
+   line a little wide for one moment — which is what swap is for. The same rule
+   was already on .loader__roles and .loader__enjoy for this exact reason; it
+   was simply missed on these, and on .loader__status below.
+
+   THE OTHER HALF IS IN index.html: the face is now preloaded, which shortens
+   the window in which any of this is visible. nowrap is what makes it safe;
+   the preload is what makes it brief. */
+.loader__dead1{ left: 200px; top: 11px; width: 71px; white-space: nowrap; }
+
+.loader__rule{
+  left: 346px; top: 10px;
+  width: 5px; height: 20px;
+  background: var(--loader-ink);
+}
+.loader__lines{
+  left: 355px; top: 11px; width: 71px;
+  display: flex; flex-direction: column; gap: 8px;
+  white-space: nowrap;
+}
+
+/* ---------------- the roles ------------------------------------------------
+   Anchored to the TOP, 100px below the "***" that ends the "who killed it?"
+   block: that block runs 11 -> 42 (three 5px lines, gap 8), so 42 + 100 = 142.
+
+   Figma exports this as `top: calc(50% - 346px)` with a -50% translate, i.e.
+   centred on y194 — which is the same 142 on a 1080-tall frame and drifts
+   everywhere else. On a short window it walked straight up into the top-left
+   copy and the two blocks rendered on top of each other. Anchoring to the top
+   ties it to the block it belongs under, at any viewport height. */
+.loader__roles{
+  left: 200px;
+  top: 142px;
+  width: 91px;
+  display: flex; flex-direction: column; gap: 6px;
+  white-space: nowrap;
+}
+
+/* ---------------- status ---------------------------------------------------- */
+.loader__status{
+  left: 200px; top: 523px; width: 119px;
+  display: flex; flex-direction: column; gap: 10px;
+  /* Same trap as .loader__dead1 — "your experience is loading" is 26
+     characters in a box measured for them. */
+  white-space: nowrap;
+}
+
+/* ---------------- bottom pair ----------------------------------------------
+   Figma exports "do not enjoy" as left: calc(50% - 672px) — a centre
+   constraint on a 1920 frame. That resolves to 288px there and to a NEGATIVE
+   number on anything narrower than 1344px, which would put it off-screen.
+   Pinned to the 288px it was drawn at instead, which holds the designed 88px
+   gap from the counter at every width. */
+.loader__pct{
+  left: 200px; bottom: 200px; width: 60px;
+  font-variant-numeric: tabular-nums;
+}
+.loader__enjoy{ left: 288px; bottom: 200px; white-space: nowrap; }
+
+/* ---------------- progress line --------------------------------------------
+   Figma 14395:24533: left 0, bottom 0, height 3px. Width tracks the
+   percentage; at 100% it grows upward and floods the screen.
+
+   The fill is the site's --ui-red (#e8271c) rather than the frame's literal
+   `red` (#ff0000) — the brief was to reuse the site's existing colours, and
+   #e8271c is the red the rail's active tab and the copied-email state already
+   use. One token to change if the pure red was deliberate. */
+.loader__line{
+  position: absolute;
+  left: 0; bottom: 0;
+  height: 3px;
+  width: 0;
+  background: var(--ui-red, #e8271c);
+  will-change: width, height;
+}
+.loader.is-flooding .loader__line{
+  height: 100%;
+  transition: height .65s var(--ease-out);
+}
+
+/* ---------------- the white ------------------------------------------------
+   Step 4's second half: while the red is still going up, the white goes over
+   it. It carries .stage's gradient verbatim, so at the moment the loader is
+   removed the real page behind it is pixel-identical and there is no seam —
+   the hand-off is invisible and the page's own reveal simply begins.
+
+   background-size / -position are pinned to the viewport so the gradient does
+   not slide or restretch as the panel's own height animates; without them the
+   ramp is recomputed every frame against a growing box and the white visibly
+   shifts tone as it rises. */
+.loader__white{
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  height: 0;
+  background: linear-gradient(to bottom, var(--c-white, #fff) 0%, var(--c-fog, #afafaf) 162.59%)
+              bottom center / 100vw 100vh no-repeat;
+  will-change: height;
+}
+.loader.is-covering .loader__white{
+  height: 100%;
+  transition: height .55s var(--ease-out);
+}
+
+/* ---------------- holding the page's own animations ------------------------
+   The page mounts and builds behind the loader — that is the point, the wheel
+   is warm and its photos are decoded by the time it appears. But its REVEAL
+   animations would also have played out behind the black, so they are paused
+   until hand-off and released in js/loader.js. Pausing (rather than delaying)
+   means they resume from frame zero at exactly the right moment. */
+html.is-loading [data-barba="container"] .anim-line{ animation-play-state: paused; }
+
+/* Scoped to the container ON PURPOSE. `html.is-loading .anim-line` looks
+   equivalent and is not: the loader's own copy uses .anim-line too — that is
+   the whole point, step 1 is the site's existing reveal — so the unscoped
+   selector pauses the loader's own text at opacity 0 and the loader renders
+   as an empty black screen with a red line. Measured; do not "simplify". */
+
+/* ---------------- grain: OFF during the loader ------------------------------
+   The loader used to carry its own inverted grain — `screen` instead of
+   `overlay`, because overlay barely moves the dark end and against black it
+   did nothing, which is why the loader first looked like it had none at all.
+   That whole override is gone: the loader is a clean black ground now.
+
+   Hidden rather than tuned to zero, so it costs no compositing while the
+   intro runs, and scoped to html.is-loading so the site's own grain is
+   untouched and returns the instant the class comes off. */
+html.is-loading .grain{ display: none; }
+@media (prefers-reduced-motion: reduce){
+  /* The head script does not set is-loading at all under reduced motion, so
+     this is belt and braces: no loader, no hand-off, straight to the page. */
+  .loader{ display: none !important; }
+}
+
+
+/* ===== https://www.unbelievablycrap.com/css/hud.css ===== */
+/* ==========================================================================
+   hud.css — the instrument panel over block 01 of the index page.
+
+   FROM FIGMA, AT FIGMA'S NUMBERS. The frame is 1920x1080 with a 10px inset and
+   a 283px left rail, and every offset below is that frame's. Two of them are
+   worth naming because they are not arbitrary:
+
+     the rail is 283px          the map, the panel and the progress bar are all
+                                exactly this wide, so they stack as one column
+     the bar is 28px            css/ui.css already had it, and Figma's bar is
+                                28px too — so "10px above the bar" is a real
+                                measurement in both places rather than a guess
+
+   The vertical stack is read from the BOTTOM up, because that is how the frame
+   is built: bar 28, gap 10, progress 42, gap 10, panel 212. Written as top
+   offsets it would only hold at 1080px tall.
+
+   TYPE. 10px / letter-spacing -0.4px / uppercase / line-height .5 — the same
+   four values .cols already uses, and line-height .5 is load-bearing there for
+   the same reason it is here: at 1 every stacked pair grows about 5px and the
+   6px gaps stop reading as gaps. The tokens are css/ui.css's.
+   ========================================================================== */
+
+.hud{
+  position: fixed; inset: 0; z-index: 40;
+  pointer-events: none;
+  font-size: var(--ui-10); letter-spacing: -0.4px; line-height: .5;
+  text-transform: uppercase; color: #fff;
+  /* Block 01 only. js/hud.js fades this out as the second block takes the
+     screen — the panel belongs to the black room, and none of it is legible
+     over white. Opacity rather than display, so it can cross-fade with the
+     transition instead of blinking off at a threshold. */
+  opacity: 0; transition: opacity .28s linear;
+}
+.hud.is-on{ opacity: 1; }
+.hud p{ margin: 0; }
+
+/* The `//` separators, everywhere they appear. Figma: #c8c8c8 at 50%, which is
+   also --ui-grey — so it is the token, halved, rather than a fourth grey. */
+.hud__sep{ color: var(--ui-grey); opacity: .5; }
+
+/* ---------------- the map, top left --------------------------------------- */
+.hud__map{ position: absolute; left: 10px; top: 10px; width: 283px; }
+
+.hud__mapbox{
+  position: relative; width: 283px; height: 142px; overflow: hidden;
+
+  /* THE HATCH DRIFTS, and the geometry of the loop is the whole trick.
+
+     The stripes are a repeating gradient with a 7px period measured along the
+     GRADIENT AXIS, which is 105deg — not along x. Sliding it sideways by 7px
+     would therefore land mid-stripe and the loop would jump. The horizontal
+     period is p / sin(A): 7 / sin(105deg) = 7.246px, and translating by exactly
+     that puts every line where its neighbour just was. Seamless, forever, with
+     no second copy of the pattern to cross-fade.
+
+     TRANSFORM on a layer of its own rather than background-position on the box.
+     Both look identical; only one is composited. Animating background-position
+     repaints a 283x142 area every frame on the main thread, and this page has
+     a 250k-triangle mesh and an ASCII field already asking for that thread.
+     The layer is 16px wider than the box and offset by half of that, so the
+     travel never exposes an edge.
+
+     Each of these is a dial in the panel (js/about-console.js, LINES), and
+     --hatch-step is the one that is DERIVED and has to stay derived: change the
+     spacing or the angle without recomputing it and the seam comes straight
+     back. The console's setters do that, which is why neither is a plain
+     variable row. */
+  --hatch-angle:  105deg;
+  --hatch-ink:    rgba(255,255,255,.11);
+  --hatch-thick:  0.5px;               /* how heavy each line is */
+  --hatch-period: 5px;                 /* spacing, along the gradient axis */
+  --hatch-step:   5.176px;             /* = 5 / sin(105deg). Derived — see above */
+  --hatch-speed:  0.313s;              /* one period per this long, i.e. 3.19/s */
+}
+.hud__mapbox::before{
+  content: ""; position: absolute; top: 0; bottom: 0;
+  left: -8px; right: -8px;
+  background: repeating-linear-gradient(var(--hatch-angle),
+      var(--hatch-ink) 0px, var(--hatch-ink) var(--hatch-thick),
+      transparent var(--hatch-thick), transparent var(--hatch-period));
+  animation: hud-hatch var(--hatch-speed) linear infinite;
+  will-change: transform;
+}
+@keyframes hud-hatch{
+  from{ transform: translateX(0); }
+  to  { transform: translateX(var(--hatch-step)); }
+}
+/* A drifting background is exactly what this setting is for. */
+@media (prefers-reduced-motion: reduce){
+  .hud__mapbox::before{ animation: none; }
+}
+/* The four 3px corner blocks. */
+.hud__corner{ position: absolute; width: 3px; height: 3px; background: #d9d9d9; }
+.hud__corner--tl{ left: 0;  top: 0; }
+.hud__corner--tr{ right: 0; top: 0; }
+.hud__corner--bl{ left: 0;  bottom: 0; }
+.hud__corner--br{ right: 0; bottom: 0; }
+
+/* The figure, dead centre: Figma puts a 25x50 image at (129,46) of a 283x142
+   box, and (283-25)/2 = 129, (142-50)/2 = 46. So it is centred, and saying so
+   in transform survives a change to either number. */
+/* .hud__figure IS GONE. It sized a PNG render of the page's own mesh; the map
+   box now holds the live model instead (a .wfig host — see js/figure-host.js),
+   which is pinned and sized by that module. assets/about/map-figure.png is no
+   longer referenced by anything. */
+
+/* The cursor's double. Red, and the only element here that moves.
+
+   ONE PLACE, and it has to stay one place: js/hud.js clamps the square's travel
+   by its own size so it never hangs out of the box, and it MEASURES that off
+   this element rather than keeping a copy of the number. Change the size here
+   and the travel follows; keep a second 6 in the JS and the two drift the first
+   time either is touched, which shows up as a square that stops a few pixels
+   short of one edge and overhangs the other. */
+.hud__dot{
+  position: absolute; left: 0; top: 0;
+  width: 3px; height: 3px; background: red;
+  will-change: transform;
+}
+
+/* The X and Y read-outs, in the bottom corners of the map box. */
+.hud__xy{
+  position: absolute; bottom: 0; height: 16px;
+  display: flex; align-items: center; gap: 6px;
+  padding: 0 6px; background: #fff; color: var(--ui-ink);
+}
+.hud__xy--x{ left: 0; }
+.hud__xy--y{ right: 0; }
+.hud__xy b{ font-weight: inherit; }
+.hud__xy span{ min-width: 18px; text-align: right; }
+
+/* The two label rows under the map. 10px below the box, 11px apart — both
+   Figma's, and the second is why this is a grid rather than two lines of text:
+   at line-height .5 the rows would otherwise sit 5px apart. */
+/* ABSOLUTE, at Figma's own x offsets, because the strip is not a layout — it
+   is seven labels pinned at 0, 14, 31, 190, 234 and 275 across 283px, on two
+   rows 11px apart. Flowing it in a grid put "get out" on the first row beside
+   "i am watching you" and the pair stopped reading as two voices. */
+.hud__maplabels{ position: relative; height: 16px; margin-top: 10px; }
+.hud__maplabels p{ position: absolute; white-space: nowrap; }
+.hud__maplabels .r1{ top: 0; }
+.hud__maplabels .r2{ top: 11px; }
+
+/* ---------------- the coordinates, a third of the way down ---------------- */
+/* Figma puts these at y=355 of 1080 — a proportion of the height rather than a
+   distance from anything, so it is written as one. */
+.hud__coord{ position: absolute; top: 32.9%; width: 283px;
+             display: flex; justify-content: space-between; }
+.hud__coord--l{ left: 10px; }
+.hud__coord--r{ right: 10px; }
+
+/* ---------------- the panel ----------------------------------------------- */
+/* bottom = bar 28 + 10 + progress 42 + 10. Read from the bottom, as above. */
+.hud__panel{
+  position: absolute; left: 10px; bottom: 90px;
+  width: 283px; height: 212px;
+  display: flex; flex-direction: column; align-items: center; gap: 32px;
+}
+.hud__brackets{ display: flex; justify-content: space-between; width: 100%; }
+.hud__panelbody{ width: 219px; display: flex; flex-direction: column; gap: 64px; }
+.hud__row{ display: flex; gap: 60px; align-items: center; }
+.hud__stack{ display: flex; flex-direction: column; gap: 10px; }
+.hud__stack--tight{ gap: 6px; }
+.hud__cellA{ width: 65px; }
+.hud__cellB{ width: 94px; display: flex; flex-direction: column; gap: 8px; }
+.hud__cellB .top{ display: flex; justify-content: space-between; align-items: flex-start; }
+.hud__dot3{ width: 3px; height: 3px; background: #d9d9d9; }
+.hud__dots{ display: flex; gap: 2px; align-items: center; }
+.hud__row2{ display: flex; justify-content: space-between; align-items: flex-start; }
+.hud__meta{ width: 94px; display: flex; flex-direction: column; gap: 32px; }
+.hud__pair{ display: flex; gap: 13px; align-items: center; }
+.hud__pair .l{ width: 39px; display: flex; flex-direction: column; gap: 6px; }
+.hud__pair .r{ width: 42px; display: flex; flex-direction: column; gap: 6px;
+               text-align: right; }
+.hud__year{ display: flex; gap: 13px; align-items: center; }
+.hud__reg{ width: 10px; height: 10px; }
+
+/* ---------------- the progress bar ---------------------------------------- */
+/* bottom = bar 28 + 10. */
+.hud__progress{
+  position: absolute; left: 10px; bottom: 38px;
+  width: 283px; display: flex; flex-direction: column; gap: 16px;
+}
+.hud__ends{ display: flex; justify-content: space-between; }
+/* THE TRACK IS TYPE, not a rule with a fill — which is Figma's own idea and a
+   good one: the same string of slashes is drawn twice, once dim across the full
+   283px and once bright inside a clipped box whose WIDTH IS THE PROGRESS. The
+   two copies share a left edge and a font, so the bright slashes land exactly on
+   the dim ones and the join is a character boundary rather than a cut. */
+.hud__track{ position: relative; height: 5px; margin-top: 15px; }
+.hud__slashes{
+  position: absolute; left: 0; top: 0; width: 283px;
+  white-space: nowrap; overflow: hidden;
+}
+.hud__slashes--dim{ color: rgba(218,236,241,.1); }
+.hud__fill{ position: absolute; left: 0; top: 0; height: 5px; width: 0;
+            overflow: hidden; }
+.hud__fill .hud__slashes{ color: #daecf1; }
+
+/* ---------------- the scroll label ---------------------------------------- */
+.hud__scroll{ position: absolute; right: 10px; bottom: 38px; }
+
+/* ---------------- the running line, top right ------------------------------
+   Figma 14679:25513. The footer's marquee, in the black room.
+
+   THE KEYFRAMES LIVE HERE NOW, AND THAT IS THE REPAIR. They used to be
+   declared in css/footer.css against .ftr__track, and this rule borrowed them
+   by name — one description of the loop, so the two could not drift apart. It
+   was the right instinct and it had one failure mode nobody watches for: the
+   footer was rewritten, .ftr__track and its @keyframes went with it, and the
+   ONLY remaining user of the animation was this file. A missing @keyframes is
+   not an error in CSS. The declaration below stayed valid, matched nothing,
+   and the line simply stopped moving — silently, with no console to tell you.
+
+   So the animation now lives beside its only user. If a marquee is ever wanted
+   again elsewhere, borrow it FROM here rather than moving it back. */
+.hud__ticker{
+  position: absolute; top: 10px; right: 10px;
+  width: 283px; height: 16px;
+  background: rgba(255,255,255,.1);
+  overflow: hidden;
+  display: flex; align-items: center;
+}
+.hud__tick{
+  display: flex; align-items: center; gap: 32px;
+  padding-left: 6px;
+  white-space: nowrap;
+  color: rgba(255,255,255,.5);
+  animation: ftr-run var(--hud-run, 18s) linear infinite;
+  will-change: transform;
+}
+/* LEFT TO RIGHT: from one copy back to zero, so the content travels rightward
+   and the copy behind it arrives to fill the gap. The loop closes only because
+   the distance moved is a whole number of copies — 50% of the track. The
+   markup in index.html repeats the set four times, and two copies of travel is
+   still a whole number of them, so it stays seamless. */
+@keyframes ftr-run{
+  from{ transform: translateX(-50%); }
+  to  { transform: translateX(0); }
+}
+.hud__tick .s{ color: rgba(255,255,255,.25); }
+@media (prefers-reduced-motion: reduce){
+  .hud__tick{ animation: none; }
+}
+
+/* ---------------- the awards -----------------------------------------------
+   Figma 14679:25559 draws it at x1627 y53 on a 1920x1080 frame, 283 wide and
+   305 tall, with the longitude row directly under it at y355.
+
+   THE HEIGHT IS DERIVED FROM THAT ROW, not typed. 32.9% is where .hud__coord
+   sits, so the list always stops the same 10px above it — a typed 305 would be
+   correct at 1080 and overlap the coordinates on anything shorter, which is
+   most laptops.
+
+   THE GRADIENT IS THE SENTENCE. The list is longer than the box and keeps
+   going as the page scrolls; a hard edge at the bottom would say it ends
+   there. The mask is what turns a clipped list into one that continues. */
+.hud__awards{
+  position: absolute; top: 53px; right: 10px;
+  width: 283px;
+  height: calc(32.9% - 63px);
+  overflow: hidden;
+  /* TWO STOPS, AND THE SECOND ONE IS THE POINT. Written as
+     `transparent 100%` the ramp spends the whole 308px getting there, so the
+     list was still legible most of the way down where the file has it gone by
+     the second group's first line. Figma's fade is finished at about three
+     fifths of the box; the remaining two fifths are empty on purpose, which is
+     what leaves the coordinates below it sitting on clean black. */
+  -webkit-mask-image: linear-gradient(180deg, #000 0%, #000 var(--aw-solid, 5%), transparent var(--aw-gone, 92%));
+          mask-image: linear-gradient(180deg, #000 0%, #000 var(--aw-solid, 5%), transparent var(--aw-gone, 92%));
+}
+.hud__awtrack{ will-change: transform; }
+
+/* NO GAP BETWEEN GROUPS, and the arithmetic is the reason. Figma puts the
+   second group's top at 165 and calls the first group 155 tall — 155 is the
+   frame hugging the last line's 5px of ink, not the row's height. Eleven rows
+   at the file's own 15px pitch is 165, so stacking them flush lands the second
+   group exactly where the file draws it. A 10px gap on top of that would be
+   the difference counted twice. */
+.hud__awgrp{ display: flex; align-items: flex-start; }
+.hud__awname{ flex: 0 0 90px; width: 90px; }
+.hud__awlist{ flex: 1 1 auto; }
+.hud__awrow{
+  display: flex; justify-content: space-between; align-items: flex-start;
+  height: 15px;
+  color: rgba(255,255,255,.55);
+}
+/* The count column is its own 20px so the x1s line up as a column rather than
+   ragging with the name above them. */
+.hud__awrow > p:last-child{ flex: 0 0 20px; text-align: right; }
+.hud__awtot{ color: #fff; }
+.hud__awname{ color: #fff; }
+
+
+/* ===== https://www.unbelievablycrap.com/css/footer.css ===== */
+/* ==========================================================================
+   footer.css — the red screen. Figma 14740:25636.
+
+   IT REPLACES THE BAR THAT GREW. The old footer was one element animating
+   from 0 to 268px at the bottom edge; this is a whole screen, and none of
+   that geometry survived, so this file is a rewrite rather than an edit.
+
+   ---- THE TWO AXES ARE NOT TREATED THE SAME -------------------------------
+   The same split css/hud.css and css/tscroll.css already make, and for the
+   same reason. X is PROPORTIONAL: the band, the two bars and the columns of
+   small type have to stretch with the window, and pinning them in pixels
+   would leave a 2560 screen with the whole composition huddled on the left.
+   Y is PIXELS, anchored to whichever edge the file measures from — the
+   headline from the top, the foot cluster from the BOTTOM. Anchored the
+   other way round, a footline written at y=828 of 1080 lands in the middle of
+   any screen that is not exactly 1080 tall.
+
+   The band is the one exception and takes a SHARE of the height, because it
+   is the thing that has to stay across the middle of whatever screen it is
+   on rather than a fixed distance from either edge.
+
+   ---- WHAT THE BACKGROUND DOES --------------------------------------------
+   Red at a variable ALPHA over whatever is already there, not a white that
+   turns red. The block above is a canvas composite and its white is its own;
+   a panel that started at #ffffff would have had to match that exactly and
+   would have shown a seam the moment it did not. Fading red in over it needs
+   to know nothing about the white, arrives at pure red regardless, and the
+   half-way state — red at 50% over white — is the pink a real cross-fade
+   passes through anyway.
+
+   ---- CAP TOPS, NOT BOX TOPS ----------------------------------------------
+   Every y in the file is the top of the CAPITALS. CSS positions the top of
+   the LINE BOX, and at this size the box is twice the cap height, so every
+   number would land about three pixels low if used verbatim. `--ftr-cap` is
+   that difference, measured once against a render and applied in one place.
+   ========================================================================== */
+
+/* ---- THE RED IS A BLEND OVER THE PAGE, AND IT IS ITS OWN ELEMENT ---------
+   Not a background on the panel. Two things follow from that and both are the
+   point.
+
+   IT MULTIPLIES, so the block underneath survives it. Block 02's composite is
+   still drawing when the footer arrives — the head, the ASCII ground, the
+   blob — and an opaque red simply deleted all of it. Multiplied, white goes to
+   the colour and everything darker keeps its darkness: the head reads as a
+   deeper red inside the field, which is the gallery's own treatment
+   (js/tint.js) applied to this room.
+
+   IT IS A SIBLING OF THE PANEL, NOT A CHILD, and that is not tidiness. A
+   `mix-blend-mode` blends with the backdrop inside its nearest stacking
+   context, and .ftr has a z-index, which makes one. Put the sheet inside and
+   it would blend with the empty space in the panel — a no-op that looks like
+   the blend mode failing. js/footer.js appends it to the page for the same
+   reason js/tint.js does.
+
+   THE PANEL'S OWN TYPE IS NOT BLENDED. It sits above the sheet at 62, so the
+   black headline stays black rather than multiplying into the red. */
+.ftr__sheet{
+  position: fixed; inset: 0; z-index: 61;
+  pointer-events: none;
+  background: var(--ftr-col, #ff0000);
+  mix-blend-mode: var(--ftr-blend, multiply);
+  opacity: var(--ftr-mix, 0);
+}
+
+.ftr{
+  position: fixed; inset: 0; z-index: 62;
+  color: #000;
+  /* NEVER. A full-screen fixed layer that takes the pointer swallows the
+     WHEEL, and block 02's scroll listener is on the page underneath — which
+     is exactly what "I get to the footer and it is stuck" is. The links below
+     take it back for themselves and nothing else does. */
+  pointer-events: none;
+  /* NOT `display:none` when shut. The panel has to be laid out for its own
+     measurements to be real the moment it is needed; `visibility` keeps it
+     out of the way without taking it out of the layout. */
+  visibility: hidden;
+}
+.ftr.is-live{ visibility: visible; }
+/* The only things in here that are allowed to be touched — and only once the
+   section is actually up, or they would be catching clicks aimed at the block
+   above while the red is still coming in. */
+.ftr.is-open a,
+.ftr.is-open button{ pointer-events: auto; }
+
+.ftr__in{
+  position: absolute; inset: 0;
+  opacity: var(--ftr-a, 0);
+  /* NOTHING HERE MOVES. The panel is finished before the transition starts
+     and stays at full strength through all of it; what changes is the shape
+     it is CUT to, and js/footer.js writes that as a clip-path taken from the
+     tear's own field. Same edge, same shards, same frame as the red — see the
+     head of js/footer.js.
+
+     The opacity is still a property because the no-WebGL path has no edge to
+     be cut by and goes back to arriving by a fade. It clips the hit area with
+     the picture, which is wanted: a link the tear has not reached yet is not
+     a link you can click. */
+  clip-path: path("M 0 0 Z");
+}
+
+/* THE FRAME'S OWN UNITS. Every x below is a share of the file's 1920 and
+   every y a pixel count off one edge; these two say which. */
+.ftr{
+  --ftr-edge: 10px;         /* the margin the whole composition sits inside */
+
+  /* ---- THE TOP CLUSTER IS ONE MEASUREMENT, NOT TWO ----------------------
+     The band used to sit at a share of the height (36.3889%, the file's 393
+     of 1080) while the headline hung off the top edge. On a 1080 screen the
+     two agreed; on anything shorter the percentage walked up into a headline
+     that is 294px of fixed type, and the last line was cut in half by the
+     band. A composition whose two halves are measured from different things
+     will always collide somewhere.
+
+     So the band is now placed BELOW the headline, by a gap: title top, plus
+     the headline's own height, plus the clear space. Every screen gets the
+     same picture and the collision cannot happen. */
+  --ftr-title-top: 10px;    /* cap top of the first line, off the screen top */
+  --ftr-title-gap: 64px;    /* clear space between the caps and the band */
+  --ftr-title-h: 294px;     /* 2 line pitches + one cap: 102 + 102 + 90 */
+  --ftr-band-top: calc(var(--ftr-title-top) + var(--ftr-title-h) + var(--ftr-title-gap));
+  --ftr-band-h: 170px;
+  --ftr-foot: 252px;        /* the footline: 1080 - 828, off the bottom */
+  /* CAP TOP vs LINE BOX TOP, measured against a render rather than derived.
+     Every y in the file is the top of the capitals; CSS positions the top of
+     the line box, and the two differ by half the leading. One value per line
+     pitch used on the page, because the gap grows with the pitch. */
+  --ftr-cap:   1.5px;   /* 10px type on a 10px line */
+  --ftr-cap11: 2px;     /* …on an 11px line — the notes */
+  --ftr-cap12: 2.5px;   /* …on a 12px line — the aside */
+}
+
+/* ---------------- the headline -------------------------------------------
+   Three spans, not wrapped text. The breaks ARE the drawing — FIND YOUR /
+   WAY OUT OF / HERE — and a paragraph that rewrapped on a narrower window
+   would be a different picture every time.
+
+   128px is the hero's own size and it is not a coincidence: measured off the
+   file the caps are 90px and sit on a 102px pitch, which is what this face
+   gives at 128. Same size, same tracking, so the two headlines on this site
+   are the same headline. */
+.ftr__title{
+  position: absolute; left: 0; right: 0;
+  /* THE FILE PUTS THE CAPS AT 21 AND THE BOX GOES AT 27.5, which is not an
+     adjustment so much as a consequence: line-height 102 on a 128px face is a
+     line box SHORTER than the glyphs, so the capitals overflow it upward by
+     six and a half pixels. Measured against a render, not derived — and the
+     three line widths came out at 517, 532 and 243 against the file's 517,
+     532 and 243.5, so the size and the tracking are the file's own. */
+  /* +6.5 because the caps overflow the short line box UPWARD by that much —
+     see the note above. `--ftr-title-top` is where the capitals land. */
+  top: calc(var(--ftr-title-top) + 6.5px);
+  margin: 0;
+  text-align: center;
+  font-weight: 400;
+  font-size: var(--ftr-title, 128px);
+  line-height: var(--ftr-title-lh, 102px);
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+}
+.ftr__title > span{ display: block; }
+
+/* ---------------- the band -----------------------------------------------
+   The supplied file, and it is a SUBTRACTION: a rectangle with the ellipse
+   knocked out of it under fill-rule evenodd. What shows through the hole is
+   the page's own red, which is why the shape stays correct for every frame
+   while that red is still coming up. An ellipse painted red would have had to
+   be animated in step with the background and would have been a shade out the
+   whole way.
+
+   preserveAspectRatio="none" is in the markup on purpose: the band spans the
+   width at a fixed height and the shape stretches with it. It is a long lens
+   across the band, not a circle that has to stay round. */
+.ftr__band{
+  position: absolute;
+  left: var(--ftr-edge); right: var(--ftr-edge);
+  top: var(--ftr-band-top);
+  height: var(--ftr-band-h);
+  color: #000;
+}
+.ftr__bandbg{
+  position: absolute; inset: 0;
+  display: block; width: 100%; height: 100%;
+}
+/* EVERYTHING INSIDE THE BAND IS RED. Not "black on red inverted" — the file
+   puts the site's pure #ff0000 on the black, the same red the page behind is
+   coming up to, so the band reads as a window cut in the screen rather than
+   as a separate object with its own palette. */
+/* A FLEX ROW AGAIN, AND THE REASON IT WENT BACK. These four were pinned at
+   the file's own offsets — 0, 62, 119, 192 — because a flex row drifted five
+   pixels short of them by the fourth item. That mattered while the type was
+   the file's 14px and the offsets described the same drawing. At 10px it no
+   longer does: the items are three quarters as wide, so holding their starts
+   would hold the four SLOTS and stretch every gap between them from sixteen
+   pixels to nearly thirty. The gap is the thing worth keeping, so the row
+   sets itself and the gap stays the file's. */
+.ftr__nav{
+  position: absolute;
+  left: 11.1111%;                       /* 211 of the band's 1899 */
+  top: calc(10px - var(--ftr-cap));
+  display: flex; align-items: flex-start; gap: 16px;
+}
+.ftr__navi{
+  display: flex; align-items: center; gap: 4px;
+  /* THE SITE'S MICROTYPE, not the file's 14. Every other label in this footer
+     is 10px, and the nav at 14 was one row shouting across a screen of small
+     type. The `+` marks stay at their drawn 6px — they are a mark, not a
+     glyph, and shrinking them with the words turns them into a smudge. */
+  font-size: var(--ui-10); letter-spacing: -0.4px;
+  line-height: 1;
+  text-transform: uppercase; text-decoration: none;
+  color: #ff0000;
+}
+/* THE BARS' HOVER, THE SAME ONE. It was opacity .6 — a fifth thing on a page
+   whose every other link answers by going white and re-decoding its letters,
+   and a dimmed link reads as disabled rather than as pointed at. No transition
+   either, for the same reason the bars have none: the scramble IS the
+   movement, and a colour easing underneath it arrives second.
+
+   The mark goes with the word. It is drawn with currentColor and it is part of
+   the item, not a separate thing beside it. */
+.ftr__navi:hover{ color: #fff; }
+.ftr__navi svg{ width: 6px; height: 6.667px; flex: none; }
+
+/* THREE SQUARES, NOT FOUR, and all three sit 10px in from their own corner —
+   which is why they are written as one rule and three anchors rather than as
+   four coordinates. The bottom right is empty because the ERROR PAGE chip is
+   what lives there. */
+.ftr__sq{
+  position: absolute; width: 6px; height: 6px;
+  background: #ff0000;
+}
+.ftr__sq--tl{ left: 10px;  top: 10px; }
+.ftr__sq--tr{ right: 10px; top: 10px; }
+.ftr__sq--bl{ left: 10px;  bottom: 10px; }
+
+/* The one filled thing on the page: a red chip with black type, which is the
+   band's palette turned back the right way up. */
+.ftr__err{
+  position: absolute; right: 10px; bottom: 10px;
+  width: 92px; height: 20px;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0 6px;
+  background: #ff0000; color: #000;
+  /* 10px like everything else. THE BOX DOES NOT FOLLOW THE TYPE DOWN: 92 x 20
+     is the chip as drawn, and it is the only filled object on the screen —
+     shrink-wrapping it to smaller words would make the one thing meant to look
+     pressable the smallest thing in the band. The type gets quieter, the
+     target stays the size a target should be. */
+  font-size: var(--ui-10); letter-spacing: -0.4px;
+  line-height: 1; text-transform: uppercase; text-decoration: none;
+}
+.ftr__err svg{ width: 6px; height: 6.667px; flex: none; }
+
+/* ---------------- the two bars -------------------------------------------
+   944.5 each with a 10px gap, which is the file's own split of the 1899 —
+   written as two equal flex children so the split survives any width. */
+.ftr__bars{
+  position: absolute;
+  left: var(--ftr-edge); right: var(--ftr-edge);
+  top: calc(var(--ftr-band-top) + 176px);   /* 569 - 393 */
+  height: 16px;
+  display: flex; gap: 6px;
+}
+.ftr__bar{
+  flex: 1 1 0; min-width: 0;
+  margin: 0;
+  display: flex; align-items: center;
+  /* ALL FOUR SIDES, not just the left. One of these two is a <button> and
+     carries the browser's own padding on the other three; left to it the two
+     bars come out six pixels different in width, which on a pair that is meant
+     to split the line exactly in half is the one error you cannot unsee. */
+  padding: 0 0 0 10px;
+  background: #000; color: #ff0000;
+  font-size: var(--ui-10); letter-spacing: -0.4px;
+  line-height: 1; text-transform: uppercase; text-decoration: none;
+}
+.ftr__bar--btn{
+  border: 0; font-family: inherit; cursor: pointer; text-align: left;
+}
+/* ONE HOVER FOR BOTH BARS, AND IT IS THE TYPE ONLY. The bar inverted to a red
+   fill first, which was the ERROR PAGE chip's palette and wrong here for a
+   reason worth writing down: the chip is a BUTTON — a small filled object that
+   is meant to look pressable — and these two are the full width of the screen.
+   Lighting up nine hundred and fifty pixels of black is not a hover, it is the
+   page changing. The words answer; the bar stays where it is. */
+a.ftr__bar:hover,
+.ftr__bar--btn:hover{ color: #fff; }
+
+/* ---------------- the foot cluster ---------------------------------------
+   All of it measured off the BOTTOM. See the header: these numbers are a
+   footline in the file, and anchoring them to the top would float them into
+   the middle of any screen that is not 1080 tall. */
+.ftr__lbl{
+  position: absolute; margin: 0;
+  font-size: var(--ui-10); letter-spacing: -0.4px;
+  line-height: 10px; text-transform: uppercase;
+}
+/* ANCHORED BY THEIR TOP, counted up from the bottom edge — `top: calc(100% -
+   n)` rather than `bottom: n`. The difference matters: `bottom` pins the
+   BOTTOM of a box whose height depends on how many lines it has, so adding a
+   line to a note would have pushed its first line up and out of alignment
+   with everything beside it. Counted from the top, a block grows downward and
+   its first line stays where the file put it. */
+.ftr__project{ left: var(--ftr-edge); top: calc(100% - var(--ftr-foot) - var(--ftr-cap)); }
+.ftr__no     { left: 11.5104%;        top: calc(100% - var(--ftr-foot) - var(--ftr-cap)); }
+.ftr__slash  { left: 11.5104%;        top: calc(100% - 150px - var(--ftr-cap)); }
+/* THE SAME 10px AS EVERYTHING ELSE IN THE FOOT. It was set at 14 for a while,
+   measured off the Figma export where this line's ink comes out 153.5 wide
+   against the 110.5 the small size gives — the export and the file's own node
+   width disagree, and the export won that round. It was the wrong call: every
+   other label down here is the site's microtype, and one line a size larger
+   reads as a mistake rather than as emphasis. The export is what disagrees
+   with the rest of the design, not this. */
+.ftr__copy   { left: var(--ftr-edge); top: calc(100% - 15px - var(--ftr-cap)); }
+
+.ftr__ref{
+  position: absolute; left: 43.2292%;
+  top: calc(100% - var(--ftr-foot) - var(--ftr-cap));
+  display: flex; gap: 10px;                 /* 000 at 830, // at 856 */
+}
+.ftr__ref p{
+  margin: 0; font-size: var(--ui-10); letter-spacing: -0.4px;
+  line-height: 10px; text-transform: uppercase;
+}
+
+.ftr__aside{
+  position: absolute; left: 16.25%;
+  top: calc(100% - 150px - var(--ftr-cap12));
+}
+.ftr__aside p{
+  margin: 0; font-size: var(--ui-10); letter-spacing: -0.4px;
+  line-height: 12px; text-transform: uppercase;   /* the file's 12px pitch */
+}
+
+/* THE THREE NOTES ARE ONE BLOCK, not three coordinates. The file stacks them
+   at 0, 102 and 215 inside a 242-tall frame, and those gaps are set by how
+   many lines each note has — so the block is anchored once and the notes
+   space themselves, which is what keeps them right when a line is added. */
+.ftr__notes{
+  position: absolute; left: 50.2083%;
+  top: calc(100% - var(--ftr-foot) - var(--ftr-cap11));
+  width: 301px;
+  display: flex; flex-direction: column;
+  /* 58, NOT the file's 64. The file's gap is measured from the bottom of the
+     last CAP of one note to the top of the first cap of the next; a flex gap
+     is measured between LINE BOXES, and a line box is six pixels taller than
+     the caps it holds. Use 64 and every note after the first sits six pixels
+     low, cumulatively. The notes' own starts — 102 and 215 — land exactly at
+     58. */
+  gap: 58px;
+}
+.ftr__note{ display: flex; }
+.ftr__n{
+  flex: 0 0 21px; margin: 0;
+  font-size: var(--ui-10); letter-spacing: -0.4px;
+  line-height: 11px; text-transform: uppercase;
+}
+.ftr__note > div p,
+.ftr__where > div p{
+  margin: 0; font-size: var(--ui-10); letter-spacing: -0.4px;
+  line-height: 11px; text-transform: uppercase; white-space: nowrap;
+}
+
+/* THE CREDITS THAT ARE LINKS, and they are dressed as type. Nothing changes
+   but the cursor — the brief, and the right call: an underline here would turn
+   a credit into a button and the whole note into a menu.
+
+   PLAIN INLINE, not `display: contents`. Contents was the clever answer — no
+   box at all, so nothing to disturb the 11px line pitch — and it is the wrong
+   one: an element with no box has no box to hit-test or to hang
+   `pointer-events` on, and this footer switches pointer-events on per link. An
+   ordinary inline anchor filling its own <p> changes the line box by nothing
+   anyway, and it is a link the way every other link is. */
+.ftr__link{
+  color: inherit; text-decoration: none;
+  cursor: pointer;
+}
+
+.ftr__where{
+  position: absolute; right: 11px;
+  top: calc(100% - var(--ftr-foot) - var(--ftr-cap11));
+  /* THE WIDTH IS THE FILE'S 92 AND IT IS LOAD-BEARING. Left to shrink-wrap,
+     the block is as wide as "lviv, ukraine" happens to set and its right edge
+     — which is what is anchored — drags the number in from where the file
+     puts it. */
+  width: 92px;
+  display: flex;
+}
+/* RIGHT-ALIGNED, which the file does not say and the export does: CURRENTLY
+   is 42.5 of ink ending flush with LVIV, UKRAINE at the block's right edge.
+   Both text nodes are the frame's full 71 wide, so left or right is invisible
+   in the coordinates and obvious in the picture. */
+.ftr__where > div{ flex: 1 1 auto; text-align: right; }
+
+/* ---------------- the phone ----------------------------------------------
+   The composition is a 1920 drawing and does not survive being squeezed into
+   a phone: the headline alone is 128px of type. Below the site's own
+   breakpoint the band keeps its shape and everything else stacks, which is a
+   different drawing rather than a shrunk one. */
+@media (max-width: 860px){
+  .ftr{ --ftr-band-h: 96px; --ftr-foot: 190px; }
+  .ftr__title{ font-size: 12vw; line-height: 1.02; top: 24px; }
+  .ftr__nav{ left: 4%; }
+  .ftr__ref, .ftr__aside, .ftr__slash, .ftr__no{ display: none; }
+  .ftr__notes{ left: 10px; right: 10px; width: auto; gap: 22px; }
+  .ftr__where{ display: none; }
+}

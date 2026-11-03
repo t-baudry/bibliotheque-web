@@ -1,0 +1,132 @@
+[
+ {
+  "file": "001-consent-init.js",
+  "url": "https://white-desert.com/consent-init.js",
+  "kb": 1
+ },
+ {
+  "file": "002-5c2203363474d50c.js",
+  "url": "https://white-desert.com/_next/static/chunks/5c2203363474d50c.js?dpl=dpl_95Z7ryCnE3uLicYnPCq8zEtbHAYS",
+  "kb": 7
+ },
+ {
+  "file": "003-turbopack-7249dcdd8e7cb093.js",
+  "url": "https://white-desert.com/_next/static/chunks/turbopack-7249dcdd8e7cb093.js?dpl=dpl_95Z7ryCnE3uLicYnPCq8zEtbHAYS",
+  "kb": 10
+ },
+ {
+  "file": "004-613eff4f63f3cbd0.js",
+  "url": "https://white-desert.com/_next/static/chunks/613eff4f63f3cbd0.js?dpl=dpl_95Z7ryCnE3uLicYnPCq8zEtbHAYS",
+  "kb": 92
+ },
+ {
+  "file": "005-ff1a16fafef87110.js",
+  "url": "https://white-desert.com/_next/static/chunks/ff1a16fafef87110.js?dpl=dpl_95Z7ryCnE3uLicYnPCq8zEtbHAYS",
+  "kb": 0
+ },
+ {
+  "file": "006-a38b13957ccda190.js",
+  "url": "https://white-desert.com/_next/static/chunks/a38b13957ccda190.js?dpl=dpl_95Z7ryCnE3uLicYnPCq8zEtbHAYS",
+  "kb": 63
+ },
+ {
+  "file": "007-b67b107e891260db.js",
+  "url": "https://white-desert.com/_next/static/chunks/b67b107e891260db.js?dpl=dpl_95Z7ryCnE3uLicYnPCq8zEtbHAYS",
+  "kb": 42
+ },
+ {
+  "file": "008-d80e3f399c77bf13.js",
+  "url": "https://white-desert.com/_next/static/chunks/d80e3f399c77bf13.js?dpl=dpl_95Z7ryCnE3uLicYnPCq8zEtbHAYS",
+  "kb": 3
+ },
+ {
+  "file": "009-7dd66bdf8a7e5707.js",
+  "url": "https://white-desert.com/_next/static/chunks/7dd66bdf8a7e5707.js?dpl=dpl_95Z7ryCnE3uLicYnPCq8zEtbHAYS",
+  "kb": 32
+ },
+ {
+  "file": "010-b62d095e5c483d7e.js",
+  "url": "https://white-desert.com/_next/static/chunks/b62d095e5c483d7e.js?dpl=dpl_95Z7ryCnE3uLicYnPCq8zEtbHAYS",
+  "kb": 31
+ },
+ {
+  "file": "011-3740e28aac5f04a8.js",
+  "url": "https://white-desert.com/_next/static/chunks/3740e28aac5f04a8.js?dpl=dpl_95Z7ryCnE3uLicYnPCq8zEtbHAYS",
+  "kb": 62
+ },
+ {
+  "file": "012-d2e25e0992870da6.js",
+  "url": "https://white-desert.com/_next/static/chunks/d2e25e0992870da6.js?dpl=dpl_95Z7ryCnE3uLicYnPCq8zEtbHAYS",
+  "kb": 57
+ },
+ {
+  "file": "013-36269ef0e4c9af0e.js",
+  "url": "https://white-desert.com/_next/static/chunks/36269ef0e4c9af0e.js?dpl=dpl_95Z7ryCnE3uLicYnPCq8zEtbHAYS",
+  "kb": 20
+ },
+ {
+  "file": "014-27087760.js",
+  "url": "https://js-eu1.hs-scripts.com/27087760.js",
+  "kb": 2
+ },
+ {
+  "file": "015-3fc23f0de7d23d6d.js",
+  "url": "https://white-desert.com/_next/static/chunks/3fc23f0de7d23d6d.js?dpl=dpl_95Z7ryCnE3uLicYnPCq8zEtbHAYS",
+  "kb": 143
+ },
+ {
+  "file": "016-06687ac130c66111.js",
+  "url": "https://white-desert.com/_next/static/chunks/06687ac130c66111.js?dpl=dpl_95Z7ryCnE3uLicYnPCq8zEtbHAYS",
+  "kb": 183
+ },
+ {
+  "file": "017-banner.js",
+  "url": "https://js-eu1.hs-banner.com/v2/27087760/banner.js",
+  "kb": 66
+ },
+ {
+  "file": "018-collectedforms.js",
+  "url": "https://js-eu1.hscollectedforms.net/collectedforms.js",
+  "kb": 78
+ },
+ {
+  "file": "019-conversations-embed.js",
+  "url": "https://js-eu1.usemessages.com/conversations-embed.js",
+  "kb": 104
+ },
+ {
+  "file": "020-27087760.js",
+  "url": "https://js-eu1.hs-analytics.net/analytics/1793664000000/27087760.js",
+  "kb": 108
+ },
+ {
+  "file": "021-script.js",
+  "url": "https://white-desert.com/_vercel/insights/script.js",
+  "kb": 4
+ },
+ {
+  "file": "022-d482d747da6c5eef.js",
+  "url": "https://white-desert.com/_next/static/chunks/d482d747da6c5eef.js?dpl=dpl_95Z7ryCnE3uLicYnPCq8zEtbHAYS",
+  "kb": 39
+ },
+ {
+  "file": "023-cfce93c6cd2e504b.js",
+  "url": "https://white-desert.com/_next/static/chunks/cfce93c6cd2e504b.js?dpl=dpl_95Z7ryCnE3uLicYnPCq8zEtbHAYS",
+  "kb": 35
+ },
+ {
+  "file": "024-be.js",
+  "url": "https://tracker.metricool.com/resources/be.js",
+  "kb": 0
+ },
+ {
+  "file": "025-bat.js",
+  "url": "https://bat.bing.com/bat.js",
+  "kb": 57
+ },
+ {
+  "file": "026-97244427.js",
+  "url": "https://bat.bing.com/p/action/97244427.js",
+  "kb": 5
+ }
+]

@@ -1,0 +1,12 @@
+{
+ "id": 15,
+ "name": "Signal-A Studio",
+ "sourceUrl": "https://signal-a.studio/",
+ "capturedAt": "2026-11-02T23:30:17.350Z",
+ "status": "inaccessible",
+ "errors": [
+  "browserContext.newPage: Target page, context or browser has been closed"
+ ],
+ "steps": {},
+ "durationS": 3
+}

@@ -1,0 +1,909 @@
+{
+ "id": 61,
+ "name": "Paul Kalkbrenner",
+ "sourceUrl": "https://www.paulkalkbrenner.net/",
+ "capturedAt": "2026-11-03T00:11:35.698Z",
+ "status": "ok",
+ "errors": [
+  "goto load: page.goto: Timeout 60000ms exceeded."
+ ],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg"
+  ],
+  "fullPage": 10501,
+  "subpages": [
+   {
+    "url": "https://www.paulkalkbrenner.net/music",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.paulkalkbrenner.net/tour",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.paulkalkbrenner.net/about",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://www.paulkalkbrenner.net/",
+ "title": "Paul Kalkbrenner – Official Website",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Explore the music of Paul Kalkbrenner. New releases, live performances and a body of work shaped by over two decades of electronic music.",
+  "canonical": "https://www.paulkalkbrenner.net/",
+  "robots": null,
+  "ogTitle": "Paul Kalkbrenner – Official Website",
+  "ogImage": "https://cdn.prod.website-files.com/69bbf53ccfefd61290c68689/6a2c222a162ee1aa4d244cdb_og_image.png",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [],
+  "h1Count": 1,
+  "headings": [
+   "H1 PaulKalkbrenner",
+   "H2 Experience",
+   "H2 the",
+   "H2 Pulse",
+   "H2 of",
+   "H2 Electronic",
+   "H2 Music",
+   "H3 recordings",
+   "H3 tour dates",
+   "H3 gallery",
+   "H3 video archive",
+   "H3 life WORKS",
+   "H3 Newsletter",
+   "H2 Join the newsletter for exclusive updates on new music, tours and special content.",
+   "H3 Links",
+   "H3 Support",
+   "H3 Follow"
+  ],
+  "imgs": 83,
+  "imgNoAlt": 32,
+  "favicon": "https://cdn.prod.website-files.com/69bbf53ccfefd61290c68689/6a2c2e0b475167f14c0a376a_favicon.png",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#ffffff",
+    "w": 4011575
+   },
+   {
+    "v": "#c5c5c5",
+    "w": 2951302
+   },
+   {
+    "v": "#000000",
+    "w": 2091037
+   },
+   {
+    "v": "#a7ff9c",
+    "w": 1923305
+   },
+   {
+    "v": "#ff6831",
+    "w": 1093932
+   }
+  ],
+  "text": [
+   {
+    "v": "#000000",
+    "w": 1010
+   },
+   {
+    "v": "#ffffff",
+    "w": 752
+   }
+  ],
+  "border": [
+   {
+    "v": "#000000",
+    "w": 43
+   },
+   {
+    "v": "#a9a9a9",
+    "w": 1
+   }
+  ],
+  "fonts": [
+   {
+    "v": "ABC Diatype Plus Variable",
+    "w": 2076
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "13.5px",
+    "w": 188
+   },
+   {
+    "v": "10.5px",
+    "w": 184
+   },
+   {
+    "v": "12px",
+    "w": 65
+   },
+   {
+    "v": "9.1875px",
+    "w": 35
+   },
+   {
+    "v": "150px",
+    "w": 11
+   },
+   {
+    "v": "18px",
+    "w": 9
+   },
+   {
+    "v": "634.125px",
+    "w": 4
+   },
+   {
+    "v": "36px",
+    "w": 2
+   },
+   {
+    "v": "96px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "15px",
+    "w": 16
+   },
+   {
+    "v": "1200px",
+    "w": 8
+   }
+  ],
+  "shadows": [
+   {
+    "v": "rgb(255, 255, 255) 0px -24px 0px 0px, rgb(255, 255, 255) 0px 24px 0px 0px",
+    "w": 1
+   }
+  ],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.625 0.3s",
+    "w": 157
+   },
+   {
+    "v": "cubic-bezier(0.625 0.55s",
+    "w": 13
+   },
+   {
+    "v": "cubic-bezier(0.625 0.35s",
+    "w": 4
+   },
+   {
+    "v": "ease 0.3s",
+    "w": 2
+   },
+   {
+    "v": "cubic-bezier(0.625 0.7s",
+    "w": 2
+   },
+   {
+    "v": "ease 0.2s",
+    "w": 2
+   },
+   {
+    "v": "ease 0.4s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "\"ABC Diatype Plus Variable\", Arial, sans-serif",
+    "size": "150px",
+    "weight": "700",
+    "lineHeight": "120px",
+    "letterSpacing": "-7.5px",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "PaulKalkbrenner"
+   },
+   "h2": {
+    "family": "\"ABC Diatype Plus Variable\", Arial, sans-serif",
+    "size": "150px",
+    "weight": "700",
+    "lineHeight": "120px",
+    "letterSpacing": "-7.5px",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Experience"
+   },
+   "h3": {
+    "family": "\"ABC Diatype Plus Variable\", Arial, sans-serif",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "16.2px",
+    "letterSpacing": "-0.36px",
+    "transform": "uppercase",
+    "color": "#000000",
+    "sample": "recordings"
+   },
+   "h4": {
+    "family": "\"ABC Diatype Plus Variable\", Arial, sans-serif",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "16.2px",
+    "letterSpacing": "-0.36px",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "THE ESSENCE"
+   },
+   "p": {
+    "family": "\"ABC Diatype Plus Variable\", Arial, sans-serif",
+    "size": "13.5px",
+    "weight": "700",
+    "lineHeight": "13.5px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Explore his music, new releases, live performances and a body of work shaped by "
+   },
+   "a": {
+    "family": "\"ABC Diatype Plus Variable\", Arial, sans-serif",
+    "size": "12px",
+    "weight": "700",
+    "lineHeight": "12px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Music"
+   },
+   "button": {
+    "family": "\"ABC Diatype Plus Variable\", Arial, sans-serif",
+    "size": "12px",
+    "weight": "700",
+    "lineHeight": "12px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Sound OFFSound ON"
+   },
+   "li": {
+    "family": "\"ABC Diatype Plus Variable\", Arial, sans-serif",
+    "size": "12px",
+    "weight": "700",
+    "lineHeight": "12px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Music"
+   },
+   "body": {
+    "family": "\"ABC Diatype Plus Variable\", Arial, sans-serif",
+    "size": "12px",
+    "weight": "700",
+    "lineHeight": "12px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "MusicTourAboutJourneyGalleryNewsContactStoreplayPaulKalkbrennerNow playingTime T"
+   }
+  },
+  "cssVars": {
+   "--color--dark": "#000",
+   "--color--light": "white",
+   "--page-pad": ".625em",
+   "--col-pad": "var(--gap-ml)",
+   "--gap-m": "1em",
+   "--space-s": "1em",
+   "--color--dark-20": "color-mix(in srgb, var(--color--dark), transparent 80%)",
+   "--space-m": "7.5em",
+   "--space-xl": "15.625em",
+   "--gap-xs": ".5em",
+   "--space-xxl": "18.75em",
+   "--gap-s": ".75em",
+   "--cta-height": "11.25em",
+   "--gap-xl": "2em",
+   "--gap-l": "1.5em",
+   "--gap-ml": "1.25em",
+   "--color--gray": "#c5c5c5",
+   "--gap-xxs": ".25em",
+   "--exp-grid-row": "10em",
+   "--exp-grid-col": "35em",
+   "--exp-grid-dot": "8.5em",
+   "--space-sm": "2em",
+   "--color--dark-40": "color-mix(in srgb, var(--color--dark), transparent 60%)",
+   "--color--dark-30": "color-mix(in srgb, var(--color--dark), transparent 70%)",
+   "--color--green": "#a7ff9c",
+   "--color--orange": "#ff6831",
+   "--color--yellow": "#fc0",
+   "--color--brown": "#bc8556",
+   "--space-l": "10em",
+   "--space-xxxl": "25em"
+  },
+  "fontFaces": [
+   {
+    "family": "webflow-icons",
+    "weight": "normal",
+    "style": "normal",
+    "src": "url(\"data:application/x-font-ttf;charset=utf-8;base64,AAEAAAALAIAAAwAwT1MvMg8SBiUAAAC8AAAAYGNtYXDpP+a4AAABHAAAAFxnYXNwAAAAEAAAAXgAAAAIZ2x5ZmhS2XEAAAGAAAADHGhlYWQTFw3HAAAEnAAAADZoaGVhCXYFgQAABNQAAAAkaG"
+   },
+   {
+    "family": "ABC Diatype Plus Variable",
+    "weight": "100 700",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/69bbf53ccfefd61290c68689/69c544aa9f0eeb44e81eb6e0_ABCDiatypePlusVariable.ttf\") format(\"truetype\")"
+   }
+  ],
+  "keyframes": [
+   "spin"
+  ],
+  "breakpoints": [
+   {
+    "v": "479px",
+    "w": 4
+   },
+   {
+    "v": "991px",
+    "w": 3
+   },
+   {
+    "v": "767px",
+    "w": 3
+   },
+   {
+    "v": "768px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 907,
+  "crossOriginSheets": 1
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section",
+    "h": 912,
+    "title": "PaulKalkbrenner",
+    "media": 6
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section u--rel",
+    "h": 505,
+    "title": "Experience",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "media",
+    "h": 760,
+    "title": "",
+    "media": 1
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section",
+    "h": 1073,
+    "title": "recordings",
+    "media": 6
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "tour-dates",
+    "h": 1350,
+    "title": "tour dates",
+    "media": 1
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "media",
+    "h": 1188,
+    "title": "",
+    "media": 1
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section u--clip",
+    "h": 996,
+    "title": "gallery",
+    "media": 8
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section",
+    "h": 1053,
+    "title": "video archive",
+    "media": 16
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "media",
+    "h": 1188,
+    "title": "life WORKS",
+    "media": 1
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "newsletter",
+    "h": 768,
+    "title": "Newsletter",
+    "media": 27
+   },
+   {
+    "tag": "footer",
+    "id": null,
+    "cls": "footer",
+    "h": 366,
+    "title": "Links",
+    "media": 0
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "",
+    "href": "https://www.paulkalkbrenner.net/"
+   },
+   {
+    "t": "Music",
+    "href": "https://www.paulkalkbrenner.net/music"
+   },
+   {
+    "t": "Tour",
+    "href": "https://www.paulkalkbrenner.net/tour"
+   },
+   {
+    "t": "About",
+    "href": "https://www.paulkalkbrenner.net/about"
+   },
+   {
+    "t": "Journey",
+    "href": "https://www.paulkalkbrenner.net/journey"
+   },
+   {
+    "t": "Gallery",
+    "href": "https://www.paulkalkbrenner.net/gallery"
+   },
+   {
+    "t": "News",
+    "href": "https://www.paulkalkbrenner.net/news"
+   },
+   {
+    "t": "Contact",
+    "href": "https://www.paulkalkbrenner.net/contact"
+   },
+   {
+    "t": "Store",
+    "href": "https://pk-merch.de/"
+   },
+   {
+    "t": "Music",
+    "href": "https://www.paulkalkbrenner.net/music"
+   },
+   {
+    "t": "Tour",
+    "href": "https://www.paulkalkbrenner.net/tour"
+   },
+   {
+    "t": "Merch store",
+    "href": "https://pk-merch.de/"
+   },
+   {
+    "t": "Contact Us",
+    "href": "https://www.paulkalkbrenner.net/contact"
+   },
+   {
+    "t": "Privacy Policy",
+    "href": "https://www.paulkalkbrenner.net/legal/privacy-policy"
+   },
+   {
+    "t": "Imprint",
+    "href": "https://www.paulkalkbrenner.net/legal/imprint"
+   },
+   {
+    "t": "Instagram",
+    "href": "https://www.instagram.com/iampaulkalkbrenner/?hl=en"
+   },
+   {
+    "t": "Facebook",
+    "href": "https://www.facebook.com/paulkalkbrenner/"
+   },
+   {
+    "t": "Twitter/X",
+    "href": "https://x.com/paulkalkbrenner?lang=en"
+   },
+   {
+    "t": "YouTube",
+    "href": "https://www.youtube.com/user/paulkalkbrenner"
+   },
+   {
+    "t": "Spotify",
+    "href": "https://open.spotify.com/artist/0rasA5Z5h1ITtHelCpfu9R"
+   },
+   {
+    "t": "TikTok",
+    "href": "https://www.tiktok.com/@paulkalkbrennerofficial"
+   },
+   {
+    "t": "SoundCloud",
+    "href": "https://soundcloud.com/paulkalkbrenner"
+   },
+   {
+    "t": "",
+    "href": "https://soundcloud.com/paulkalkbrenner"
+   }
+  ],
+  "ctas": [],
+  "pageHeight": 10289,
+  "counts": {
+   "canvas": 0,
+   "videos": 0,
+   "imgs": 83,
+   "svgs": 3,
+   "iframes": 8,
+   "domNodes": 1837
+  }
+ },
+ "tech": {
+  "gsap": true,
+  "gsapVersion": "3.15.0",
+  "scrollTrigger": true,
+  "splitText": true,
+  "lenis": true,
+  "locomotive": false,
+  "three": false,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": true,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": true,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [
+   "googletagmanager",
+   "google-analytics",
+   "gtag",
+   "fbevents"
+  ],
+  "customCursor": true,
+  "audio": true,
+  "webglCanvas": false
+ },
+ "scripts": [
+  "https://www.googletagmanager.com/gtag/js?id=G-ZH75ZNX3Y9&cx=c&_slc=1",
+  "https://www.google-analytics.com/analytics.js",
+  "https://connect.facebook.net/signals/config/1206087052822985?v=2.9.433&r=stable&domain=www.paulkalkbrenner.net&hme=4453c87d489b6902031c012cadd2731893cd69feb64fe8a61b339727247a7703&ex_m=118%2C242%2C171%2C27%2C82%2C83%2C162%2C78%2C77%2C11%2C181%2C102%2C20%2C153%2C141%2C46%2C85%2C90%2C149%2C176%2C183%2C8%2C4%2C5%2C7%2C6%2C3%2C103%2C115%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C37%2C55%2C163%2C87%2C126%2C22%2C24%2C51%2C47%2C49%2C48%2C95%2C104%2C108%2C124%2C160%2C164%2C53%2C125%2C29%2C26%2C133%2C79%2C43%2C166%2C165%2C167%2C157%2C155%2C30%2C42%2C66%2C123%2C178%2C80%2C21%2C128%2C93%2C76%2C23%2C97%2C98%2C130%2C96%2C151%2C150%2C154%2C109%2C177%2C180%2C41%2C56%2C127%2C54%2C161%2C72%2C185%2C110%2C184%2C211%2C263%2C84%2C283%2C282%2C281%2C14%2C25%2C28%2C40%2C62%2C117%2C68%2C10%2C73%2C111%2C112%2C113%2C119%2C144%2C38%2C36%2C146%2C147%2C148%2C143%2C142%2C172%2C86%2C175%2C173%2C174%2C57%2C69%2C67%2C137%2C19%2C179%2C52%2C333%2C334%2C335%2C332%2C349%2C371%2C256%2C238%2C70%2C239%2C237%2C374%2C365%2C59%2C257%2C121%2C145%2C92%2C135%2C61%2C134%2C140%2C139%2C65%2C74%2C168%2C88%2C89%2C129%2C44%2C39%2C60%2C63%2C114%2C182%2C1%2C138%2C16%2C136%2C12%2C2%2C64%2C105%2C15%2C75%2C71%2C132%2C101%2C100%2C187%2C188%2C106%2C107%2C9%2C116%2C186%2C58%2C158%2C99%2C91%2C81%2C131%2C120%2C169%2C50%2C159%2C0%2C94%2C152%2C156%2C170%2C45%2C122%2C13%2C189",
+  "https://connect.facebook.net/en_US/fbevents.js",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-T6LLHBR",
+  "https://connect.facebook.net/en_US/fbevents.js",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-T6LLHBR",
+  "https://challenges.cloudflare.com/turnstile/v0/api.js",
+  "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=69bbf53ccfefd61290c68689",
+  "https://cdn.prod.website-files.com/69bbf53ccfefd61290c68689/js/paul-kalkbrenner-staging.a0aa6ca1.b7683852b8a60d8e.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/CustomEase.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/Observer.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/Flip.min.js",
+  "https://cdn.jsdelivr.net/npm/@barba/core@2/dist/barba.umd.js",
+  "https://unpkg.com/lenis@1.3.23/dist/lenis.min.js",
+  "https://cdn.odyn.dev/p/j52r/bundle.js"
+ ],
+ "internal": [
+  "https://www.paulkalkbrenner.net/music",
+  "https://www.paulkalkbrenner.net/tour",
+  "https://www.paulkalkbrenner.net/about",
+  "https://www.paulkalkbrenner.net/journey",
+  "https://www.paulkalkbrenner.net/gallery",
+  "https://www.paulkalkbrenner.net/news",
+  "https://www.paulkalkbrenner.net/contact",
+  "https://www.paulkalkbrenner.net/legal/privacy-policy",
+  "https://www.paulkalkbrenner.net/legal/imprint"
+ ],
+ "perf": {
+  "ttfb": 106,
+  "dcl": 780,
+  "load": 17330,
+  "lcp": 2720,
+  "lcpEl": "IMG.home-hero__img",
+  "cls": 0
+ },
+ "libs": {
+  "detected": [
+   "jQuery",
+   "GSAP",
+   "SplitText/SplitType",
+   "ScrollTrigger",
+   "Flip (GSAP)",
+   "Barba.js",
+   "Lenis",
+   "Virtual scroll",
+   "Lottie"
+  ],
+  "where": {
+   "jQuery": [
+    "001-paul-kalkbrenner-staging.a0aa6ca1.b7683852b8a60d8e.js",
+    "011-jquery-3.5.1.min.dc5e7f18c8.js",
+    "047-jquery-3.5.1.min.dc5e7f18c8.js",
+    "048-paul-kalkbrenner-staging.a0aa6ca1.b7683852b8a60d8e.js"
+   ],
+   "GSAP": [
+    "002-SplitText.min.js",
+    "003-InertiaPlugin.min.js",
+    "004-ScrollTrigger.min.js",
+    "005-Flip.min.js",
+    "006-Observer.min.js",
+    "007-gsap.min.js",
+    "008-CustomEase.min.js",
+    "009-Draggable.min.js",
+    "013-bundle.js",
+    "049-gsap.min.js",
+    "050-ScrollTrigger.min.js",
+    "051-SplitText.min.js",
+    "052-CustomEase.min.js",
+    "053-InertiaPlugin.min.js",
+    "054-Draggable.min.js",
+    "055-Observer.min.js",
+    "056-Flip.min.js",
+    "059-bundle.js",
+    "060-bundle.js"
+   ],
+   "SplitText/SplitType": [
+    "002-SplitText.min.js",
+    "007-gsap.min.js",
+    "013-bundle.js",
+    "049-gsap.min.js",
+    "051-SplitText.min.js",
+    "059-bundle.js",
+    "060-bundle.js"
+   ],
+   "ScrollTrigger": [
+    "004-ScrollTrigger.min.js",
+    "006-Observer.min.js",
+    "007-gsap.min.js",
+    "013-bundle.js",
+    "049-gsap.min.js",
+    "050-ScrollTrigger.min.js",
+    "055-Observer.min.js",
+    "059-bundle.js",
+    "060-bundle.js"
+   ],
+   "Flip (GSAP)": [
+    "005-Flip.min.js",
+    "013-bundle.js",
+    "056-Flip.min.js",
+    "059-bundle.js",
+    "060-bundle.js"
+   ],
+   "Barba.js": [
+    "010-barba.umd.js",
+    "013-bundle.js",
+    "057-barba.umd.js",
+    "059-bundle.js",
+    "060-bundle.js",
+    "094-m_r78Drb.js",
+    "095-m_r78Drb.js",
+    "096-m_r78Drb.js",
+    "097-m_r78Drb.js",
+    "098-m_r78Drb.js",
+    "101-m_r78Drb.js"
+   ],
+   "Lenis": [
+    "012-lenis.min.js",
+    "013-bundle.js",
+    "058-lenis.min.js",
+    "059-bundle.js",
+    "060-bundle.js",
+    "styles.css"
+   ],
+   "Virtual scroll": [
+    "012-lenis.min.js",
+    "058-lenis.min.js"
+   ],
+   "Lottie": [
+    "094-m_r78Drb.js",
+    "095-m_r78Drb.js",
+    "096-m_r78Drb.js",
+    "097-m_r78Drb.js",
+    "098-m_r78Drb.js",
+    "101-m_r78Drb.js"
+   ]
+  },
+  "gsapVersion": "3.11.0",
+  "threeRevision": null,
+  "shaders": 0,
+  "scripts": 101
+ },
+ "network": {
+  "requests": 142,
+  "totalKb": 4796,
+  "byType": {
+   "Document": {
+    "n": 19,
+    "kb": 22
+   },
+   "Stylesheet": {
+    "n": 4,
+    "kb": 6
+   },
+   "Image": {
+    "n": 67,
+    "kb": 3701
+   },
+   "Script": {
+    "n": 38,
+    "kb": 742
+   },
+   "Font": {
+    "n": 2,
+    "kb": 283
+   },
+   "XHR": {
+    "n": 3,
+    "kb": 11
+   },
+   "Media": {
+    "n": 2,
+    "kb": 0
+   },
+   "Ping": {
+    "n": 1,
+    "kb": 1
+   },
+   "Fetch": {
+    "n": 2,
+    "kb": 0
+   },
+   "Other": {
+    "n": 4,
+    "kb": 30
+   }
+  },
+  "thirdPartyHosts": [
+   "cdn.prod.website-files.com",
+   "connect.facebook.net",
+   "cdn.jsdelivr.net",
+   "d3e54v103j8qbb.cloudfront.net",
+   "unpkg.com",
+   "www.googletagmanager.com",
+   "cdn.odyn.dev",
+   "cdn.embedly.com",
+   "www.google-analytics.com",
+   "www.facebook.com",
+   "ilja-dev.b-cdn.net",
+   "www.google.fr",
+   "stats.g.doubleclick.net",
+   "region1.analytics.google.com",
+   "challenges.cloudflare.com"
+  ],
+  "fontFiles": [
+   "https://cdn.prod.website-files.com/69bbf53ccfefd61290c68689/69c544aa9f0eeb44e81eb6e0_ABCDiatypePlusVariable.ttf",
+   "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://cdn.prod.website-files.com/69bbf53ccfefd61290c68689/69c5c21badf9ed7cbbbd8f4a_pk-journey.avif",
+    "kb": 487,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/69c5cca412f7e8c425de3007/69f9be114a50cd1a75fa6105_pk-journey.avif",
+    "kb": 487,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/69bbf53ccfefd61290c68689/6a2aba6b485f26467441e65a_loader-5.avif",
+    "kb": 323,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/69bbf53ccfefd61290c68689/6a2aba6bac6397334ba8df9f_loader-2.avif",
+    "kb": 320,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/69bbf53ccfefd61290c68689/69c544aa9f0eeb44e81eb6e0_ABCDiatypePlusVariable.ttf",
+    "kb": 283,
+    "type": "Font"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/69bbf53ccfefd61290c68689/6a2aba6ba0f2a00ae45afd65_loader-6.avif",
+    "kb": 243,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/69bbf53ccfefd61290c68689/6a2aba6b97311393e65f3861_loader-3.avif",
+    "kb": 207,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/69c5cca412f7e8c425de3007/69f9bdff4fb1ef440c9da42d_impact-concert.avif",
+    "kb": 191,
+    "type": "Image"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "48px",
+   "lineHeight": "38.4px"
+  },
+  "body": "16px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 262
+}

@@ -1,0 +1,507 @@
+{
+ "id": 42,
+ "name": "Gil Huybrecht",
+ "sourceUrl": "https://gilhuybrecht.com/",
+ "capturedAt": "2026-11-02T23:51:51.163Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg"
+  ],
+  "fullPage": 4411,
+  "subpages": [
+   {
+    "url": "https://gilhuybrecht.com/profile",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://gilhuybrecht.com/privacy-policy",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://gilhuybrecht.com/gallery",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://gilhuybrecht.com/",
+ "title": "Gil Huybrecht — Freelance designer & art director",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Independent designer specialised in editorial websites, ecommerce and immersive online experiences.",
+  "canonical": null,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "ogTitle": "Gil Huybrecht — Freelance designer & art director",
+  "ogImage": "https://www.datocms-assets.com/154012/1785313818-og.jpg?auto=format&fit=crop&h=630&w=1200",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [],
+  "h1Count": 0,
+  "headings": [
+   "H2 Studio DADO1",
+   "H2 2",
+   "H2 3",
+   "H2 4",
+   "H2 The Lookback1",
+   "H2 2",
+   "H2 3",
+   "H2 4",
+   "H2 5",
+   "H2 DoThings1",
+   "H2 2",
+   "H2 3",
+   "H2 4",
+   "H2 Ray®1",
+   "H2 2",
+   "H2 3",
+   "H2 4",
+   "H2 53 West 531",
+   "H2 2",
+   "H2 3",
+   "H2 4",
+   "H2 5",
+   "H2 Ross Mason®1",
+   "H2 2",
+   "H2 3",
+   "H2 4",
+   "H2 Vucko™1",
+   "H2 2",
+   "H2 3",
+   "H2 4",
+   "H2 5",
+   "H2 6",
+   "H2 Ingrao1",
+   "H2 2",
+   "H2 3",
+   "H2 4",
+   "H2 Custo1",
+   "H2 2",
+   "H2 3",
+   "H2 4",
+   "H2 5",
+   "H2 Sunny Bonnell1",
+   "H2 2",
+   "H2 3",
+   "H2 111 West 57th Street1",
+   "H2 2",
+   "H2 3",
+   "H2 4",
+   "H2 5",
+   "H2 6"
+  ],
+  "imgs": 0,
+  "imgNoAlt": 0,
+  "favicon": "https://www.datocms-assets.com/154012/1742431602-frame-280.png?auto=format&h=16&w=16",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#2c2c2f",
+    "w": 5665
+   }
+  ],
+  "text": [
+   {
+    "v": "#ffffff",
+    "w": 666
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "sans",
+    "w": 666
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "16.32px",
+    "w": 133
+   }
+  ],
+  "radius": [
+   {
+    "v": "4.8px",
+    "w": 2
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.23 0.2s",
+    "w": 84
+   },
+   {
+    "v": "cubic-bezier(0.23 0.3s",
+    "w": 5
+   },
+   {
+    "v": "cubic-bezier(0.25 0.25s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h2": {
+    "family": "sans, sans-serif",
+    "size": "16.32px",
+    "weight": "500",
+    "lineHeight": "18.1152px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Studio DADO1"
+   },
+   "a": {
+    "family": "sans, sans-serif",
+    "size": "16.32px",
+    "weight": "500",
+    "lineHeight": "18.1152px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Profile"
+   },
+   "button": {
+    "family": "sans, sans-serif",
+    "size": "16.32px",
+    "weight": "500",
+    "lineHeight": "18.1152px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Gil Huybrecht"
+   },
+   "li": {
+    "family": "sans, sans-serif",
+    "size": "16.32px",
+    "weight": "500",
+    "lineHeight": "18.1152px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Information Architecture"
+   },
+   "body": {
+    "family": "sans, sans-serif",
+    "size": "16.32px",
+    "weight": "500",
+    "lineHeight": "18.1152px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Gil HuybrechtAvailable September 2026ServicesInformation ArchitectureWeb Design "
+   }
+  },
+  "cssVars": {
+   "--size": "1500"
+  },
+  "fontFaces": [
+   {
+    "family": "sans",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"/_nuxt/LayGrotesk-Medium.BbvaOt0r.woff2\") format(\"woff2\"), url(\"/_nuxt/LayGrotesk-Medium.Dwz3eDzw.woff\") format(\"woff\")"
+   }
+  ],
+  "keyframes": [],
+  "breakpoints": [
+   {
+    "v": "650px",
+    "w": 11
+   },
+   {
+    "v": "1300px",
+    "w": 3
+   },
+   {
+    "v": "649px",
+    "w": 3
+   },
+   {
+    "v": "1100px",
+    "w": 2
+   },
+   {
+    "v": "1400px",
+    "w": 2
+   }
+  ],
+  "rulesCount": 778,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "projects site-max",
+    "h": 4027,
+    "title": "Studio DADO1",
+    "media": 0
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "Profile",
+    "href": "https://gilhuybrecht.com/profile"
+   },
+   {
+    "t": "Grid",
+    "href": "https://gilhuybrecht.com/"
+   },
+   {
+    "t": "Gallery",
+    "href": "https://gilhuybrecht.com/gallery"
+   }
+  ],
+  "ctas": [],
+  "pageHeight": 4411,
+  "counts": {
+   "canvas": 1,
+   "videos": 1,
+   "imgs": 0,
+   "svgs": 0,
+   "iframes": 0,
+   "domNodes": 579
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "185",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": true,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": true,
+  "cms": [
+   "datocms"
+  ],
+  "analytics": [
+   "googletagmanager",
+   "gtag"
+  ],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://www.googletagmanager.com/gtag/js?id=G-K7LCB1HN78",
+  "https://gilhuybrecht.com/_nuxt/CuL0r0_T.js"
+ ],
+ "internal": [
+  "https://gilhuybrecht.com/profile",
+  "https://gilhuybrecht.com/privacy-policy",
+  "https://gilhuybrecht.com/gallery"
+ ],
+ "perf": {
+  "ttfb": 233,
+  "dcl": 346,
+  "load": 4830,
+  "lcp": 1616,
+  "lcpEl": "IMG",
+  "cls": 0.115
+ },
+ "libs": {
+  "detected": [
+   "Lenis",
+   "Nuxt",
+   "Virtual scroll",
+   "GSAP",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Three.js",
+   "Vue"
+  ],
+  "where": {
+   "Lenis": [
+    "001-BdmQJtpC.js",
+    "008-Bag_g0P7.js",
+    "013-CuL0r0_T.js",
+    "014-BQCGjKEf.js"
+   ],
+   "Nuxt": [
+    "008-Bag_g0P7.js",
+    "013-CuL0r0_T.js"
+   ],
+   "Virtual scroll": [
+    "008-Bag_g0P7.js",
+    "013-CuL0r0_T.js"
+   ],
+   "GSAP": [
+    "013-CuL0r0_T.js"
+   ],
+   "ScrollTrigger": [
+    "013-CuL0r0_T.js"
+   ],
+   "SplitText/SplitType": [
+    "013-CuL0r0_T.js"
+   ],
+   "Three.js": [
+    "013-CuL0r0_T.js"
+   ],
+   "Vue": [
+    "013-CuL0r0_T.js"
+   ]
+  },
+  "gsapVersion": "3.15.0",
+  "threeRevision": null,
+  "shaders": 20,
+  "scripts": 20
+ },
+ "network": {
+  "requests": 298,
+  "totalKb": 83155,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 87
+   },
+   "Other": {
+    "n": 2,
+    "kb": 4
+   },
+   "Script": {
+    "n": 24,
+    "kb": 531
+   },
+   "Font": {
+    "n": 1,
+    "kb": 51
+   },
+   "Image": {
+    "n": 35,
+    "kb": 2672
+   },
+   "Stylesheet": {
+    "n": 4,
+    "kb": 2
+   },
+   "Fetch": {
+    "n": 195,
+    "kb": 29089
+   },
+   "Media": {
+    "n": 36,
+    "kb": 50719
+   }
+  },
+  "thirdPartyHosts": [
+   "www.datocms-assets.com",
+   "www.googletagmanager.com",
+   "region1.google-analytics.com",
+   "stream.mux.com"
+  ],
+  "fontFiles": [
+   "https://gilhuybrecht.com/_nuxt/LayGrotesk-Medium.BbvaOt0r.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://stream.mux.com/o01RO1tO4QoBn6L6NvWgKQXpeT01LB00YRt/high.mp4",
+    "kb": 7337,
+    "type": "Media"
+   },
+   {
+    "url": "https://stream.mux.com/UsJ00tkIp1OUyggbayTfJTjdJQz4p3sEE/high.mp4",
+    "kb": 5046,
+    "type": "Media"
+   },
+   {
+    "url": "https://stream.mux.com/LVwHUJubF92M00vQKeT5CG6hLNCAgRCdu/high.mp4",
+    "kb": 4301,
+    "type": "Media"
+   },
+   {
+    "url": "https://stream.mux.com/LVwHUJubF92M00vQKeT5CG6hLNCAgRCdu/high.mp4",
+    "kb": 4301,
+    "type": "Media"
+   },
+   {
+    "url": "https://stream.mux.com/YJ4eCcbzgFOjr3WF4NMa01nK5tpsM3OyG/high.mp4",
+    "kb": 2153,
+    "type": "Media"
+   },
+   {
+    "url": "https://stream.mux.com/SWg8EJM2f1oltq3m00Az6DPKEbc0263Nbs/high.mp4",
+    "kb": 2028,
+    "type": "Media"
+   },
+   {
+    "url": "https://stream.mux.com/m8jzlERtG8rlr7RJ01qvLqozaj02QWsSuE/high.mp4",
+    "kb": 1995,
+    "type": "Media"
+   },
+   {
+    "url": "https://stream.mux.com/zBh1100wmB8JzuvZvy01KLFaR2FZEBmghJ/high.mp4",
+    "kb": 1759,
+    "type": "Media"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": null,
+  "body": "17px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 376
+}

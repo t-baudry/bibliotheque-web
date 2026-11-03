@@ -1,0 +1,1122 @@
+{
+ "id": 3,
+ "name": "Spyker Cars",
+ "sourceUrl": "https://www.spykercars.com/",
+ "capturedAt": "2026-11-02T23:00:16.803Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "erreur: Command failed: C:\\Program Files\\nodejs\\node.exe C:\\Users\\Utilisateur\\Documents\\Pro\\Bibliothèque web\\_outils\\node_modules\\rea-agents\\scripts\\rea.mjs analyze-web-bundle http://127.0.0.1:9300 2A84C6157E",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg"
+  ],
+  "fullPage": 9504,
+  "subpages": [
+   {
+    "url": "https://spykercars.com/c8-preliator",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://spykercars.com/heritage",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://spykercars.com/boutique",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://spykercars.com/",
+ "title": "Hand-Built Super Sports Cars Since 1880 | Spyker Cars",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Spyker builds highly exclusive, hand-built super sports cars in the Netherlands. Discover the C8 Preliator XXV Coupé and the marque's story since 1880.",
+  "canonical": "https://www.spykercars.com/",
+  "robots": "index, follow",
+  "ogTitle": "The next chapter of Spyker",
+  "ogImage": "https://spyker.b-cdn.net/media/share-image-home.jpg",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "Organization",
+   "WebSite"
+  ],
+  "h1Count": 1,
+  "headings": [
+   "H1 The nextchapter ofSpykerThe next chapter ofSpyker",
+   "H2 Pure Passion",
+   "H2 Nulla TenaciInvia Est Via",
+   "H2 The Spyker heritage",
+   "H2 Spyker Boutique",
+   "H2 Partnerships & News",
+   "H3 Introducing Spyker Heritage: A legacy of Dutch craftsmanship and innovation since 1880.",
+   "H3 Spyker C8 Preliator XXV Coupé shortlisted for ‘Bespoke Car of the Year’ at the Prestigious",
+   "H3 Spyker makes its debut at The Bridge X in Bridgehampton",
+   "H3 Introducing Spyker Heritage: A legacy of Dutch craftsmanship and innovation since 1880.",
+   "H3 Spyker C8 Preliator XXV Coupé shortlisted for ‘Bespoke Car of the Year’ at the Prestigious",
+   "H3 Spyker makes its debut at The Bridge X in Bridgehampton",
+   "H2 Register for Exclusive Updates",
+   "H2 Sign up to our newsletter"
+  ],
+  "imgs": 36,
+  "imgNoAlt": 6,
+  "favicon": "https://spykercars.com/favicon.ico",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#ffffff",
+    "w": 4696043
+   },
+   {
+    "v": "#000000",
+    "w": 3007579
+   },
+   {
+    "v": "#f0f0f0",
+    "w": 747646
+   }
+  ],
+  "text": [
+   {
+    "v": "#000000",
+    "w": 702
+   },
+   {
+    "v": "#ffffff",
+    "w": 214
+   },
+   {
+    "v": "#101010",
+    "w": 49
+   }
+  ],
+  "border": [
+   {
+    "v": "#b2b2b2",
+    "w": 1
+   },
+   {
+    "v": "#000000",
+    "w": 1
+   }
+  ],
+  "fonts": [
+   {
+    "v": "swiss721",
+    "w": 1947
+   },
+   {
+    "v": "futura-pt-condensed",
+    "w": 413
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "14px",
+    "w": 310
+   },
+   {
+    "v": "12px",
+    "w": 87
+   },
+   {
+    "v": "16px",
+    "w": 78
+   },
+   {
+    "v": "56px",
+    "w": 68
+   },
+   {
+    "v": "38px",
+    "w": 39
+   },
+   {
+    "v": "120px",
+    "w": 22
+   },
+   {
+    "v": "20px",
+    "w": 8
+   },
+   {
+    "v": "10px",
+    "w": 2
+   },
+   {
+    "v": "15px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "2px",
+    "w": 18
+   },
+   {
+    "v": "3.35544e+07px",
+    "w": 2
+   }
+  ],
+  "shadows": [
+   {
+    "v": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0",
+    "w": 7
+   }
+  ],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.4 0.15s",
+    "w": 12
+   },
+   {
+    "v": "cubic-bezier(0.4 0.3s",
+    "w": 6
+   },
+   {
+    "v": "cubic-bezier(0.4 0.5s",
+    "w": 3
+   },
+   {
+    "v": "cubic-bezier(0 0.2s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "futura-pt-condensed, sans-serif",
+    "size": "56px",
+    "weight": "500",
+    "lineHeight": "47.6px",
+    "letterSpacing": "2.24px",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "The nextchapter ofSpykerThe next chapter ofSpyker"
+   },
+   "h2": {
+    "family": "futura-pt-condensed, sans-serif",
+    "size": "56px",
+    "weight": "500",
+    "lineHeight": "47.6px",
+    "letterSpacing": "2.24px",
+    "transform": "uppercase",
+    "color": "#101010",
+    "sample": "Pure Passion"
+   },
+   "h3": {
+    "family": "swiss721, \"swiss721 Fallback\", sans-serif",
+    "size": "20px",
+    "weight": "400",
+    "lineHeight": "28px",
+    "letterSpacing": "-0.2px",
+    "transform": "none",
+    "color": null,
+    "sample": "Introducing Spyker Heritage: A legacy of Dutch craftsmanship and innovation sinc"
+   },
+   "p": {
+    "family": "swiss721, \"swiss721 Fallback\", sans-serif",
+    "size": "14px",
+    "weight": "400",
+    "lineHeight": "19.25px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "We use cookies to run the site, and optionally for analytics and marketing."
+   },
+   "a": {
+    "family": "swiss721, \"swiss721 Fallback\", sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": null,
+    "sample": "Skip to main content"
+   },
+   "button": {
+    "family": "swiss721, \"swiss721 Fallback\", sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": null,
+    "sample": "00"
+   },
+   "li": {
+    "family": "swiss721, \"swiss721 Fallback\", sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Discover the Spyker C8 Preliator XXV CoupéDiscover the Spyker C8 Preliator XXV C"
+   },
+   "body": {
+    "family": "swiss721, \"swiss721 Fallback\", sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": null,
+    "sample": "requestAnimationFrame(function(){$RT=performance.now()});$RB=[];$RV=function(b){"
+   }
+  },
+  "cssVars": {
+   "--font-sans": "var(--font-swiss-721),sans-serif",
+   "--font-mono": "ui-monospace,SFMono-Regular,monospace",
+   "--color-red-300": "oklch(80.8% .114 19.571)",
+   "--color-red-500": "oklch(63.7% .237 25.331)",
+   "--color-red-600": "oklch(57.7% .245 27.325)",
+   "--color-red-700": "oklch(50.5% .213 27.518)",
+   "--color-cyan-300": "oklch(86.5% .127 207.078)",
+   "--color-blue-600": "oklch(54.6% .245 262.881)",
+   "--color-gray-400": "oklch(70.7% .022 261.325)",
+   "--color-gray-500": "oklch(55.1% .027 264.364)",
+   "--color-neutral-50": "oklch(98.5% 0 none)",
+   "--color-neutral-100": "oklch(97% 0 none)",
+   "--color-neutral-200": "oklch(92.2% 0 none)",
+   "--color-neutral-300": "oklch(87% 0 none)",
+   "--color-neutral-400": "oklch(70.8% 0 none)",
+   "--color-neutral-500": "oklch(55.6% 0 none)",
+   "--color-neutral-600": "oklch(43.9% 0 none)",
+   "--color-neutral-700": "oklch(37.1% 0 none)",
+   "--color-neutral-800": "oklch(26.9% 0 none)",
+   "--color-neutral-900": "oklch(20.5% 0 none)",
+   "--color-black": "#000",
+   "--color-white": "#fff",
+   "--spacing": ".25rem",
+   "--container-sm": "24rem",
+   "--container-md": "28rem",
+   "--container-lg": "32rem",
+   "--container-xl": "36rem",
+   "--container-3xl": "48rem",
+   "--text-xs": ".75rem",
+   "--text-xs--line-height": "calc(1/.75)",
+   "--text-sm": ".875rem",
+   "--text-sm--line-height": "calc(1.25/.875)",
+   "--text-base": "1rem",
+   "--text-base--line-height": "calc(1.5/1)",
+   "--text-lg": "1.125rem",
+   "--text-lg--line-height": "calc(1.75/1.125)",
+   "--text-xl": "1.25rem",
+   "--text-xl--line-height": "calc(1.75/1.25)",
+   "--text-2xl": "1.5rem",
+   "--text-2xl--line-height": "calc(2/1.5)",
+   "--text-3xl": "1.875rem",
+   "--text-3xl--line-height": "calc(2.25/1.875)",
+   "--text-4xl": "2.25rem",
+   "--text-4xl--line-height": "calc(2.5/2.25)",
+   "--text-5xl": "3rem",
+   "--text-5xl--line-height": "1",
+   "--text-6xl": "3.75rem",
+   "--text-6xl--line-height": "1",
+   "--text-8xl": "6rem",
+   "--text-8xl--line-height": "1",
+   "--text-9xl": "8rem",
+   "--text-9xl--line-height": "1",
+   "--font-weight-light": "300",
+   "--font-weight-normal": "400",
+   "--font-weight-medium": "500",
+   "--font-weight-semibold": "600",
+   "--font-weight-bold": "700",
+   "--tracking-tight": "-.025em",
+   "--tracking-normal": "0em",
+   "--tracking-wide": ".025em",
+   "--tracking-widest": ".1em",
+   "--leading-tight": "1.25",
+   "--leading-snug": "1.375",
+   "--leading-normal": "1.5",
+   "--leading-relaxed": "1.625",
+   "--radius-xs": ".125rem",
+   "--radius-2xl": "1rem",
+   "--ease-in": "cubic-bezier(.4,0,1,1)",
+   "--ease-out": "cubic-bezier(0,0,.2,1)",
+   "--ease-in-out": "cubic-bezier(.4,0,.2,1)",
+   "--animate-spin": "spin 1s linear infinite",
+   "--animate-pulse": "pulse 2s cubic-bezier(.4,0,.6,1)infinite",
+   "--blur-sm": "8px",
+   "--blur-md": "12px",
+   "--aspect-video": "16/9",
+   "--default-transition-duration": ".15s",
+   "--default-transition-timing-function": "cubic-bezier(.4,0,.2,1)",
+   "--default-font-family": "var(--font-sans)",
+   "--default-mono-font-family": "var(--font-mono)",
+   "--font-swiss": "var(--font-swiss-721),sans-serif",
+   "--font-pt-serif": "var(--font-pt-serif)",
+   "--tw-leading": "1.6",
+   "--tw-tracking": ".14px",
+   "--background": "oklch(100% 0 0)",
+   "--foreground": "oklch(14.5% 0 0)",
+   "--card": "oklch(96.5% .005 265)",
+   "--card-foreground": "oklch(14.5% 0 0)",
+   "--popover": "oklch(100% 0 0)",
+   "--popover-foreground": "oklch(14.5% 0 0)",
+   "--primary": "oklch(20.5% 0 0)",
+   "--primary-foreground": "oklch(98.5% 0 0)",
+   "--secondary": "oklch(97% 0 0)",
+   "--secondary-foreground": "oklch(20.5% 0 0)",
+   "--muted": "oklch(97% 0 0)",
+   "--muted-foreground": "oklch(55.6% 0 0)",
+   "--accent": "oklch(97% 0 0)",
+   "--accent-foreground": "oklch(20.5% 0 0)",
+   "--destructive": "oklch(57.7% .245 27.325)",
+   "--destructive-foreground": "oklch(57.7% .245 27.325)",
+   "--border": "oklch(92.2% 0 0)",
+   "--input": "oklch(92.2% 0 0)",
+   "--ring": "oklch(70.8% 0 0)",
+   "--chart-1": "oklch(64.6% .222 41.116)",
+   "--chart-2": "oklch(60% .118 184.704)",
+   "--chart-3": "oklch(39.8% .07 227.392)",
+   "--chart-4": "oklch(82.8% .189 84.429)",
+   "--chart-5": "oklch(76.9% .188 70.08)",
+   "--radius": ".625rem",
+   "--sidebar": "oklch(98.5% 0 0)",
+   "--sidebar-foreground": "oklch(14.5% 0 0)",
+   "--sidebar-primary": "oklch(20.5% 0 0)",
+   "--sidebar-primary-foreground": "oklch(98.5% 0 0)",
+   "--sidebar-accent": "oklch(97% 0 0)",
+   "--sidebar-accent-foreground": "oklch(20.5% 0 0)",
+   "--sidebar-border": "oklch(92.2% 0 0)",
+   "--sidebar-ring": "oklch(70.8% 0 0)",
+   "--success": "oklch(78% .08 200)",
+   "--warning": "oklch(89% .1 75)",
+   "--error": "oklch(75% .15 25)",
+   "--toast-icon-margin-start": "4px",
+   "--toast-icon-margin-end": "-3px",
+   "--toast-svg-margin-start": "0px",
+   "--toast-svg-margin-end": "-1px",
+   "--toast-button-margin-start": "0",
+   "--toast-button-margin-end": "auto",
+   "--toast-close-button-start": "unset",
+   "--toast-close-button-end": "0",
+   "--toast-close-button-transform": "translate(35%, -35%)"
+  },
+  "fontFaces": [
+   {
+    "family": "swiss721",
+    "weight": "300",
+    "style": "normal",
+    "src": "url(\"/_next/static/media/9bc057cec118b1cc-s.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "swiss721",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_next/static/media/81a888d17bece859-s.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "swiss721",
+    "weight": "400",
+    "style": "italic",
+    "src": "url(\"/_next/static/media/78237d176ef7f606-s.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "swiss721",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"/_next/static/media/c2fa934218bdbba0-s.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "swiss721",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"/_next/static/media/3c2dfc76aa18c08e-s.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "swiss721 Fallback",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   },
+   {
+    "family": "PT Serif",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_next/static/media/42ca72de112410a0-s.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "PT Serif",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_next/static/media/3457c9d168662d42-s.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "PT Serif",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_next/static/media/c6d85f2f9bf6fcef-s.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "PT Serif",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_next/static/media/886f446b96dc7734-s.p.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "PT Serif Fallback",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Times New Roman\")"
+   }
+  ],
+  "keyframes": [
+   "spin",
+   "pulse",
+   "enter",
+   "exit",
+   "accordion-down",
+   "accordion-up",
+   "shimmer",
+   "swipe-out-left",
+   "swipe-out-right",
+   "swipe-out-up",
+   "swipe-out-down",
+   "sonner-fade-in",
+   "sonner-fade-out",
+   "sonner-spin"
+  ],
+  "breakpoints": [
+   {
+    "v": "64rem",
+    "w": 19
+   },
+   {
+    "v": "40rem",
+    "w": 8
+   },
+   {
+    "v": "48rem",
+    "w": 8
+   },
+   {
+    "v": "80rem",
+    "w": 7
+   },
+   {
+    "v": "86rem",
+    "w": 7
+   },
+   {
+    "v": "52rem",
+    "w": 3
+   },
+   {
+    "v": "1024px",
+    "w": 2
+   },
+   {
+    "v": "475px",
+    "w": 1
+   },
+   {
+    "v": "768px",
+    "w": 1
+   },
+   {
+    "v": "1023px",
+    "w": 1
+   },
+   {
+    "v": "600px",
+    "w": 1
+   },
+   {
+    "v": "991px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 2912,
+  "crossOriginSheets": 2
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": "high-impact-hero",
+    "cls": "relative min-h-svh overflow-hidden bg-black text-white origin-center will-change",
+    "h": 900,
+    "title": "The nextchapter ofSpykerThe next chapter ofSpyker",
+    "media": 2
+   },
+   {
+    "tag": "div",
+    "id": "chapter-block-1",
+    "cls": "max-w-full overflow-x-clip",
+    "h": 197,
+    "title": "Pure Passion",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": "chapter-block-2",
+    "cls": "max-w-full overflow-x-clip",
+    "h": 1537,
+    "title": "",
+    "media": 6
+   },
+   {
+    "tag": "div",
+    "id": "chapter-block-3",
+    "cls": "max-w-full overflow-x-clip",
+    "h": 220,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": "chapter-block-4",
+    "cls": "max-w-full overflow-x-clip",
+    "h": 1190,
+    "title": "Nulla TenaciInvia Est Via",
+    "media": 2
+   },
+   {
+    "tag": "div",
+    "id": "chapter-block-5",
+    "cls": "max-w-full overflow-x-clip",
+    "h": 160,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": "chapter-block-6",
+    "cls": "max-w-full overflow-x-clip",
+    "h": 900,
+    "title": "The Spyker heritage",
+    "media": 12
+   },
+   {
+    "tag": "div",
+    "id": "chapter-block-7",
+    "cls": "max-w-full overflow-x-clip",
+    "h": 160,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": "chapter-block-8",
+    "cls": "max-w-full overflow-x-clip",
+    "h": 899,
+    "title": "Spyker Boutique",
+    "media": 8
+   },
+   {
+    "tag": "div",
+    "id": "chapter-block-9",
+    "cls": "max-w-full overflow-x-clip",
+    "h": 160,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": "chapter-block-10",
+    "cls": "max-w-full overflow-x-clip",
+    "h": 931,
+    "title": "Partnerships & News",
+    "media": 6
+   },
+   {
+    "tag": "div",
+    "id": "chapter-block-11",
+    "cls": "max-w-full overflow-x-clip",
+    "h": 160,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": "chapter-block-12",
+    "cls": "max-w-full overflow-x-clip",
+    "h": 1080,
+    "title": "Register for Exclusive Updates",
+    "media": 1
+   },
+   {
+    "tag": "div",
+    "id": "chapter-block-13",
+    "cls": "max-w-full overflow-x-clip",
+    "h": 160,
+    "title": "",
+    "media": 0
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "Home",
+    "href": "https://spykercars.com/"
+   },
+   {
+    "t": "C8 Preliator XXV Coupé",
+    "href": "https://spykercars.com/c8-preliator"
+   },
+   {
+    "t": "Heritage",
+    "href": "https://spykercars.com/heritage"
+   },
+   {
+    "t": "Boutique",
+    "href": "https://spykercars.com/boutique"
+   },
+   {
+    "t": "News",
+    "href": "https://spykercars.com/news"
+   },
+   {
+    "t": "Contact",
+    "href": "https://spykercars.com/contact"
+   },
+   {
+    "t": "",
+    "href": "https://www.facebook.com/spykercars/?locale=nl_NL"
+   },
+   {
+    "t": "",
+    "href": "https://www.instagram.com/spyker.cars?igsh=dW1xczQ2ejR5Y3Jt"
+   },
+   {
+    "t": "",
+    "href": "https://www.youtube.com/@Spyker-cars"
+   },
+   {
+    "t": "",
+    "href": "https://www.tiktok.com/@spykercars"
+   },
+   {
+    "t": "",
+    "href": "https://www.linkedin.com/company/spyker-cars"
+   },
+   {
+    "t": "Get in touch",
+    "href": "https://spykercars.com/contact"
+   },
+   {
+    "t": "info@spykercars.com",
+    "href": "mailto:info@spykercars.com"
+   },
+   {
+    "t": "press@spykercars.com",
+    "href": "mailto:press@spykercars.com"
+   },
+   {
+    "t": "Spyker HQ Frankfurtstraat 36, 1175 RH Li",
+    "href": "https://www.google.com/maps/place/Spyker+Cars/@52.3507045,4.7611577,17z/data=!4m15!1m8!3m7!1s0x47c5e15561891cad:0x6d898ddd458b347!2sFrankfurtstraat+36,+1175+RH+Lijnden!3b1!8m2!3d52.3506932!4d4.7611674!16s%2Fg%2F11lw114880!3m5!1s0x47c5e14587afa9bb:0x4e4cf9cadade6672!8m2!3d52.3506932!4d4.7611674!16s%2Fg%2F11z5pfpy6z?entry=ttu&g_ep=EgoyMDI2MDgxMC4wIKXMDSoASAFQAw%3D%3D"
+   },
+   {
+    "t": "Tel: +31 (0)85 800 8587",
+    "href": "tel:+310858008587"
+   },
+   {
+    "t": "By The Brink Agency",
+    "href": "https://www.thebrinkagency.com/"
+   },
+   {
+    "t": "Home",
+    "href": "https://spykercars.com/"
+   },
+   {
+    "t": "C8 Preliator XXV Coupé",
+    "href": "https://spykercars.com/c8-preliator"
+   },
+   {
+    "t": "Heritage",
+    "href": "https://spykercars.com/heritage"
+   },
+   {
+    "t": "Boutique",
+    "href": "https://spykercars.com/boutique"
+   },
+   {
+    "t": "News",
+    "href": "https://spykercars.com/news"
+   },
+   {
+    "t": "Contact",
+    "href": "https://spykercars.com/contact"
+   }
+  ],
+  "ctas": [
+   "AcceptAccept",
+   "Spyker · Made in Holland45 €",
+   "Sweatshirt110 €",
+   "Spyker · Made in Holland45 €",
+   "Visit our BoutiqueVisit our Boutique",
+   "View all newsView all news"
+  ],
+  "pageHeight": 9504,
+  "counts": {
+   "canvas": 0,
+   "videos": 5,
+   "imgs": 36,
+   "svgs": 29,
+   "iframes": 0,
+   "domNodes": 1808
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": false,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": true,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": true,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [
+   "googletagmanager",
+   "gtag",
+   "segment"
+  ],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": false
+ },
+ "scripts": [
+  "https://www.googletagmanager.com/gtag/js?id=G-YQQ9ZEHEK6&cx=c&gtm=4e6au1",
+  "https://spykercars.com/_next/static/chunks/06e4876f-ce7b259792f0453a.js",
+  "https://spykercars.com/_next/static/chunks/8109-321cf3627b5e2df9.js",
+  "https://spykercars.com/_next/static/chunks/main-app-8512b38080cb43da.js",
+  "https://spykercars.com/_next/static/chunks/04763798-97e1a7b9d3538ae3.js",
+  "https://spykercars.com/_next/static/chunks/8103-e1018861fa75a703.js",
+  "https://spykercars.com/_next/static/chunks/9957-d8b4f73db228fc91.js",
+  "https://spykercars.com/_next/static/chunks/9931-5295032ed6f4383b.js",
+  "https://spykercars.com/_next/static/chunks/7131-da1173542e9478ca.js",
+  "https://spykercars.com/_next/static/chunks/2565-34d4201bc57264d7.js",
+  "https://spykercars.com/_next/static/chunks/6647-88e1f8f1ccad09ad.js",
+  "https://spykercars.com/_next/static/chunks/3520-db64fd6541c096e3.js",
+  "https://spykercars.com/_next/static/chunks/3416-275b9942059f98fe.js",
+  "https://spykercars.com/_next/static/chunks/7719-1b4f5d6950bdd6e2.js",
+  "https://spykercars.com/_next/static/chunks/6091-14b321174ec9c16e.js",
+  "https://spykercars.com/_next/static/chunks/9624-7d2df8269c9064d3.js",
+  "https://spykercars.com/_next/static/chunks/8035-16c5a6276e062d75.js",
+  "https://spykercars.com/_next/static/chunks/1865-30ec7f0f3f8998da.js",
+  "https://spykercars.com/_next/static/chunks/5756-bfe6a7ae434297b7.js",
+  "https://spykercars.com/_next/static/chunks/9652-619509e0c78ab4ac.js",
+  "https://spykercars.com/_next/static/chunks/3212-0fd9377ea6ad3fbd.js",
+  "https://spykercars.com/_next/static/chunks/app/(app)/layout-7ed8f8123f3386a3.js",
+  "https://spykercars.com/_next/static/chunks/9425-f564d0ed5f57e8ff.js",
+  "https://spykercars.com/_next/static/chunks/5452-48ab9515b0a11139.js",
+  "https://spykercars.com/_next/static/chunks/4527-b5c10ed41c038f1c.js",
+  "https://spykercars.com/_next/static/chunks/2412-95baf9569637d001.js",
+  "https://spykercars.com/_next/static/chunks/3868-adffbf04a13cee20.js",
+  "https://spykercars.com/_next/static/chunks/3536-7c171b9663cf4a1e.js",
+  "https://spykercars.com/_next/static/chunks/1974-297e2010c3d27646.js",
+  "https://spykercars.com/_next/static/chunks/4347-45b6b1061c24ced5.js",
+  "https://spykercars.com/_next/static/chunks/1681-ef876bccb6944996.js",
+  "https://spykercars.com/_next/static/chunks/8804-414a3869e1f2f20a.js",
+  "https://spykercars.com/_next/static/chunks/app/(app)/%5B...slug%5D/page-83287f782816bf1c.js",
+  "https://spykercars.com/_next/static/chunks/app/(app)/error-81f3f6e196c486c7.js",
+  "https://spykercars.com/_next/static/chunks/app/(app)/template-2597f954e3da0f00.js",
+  "https://spykercars.com/_next/static/chunks/polyfills-42372ed130431b0a.js",
+  "https://spykercars.com/_next/static/chunks/webpack-2bc084fc49c0218f.js",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-PWCN6778"
+ ],
+ "internal": [
+  "https://spykercars.com/c8-preliator",
+  "https://spykercars.com/heritage",
+  "https://spykercars.com/boutique",
+  "https://spykercars.com/news",
+  "https://spykercars.com/contact",
+  "https://spykercars.com/cookies-policy",
+  "https://spykercars.com/products/spyker-made-in-holland",
+  "https://spykercars.com/products/spyker-x-naked-espresso---bespoke-edition",
+  "https://spykercars.com/products/sweatshirt",
+  "https://spykercars.com/news/introducing-spyker-heritage-a-legacy-of-dutch-craftsmanship-and-innovation-since-1880",
+  "https://spykercars.com/news/spyker-c8-preliator-xxv-coup-shortlisted-for-bespoke-car-of-the-year-at-the-prestigious-international-historic-motoring-awards",
+  "https://spykercars.com/news/spyker-makes-its-debut-at-the-bridge-x-in-bridgehampton",
+  "https://spykercars.com/privacy-policy",
+  "https://spykercars.com/terms-and-conditions"
+ ],
+ "perf": {
+  "ttfb": 895,
+  "dcl": 1000,
+  "load": 1661,
+  "lcp": 1016,
+  "lcpEl": "VIDEO.absolute",
+  "cls": 0.016
+ },
+ "libs": {
+  "detected": [
+   "GSAP",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Lottie",
+   "Next.js",
+   "Lenis",
+   "Virtual scroll",
+   "Barba.js",
+   "React"
+  ],
+  "where": {
+   "GSAP": [
+    "005-04763798-97e1a7b9d3538ae3.js",
+    "010-9624-7d2df8269c9064d3.js",
+    "012-9624-7d2df8269c9064d3.js",
+    "013-3416-275b9942059f98fe.js",
+    "015-7131-da1173542e9478ca.js",
+    "022-3868-adffbf04a13cee20.js",
+    "025-3868-adffbf04a13cee20.js",
+    "028-9624-7d2df8269c9064d3.js",
+    "031-3868-adffbf04a13cee20.js",
+    "034-04763798-97e1a7b9d3538ae3.js",
+    "034-7131-da1173542e9478ca.js",
+    "036-04763798-97e1a7b9d3538ae3.js",
+    "036-7131-da1173542e9478ca.js",
+    "041-3416-275b9942059f98fe.js"
+   ],
+   "ScrollTrigger": [
+    "005-04763798-97e1a7b9d3538ae3.js",
+    "015-7131-da1173542e9478ca.js",
+    "021-layout-7ed8f8123f3386a3.js",
+    "034-04763798-97e1a7b9d3538ae3.js",
+    "034-7131-da1173542e9478ca.js",
+    "035-layout-7ed8f8123f3386a3.js",
+    "036-04763798-97e1a7b9d3538ae3.js",
+    "036-7131-da1173542e9478ca.js",
+    "037-layout-7ed8f8123f3386a3.js",
+    "044-7770.c349e56f6856ff6d.js"
+   ],
+   "SplitText/SplitType": [
+    "005-04763798-97e1a7b9d3538ae3.js",
+    "034-04763798-97e1a7b9d3538ae3.js",
+    "036-04763798-97e1a7b9d3538ae3.js"
+   ],
+   "Lottie": [
+    "005-5756-bfe6a7ae434297b7.js",
+    "010-3212-0fd9377ea6ad3fbd.js",
+    "013-5756-bfe6a7ae434297b7.js",
+    "015-3212-0fd9377ea6ad3fbd.js",
+    "017-5756-bfe6a7ae434297b7.js",
+    "020-3212-0fd9377ea6ad3fbd.js",
+    "021-layout-7ed8f8123f3386a3.js",
+    "024-page-83287f782816bf1c.js",
+    "026-template-2597f954e3da0f00.js",
+    "030-page-83287f782816bf1c.js",
+    "032-template-2597f954e3da0f00.js",
+    "035-layout-7ed8f8123f3386a3.js",
+    "037-layout-7ed8f8123f3386a3.js",
+    "042-7673.84af0473eae8b313.js",
+    "042-eef9e134.7082b2aea24c2e3a.js",
+    "043-7673.84af0473eae8b313.js",
+    "043-eef9e134.7082b2aea24c2e3a.js"
+   ],
+   "Next.js": [
+    "007-6647-88e1f8f1ccad09ad.js",
+    "009-6647-88e1f8f1ccad09ad.js",
+    "027-6647-88e1f8f1ccad09ad.js"
+   ],
+   "Lenis": [
+    "011-6091-14b321174ec9c16e.js",
+    "014-6091-14b321174ec9c16e.js",
+    "021-layout-7ed8f8123f3386a3.js",
+    "023-6091-14b321174ec9c16e.js",
+    "026-template-2597f954e3da0f00.js",
+    "032-template-2597f954e3da0f00.js",
+    "033-8804-414a3869e1f2f20a.js",
+    "035-layout-7ed8f8123f3386a3.js",
+    "037-layout-7ed8f8123f3386a3.js",
+    "039-8804-414a3869e1f2f20a.js",
+    "040-8804-414a3869e1f2f20a.js",
+    "044-7770.c349e56f6856ff6d.js",
+    "styles.css"
+   ],
+   "Virtual scroll": [
+    "011-6091-14b321174ec9c16e.js",
+    "014-6091-14b321174ec9c16e.js",
+    "023-6091-14b321174ec9c16e.js"
+   ],
+   "Barba.js": [
+    "033-8804-414a3869e1f2f20a.js",
+    "039-8804-414a3869e1f2f20a.js",
+    "040-8804-414a3869e1f2f20a.js"
+   ],
+   "React": [
+    "037-06e4876f-ce7b259792f0453a.js",
+    "039-06e4876f-ce7b259792f0453a.js",
+    "039-8109-321cf3627b5e2df9.js",
+    "040-06e4876f-ce7b259792f0453a.js",
+    "041-8109-321cf3627b5e2df9.js"
+   ]
+  },
+  "gsapVersion": "3.15.0",
+  "threeRevision": null,
+  "shaders": 0,
+  "scripts": 114
+ },
+ "network": {
+  "requests": 125,
+  "totalKb": 13150,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 60
+   },
+   "Stylesheet": {
+    "n": 11,
+    "kb": 36
+   },
+   "Image": {
+    "n": 20,
+    "kb": 2136
+   },
+   "Font": {
+    "n": 5,
+    "kb": 147
+   },
+   "Script": {
+    "n": 47,
+    "kb": 1001
+   },
+   "Fetch": {
+    "n": 19,
+    "kb": 9
+   },
+   "Other": {
+    "n": 2,
+    "kb": 40
+   },
+   "XHR": {
+    "n": 20,
+    "kb": 9722
+   }
+  },
+  "thirdPartyHosts": [
+   "spyker.b-cdn.net",
+   "use.typekit.net",
+   "p.typekit.net",
+   "vz-04c58921-8ce.b-cdn.net",
+   "www.googletagmanager.com",
+   "region1.google-analytics.com"
+  ],
+  "fontFiles": [
+   "https://spykercars.com/_next/static/media/886f446b96dc7734-s.p.woff2",
+   "https://spykercars.com/_next/static/media/81a888d17bece859-s.woff2",
+   "https://spykercars.com/_next/static/media/c2fa934218bdbba0-s.woff2",
+   "https://use.typekit.net/af/bc858a/00000000000000007758da48/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3",
+   "https://use.typekit.net/af/a04fc5/00000000000000007758da46/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3"
+  ],
+  "biggest": [
+   {
+    "url": "https://vz-04c58921-8ce.b-cdn.net/6da85c95-8013-469e-be43-2fadd1f10cd8/1080p/video0.ts",
+    "kb": 1629,
+    "type": "XHR"
+   },
+   {
+    "url": "https://vz-04c58921-8ce.b-cdn.net/587cd1b5-d8c9-48cc-944c-99cb01353166/1080p/video0.ts",
+    "kb": 1359,
+    "type": "XHR"
+   },
+   {
+    "url": "https://vz-04c58921-8ce.b-cdn.net/7497f2d0-3b59-4f99-885a-9766386a513f/1080p/video1.ts",
+    "kb": 1163,
+    "type": "XHR"
+   },
+   {
+    "url": "https://vz-04c58921-8ce.b-cdn.net/7497f2d0-3b59-4f99-885a-9766386a513f/1080p/video3.ts",
+    "kb": 1051,
+    "type": "XHR"
+   },
+   {
+    "url": "https://vz-04c58921-8ce.b-cdn.net/7497f2d0-3b59-4f99-885a-9766386a513f/1080p/video2.ts",
+    "kb": 1020,
+    "type": "XHR"
+   },
+   {
+    "url": "https://vz-04c58921-8ce.b-cdn.net/7497f2d0-3b59-4f99-885a-9766386a513f/1080p/video4.ts",
+    "kb": 979,
+    "type": "XHR"
+   },
+   {
+    "url": "https://vz-04c58921-8ce.b-cdn.net/8ffcced4-6529-495b-bcb9-d299416fef3e/720p/video0.ts",
+    "kb": 889,
+    "type": "XHR"
+   },
+   {
+    "url": "https://vz-04c58921-8ce.b-cdn.net/7497f2d0-3b59-4f99-885a-9766386a513f/1080p/video5.ts",
+    "kb": 609,
+    "type": "XHR"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "56px",
+   "lineHeight": "47.6px"
+  },
+  "body": "16px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 143
+}

@@ -1,0 +1,2 @@
+import{r as i,aW as r,E as o}from"./app-Dyqo_2kd.js";const e=i({x:0,y:0,isDrag:!1,originalEvent:void 0,type:void 0}),s=r(e),t=n=>{e.x=n.clientX,e.y=n.clientY,e.isDrag=n instanceof DragEvent,e.originalEvent=n,e.type=n instanceof PointerEvent?n.pointerType:e.type||"mouse"};o(document,["pointerdown","pointermove","pointerup"],t,{passive:!0});o(document,"dragover",t,{passive:!0});function p(){return{...s,pointer:e}}export{p as a};
+//# sourceMappingURL=index17-B_-ZUhXq.js.map

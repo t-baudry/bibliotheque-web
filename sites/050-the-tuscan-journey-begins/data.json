@@ -1,0 +1,538 @@
+{
+ "id": 50,
+ "name": "The Tuscan Journey Begins",
+ "sourceUrl": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/en/",
+ "capturedAt": "2026-11-03T00:02:11.684Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg"
+  ],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/en/",
+ "title": "Intro | Pasticcino Bag World Tour 2026",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "intro-description",
+  "canonical": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/",
+  "robots": null,
+  "ogTitle": "Intro",
+  "ogImage": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/share-DohmG_hx.gif",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [],
+  "h1Count": 0,
+  "headings": [
+   "H2 TUSCAN JOURNEY"
+  ],
+  "imgs": 1,
+  "imgNoAlt": 1,
+  "favicon": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/favicon-192x192.png",
+  "themeColor": "#fff"
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#ffffff",
+    "w": 4947697
+   },
+   {
+    "v": "#465016",
+    "w": 1642251
+   }
+  ],
+  "text": [
+   {
+    "v": "#dfddcb",
+    "w": 110
+   },
+   {
+    "v": "#ffffff",
+    "w": 12
+   },
+   {
+    "v": "#23280b",
+    "w": 11
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "NimbusSans",
+    "w": 97
+   },
+   {
+    "v": "NimbusSansExtd",
+    "w": 13
+   },
+   {
+    "v": "Nimbus",
+    "w": 12
+   },
+   {
+    "v": "Nimbus Sans L",
+    "w": 11
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "16px",
+    "w": 6
+   },
+   {
+    "v": "18.0044px",
+    "w": 2
+   },
+   {
+    "v": "92px",
+    "w": 2
+   },
+   {
+    "v": "20.25px",
+    "w": 1
+   },
+   {
+    "v": "27px",
+    "w": 1
+   },
+   {
+    "v": "18px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "50%",
+    "w": 2
+   },
+   {
+    "v": "8px",
+    "w": 1
+   },
+   {
+    "v": "15px",
+    "w": 1
+   }
+  ],
+  "shadows": [
+   {
+    "v": "rgba(66, 38, 1, 0.25) 2.4px 3.6px 0px 0px",
+    "w": 1
+   }
+  ],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.55 0.6s",
+    "w": 4
+   },
+   {
+    "v": "ease 0.3s",
+    "w": 2
+   }
+  ],
+  "typo": {
+   "h2": {
+    "family": "NimbusSansExtd, sans-serif",
+    "size": "92px",
+    "weight": "700",
+    "lineHeight": "85.56px",
+    "letterSpacing": "-0.828px",
+    "transform": "uppercase",
+    "color": "#dfddcb",
+    "sample": "TUSCAN JOURNEY"
+   },
+   "p": {
+    "family": "NimbusSans, sans-serif",
+    "size": "20.25px",
+    "weight": "700",
+    "lineHeight": "24.3px",
+    "letterSpacing": "-0.5625px",
+    "transform": "none",
+    "color": "#dfddcb",
+    "sample": "Activate sound for a better experience."
+   },
+   "button": {
+    "family": "Nimbus",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#23280b",
+    "sample": "Start now"
+   },
+   "body": {
+    "family": "Nimbus",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Activate sound for a better experience.Skip intro Your browser does not support "
+   }
+  },
+  "cssVars": {
+   "--un-text-opacity": "1"
+  },
+  "fontFaces": [
+   {
+    "family": "Nimbus",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"/static/NimbusSanL-Bol-DJVDeZYY.woff2\") format(\"woff2\"), url(\"/static/NimbusSanL-Bol-BJSJtpDZ.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Nimbus",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/static/NimbusSanL-Reg-2eITmUn-.woff2\") format(\"woff2\"), url(\"/static/NimbusSanL-Reg-DcA0wNOL.woff\") format(\"woff\")"
+   },
+   {
+    "family": "NimbusSansExtd",
+    "weight": "700",
+    "style": "",
+    "src": "url(\"/static/NimbusSanExtD-Bol-7i44fy56.woff2\") format(\"woff2\"), url(\"/static/NimbusSanExtD-Bol-DeY7VAM1.woff\") format(\"woff\")"
+   }
+  ],
+  "keyframes": [
+   "vue-boost-marquee-b09415cb",
+   "vue-boost-marquee-reset-b09415cb",
+   "vue-boost-marquee-reverse-b09415cb",
+   "vue-boost-marquee-vertical-b09415cb",
+   "vue-boost-marquee-vertical-reverse-b09415cb",
+   "vue-boost-marquee-rtl-b09415cb",
+   "vue-boost-marquee-rtl-reverse-b09415cb",
+   "vue-boost-marquee-rtl-vertical-reverse-b09415cb",
+   "spinner-rotate-ff76210b",
+   "spinner-dash-ff76210b"
+  ],
+  "breakpoints": [
+   {
+    "v": "48rem",
+    "w": 32
+   },
+   {
+    "v": "639px",
+    "w": 13
+   },
+   {
+    "v": "0.1px",
+    "w": 4
+   },
+   {
+    "v": "640px",
+    "w": 4
+   },
+   {
+    "v": "768px",
+    "w": 4
+   },
+   {
+    "v": "80rem",
+    "w": 3
+   },
+   {
+    "v": "40rem",
+    "w": 2
+   },
+   {
+    "v": "64rem",
+    "w": 2
+   },
+   {
+    "v": "90rem",
+    "w": 1
+   },
+   {
+    "v": "120rem",
+    "w": 1
+   },
+   {
+    "v": "1023px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 924,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": "app",
+    "cls": "",
+    "h": 900,
+    "title": "",
+    "media": 2
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "modal-root fixed inset-0 z-5 flex items-center justify-center p-safe-inset",
+    "h": 900,
+    "title": "TUSCAN JOURNEY",
+    "media": 0
+   }
+  ],
+  "navLinks": [],
+  "ctas": [],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 1,
+   "videos": 1,
+   "imgs": 1,
+   "svgs": 5,
+   "iframes": 0,
+   "domNodes": 183
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": false,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "183",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": true,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": true,
+  "cms": [
+   "contentful"
+  ],
+  "analytics": [
+   "googletagmanager",
+   "gtag"
+  ],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://cdn.iubenda.com/cookie_solution/iubenda_cs/1.109.0/core-en.js",
+  "https://cdn.iubenda.com/cs/iubenda_cs.js",
+  "https://www.googletagmanager.com/gtag/js?id=G-JNY3MKX6JF",
+  "https://tags.tiqcdn.com/utag/maxmara/weekend/qa/utag.js",
+  "https://tags.tiqcdn.com/utag/maxmara/weekend/qa/utag.sync.js",
+  "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/app-Dyqo_2kd.js",
+  "https://tags.tiqcdn.com/utag/tiqapp/utag.currency.js?utv=ut4.44.202611021420",
+  "https://tags.tiqcdn.com/utag/maxmara/weekend/qa/utag.76.js?utv=ut4.44.202611021313",
+  "https://tags.tiqcdn.com/utag/maxmara/weekend/qa/utag.67.js?utv=ut4.44.202603021432",
+  "https://tags.tiqcdn.com/utag/maxmara/weekend/qa/utag.104.js?utv=ut4.44.202609241510",
+  "https://tags.tiqcdn.com/utag/maxmara/weekend/qa/utag.106.js?utv=ut4.44.202509040925",
+  "https://tags.tiqcdn.com/utag/tiqapp/utag.v.js?a=maxmara/weekend/202611021420&cb=1793664133628",
+  "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/polyfills-legacy-BL2vFvV4.js"
+ ],
+ "internal": [],
+ "perf": {
+  "ttfb": 209,
+  "dcl": 433,
+  "load": 1147,
+  "lcp": 5644,
+  "lcpEl": "DIV.absolute",
+  "cls": 0
+ },
+ "libs": {
+  "detected": [
+   "GSAP",
+   "ScrollTrigger",
+   "Lottie",
+   "Vue",
+   "jQuery",
+   "SplitText/SplitType",
+   "Howler (audio)",
+   "Contentful",
+   "Three.js"
+  ],
+  "where": {
+   "GSAP": [
+    "001-app-Dyqo_2kd.js",
+    "003-main-ClEgjqFK.js",
+    "031-AppLayout-Cvr_wOOM.js"
+   ],
+   "ScrollTrigger": [
+    "001-app-Dyqo_2kd.js",
+    "003-main-ClEgjqFK.js"
+   ],
+   "Lottie": [
+    "001-app-Dyqo_2kd.js",
+    "027-useSubscribed-BMDFsILp.js"
+   ],
+   "Vue": [
+    "001-app-Dyqo_2kd.js"
+   ],
+   "jQuery": [
+    "002-utag.js"
+   ],
+   "SplitText/SplitType": [
+    "003-main-ClEgjqFK.js"
+   ],
+   "Howler (audio)": [
+    "003-main-ClEgjqFK.js"
+   ],
+   "Contentful": [
+    "003-main-ClEgjqFK.js",
+    "013-web-vitals-CrJHzm21.js"
+   ],
+   "Three.js": [
+    "031-AppLayout-Cvr_wOOM.js"
+   ]
+  },
+  "gsapVersion": null,
+  "threeRevision": null,
+  "shaders": 9,
+  "scripts": 33
+ },
+ "network": {
+  "requests": 171,
+  "totalKb": 15557,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 4
+   },
+   "Stylesheet": {
+    "n": 9,
+    "kb": 18
+   },
+   "Script": {
+    "n": 39,
+    "kb": 1099
+   },
+   "XHR": {
+    "n": 5,
+    "kb": 121
+   },
+   "Image": {
+    "n": 10,
+    "kb": 255
+   },
+   "Other": {
+    "n": 89,
+    "kb": 300
+   },
+   "Ping": {
+    "n": 1,
+    "kb": 0
+   },
+   "Font": {
+    "n": 3,
+    "kb": 98
+   },
+   "Fetch": {
+    "n": 13,
+    "kb": 13660
+   },
+   "Media": {
+    "n": 1,
+    "kb": 0
+   }
+  },
+  "thirdPartyHosts": [
+   "tags.tiqcdn.com",
+   "cdn.iubenda.com",
+   "www.googletagmanager.com",
+   "region1.google-analytics.com"
+  ],
+  "fontFiles": [
+   "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/NimbusSanL-Reg-2eITmUn-.woff2",
+   "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/NimbusSanExtD-Bol-7i44fy56.woff2",
+   "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/NimbusSanL-Bol-DJVDeZYY.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/stanza_tessuti_v2_15fps_1280p_ionly-B-C9vGfG.mp4",
+    "kb": 9706,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/treno_loop_v1_15fps-CHz8_3np.mp4",
+    "kb": 1988,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/diffuse-tessuti-8kOGqr1g.ktx2",
+    "kb": 512,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/AppLayout-Cvr_wOOM.js",
+    "kb": 353,
+    "type": "Script"
+   },
+   {
+    "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/normal-overlay-oorSCCGY.ktx2",
+    "kb": 304,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/diffuse-train-XYks5T_N.ktx2",
+    "kb": 298,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/bump-overlay-DPipPg9f.ktx2",
+    "kb": 287,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/libs/basis/basis_transcoder.wasm",
+    "kb": 241,
+    "type": "Fetch"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": null,
+  "body": "16px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 117
+}

@@ -1,0 +1,767 @@
+{
+ "id": 41,
+ "name": "bleibtgleich26",
+ "sourceUrl": "https://bleibtgleich.dev/",
+ "capturedAt": "2026-11-02T23:50:10.054Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg"
+  ],
+  "fullPage": 6713,
+  "subpages": [
+   {
+    "url": "https://bleibtgleich.dev/work",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://bleibtgleich.dev/contact",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://bleibtgleich.dev/archive",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://bleibtgleich.dev/",
+ "title": "bleibtgleich - UX/UI Designer & Developer",
+ "lang": "en",
+ "generator": "Webflow",
+ "seo": {
+  "description": "UX/UI designer and creative developer building award-winning digital products. From interface design to animated Webflow, GSAP and WebGL builds.",
+  "canonical": null,
+  "robots": null,
+  "ogTitle": "bleibtgleich - UX/UI Designer & Developer",
+  "ogImage": "https://pub-0b5dfbb7f1bd46be9741d4d704b92507.r2.dev/opengraph-v3.png",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "ProfilePage"
+  ],
+  "h1Count": 31,
+  "headings": [
+   "H1 Maksym",
+   "H1 Bleibtgleich",
+   "H1 Design",
+   "H1 Digital",
+   "H1 Products,",
+   "H1 UX/UI",
+   "H1 & Web-",
+   "H1 flow",
+   "H1 dev.",
+   "H1 the",
+   "H1 best",
+   "H1 ideas deserve",
+   "H1 execution.",
+   "H1 Awards",
+   "H1 &",
+   "H1 Recog-",
+   "H1 nitions",
+   "H1 Everything",
+   "H1 that exists",
+   "H1 had first",
+   "H1 existed as",
+   "H1 (",
+   "H1 00",
+   "H1 )",
+   "H1 :",
+   "H1 50",
+   "H1 :",
+   "H1 nothing",
+   "H1 more",
+   "H1 than a",
+   "H1 sentence."
+  ],
+  "imgs": 54,
+  "imgNoAlt": 45,
+  "favicon": "https://cdn.prod.website-files.com/6a2fcc5552066493ef9a5cf9/6a64bd6d0f453fdb9d02023d_webclip.png",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#ffffff",
+    "w": 2342340
+   },
+   {
+    "v": "#f2f2f2",
+    "w": 1296000
+   },
+   {
+    "v": "#000000",
+    "w": 208722
+   }
+  ],
+  "text": [
+   {
+    "v": "#000000",
+    "w": 812
+   },
+   {
+    "v": "#ffffff",
+    "w": 8
+   }
+  ],
+  "border": [
+   {
+    "v": "#bec1ca",
+    "w": 1
+   },
+   {
+    "v": "#919e44",
+    "w": 1
+   },
+   {
+    "v": "#ff633d",
+    "w": 1
+   },
+   {
+    "v": "#ffffff",
+    "w": 1
+   },
+   {
+    "v": "#c31f26",
+    "w": 1
+   },
+   {
+    "v": "#000000",
+    "w": 1
+   }
+  ],
+  "fonts": [
+   {
+    "v": "Akzidenz Grotesk Pro",
+    "w": 820
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "14px",
+    "w": 140
+   },
+   {
+    "v": "90px",
+    "w": 41
+   },
+   {
+    "v": "40px",
+    "w": 30
+   },
+   {
+    "v": "14.4px",
+    "w": 4
+   }
+  ],
+  "radius": [
+   {
+    "v": "50%",
+    "w": 5
+   },
+   {
+    "v": "16px",
+    "w": 1
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.25 0.4s",
+    "w": 52
+   },
+   {
+    "v": "cubic-bezier(0.76 0.6s",
+    "w": 5
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "\"Akzidenz Grotesk Pro\", Arial, sans-serif",
+    "size": "90px",
+    "weight": "500",
+    "lineHeight": "79.2px",
+    "letterSpacing": "-4.45507px",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Maksym"
+   },
+   "a": {
+    "family": "\"Akzidenz Grotesk Pro\", Arial, sans-serif",
+    "size": "14.4px",
+    "weight": "400",
+    "lineHeight": "14.4px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "TFTLTFTL"
+   },
+   "body": {
+    "family": "\"Akzidenz Grotesk Pro\", Arial, sans-serif",
+    "size": "14.4px",
+    "weight": "400",
+    "lineHeight": "14.4px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": ".name-part-wrap [data-filter-id] { display: flex !important; } .cursor-chat-inpu"
+   }
+  },
+  "cssVars": {
+   "--_fonts---font-body": "\"Akzidenz Grotesk Pro\",Arial,sans-serif",
+   "--_colors---content--primary": "var(--_global-colors---black--100)",
+   "--_fonts---font-display": "\"Akzidenz Grotesk Pro\",Arial,sans-serif",
+   "--_fonts---h1--size": "calc(45rem/var(--_special-units---global--scale-ratio))",
+   "--_fonts---h1--line-height": "90%",
+   "--_fonts---h1--letter-spacing": "-.6rem",
+   "--_fonts---h2--size": "calc(40rem/var(--_special-units---global--scale-ratio))",
+   "--_fonts---h2--line-height": "80%",
+   "--_fonts---h2--letter-spacing": "-.1rem",
+   "--_fonts---h3--size": "0rem",
+   "--_fonts---h3--line-height": "0%",
+   "--_fonts---h3--letter-spacing": "0em",
+   "--_fonts---h4--size": "0rem",
+   "--_fonts---h4--line-height": "0%",
+   "--_fonts---h4--letter-spacing": "0em",
+   "--_fonts---h5--size": "0rem",
+   "--_fonts---h5--line-height": "0%",
+   "--_fonts---h5--letter-spacing": "0em",
+   "--_fonts---h6--size": "0rem",
+   "--_fonts---h6--line-height": "0%",
+   "--_fonts---h6--letter-spacing": "0em",
+   "--_fonts---p1--size": "calc(12rem/var(--_special-units---global--scale-ratio))",
+   "--_fonts---p1--line-height": "100%",
+   "--_fonts---p1--letter-spacing": "-.02625rem",
+   "--_units---u-0": "var(--0px)",
+   "--_special-units---global--100vh": "100vh",
+   "--_units---u-120": "var(--120px)",
+   "--_units---u-104": "var(--104px)",
+   "--_special-units---1-cell": "calc(162rem/var(--_special-units---global--scale-ratio))",
+   "--_special-units---grid-gap": "var(--12px)",
+   "--_special-units---global--scale-ratio": "3.93",
+   "--_colors---base-1000--primary<deleted|variable-e3bd1c8d-553d-0b31-6f51-9832056faf72>": "var(--_global-colors---black--100)",
+   "--_units---u-240": "var(--240px)",
+   "--_colors---content--secondary": "var(--_global-colors---black--50)",
+   "--_special-units---offset-r<deleted|variable-a0e89c53-377b-3777-d58c-e4df6e7ab1ac>": "var(--_units---u-96)",
+   "--_special-units---offset-l<deleted|variable-30466633-11b6-a046-992f-eb88a27f8196>": "var(--_units---u-96)",
+   "--_special-units---stroke": "calc(.25rem/var(--_special-units---global--scale-ratio))",
+   "--_colors---border--100": "var(--_global-colors---black--100)",
+   "--_units---u-72": "var(--72px)",
+   "--_units---u-4": "var(--4px)",
+   "--_units---u-8": "var(--8px)",
+   "--_units---u-12": "var(--12px)",
+   "--_units---u-16": "var(--16px)",
+   "--_units---u-24": "var(--24px)",
+   "--_units---u-32": "var(--32px)",
+   "--_units---u-48": "var(--48px)",
+   "--_units---u-56<deleted|variable-97f9ea58-bf7b-f00d-289a-613711710c7e>": "var(--56px)",
+   "--_units---u-64": "var(--64px)",
+   "--_units---u-72<deleted|variable-65c271e0-fac9-e30f-7e0f-bc719f77cad2>": "var(--72px)",
+   "--_units---u-96": "var(--96px)",
+   "--_units---u-144": "var(--144px)",
+   "--_colors---base-0--primary<deleted|variable-f1179a9d-30b5-1e3f-96f6-899fd417379c>": "var(--_global-colors---white--100)",
+   "--_colors---base-1000--gray-text<deleted|variable-645e4484-5744-3503-a72c-ae6a6768a162>": "var(--_global-colors---black--50)",
+   "--_colors---additional--success": "#1ba64b",
+   "--_colors---additional--alert": "#ffa800",
+   "--_colors---additional--error": "#e23d3d",
+   "--_units---u-192": "var(--192px)",
+   "--_fonts---l1--size": "1rem",
+   "--_fonts---l1--line-height": "100%",
+   "--_fonts---l1--letter-spacing": "-.016em",
+   "--_colors---background--transparent": "transparent",
+   "--_colors---background--bg": "var(--_global-colors---white--100)",
+   "--_colors---base-1000--disabled<deleted|variable-4bea2a64-c1bd-a9f2-0bae-bb923fd86333>": "var(--_global-colors---black--30)",
+   "--_colors---brand-500--primary<deleted|variable-91ff398b-1b86-c83e-9325-f542c634d71f>": "var(--_global-colors---brand-500--100\\<deleted\\|variable-39f736b9-5144-ec20-1cef-43d0e29fc9c5\\>)",
+   "--_special-units---global--padding": "var(--_units---u-16)",
+   "--_global-colors---black--5": "#0000000d",
+   "--_global-colors---black--10": "#0000001a",
+   "--_colors--nav---indicator--fill": "var(--_global-colors---black--100)",
+   "--_colors--nav---indicator--content-active": "var(--_global-colors---white--100)",
+   "--_colors---fill--tertiary": "var(--_global-colors---black--5)",
+   "--_colors--nav---background--bg-1": "var(--_global-colors---gray--base-200)",
+   "--_colors--nav---background--bg-3": "var(--_global-colors---gray--base-075)",
+   "--_colors--nav---background--bg-2": "var(--_global-colors---gray--base-150)",
+   "--_colors--nav---indicator--border": "var(--_colors---border--100)",
+   "--_colors--nav---indicator--content": "var(--_global-colors---black--100)",
+   "--104px": "calc(104rem/var(--_special-units---global--scale-ratio))",
+   "--72px": "calc(72rem/var(--_special-units---global--scale-ratio))",
+   "--_units---u-20": "var(--20px)",
+   "--_units---u-80": "var(--80px)",
+   "--_units---u-6": "var(--6px)",
+   "--64px": "calc(64rem/var(--_special-units---global--scale-ratio))",
+   "--_colors---fill--primary": "var(--_global-colors---black--100)",
+   "--_colors---border--10": "var(--_global-colors---black--10)",
+   "--_units---u-200": "var(--200px)",
+   "--_colors---background--bg-2": "#f2f2f2",
+   "--_units---u-128": "var(--128px)",
+   "--96px": "calc(96rem/var(--_special-units---global--scale-ratio))",
+   "--_colors---content-diff--primary": "var(--_global-colors---white--100)",
+   "--_global-colors---white--100": "white",
+   "--_units---u-10": "var(--10px)",
+   "--_colors---content--tertiary": "var(--_global-colors---black--30)",
+   "--_units---u-2": "var(--2px)",
+   "--_global-colors---black--100": "#000",
+   "--_units---u-40": "var(--40px)",
+   "--0px": "calc(0rem/var(--_special-units---global--scale-ratio))",
+   "--1px": "calc(1rem/var(--_special-units---global--scale-ratio))",
+   "--2px": "calc(2rem/var(--_special-units---global--scale-ratio))",
+   "--4px": "calc(4rem/var(--_special-units---global--scale-ratio))",
+   "--6px": "calc(6rem/var(--_special-units---global--scale-ratio))",
+   "--8px": "calc(8rem/var(--_special-units---global--scale-ratio))",
+   "--10px": "calc(10rem/var(--_special-units---global--scale-ratio))",
+   "--12px": "calc(12rem/var(--_special-units---global--scale-ratio))",
+   "--16px": "calc(16rem/var(--_special-units---global--scale-ratio))",
+   "--20px": "calc(20rem/var(--_special-units---global--scale-ratio))",
+   "--24px": "calc(24rem/var(--_special-units---global--scale-ratio))",
+   "--28px": "calc(28rem/var(--_special-units---global--scale-ratio))",
+   "--32px": "calc(32rem/var(--_special-units---global--scale-ratio))",
+   "--36px": "calc(36rem/var(--_special-units---global--scale-ratio))",
+   "--40px": "calc(40rem/var(--_special-units---global--scale-ratio))",
+   "--44px": "calc(44rem/var(--_special-units---global--scale-ratio))",
+   "--48px": "calc(48rem/var(--_special-units---global--scale-ratio))",
+   "--52px": "calc(52rem/var(--_special-units---global--scale-ratio))",
+   "--56px": "calc(56rem/var(--_special-units---global--scale-ratio))",
+   "--60px": "calc(60rem/var(--_special-units---global--scale-ratio))",
+   "--68px": "calc(68rem/var(--_special-units---global--scale-ratio))",
+   "--80px": "calc(80rem/var(--_special-units---global--scale-ratio))",
+   "--88px": "calc(88rem/var(--_special-units---global--scale-ratio))",
+   "--112px": "calc(112rem/var(--_special-units---global--scale-ratio))",
+   "--120px": "calc(120rem/var(--_special-units---global--scale-ratio))",
+   "--128px": "calc(128rem/var(--_special-units---global--scale-ratio))",
+   "--144px": "calc(144rem/var(--_special-units---global--scale-ratio))",
+   "--168px": "calc(168rem/var(--_special-units---global--scale-ratio))",
+   "--192px": "calc(192rem/var(--_special-units---global--scale-ratio))",
+   "--200px": "calc(200rem/var(--_special-units---global--scale-ratio))",
+   "--240px": "calc(240rem/var(--_special-units---global--scale-ratio))",
+   "--_units---u-36": "var(--36px)",
+   "--_global-colors---black--50": "#00000080",
+   "--_global-colors---black--30": "#0000004d",
+   "--_global-colors---white--50": "#ffffff80",
+   "--_global-colors---white--30": "#ffffff4d",
+   "--_global-colors---white--10": "#ffffff1a",
+   "--_global-colors---white--5": "#ffffff0d",
+   "--_global-colors---limestone--100": "#cebdb2",
+   "--_global-colors---limestone--50": "#cebdb280",
+   "--_global-colors---limestone--30": "#cebdb24d",
+   "--_global-colors---limestone--10": "#cebdb21a",
+   "--_global-colors---limestone--5": "#cebdb20d",
+   "--_global-colors---gray--base-200": "#cbcccd",
+   "--_global-colors---gray--base-150": "#d8d9da",
+   "--_global-colors---gray--base-075": "#e6e6e6",
+   "--_global-colors---сoncrete--base": "#bec1ca",
+   "--_global-colors---сoncrete--base-200": "#989aa2",
+   "--_global-colors---сoncrete--base-150": "#a2a4ac",
+   "--_global-colors---сoncrete--base-075": "#b0b3bb",
+   "--_global-colors---rust--base": "#ff633d",
+   "--_global-colors---rust--base-200": "#cc4f31",
+   "--_global-colors---rust--base-150": "#d95434",
+   "--_global-colors---rust--base-075": "#ec5c38",
+   "--_global-colors---verdigris--base": "#919e44",
+   "--_global-colors---verdigris--base-200": "#747e36",
+   "--_global-colors---verdigris--base-150": "#7b863a",
+   "--_global-colors---verdigris--base-075": "#86923f",
+   "--_global-colors---blood--base": "#c31f26",
+   "--_global-colors---blood--base-200": "#9c191e",
+   "--_global-colors---blood--base-150": "#a61a20",
+   "--_global-colors---blood--base-075": "#b41d23",
+   "--_global-colors---white--100<deleted|variable-5ee9a23f-4f79-65bc-f6cc-19f390ee7a75>": "white",
+   "--_global-colors---white--50<deleted|variable-45894836-16f2-46d0-012a-3ea711506a68>": "#ffffff80",
+   "--_global-colors---white--30<deleted|variable-da05c4a3-2d8b-1932-f67d-3f17b9da5175>": "#ffffff4d",
+   "--_global-colors---brand-500--100<deleted|variable-39f736b9-5144-ec20-1cef-43d0e29fc9c5>": "#7d45f5",
+   "--dur-s": "0.4s",
+   "--dur-m": "0.8s",
+   "--dur-l": "1.2s",
+   "--ease-in-out": "cubic-bezier(0.76, 0, 0.24, 1)",
+   "--ease-out": "cubic-bezier(0.25, 1, 0.5, 1)",
+   "--ease-in": "cubic-bezier(0.5, 0, 0.75, 0)",
+   "--ease": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+   "--ease-write": "cubic-bezier(0.333, 0, 0.667, 1)",
+   "--_100svh": "100vh"
+  },
+  "fontFaces": [
+   {
+    "family": "webflow-icons",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"data:application/x-font-ttf;charset=utf-8;base64,AAEAAAALAIAAAwAwT1MvMg8SBiUAAAC8AAAAYGNtYXDpP+a4AAABHAAAAFxnYXNwAAAAEAAAAXgAAAAIZ2x5ZmhS2XEAAAGAAAADHGhlYWQTFw3HAAAEnAAAADZoaGVhCXYFgQAABNQAAAAkaG"
+   },
+   {
+    "family": "Akzidenz Grotesk Pro",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/6a2fcc5552066493ef9a5cf9/6a3068329e43bb7aab788e8d_AkzidenzGroteskPro-Md.woff2\") format(\"woff2\")"
+   }
+  ],
+  "keyframes": [
+   "spin"
+  ],
+  "breakpoints": [
+   {
+    "v": "992px",
+    "w": 7
+   },
+   {
+    "v": "991px",
+    "w": 6
+   },
+   {
+    "v": "479px",
+    "w": 5
+   },
+   {
+    "v": "767px",
+    "w": 3
+   },
+   {
+    "v": "768px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 1133,
+  "crossOriginSheets": 1
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "intro",
+    "h": 2193,
+    "title": "Maksym",
+    "media": 5
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "featured",
+    "h": 1768,
+    "title": "",
+    "media": 16
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "awards",
+    "h": 1021,
+    "title": "Awards",
+    "media": 10
+   },
+   {
+    "tag": "footer",
+    "id": "w-node-a204f672-ea1b-c502-70d3-3fa0032bc8db-032bc8db",
+    "cls": "footer",
+    "h": 1627,
+    "title": "Everything",
+    "media": 9
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "theme-change-overlay",
+    "h": 900,
+    "title": "",
+    "media": 0
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "1HomeHome",
+    "href": "https://bleibtgleich.dev/"
+   },
+   {
+    "t": "2WorkWork",
+    "href": "https://bleibtgleich.dev/work"
+   },
+   {
+    "t": "3ContactContact",
+    "href": "https://bleibtgleich.dev/contact"
+   },
+   {
+    "t": "ExperimentsExperiments",
+    "href": "https://bleibtgleich.dev/archive"
+   }
+  ],
+  "ctas": [],
+  "pageHeight": 6713,
+  "counts": {
+   "canvas": 2,
+   "videos": 0,
+   "imgs": 54,
+   "svgs": 6,
+   "iframes": 0,
+   "domNodes": 884
+  }
+ },
+ "tech": {
+  "gsap": true,
+  "gsapVersion": "3.15.0",
+  "scrollTrigger": true,
+  "splitText": true,
+  "lenis": true,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "128",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": true,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": true,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [
+   "googletagmanager",
+   "gtag"
+  ],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://www.googletagmanager.com/gtag/js?id=G-DQGSM2G8RL",
+  "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6a2fcc5552066493ef9a5cf9",
+  "https://cdn.prod.website-files.com/6a2fcc5552066493ef9a5cf9/js/webflow.schunk.bd1b0aa80a81728a.js",
+  "https://cdn.prod.website-files.com/6a2fcc5552066493ef9a5cf9/js/webflow.751e0867.abca906bf361b391.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/MorphSVGPlugin.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/CustomEase.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js",
+  "https://unpkg.com/@barba/core",
+  "https://unpkg.com/lenis@1.3.21/dist/lenis.min.js",
+  "https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js",
+  "https://cdn.socket.io/4.5.4/socket.io.min.js",
+  "https://assets.slater.app/slater/20419.js?v=1.0"
+ ],
+ "internal": [
+  "https://bleibtgleich.dev/work",
+  "https://bleibtgleich.dev/contact",
+  "https://bleibtgleich.dev/archive"
+ ],
+ "perf": {
+  "ttfb": 98,
+  "dcl": 1122,
+  "load": 1645,
+  "lcp": 2428,
+  "lcpEl": "DIV",
+  "cls": 0.001
+ },
+ "libs": {
+  "detected": [
+   "jQuery",
+   "GSAP",
+   "DrawSVG/MorphSVG",
+   "SplitText/SplitType",
+   "ScrollTrigger",
+   "Lenis",
+   "Virtual scroll",
+   "Three.js",
+   "Barba.js"
+  ],
+  "where": {
+   "jQuery": [
+    "001-webflow.schunk.bd1b0aa80a81728a.js",
+    "009-jquery-3.5.1.min.dc5e7f18c8.js"
+   ],
+   "GSAP": [
+    "002-MorphSVGPlugin.min.js",
+    "004-CustomEase.min.js",
+    "005-SplitText.min.js",
+    "006-InertiaPlugin.min.js",
+    "007-gsap.min.js",
+    "008-ScrollTrigger.min.js",
+    "012-Draggable.min.js",
+    "016-62015.js"
+   ],
+   "DrawSVG/MorphSVG": [
+    "002-MorphSVGPlugin.min.js",
+    "016-62015.js"
+   ],
+   "SplitText/SplitType": [
+    "005-SplitText.min.js",
+    "007-gsap.min.js",
+    "016-62015.js"
+   ],
+   "ScrollTrigger": [
+    "007-gsap.min.js",
+    "008-ScrollTrigger.min.js",
+    "016-62015.js"
+   ],
+   "Lenis": [
+    "010-lenis.min.js",
+    "016-62015.js",
+    "styles.css"
+   ],
+   "Virtual scroll": [
+    "010-lenis.min.js"
+   ],
+   "Three.js": [
+    "013-three.min.js",
+    "016-62015.js"
+   ],
+   "Barba.js": [
+    "014-barba.umd.js",
+    "016-62015.js"
+   ]
+  },
+  "gsapVersion": "3.15.0",
+  "threeRevision": null,
+  "shaders": 11,
+  "scripts": 16
+ },
+ "network": {
+  "requests": 64,
+  "totalKb": 890,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 19
+   },
+   "Stylesheet": {
+    "n": 2,
+    "kb": 1
+   },
+   "Image": {
+    "n": 39,
+    "kb": 323
+   },
+   "Script": {
+    "n": 18,
+    "kb": 514
+   },
+   "Font": {
+    "n": 1,
+    "kb": 33
+   },
+   "Fetch": {
+    "n": 2,
+    "kb": 0
+   },
+   "Other": {
+    "n": 1,
+    "kb": 1
+   }
+  },
+  "thirdPartyHosts": [
+   "cdn.prod.website-files.com",
+   "www.googletagmanager.com",
+   "unpkg.com",
+   "d3e54v103j8qbb.cloudfront.net",
+   "cdn.socket.io",
+   "cdn.jsdelivr.net",
+   "region1.google-analytics.com",
+   "assets.slater.app"
+  ],
+  "fontFiles": [
+   "https://cdn.prod.website-files.com/6a2fcc5552066493ef9a5cf9/6a3068329e43bb7aab788e8d_AkzidenzGroteskPro-Md.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://www.googletagmanager.com/gtag/js?id=G-DQGSM2G8RL",
+    "kb": 178,
+    "type": "Script"
+   },
+   {
+    "url": "https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js",
+    "kb": 145,
+    "type": "Script"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/6a36a3fb2e061ee276a4e112/6a660e2312af271ff52c6ab5_img-cover-cybernation.avif",
+    "kb": 40,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/6a36a3fb2e061ee276a4e112/6a6ba34a52217319fe1fbd57_img-cover-velor-app.avif",
+    "kb": 33,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/6a2fcc5552066493ef9a5cf9/6a3068329e43bb7aab788e8d_AkzidenzGroteskPro-Md.woff2",
+    "kb": 33,
+    "type": "Font"
+   },
+   {
+    "url": "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6a2fcc5552066493ef9a5cf9",
+    "kb": 31,
+    "type": "Script"
+   },
+   {
+    "url": "https://assets.slater.app/slater/20419/62015.js?v=629877",
+    "kb": 30,
+    "type": "Script"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js",
+    "kb": 29,
+    "type": "Script"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "44.6565px",
+   "lineHeight": "40.1908px"
+  },
+  "body": "3.9px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 108
+}

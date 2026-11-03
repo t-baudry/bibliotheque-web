@@ -1,0 +1,185 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <title>Zero — Human Infrastructure to Get Hired</title>
+    <meta name="description" content="Zero is building human infrastructure for the AI era. Learn, build, and get hired through immersive, AI-native experiences designed by reverse-engineering real jobs.">
+    <link rel="canonical" href="https://why.zero.university/">
+    <meta name="theme-color" content="#000000">
+
+    
+    <meta name="color-scheme" content="light only">
+    <meta name="supported-color-schemes" content="light">
+    <meta name="darkreader-lock">
+
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://why.zero.university/">
+    <meta property="og:title" content="Zero — Human Infrastructure to Get Hired">
+    <meta property="og:description" content="Zero is building human infrastructure for the AI era. Learn, build, and get hired through immersive, AI-native experiences designed by reverse-engineering real jobs.">
+    <meta property="og:image" content="https://why.zero.university/assets/brand/og_image.jpg">
+    <meta property="og:image:width" content="1920">
+    <meta property="og:image:height" content="1080">
+
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Zero — Human Infrastructure to Get Hired">
+    <meta name="twitter:description" content="Zero is building human infrastructure for the AI era. Learn, build, and get hired through immersive, AI-native experiences designed by reverse-engineering real jobs.">
+    <meta name="twitter:image" content="https://why.zero.university/assets/brand/og_image.jpg">
+
+    
+    <link rel="icon" type="image/svg+xml" href="./assets/brand/favicon.svg">
+    <link rel="icon" type="image/png" href="./assets/brand/favicon.png">
+    <link rel="apple-touch-icon" href="./assets/brand/apple-touch-icon.png">
+
+    
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-N4VGV4H4EN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-N4VGV4H4EN');
+    </script>
+
+    
+    <link rel="dns-prefetch" href="https://www.gstatic.com">
+    <link rel="dns-prefetch" href="https://unpkg.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+
+    
+
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&amp;family=Google+Sans+Code:wght@400;700&amp;family=Google+Sans+Flex:wght@500&amp;family=Inter:wght@400;500;600&amp;family=Newsreader:wght@400;500&amp;display=swap" rel="stylesheet">
+    <style>
+      html,
+      body {
+        height: 100%;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        overflow: hidden;
+        background-color: rgb(28, 72, 57); /* base — never a white pre-paint */
+      }
+      /* Background gradient on a dedicated fixed div BEHIND the canvas (z 0 <
+         canvas z 1). It mirrors the procedural loaderGradient (see main.js
+         loaderGradient stops / center / radii) and shows through the
+         transparent canvas during the loader (renderer clearAlpha=0). Once the
+         WebGL bgPass renders its matching gradient, the opaque canvas covers
+         this div — seamless.
+
+         Why a fixed div and not the body background: position:fixed inset:0 is
+         sized to the viewport from the very first layout, independent of
+         document flow, so the gradient paints on the first frame. Painting it
+         on <body> let the solid background-color flash through while the body
+         box was momentarily unsized. Radii in vw/vh size the ellipse to the
+         viewport; no background-attachment:fixed. */
+      #bg-gradient {
+        position: fixed;
+        inset: 0;
+        z-index: 0;
+        pointer-events: none;
+        background-color: rgb(28, 72, 57);
+        background-image: radial-gradient(
+          ellipse 126.7vw 143.4vh at 50% 130%,
+          rgb(212, 246, 235) 15.855%,
+          rgb(179, 222, 209) 26.169%,
+          rgb(145, 199, 183) 36.483%,
+          rgb(112, 175, 156) 46.797%,
+          rgb(78, 151, 130) 57.111%,
+          rgb(53, 111, 94) 78.555%,
+          rgb(28, 72, 57) 100%
+        );
+      }
+      /* Dummy pre-canvas placeholder: a "99" in the bottom-left that paints
+         on the very first layout and shows through the transparent canvas
+         alongside #bg-gradient while WebGL boots. Same z-index 0 as the
+         gradient but later in DOM order, so it paints above it; the opaque
+         canvas (z 1) covers it once the first frame renders. Purely
+         decorative — no behavior, no pointer events.
+
+         Styled to mirror the real loader counter (LoaderTextOverlay.js):
+         700 'Supply Sans' (same stack, monospace fallback pre-font-load),
+         white, left-aligned at the same reference ratios — desktop font
+         180/1080 of viewport height with a 40/1920 left margin, phone
+         (<768px) 110/1080 with an 80/1920 margin, baseline ~40/1080 up
+         from the bottom. */
+      /* svh (small-viewport) units, NOT vh: the canvas counter sizes itself
+         from window.innerHeight, which on phones equals the SMALL viewport
+         while the URL bar is visible — i.e. exactly at page load, when this
+         placeholder shows. Plain vh measures the LARGE (bar-retracted)
+         viewport there, so the DOM 99 rendered bigger/lower than the canvas
+         99 drawn over it — the mismatched fringes read as the number being
+         "cut" at the top and bottom. Desktop viewports are static, where
+         svh === vh, so nothing changes there. */
+      #pre-canvas-99 {
+        position: fixed;
+        left: 2.0833vw; /* 40 / 1920 */
+        bottom: 3.7037vh; /* 40 / 1080 (fallback) */
+        bottom: 3.7037svh;
+        z-index: 0;
+        pointer-events: none;
+        user-select: none;
+        font:
+          700 16.667vh/1 'Supply Sans',
+          monospace; /* 180 / 1080 (fallback) */
+        font-size: 16.667svh;
+        color: #ffffff;
+      }
+      @media (max-width: 767px) {
+        #pre-canvas-99 {
+          left: 4.1667vw; /* 80 / 1920 */
+          font-size: 10.185vh; /* 110 / 1080 (fallback) */
+          font-size: 10.185svh;
+        }
+      }
+      canvas {
+        display: block;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background-color: transparent;
+      }
+      #webgl {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        pointer-events: auto;
+        touch-action: none;
+      }
+      #ui-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+        pointer-events: none;
+      }
+    </style>
+    <script type="module" crossorigin="" src="/assets/main-BYq3OzcY.js"></script>
+    <link rel="stylesheet" crossorigin="" href="/assets/main-yeWZtezw.css">
+  <style data-custom-cursors="1">
+    *, *::before, *::after { cursor: none !important; }
+  </style></head>
+  
+  <body class="webgl-loader-overlay">
+    <div id="bg-gradient" aria-hidden="true"></div>
+    <div id="pre-canvas-99" aria-hidden="true">99</div>
+    <canvas id="webgl" role="img" aria-label="ZERO interactive 3D experience" data-engine="three.js r160" width="1440" height="900" style="width: 1440px; height: 900px; cursor: url(&quot;/assets/ui/cursors_atlas.webp&quot;) 0 0, grab;"></canvas>
+    <div id="ui-container" role="region" aria-label="Interface controls"><div class="loader-container" role="progressbar" aria-valuemin="0" aria-valuemax="99" aria-valuenow="0" aria-label="Loading progress" style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(-209px, 0px); display: none;"><div class="loader-text" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);"><img src="assets/brand/nav_logo_white.svg" alt="ZERO" class="loader-logo" style="transform: translate(0px, 0px); opacity: 1;"></div><span class="loader-degree" style="display: none;">degree</span></div><div class="hud-left-group"><button class="hud-audio-btn has-glass" aria-label="Toggle audio" aria-pressed="true"><div class="glass-effect" aria-hidden="true"><div class="glass-effect__fill"></div><div class="glass-effect__fill-burn"></div><div class="glass-effect__highlight-soft"></div><div class="glass-effect__highlight-strong"></div><div class="glass-effect__edge-light"></div><div class="glass-effect__edge-dark"></div><div class="glass-effect__inner-glow"></div></div><svg class="hud-audio-icon" width="22" height="13" viewBox="0 0 20 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <g class="hud-audio-wave-wrap">
+        <polyline class="hud-audio-wave" points="1.60,6.00 3.28,6.00 4.96,6.00 6.64,6.00 8.32,6.00 10.00,6.00 11.68,6.00 13.36,6.00 15.04,6.00 16.72,6.00 18.40,6.00" vector-effect="non-scaling-stroke" stroke-linecap="round" stroke-linejoin="round">
+          <animate attributeName="points" dur="1.2s" begin="indefinite" repeatCount="indefinite" calcMode="linear" values="1.60,4.24 3.28,3.12 4.96,3.21 6.64,4.47 8.32,6.38 10.00,8.12 11.68,8.98 13.36,8.58 15.04,7.10 16.72,5.16 18.40,3.57; 1.60,3.26 3.28,3.09 4.96,4.14 6.64,5.97 8.32,7.81 10.00,8.90 11.68,8.77 13.36,7.47 15.04,5.56 16.72,3.83 18.40,3.02; 1.60,3.02 3.28,3.83 4.96,5.56 6.64,7.47 8.32,8.77 10.00,8.90 11.68,7.81 13.36,5.97 15.04,4.14 16.72,3.09 18.40,3.26; 1.60,3.57 3.28,5.16 4.96,7.10 6.64,8.58 8.32,8.98 10.00,8.12 11.68,6.38 13.36,4.47 15.04,3.21 16.72,3.12 18.40,4.24; 1.60,4.78 3.28,6.72 4.96,8.35 6.64,9.00 8.32,8.39 10.00,6.78 11.68,4.84 13.36,3.39 15.04,3.03 16.72,3.92 18.40,5.69; 1.60,6.31 3.28,8.08 4.96,8.97 6.64,8.61 8.32,7.16 10.00,5.22 11.68,3.61 13.36,3.00 15.04,3.65 16.72,5.28 18.40,7.22; 1.60,7.76 3.28,8.88 4.96,8.79 6.64,7.53 8.32,5.62 10.00,3.88 11.68,3.02 13.36,3.42 15.04,4.90 16.72,6.84 18.40,8.43; 1.60,8.74 3.28,8.91 4.96,7.86 6.64,6.03 8.32,4.19 10.00,3.10 11.68,3.23 13.36,4.53 15.04,6.44 16.72,8.17 18.40,8.98; 1.60,8.98 3.28,8.17 4.96,6.44 6.64,4.53 8.32,3.23 10.00,3.10 11.68,4.19 13.36,6.03 15.04,7.86 16.72,8.91 18.40,8.74; 1.60,8.43 3.28,6.84 4.96,4.90 6.64,3.42 8.32,3.02 10.00,3.88 11.68,5.62 13.36,7.53 15.04,8.79 16.72,8.88 18.40,7.76; 1.60,7.22 3.28,5.28 4.96,3.65 6.64,3.00 8.32,3.61 10.00,5.22 11.68,7.16 13.36,8.61 15.04,8.97 16.72,8.08 18.40,6.31; 1.60,5.69 3.28,3.92 4.96,3.03 6.64,3.39 8.32,4.84 10.00,6.78 11.68,8.39 13.36,9.00 15.04,8.35 16.72,6.72 18.40,4.78; 1.60,4.24 3.28,3.12 4.96,3.21 6.64,4.47 8.32,6.38 10.00,8.12 11.68,8.98 13.36,8.58 15.04,7.10 16.72,5.16 18.40,3.57"></animate>
+        </polyline>
+      </g>
+    </svg></button></div><div class="hud-right-group"><div class="hud-xp has-glass"><div class="glass-effect" aria-hidden="true"><div class="glass-effect__fill"></div><div class="glass-effect__fill-burn"></div><div class="glass-effect__highlight-soft"></div><div class="glass-effect__highlight-strong"></div><div class="glass-effect__edge-light"></div><div class="glass-effect__edge-dark"></div><div class="glass-effect__inner-glow"></div></div><img src="assets/ui/xp.webp" class="hud-xp-icon" alt="XP"><span class="hud-xp-value">0</span><span class="hud-xp-label">XP</span></div></div><div class="hud-status" aria-live="polite" style="opacity: 1;"><span class="hud-status-label">DRAW A ZERO</span><span class="hud-status-chevron"><svg width="14" height="8" viewBox="0 0 14 8" aria-hidden="true"><path d="M1 1L7 7L13 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"></path></svg></span></div><div class="scroll-indicator has-glass" aria-hidden="true" style="opacity: 0;"><div class="glass-effect" aria-hidden="true"><div class="glass-effect__fill"></div><div class="glass-effect__fill-burn"></div><div class="glass-effect__highlight-soft"></div><div class="glass-effect__highlight-strong"></div><div class="glass-effect__edge-light"></div><div class="glass-effect__edge-dark"></div><div class="glass-effect__inner-glow"></div></div><span class="scroll-indicator-dot"></span><span class="scroll-indicator-label">SCROLL</span></div><div class="next-stage-trigger"><div class="next-stage-btn-stroke"></div><svg class="next-stage-btn-progress" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="46" style="stroke-dasharray: 289.027; stroke-dashoffset: 289.027;"></circle></svg><button class="next-stage-btn" aria-label="Continue to next stage"><span class="next-stage-hit" aria-hidden="true"></span></button><div class="next-stage-label"></div></div><div class="scroll-ruler" style="opacity: 0;"><div class="scroll-ruler-track" aria-hidden="true" style="width: 1596px; transform: translateX(150px);"><div class="ruler-tick major" style="left: 51.8947px;"><span class="ruler-line"></span><span class="ruler-label">-100 BZ</span></div><div class="ruler-tick minor" style="left: 63.152px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 74.4094px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 85.6667px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 96.924px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 108.181px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 119.439px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 130.696px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 141.953px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 153.211px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 164.468px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 175.725px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 186.982px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 198.24px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 209.497px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 220.754px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 232.012px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 243.269px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 254.526px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 266.105px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 277.684px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 289.263px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 300.842px;"><span class="ruler-line"></span></div><div class="ruler-tick major" style="left: 312.421px;"><span class="ruler-line"></span><span class="ruler-label">-75 BZ</span></div><div class="ruler-tick minor" style="left: 324px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 335.579px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 347.158px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 358.737px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 370.316px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 381.895px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 393.474px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 405.053px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 416.632px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 428.211px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 439.789px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 451.368px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 462.947px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 474.526px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 486.105px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 497.684px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 509.263px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 520.842px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 532.421px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 544px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 555.579px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 567.158px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 578.737px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 590.316px;"><span class="ruler-line"></span></div><div class="ruler-tick major" style="left: 601.895px;"><span class="ruler-line"></span><span class="ruler-label">-50 BZ</span></div><div class="ruler-tick minor" style="left: 613.298px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 624.702px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 636.105px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 647.509px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 658.912px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 670.316px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 681.719px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 693.123px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 704.526px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 715.93px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 727.333px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 738.737px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 750.14px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 761.544px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 772.947px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 784.351px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 795.754px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 807.158px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 818.561px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 829.965px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 841.368px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 852.772px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 864.175px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 875.579px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 886.982px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 898.386px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 909.789px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 921.193px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 932.596px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 944px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 955.404px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 966.807px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 978.211px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 989.789px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1001.37px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1012.95px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1024.53px;"><span class="ruler-line"></span></div><div class="ruler-tick major" style="left: 1036.11px;"><span class="ruler-line"></span><span class="ruler-label">-25 BZ</span></div><div class="ruler-tick minor" style="left: 1047.62px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1059.14px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1070.65px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1082.17px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1093.69px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1105.2px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1116.72px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1128.24px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1139.75px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1151.27px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1162.79px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1174.3px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1185.82px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1197.33px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1208.85px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1220.37px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1231.88px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1243.4px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1254.92px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1266.43px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1277.95px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1289.47px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1300.98px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1312.5px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1324.01px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1335.53px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1347.05px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1358.56px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1370.08px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1381.6px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1393.11px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1404.63px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1416.15px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1427.66px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1439.18px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1450.69px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1462.21px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1473.79px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1485.37px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1496.95px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1508.53px;"><span class="ruler-line"></span></div><div class="ruler-tick major" style="left: 1520.11px;"><span class="ruler-line"></span><span class="ruler-label">0 BZ</span></div><div class="ruler-tick minor" style="left: 1531.68px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1543.26px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1554.84px;"><span class="ruler-line"></span></div><div class="ruler-tick minor" style="left: 1566.42px;"><span class="ruler-line"></span></div></div><div class="scroll-ruler-indicator" aria-hidden="true"></div><div class="scroll-ruler-nav"><button class="scroll-ruler-nav-btn" type="button" data-segment="stage1" aria-label="Go to stage -100 BZ"><span class="scroll-ruler-nav-label">-100 BZ</span><span class="scroll-ruler-nav-line"></span><span class="scroll-ruler-nav-spinner" aria-hidden="true"></span></button><button class="scroll-ruler-nav-btn" type="button" data-segment="stage2" aria-label="Go to stage -75 BZ"><span class="scroll-ruler-nav-label">-75 BZ</span><span class="scroll-ruler-nav-line"></span><span class="scroll-ruler-nav-spinner" aria-hidden="true"></span></button><button class="scroll-ruler-nav-btn" type="button" data-segment="stage3" aria-label="Go to stage -50 BZ"><span class="scroll-ruler-nav-label">-50 BZ</span><span class="scroll-ruler-nav-line"></span><span class="scroll-ruler-nav-spinner" aria-hidden="true"></span></button><button class="scroll-ruler-nav-btn" type="button" data-segment="stage4" aria-label="Go to stage -25 BZ"><span class="scroll-ruler-nav-label">-25 BZ</span><span class="scroll-ruler-nav-line"></span><span class="scroll-ruler-nav-spinner" aria-hidden="true"></span></button><button class="scroll-ruler-nav-btn" type="button" data-segment="stage5" aria-label="Go to stage 0 BZ"><span class="scroll-ruler-nav-label">0 BZ</span><span class="scroll-ruler-nav-line"></span><span class="scroll-ruler-nav-spinner" aria-hidden="true"></span></button></div></div><div class="loader-circle-hint is-visible is-demo" aria-hidden="true"><div class="loader-circle-stage"><div class="loader-circle-ring" style="transform: rotate(4320deg); background: conic-gradient(rgba(255, 255, 255, 0.85) 0deg, rgba(255, 255, 255, 0) 4deg, rgba(255, 255, 255, 0) 354.75deg, rgba(255, 255, 255, 0.85) 360deg);"></div><div class="loader-circle-handle" style="transform: translate3d(-0.0006046px, -180px, 0px);"></div></div></div></div>
+  
+
+<div data-custom-cursor="1" style="position: fixed; top: 0px; left: 0px; width: 56px; height: 56px; pointer-events: none; z-index: 999999; background-image: url(&quot;/assets/ui/cursors_atlas.webp&quot;); background-size: 168px 112px; background-position: -112px 0px; background-repeat: no-repeat; image-rendering: -webkit-optimize-contrast; transform: translate3d(720px, 450px, 0px); will-change: transform; opacity: 1; transition: opacity 0.15s;"></div><video muted="" playsinline="" webkit-playsinline="" preload="auto" crossorigin="anonymous" src="blob:https://why.zero.university/25067afc-6a28-47dd-bfd9-8127aa2e088b" style="position: fixed; width: 2px; height: 2px; right: 0px; bottom: 0px; opacity: 0; pointer-events: none; z-index: -1;"></video><video muted="" playsinline="" webkit-playsinline="" loop="" preload="auto" crossorigin="anonymous" src="/assets/videos/stage2_background_video-desktop.mp4" style="position: fixed; left: 0px; top: 0px; width: 1px; height: 1px; opacity: 0; pointer-events: none; z-index: -1;"></video></body></html>

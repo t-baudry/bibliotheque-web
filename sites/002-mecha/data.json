@@ -1,0 +1,764 @@
+{
+ "id": 2,
+ "name": "MECHA",
+ "sourceUrl": "https://mecha-xyz.webflow.io/",
+ "capturedAt": "2026-11-02T23:07:21.865Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "ok (11 Ko)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg",
+   "desktop-13.jpg",
+   "desktop-14.jpg"
+  ],
+  "fullPage": 12440,
+  "subpages": [
+   {
+    "url": "https://mecha-xyz.webflow.io/blog",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://mecha-xyz.webflow.io/",
+ "title": "Mecha Capital | Robotics & AI Investment in Legacy Ind.",
+ "lang": "en",
+ "generator": "Webflow",
+ "seo": {
+  "description": "Mecha Capital deploys physical automation into waste management, healthcare, and landscaping. Investing in robotics and AI to transform legacy industries.",
+  "canonical": null,
+  "robots": null,
+  "ogTitle": "Mecha Capital | Robotics & AI Investment in Legacy Ind.",
+  "ogImage": "https://cdn.prod.website-files.com/6a180066e6ba27b81a7ef915/6a180066e6ba27b81a7ef9c3_OG-1%20(1).png",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [],
+  "h1Count": 4,
+  "headings": [
+   "H1 Robotics will knock over the global economy. Mecha deploys physical automation into legacy",
+   "H1 Tomorrow Recycling",
+   "H1 Aescape",
+   "H1 The non-fiction revolution",
+   "H2 The edge isn't the thesis. It's the people executing it.",
+   "H2 Invest with us, share an opportunity, or make an inquiry."
+  ],
+  "imgs": 93,
+  "imgNoAlt": 93,
+  "favicon": "https://cdn.prod.website-files.com/6a180066e6ba27b81a7ef915/6a180066e6ba27b81a7ef9c5_webclip%20(1).jpg",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#ffffff",
+    "w": 3847645
+   },
+   {
+    "v": "#ebf0f0",
+    "w": 728450
+   },
+   {
+    "v": "#e9edef",
+    "w": 496345
+   },
+   {
+    "v": "#ebeae0",
+    "w": 242571
+   },
+   {
+    "v": "#911a46",
+    "w": 78057
+   },
+   {
+    "v": "#000000",
+    "w": 5700
+   },
+   {
+    "v": "#262933",
+    "w": 4032
+   }
+  ],
+  "text": [
+   {
+    "v": "#262933",
+    "w": 3416
+   },
+   {
+    "v": "#000000",
+    "w": 59
+   },
+   {
+    "v": "#ffffff",
+    "w": 31
+   }
+  ],
+  "border": [
+   {
+    "v": "#000000",
+    "w": 2
+   }
+  ],
+  "fonts": [
+   {
+    "v": "Neue Haas Grotesk",
+    "w": 3248
+   },
+   {
+    "v": "Flecha M",
+    "w": 256
+   },
+   {
+    "v": "\\Haas Grot Tex",
+    "w": 2
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "9.8956px",
+    "w": 242
+   },
+   {
+    "v": "15.833px",
+    "w": 44
+   },
+   {
+    "v": "11.8747px",
+    "w": 26
+   },
+   {
+    "v": "93px",
+    "w": 13
+   },
+   {
+    "v": "59.3736px",
+    "w": 11
+   },
+   {
+    "v": "79.1648px",
+    "w": 5
+   }
+  ],
+  "radius": [
+   {
+    "v": "1px",
+    "w": 1
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "ease 0.2s",
+    "w": 7
+   },
+   {
+    "v": "ease-in-out 0.6s",
+    "w": 4
+   },
+   {
+    "v": "ease 0.8s",
+    "w": 4
+   },
+   {
+    "v": "ease-in-out 0.3s",
+    "w": 2
+   },
+   {
+    "v": "ease 0.35s",
+    "w": 1
+   },
+   {
+    "v": "ease 0.25s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "\"Flecha M\", Verdana, sans-serif",
+    "size": "59.3736px",
+    "weight": "400",
+    "lineHeight": "54.6237px",
+    "letterSpacing": "-1.18747px",
+    "transform": "none",
+    "color": "#262933",
+    "sample": "Robotics will knock over the global economy. Mecha deploys physical automation i"
+   },
+   "h2": {
+    "family": "\"Flecha M\", Verdana, sans-serif",
+    "size": "59.3736px",
+    "weight": "400",
+    "lineHeight": "54.6237px",
+    "letterSpacing": "-1.18747px",
+    "transform": "none",
+    "color": "#262933",
+    "sample": "The edge isn't the thesis. It's the people executing it."
+   },
+   "p": {
+    "family": "\"Neue Haas Grotesk\", Verdana, sans-serif",
+    "size": "9.8956px",
+    "weight": "400",
+    "lineHeight": "14.8434px",
+    "letterSpacing": "0.098956px",
+    "transform": "uppercase",
+    "color": "#262933",
+    "sample": "increase in material recovery rate"
+   },
+   "a": {
+    "family": "\"Neue Haas Grotesk\", Verdana, sans-serif",
+    "size": "15.833px",
+    "weight": "400",
+    "lineHeight": "23.7494px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#262933",
+    "sample": "INVESTMENTS"
+   },
+   "body": {
+    "family": "\"Neue Haas Grotesk\", Verdana, sans-serif",
+    "size": "15.833px",
+    "weight": "400",
+    "lineHeight": "23.7494px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#262933",
+    "sample": "PreviousNextCloseFuture of robotics begins hereInvest with us or share an opport"
+   }
+  },
+  "cssVars": {
+   "--_🟢-colors---primary--pure-white": "#fff",
+   "--body": "\"Neue Haas Grotesk\", Verdana, sans-serif",
+   "--_🟢-colors---primary--pure-black": "var(--_🟢-colors---palette--dark-gray)",
+   "--heading-family": "\"Flecha M\", Verdana, sans-serif",
+   "--_🟢-typography---heading-large--font-color": "var(--_🟢-colors---primary--pure-black)",
+   "--_🟢-typography---heading-large--font-size": "2.25rem",
+   "--_🟢-typography---heading-large--line-height": "1.02",
+   "--_🟢-typography---heading-large--font-weight": "400",
+   "--_🟢-typography---heading-large--letter-spacing": "-.02em",
+   "--_🟢-typography---heading-medium--font-color": "var(--_🟢-colors---primary--pure-black)",
+   "--_🟢-typography---heading-medium--font-size": "2rem",
+   "--_🟢-typography---heading-medium--line-height": "1.02",
+   "--_🟢-typography---heading-medium--font-weight": "400",
+   "--_🟢-typography---heading-medium--letter-spacing": "-.02em",
+   "--_🟢-typography---heading-small--font-color": "var(--_🟢-colors---primary--pure-black)",
+   "--_🟢-typography---heading-small--font-size": "1.75rem",
+   "--_🟢-typography---heading-small--line-height": "1",
+   "--_🟢-typography---heading-small--font-weight": "400",
+   "--_🟢-typography---heading-small--letter-spacing": "-.02em",
+   "--title-family": "\"Neue Haas Grotesk\", Verdana, sans-serif",
+   "--_🟢-typography---title-large--font-color": "var(--_🟢-colors---primary--pure-black)",
+   "--_🟢-typography---title-large--font-size": "1.5rem",
+   "--_🟢-typography---title-large--line-height": "1.2",
+   "--_🟢-typography---title-large--font-weight": "400",
+   "--_🟢-typography---title-large--letter-spacing": "-.04em",
+   "--_🟢-typography---title-medium--font-color": "var(--_🟢-colors---primary--pure-black)",
+   "--_🟢-typography---title-medium--font-size": "1.25rem",
+   "--_🟢-typography---title-medium--line-height": "1.24",
+   "--_🟢-typography---title-medium--font-weight": "400",
+   "--_🟢-typography---title-medium--letter-spacing": "-.04em",
+   "--_🟢-typography---title-small--font-color": "var(--_🟢-colors---primary--pure-black)",
+   "--_🟢-typography---title-small--font-size": "1.125rem",
+   "--_🟢-typography---title-small--line-height": "1.32",
+   "--_🟢-typography---title-small--font-weight": "400",
+   "--_🟢-typography---title-small--letter-spacing": "-.04em",
+   "--_🟢-typography---body-medium--font-color": "var(--_🟢-colors---primary--pure-black)",
+   "--_🟢-typography---body-medium--font-size": ".875rem",
+   "--_🟢-typography---body-medium--line-height": "1.44",
+   "--_🟢-typography---body-medium--font-weight": "400",
+   "--_🟢-typography---body-medium--letter-spacing": ".02em",
+   "--_🟢-layout-and-spacing---section-padding": "16px",
+   "--_🟢-layout-and-spacing---container-width": "100%",
+   "--_🟢-typography---title-large--font-family": "var(--title-family)",
+   "--_🟢-colors---primary--blue": "blue",
+   "--_🟢-typography---body-large--font-size": "1rem",
+   "--_🟢-typography---body-large--line-height": "1.44",
+   "--_🟢-typography---body-large--font-weight": "400",
+   "--_🟢-typography---body-large--letter-spacing": ".02em",
+   "--_🟢-typography---body-small--font-color": "var(--_🟢-colors---primary--pure-black)",
+   "--_🟢-typography---body-small--font-size": ".75rem",
+   "--_🟢-typography---body-small--line-height": "1.44",
+   "--_🟢-typography---body-small--font-weight": "400",
+   "--_🟢-typography---body-small--letter-spacing": ".02em",
+   "--caption-family": "\"Neue Haas Grotesk\", Verdana, sans-serif",
+   "--_🟢-typography---caption--font-size": "10px",
+   "--_🟢-typography---caption--line-height": "1.5",
+   "--_🟢-typography---caption--font-weight": "400",
+   "--_🟢-typography---caption--letter-spacing": ".01em",
+   "--_🟢-colors---dark-40p": "#26293373",
+   "--_🟢-colors---palette--dark-gray": "#262933",
+   "--_🟢-colors---text--text-gray": "#a3a3a3",
+   "--_🟢-colors---background--bg-gray-100": "#ebebeb",
+   "--_🟢-colors---background--bg-gray-300": "#464646",
+   "--_🟢-colors---palette--maroon": "#911a46",
+   "--_🟢-colors---palette--sand": "#e9e7db",
+   "--_🟢-colors---palette--sky-blue": "#c5f0f7",
+   "--_🟢-colors---palette--steel-mist-100": "#e9edef",
+   "--_🟢-colors---palette--steel-mist-200": "#d3dbde",
+   "--_🟢-colors---palette--steel-gray": "#687980",
+   "--_🟢-colors---stroke--stroke-light": "#ffffff26",
+   "--_🟢-colors---stroke--stroke-dark": "#00000026",
+   "--_🟢-colors---stroke--stroke-solid": "#000",
+   "--_🟢-colors---stroke--inverse-stroke": "#fff",
+   "--_🟢-typography---caption--font-color": "var(--_🟢-colors---primary--pure-black)",
+   "--_🟢-typography---heading-large--font-family": "var(--heading-family)",
+   "--_🟢-typography---heading-medium--font-family": "var(--heading-family)",
+   "--_🟢-layout-and-spacing---max-width-small": "0ch",
+   "--_🟢-typography---heading-small--font-family": "var(--heading-family)",
+   "--_🟢-layout-and-spacing---max-width-medium": "0ch",
+   "--_🟢-layout-and-spacing---max-width-large": "0ch",
+   "--_🟢-typography---title-medium--font-family": "var(--title-family)",
+   "--_🟢-typography---title-small--font-family": "var(--title-family)",
+   "--_🟢-typography---body-large--font-family": "var(--body)",
+   "--_🟢-typography---body-large--font-color": "var(--_🟢-colors---primary--pure-black)",
+   "--_🟢-typography---body-medium--font-family": "var(--body)",
+   "--_🟢-typography---body-small--font-family": "var(--body)",
+   "--_🟢-typography---caption--font-family": "var(--caption-family)",
+   "--font-from": "4",
+   "--font-to": "12",
+   "--vw-from": "calc(1 / 100)",
+   "--vw-to": "calc(320 / 100)",
+   "--coefficient": "calc((var(--font-to) - var(--font-from)) / (var(--vw-to) - var(--vw-from)))",
+   "--base": "calc((var(--font-from) - var(--vw-from) * var(--coefficient)) / 16)"
+  },
+  "fontFaces": [
+   {
+    "family": "webflow-icons",
+    "weight": "normal",
+    "style": "normal",
+    "src": "url(\"data:application/x-font-ttf;charset=utf-8;base64,AAEAAAALAIAAAwAwT1MvMg8SBiUAAAC8AAAAYGNtYXDpP+a4AAABHAAAAFxnYXNwAAAAEAAAAXgAAAAIZ2x5ZmhS2XEAAAGAAAADHGhlYWQTFw3HAAAEnAAAADZoaGVhCXYFgQAABNQAAAAkaG"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/6a180066e6ba27b81a7ef915/6a180066e6ba27b81a7ef926_NeueHaasGroteskText-55Roman-Web.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Flecha M",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/6a180066e6ba27b81a7ef915/6a180066e6ba27b81a7ef932_FlechaM-Regular.woff2\") format(\"woff2\")"
+   }
+  ],
+  "keyframes": [
+   "spin"
+  ],
+  "breakpoints": [
+   {
+    "v": "991px",
+    "w": 9
+   },
+   {
+    "v": "767px",
+    "w": 7
+   },
+   {
+    "v": "479px",
+    "w": 7
+   },
+   {
+    "v": "768px",
+    "w": 2
+   },
+   {
+    "v": "0px",
+    "w": 1
+   },
+   {
+    "v": "480px",
+    "w": 1
+   },
+   {
+    "v": "1920px",
+    "w": 1
+   },
+   {
+    "v": "1440px",
+    "w": 1
+   },
+   {
+    "v": "375px",
+    "w": 1
+   },
+   {
+    "v": "320px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 1201,
+  "crossOriginSheets": 1
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "sidebar",
+    "h": 12304,
+    "title": "",
+    "media": 2
+   },
+   {
+    "tag": "div",
+    "id": "main-body",
+    "cls": "main-body",
+    "h": 12304,
+    "title": "Robotics will knock over the global economy. Mecha deploys physical automation i",
+    "media": 101
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "change-bg-element",
+    "h": 900,
+    "title": "",
+    "media": 0
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "Investments",
+    "href": "https://mecha-xyz.webflow.io/#investments"
+   },
+   {
+    "t": "Teams",
+    "href": "https://mecha-xyz.webflow.io/#teams"
+   },
+   {
+    "t": "Contact",
+    "href": "https://mecha-xyz.webflow.io/#contact"
+   },
+   {
+    "t": "Blog",
+    "href": "https://mecha-xyz.webflow.io/#"
+   },
+   {
+    "t": "Join the revolution",
+    "href": "https://mecha-xyz.webflow.io/#"
+   },
+   {
+    "t": "Linkedin",
+    "href": "https://www.linkedin.com/in/ryan-mckillen"
+   },
+   {
+    "t": "Linkedin",
+    "href": "https://www.linkedin.com/in/matt-sweeney"
+   },
+   {
+    "t": "Linkedin",
+    "href": "https://www.linkedin.com/in/grant-wilson-1600437"
+   },
+   {
+    "t": "Linkedin",
+    "href": "https://www.linkedin.com/in/danielcintra"
+   },
+   {
+    "t": "Linkedin",
+    "href": "https://www.linkedin.com/in/chase-keesling-171b2a156"
+   },
+   {
+    "t": "Linkedin",
+    "href": "https://www.linkedin.com/in/matthewhgoetz"
+   }
+  ],
+  "ctas": [
+   "Join the revolution"
+  ],
+  "pageHeight": 12304,
+  "counts": {
+   "canvas": 1,
+   "videos": 11,
+   "imgs": 93,
+   "svgs": 12,
+   "iframes": 0,
+   "domNodes": 1956
+  }
+ },
+ "tech": {
+  "gsap": true,
+  "gsapVersion": "3.15.0",
+  "scrollTrigger": true,
+  "splitText": true,
+  "lenis": true,
+  "locomotive": true,
+  "three": true,
+  "threeRevision": "160",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": true,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": true,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6a180066e6ba27b81a7ef915",
+  "https://cdn.prod.website-files.com/6a180066e6ba27b81a7ef915/js/webflow.schunk.d526b2079e7923fa.js",
+  "https://cdn.prod.website-files.com/6a180066e6ba27b81a7ef915/js/webflow.schunk.39eb9a839e5f63d7.js",
+  "https://cdn.prod.website-files.com/6a180066e6ba27b81a7ef915/js/webflow.c7b391f8.0761f3b60a49c66c.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/CustomEase.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/ScrollToPlugin.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/DrawSVGPlugin.min.js",
+  "https://unpkg.com/lenis@1.3.23/dist/lenis.min.js"
+ ],
+ "internal": [
+  "https://mecha-xyz.webflow.io/blog"
+ ],
+ "perf": {
+  "ttfb": 145,
+  "dcl": 589,
+  "load": 801,
+  "lcp": 408,
+  "lcpEl": "H1.is-h-m",
+  "cls": 0.008
+ },
+ "libs": {
+  "detected": [
+   "GSAP",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "DrawSVG/MorphSVG",
+   "Lottie",
+   "jQuery",
+   "Lenis",
+   "Virtual scroll",
+   "Three.js"
+  ],
+  "where": {
+   "GSAP": [
+    "001-CustomEase.min.js",
+    "001-ScrollToPlugin.min.js",
+    "002-CustomEase.min.js",
+    "002-ScrollToPlugin.min.js",
+    "002-SplitText.min.js",
+    "003-DrawSVGPlugin.min.js",
+    "003-SplitText.min.js",
+    "004-DrawSVGPlugin.min.js",
+    "004-SplitText.min.js",
+    "005-gsap.min.js",
+    "005-ScrollTrigger.min.js",
+    "006-ScrollTrigger.min.js",
+    "007-ScrollTrigger.min.js",
+    "008-gsap.min.js",
+    "009-CustomEase.min.js"
+   ],
+   "ScrollTrigger": [
+    "001-ScrollToPlugin.min.js",
+    "002-ScrollToPlugin.min.js",
+    "005-gsap.min.js",
+    "005-ScrollTrigger.min.js",
+    "006-ScrollTrigger.min.js",
+    "006-webflow.c7b391f8.0761f3b60a49c66c.js",
+    "007-ScrollTrigger.min.js",
+    "007-webflow.c7b391f8.0761f3b60a49c66c.js",
+    "008-gsap.min.js",
+    "008-webflow.c7b391f8.0761f3b60a49c66c.js"
+   ],
+   "SplitText/SplitType": [
+    "002-SplitText.min.js",
+    "003-SplitText.min.js",
+    "004-SplitText.min.js",
+    "005-gsap.min.js",
+    "006-webflow.c7b391f8.0761f3b60a49c66c.js",
+    "007-webflow.c7b391f8.0761f3b60a49c66c.js",
+    "008-gsap.min.js",
+    "008-webflow.c7b391f8.0761f3b60a49c66c.js",
+    "013-three.module.js"
+   ],
+   "DrawSVG/MorphSVG": [
+    "003-DrawSVGPlugin.min.js",
+    "004-DrawSVGPlugin.min.js"
+   ],
+   "Lottie": [
+    "004-webflow.schunk.39eb9a839e5f63d7.js",
+    "006-webflow.c7b391f8.0761f3b60a49c66c.js",
+    "006-webflow.schunk.39eb9a839e5f63d7.js",
+    "007-webflow.c7b391f8.0761f3b60a49c66c.js",
+    "007-webflow.schunk.39eb9a839e5f63d7.js",
+    "008-webflow.c7b391f8.0761f3b60a49c66c.js",
+    "009-webflow.schunk.d526b2079e7923fa.js",
+    "010-webflow.schunk.d526b2079e7923fa.js"
+   ],
+   "jQuery": [
+    "004-webflow.schunk.39eb9a839e5f63d7.js",
+    "006-webflow.schunk.39eb9a839e5f63d7.js",
+    "007-webflow.schunk.39eb9a839e5f63d7.js",
+    "011-jquery-3.5.1.min.dc5e7f18c8.js"
+   ],
+   "Lenis": [
+    "008-lenis.min.js",
+    "010-lenis.min.js",
+    "styles.css"
+   ],
+   "Virtual scroll": [
+    "008-lenis.min.js",
+    "010-lenis.min.js"
+   ],
+   "Three.js": [
+    "013-three.module.js"
+   ]
+  },
+  "gsapVersion": "3.15.0",
+  "threeRevision": null,
+  "shaders": 5,
+  "scripts": 29
+ },
+ "network": {
+  "requests": 65,
+  "totalKb": 11375,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 43
+   },
+   "Stylesheet": {
+    "n": 2,
+    "kb": 23
+   },
+   "Image": {
+    "n": 35,
+    "kb": 6078
+   },
+   "Script": {
+    "n": 14,
+    "kb": 562
+   },
+   "Font": {
+    "n": 2,
+    "kb": 69
+   },
+   "XHR": {
+    "n": 2,
+    "kb": 5
+   },
+   "Media": {
+    "n": 7,
+    "kb": 4170
+   },
+   "Fetch": {
+    "n": 1,
+    "kb": 424
+   },
+   "Other": {
+    "n": 1,
+    "kb": 1
+   }
+  },
+  "thirdPartyHosts": [
+   "cdn.prod.website-files.com",
+   "unpkg.com",
+   "d3e54v103j8qbb.cloudfront.net",
+   "cdn.jsdelivr.net",
+   "widelabco.sfo3.cdn.digitaloceanspaces.com",
+   "pub-1b4063cac4b14c2ba151fd94c6eb8117.r2.dev"
+  ],
+  "fontFiles": [
+   "https://cdn.prod.website-files.com/6a180066e6ba27b81a7ef915/6a180066e6ba27b81a7ef926_NeueHaasGroteskText-55Roman-Web.woff2",
+   "https://cdn.prod.website-files.com/6a180066e6ba27b81a7ef915/6a180066e6ba27b81a7ef932_FlechaM-Regular.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://widelabco.sfo3.cdn.digitaloceanspaces.com/Greenwaycomputervision%20Short2.webm",
+    "kb": 2248,
+    "type": "Media"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/6a180066e6ba27b81a7ef915/6a180066e6ba27b81a7ef99c_cut_1-ezgif.com-optimize.gif",
+    "kb": 1829,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/69e776c5f7729eda0138d932/69eab0a15f1a891d41f61e84_jfground.jpg",
+    "kb": 883,
+    "type": "Image"
+   },
+   {
+    "url": "https://widelabco.sfo3.cdn.digitaloceanspaces.com/Pojazd%20Sand.webm",
+    "kb": 761,
+    "type": "Media"
+   },
+   {
+    "url": "https://widelabco.sfo3.cdn.digitaloceanspaces.com/Tr%20Greenville%20Robot%20Edit.webm",
+    "kb": 752,
+    "type": "Media"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/6a180066e6ba27b81a7ef915/6a180066e6ba27b81a7ef97f_building-space%201%20(1).png",
+    "kb": 731,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/6a180066e6ba27b81a7ef915/6a180066e6ba27b81a7ef974_image%2035830.png",
+    "kb": 609,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/6a180066e6ba27b81a7ef915/6a180066e6ba27b81a7ef97e_smart-robotic-farmers-concept-robot-farmers-agriculture-technology-farm-aut",
+    "kb": 500,
+    "type": "Image"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "32.5769px",
+   "lineHeight": "33.2285px"
+  },
+  "body": "16.2885px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 289
+}

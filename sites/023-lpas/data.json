@@ -1,0 +1,118 @@
+{
+ "id": 23,
+ "name": "LPAS",
+ "sourceUrl": "https://lpas.com/",
+ "capturedAt": "2026-11-02T23:37:56.518Z",
+ "status": "inaccessible",
+ "errors": [
+  "goto load: page.goto: Target page, context or browser has been closed",
+  "goto dcl: page.goto: Target page, context or browser has been closed",
+  "shot0 browserContext.newCDPSession: Target page, context or browser has been closed",
+  "extract: page.evaluate: Target page, context or browser has been closed",
+  "fullpage: page.evaluate: Target page, context or browser has been closed",
+  "browser.newContext: Target page, context or browser has been closed"
+ ],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [],
+  "subpages": [],
+  "video": "desktop-scroll.webm"
+ },
+ "httpStatus": null,
+ "libs": {
+  "detected": [
+   "Lenis"
+  ],
+  "where": {
+   "Lenis": [
+    "styles.css"
+   ]
+  },
+  "gsapVersion": null,
+  "threeRevision": null,
+  "shaders": 0,
+  "scripts": 2
+ },
+ "network": {
+  "requests": 35,
+  "totalKb": 5413,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 14
+   },
+   "Image": {
+    "n": 24,
+    "kb": 5144
+   },
+   "Script": {
+    "n": 6,
+    "kb": 107
+   },
+   "Stylesheet": {
+    "n": 1,
+    "kb": 24
+   },
+   "Font": {
+    "n": 2,
+    "kb": 126
+   },
+   "Media": {
+    "n": 1,
+    "kb": 0
+   }
+  },
+  "thirdPartyHosts": [
+   "download-video-ak.vimeocdn.com"
+  ],
+  "fontFiles": [
+   "https://lpas.com/wp-content/themes/lpas/dist/assets/aeonik-semibold-B5O2lxMW.woff",
+   "https://lpas.com/wp-content/themes/lpas/dist/assets/aeonik-regular-DSAxWCt1.woff"
+  ],
+  "biggest": [
+   {
+    "url": "https://lpas.com/wp-content/uploads/2025/09/lpas_image-13.jpg",
+    "kb": 976,
+    "type": "Image"
+   },
+   {
+    "url": "https://lpas.com/wp-content/uploads/2025/12/12_Block-52_Madison-by-Lennar.jpg",
+    "kb": 613,
+    "type": "Image"
+   },
+   {
+    "url": "https://lpas.com/wp-content/uploads/2025/12/08_The-Emery.jpg",
+    "kb": 585,
+    "type": "Image"
+   },
+   {
+    "url": "https://lpas.com/wp-content/uploads/2025/12/16_316-Vernon.jpg",
+    "kb": 506,
+    "type": "Image"
+   },
+   {
+    "url": "https://lpas.com/wp-content/uploads/2026/01/20_UCDH_Folsom-MOB_FULLSIZE.jpg",
+    "kb": 399,
+    "type": "Image"
+   },
+   {
+    "url": "https://lpas.com/wp-content/uploads/resized/2025/12/05_FREDERIC_Storefront-1280x800-c-default.webp",
+    "kb": 211,
+    "type": "Image"
+   },
+   {
+    "url": "https://lpas.com/wp-content/uploads/resized/2025/10/12_Block-52_Madison-by-Lennar-1600x1091-c-default.webp",
+    "kb": 180,
+    "type": "Image"
+   },
+   {
+    "url": "https://lpas.com/wp-content/uploads/2025/12/LPAS-office-thumbnail.jpg",
+    "kb": 154,
+    "type": "Image"
+   }
+  ]
+ },
+ "durationS": 10
+}

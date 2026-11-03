@@ -1,0 +1,267 @@
+[
+ {
+  "file": "001-webflow.751e0867.148dc658e77a3916.js",
+  "url": "https://cdn.prod.website-files.com/69e88d0efafb70caf79fbd65/js/webflow.751e0867.148dc658e77a3916.js",
+  "kb": 1
+ },
+ {
+  "file": "002-webflow.schunk.7321a5097fb66f41.js",
+  "url": "https://cdn.prod.website-files.com/69e88d0efafb70caf79fbd65/js/webflow.schunk.7321a5097fb66f41.js",
+  "kb": 35
+ },
+ {
+  "file": "003-attributes.js",
+  "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js",
+  "kb": 4
+ },
+ {
+  "file": "004-lenis.min.js",
+  "url": "https://cdn.jsdelivr.net/npm/lenis@1.3.17/dist/lenis.min.js",
+  "kb": 17
+ },
+ {
+  "file": "005-ScrollTrigger.min.js",
+  "url": "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/ScrollTrigger.min.js",
+  "kb": 44
+ },
+ {
+  "file": "006-CustomEase.min.js",
+  "url": "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/CustomEase.min.js",
+  "kb": 7
+ },
+ {
+  "file": "007-barba.umd.min.js",
+  "url": "https://cdn.jsdelivr.net/npm/@barba/core@2.10.3/dist/barba.umd.min.js",
+  "kb": 31
+ },
+ {
+  "file": "008-gsap.min.js",
+  "url": "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/gsap.min.js",
+  "kb": 71
+ },
+ {
+  "file": "009-Observer.min.js",
+  "url": "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/Observer.min.js",
+  "kb": 10
+ },
+ {
+  "file": "010-Flip.min.js",
+  "url": "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/Flip.min.js",
+  "kb": 25
+ },
+ {
+  "file": "011-SplitText.min.js",
+  "url": "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/SplitText.min.js",
+  "kb": 8
+ },
+ {
+  "file": "012-DrawSVGPlugin.min.js",
+  "url": "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/DrawSVGPlugin.min.js",
+  "kb": 4
+ },
+ {
+  "file": "013-InertiaPlugin.min.js",
+  "url": "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/InertiaPlugin.min.js",
+  "kb": 7
+ },
+ {
+  "file": "014-ScrollToPlugin.min.js",
+  "url": "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/ScrollToPlugin.min.js",
+  "kb": 4
+ },
+ {
+  "file": "015-chunk-WIALCYDY.js",
+  "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-WIALCYDY.js",
+  "kb": 1
+ },
+ {
+  "file": "016-chunk-ADKL4AJZ.js",
+  "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-ADKL4AJZ.js",
+  "kb": 2
+ },
+ {
+  "file": "017-chunk-VDEO3AAR.js",
+  "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-VDEO3AAR.js",
+  "kb": 1
+ },
+ {
+  "file": "018-chunk-L4B2V5MO.js",
+  "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-L4B2V5MO.js",
+  "kb": 1
+ },
+ {
+  "file": "019-theme-collector.js",
+  "url": "https://cdn.jsdelivr.net/gh/lumosframework/scripts@v1.1.1/theme-collector.js",
+  "kb": 4
+ },
+ {
+  "file": "020-chunk-J3PPETVR.js",
+  "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-J3PPETVR.js",
+  "kb": 1
+ },
+ {
+  "file": "021-chunk-CB6LZ537.js",
+  "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-CB6LZ537.js",
+  "kb": 0
+ },
+ {
+  "file": "022-Draggable.min.js",
+  "url": "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/Draggable.min.js",
+  "kb": 35
+ },
+ {
+  "file": "023-chunk-N2ZCN6XY.js",
+  "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-N2ZCN6XY.js",
+  "kb": 1
+ },
+ {
+  "file": "024-chunk-XRTLPMPO.js",
+  "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-XRTLPMPO.js",
+  "kb": 1
+ },
+ {
+  "file": "025-chunk-K46K3RI5.js",
+  "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-K46K3RI5.js",
+  "kb": 1
+ },
+ {
+  "file": "026-chunk-ZI7TAH2K.js",
+  "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-ZI7TAH2K.js",
+  "kb": 1
+ },
+ {
+  "file": "027-jquery-3.5.1.min.dc5e7f18c8.js",
+  "url": "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=69e88d0efafb70caf79fbd65",
+  "kb": 87
+ },
+ {
+  "file": "028-chunk-GGDEANQW.js",
+  "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-GGDEANQW.js",
+  "kb": 0
+ },
+ {
+  "file": "029-src-T7SM3ONB.js",
+  "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/src-T7SM3ONB.js",
+  "kb": 94
+ },
+ {
+  "file": "030-chunk-7CAOOJVW.js",
+  "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-7CAOOJVW.js",
+  "kb": 0
+ },
+ {
+  "file": "031-chunk-UAA7M346.js",
+  "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-UAA7M346.js",
+  "kb": 1
+ },
+ {
+  "file": "032-chunk-T2PNG2TC.js",
+  "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-T2PNG2TC.js",
+  "kb": 0
+ },
+ {
+  "file": "033-chunk-ZZRTGM4V.js",
+  "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-ZZRTGM4V.js",
+  "kb": 2
+ },
+ {
+  "file": "034-chunk-WL5KIXHF.js",
+  "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-WL5KIXHF.js",
+  "kb": 0
+ },
+ {
+  "file": "035-3d14b51e-ca04-4c2a-8976-da327361423e.js",
+  "url": "blob:https://www.lxlcreative.co.uk/3d14b51e-ca04-4c2a-8976-da327361423e",
+  "kb": 12
+ },
+ {
+  "file": "036-133c02b4-096c-46e3-8ccc-46fe5d93ef1a.js",
+  "url": "blob:https://www.lxlcreative.co.uk/133c02b4-096c-46e3-8ccc-46fe5d93ef1a",
+  "kb": 12
+ },
+ {
+  "file": "037-c16fbc4b-0413-409b-896e-30b9a77fa7ca.js",
+  "url": "blob:https://www.lxlcreative.co.uk/c16fbc4b-0413-409b-896e-30b9a77fa7ca",
+  "kb": 12
+ },
+ {
+  "file": "038-35b6260b-8a2e-4118-9f56-fb48295bb0fa.js",
+  "url": "blob:https://www.lxlcreative.co.uk/35b6260b-8a2e-4118-9f56-fb48295bb0fa",
+  "kb": 12
+ },
+ {
+  "file": "039-8e1662e7-cd92-4e33-88de-6a056e109ddc.js",
+  "url": "blob:https://www.lxlcreative.co.uk/8e1662e7-cd92-4e33-88de-6a056e109ddc",
+  "kb": 12
+ },
+ {
+  "file": "040-1fe2e097-dbd0-4f09-b6c2-2a4b0070db2d.js",
+  "url": "blob:https://www.lxlcreative.co.uk/1fe2e097-dbd0-4f09-b6c2-2a4b0070db2d",
+  "kb": 12
+ },
+ {
+  "file": "041-0760af46-e6c5-4b7a-94f0-7bfc14d579d2.js",
+  "url": "blob:https://www.lxlcreative.co.uk/0760af46-e6c5-4b7a-94f0-7bfc14d579d2",
+  "kb": 12
+ },
+ {
+  "file": "042-039570b3-197d-4b99-b20f-812dd97ac305.js",
+  "url": "blob:https://www.lxlcreative.co.uk/039570b3-197d-4b99-b20f-812dd97ac305",
+  "kb": 12
+ },
+ {
+  "file": "043-825189ea-b854-45fb-a67a-67be8dd0479c.js",
+  "url": "blob:https://www.lxlcreative.co.uk/825189ea-b854-45fb-a67a-67be8dd0479c",
+  "kb": 12
+ },
+ {
+  "file": "044-38b26a0f-baaa-4511-9cf7-46cad951390b.js",
+  "url": "blob:https://www.lxlcreative.co.uk/38b26a0f-baaa-4511-9cf7-46cad951390b",
+  "kb": 12
+ },
+ {
+  "file": "045-239a5db0-5e96-4c88-b348-b55123cd6855.js",
+  "url": "blob:https://www.lxlcreative.co.uk/239a5db0-5e96-4c88-b348-b55123cd6855",
+  "kb": 12
+ },
+ {
+  "file": "046-7ea8f868-784f-4744-a45b-0ec28e4f1ddc.js",
+  "url": "blob:https://www.lxlcreative.co.uk/7ea8f868-784f-4744-a45b-0ec28e4f1ddc",
+  "kb": 12
+ },
+ {
+  "file": "047-8340f06b-933c-4366-80f1-418190175be3.js",
+  "url": "blob:https://www.lxlcreative.co.uk/8340f06b-933c-4366-80f1-418190175be3",
+  "kb": 12
+ },
+ {
+  "file": "048-2adb1328-5b89-4ecf-a8da-2338dc1afe45.js",
+  "url": "blob:https://www.lxlcreative.co.uk/2adb1328-5b89-4ecf-a8da-2338dc1afe45",
+  "kb": 12
+ },
+ {
+  "file": "049-8466419f-e8f0-4c0c-9cab-16193e98846e.js",
+  "url": "blob:https://www.lxlcreative.co.uk/8466419f-e8f0-4c0c-9cab-16193e98846e",
+  "kb": 12
+ },
+ {
+  "file": "050-bundle.js",
+  "url": "https://cdn.odyn.dev/auto/shdd/bundle.js",
+  "kb": 90
+ },
+ {
+  "file": "051-c63d372d-0ad7-461f-b8c9-775e35c26dc1.js",
+  "url": "blob:https://www.lxlcreative.co.uk/c63d372d-0ad7-461f-b8c9-775e35c26dc1",
+  "kb": 12
+ },
+ {
+  "file": "052-hls.min.js",
+  "url": "https://cdn.jsdelivr.net/npm/hls.js@1.6.11/dist/hls.min.js",
+  "kb": 524
+ },
+ {
+  "file": "053-35fa4b18-421c-46e7-a7a0-77d24fe0b892.js",
+  "url": "blob:https://www.lxlcreative.co.uk/35fa4b18-421c-46e7-a7a0-77d24fe0b892",
+  "kb": 524
+ }
+]

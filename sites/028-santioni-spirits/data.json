@@ -1,0 +1,298 @@
+{
+ "id": 28,
+ "name": "Santioni Spirits",
+ "sourceUrl": "https://santionispirits.com/",
+ "capturedAt": "2026-11-02T23:40:50.565Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg"
+  ],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://santionispirits.com/unsupported",
+ "title": "Not Supported",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": null,
+  "canonical": null,
+  "robots": "noindex",
+  "ogTitle": null,
+  "ogImage": null,
+  "twitterCard": null,
+  "jsonLd": [],
+  "h1Count": 1,
+  "headings": [
+   "H1 Your browser is not supported"
+  ],
+  "imgs": 0,
+  "imgNoAlt": 0,
+  "favicon": null,
+  "themeColor": null
+ },
+ "design": {
+  "bg": [],
+  "text": [
+   {
+    "v": "#ffffff",
+    "w": 55
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "Charles Rosie Regular",
+    "w": 29
+   },
+   {
+    "v": "Times New Roman",
+    "w": 26
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "32px",
+    "w": 1
+   }
+  ],
+  "radius": [],
+  "shadows": [],
+  "transitions": [],
+  "typo": {
+   "h1": {
+    "family": "\"Charles Rosie Regular\", sans-serif",
+    "size": "32px",
+    "weight": "400",
+    "lineHeight": "32px",
+    "letterSpacing": "0.16px",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "Your browser is not supported"
+   },
+   "body": {
+    "family": "\"Times New Roman\"",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Your browser is not supported"
+   }
+  },
+  "cssVars": {},
+  "fontFaces": [
+   {
+    "family": "Charles Rosie Regular",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"../assets/fonts/CharlesRosie.woff2\") format(\"woff2\"), url(\"../assets/fonts/CharlesRosie.woff\") format(\"woff\"), url(\"../assets/fonts/CharlesRosie.otf\") format(\"opentype\")"
+   }
+  ],
+  "keyframes": [],
+  "breakpoints": [],
+  "rulesCount": 5,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [],
+  "navLinks": [],
+  "ctas": [],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 0,
+   "videos": 0,
+   "imgs": 0,
+   "svgs": 1,
+   "iframes": 0,
+   "domNodes": 37
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": false,
+  "locomotive": false,
+  "three": false,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": false
+ },
+ "scripts": [],
+ "internal": [],
+ "perf": {
+  "ttfb": 77,
+  "dcl": 120,
+  "load": 166,
+  "lcp": 180,
+  "lcpEl": "H1",
+  "cls": 0
+ },
+ "libs": {
+  "detected": [
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Lottie",
+   "Sanity"
+  ],
+  "where": {
+   "ScrollTrigger": [
+    "001-app.1782836328290.js"
+   ],
+   "SplitText/SplitType": [
+    "001-app.1782836328290.js"
+   ],
+   "Lottie": [
+    "001-app.1782836328290.js"
+   ],
+   "Sanity": [
+    "001-app.1782836328290.js"
+   ]
+  },
+  "gsapVersion": null,
+  "threeRevision": null,
+  "shaders": 4,
+  "scripts": 1
+ },
+ "network": {
+  "requests": 10,
+  "totalKb": 609,
+  "byType": {
+   "Document": {
+    "n": 2,
+    "kb": 25
+   },
+   "Script": {
+    "n": 2,
+    "kb": 546
+   },
+   "Image": {
+    "n": 2,
+    "kb": 0
+   },
+   "Fetch": {
+    "n": 2,
+    "kb": 0
+   },
+   "Font": {
+    "n": 1,
+    "kb": 32
+   },
+   "Other": {
+    "n": 1,
+    "kb": 7
+   }
+  },
+  "thirdPartyHosts": [
+   "www.googletagmanager.com",
+   "region1.google-analytics.com"
+  ],
+  "fontFiles": [
+   "https://santionispirits.com/assets/fonts/CharlesRosie.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://santionispirits.com/assets/js/app.1782836328290.js",
+    "kb": 369,
+    "type": "Script"
+   },
+   {
+    "url": "https://www.googletagmanager.com/gtag/js?id=G-L7LC5PPCFS",
+    "kb": 178,
+    "type": "Script"
+   },
+   {
+    "url": "https://santionispirits.com/assets/fonts/CharlesRosie.woff2",
+    "kb": 32,
+    "type": "Font"
+   },
+   {
+    "url": "https://santionispirits.com/unsupported",
+    "kb": 18,
+    "type": "Document"
+   },
+   {
+    "url": "https://santionispirits.com/",
+    "kb": 7,
+    "type": "Document"
+   },
+   {
+    "url": "https://santionispirits.com/favicon.ico",
+    "kb": 7,
+    "type": "Other"
+   },
+   {
+    "url": "data:image/webp;base64,UklGRhoAAABXRUJQVlA4TA0AAAAvAAAAEAcQERGIiP4HAA==",
+    "kb": 0,
+    "type": "Image"
+   },
+   {
+    "url": "data:image/avif;base64,AAAAIGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZk1BMUIAAADybWV0YQAAAAAAAAAoaGRscgAAAAAAAAAAcGljdAAAAAAAAAAAAAAAAGxpYmF2aWYAAAAADnBpdG0AAAAAAAEAAAAea",
+    "kb": 0,
+    "type": "Image"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "32px",
+   "lineHeight": "32px"
+  },
+  "body": "16px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 39
+}

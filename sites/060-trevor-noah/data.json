@@ -1,0 +1,858 @@
+{
+ "id": 60,
+ "name": "Trevor Noah",
+ "sourceUrl": "https://www.trevornoah.com/",
+ "capturedAt": "2026-11-03T00:09:14.621Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [
+   "txt:Accept All"
+  ],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg",
+   "desktop-13.jpg",
+   "desktop-14.jpg"
+  ],
+  "fullPage": 10730,
+  "subpages": [
+   {
+    "url": "https://www.trevornoah.com/shows",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.trevornoah.com/watch-listen",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.trevornoah.com/books",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://www.trevornoah.com/",
+ "title": "Trevor Noah - Comedian, Author & Host | Official Site",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Comedian, podcaster, presenter, humanitarian and #1 New York Times bestselling author. Trevor Noah asks questions and sparks conversations.",
+  "canonical": null,
+  "robots": null,
+  "ogTitle": "Trevor Noah - Comedian, Author & Host | Official Site",
+  "ogImage": "https://cdn.prod.website-files.com/69b574b7e8a1b256fc6f5504/6a0ad27d859b1caa9c91c14e_og.webp",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "Person"
+  ],
+  "h1Count": 1,
+  "headings": [
+   "H1 Trevor Noah",
+   "H2 Finding the extraordinary in the ordinary - often interesting, always interestedFinding th",
+   "H3 MediaMedia",
+   "H3 on the screenon the screen",
+   "H3 AboutAbout",
+   "H3 This GuyThis Guy",
+   "H3 LatestLatest",
+   "H3 Where’s Trevor?Where’s Trevor?",
+   "H2 Comedy is really getting quite popular in South AfricaComedy is really getting quite popul",
+   "H3 booksbooks",
+   "H3 on the pageon the page"
+  ],
+  "imgs": 28,
+  "imgNoAlt": 28,
+  "favicon": "https://cdn.prod.website-files.com/69b574b7e8a1b256fc6f5504/69e0cc322e212ee04af17f6f_trevor-favicon.webp",
+  "themeColor": "#1d2440"
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#2b2b2b",
+    "w": 4863578
+   },
+   {
+    "v": "#f9fcf4",
+    "w": 91644
+   },
+   {
+    "v": "#6f7ba9",
+    "w": 16317
+   },
+   {
+    "v": "#ff9bb4",
+    "w": 5253
+   }
+  ],
+  "text": [
+   {
+    "v": "#f9fcf4",
+    "w": 1173
+   },
+   {
+    "v": "#ff9bb4",
+    "w": 168
+   },
+   {
+    "v": "#6f7ba9",
+    "w": 63
+   },
+   {
+    "v": "#1d2440",
+    "w": 52
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "Die Grotesk C",
+    "w": 1136
+   },
+   {
+    "v": "Die Grotesk D",
+    "w": 320
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "60.5138px",
+    "w": 16
+   },
+   {
+    "v": "15px",
+    "w": 15
+   },
+   {
+    "v": "19.3676px",
+    "w": 12
+   },
+   {
+    "v": "98.8063px",
+    "w": 11
+   },
+   {
+    "v": "65.1383px",
+    "w": 10
+   },
+   {
+    "v": "24.1027px",
+    "w": 9
+   },
+   {
+    "v": "21.4189px",
+    "w": 6
+   },
+   {
+    "v": "108.38px",
+    "w": 5
+   },
+   {
+    "v": "25.4704px",
+    "w": 3
+   },
+   {
+    "v": "23.2412px",
+    "w": 3
+   },
+   {
+    "v": "16px",
+    "w": 3
+   },
+   {
+    "v": "361.462px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "16.1437px",
+    "w": 5
+   },
+   {
+    "v": "58.1027px",
+    "w": 3
+   },
+   {
+    "v": "29.0514px",
+    "w": 2
+   },
+   {
+    "v": "50%",
+    "w": 2
+   },
+   {
+    "v": "60px",
+    "w": 1
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.17 0.45s",
+    "w": 15
+   },
+   {
+    "v": "cubic-bezier(0.645 0.3s",
+    "w": 12
+   },
+   {
+    "v": "cubic-bezier(0.215 1.2s",
+    "w": 11
+   },
+   {
+    "v": "cubic-bezier(0.4 0.45s",
+    "w": 6
+   },
+   {
+    "v": "cubic-bezier(0.215 0.6s",
+    "w": 5
+   },
+   {
+    "v": "cubic-bezier(0.17 0.6s",
+    "w": 5
+   },
+   {
+    "v": "cubic-bezier(0.4 0.3s",
+    "w": 4
+   },
+   {
+    "v": "cubic-bezier(0.645 0.15s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "\"Die Grotesk D\", sans-serif",
+    "size": "361.462px",
+    "weight": "700",
+    "lineHeight": "343.389px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#f9fcf4",
+    "sample": "Trevor Noah"
+   },
+   "h2": {
+    "family": "\"Die Grotesk D\", sans-serif",
+    "size": "98.8063px",
+    "weight": "500",
+    "lineHeight": "108.687px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#f9fcf4",
+    "sample": "Finding the extraordinary in the ordinary - often interesting, always interested"
+   },
+   "h3": {
+    "family": "\"Die Grotesk D\", sans-serif",
+    "size": "60.5138px",
+    "weight": "700",
+    "lineHeight": "63.5395px",
+    "letterSpacing": "normal",
+    "transform": "capitalize",
+    "color": "#f9fcf4",
+    "sample": "MediaMedia"
+   },
+   "p": {
+    "family": "\"Die Grotesk D\", Arial, sans-serif",
+    "size": "108.38px",
+    "weight": "700",
+    "lineHeight": "119.217px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#f9fcf4",
+    "sample": "A curious humanintrigued by the world around himA curious humanintrigued by the "
+   },
+   "a": {
+    "family": "\"Die Grotesk C\", sans-serif",
+    "size": "21.4189px",
+    "weight": "500",
+    "lineHeight": "21.4189px",
+    "letterSpacing": "normal",
+    "transform": "capitalize",
+    "color": "#f9fcf4",
+    "sample": "Access to main content"
+   },
+   "button": {
+    "family": "\"Die Grotesk C\", sans-serif",
+    "size": "21.4189px",
+    "weight": "500",
+    "lineHeight": "21.4189px",
+    "letterSpacing": "normal",
+    "transform": "capitalize",
+    "color": "#1d2440",
+    "sample": "Accept All"
+   },
+   "li": {
+    "family": "\"Die Grotesk C\", sans-serif",
+    "size": "19.3676px",
+    "weight": "400",
+    "lineHeight": "27.1147px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#f9fcf4",
+    "sample": "Shows"
+   },
+   "body": {
+    "family": "\"Die Grotesk C\", sans-serif",
+    "size": "19.3676px",
+    "weight": "400",
+    "lineHeight": "27.1147px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#f9fcf4",
+    "sample": "Access to main contentGet TicketsGet TicketsGet TicketsShowsWatch & ListenBooksA"
+   }
+  },
+  "cssVars": {
+   "--_trevor-tokens---font-primary": "\"Die Grotesk C\",Arial,sans-serif",
+   "--section-padding": "calc(3.5em + (var(--gap)*2))",
+   "--_trevor-tokens---color-background": "#1d2440",
+   "--_trevor-tokens---font-secondary": "\"Die Grotesk D\",Arial,sans-serif",
+   "--color--light": "#f9fcf4",
+   "--_trevor-tokens---color-accent": "#ff9bb4",
+   "--_trevor-tokens---color-surface": "#f9fcf4",
+   "--_trevor-tokens---font-tertiary": "\"Die Grotesk B\",Arial,sans-serif",
+   "--_trevor-tokens---color-text": "#f9fcf4",
+   "--_trevor-tokens---color-dark": "#2b2b2b",
+   "--_trevor-tokens---color-primary": "var(--_trevor-tokens---color-background)",
+   "--_trevor-tokens---color-para-on-navy": "#dde3f9",
+   "--_trevor-tokens---color-error": "#f62d00",
+   "--_trevor-tokens---color-success": "#52d36a",
+   "--color--dark": "#2b2b2b",
+   "--color--text": "var(--color--light)",
+   "--color--bg": "var(--color--navy)",
+   "--color--navy": "#1d2440",
+   "--color--navy-lighten": "color-mix(in hsl,var(--color--navy)70%,white 30%)",
+   "--color--para-on-dark": "#f9fcf4",
+   "--color--para-on-navy": "#dde3f9",
+   "--color--pink": "#ff9bb4",
+   "--color--error": "#f62d00",
+   "--color--success": "#52d36a",
+   "--gap": "1em",
+   "--gap-0-5": "calc(var(--gap)*.5)",
+   "--gap-0-75": "calc(var(--gap)*.75)",
+   "--gap-2": "calc(var(--gap)*2)",
+   "--gap-4": "calc(var(--gap)*4)",
+   "--container-padding": "4em",
+   "--text--h1": "clamp(2.5*1rem,((2.5 - ((7.875 - 2.5)/(90 - 20)*20))*1rem + ((7.875 - 2.5)/(90 - 20))*100vw),7.875*1rem)",
+   "--text--h2": "clamp(2.5*1rem,((2.5 - ((4.5 - 2.5)/(90 - 20)*20))*1rem + ((4.5 - 2.5)/(90 - 20))*100vw),4.5*1rem)",
+   "--text--h3": "clamp(2*1rem,((2 - ((3 - 2)/(90 - 20)*20))*1rem + ((3 - 2)/(90 - 20))*100vw),3*1rem)",
+   "--text--h4": "clamp(1.5*1rem,((1.5 - ((2.5 - 1.5)/(90 - 20)*20))*1rem + ((2.5 - 1.5)/(90 - 20))*100vw),2.5*1rem)",
+   "--text--h5": "clamp(1.25*1rem,((1.25 - ((2 - 1.25)/(90 - 20)*20))*1rem + ((2 - 1.25)/(90 - 20))*100vw),2*1rem)",
+   "--text--h6": "clamp(1.1*1rem,((1.1 - ((1.5 - 1.1)/(90 - 20)*20))*1rem + ((1.5 - 1.1)/(90 - 20))*100vw),1.5*1rem)",
+   "--text--text-body": "clamp(1*1rem,((1 - ((1.2 - 1)/(90 - 20)*20))*1rem + ((1.2 - 1)/(90 - 20))*100vw),1.2*1rem)"
+  },
+  "fontFaces": [
+   {
+    "family": "webflow-icons",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"data:application/x-font-ttf;charset=utf-8;base64,AAEAAAALAIAAAwAwT1MvMg8SBiUAAAC8AAAAYGNtYXDpP+a4AAABHAAAAFxnYXNwAAAAEAAAAXgAAAAIZ2x5ZmhS2XEAAAGAAAADHGhlYWQTFw3HAAAEnAAAADZoaGVhCXYFgQAABNQAAAAkaG"
+   },
+   {
+    "family": "Die Grotesk C",
+    "weight": "500",
+    "style": "italic",
+    "src": "url(\"https://cdn.prod.website-files.com/69b574b7e8a1b256fc6f5504/69c3f817eb4e2dfe53b5083b_die-grotesk-c-medium-italic.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Die Grotesk B",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/69b574b7e8a1b256fc6f5504/69c3f817a16ad00206718389_die-grotesk-b-bold.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Die Grotesk D",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/69b574b7e8a1b256fc6f5504/69c3f817a720b0965491c20c_die-grotesk-d-medium.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Die Grotesk C",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/69b574b7e8a1b256fc6f5504/69c3f817fcc0872ba21f238f_die-grotesk-c-regular.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Die Grotesk C",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/69b574b7e8a1b256fc6f5504/69c3f817a16ad0020671838c_die-grotesk-c-medium.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Die Grotesk D",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/69b574b7e8a1b256fc6f5504/69c3f817b73018bf7558ce73_die-grotesk-d-bold.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Die Grotesk C",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/69b574b7e8a1b256fc6f5504/69c3f8176db216a511bc1d1c_die-grotesk-c-bold.woff2\") format(\"woff2\")"
+   }
+  ],
+  "keyframes": [
+   "spin"
+  ],
+  "breakpoints": [
+   {
+    "v": "479px",
+    "w": 4
+   },
+   {
+    "v": "991px",
+    "w": 3
+   },
+   {
+    "v": "767px",
+    "w": 3
+   },
+   {
+    "v": "768px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 894,
+  "crossOriginSheets": 1
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "menu_wrap u-modal",
+    "h": 900,
+    "title": "",
+    "media": 5
+   },
+   {
+    "tag": "section",
+    "id": "sectionHero",
+    "cls": "section hero_wrap is-home",
+    "h": 1350,
+    "title": "Trevor Noah",
+    "media": 1
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section",
+    "h": 763,
+    "title": "Finding the extraordinary in the ordinary - often interesting, always interested",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section media_wrap",
+    "h": 1262,
+    "title": "MediaMedia",
+    "media": 5
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section is-transition",
+    "h": 450,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section about_wrap is-dark",
+    "h": 1769,
+    "title": "AboutAbout",
+    "media": 5
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section news_wrap is-dark",
+    "h": 1608,
+    "title": "LatestLatest",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section is-transition",
+    "h": 450,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section quote_wrap",
+    "h": 918,
+    "title": "Comedy is really getting quite popular in South AfricaComedy is really getting q",
+    "media": 2
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section books_wrap",
+    "h": 1309,
+    "title": "booksbooks",
+    "media": 1
+   },
+   {
+    "tag": "footer",
+    "id": "sectionFooter",
+    "cls": "section footer_wrap",
+    "h": 850,
+    "title": "",
+    "media": 5
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "",
+    "href": "https://www.trevornoah.com/"
+   },
+   {
+    "t": "Get Tickets",
+    "href": "https://www.trevornoah.com/shows"
+   },
+   {
+    "t": "",
+    "href": "https://www.trevornoah.com/"
+   },
+   {
+    "t": "Get Tickets",
+    "href": "https://www.trevornoah.com/shows"
+   },
+   {
+    "t": "",
+    "href": "https://www.trevornoah.com/shows"
+   },
+   {
+    "t": "",
+    "href": "https://www.trevornoah.com/watch-listen"
+   },
+   {
+    "t": "",
+    "href": "https://www.trevornoah.com/books"
+   },
+   {
+    "t": "",
+    "href": "https://www.trevornoah.com/about"
+   },
+   {
+    "t": "",
+    "href": "https://trevornoah.topdrawermerch.com/"
+   },
+   {
+    "t": "Privacy",
+    "href": "https://www.trevornoah.com/legal/privacy-policy"
+   },
+   {
+    "t": "itsoffbrand.com",
+    "href": "http://itsoffbrand.com/"
+   },
+   {
+    "t": "",
+    "href": "https://www.facebook.com/TrevorNoah"
+   },
+   {
+    "t": "",
+    "href": "https://www.instagram.com/trevornoah/"
+   },
+   {
+    "t": "",
+    "href": "https://x.com/Trevornoah"
+   },
+   {
+    "t": "",
+    "href": "https://www.youtube.com/@trevornoah"
+   },
+   {
+    "t": "",
+    "href": "https://www.trevornoah.com/shows"
+   },
+   {
+    "t": "",
+    "href": "https://www.trevornoah.com/watch-listen"
+   },
+   {
+    "t": "",
+    "href": "https://www.trevornoah.com/books"
+   },
+   {
+    "t": "",
+    "href": "https://www.trevornoah.com/about"
+   },
+   {
+    "t": "",
+    "href": "https://trevornoah.topdrawermerch.com/"
+   }
+  ],
+  "ctas": [],
+  "pageHeight": 10730,
+  "counts": {
+   "canvas": 1,
+   "videos": 0,
+   "imgs": 28,
+   "svgs": 36,
+   "iframes": 0,
+   "domNodes": 717
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": true,
+  "lenis": true,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "183",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": true,
+  "swiper": false,
+  "webflow": true,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [
+   "googletagmanager",
+   "gtag"
+  ],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://www.googletagmanager.com/gtag/js?id=G-W7J3SH72V0&cx=c&gtm=4e6au1h1",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-P7H6WQQZ",
+  "https://trevor-nine.vercel.app/app.js",
+  "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=69b574b7e8a1b256fc6f5504",
+  "https://cdn.prod.website-files.com/69b574b7e8a1b256fc6f5504/js/ob-trevornoah.schunk.7321a5097fb66f41.js",
+  "https://cdn.prod.website-files.com/69b574b7e8a1b256fc6f5504/js/ob-trevornoah.751e0867.148dc658e77a3916.js"
+ ],
+ "internal": [
+  "https://www.trevornoah.com/shows",
+  "https://www.trevornoah.com/watch-listen",
+  "https://www.trevornoah.com/books",
+  "https://www.trevornoah.com/about",
+  "https://www.trevornoah.com/legal/privacy-policy"
+ ],
+ "perf": {
+  "ttfb": 111,
+  "dcl": 761,
+  "load": 2355,
+  "lcp": 18388,
+  "lcpEl": "image",
+  "cls": 0
+ },
+ "libs": {
+  "detected": [
+   "jQuery",
+   "GSAP",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Lenis",
+   "Locomotive Scroll",
+   "Three.js",
+   "Postprocessing",
+   "Virtual scroll",
+   "Contentful"
+  ],
+  "where": {
+   "jQuery": [
+    "003-ob-trevornoah.schunk.7321a5097fb66f41.js",
+    "004-jquery-3.5.1.min.dc5e7f18c8.js"
+   ],
+   "GSAP": [
+    "005-chunk-022tjzda.js"
+   ],
+   "ScrollTrigger": [
+    "005-chunk-022tjzda.js"
+   ],
+   "SplitText/SplitType": [
+    "005-chunk-022tjzda.js"
+   ],
+   "Lenis": [
+    "005-chunk-022tjzda.js",
+    "styles.css"
+   ],
+   "Locomotive Scroll": [
+    "005-chunk-022tjzda.js"
+   ],
+   "Three.js": [
+    "005-chunk-022tjzda.js"
+   ],
+   "Postprocessing": [
+    "005-chunk-022tjzda.js"
+   ],
+   "Virtual scroll": [
+    "005-chunk-022tjzda.js"
+   ],
+   "Contentful": [
+    "005-chunk-022tjzda.js"
+   ]
+  },
+  "gsapVersion": "3.14.2",
+  "threeRevision": null,
+  "shaders": 34,
+  "scripts": 7
+ },
+ "network": {
+  "requests": 94,
+  "totalKb": 9858,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 219
+   },
+   "Stylesheet": {
+    "n": 2,
+    "kb": 20
+   },
+   "Image": {
+    "n": 21,
+    "kb": 1411
+   },
+   "Script": {
+    "n": 7,
+    "kb": 713
+   },
+   "Font": {
+    "n": 7,
+    "kb": 337
+   },
+   "Fetch": {
+    "n": 55,
+    "kb": 7156
+   },
+   "Other": {
+    "n": 1,
+    "kb": 1
+   }
+  },
+  "thirdPartyHosts": [
+   "trevor-nine.vercel.app",
+   "cdn.prod.website-files.com",
+   "d3e54v103j8qbb.cloudfront.net",
+   "www.googletagmanager.com",
+   "trevornoah.itsoffbrand.io",
+   "region1.google-analytics.com"
+  ],
+  "fontFiles": [
+   "https://cdn.prod.website-files.com/69b574b7e8a1b256fc6f5504/69c3f817fcc0872ba21f238f_die-grotesk-c-regular.woff2",
+   "https://cdn.prod.website-files.com/69b574b7e8a1b256fc6f5504/69c3f817a16ad0020671838c_die-grotesk-c-medium.woff2",
+   "https://cdn.prod.website-files.com/69b574b7e8a1b256fc6f5504/69c3f8176db216a511bc1d1c_die-grotesk-c-bold.woff2",
+   "https://cdn.prod.website-files.com/69b574b7e8a1b256fc6f5504/69c3f817a720b0965491c20c_die-grotesk-d-medium.woff2",
+   "https://cdn.prod.website-files.com/69b574b7e8a1b256fc6f5504/69c3f817b73018bf7558ce73_die-grotesk-d-bold.woff2",
+   "https://cdn.prod.website-files.com/69b574b7e8a1b256fc6f5504/69c3f817a16ad00206718389_die-grotesk-b-bold.woff2",
+   "https://cdn.prod.website-files.com/69b574b7e8a1b256fc6f5504/69c3f817eb4e2dfe53b5083b_die-grotesk-c-medium-italic.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://trevornoah.itsoffbrand.io/models/TREVOR_earth-opt-06.glb",
+    "kb": 1589,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://trevornoah.itsoffbrand.io/textures/bend-color-new-10.ktx2",
+    "kb": 765,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://trevornoah.itsoffbrand.io/models/TREVOR_head-opt-04.glb",
+    "kb": 690,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://trevornoah.itsoffbrand.io/models/TREVOR_mic1-opt-01.glb",
+    "kb": 441,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://trevornoah.itsoffbrand.io/textures/bend-data-new-09.exr",
+    "kb": 388,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://trevor-nine.vercel.app/chunk-022tjzda.js",
+    "kb": 366,
+    "type": "Script"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/69b574b7e8a1b256fc6f5504/69d3bcf410b9dcb5ec8c9e52_image%20491.webp",
+    "kb": 352,
+    "type": "Image"
+   },
+   {
+    "url": "https://trevornoah.itsoffbrand.io/models/TREVOR_player-opt-24.glb",
+    "kb": 292,
+    "type": "Fetch"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "170px",
+   "lineHeight": "161.5px"
+  },
+  "body": "18px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 387
+}

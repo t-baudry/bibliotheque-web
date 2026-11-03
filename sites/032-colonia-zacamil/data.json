@@ -1,0 +1,710 @@
+{
+ "id": 32,
+ "name": "Colonia Zacamil",
+ "sourceUrl": "https://coloniazacamil.com/",
+ "capturedAt": "2026-11-02T23:42:51.645Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [
+   "txt:Accept"
+  ],
+  "enter": "Discover",
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://coloniazacamil.com/",
+ "title": "Colonia Zacamil",
+ "lang": null,
+ "generator": null,
+ "seo": {
+  "description": "Colonia Zacamil",
+  "canonical": null,
+  "robots": null,
+  "ogTitle": "Colonia Zacamil",
+  "ogImage": null,
+  "twitterCard": null,
+  "jsonLd": [],
+  "h1Count": 0,
+  "headings": [],
+  "imgs": 1,
+  "imgNoAlt": 1,
+  "favicon": "https://coloniazacamil.com/favicon/favicon.ico",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#000000",
+    "w": 34231
+   },
+   {
+    "v": "#b48e46",
+    "w": 4536
+   },
+   {
+    "v": "#8d7cab",
+    "w": 4212
+   },
+   {
+    "v": "#ffffff",
+    "w": 1444
+   }
+  ],
+  "text": [
+   {
+    "v": "#000000",
+    "w": 74
+   },
+   {
+    "v": "#ebe6e0",
+    "w": 27
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "Roboto Mono",
+    "w": 51
+   },
+   {
+    "v": "-apple-system",
+    "w": 50
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "14px",
+    "w": 34
+   },
+   {
+    "v": "10px",
+    "w": 6
+   },
+   {
+    "v": "16px",
+    "w": 2
+   },
+   {
+    "v": "12px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "30px",
+    "w": 32
+   },
+   {
+    "v": "50%",
+    "w": 3
+   },
+   {
+    "v": "4px",
+    "w": 1
+   }
+  ],
+  "shadows": [
+   {
+    "v": "rgba(0, 0, 0, 0.15) 0px 0px 0px 1px",
+    "w": 1
+   }
+  ],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.645 0.8s",
+    "w": 27
+   },
+   {
+    "v": "linear 0.4s",
+    "w": 4
+   },
+   {
+    "v": "cubic-bezier(0.645 0.6s",
+    "w": 2
+   },
+   {
+    "v": "ease-in-out 0.6s",
+    "w": 2
+   },
+   {
+    "v": "linear 0.5s",
+    "w": 2
+   },
+   {
+    "v": "linear 0.2s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "a": {
+    "family": "\"Roboto Mono\"",
+    "size": "10px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#000000",
+    "sample": "[powered by CMS]"
+   },
+   "button": {
+    "family": "-apple-system, sans-serif",
+    "size": "14px",
+    "weight": "700",
+    "lineHeight": "38px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Your consent preferences for tracking technologies"
+   },
+   "body": {
+    "family": "\"Times New Roman\"",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "From ThornsSanta ZacamilA Better ChildhoodPaz y PachamamaThe DoveHidden TalentsF"
+   }
+  },
+  "cssVars": {},
+  "fontFaces": [
+   {
+    "family": "Roboto Mono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/RobotoMono-Regular.BpTYbtfY.woff2\") format(\"woff2\"), url(\"/_nuxt/RobotoMono-Regular.BdmGy-0c.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Reckless Neue",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/RecklessNeue-Regular.D-zoCqbF.woff2\") format(\"woff2\"), url(\"/_nuxt/RecklessNeue-Regular.DDVqGR3P.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Heathergreen",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/Heathergreen.B41LLI5X.woff2\") format(\"woff2\"), url(\"/_nuxt/Heathergreen.dRpGKUy-.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Roboto Mono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/RobotoMono-Regular.BpTYbtfY.woff2\") format(\"woff2\"), url(\"/_nuxt/RobotoMono-Regular.BdmGy-0c.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Reckless Neue",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/RecklessNeue-Regular.D-zoCqbF.woff2\") format(\"woff2\"), url(\"/_nuxt/RecklessNeue-Regular.DDVqGR3P.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Heathergreen",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/Heathergreen.B41LLI5X.woff2\") format(\"woff2\"), url(\"/_nuxt/Heathergreen.dRpGKUy-.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Roboto Mono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/RobotoMono-Regular.BpTYbtfY.woff2\") format(\"woff2\"), url(\"/_nuxt/RobotoMono-Regular.BdmGy-0c.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Reckless Neue",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/RecklessNeue-Regular.D-zoCqbF.woff2\") format(\"woff2\"), url(\"/_nuxt/RecklessNeue-Regular.DDVqGR3P.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Heathergreen",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/Heathergreen.B41LLI5X.woff2\") format(\"woff2\"), url(\"/_nuxt/Heathergreen.dRpGKUy-.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Roboto Mono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/RobotoMono-Regular.BpTYbtfY.woff2\") format(\"woff2\"), url(\"/_nuxt/RobotoMono-Regular.BdmGy-0c.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Reckless Neue",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/RecklessNeue-Regular.D-zoCqbF.woff2\") format(\"woff2\"), url(\"/_nuxt/RecklessNeue-Regular.DDVqGR3P.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Heathergreen",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/Heathergreen.B41LLI5X.woff2\") format(\"woff2\"), url(\"/_nuxt/Heathergreen.dRpGKUy-.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Roboto Mono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/RobotoMono-Regular.BpTYbtfY.woff2\") format(\"woff2\"), url(\"/_nuxt/RobotoMono-Regular.BdmGy-0c.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Reckless Neue",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/RecklessNeue-Regular.D-zoCqbF.woff2\") format(\"woff2\"), url(\"/_nuxt/RecklessNeue-Regular.DDVqGR3P.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Heathergreen",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/Heathergreen.B41LLI5X.woff2\") format(\"woff2\"), url(\"/_nuxt/Heathergreen.dRpGKUy-.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Roboto Mono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/RobotoMono-Regular.BpTYbtfY.woff2\") format(\"woff2\"), url(\"/_nuxt/RobotoMono-Regular.BdmGy-0c.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Reckless Neue",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/RecklessNeue-Regular.D-zoCqbF.woff2\") format(\"woff2\"), url(\"/_nuxt/RecklessNeue-Regular.DDVqGR3P.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Heathergreen",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/Heathergreen.B41LLI5X.woff2\") format(\"woff2\"), url(\"/_nuxt/Heathergreen.dRpGKUy-.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Roboto Mono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/RobotoMono-Regular.BpTYbtfY.woff2\") format(\"woff2\"), url(\"/_nuxt/RobotoMono-Regular.BdmGy-0c.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Reckless Neue",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/RecklessNeue-Regular.D-zoCqbF.woff2\") format(\"woff2\"), url(\"/_nuxt/RecklessNeue-Regular.DDVqGR3P.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Heathergreen",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/Heathergreen.B41LLI5X.woff2\") format(\"woff2\"), url(\"/_nuxt/Heathergreen.dRpGKUy-.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Roboto Mono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/RobotoMono-Regular.BpTYbtfY.woff2\") format(\"woff2\"), url(\"/_nuxt/RobotoMono-Regular.BdmGy-0c.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Reckless Neue",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/RecklessNeue-Regular.D-zoCqbF.woff2\") format(\"woff2\"), url(\"/_nuxt/RecklessNeue-Regular.DDVqGR3P.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Heathergreen",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/Heathergreen.B41LLI5X.woff2\") format(\"woff2\"), url(\"/_nuxt/Heathergreen.dRpGKUy-.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Roboto Mono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/RobotoMono-Regular.BpTYbtfY.woff2\") format(\"woff2\"), url(\"/_nuxt/RobotoMono-Regular.BdmGy-0c.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Reckless Neue",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/RecklessNeue-Regular.D-zoCqbF.woff2\") format(\"woff2\"), url(\"/_nuxt/RecklessNeue-Regular.DDVqGR3P.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Heathergreen",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/Heathergreen.B41LLI5X.woff2\") format(\"woff2\"), url(\"/_nuxt/Heathergreen.dRpGKUy-.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Roboto Mono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/RobotoMono-Regular.BpTYbtfY.woff2\") format(\"woff2\"), url(\"/_nuxt/RobotoMono-Regular.BdmGy-0c.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Reckless Neue",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/RecklessNeue-Regular.D-zoCqbF.woff2\") format(\"woff2\"), url(\"/_nuxt/RecklessNeue-Regular.DDVqGR3P.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Heathergreen",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/Heathergreen.B41LLI5X.woff2\") format(\"woff2\"), url(\"/_nuxt/Heathergreen.dRpGKUy-.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Roboto Mono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/RobotoMono-Regular.BpTYbtfY.woff2\") format(\"woff2\"), url(\"/_nuxt/RobotoMono-Regular.BdmGy-0c.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Reckless Neue",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/RecklessNeue-Regular.D-zoCqbF.woff2\") format(\"woff2\"), url(\"/_nuxt/RecklessNeue-Regular.DDVqGR3P.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Heathergreen",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/Heathergreen.B41LLI5X.woff2\") format(\"woff2\"), url(\"/_nuxt/Heathergreen.dRpGKUy-.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Roboto Mono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/RobotoMono-Regular.BpTYbtfY.woff2\") format(\"woff2\"), url(\"/_nuxt/RobotoMono-Regular.BdmGy-0c.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Reckless Neue",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/RecklessNeue-Regular.D-zoCqbF.woff2\") format(\"woff2\"), url(\"/_nuxt/RecklessNeue-Regular.DDVqGR3P.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Heathergreen",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/Heathergreen.B41LLI5X.woff2\") format(\"woff2\"), url(\"/_nuxt/Heathergreen.dRpGKUy-.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Roboto Mono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/RobotoMono-Regular.BpTYbtfY.woff2\") format(\"woff2\"), url(\"/_nuxt/RobotoMono-Regular.BdmGy-0c.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Reckless Neue",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/RecklessNeue-Regular.D-zoCqbF.woff2\") format(\"woff2\"), url(\"/_nuxt/RecklessNeue-Regular.DDVqGR3P.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Heathergreen",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/Heathergreen.B41LLI5X.woff2\") format(\"woff2\"), url(\"/_nuxt/Heathergreen.dRpGKUy-.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Roboto Mono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/RobotoMono-Regular.BpTYbtfY.woff2\") format(\"woff2\"), url(\"/_nuxt/RobotoMono-Regular.BdmGy-0c.woff\") format(\"woff\")"
+   }
+  ],
+  "keyframes": [
+   "slide-b1596730",
+   "translate-2fd2f567",
+   "scale-2fd2f567",
+   "translateY-2fd2f567",
+   "scaleScroll-2fd2f567",
+   "scalePinch-2fd2f567",
+   "pinchTranslate-2fd2f567",
+   "marquee-4b170499"
+  ],
+  "breakpoints": [
+   {
+    "v": "768px",
+    "w": 256
+   },
+   {
+    "v": "767px",
+    "w": 241
+   },
+   {
+    "v": "1025px",
+    "w": 52
+   },
+   {
+    "v": "1024px",
+    "w": 50
+   },
+   {
+    "v": "640px",
+    "w": 11
+   },
+   {
+    "v": "992px",
+    "w": 7
+   },
+   {
+    "v": "920px",
+    "w": 6
+   },
+   {
+    "v": "639px",
+    "w": 4
+   },
+   {
+    "v": "991px",
+    "w": 4
+   },
+   {
+    "v": "300px",
+    "w": 2
+   },
+   {
+    "v": "480px",
+    "w": 2
+   }
+  ],
+  "rulesCount": 4888,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": "__nuxt",
+    "cls": "",
+    "h": 900,
+    "title": "",
+    "media": 4
+   }
+  ],
+  "navLinks": [],
+  "ctas": [],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 1,
+   "videos": 1,
+   "imgs": 1,
+   "svgs": 41,
+   "iframes": 1,
+   "domNodes": 297
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "162",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": true,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": true,
+  "cms": [],
+  "analytics": [
+   "googletagmanager",
+   "gtag"
+  ],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://cdn.iubenda.com/cookie_solution/iubenda_cs/1.109.0/core-en-GB.js",
+  "https://embeds.iubenda.com/widgets/4037b39e-9661-4616-8093-abccf645cd70.js",
+  "https://coloniazacamil.com/_nuxt/DkhZ0TVB.js",
+  "https://www.googletagmanager.com/gtag/js?id=G-Z1JPMLC026"
+ ],
+ "internal": [],
+ "perf": {
+  "ttfb": 93,
+  "dcl": 325,
+  "load": 887,
+  "lcp": 8144,
+  "lcpEl": "SPAN",
+  "cls": 0
+ },
+ "libs": {
+  "detected": [
+   "Lenis",
+   "Virtual scroll",
+   "GSAP",
+   "ScrollTrigger",
+   "DrawSVG/MorphSVG",
+   "Three.js",
+   "Vue",
+   "Nuxt",
+   "Barba.js"
+  ],
+  "where": {
+   "Lenis": [
+    "002-BaMmXLxA.js",
+    "styles.css"
+   ],
+   "Virtual scroll": [
+    "002-BaMmXLxA.js"
+   ],
+   "GSAP": [
+    "003-DkhZ0TVB.js"
+   ],
+   "ScrollTrigger": [
+    "003-DkhZ0TVB.js"
+   ],
+   "DrawSVG/MorphSVG": [
+    "003-DkhZ0TVB.js"
+   ],
+   "Three.js": [
+    "003-DkhZ0TVB.js"
+   ],
+   "Vue": [
+    "003-DkhZ0TVB.js"
+   ],
+   "Nuxt": [
+    "003-DkhZ0TVB.js"
+   ],
+   "Barba.js": [
+    "007-B66KSyrA.js"
+   ]
+  },
+  "gsapVersion": "3.13.0",
+  "threeRevision": null,
+  "shaders": 12,
+  "scripts": 8
+ },
+ "network": {
+  "requests": 84,
+  "totalKb": 6425,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 19
+   },
+   "Script": {
+    "n": 8,
+    "kb": 621
+   },
+   "Other": {
+    "n": 6,
+    "kb": 7
+   },
+   "Stylesheet": {
+    "n": 2,
+    "kb": 17
+   },
+   "Image": {
+    "n": 20,
+    "kb": 374
+   },
+   "Font": {
+    "n": 3,
+    "kb": 119
+   },
+   "Fetch": {
+    "n": 42,
+    "kb": 5266
+   },
+   "XHR": {
+    "n": 2,
+    "kb": 1
+   }
+  },
+  "thirdPartyHosts": [
+   "embeds.iubenda.com",
+   "cdn.adoratorio.app",
+   "www.googletagmanager.com",
+   "cdn.iubenda.com",
+   "idb.iubenda.com",
+   "cpl.iubenda.com",
+   "region1.google-analytics.com"
+  ],
+  "fontFiles": [
+   "https://coloniazacamil.com/_nuxt/RobotoMono-Regular.BpTYbtfY.woff2",
+   "https://coloniazacamil.com/_nuxt/Heathergreen.B41LLI5X.woff2",
+   "https://coloniazacamil.com/_nuxt/RecklessNeue-Regular.D-zoCqbF.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://coloniazacamil.com/models/compressed/model.glb",
+    "kb": 1861,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://coloniazacamil.com/audio/main.mp3",
+    "kb": 1029,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://coloniazacamil.com/textures/Murales_1.webp",
+    "kb": 1004,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://cdn.adoratorio.app/zacamil/images/loader/background.jpg",
+    "kb": 340,
+    "type": "Image"
+   },
+   {
+    "url": "https://coloniazacamil.com/_nuxt/DkhZ0TVB.js",
+    "kb": 282,
+    "type": "Script"
+   },
+   {
+    "url": "https://coloniazacamil.com/textures/Murales_2.webp",
+    "kb": 261,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://coloniazacamil.com/textures/Murales_4.webp",
+    "kb": 239,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://coloniazacamil.com/textures/modes/before-day-buildings.webp",
+    "kb": 229,
+    "type": "Fetch"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": null,
+  "body": "16px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 154
+}

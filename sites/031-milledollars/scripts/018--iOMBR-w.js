@@ -1,0 +1,1 @@
+import{o as l,c as s,Q as t,J as a}from"./CT1tNzyx.js";const r={__name:"ContentSection",props:{full:{type:Boolean,default:!1}},setup(e){return(o,n)=>(l(),s("section",{class:a(["o-section",{"-full":e.full}])},[t(o.$slots,"default")],2))}};export{r as _};

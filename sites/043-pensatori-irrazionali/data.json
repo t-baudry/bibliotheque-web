@@ -1,0 +1,879 @@
+{
+ "id": 43,
+ "name": "Pensatori Irrazionali",
+ "sourceUrl": "https://pensatori-irrazionali.com/",
+ "capturedAt": "2026-11-02T23:51:57.722Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg",
+   "desktop-13.jpg",
+   "desktop-14.jpg"
+  ],
+  "fullPage": 13519,
+  "subpages": [
+   {
+    "url": "https://pensatori-irrazionali.com/work",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://pensatori-irrazionali.com/universe",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://pensatori-irrazionali.com/contact",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://pensatori-irrazionali.com/",
+ "title": "Pensatori Irrazionali",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "We help visionary brands flourish by crafting digital experiences that let audiences feel the depth, elegance, and essence of their products.",
+  "canonical": "https://pensatori-irrazionali.com/",
+  "robots": "index, follow",
+  "ogTitle": "Pensatori Irrazionali",
+  "ogImage": "https://pensatori-irrazionali.com/ogImage.png",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "Organization",
+   "WebSite"
+  ],
+  "h1Count": 1,
+  "headings": [
+   "H1 Pensatori Irrazionali"
+  ],
+  "imgs": 67,
+  "imgNoAlt": 18,
+  "favicon": "https://pensatori-irrazionali.com/favicon-light.ico",
+  "themeColor": "#FFFFFF"
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#f5f5f5",
+    "w": 7382567
+   },
+   {
+    "v": "#2bff00",
+    "w": 52240
+   },
+   {
+    "v": "#f669e4",
+    "w": 52240
+   },
+   {
+    "v": "#ff0066",
+    "w": 52240
+   },
+   {
+    "v": "#adf800",
+    "w": 52240
+   },
+   {
+    "v": "#434343",
+    "w": 50460
+   },
+   {
+    "v": "#ffffff",
+    "w": 526
+   }
+  ],
+  "text": [
+   {
+    "v": "#000000",
+    "w": 3252
+   },
+   {
+    "v": "#434343",
+    "w": 1183
+   },
+   {
+    "v": "#5e5e5e",
+    "w": 998
+   },
+   {
+    "v": "#b9b9b9",
+    "w": 283
+   },
+   {
+    "v": "#ffffff",
+    "w": 197
+   },
+   {
+    "v": "#5b5b5b",
+    "w": 23
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "helveticaNow",
+    "w": 5802
+   },
+   {
+    "v": "ballet",
+    "w": 123
+   },
+   {
+    "v": "ppEditorial",
+    "w": 11
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "14px",
+    "w": 107
+   },
+   {
+    "v": "16px",
+    "w": 98
+   },
+   {
+    "v": "36px",
+    "w": 58
+   },
+   {
+    "v": "216px",
+    "w": 25
+   },
+   {
+    "v": "60.8px",
+    "w": 18
+   },
+   {
+    "v": "30px",
+    "w": 17
+   },
+   {
+    "v": "256px",
+    "w": 12
+   },
+   {
+    "v": "18px",
+    "w": 12
+   },
+   {
+    "v": "160px",
+    "w": 12
+   },
+   {
+    "v": "12px",
+    "w": 12
+   },
+   {
+    "v": "20px",
+    "w": 11
+   },
+   {
+    "v": "56px",
+    "w": 7
+   },
+   {
+    "v": "60px",
+    "w": 5
+   },
+   {
+    "v": "48px",
+    "w": 4
+   }
+  ],
+  "radius": [
+   {
+    "v": "3.35544e+07px",
+    "w": 6
+   },
+   {
+    "v": "16px",
+    "w": 4
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0 0.2s",
+    "w": 26
+   },
+   {
+    "v": "cubic-bezier(0 0.3s",
+    "w": 15
+   },
+   {
+    "v": "cubic-bezier(0.4 0.3s",
+    "w": 12
+   },
+   {
+    "v": "cubic-bezier(0.2 0.3s",
+    "w": 5
+   },
+   {
+    "v": "cubic-bezier(0 0.4s",
+    "w": 3
+   },
+   {
+    "v": "ease-out 0.2s",
+    "w": 2
+   },
+   {
+    "v": "cubic-bezier(0 0.15s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "helveticaNow, \"helveticaNow Fallback\"",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Pensatori Irrazionali"
+   },
+   "p": {
+    "family": "helveticaNow, \"helveticaNow Fallback\"",
+    "size": "14px",
+    "weight": "400",
+    "lineHeight": "15.4px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#b9b9b9",
+    "sample": "Pensatori Irrazionali received a Site of the Day and a Developer award on awwwar"
+   },
+   "a": {
+    "family": "helveticaNow, \"helveticaNow Fallback\"",
+    "size": "60px",
+    "weight": "400",
+    "lineHeight": "60px",
+    "letterSpacing": "-1.5px",
+    "transform": "none",
+    "color": "#5b5b5b",
+    "sample": "Home"
+   },
+   "button": {
+    "family": "helveticaNow, \"helveticaNow Fallback\"",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "More News"
+   },
+   "body": {
+    "family": "helveticaNow, \"helveticaNow Fallback\"",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "[{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"@id\":\"https://pensator"
+   }
+  },
+  "cssVars": {
+   "--captured-length": "0px",
+   "--captured-length2": "0px",
+   "--font-sans": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+   "--font-mono": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+   "--color-black": "#000",
+   "--color-white": "#fff",
+   "--spacing": ".25rem",
+   "--container-5xl": "64rem",
+   "--text-xs": ".75rem",
+   "--text-xs--line-height": "calc(1 / .75)",
+   "--text-sm": ".875rem",
+   "--text-sm--line-height": "calc(1.25 / .875)",
+   "--text-base": "1rem",
+   "--text-base--line-height": "calc(1.5 / 1)",
+   "--text-lg": "1.125rem",
+   "--text-lg--line-height": "calc(1.75 / 1.125)",
+   "--text-xl": "1.25rem",
+   "--text-xl--line-height": "calc(1.75 / 1.25)",
+   "--text-2xl": "1.5rem",
+   "--text-2xl--line-height": "calc(2 / 1.5)",
+   "--text-3xl": "1.875rem",
+   "--text-3xl--line-height": "calc(2.25 / 1.875)",
+   "--text-4xl": "2.25rem",
+   "--text-4xl--line-height": "calc(2.5 / 2.25)",
+   "--text-5xl": "3rem",
+   "--text-5xl--line-height": "1",
+   "--text-6xl": "3.75rem",
+   "--text-6xl--line-height": "1",
+   "--text-9xl": "8rem",
+   "--text-9xl--line-height": "1",
+   "--font-weight-light": "300",
+   "--font-weight-medium": "500",
+   "--font-weight-semibold": "600",
+   "--font-weight-bold": "700",
+   "--tracking-tighter": "-.05em",
+   "--tracking-tight": "-.025em",
+   "--tracking-normal": "0em",
+   "--leading-tight": "1.25",
+   "--leading-snug": "1.375",
+   "--radius-2xl": "1rem",
+   "--ease-out": "cubic-bezier(0, 0, .2, 1)",
+   "--blur-sm": "8px",
+   "--blur-lg": "16px",
+   "--blur-xl": "24px",
+   "--aspect-video": "16 / 9",
+   "--default-transition-duration": ".15s",
+   "--default-transition-timing-function": "cubic-bezier(.4, 0, .2, 1)",
+   "--default-font-family": "var(--font-sans)",
+   "--default-mono-font-family": "var(--font-mono)",
+   "--font-helvetica-now": "var(--font-helvetica-now)",
+   "--font-ballet": "var(--font-ballet)",
+   "--font-pp-editorial": "var(--font-pp-editorial)",
+   "--font-some-type-mono": "var(--font-some-type-mono)",
+   "--font-novela": "var(--font-novela)",
+   "--swiper-theme-color": "#007aff"
+  },
+  "fontFaces": [
+   {
+    "family": "helveticaNow",
+    "weight": "",
+    "style": "",
+    "src": "url(\"/_next/static/immutable/media/HelveticaNowVar-s.p.0cv5f7n-e_n9f.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "helveticaNow Fallback",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   },
+   {
+    "family": "ballet",
+    "weight": "",
+    "style": "",
+    "src": "url(\"/_next/static/immutable/media/Ballet-s.p.2gah2wit9cwlq.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "ballet Fallback",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   },
+   {
+    "family": "ppEditorial",
+    "weight": "",
+    "style": "",
+    "src": "url(\"/_next/static/immutable/media/ppeditorialold-s.p.0tm0w7iw-o21z.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "ppEditorial Fallback",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   },
+   {
+    "family": "someTypeMono",
+    "weight": "",
+    "style": "",
+    "src": "url(\"/_next/static/immutable/media/SometypeMono-s.p.3e2bdquepzn41.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "someTypeMono Fallback",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   },
+   {
+    "family": "novela",
+    "weight": "",
+    "style": "",
+    "src": "url(\"/_next/static/immutable/media/Novela-s.p.27xpqqlfyt7-l.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "novela Fallback",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   }
+  ],
+  "keyframes": [
+   "universe-lion-fill",
+   "not-found-game-in",
+   "lion-runner-stride",
+   "swiper-preloader-spin"
+  ],
+  "breakpoints": [
+   {
+    "v": "48rem",
+    "w": 3
+   },
+   {
+    "v": "64rem",
+    "w": 2
+   },
+   {
+    "v": "80rem",
+    "w": 2
+   },
+   {
+    "v": "96rem",
+    "w": 2
+   },
+   {
+    "v": "40rem",
+    "w": 1
+   },
+   {
+    "v": "767px",
+    "w": 1
+   },
+   {
+    "v": "760px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 1198,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "relative w-screen h-svh md:h-screen flex items-end px-6 md:px-12 pb-6 md:pb-12 h",
+    "h": 900,
+    "title": "",
+    "media": 2
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "w-screen px-6 md:px-12 pt-32 md:pt-44 pb-20 md:pb-40 flex flex-col home-projects",
+    "h": 570,
+    "title": "",
+    "media": 12
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "w-screen flex flex-col relative z-10 px-6 md:px-12 pb-52 xl:pb-96 home-proof",
+    "h": 881,
+    "title": "",
+    "media": 22
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "w-screen pt-14 md:pt-36 pb-20 md:pb-20 flex flex-col home-services relative z-10",
+    "h": 5904,
+    "title": "",
+    "media": 17
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "w-screen px-6 md:px-12  md:py-24 flex flex-col items-center home-quote relative ",
+    "h": 783,
+    "title": "",
+    "media": 2
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "w-screen px-6 md:px-12 relative flex items-center justify-center z-10 home-reel ",
+    "h": 756,
+    "title": "",
+    "media": 1
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "w-screen px-6 md:px-12 pt-8 md:pt-16 pb-52 md:pb-64 flex flex-col items-center h",
+    "h": 755,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "w-screen flex flex-col home-showcase relative z-10 mt-12 md:mt-24",
+    "h": 879,
+    "title": "",
+    "media": 8
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "AwwwardsSep. 20 (2026)Pensatori Irrazion",
+    "href": "https://www.awwwards.com/sites/pensatori-irrazionali"
+   },
+   {
+    "t": "AwwwardsJun. 7 (2026)SOHub received a Si",
+    "href": "https://www.awwwards.com/sites/sohub"
+   },
+   {
+    "t": "ForbesMay. 5 (2026)Teenagers Are Earning",
+    "href": "https://www.forbes.com/sites/ianshepherd/2026/03/11/teenagers-are-earning-six-figures-behind-the-scenes-of-the-creator-economy/"
+   },
+   {
+    "t": "BillboardApr. 20 (2026)Our very own Them",
+    "href": "https://www.billboard.com/business/business-news/bored-ape-9797-signs-deal-with-create-manager-milo-stokes-1235162063/?utm_source=twitter&utm_medium=social"
+   },
+   {
+    "t": "Home",
+    "href": "https://pensatori-irrazionali.com/"
+   },
+   {
+    "t": "Work",
+    "href": "https://pensatori-irrazionali.com/work"
+   },
+   {
+    "t": "Universe",
+    "href": "https://pensatori-irrazionali.com/universe"
+   },
+   {
+    "t": "Contact",
+    "href": "https://pensatori-irrazionali.com/contact"
+   },
+   {
+    "t": "LinkedIn",
+    "href": "https://www.linkedin.com/company/pensatori-irrazionali"
+   },
+   {
+    "t": "Instagram",
+    "href": "https://www.instagram.com/pensatori_irrazionali"
+   },
+   {
+    "t": "X / Twitter",
+    "href": "https://x.com/Pensatori_Irraz"
+   }
+  ],
+  "ctas": [
+   "More News",
+   "Learn MoreLearn MoreLearn More",
+   "Learn MoreLearn MoreLearn More",
+   "Learn MoreLearn MoreLearn More",
+   "Learn MoreLearn MoreLearn More"
+  ],
+  "pageHeight": 13453,
+  "counts": {
+   "canvas": 4,
+   "videos": 10,
+   "imgs": 67,
+   "svgs": 82,
+   "iframes": 0,
+   "domNodes": 1494
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "182",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": true,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": true,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://pensatori-irrazionali.com/_next/static/immutable/chunks/1vz1ogeq_xxgv.js",
+  "https://pensatori-irrazionali.com/_next/static/immutable/chunks/1k5bgi4eb2pk3.js",
+  "https://pensatori-irrazionali.com/_next/static/immutable/chunks/0tttjd1kq2fh8.js",
+  "https://pensatori-irrazionali.com/_next/static/immutable/chunks/turbopack-1byz1flvc-bu1.js",
+  "https://pensatori-irrazionali.com/_next/static/immutable/chunks/02dzp1dnpqqdo.js",
+  "https://pensatori-irrazionali.com/_next/static/immutable/chunks/31pg5155ugymb.js",
+  "https://pensatori-irrazionali.com/_next/static/immutable/chunks/3f1vi9y0k0rm_.js",
+  "https://pensatori-irrazionali.com/_next/static/immutable/chunks/0fdlgsac-t0rt.js",
+  "https://pensatori-irrazionali.com/_next/static/immutable/chunks/1n7xm1f2ayc44.js",
+  "https://pensatori-irrazionali.com/_next/static/immutable/chunks/3nju95ics1vdv.js",
+  "https://pensatori-irrazionali.com/_next/static/immutable/chunks/134jfulpk2ep-.js",
+  "https://pensatori-irrazionali.com/_next/static/immutable/chunks/1ze6klgtm6qtk.js",
+  "https://pensatori-irrazionali.com/_next/static/immutable/chunks/0lc8oalyw35rs.js",
+  "https://pensatori-irrazionali.com/_next/static/immutable/chunks/1dr0w03dedt0c.js",
+  "https://pensatori-irrazionali.com/_next/static/immutable/chunks/3_x9jbz7890_z.js",
+  "https://pensatori-irrazionali.com/_next/static/immutable/chunks/23cc6lr198alf.js",
+  "https://pensatori-irrazionali.com/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+  "https://pensatori-irrazionali.com/_next/static/immutable/chunks/44lmdypxudm68.js",
+  "https://pensatori-irrazionali.com/_next/static/immutable/chunks/2aurwutqq0g9s.js",
+  "https://pensatori-irrazionali.com/_next/static/immutable/chunks/1qs1y4l4b2gi5.js",
+  "https://pensatori-irrazionali.com/_next/static/immutable/chunks/2ms1chi55k4sc.js",
+  "https://pensatori-irrazionali.com/_next/static/immutable/chunks/43li4fx_9i9jt.js",
+  "https://pensatori-irrazionali.com/_next/static/immutable/chunks/2y_xrth9gb2et.js",
+  "https://pensatori-irrazionali.com/_next/static/immutable/chunks/01cgioq5xoux8.js",
+  "https://pensatori-irrazionali.com/_next/static/immutable/chunks/19eau64q_-lyp.js",
+  "https://pensatori-irrazionali.com/_next/static/immutable/chunks/0zabiuk9xl-ob.js",
+  "https://static.cloudflareinsights.com/beacon.min.js"
+ ],
+ "internal": [
+  "https://pensatori-irrazionali.com/work",
+  "https://pensatori-irrazionali.com/universe",
+  "https://pensatori-irrazionali.com/contact",
+  "https://pensatori-irrazionali.com/work/floyd-mayweather",
+  "https://pensatori-irrazionali.com/work/neymar-jr",
+  "https://pensatori-irrazionali.com/work/vodafone-cash",
+  "https://pensatori-irrazionali.com/work/faze-x-lyrical-lemonade",
+  "https://pensatori-irrazionali.com/work/cadillac",
+  "https://pensatori-irrazionali.com/work/sohub-website",
+  "https://pensatori-irrazionali.com/clients",
+  "https://pensatori-irrazionali.com/cookie-policy",
+  "https://pensatori-irrazionali.com/privacy-policy"
+ ],
+ "perf": {
+  "ttfb": 111,
+  "dcl": 401,
+  "load": 7647,
+  "lcp": 1212,
+  "lcpEl": "VIDEO.absolute",
+  "cls": 0.007
+ },
+ "libs": {
+  "detected": [
+   "Next.js",
+   "SplitText/SplitType",
+   "Sanity",
+   "Lenis",
+   "Virtual scroll",
+   "ScrollTrigger",
+   "Swiper",
+   "React",
+   "Contentful",
+   "GSAP",
+   "DrawSVG/MorphSVG",
+   "Three.js",
+   "Matter.js"
+  ],
+  "where": {
+   "Next.js": [
+    "002-1vz1ogeq_xxgv.js",
+    "019-1n7xm1f2ayc44.js",
+    "021-1qs1y4l4b2gi5.js",
+    "024-2y_xrth9gb2et.js"
+   ],
+   "SplitText/SplitType": [
+    "003-23cc6lr198alf.js",
+    "010-1dr0w03dedt0c.js",
+    "016-0fdlgsac-t0rt.js",
+    "017-3nju95ics1vdv.js",
+    "028-2km86r5iwjmm_.js"
+   ],
+   "Sanity": [
+    "003-23cc6lr198alf.js"
+   ],
+   "Lenis": [
+    "006-3f1vi9y0k0rm_.js",
+    "016-0fdlgsac-t0rt.js",
+    "028-2km86r5iwjmm_.js"
+   ],
+   "Virtual scroll": [
+    "006-3f1vi9y0k0rm_.js"
+   ],
+   "ScrollTrigger": [
+    "010-1dr0w03dedt0c.js",
+    "016-0fdlgsac-t0rt.js",
+    "017-3nju95ics1vdv.js"
+   ],
+   "Swiper": [
+    "010-1dr0w03dedt0c.js"
+   ],
+   "React": [
+    "011-1k5bgi4eb2pk3.js"
+   ],
+   "Contentful": [
+    "014-beacon.min.js"
+   ],
+   "GSAP": [
+    "017-3nju95ics1vdv.js"
+   ],
+   "DrawSVG/MorphSVG": [
+    "017-3nju95ics1vdv.js"
+   ],
+   "Three.js": [
+    "022-2aurwutqq0g9s.js"
+   ],
+   "Matter.js": [
+    "028-2km86r5iwjmm_.js"
+   ]
+  },
+  "gsapVersion": "3.11.0",
+  "threeRevision": null,
+  "shaders": 5,
+  "scripts": 28
+ },
+ "network": {
+  "requests": 471,
+  "totalKb": 79018,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 185
+   },
+   "Image": {
+    "n": 378,
+    "kb": 7138
+   },
+   "Font": {
+    "n": 5,
+    "kb": 582
+   },
+   "Script": {
+    "n": 28,
+    "kb": 887
+   },
+   "TextTrack": {
+    "n": 7,
+    "kb": 1
+   },
+   "Other": {
+    "n": 12,
+    "kb": 30302
+   },
+   "Media": {
+    "n": 32,
+    "kb": 39881
+   },
+   "Fetch": {
+    "n": 6,
+    "kb": 42
+   },
+   "Preflight": {
+    "n": 1,
+    "kb": 0
+   },
+   "XHR": {
+    "n": 1,
+    "kb": 0
+   }
+  },
+  "thirdPartyHosts": [
+   "cms.pensatori-irrazionali.com",
+   "assets.pensatori-irrazionali.com",
+   "static.cloudflareinsights.com",
+   "cloudflareinsights.com"
+  ],
+  "fontFiles": [
+   "https://pensatori-irrazionali.com/_next/static/immutable/media/ppeditorialold-s.p.0tm0w7iw-o21z.woff2",
+   "https://pensatori-irrazionali.com/_next/static/immutable/media/Novela-s.p.27xpqqlfyt7-l.woff2",
+   "https://pensatori-irrazionali.com/_next/static/immutable/media/SometypeMono-s.p.3e2bdquepzn41.woff2",
+   "https://pensatori-irrazionali.com/_next/static/immutable/media/HelveticaNowVar-s.p.0cv5f7n-e_n9f.woff2",
+   "https://pensatori-irrazionali.com/_next/static/immutable/media/Ballet-s.p.2gah2wit9cwlq.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://assets.pensatori-irrazionali.com/v1/static/videos/reelFinal.webm",
+    "kb": 15485,
+    "type": "Media"
+   },
+   {
+    "url": "https://cms.pensatori-irrazionali.com/api/media/file/file-aba25b102a8f7e3daf4e06931275a54b1c7eac2c-mp4-Site_Video.mp4",
+    "kb": 8020,
+    "type": "Media"
+   },
+   {
+    "url": "https://cms.pensatori-irrazionali.com/api/media/file/file-549e69ecd68944c4aedc67eb755b16ae738d02ef-mp4-Etisalat-1-online-video-cutter.com-1-.mp4",
+    "kb": 7483,
+    "type": "Media"
+   },
+   {
+    "url": "https://assets.pensatori-irrazionali.com/v1/textures/angel-girl/sequence.ktx2",
+    "kb": 6083,
+    "type": "Other"
+   },
+   {
+    "url": "https://assets.pensatori-irrazionali.com/v1/textures/angel/sequence.ktx2",
+    "kb": 5540,
+    "type": "Other"
+   },
+   {
+    "url": "https://assets.pensatori-irrazionali.com/v1/textures/hand/6.ktx2",
+    "kb": 3414,
+    "type": "Other"
+   },
+   {
+    "url": "https://assets.pensatori-irrazionali.com/v1/textures/hand/5.ktx2",
+    "kb": 3278,
+    "type": "Other"
+   },
+   {
+    "url": "https://assets.pensatori-irrazionali.com/v1/textures/hand/4.ktx2",
+    "kb": 3148,
+    "type": "Other"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "16px",
+   "lineHeight": "24px"
+  },
+  "body": "16px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 465
+}

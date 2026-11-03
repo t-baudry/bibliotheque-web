@@ -1,0 +1,544 @@
+{
+ "id": 9,
+ "name": "Brandon Yasin",
+ "sourceUrl": "https://brandonyasin.com/",
+ "capturedAt": "2026-11-02T23:25:55.068Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg"
+  ],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [
+   {
+    "url": "https://brandonyasin.com/cases/mall-of-the-emirates",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://brandonyasin.com/",
+ "title": "Brandon Yasin — Creative Director & Designer",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Brand, digital and spatial design within lifestyle and luxury. AI scales the production, not the craft. Based in Denmark, working globally.",
+  "canonical": "https://brandonyasin.com/",
+  "robots": null,
+  "ogTitle": "Brandon Yasin — Creative Director & Designer",
+  "ogImage": "https://brandonyasin.com/og-image.jpg",
+  "twitterCard": null,
+  "jsonLd": [],
+  "h1Count": 4,
+  "headings": [
+   "H1 archive",
+   "H1 I build refined brands and experiences across digital and physical spaces",
+   "H1 my signature approach is guided by core values",
+   "H1 established design process tried and tested on small and large brands",
+   "H2 thank you",
+   "H2 let’s buildtogether",
+   "H2 join mynetwork"
+  ],
+  "imgs": 34,
+  "imgNoAlt": 13,
+  "favicon": "https://brandonyasin.com/favicon.ico",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#2c2922",
+    "w": 1296000
+   }
+  ],
+  "text": [
+   {
+    "v": "#c3beb1",
+    "w": 314
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "Helvetica Now Variable",
+    "w": 270
+   },
+   {
+    "v": "Neue Haas Unica Pro",
+    "w": 44
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "12px",
+    "w": 89
+   },
+   {
+    "v": "24.048px",
+    "w": 69
+   },
+   {
+    "v": "18px",
+    "w": 38
+   },
+   {
+    "v": "90.144px",
+    "w": 6
+   },
+   {
+    "v": "60.048px",
+    "w": 3
+   },
+   {
+    "v": "15.984px",
+    "w": 3
+   },
+   {
+    "v": "40.032px",
+    "w": 3
+   },
+   {
+    "v": "13.968px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "50%",
+    "w": 3
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "ease-out 0.25s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h2": {
+    "family": "\"Neue Haas Unica Pro\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "size": "40.032px",
+    "weight": "400",
+    "lineHeight": "48.0384px",
+    "letterSpacing": "-1.60128px",
+    "transform": "none",
+    "color": "#111111",
+    "sample": "thank you"
+   },
+   "p": {
+    "family": "\"Neue Haas Unica Pro\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "size": "18px",
+    "weight": "251",
+    "lineHeight": "21.6px",
+    "letterSpacing": "-0.18px",
+    "transform": "none",
+    "color": "#111111",
+    "sample": "I will get back to you as soon as possible."
+   },
+   "a": {
+    "family": "\"Helvetica Now Variable\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "size": "12px",
+    "weight": "400",
+    "lineHeight": "12px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#c3beb1",
+    "sample": "BrandonBrandonYasinYasinBrandonAwwwardsSite of the daySOTDYasinSite of the daySO"
+   },
+   "button": {
+    "family": "\"Helvetica Now Variable\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "size": "12px",
+    "weight": "400",
+    "lineHeight": "12px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#111111",
+    "sample": "CloseClose"
+   },
+   "li": {
+    "family": "\"Helvetica Now Variable\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "size": "12px",
+    "weight": "400",
+    "lineHeight": "12px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#c3beb1",
+    "sample": "MenuMenu"
+   },
+   "body": {
+    "family": "\"Neue Haas Unica Pro\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "size": "15.984px",
+    "weight": "400",
+    "lineHeight": "20.7792px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#c3beb1",
+    "sample": "ArchiveBrandonBrandonYasinYasinBrandonAwwwardsSite of the daySOTDYasinSite of th"
+   }
+  },
+  "cssVars": {
+   "--color-main": "#111",
+   "--color-bg": "#f8f6f2",
+   "--selection-color": "#111",
+   "--selection-bg": "#44300033",
+   "--focus-bg": "var(--color-main)",
+   "--focus-color": "var(--color-bg)",
+   "--lvh": "1vh",
+   "--svh": "1vh",
+   "--img-over-opacity": "0",
+   "--bg-brightness": "1",
+   "--size": "1728"
+  },
+  "fontFaces": [
+   {
+    "family": "Neue Haas Unica Pro",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"./NeueHaasUnicaPro-Regular.CsAGy8LP.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Helvetica Now Variable",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"./HelveticaNowVar-Regular.BCGr3GKL.woff2\") format(\"woff2\")"
+   }
+  ],
+  "keyframes": [
+   "tick-458dfb20",
+   "rows-trail-7d6b1e40"
+  ],
+  "breakpoints": [
+   {
+    "v": "1025px",
+    "w": 702
+   },
+   {
+    "v": "1438px",
+    "w": 679
+   },
+   {
+    "v": "768px",
+    "w": 130
+   },
+   {
+    "v": "767px",
+    "w": 96
+   },
+   {
+    "v": "1024px",
+    "w": 66
+   },
+   {
+    "v": "420px",
+    "w": 4
+   },
+   {
+    "v": "692px",
+    "w": 2
+   },
+   {
+    "v": "850px",
+    "w": 2
+   },
+   {
+    "v": "1000px",
+    "w": 2
+   },
+   {
+    "v": "360px",
+    "w": 2
+   },
+   {
+    "v": "840px",
+    "w": 2
+   },
+   {
+    "v": "900px",
+    "w": 2
+   }
+  ],
+  "rulesCount": 4812,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [],
+  "navLinks": [
+   {
+    "t": "BrandonBrandonYasinYasinBrandonAwwwardsS",
+    "href": "https://brandonyasin.com/"
+   },
+   {
+    "t": "",
+    "href": "https://brandonyasin.com/"
+   },
+   {
+    "t": "BrandonBrandonYasinYasinBrandonAwwwardsS",
+    "href": "https://brandonyasin.com/"
+   },
+   {
+    "t": "",
+    "href": "https://brandonyasin.com/"
+   },
+   {
+    "t": "BrandonBrandonYasinYasinBrandonAwwwardsS",
+    "href": "https://brandonyasin.com/"
+   },
+   {
+    "t": "",
+    "href": "https://brandonyasin.com/"
+   }
+  ],
+  "ctas": [],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 0,
+   "videos": 2,
+   "imgs": 34,
+   "svgs": 10,
+   "iframes": 0,
+   "domNodes": 788
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": false,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": true,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": true,
+  "cms": [],
+  "analytics": [],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": false
+ },
+ "scripts": [
+  "https://brandonyasin.com/_nuxt/DLIfx4oD.js"
+ ],
+ "internal": [
+  "https://brandonyasin.com/cases/mall-of-the-emirates",
+  "https://brandonyasin.com/cases/bestseller",
+  "https://brandonyasin.com/cases/copenhagen-fashion-week",
+  "https://brandonyasin.com/cases/rains",
+  "https://brandonyasin.com/cases/nine-furniture",
+  "https://brandonyasin.com/cases/louis-vuitton"
+ ],
+ "perf": {
+  "ttfb": 523,
+  "dcl": 772,
+  "load": 1284,
+  "lcp": 6356,
+  "lcpEl": "VIDEO",
+  "cls": 0
+ },
+ "libs": {
+  "detected": [
+   "GSAP",
+   "Nuxt",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Vue",
+   "Lenis",
+   "Virtual scroll"
+  ],
+  "where": {
+   "GSAP": [
+    "001-8KsFPb62.js",
+    "002-B5x_fSL7.js",
+    "004-B5x_fSL7.js",
+    "005-8KsFPb62.js",
+    "007-CWbe6z-E.js",
+    "011-CWbe6z-E.js"
+   ],
+   "Nuxt": [
+    "001-8KsFPb62.js",
+    "002-B5x_fSL7.js",
+    "003-DLIfx4oD.js",
+    "004-B5x_fSL7.js",
+    "005-8KsFPb62.js",
+    "010-DLIfx4oD.js"
+   ],
+   "ScrollTrigger": [
+    "002-B5x_fSL7.js",
+    "004-B5x_fSL7.js"
+   ],
+   "SplitText/SplitType": [
+    "002-B5x_fSL7.js",
+    "004-B5x_fSL7.js"
+   ],
+   "Vue": [
+    "002-B5x_fSL7.js",
+    "004-B5x_fSL7.js"
+   ],
+   "Lenis": [
+    "002-CDDUvVXK.js",
+    "003-DLIfx4oD.js",
+    "005-CDDUvVXK.js",
+    "006-BiSWKqUp.js",
+    "007-CWbe6z-E.js",
+    "008-CDDUvVXK.js",
+    "010-DLIfx4oD.js",
+    "011-BiSWKqUp.js",
+    "011-CWbe6z-E.js",
+    "styles.css"
+   ],
+   "Virtual scroll": [
+    "003-DLIfx4oD.js",
+    "007-CWbe6z-E.js",
+    "010-DLIfx4oD.js",
+    "011-CWbe6z-E.js"
+   ]
+  },
+  "gsapVersion": "3.11.0",
+  "threeRevision": null,
+  "shaders": 0,
+  "scripts": 26
+ },
+ "network": {
+  "requests": 115,
+  "totalKb": 16398,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 20
+   },
+   "Stylesheet": {
+    "n": 7,
+    "kb": 22
+   },
+   "Script": {
+    "n": 13,
+    "kb": 206
+   },
+   "Other": {
+    "n": 50,
+    "kb": 12764
+   },
+   "Image": {
+    "n": 38,
+    "kb": 3304
+   },
+   "Media": {
+    "n": 3,
+    "kb": 0
+   },
+   "Font": {
+    "n": 2,
+    "kb": 81
+   },
+   "Fetch": {
+    "n": 1,
+    "kb": 0
+   }
+  },
+  "thirdPartyHosts": [],
+  "fontFiles": [
+   "https://brandonyasin.com/_nuxt/NeueHaasUnicaPro-Regular.CsAGy8LP.woff2",
+   "https://brandonyasin.com/_nuxt/HelveticaNowVar-Regular.BCGr3GKL.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://brandonyasin.com/_nuxt/archive_16.CqiVaxxm.mp4",
+    "kb": 1596,
+    "type": "Other"
+   },
+   {
+    "url": "https://brandonyasin.com/_nuxt/archive_09.DbgvIWZh.mp4",
+    "kb": 1309,
+    "type": "Other"
+   },
+   {
+    "url": "https://brandonyasin.com/_nuxt/RAINS.bsJKHxaJ.mp4",
+    "kb": 1291,
+    "type": "Other"
+   },
+   {
+    "url": "https://brandonyasin.com/_nuxt/bg_2.BFp2NJKx.jpeg",
+    "kb": 1108,
+    "type": "Other"
+   },
+   {
+    "url": "https://brandonyasin.com/_nuxt/thx_paper_bg_dark.D5PiLhWj.png",
+    "kb": 793,
+    "type": "Other"
+   },
+   {
+    "url": "https://brandonyasin.com/_nuxt/archive_03.DRKdGFuF.mp4",
+    "kb": 700,
+    "type": "Other"
+   },
+   {
+    "url": "https://brandonyasin.com/_nuxt/LV.CkZt_03C.mp4",
+    "kb": 612,
+    "type": "Other"
+   },
+   {
+    "url": "https://brandonyasin.com/_nuxt/archive_06.C5_Zp-eu.mp4",
+    "kb": 536,
+    "type": "Other"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "54px",
+   "lineHeight": "66.96px"
+  },
+  "body": "16px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 99
+}

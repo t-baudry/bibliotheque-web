@@ -1,0 +1,745 @@
+{
+ "id": 36,
+ "name": "Realevate",
+ "sourceUrl": "https://realevate.agency/",
+ "capturedAt": "2026-11-02T23:45:26.273Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg"
+  ],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [
+   {
+    "url": "https://realevate.agency/bythesea",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://realevate.agency/evergreen",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://realevate.agency/urbanliving",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://realevate.agency/",
+ "title": "Realevate | Exceptional Real Estate Investments in Cyprus, Montenegro & Georgia",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Realevate is a global real estate agency specializing in unique properties and exceptional developments in high-demand markets, offering outstanding opportunities for investment, vacation homes, and wellness living. Active in Cyprus, Montenegro, and Georgia.",
+  "canonical": "https://realevate.agency/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "ogTitle": "Realevate | Exceptional Real Estate Investments in Cyprus, Montenegro & Georgia",
+  "ogImage": "https://realevate.agency/assets/preview-thumbnail.png",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "Organization",
+   "RealEstateAgent",
+   "WebSite",
+   "ItemList",
+   "WebPage",
+   "Service",
+   "FAQPage"
+  ],
+  "h1Count": 1,
+  "headings": [
+   "H1 Invest in Exceptional Real Estate Properties in Cyprus, Montenegro, and Georgia."
+  ],
+  "imgs": 12,
+  "imgNoAlt": 10,
+  "favicon": "https://realevate.agency/images/favicon.png",
+  "themeColor": "#000000"
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#ffffff",
+    "w": 1296000
+   },
+   {
+    "v": "#1f2b5e",
+    "w": 2349
+   }
+  ],
+  "text": [
+   {
+    "v": "#1f2b5e",
+    "w": 245
+   },
+   {
+    "v": "#ffffff",
+    "w": 3
+   }
+  ],
+  "border": [
+   {
+    "v": "#1f2b5e",
+    "w": 1
+   }
+  ],
+  "fonts": [
+   {
+    "v": "Google Sans",
+    "w": 223
+   },
+   {
+    "v": "Monument Extended",
+    "w": 22
+   },
+   {
+    "v": "Arial",
+    "w": 3
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "38.4162px",
+    "w": 32
+   },
+   {
+    "v": "44.2004px",
+    "w": 5
+   },
+   {
+    "v": "12.2779px",
+    "w": 5
+   },
+   {
+    "v": "218.274px",
+    "w": 5
+   },
+   {
+    "v": "17.0526px",
+    "w": 4
+   },
+   {
+    "v": "23.6827px",
+    "w": 2
+   },
+   {
+    "v": "13.6421px",
+    "w": 2
+   },
+   {
+    "v": "16.3705px",
+    "w": 1
+   },
+   {
+    "v": "13.0255px",
+    "w": 1
+   }
+  ],
+  "radius": [],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.7 0.75s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "\"Google Sans\", Arial, Helvetica, sans-serif",
+    "size": "23.6827px",
+    "weight": "500",
+    "lineHeight": "30.7875px",
+    "letterSpacing": "-0.236827px",
+    "transform": "none",
+    "color": "#1f2b5e",
+    "sample": "Invest in Exceptional Real Estate Properties in Cyprus, Montenegro, and Georgia."
+   },
+   "p": {
+    "family": "\"Monument Extended\", MonumentExtended, \"Google Sans\", Arial, Helvetica, sans-serif",
+    "size": "13.0255px",
+    "weight": "500",
+    "lineHeight": "17.5844px",
+    "letterSpacing": "1.04204px",
+    "transform": "uppercase",
+    "color": "#1f2b5e",
+    "sample": "Starting from 100,000€"
+   },
+   "a": {
+    "family": "\"Google Sans\", Arial, Helvetica, sans-serif",
+    "size": "16.3705px",
+    "weight": "500",
+    "lineHeight": "normal",
+    "letterSpacing": "-0.163705px",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "By The Sea Coastal, Marina & Seafront properties"
+   },
+   "body": {
+    "family": "\"Google Sans\", Arial, Helvetica, sans-serif",
+    "size": "16.3705px",
+    "weight": "500",
+    "lineHeight": "normal",
+    "letterSpacing": "-0.163705px",
+    "transform": "none",
+    "color": "#1f2b5e",
+    "sample": "Please rotate your device Homepage Invest in Cyprus, Montenegro and Georgia By T"
+   }
+  },
+  "cssVars": {
+   "--brand-navy": "#1F2B5E",
+   "--navy": "var(--brand-navy)",
+   "--muted": "#626C95",
+   "--white": "#FFFFFF",
+   "--category-color-light": "var(--white)",
+   "--category-by-the-sea-color": "#222A4C",
+   "--category-by-the-sea-muted": "#5D668D",
+   "--category-evergreen-color": "#36614D",
+   "--category-evergreen-muted": "#80988E",
+   "--category-urban-living-color": "#2D1C2D",
+   "--category-urban-living-muted": "#6B5A6B",
+   "--category-rare-gems-color": "#1C181D",
+   "--category-rare-gems-muted": "#5C585D",
+   "--custom-scrollbar-thumb-color": "var(--muted)",
+   "--sans-font": "\"Google Sans\", Arial, Helvetica, sans-serif",
+   "--display-font": "\"Roslindale Display\", Georgia, \"Times New Roman\", serif",
+   "--standard-easing": "cubic-bezier(.7, .6, 0, 1)",
+   "--cta-motion-easing": "cubic-bezier(.7, .6, 0, 1)",
+   "--overlay-duration": ".8s",
+   "--body-leading": "1.35",
+   "--underline-offset": "-.3em",
+   "--desktop-size-scale": "1",
+   "--tablet-size-scale": "1.54",
+   "--mobile-size-scale": "2.25",
+   "--responsive-size-scale": "var(--mobile-size-scale)",
+   "--compact-height-baseline": "950px",
+   "--layout-size-scale": "calc(var(--responsive-size-scale) * var(--compact-vw-as-svh))",
+   "--grid-columns": "4",
+   "--grid-line-full": "calc(var(--grid-columns) + 1)",
+   "--about-intro-visual-column-span": "3",
+   "--cat-row-figure-end": "5",
+   "--cat-row-copy-start": "6",
+   "--cat-row-copy-end": "var(--grid-line-full)",
+   "--cat-row-figure-right-start": "6",
+   "--cat-row-figure-right-end": "var(--grid-line-full)",
+   "--cat-row-copy-narrow-end": "5",
+   "--contact-hero-left-end": "5",
+   "--contact-hero-channels-start": "5",
+   "--contact-hero-channels-end": "7",
+   "--contact-hero-aside-start": "7",
+   "--contact-form-tab-font-size": "calc(var(--overlay-field-size) * 1.18)",
+   "--contact-form-tabs-offset": "calc(var(--contact-form-tab-font-size) * 2.75 + 1px + var(--form-gap) * .35 + 2px)",
+   "--contact-hero-channels-stack-gap": "calc(5vw * var(--layout-size-scale))",
+   "--desktop-grid-padding": "4.5vw",
+   "--desktop-grid-gap": "2.601vw",
+   "--desktop-h1-size": "16vw",
+   "--desktop-h1-line-height": "1",
+   "--desktop-h1-letter-spacing": "-.02em",
+   "--desktop-h2-size": "5.2vw",
+   "--desktop-h2-line-height": ".94",
+   "--desktop-h2-letter-spacing": "-.03em",
+   "--desktop-h3-size": "3.646vw",
+   "--desktop-h3-line-height": ".92",
+   "--desktop-h3-letter-spacing": "-.05em",
+   "--desktop-h4-size": "1.5vw",
+   "--desktop-h4-line-height": "1.3",
+   "--desktop-h4-letter-spacing": "-.01em",
+   "--desktop-h5-size": "1.736vw",
+   "--desktop-h5-line-height": "var(--body-leading)",
+   "--desktop-h5-letter-spacing": "-.01em",
+   "--desktop-h6-size": "1.447vw",
+   "--desktop-h6-line-height": "1.4",
+   "--desktop-h6-letter-spacing": "-.01em",
+   "--desktop-text-size": "1.2vw",
+   "--desktop-p-line-height": "var(--body-leading)",
+   "--desktop-p-letter-spacing": "-.01em",
+   "--desktop-marquee-text-size": "var(--desktop-h1-size)",
+   "--desktop-lead-size": "var(--desktop-h5-size)",
+   "--desktop-category-title-size": "var(--desktop-h2-size)",
+   "--desktop-category-copy-size": "var(--desktop-text-size)",
+   "--category-copy-line-height": "var(--desktop-p-line-height)",
+   "--desktop-form-field-padding-block": "1.08vw",
+   "--desktop-logo-width": "20vw",
+   "--desktop-hero-visual-width": "20vw",
+   "--desktop-hero-visual-height": "20vw",
+   "--desktop-hero-content-width": "42vw",
+   "--desktop-home-hero-content-max-width": "35vw",
+   "--desktop-contact-hero-visual-max-width": "34vw",
+   "--category-hero-scroll-gap": "5.236vw",
+   "--category-hero-scroll-grow-scale": "2",
+   "--category-hero-scroll-end-height": "110svh",
+   "--category-hero-scroll-end-hold": "5svh",
+   "--selection-btn-fill": "var(--category-color-light)",
+   "--selection-btn-hover-text": "var(--category-color)",
+   "--nav-menu-width": "calc(100vw - (var(--grid-padding) * 2))",
+   "--nav-menu-padding": "8vw 8vw 8vw 8vw",
+   "--nav-menu-link-size": "7.65vw",
+   "--nav-menu-link-gap": ".32em",
+   "--nav-menu-contact-size": "3.65vw",
+   "--nav-menu-min-height": "80.5vw",
+   "--compact-vw-as-svh": "min(1, calc(100svh / var(--compact-height-baseline)))",
+   "--about-hero-image-x": "20%",
+   "--about-hero-height": "max(200vw, 150svh)",
+   "--category-hero-scroll-stage-height": "var(--about-hero-height)",
+   "--selection-card-height": "52svh",
+   "--selection-card-panel-ratio": "1",
+   "--selection-tablet-grid-padding": "3.6svh",
+   "--selection-tablet-grid-gap": "2svh",
+   "--selection-tablet-cube-size": "33.5svh",
+   "--selection-tablet-cards-block-height": "calc(var(--selection-tablet-cube-size) * 2 + var(--selection-tablet-grid-gap))",
+   "--selection-tablet-preview-visible-height": "calc( 100svh - var(--selection-tablet-cards-block-height) - var(--selection-tablet-grid-padding) * 2 - var(--selection-tablet-grid-gap) )",
+   "--selection-card-title-size": "calc(var(--desktop-selection-card-title-size) * var(--responsive-size-scale) * 1)",
+   "--selection-card-desc-size": "calc(var(--desktop-selection-card-desc-size) * var(--responsive-size-scale) * 1.15)",
+   "--selection-card-symbol-width": "2.2svh",
+   "--selection-card-padding": "1.7svh",
+   "--h4-size": "calc(var(--desktop-h4-size) * var(--responsive-size-scale) * 1.3)",
+   "--p-size": "calc(var(--text-size) * 1.5)",
+   "--grid-padding": "calc(var(--desktop-grid-padding) * var(--responsive-size-scale) * 1)",
+   "--logo-width": "calc(var(--desktop-logo-width) * var(--responsive-size-scale) * 1.4)",
+   "--hero-content-text-size": "calc(var(--lead-size) * 1.2)",
+   "--nav-footer-text-size": "calc(var(--desktop-nav-footer-text-size) * var(--responsive-size-scale) * 1.15)",
+   "--overlay-padding": "var(--grid-padding)",
+   "--overlay-title-size": "clamp(1.35rem, 6vw, 1.75rem)",
+   "--overlay-field-size": "clamp(1rem, 4.25vw, 1.125rem)",
+   "--overlay-label-size": "clamp(.875rem, 3.6vw, .95rem)",
+   "--overlay-cta-size": "clamp(1rem, 4.25vw, 1.125rem)",
+   "--overlay-close-size": "clamp(2rem, 8.5vw, 2.5rem)",
+   "--overlay-slide-offset": "calc(var(--overlay-width) * 18 / 31.5)",
+   "--form-message-size": "clamp(.95rem, 4vw, 1.1rem)",
+   "--selection-mobile-grid-width": "calc(100vw - (var(--grid-padding) * 2))",
+   "--selection-mobile-preview-visible-ratio": ".3",
+   "--selection-mobile-preview-height": "calc( var(--selection-mobile-grid-width) * var(--selection-mobile-preview-visible-ratio) )",
+   "--selection-mobile-card-height": "18svh",
+   "--selection-page-scale": ".52",
+   "--category-color": "var(--brand-navy)",
+   "--category-color-muted": "var(--muted)",
+   "--selection-btn-bg": "var(--white)",
+   "--nav-menu-overlay": "color-mix(in srgb, var(--category-color) 36%, transparent)",
+   "--nav-menu-bg": "var(--category-color)",
+   "--nav-menu-text": "var(--category-color-light)",
+   "--nav-menu-muted": "var(--category-color-muted)",
+   "--desktop-category-section-pad": "14vw",
+   "--desktop-category-section-inner-gap": "13vw",
+   "--desktop-category-values-row-gap": "5vw",
+   "--desktop-projects-slide-width": "52.083vw",
+   "--desktop-projects-slide-height": "33.738vw",
+   "--desktop-projects-slider-margin-top": "5vw",
+   "--desktop-projects-slider-padding-bottom": "8vw",
+   "--desktop-projects-slider-nav-right": "12.5vw",
+   "--desktop-projects-slider-nav-gap": ".5vw",
+   "--desktop-projects-slider-arrow-size": "3.472vw",
+   "--desktop-category-quote-max-width": "63vw",
+   "--desktop-category-quote-image-size": "12.674vw",
+   "--desktop-category-quote-gap": "4.282vw",
+   "--desktop-category-intro-gap": "4.282vw",
+   "--desktop-category-intro-line-height": "4vw",
+   "--desktop-category-title-max-width": "40vw",
+   "--desktop-category-copy-max-width": "25.013vw",
+   "--desktop-category-values-desc-margin-top": "3vw",
+   "--desktop-category-cta-line-margin-bottom": "2.604vw",
+   "--desktop-category-cta-link-margin-top": "4.282vw",
+   "--desktop-category-cta-pad-bottom-extra": "7vw",
+   "--desktop-category-next-content-gap": "1.638vw",
+   "--desktop-category-next-label-padding-block": ".363vw",
+   "--desktop-category-next-label-padding-inline": ".8vw",
+   "--desktop-category-next-label-size": "1.1vw",
+   "--desktop-category-next-title-size": "5.787vw",
+   "--category-section-pad": "calc(var(--desktop-category-section-pad) * var(--layout-size-scale))",
+   "--category-section-inner-gap": "calc(var(--desktop-category-section-inner-gap) * var(--layout-size-scale))",
+   "--category-values-row-gap": "calc(var(--desktop-category-values-row-gap) * var(--layout-size-scale))",
+   "--category-hero-end-width": "100vw",
+   "--category-hero-gap": "var(--category-hero-scroll-gap)",
+   "--category-hero-end-height": "var(--category-hero-scroll-end-height)",
+   "--category-hero-end-hold": "var(--category-hero-scroll-end-hold)",
+   "--category-hero-grow-scroll-scale": "var(--category-hero-scroll-grow-scale)",
+   "--category-hero-viewport-height": "100svh",
+   "--projects-slide-width": "calc(var(--desktop-projects-slide-width) * var(--layout-size-scale))",
+   "--projects-slide-height": "calc(var(--desktop-projects-slide-height) * var(--layout-size-scale))",
+   "--projects-slider-margin-top": "calc(var(--desktop-projects-slider-margin-top) * var(--layout-size-scale))",
+   "--projects-slider-padding-bottom": "calc(var(--desktop-projects-slider-padding-bottom) * var(--layout-size-scale))",
+   "--projects-slider-nav-right": "calc(var(--desktop-projects-slider-nav-right) * var(--layout-size-scale))",
+   "--projects-slider-nav-gap": "calc(var(--desktop-projects-slider-nav-gap) * var(--layout-size-scale))",
+   "--projects-slider-arrow-size": "calc(var(--desktop-projects-slider-arrow-size) * var(--layout-size-scale))",
+   "--category-quote-max-width": "calc(var(--desktop-category-quote-max-width) * var(--layout-size-scale))",
+   "--category-quote-image-size": "calc(var(--desktop-category-quote-image-size) * var(--layout-size-scale))",
+   "--category-quote-gap": "calc(var(--desktop-category-quote-gap) * var(--layout-size-scale))",
+   "--category-intro-gap": "calc(var(--desktop-category-intro-gap) * var(--layout-size-scale))",
+   "--category-intro-line-height": "calc(var(--desktop-category-intro-line-height) * var(--layout-size-scale))",
+   "--category-title-max-width": "calc(var(--desktop-category-title-max-width) * var(--layout-size-scale))",
+   "--category-title-size": "var(--h2-size)",
+   "--category-copy-max-width": "calc(var(--desktop-category-copy-max-width) * var(--layout-size-scale))",
+   "--category-copy-size": "var(--p-size)",
+   "--category-values-desc-margin-top": "calc(var(--desktop-category-values-desc-margin-top) * var(--layout-size-scale))",
+   "--category-cta-line-margin-bottom": "calc(var(--desktop-category-cta-line-margin-bottom) * var(--layout-size-scale))",
+   "--category-cta-link-margin-top": "calc(var(--desktop-category-cta-link-margin-top) * var(--layout-size-scale))",
+   "--category-cta-pad-bottom-extra": "calc(var(--desktop-category-cta-pad-bottom-extra) * var(--layout-size-scale))",
+   "--category-next-content-gap": "calc(var(--desktop-category-next-content-gap) * var(--layout-size-scale))",
+   "--category-next-label-padding-block": "calc(var(--desktop-category-next-label-padding-block) * var(--layout-size-scale))",
+   "--category-next-label-padding-inline": "calc(var(--desktop-category-next-label-padding-inline) * var(--layout-size-scale))",
+   "--category-next-label-size": "calc(var(--desktop-category-next-label-size) * var(--layout-size-scale))",
+   "--category-next-title-size": "calc(var(--desktop-category-next-title-size) * var(--layout-size-scale))",
+   "--category-hero-desc-max-width": "35vw"
+  },
+  "fontFaces": [
+   {
+    "family": "Google Sans",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"fonts/sans-latin.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Roslindale Display",
+    "weight": "300",
+    "style": "normal",
+    "src": "url(\"fonts/serif.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Monument Extended",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"fonts/extended.woff2\") format(\"woff2\")"
+   }
+  ],
+  "keyframes": [
+   "cursor-play-label-exit-up",
+   "cursor-play-label-enter-from-bottom"
+  ],
+  "breakpoints": [
+   {
+    "v": "650px",
+    "w": 17
+   },
+   {
+    "v": "651px",
+    "w": 7
+   },
+   {
+    "v": "1024px",
+    "w": 5
+   },
+   {
+    "v": "949px",
+    "w": 2
+   },
+   {
+    "v": "1025px",
+    "w": 1
+   },
+   {
+    "v": "950px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 1059,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "hero-section",
+    "h": 658,
+    "title": "Invest in Exceptional Real Estate Properties in Cyprus, Montenegro, and Georgia.",
+    "media": 2
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "Homepage Invest in Cyprus, Montenegro an",
+    "href": "https://realevate.agency/"
+   },
+   {
+    "t": "By The Sea Coastal, Marina & Seafront pr",
+    "href": "https://realevate.agency/bythesea"
+   },
+   {
+    "t": "Evergreen Gulf Resorts, parks & Forest O",
+    "href": "https://realevate.agency/evergreen"
+   },
+   {
+    "t": "Urban Living City center & Old city vibe",
+    "href": "https://realevate.agency/urbanliving"
+   },
+   {
+    "t": "Rare Gems One of a kind & Unique concept",
+    "href": "https://realevate.agency/raregems"
+   },
+   {
+    "t": "",
+    "href": "https://realevate.agency/"
+   },
+   {
+    "t": "About",
+    "href": "https://realevate.agency/about"
+   },
+   {
+    "t": "Contact",
+    "href": "https://realevate.agency/contact"
+   },
+   {
+    "t": "Our Selection",
+    "href": "https://realevate.agency/#"
+   },
+   {
+    "t": "HomeHome",
+    "href": "https://realevate.agency/"
+   },
+   {
+    "t": "AboutAbout",
+    "href": "https://realevate.agency/about"
+   },
+   {
+    "t": "ContactContact",
+    "href": "https://realevate.agency/contact"
+   }
+  ],
+  "ctas": [],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 0,
+   "videos": 0,
+   "imgs": 12,
+   "svgs": 7,
+   "iframes": 0,
+   "domNodes": 220
+  }
+ },
+ "tech": {
+  "gsap": true,
+  "gsapVersion": "3.12.2",
+  "scrollTrigger": true,
+  "splitText": true,
+  "lenis": false,
+  "locomotive": false,
+  "three": false,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [
+   "googletagmanager",
+   "google-analytics",
+   "gtag",
+   "fbevents"
+  ],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": false
+ },
+ "scripts": [
+  "https://connect.facebook.net/signals/config/4532996743652549?v=2.9.433&r=stable&domain=realevate.agency&hme=4453c87d489b6902031c012cadd2731893cd69feb64fe8a61b339727247a7703&ex_m=118%2C242%2C171%2C27%2C82%2C83%2C162%2C78%2C77%2C11%2C181%2C102%2C20%2C153%2C141%2C46%2C85%2C90%2C149%2C176%2C183%2C8%2C4%2C5%2C7%2C6%2C3%2C103%2C115%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C37%2C55%2C163%2C87%2C126%2C22%2C24%2C51%2C47%2C49%2C48%2C95%2C104%2C108%2C124%2C160%2C164%2C53%2C125%2C29%2C26%2C133%2C79%2C43%2C166%2C165%2C167%2C157%2C155%2C30%2C42%2C66%2C123%2C178%2C80%2C21%2C128%2C93%2C76%2C23%2C97%2C98%2C130%2C96%2C151%2C150%2C154%2C109%2C177%2C180%2C41%2C56%2C127%2C54%2C161%2C72%2C185%2C110%2C184%2C211%2C263%2C84%2C283%2C282%2C281%2C14%2C25%2C28%2C40%2C62%2C117%2C68%2C10%2C73%2C111%2C112%2C113%2C119%2C144%2C38%2C36%2C146%2C147%2C148%2C143%2C142%2C172%2C86%2C175%2C173%2C174%2C57%2C69%2C67%2C137%2C19%2C179%2C52%2C333%2C334%2C335%2C332%2C349%2C371%2C256%2C238%2C70%2C239%2C237%2C374%2C365%2C59%2C257%2C121%2C145%2C92%2C135%2C61%2C134%2C140%2C139%2C65%2C74%2C168%2C88%2C89%2C129%2C44%2C39%2C60%2C63%2C114%2C182%2C1%2C138%2C16%2C136%2C12%2C2%2C64%2C105%2C15%2C75%2C71%2C132%2C101%2C100%2C187%2C188%2C106%2C107%2C9%2C116%2C186%2C58%2C158%2C99%2C91%2C81%2C131%2C120%2C169%2C50%2C159%2C0%2C94%2C152%2C156%2C170%2C45%2C122%2C13%2C189",
+  "https://connect.facebook.net/en_US/fbevents.js",
+  "https://realevate.agency/js/load-meta-pixel.js",
+  "https://www.googletagmanager.com/gtag/js?id=G-XHTK8R6WEK",
+  "https://realevate.agency/js/gsap.min.js",
+  "https://realevate.agency/js/scrolltrigger.min.js",
+  "https://realevate.agency/js/splittext.min.js",
+  "https://realevate.agency/slider-manifest.js",
+  "https://realevate.agency/js/site-preloader.timing.js",
+  "https://realevate.agency/js/realevate-app.js?v=1789247589730",
+  "https://realevate.agency/js/load-analytics.js"
+ ],
+ "internal": [
+  "https://realevate.agency/bythesea",
+  "https://realevate.agency/evergreen",
+  "https://realevate.agency/urbanliving",
+  "https://realevate.agency/raregems",
+  "https://realevate.agency/about",
+  "https://realevate.agency/contact"
+ ],
+ "perf": {
+  "ttfb": 840,
+  "dcl": 1958,
+  "load": 2029,
+  "lcp": 5968,
+  "lcpEl": "IMG.hero-opening-media",
+  "cls": 0.007
+ },
+ "libs": {
+  "detected": [
+   "GSAP",
+   "SplitText/SplitType",
+   "ScrollTrigger"
+  ],
+  "where": {
+   "GSAP": [
+    "001-splittext.min.js",
+    "002-gsap.min.js",
+    "003-scrolltrigger.min.js",
+    "008-realevate-app.js"
+   ],
+   "SplitText/SplitType": [
+    "001-splittext.min.js",
+    "008-realevate-app.js"
+   ],
+   "ScrollTrigger": [
+    "002-gsap.min.js",
+    "003-scrolltrigger.min.js",
+    "008-realevate-app.js"
+   ]
+  },
+  "gsapVersion": "3.12.2",
+  "threeRevision": null,
+  "shaders": 0,
+  "scripts": 8
+ },
+ "network": {
+  "requests": 111,
+  "totalKb": 8681,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 7
+   },
+   "Other": {
+    "n": 3,
+    "kb": 59
+   },
+   "Image": {
+    "n": 72,
+    "kb": 7929
+   },
+   "Script": {
+    "n": 11,
+    "kb": 469
+   },
+   "Font": {
+    "n": 3,
+    "kb": 97
+   },
+   "Stylesheet": {
+    "n": 1,
+    "kb": 24
+   },
+   "Fetch": {
+    "n": 19,
+    "kb": 95
+   },
+   "Ping": {
+    "n": 1,
+    "kb": 1
+   }
+  },
+  "thirdPartyHosts": [
+   "connect.facebook.net",
+   "www.googletagmanager.com",
+   "www.google.fr",
+   "region1.analytics.google.com",
+   "stats.g.doubleclick.net",
+   "www.facebook.com"
+  ],
+  "fontFiles": [
+   "https://realevate.agency/fonts/sans-latin.woff2",
+   "https://realevate.agency/fonts/extended.woff2",
+   "https://realevate.agency/fonts/serif.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://realevate.agency/assets/selection/evergreen/slider/ever-1_converted.avif",
+    "kb": 388,
+    "type": "Image"
+   },
+   {
+    "url": "https://realevate.agency/assets/selection/evergreen/slider/ever-3_converted.avif",
+    "kb": 374,
+    "type": "Image"
+   },
+   {
+    "url": "https://realevate.agency/assets/selection/evergreen/evergreen-big-image.avif",
+    "kb": 330,
+    "type": "Image"
+   },
+   {
+    "url": "https://realevate.agency/assets/selection/bythesea/slider/BTS-3_converted.avif",
+    "kb": 324,
+    "type": "Image"
+   },
+   {
+    "url": "https://realevate.agency/assets/selection/evergreen/slider/ever-4_converted.avif",
+    "kb": 309,
+    "type": "Image"
+   },
+   {
+    "url": "https://realevate.agency/assets/selection/bythesea/slider/BTS-6_converted.avif",
+    "kb": 294,
+    "type": "Image"
+   },
+   {
+    "url": "https://realevate.agency/assets/selection/evergreen/slider/ever-12_converted.avif",
+    "kb": 261,
+    "type": "Image"
+   },
+   {
+    "url": "https://realevate.agency/assets/hero-load-visual.avif",
+    "kb": 234,
+    "type": "Image"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "21.45px",
+   "lineHeight": "27.885px"
+  },
+  "body": "10.53px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 235
+}

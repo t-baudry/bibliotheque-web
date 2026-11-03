@@ -1,0 +1,695 @@
+{
+ "id": 25,
+ "name": "Odyssee",
+ "sourceUrl": "https://www.odysseeclinic.com.au/",
+ "capturedAt": "2026-11-02T23:38:07.060Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg"
+  ],
+  "fullPage": 9045,
+  "subpages": [
+   {
+    "url": "https://www.odysseeclinic.com.au/treatments",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.odysseeclinic.com.au/concerns",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.odysseeclinic.com.au/about",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://www.odysseeclinic.com.au/",
+ "title": "Odyssée",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "At Odyssée, we prioritise a personalised approach. Visit our Hunters Hill space for a transformative experience in your aesthetic journey.\n",
+  "canonical": "https://www.odysseeclinic.com.au/",
+  "robots": null,
+  "ogTitle": "Odyssée",
+  "ogImage": "https://cdn.sanity.io/images/jk7ok3ks/production/9e284294e96ad7d01dbb9adfd40879149fcb2bc7-3689x4611.jpg?rect=0,1338,3689,1937&w=1200&h=630",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [],
+  "h1Count": 2,
+  "headings": [
+   "H1 Medical aesthetics for timeless results.",
+   "H1 Medical aesthetics for timeless results.",
+   "H2 At Odyssée, we prioritise a personalised approach. Visit our Hunters Hill space for a tran",
+   "H2 Why Odyssée?",
+   "H3 An experience like no other",
+   "H3 Bespoke treatment",
+   "H3 Multi-modality efficiency",
+   "H3 The art of skin renewal",
+   "H3 Every treatment at Odyssée is grounded in evidence-based medicine and the latest advances ",
+   "H2 Method, not myth.",
+   "H2 BESPOKEMEDICALAESTHETIC",
+   "H3 We combine medical knowledge with aesthetic artistry to create care that feels personal an",
+   "H2 Our approach"
+  ],
+  "imgs": 10,
+  "imgNoAlt": 9,
+  "favicon": "https://www.odysseeclinic.com.au/favicon.ico?favicon.0c7wxwzsls1jn.ico",
+  "themeColor": "#FFFCF8"
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#fffcf8",
+    "w": 8614548
+   },
+   {
+    "v": "#1e305e",
+    "w": 1574941
+   },
+   {
+    "v": "#28292a",
+    "w": 1573989
+   }
+  ],
+  "text": [
+   {
+    "v": "#1e305e",
+    "w": 1151
+   },
+   {
+    "v": "#ffffff",
+    "w": 234
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "baselGrotesk",
+    "w": 1054
+   },
+   {
+    "v": "psTimes",
+    "w": 331
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "15px",
+    "w": 116
+   },
+   {
+    "v": "32px",
+    "w": 49
+   },
+   {
+    "v": "48px",
+    "w": 23
+   },
+   {
+    "v": "12px",
+    "w": 15
+   },
+   {
+    "v": "13px",
+    "w": 9
+   },
+   {
+    "v": "18px",
+    "w": 8
+   },
+   {
+    "v": "14px",
+    "w": 4
+   }
+  ],
+  "radius": [],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.4 0.3s",
+    "w": 22
+   },
+   {
+    "v": "cubic-bezier(0.16 0.3s",
+    "w": 6
+   },
+   {
+    "v": "cubic-bezier(0.16 0.4s",
+    "w": 5
+   },
+   {
+    "v": "cubic-bezier(0.4 0.5s",
+    "w": 4
+   },
+   {
+    "v": "ease 0.5s",
+    "w": 3
+   },
+   {
+    "v": "cubic-bezier(0.16 0.5s",
+    "w": 3
+   },
+   {
+    "v": "cubic-bezier(0.1 1s",
+    "w": 2
+   },
+   {
+    "v": "cubic-bezier(0 0.5s",
+    "w": 2
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "psTimes, \"psTimes Fallback\", serif",
+    "size": "18px",
+    "weight": "400",
+    "lineHeight": "19.8px",
+    "letterSpacing": "0.39px",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Medical aesthetics for timeless results."
+   },
+   "h2": {
+    "family": "psTimes, \"psTimes Fallback\", serif",
+    "size": "48px",
+    "weight": "400",
+    "lineHeight": "48px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#1e305e",
+    "sample": "At Odyssée, we prioritise a personalised approach. Visit our Hunters Hill space "
+   },
+   "h3": {
+    "family": "psTimes, \"psTimes Fallback\", serif",
+    "size": "18px",
+    "weight": "400",
+    "lineHeight": "19.8px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#1e305e",
+    "sample": "An experience like no other"
+   },
+   "p": {
+    "family": "baselGrotesk, \"baselGrotesk Fallback\", sans-serif",
+    "size": "15px",
+    "weight": "400",
+    "lineHeight": "19.5px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#1e305e",
+    "sample": "Clarity precedes creation. Begin your tailored journey with a bespoke plan guide"
+   },
+   "a": {
+    "family": "baselGrotesk, \"baselGrotesk Fallback\", sans-serif",
+    "size": "14px",
+    "weight": "400",
+    "lineHeight": "14px",
+    "letterSpacing": "0.39px",
+    "transform": "uppercase",
+    "color": "#1e305e",
+    "sample": "Treatments"
+   },
+   "button": {
+    "family": "baselGrotesk, \"baselGrotesk Fallback\", sans-serif",
+    "size": "14px",
+    "weight": "400",
+    "lineHeight": "14px",
+    "letterSpacing": "0.39px",
+    "transform": "uppercase",
+    "color": "#1e305e",
+    "sample": "Menu"
+   },
+   "li": {
+    "family": "baselGrotesk, \"baselGrotesk Fallback\", sans-serif",
+    "size": "15px",
+    "weight": "400",
+    "lineHeight": "19.5px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#1e305e",
+    "sample": "Concerns"
+   },
+   "body": {
+    "family": "baselGrotesk, \"baselGrotesk Fallback\", sans-serif",
+    "size": "15px",
+    "weight": "400",
+    "lineHeight": "19.5px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#1e305e",
+    "sample": "<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-M33W3S74\" height=\"0"
+   }
+  },
+  "cssVars": {
+   "--spacing": ".25rem",
+   "--font-weight-normal": "400",
+   "--ease-out": "cubic-bezier(0, 0, .2, 1)",
+   "--animate-pulse": "pulse 2s cubic-bezier(.4, 0, .6, 1) infinite",
+   "--default-transition-duration": ".15s",
+   "--default-transition-timing-function": "cubic-bezier(.4, 0, .2, 1)",
+   "--color-white": "#fff",
+   "--color-white-bg": "#fffcf8",
+   "--color-blue": "#1e305e",
+   "--text-xs": "13px",
+   "--header-height": "calc(var(--text-xs) * 3.5)",
+   "--ease-expo-out": "cubic-bezier(.16, 1, .3, 1)",
+   "--color-theme-bg": "var(--color-white-bg)",
+   "--color-theme-fg": "var(--color-blue)",
+   "--breakpoint-sm": "40rem",
+   "--breakpoint-md": "48rem",
+   "--breakpoint-lg": "64rem",
+   "--breakpoint-xl": "80rem",
+   "--breakpoint-2xl": "96rem",
+   "--grid-gap": "calc(var(--spacing) * 2.5)",
+   "--grid-gutter": "calc(var(--spacing) * 5)",
+   "--column-width-px": "calc((1440px - (var(--grid-gutter) * 2)) / 12)",
+   "--column-width": "calc((100dvw - (var(--grid-gutter) * 2)) / 12)",
+   "--half-column-width": "calc(var(--column-width) / 2)",
+   "--tw-leading": "1.3",
+   "--tw-font-weight": "var(--font-weight-normal)"
+  },
+  "fontFaces": [
+   {
+    "family": "baselGrotesk",
+    "weight": "430",
+    "style": "",
+    "src": "url(\"../media/Basel_Grotesk_Regular-s.p.03d388.7g3205.woff2?dpl=dpl_EPCY6RisoR46Deu6B7VCPzDXRTbR\") format(\"woff2\")"
+   },
+   {
+    "family": "baselGrotesk Fallback",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   },
+   {
+    "family": "psTimes",
+    "weight": "350",
+    "style": "",
+    "src": "url(\"../media/PSTimes_Regular-s.p.0poli67eyc7.0.otf?dpl=dpl_EPCY6RisoR46Deu6B7VCPzDXRTbR\") format(\"opentype\")"
+   },
+   {
+    "family": "psTimes Fallback",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   }
+  ],
+  "keyframes": [
+   "pulse"
+  ],
+  "breakpoints": [
+   {
+    "v": "64rem",
+    "w": 10
+   },
+   {
+    "v": "48rem",
+    "w": 4
+   },
+   {
+    "v": "40rem",
+    "w": 3
+   },
+   {
+    "v": "80rem",
+    "w": 3
+   },
+   {
+    "v": "96rem",
+    "w": 1
+   }
+  ],
+  "rulesCount": 695,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": "curtain",
+    "cls": "pointer-events-none fixed inset-0 z-50 translate-y-full overflow-hidden bg-white",
+    "h": 900,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "article",
+    "id": "page-content",
+    "cls": "relative",
+    "h": 7816,
+    "title": "Medical aesthetics for timeless results.",
+    "media": 25
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "",
+    "href": "https://www.odysseeclinic.com.au/"
+   },
+   {
+    "t": "Treatments",
+    "href": "https://www.odysseeclinic.com.au/treatments"
+   },
+   {
+    "t": "Book Consultation",
+    "href": "https://odysseeaesthetic.dapplecrm.com/start/book"
+   },
+   {
+    "t": "Treatments",
+    "href": "https://www.odysseeclinic.com.au/treatments"
+   },
+   {
+    "t": "Concerns",
+    "href": "https://www.odysseeclinic.com.au/concerns"
+   },
+   {
+    "t": "About",
+    "href": "https://www.odysseeclinic.com.au/about"
+   },
+   {
+    "t": "Book Consultation",
+    "href": "https://odysseeaesthetic.dapplecrm.com/start/book"
+   },
+   {
+    "t": "Instagram",
+    "href": "https://www.instagram.com/odysseeclinic/"
+   },
+   {
+    "t": "Gift Cards",
+    "href": "https://odysseeaesthetic.dapplecrm.com/start/giftcard"
+   }
+  ],
+  "ctas": [],
+  "pageHeight": 9045,
+  "counts": {
+   "canvas": 0,
+   "videos": 8,
+   "imgs": 10,
+   "svgs": 3,
+   "iframes": 0,
+   "domNodes": 525
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": false,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": true,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [
+   "sanity"
+  ],
+  "analytics": [
+   "googletagmanager",
+   "gtag",
+   "fbevents"
+  ],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": false
+ },
+ "scripts": [
+  "https://connect.facebook.net/signals/config/888350660426749?v=2.9.433&r=stable&domain=www.odysseeclinic.com.au&hme=4453c87d489b6902031c012cadd2731893cd69feb64fe8a61b339727247a7703&ex_m=118%2C242%2C171%2C27%2C82%2C83%2C162%2C78%2C77%2C11%2C181%2C102%2C20%2C153%2C141%2C46%2C85%2C90%2C149%2C176%2C183%2C8%2C4%2C5%2C7%2C6%2C3%2C103%2C115%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C37%2C55%2C163%2C87%2C126%2C22%2C24%2C51%2C47%2C49%2C48%2C95%2C104%2C108%2C124%2C160%2C164%2C53%2C125%2C29%2C26%2C133%2C79%2C43%2C166%2C165%2C167%2C157%2C155%2C30%2C42%2C66%2C123%2C178%2C80%2C21%2C128%2C93%2C76%2C23%2C97%2C98%2C130%2C96%2C151%2C150%2C154%2C109%2C177%2C180%2C41%2C56%2C127%2C54%2C161%2C72%2C185%2C110%2C184%2C211%2C263%2C84%2C283%2C282%2C281%2C14%2C25%2C28%2C40%2C62%2C117%2C68%2C10%2C73%2C111%2C112%2C113%2C119%2C144%2C38%2C36%2C146%2C147%2C148%2C143%2C142%2C172%2C86%2C175%2C173%2C174%2C57%2C69%2C67%2C137%2C19%2C179%2C52%2C333%2C334%2C335%2C332%2C349%2C371%2C256%2C238%2C70%2C239%2C237%2C374%2C365%2C59%2C257%2C121%2C145%2C92%2C135%2C61%2C134%2C140%2C139%2C65%2C74%2C168%2C88%2C89%2C129%2C44%2C39%2C60%2C63%2C114%2C182%2C1%2C138%2C16%2C136%2C12%2C2%2C64%2C105%2C15%2C75%2C71%2C132%2C101%2C100%2C187%2C188%2C106%2C107%2C9%2C116%2C186%2C58%2C158%2C99%2C91%2C81%2C131%2C120%2C169%2C50%2C159%2C0%2C94%2C152%2C156%2C170%2C45%2C122%2C13%2C189",
+  "https://connect.facebook.net/en_US/fbevents.js",
+  "https://www.googletagmanager.com/gtag/js?id=G-25T9HZF4MC&cx=c&gtm=4e6au1",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-M33W3S74",
+  "https://www.odysseeclinic.com.au/_next/static/chunks/10qd__0r7a~.l.js?dpl=dpl_EPCY6RisoR46Deu6B7VCPzDXRTbR",
+  "https://www.odysseeclinic.com.au/_next/static/chunks/0zt2rzvmyhwl-.js?dpl=dpl_EPCY6RisoR46Deu6B7VCPzDXRTbR",
+  "https://www.odysseeclinic.com.au/_next/static/chunks/0ayhydy3m9_9r.js?dpl=dpl_EPCY6RisoR46Deu6B7VCPzDXRTbR",
+  "https://www.odysseeclinic.com.au/_next/static/chunks/0c.be5dw7au_i.js?dpl=dpl_EPCY6RisoR46Deu6B7VCPzDXRTbR",
+  "https://www.odysseeclinic.com.au/_next/static/chunks/turbopack-0c_hx_1t0~ho5.js?dpl=dpl_EPCY6RisoR46Deu6B7VCPzDXRTbR",
+  "https://www.odysseeclinic.com.au/_next/static/chunks/01bk77drmnlke.js?dpl=dpl_EPCY6RisoR46Deu6B7VCPzDXRTbR",
+  "https://www.odysseeclinic.com.au/_next/static/chunks/0q4.v-ch2t2-r.js?dpl=dpl_EPCY6RisoR46Deu6B7VCPzDXRTbR",
+  "https://www.odysseeclinic.com.au/_next/static/chunks/16kfgt0f3me26.js?dpl=dpl_EPCY6RisoR46Deu6B7VCPzDXRTbR",
+  "https://www.odysseeclinic.com.au/_next/static/chunks/0c4vo7lg2di3r.js?dpl=dpl_EPCY6RisoR46Deu6B7VCPzDXRTbR",
+  "https://www.odysseeclinic.com.au/_next/static/chunks/09v3hk6cq8q8h.js?dpl=dpl_EPCY6RisoR46Deu6B7VCPzDXRTbR",
+  "https://www.odysseeclinic.com.au/_next/static/chunks/0u95oli~n5~-c.js?dpl=dpl_EPCY6RisoR46Deu6B7VCPzDXRTbR",
+  "https://www.odysseeclinic.com.au/_next/static/chunks/121saa-6z_u.t.js?dpl=dpl_EPCY6RisoR46Deu6B7VCPzDXRTbR",
+  "https://www.odysseeclinic.com.au/_next/static/chunks/0fgv_afr2sqyi.js?dpl=dpl_EPCY6RisoR46Deu6B7VCPzDXRTbR",
+  "https://www.odysseeclinic.com.au/_next/static/chunks/020n4noiewojw.js?dpl=dpl_EPCY6RisoR46Deu6B7VCPzDXRTbR",
+  "https://www.odysseeclinic.com.au/_next/static/chunks/0r-~gfmzy7kz7.js?dpl=dpl_EPCY6RisoR46Deu6B7VCPzDXRTbR",
+  "https://www.odysseeclinic.com.au/_next/static/chunks/03~yq9q893hmn.js?dpl=dpl_EPCY6RisoR46Deu6B7VCPzDXRTbR",
+  "https://www.odysseeclinic.com.au/_next/static/chunks/02omy4zi4tnwb.js?dpl=dpl_EPCY6RisoR46Deu6B7VCPzDXRTbR",
+  "https://www.odysseeclinic.com.au/_next/static/chunks/0d0byesuun2b4.js?dpl=dpl_EPCY6RisoR46Deu6B7VCPzDXRTbR",
+  "https://www.odysseeclinic.com.au/%E2%80%9Chttps://odysseeaesthetic.dapplecrm.com/visitor.js%E2%80%9D",
+  "https://analytics.odysseeclinic.com.au/nomaintel.js"
+ ],
+ "internal": [
+  "https://www.odysseeclinic.com.au/treatments",
+  "https://www.odysseeclinic.com.au/concerns",
+  "https://www.odysseeclinic.com.au/about",
+  "https://www.odysseeclinic.com.au/privacy-policy",
+  "https://www.odysseeclinic.com.au/terms-of-use"
+ ],
+ "perf": {
+  "ttfb": 260,
+  "dcl": 1440,
+  "load": 4343,
+  "lcp": 2136,
+  "lcpEl": "H1.col-span-3",
+  "cls": 0.001
+ },
+ "libs": {
+  "detected": [
+   "Next.js",
+   "React",
+   "ScrollTrigger",
+   "Lenis",
+   "SplitText/SplitType",
+   "GSAP",
+   "Virtual scroll",
+   "Sanity",
+   "jQuery",
+   "Contentful"
+  ],
+  "where": {
+   "Next.js": [
+    "002-0d0byesuun2b4.js"
+   ],
+   "React": [
+    "004-01bk77drmnlke.js",
+    "016-0ayhydy3m9_9r.js"
+   ],
+   "ScrollTrigger": [
+    "008-16kfgt0f3me26.js",
+    "010-0r-_gfmzy7kz7.js",
+    "011-0u95oli_n5_-c.js"
+   ],
+   "Lenis": [
+    "008-16kfgt0f3me26.js",
+    "011-0u95oli_n5_-c.js"
+   ],
+   "SplitText/SplitType": [
+    "010-0r-_gfmzy7kz7.js"
+   ],
+   "GSAP": [
+    "011-0u95oli_n5_-c.js"
+   ],
+   "Virtual scroll": [
+    "011-0u95oli_n5_-c.js"
+   ],
+   "Sanity": [
+    "012-09v3hk6cq8q8h.js",
+    "014-0c4vo7lg2di3r.js"
+   ],
+   "jQuery": [
+    "018-nomaintel.js"
+   ],
+   "Contentful": [
+    "018-nomaintel.js"
+   ]
+  },
+  "gsapVersion": "3.11.0",
+  "threeRevision": null,
+  "shaders": 0,
+  "scripts": 18
+ },
+ "network": {
+  "requests": 106,
+  "totalKb": 30992,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 25
+   },
+   "Stylesheet": {
+    "n": 1,
+    "kb": 10
+   },
+   "Script": {
+    "n": 23,
+    "kb": 1264
+   },
+   "Font": {
+    "n": 2,
+    "kb": 143
+   },
+   "Image": {
+    "n": 21,
+    "kb": 645
+   },
+   "Other": {
+    "n": 1,
+    "kb": 2
+   },
+   "XHR": {
+    "n": 46,
+    "kb": 28902
+   },
+   "Fetch": {
+    "n": 8,
+    "kb": 1
+   },
+   "Preflight": {
+    "n": 1,
+    "kb": 0
+   },
+   "Ping": {
+    "n": 2,
+    "kb": 1
+   }
+  },
+  "thirdPartyHosts": [
+   "cdn.sanity.io",
+   "image.mux.com",
+   "www.googletagmanager.com",
+   "stream.mux.com",
+   "ad.doubleclick.net",
+   "www.google.com",
+   "analytics.odysseeclinic.com.au",
+   "connect.facebook.net",
+   "manifest-oci-us-ashburn-1-vop1.edgemv.mux.com",
+   "www.google.fr",
+   "stats.g.doubleclick.net",
+   "region1.analytics.google.com",
+   "chunk-oci-us-ashburn-1-vop1.edgemv.mux.com",
+   "www.facebook.com",
+   "mpc-prod-25-s6uit34pua-wl.a.run.app"
+  ],
+  "fontFiles": [
+   "https://www.odysseeclinic.com.au/_next/static/media/Basel_Grotesk_Regular-s.p.03d388.7g3205.woff2?dpl=dpl_EPCY6RisoR46Deu6B7VCPzDXRTbR",
+   "https://www.odysseeclinic.com.au/_next/static/media/PSTimes_Regular-s.p.0poli67eyc7.0.otf?dpl=dpl_EPCY6RisoR46Deu6B7VCPzDXRTbR"
+  ],
+  "biggest": [
+   {
+    "url": "https://chunk-oci-us-ashburn-1-vop1.edgemv.mux.com/v1/chunk/Ygg2I00UmnyamS7OVjULoB57Pmr5JPXUgSxVU3K4x2giNjppm02fMeIF2YF8GazUXRM01epAUiYI9aFwg4pcDSfBo2Z9bf31lUy/",
+    "kb": 2861,
+    "type": "XHR"
+   },
+   {
+    "url": "https://chunk-oci-us-ashburn-1-vop1.edgemv.mux.com/v1/chunk/01LQONEGh4Ls134mwNHJTAqDu018JwmnUW4D6NbdRLC2mY3y7RqVNoUe7USNw00BXohhwA4XNlSWFI3ksc9eVZow4JEzKSAmF4E/",
+    "kb": 2847,
+    "type": "XHR"
+   },
+   {
+    "url": "https://chunk-oci-us-ashburn-1-vop1.edgemv.mux.com/v1/chunk/vQPzdujUvvRRYctHE3XFWY1fZ4f4PRkfOgcZWMinGhaa8vnDyRENcrCVEGKoFR5s2uJhYGO6pUPVSbEghp201ZxJiGwrxKaJb/1.",
+    "kb": 2797,
+    "type": "XHR"
+   },
+   {
+    "url": "https://chunk-oci-us-ashburn-1-vop1.edgemv.mux.com/v1/chunk/U902Pe9ZfPwdawt01Jsg00NVzoGJyqP8sog00imyYnVVM5VB003YPJFFmGq00LRYazGpMHJ6u8c4zICMkzgdK5Ix6w018s01u6XT",
+    "kb": 2776,
+    "type": "XHR"
+   },
+   {
+    "url": "https://chunk-oci-us-ashburn-1-vop1.edgemv.mux.com/v1/chunk/vQPzdujUvvRRYctHE3XFWY1fZ4f4PRkfOgcZWMinGhaa8vnDyRENcrCVEGKoFR5s2uJhYGO6pUPVSbEghp201ZxJiGwrxKaJb/0.",
+    "kb": 2744,
+    "type": "XHR"
+   },
+   {
+    "url": "https://chunk-oci-us-ashburn-1-vop1.edgemv.mux.com/v1/chunk/gSMSxOGwDFPhjlK36602aIOjRUch02fPP13tOe6HiE026f2rbyDjb6ubZk4ii6IMG4BYyJMepiacTS1X01U95O7C01yyRhVBMHWI",
+    "kb": 2144,
+    "type": "XHR"
+   },
+   {
+    "url": "https://chunk-oci-us-ashburn-1-vop1.edgemv.mux.com/v1/chunk/01gXlZK9t011JenY7hI5McaZwlAEyDbByDaNfDj9ybRF1kAJGh6xIClfhU00UQgI1okegnZBdVVqKeZDYnsEQLmCM6PKydAI7ud/",
+    "kb": 2080,
+    "type": "XHR"
+   },
+   {
+    "url": "https://chunk-oci-us-ashburn-1-vop1.edgemv.mux.com/v1/chunk/01zoyhCGSF4jUeis62NMbDnyATAjWRI7E4OhDzbXGYwxHWxkvSegYUVscpD4JKNY1TScCm02X6UcmoD0002p7jMOBSHX2uy4LNyr",
+    "kb": 1941,
+    "type": "XHR"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "18px",
+   "lineHeight": "19.8px"
+  },
+  "body": "13px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 172
+}

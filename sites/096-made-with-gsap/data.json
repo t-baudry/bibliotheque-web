@@ -1,0 +1,812 @@
+{
+ "id": 96,
+ "name": "Made With Gsap",
+ "sourceUrl": "https://madewithgsap.com/",
+ "capturedAt": "2026-11-02T22:15:59.730Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "ok (8 Ko)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg",
+   "desktop-13.jpg",
+   "desktop-14.jpg"
+  ],
+  "fullPage": 14890,
+  "subpages": [
+   {
+    "url": "https://madewithgsap.com/effects",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://madewithgsap.com/get-started",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://madewithgsap.com/faq",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://madewithgsap.com/",
+ "title": "Made With Gsap",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "A collection of 50 premium JavaScript effects made with GSAP. Showcasing scroll, drag, mouse move, infinite animations and more.",
+  "canonical": "https://madewithgsap.com/",
+  "robots": null,
+  "ogTitle": "Made With Gsap",
+  "ogImage": "https://madewithgsap.com/assets/img/og.jpg",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [],
+  "h1Count": 1,
+  "headings": [
+   "H1 Unique JS effects made with care.",
+   "H2 Better websites, without the extra work",
+   "H2 Made to fit your workflow",
+   "H3 Ready-to-use in Webflow",
+   "H3 Prompts for Cursor, Copilot & More",
+   "H3 Step-by-step tutorial",
+   "H3 Downloadable source code",
+   "H3 Mobile & touch friendly",
+   "H3 Smart Effects that adapt automatically",
+   "H3 Easy setup: no Canvas or WebGL",
+   "H2 One Plan. Everything included.",
+   "H2 Approved by the community",
+   "H2 Explore award-winning websites and standout projects using Made With Gsap",
+   "H2 Get ready to animate",
+   "H2 Never miss what's next",
+   "H2 Social",
+   "H2 Pages",
+   "H2 Contact"
+  ],
+  "imgs": 136,
+  "imgNoAlt": 86,
+  "favicon": "https://madewithgsap.com/assets/img/fav/favicon-96x96.png",
+  "themeColor": "#F1F1F1"
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#0a0a0b",
+    "w": 3865989
+   },
+   {
+    "v": "#ffffff",
+    "w": 2060610
+   },
+   {
+    "v": "#000000",
+    "w": 1017684
+   },
+   {
+    "v": "#232323",
+    "w": 814815
+   },
+   {
+    "v": "#f3f3f3",
+    "w": 652890
+   },
+   {
+    "v": "#323232",
+    "w": 119000
+   },
+   {
+    "v": "#121212",
+    "w": 36125
+   },
+   {
+    "v": "#c9fe6e",
+    "w": 32451
+   }
+  ],
+  "text": [
+   {
+    "v": "#ffffff",
+    "w": 1863
+   },
+   {
+    "v": "#0a0a0b",
+    "w": 1467
+   },
+   {
+    "v": "#999999",
+    "w": 1127
+   },
+   {
+    "v": "#f1f1f1",
+    "w": 109
+   },
+   {
+    "v": "#121212",
+    "w": 24
+   }
+  ],
+  "border": [
+   {
+    "v": "#0a0a0b",
+    "w": 9
+   },
+   {
+    "v": "#232323",
+    "w": 4
+   }
+  ],
+  "fonts": [
+   {
+    "v": "LayGrotesk",
+    "w": 3516
+   },
+   {
+    "v": "PPNeueMontrealMono",
+    "w": 1074
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "13px",
+    "w": 62
+   },
+   {
+    "v": "18px",
+    "w": 44
+   },
+   {
+    "v": "140px",
+    "w": 34
+   },
+   {
+    "v": "11px",
+    "w": 32
+   },
+   {
+    "v": "120px",
+    "w": 32
+   },
+   {
+    "v": "224.64px",
+    "w": 27
+   },
+   {
+    "v": "22px",
+    "w": 11
+   },
+   {
+    "v": "12px",
+    "w": 7
+   },
+   {
+    "v": "47.52px",
+    "w": 6
+   },
+   {
+    "v": "65px",
+    "w": 4
+   },
+   {
+    "v": "48px",
+    "w": 2
+   },
+   {
+    "v": "33px",
+    "w": 2
+   },
+   {
+    "v": "30px",
+    "w": 2
+   },
+   {
+    "v": "44px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "4px",
+    "w": 18
+   },
+   {
+    "v": "20px",
+    "w": 16
+   },
+   {
+    "v": "100%",
+    "w": 14
+   },
+   {
+    "v": "25px",
+    "w": 12
+   },
+   {
+    "v": "12px",
+    "w": 6
+   },
+   {
+    "v": "18px",
+    "w": 4
+   },
+   {
+    "v": "10px",
+    "w": 2
+   },
+   {
+    "v": "3px",
+    "w": 1
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "ease 0.2s",
+    "w": 5
+   },
+   {
+    "v": "ease 0.15s",
+    "w": 1
+   },
+   {
+    "v": "ease 0.3s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "LayGrotesk",
+    "size": "44px",
+    "weight": "700",
+    "lineHeight": "52.8px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#0a0a0b",
+    "sample": "Unique JS effects made with care."
+   },
+   "h2": {
+    "family": "LayGrotesk",
+    "size": "48px",
+    "weight": "500",
+    "lineHeight": "48.96px",
+    "letterSpacing": "-0.96px",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Better websites, without the extra work"
+   },
+   "h3": {
+    "family": "LayGrotesk",
+    "size": "18px",
+    "weight": "500",
+    "lineHeight": "25.2px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Ready-to-use in Webflow"
+   },
+   "p": {
+    "family": "LayGrotesk",
+    "size": "18px",
+    "weight": "500",
+    "lineHeight": "21.6px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#f1f1f1",
+    "sample": "New Free Effect available for Halloween! 🎃 Add a creepy, vintage film vibe to a"
+   },
+   "a": {
+    "family": "PPNeueMontrealMono",
+    "size": "13px",
+    "weight": "500",
+    "lineHeight": "19.37px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#0a0a0b",
+    "sample": "Collection 124 Collection 124"
+   },
+   "button": {
+    "family": "LayGrotesk",
+    "size": "22px",
+    "weight": "500",
+    "lineHeight": "26.4px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#0a0a0b",
+    "sample": "Quarterly"
+   },
+   "li": {
+    "family": "PPNeueMontrealMono",
+    "size": "13px",
+    "weight": "500",
+    "lineHeight": "19.37px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#0a0a0b",
+    "sample": "Collection 124 Collection 124"
+   },
+   "body": {
+    "family": "LayGrotesk",
+    "size": "22px",
+    "weight": "500",
+    "lineHeight": "26.4px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Collection 124 Collection 124 Pricing Pricing FAQ FAQ Showcase Showcase Join Joi"
+   }
+  },
+  "cssVars": {
+   "--scrollbar-width": "0px",
+   "--grid-columns": "12",
+   "--grid-gutter": "15px",
+   "--grid-margin": "15px",
+   "--grid-width": "calc(100vw - (2 * var(--grid-margin)) - var(--scrollbar-width))",
+   "--grid-column-width": "calc((var(--grid-width) - ((var(--grid-columns) - 1) * var(--grid-gutter))) / var(--grid-columns))",
+   "--black": "#121212",
+   "--white": "#F1F1F1",
+   "--yellow": "#C9FE6E",
+   "--dark-grey": "#232323",
+   "--dark-grey2": "#323232",
+   "--text-grey": "#777",
+   "--mwg2-white": "#FFF",
+   "--mwg2-light-grey": "#f3f3f3",
+   "--mwg2-grey": "#999",
+   "--mwg2-dark-grey": "#323232",
+   "--mwg2-anthracite": "#232323",
+   "--mwg2-black": "#0A0A0B",
+   "--mwg2-green": "#28DF7D",
+   "--mwg2-radius-l": "20px",
+   "--mwg2-radius-m": "12px",
+   "--mwg2-radius-s": "4px"
+  },
+  "fontFaces": [
+   {
+    "family": "LayGrotesk",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"../t/LayGrotesk-Medium.woff\") format(\"woff\")"
+   },
+   {
+    "family": "LayGrotesk",
+    "weight": "600",
+    "style": "normal",
+    "src": "url(\"../t/LayGrotesk-Semibold.woff\") format(\"woff\")"
+   },
+   {
+    "family": "LayGrotesk",
+    "weight": "800",
+    "style": "normal",
+    "src": "url(\"../t/LayGrotesk-Black.woff\") format(\"woff\")"
+   },
+   {
+    "family": "PPNeueMontrealMono",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"../t/PPNeueMontrealMono-Medium.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Bouuuuuh Villain",
+    "weight": "600",
+    "style": "normal",
+    "src": "url(\"../halloween/Bouuuuuh-Villain.woff\") format(\"woff\")"
+   }
+  ],
+  "keyframes": [
+   "animRot",
+   "btnAnimation2"
+  ],
+  "breakpoints": [
+   {
+    "v": "768px",
+    "w": 21
+   },
+   {
+    "v": "500px",
+    "w": 19
+   },
+   {
+    "v": "900px",
+    "w": 16
+   },
+   {
+    "v": "1024px",
+    "w": 7
+   },
+   {
+    "v": "1300px",
+    "w": 2
+   },
+   {
+    "v": "550px",
+    "w": 1
+   },
+   {
+    "v": "600px",
+    "w": 1
+   },
+   {
+    "v": "1920px",
+    "w": 1
+   },
+   {
+    "v": "1310px",
+    "w": 1
+   },
+   {
+    "v": "1100px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 975,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "h-hero wrapper sec-white pr",
+    "h": 900,
+    "title": "Unique JS effects made with care.",
+    "media": 16
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "h-collection sec-black",
+    "h": 984,
+    "title": "Better websites, without the extra work",
+    "media": 5
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "h-trust",
+    "h": 533,
+    "title": "",
+    "media": 22
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "h-texts",
+    "h": 6300,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "h-cards body-s",
+    "h": 3600,
+    "title": "",
+    "media": 4
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "h-features f",
+    "h": 812,
+    "title": "Made to fit your workflow",
+    "media": 9
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "s-pricing pr",
+    "h": 781,
+    "title": "One Plan. Everything included.",
+    "media": 17
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "h-testis",
+    "h": 544,
+    "title": "Approved by the community",
+    "media": 45
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "h-about wrapper",
+    "h": 396,
+    "title": "",
+    "media": 3
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "h-showcase pr",
+    "h": 2044,
+    "title": "Explore award-winning websites and standout projects using Made With Gsap",
+    "media": 17
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "h-freebies",
+    "h": 460,
+    "title": "",
+    "media": 4
+   },
+   {
+    "tag": "footer",
+    "id": null,
+    "cls": "wrapper sec-border sec-white pr",
+    "h": 1155,
+    "title": "Get ready to animate",
+    "media": 5
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "",
+    "href": "https://madewithgsap.com/"
+   },
+   {
+    "t": "Collection 124 Collection 124",
+    "href": "https://madewithgsap.com/effects"
+   },
+   {
+    "t": "Pricing Pricing",
+    "href": "https://madewithgsap.com/get-started"
+   },
+   {
+    "t": "FAQ FAQ",
+    "href": "https://madewithgsap.com/faq"
+   },
+   {
+    "t": "Showcase Showcase",
+    "href": "https://madewithgsap.com/showcase"
+   },
+   {
+    "t": "Join Join",
+    "href": "https://madewithgsap.com/get-started"
+   },
+   {
+    "t": "",
+    "href": "https://madewithgsap.com/login"
+   },
+   {
+    "t": "Join",
+    "href": "https://madewithgsap.com/get-started"
+   }
+  ],
+  "ctas": [
+   "Join Join",
+   "See effect See effect",
+   "Explore collection Explore collection",
+   "Explore collection Explore collection",
+   "Get Started Get Started",
+   "Read our FAQ Read our FAQ",
+   "Explore showcase Explore showcase",
+   "Try it now Try it now",
+   "Get started Get started",
+   "Explore collection Explore collection",
+   "Submit Submit"
+  ],
+  "pageHeight": 14890,
+  "counts": {
+   "canvas": 0,
+   "videos": 25,
+   "imgs": 136,
+   "svgs": 0,
+   "iframes": 0,
+   "domNodes": 911
+  }
+ },
+ "tech": {
+  "gsap": true,
+  "gsapVersion": "3.15.0",
+  "scrollTrigger": true,
+  "splitText": true,
+  "lenis": true,
+  "locomotive": false,
+  "three": false,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [
+   "googletagmanager",
+   "gtag"
+  ],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": false
+ },
+ "scripts": [
+  "https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L",
+  "https://madewithgsap.com/assets/landing/gsap.js",
+  "https://madewithgsap.com/assets/landing/scrolltrigger.js",
+  "https://madewithgsap.com/assets/landing/customease.js",
+  "https://madewithgsap.com/assets/landing/lenis.js",
+  "https://madewithgsap.com/assets/tutorial/prism.js",
+  "https://madewithgsap.com/assets/landing/InertiaPlugin.min.js",
+  "https://madewithgsap.com/assets/landing/SplitText.min.js",
+  "https://madewithgsap.com/assets/landing/Draggable.min.js",
+  "https://madewithgsap.com/assets/landing/MorphSVGPlugin.min.js",
+  "https://unpkg.com/matter-js@0.20.0/build/matter.min.js",
+  "https://madewithgsap.com/assets/landing/app2.js"
+ ],
+ "internal": [
+  "https://madewithgsap.com/effects",
+  "https://madewithgsap.com/get-started",
+  "https://madewithgsap.com/faq",
+  "https://madewithgsap.com/showcase",
+  "https://madewithgsap.com/login",
+  "https://madewithgsap.com/halloween",
+  "https://madewithgsap.com/effects?freebies",
+  "https://madewithgsap.com/permissions-terms",
+  "https://madewithgsap.com/privacy-policy"
+ ],
+ "perf": {
+  "ttfb": 160,
+  "dcl": 711,
+  "load": 1377,
+  "lcp": 400,
+  "lcpEl": "VIDEO.media",
+  "cls": 0.001
+ },
+ "network": {
+  "requests": 179,
+  "totalKb": 10041,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 8
+   },
+   "Image": {
+    "n": 87,
+    "kb": 3802
+   },
+   "Stylesheet": {
+    "n": 2,
+    "kb": 14
+   },
+   "Script": {
+    "n": 12,
+    "kb": 286
+   },
+   "Media": {
+    "n": 72,
+    "kb": 5738
+   },
+   "Font": {
+    "n": 3,
+    "kb": 178
+   },
+   "Fetch": {
+    "n": 1,
+    "kb": 0
+   },
+   "Other": {
+    "n": 1,
+    "kb": 15
+   }
+  },
+  "thirdPartyHosts": [
+   "unpkg.com",
+   "pub-8ca9b5847fbb4d4fb97b3497fb9521d5.r2.dev",
+   "www.googletagmanager.com",
+   "region1.google-analytics.com"
+  ],
+  "fontFiles": [
+   "https://madewithgsap.com/assets/t/LayGrotesk-Black.woff",
+   "https://madewithgsap.com/assets/t/PPNeueMontrealMono-Medium.woff",
+   "https://madewithgsap.com/assets/t/LayGrotesk-Medium.woff"
+  ],
+  "biggest": [
+   {
+    "url": "https://pub-8ca9b5847fbb4d4fb97b3497fb9521d5.r2.dev/video_OPTIM/099.mp4",
+    "kb": 688,
+    "type": "Media"
+   },
+   {
+    "url": "https://madewithgsap.com/assets/video/5n.mp4",
+    "kb": 609,
+    "type": "Media"
+   },
+   {
+    "url": "https://madewithgsap.com/assets/video/free-bg.mp4",
+    "kb": 570,
+    "type": "Media"
+   },
+   {
+    "url": "https://pub-8ca9b5847fbb4d4fb97b3497fb9521d5.r2.dev/video_OPTIM/096.mp4",
+    "kb": 536,
+    "type": "Media"
+   },
+   {
+    "url": "https://pub-8ca9b5847fbb4d4fb97b3497fb9521d5.r2.dev/video_OPTIM/105.mp4",
+    "kb": 480,
+    "type": "Media"
+   },
+   {
+    "url": "https://pub-8ca9b5847fbb4d4fb97b3497fb9521d5.r2.dev/video_OPTIM/100.mp4",
+    "kb": 388,
+    "type": "Media"
+   },
+   {
+    "url": "https://madewithgsap.com/assets/img/mwg2/features/5n.png",
+    "kb": 381,
+    "type": "Image"
+   },
+   {
+    "url": "https://pub-8ca9b5847fbb4d4fb97b3497fb9521d5.r2.dev/videos_hero/001.mp4",
+    "kb": 368,
+    "type": "Media"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "36px",
+   "lineHeight": "43.2px"
+  },
+  "body": "18px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 162
+}

@@ -1,0 +1,332 @@
+[
+ {
+  "file": "001-skeleton.js",
+  "url": "https://www.unbelievablycrap.com/assets/about/skeleton.js",
+  "kb": 159
+ },
+ {
+  "file": "002-gate.js",
+  "url": "https://www.unbelievablycrap.com/js/gate.js",
+  "kb": 3
+ },
+ {
+  "file": "003-CustomEase.min.js",
+  "url": "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/CustomEase.min.js",
+  "kb": 7
+ },
+ {
+  "file": "004-gsap.min.js",
+  "url": "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js",
+  "kb": 71
+ },
+ {
+  "file": "005-barba.umd.min.js",
+  "url": "https://cdn.jsdelivr.net/npm/@barba/core@2.10.3/dist/barba.umd.min.js",
+  "kb": 31
+ },
+ {
+  "file": "006-sphere-gallery.js",
+  "url": "https://www.unbelievablycrap.com/js/sphere-gallery.js",
+  "kb": 30
+ },
+ {
+  "file": "007-about-figure.js",
+  "url": "https://www.unbelievablycrap.com/js/about-figure.js",
+  "kb": 83
+ },
+ {
+  "file": "008-fps.js",
+  "url": "https://www.unbelievablycrap.com/js/fps.js",
+  "kb": 11
+ },
+ {
+  "file": "009-data.js",
+  "url": "https://www.unbelievablycrap.com/js/data.js",
+  "kb": 8
+ },
+ {
+  "file": "010-main.js",
+  "url": "https://www.unbelievablycrap.com/js/main.js",
+  "kb": 2
+ },
+ {
+  "file": "011-wheel-ui.js",
+  "url": "https://www.unbelievablycrap.com/js/wheel-ui.js",
+  "kb": 6
+ },
+ {
+  "file": "012-touch-scroll.js",
+  "url": "https://www.unbelievablycrap.com/js/touch-scroll.js",
+  "kb": 6
+ },
+ {
+  "file": "013-about-text.js",
+  "url": "https://www.unbelievablycrap.com/js/about-text.js",
+  "kb": 23
+ },
+ {
+  "file": "014-dissolve-look.js",
+  "url": "https://www.unbelievablycrap.com/js/dissolve-look.js",
+  "kb": 2
+ },
+ {
+  "file": "015-head.js",
+  "url": "https://www.unbelievablycrap.com/assets/about/head.js",
+  "kb": 477
+ },
+ {
+  "file": "016-dormancy.js",
+  "url": "https://www.unbelievablycrap.com/js/dormancy.js",
+  "kb": 5
+ },
+ {
+  "file": "017-head-map.js",
+  "url": "https://www.unbelievablycrap.com/assets/about/head-map.js",
+  "kb": 175
+ },
+ {
+  "file": "018-hud.js",
+  "url": "https://www.unbelievablycrap.com/js/hud.js",
+  "kb": 8
+ },
+ {
+  "file": "019-block2.js",
+  "url": "https://www.unbelievablycrap.com/js/block2.js",
+  "kb": 30
+ },
+ {
+  "file": "020-awards.js",
+  "url": "https://www.unbelievablycrap.com/js/awards.js",
+  "kb": 5
+ },
+ {
+  "file": "021-head-spin.js",
+  "url": "https://www.unbelievablycrap.com/js/head-spin.js",
+  "kb": 13
+ },
+ {
+  "file": "022-skull.js",
+  "url": "https://www.unbelievablycrap.com/assets/about/skull.js",
+  "kb": 258
+ },
+ {
+  "file": "023-wheel.js",
+  "url": "https://www.unbelievablycrap.com/js/wheel.js",
+  "kb": 26
+ },
+ {
+  "file": "024-about-xray.js",
+  "url": "https://www.unbelievablycrap.com/js/about-xray.js",
+  "kb": 51
+ },
+ {
+  "file": "025-tint.js",
+  "url": "https://www.unbelievablycrap.com/js/tint.js",
+  "kb": 5
+ },
+ {
+  "file": "026-path-map.js",
+  "url": "https://www.unbelievablycrap.com/js/path-map.js",
+  "kb": 20
+ },
+ {
+  "file": "027-tunnel-console.js",
+  "url": "https://www.unbelievablycrap.com/js/tunnel-console.js",
+  "kb": 5
+ },
+ {
+  "file": "028-lightbox.js",
+  "url": "https://www.unbelievablycrap.com/js/lightbox.js",
+  "kb": 24
+ },
+ {
+  "file": "029-err.js",
+  "url": "https://www.unbelievablycrap.com/js/err.js",
+  "kb": 26
+ },
+ {
+  "file": "030-clock.js",
+  "url": "https://www.unbelievablycrap.com/js/clock.js",
+  "kb": 9
+ },
+ {
+  "file": "031-transition-iris.js",
+  "url": "https://www.unbelievablycrap.com/js/transition-iris.js",
+  "kb": 17
+ },
+ {
+  "file": "032-work-cursor.js",
+  "url": "https://www.unbelievablycrap.com/js/work-cursor.js",
+  "kb": 62
+ },
+ {
+  "file": "033-work-grid.js",
+  "url": "https://www.unbelievablycrap.com/js/work-grid.js",
+  "kb": 57
+ },
+ {
+  "file": "034-track-switch.js",
+  "url": "https://www.unbelievablycrap.com/js/track-switch.js",
+  "kb": 8
+ },
+ {
+  "file": "035-path-gallery.js",
+  "url": "https://www.unbelievablycrap.com/js/path-gallery.js",
+  "kb": 43
+ },
+ {
+  "file": "036-work-grid-console.js",
+  "url": "https://www.unbelievablycrap.com/js/work-grid-console.js",
+  "kb": 19
+ },
+ {
+  "file": "037-path-console.js",
+  "url": "https://www.unbelievablycrap.com/js/path-console.js",
+  "kb": 13
+ },
+ {
+  "file": "038-err-console.js",
+  "url": "https://www.unbelievablycrap.com/js/err-console.js",
+  "kb": 8
+ },
+ {
+  "file": "039-footer.js",
+  "url": "https://www.unbelievablycrap.com/js/footer.js",
+  "kb": 22
+ },
+ {
+  "file": "040-mask-scroll.js",
+  "url": "https://www.unbelievablycrap.com/js/mask-scroll.js",
+  "kb": 93
+ },
+ {
+  "file": "041-mask.js",
+  "url": "https://www.unbelievablycrap.com/js/mask.js",
+  "kb": 16
+ },
+ {
+  "file": "042-crt.js",
+  "url": "https://www.unbelievablycrap.com/js/crt.js",
+  "kb": 9
+ },
+ {
+  "file": "043-tuner.js",
+  "url": "https://www.unbelievablycrap.com/js/tuner.js",
+  "kb": 26
+ },
+ {
+  "file": "044-ui.js",
+  "url": "https://www.unbelievablycrap.com/js/ui.js",
+  "kb": 3
+ },
+ {
+  "file": "045-contact-cta.js",
+  "url": "https://www.unbelievablycrap.com/js/contact-cta.js",
+  "kb": 12
+ },
+ {
+  "file": "046-work-arrive.js",
+  "url": "https://www.unbelievablycrap.com/js/work-arrive.js",
+  "kb": 8
+ },
+ {
+  "file": "047-isolate.js",
+  "url": "https://www.unbelievablycrap.com/js/isolate.js",
+  "kb": 8
+ },
+ {
+  "file": "048-pixelate.js",
+  "url": "https://www.unbelievablycrap.com/js/pixelate.js",
+  "kb": 7
+ },
+ {
+  "file": "049-loader.js",
+  "url": "https://www.unbelievablycrap.com/js/loader.js",
+  "kb": 20
+ },
+ {
+  "file": "050-lifecycle.js",
+  "url": "https://www.unbelievablycrap.com/js/lifecycle.js",
+  "kb": 8
+ },
+ {
+  "file": "051-tscroll.js",
+  "url": "https://www.unbelievablycrap.com/js/tscroll.js",
+  "kb": 6
+ },
+ {
+  "file": "052-figure-host.js",
+  "url": "https://www.unbelievablycrap.com/js/figure-host.js",
+  "kb": 34
+ },
+ {
+  "file": "053-tune-console.js",
+  "url": "https://www.unbelievablycrap.com/js/tune-console.js",
+  "kb": 8
+ },
+ {
+  "file": "054-tunnel.js",
+  "url": "https://www.unbelievablycrap.com/js/tunnel.js",
+  "kb": 18
+ },
+ {
+  "file": "055-transition.js",
+  "url": "https://www.unbelievablycrap.com/js/transition.js",
+  "kb": 27
+ },
+ {
+  "file": "056-transition-liquid.js",
+  "url": "https://www.unbelievablycrap.com/js/transition-liquid.js",
+  "kb": 23
+ },
+ {
+  "file": "057-line-reveal.js",
+  "url": "https://www.unbelievablycrap.com/js/line-reveal.js",
+  "kb": 6
+ },
+ {
+  "file": "058-transition-sheet.js",
+  "url": "https://www.unbelievablycrap.com/js/transition-sheet.js",
+  "kb": 64
+ },
+ {
+  "file": "059-wheel-console.js",
+  "url": "https://www.unbelievablycrap.com/js/wheel-console.js",
+  "kb": 11
+ },
+ {
+  "file": "060-about-console.js",
+  "url": "https://www.unbelievablycrap.com/js/about-console.js",
+  "kb": 54
+ },
+ {
+  "file": "061-figure.js",
+  "url": "https://www.unbelievablycrap.com/assets/about/figure.js",
+  "kb": 5324
+ },
+ {
+  "file": "062-err-card.js",
+  "url": "https://www.unbelievablycrap.com/js/err-card.js",
+  "kb": 9
+ },
+ {
+  "file": "063-err-art.js",
+  "url": "https://www.unbelievablycrap.com/js/err-art.js",
+  "kb": 5
+ },
+ {
+  "file": "064-figure-lite.js",
+  "url": "https://www.unbelievablycrap.com/assets/about/figure-lite.js",
+  "kb": 233
+ },
+ {
+  "file": "065-logo.js",
+  "url": "https://www.unbelievablycrap.com/assets/about/logo.js",
+  "kb": 347
+ },
+ {
+  "file": "066-three.min.js",
+  "url": "https://cdn.jsdelivr.net/npm/three@0.159.0/build/three.min.js",
+  "kb": 652
+ }
+]

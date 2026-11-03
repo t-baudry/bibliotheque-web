@@ -1,0 +1,114 @@
+{
+ "id": 37,
+ "name": "MEER MOHSIN",
+ "sourceUrl": "https://www.meermohsin.me/",
+ "capturedAt": "2026-11-02T23:47:20.772Z",
+ "status": "inaccessible",
+ "errors": [
+  "goto load: page.goto: Target page, context or browser has been closed",
+  "goto dcl: page.goto: Target page, context or browser has been closed",
+  "shot0 browserContext.newCDPSession: Target page, context or browser has been closed",
+  "extract: page.evaluate: Target page, context or browser has been closed",
+  "fullpage: page.evaluate: Target page, context or browser has been closed",
+  "browser.newContext: Target page, context or browser has been closed"
+ ],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [],
+  "subpages": [],
+  "video": "desktop-scroll.webm"
+ },
+ "httpStatus": null,
+ "libs": {
+  "detected": [],
+  "where": {},
+  "gsapVersion": null,
+  "threeRevision": null,
+  "shaders": 0,
+  "scripts": 0
+ },
+ "network": {
+  "requests": 16,
+  "totalKb": 1605,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 14
+   },
+   "Image": {
+    "n": 8,
+    "kb": 1248
+   },
+   "Stylesheet": {
+    "n": 1,
+    "kb": 11
+   },
+   "Media": {
+    "n": 1,
+    "kb": 0
+   },
+   "Font": {
+    "n": 4,
+    "kb": 94
+   },
+   "Script": {
+    "n": 1,
+    "kb": 238
+   }
+  },
+  "thirdPartyHosts": [
+   "user-images.githubusercontent.com"
+  ],
+  "fontFiles": [
+   "https://www.meermohsin.me/fonts/NeueMontreal.woff2",
+   "https://www.meermohsin.me/assets/StackSansHeadline-ExtraLight-DrnyAU8g.woff2",
+   "https://www.meermohsin.me/assets/StackSansHeadline-Regular-ud1Ia6Hx.woff2",
+   "https://www.meermohsin.me/assets/ruthie-BmbrwlET.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://www.meermohsin.me/assets/fire-mWLvpWRN.gif",
+    "kb": 949,
+    "type": "Image"
+   },
+   {
+    "url": "https://www.meermohsin.me/assets/index-BXnpqJiu.js",
+    "kb": 238,
+    "type": "Script"
+   },
+   {
+    "url": "https://www.meermohsin.me/assets/logo-m-D6UUDeXR.png",
+    "kb": 174,
+    "type": "Image"
+   },
+   {
+    "url": "https://www.meermohsin.me/assets/Meer-mohsin-BIdMWGjW.avif",
+    "kb": 59,
+    "type": "Image"
+   },
+   {
+    "url": "https://www.meermohsin.me/assets/shade-BqXoo-Hs-CzAjxAPx.webp",
+    "kb": 47,
+    "type": "Image"
+   },
+   {
+    "url": "https://www.meermohsin.me/assets/ruthie-BmbrwlET.woff2",
+    "kb": 34,
+    "type": "Font"
+   },
+   {
+    "url": "https://www.meermohsin.me/assets/StackSansHeadline-Regular-ud1Ia6Hx.woff2",
+    "kb": 30,
+    "type": "Font"
+   },
+   {
+    "url": "https://www.meermohsin.me/assets/StackSansHeadline-ExtraLight-DrnyAU8g.woff2",
+    "kb": 30,
+    "type": "Font"
+   }
+  ]
+ },
+ "durationS": 14
+}

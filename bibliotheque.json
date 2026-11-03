@@ -1,0 +1,93 @@
+[
+ {
+  "dossier": "001-dont-look-up-game",
+  "nom": "Dont Look up game",
+  "url": "https://www.dontlookup.app/",
+  "statut": "ok",
+  "stack": [
+   "GSAP",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Three.js",
+   "WebGL"
+  ],
+  "polices": [
+   "Nunito",
+   "Marsipan",
+   "Arial"
+  ],
+  "palette": [
+   "#ffffff",
+   "#f4f3ef",
+   "#f8e08a",
+   "#14140f",
+   "#000000"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "096-made-with-gsap",
+  "nom": "Made With Gsap",
+  "url": "https://madewithgsap.com/",
+  "statut": "ok",
+  "stack": [
+   "GSAP",
+   "Lenis",
+   "ScrollTrigger",
+   "SplitText/SplitType"
+  ],
+  "polices": [
+   "LayGrotesk",
+   "PPNeueMontrealMono"
+  ],
+  "palette": [
+   "#0a0a0b",
+   "#ffffff",
+   "#000000",
+   "#232323",
+   "#f3f3f3",
+   "#999999",
+   "#f1f1f1"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "181-obys",
+  "nom": "Obys",
+  "url": "https://obys.agency/",
+  "statut": "ok",
+  "stack": [
+   "WebGL"
+  ],
+  "polices": [
+   "Obys"
+  ],
+  "palette": [
+   "#000000",
+   "#c9c9c9",
+   "#ffffff"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ }
+]

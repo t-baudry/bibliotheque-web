@@ -1,0 +1,1012 @@
+{
+ "id": 16,
+ "name": "Belgrade Arbor",
+ "sourceUrl": "https://belgradearbor.rs/en",
+ "capturedAt": "2026-11-02T23:30:20.825Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg",
+   "desktop-13.jpg",
+   "desktop-14.jpg"
+  ],
+  "fullPage": 20123,
+  "subpages": [
+   {
+    "url": "https://belgradearbor.rs/en/contact",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg"
+    ]
+   },
+   {
+    "url": "https://belgradearbor.rs/sr",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://belgradearbor.rs/en",
+ "title": "Belgrade Arbor | Residential & Business Complex in New Belgrade",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Discover Belgrade Arbor - premium apartments and business spaces in New Belgrade. Explore residences, amenities, location, and availability.",
+  "canonical": "https://belgradearbor.rs/en",
+  "robots": null,
+  "ogTitle": "Belgrade Arbor | Residential & Business Complex in New Belgrade",
+  "ogImage": "https://belgradearbor.rs/opengraph-image.jpg",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [],
+  "h1Count": 1,
+  "headings": [
+   "H1 Belgrade Arbor",
+   "H2 The visual identity of Belgrade Arbor is defined by an elegant facade inspired by the form",
+   "H2 Belgrade Arbor isn't just another addition to the skyline; it's a curated urban ecosystem ",
+   "H2 A New Chapter in Prestigious Living",
+   "H2 The visual identity of Belgrade Arbor is defined by an elegant facade inspired by the form",
+   "H2 Belgrade Arbor isn't just another addition to the skyline; it's a curated urban ecosystem ",
+   "H2 A New Chapter in Prestigious Living",
+   "H2 Location",
+   "H2 Residences",
+   "H2 Office spaces and retails",
+   "H2 Your roots",
+   "H2 Your roots",
+   "H2 Amenities",
+   "H2 View from above"
+  ],
+  "imgs": 51,
+  "imgNoAlt": 16,
+  "favicon": "https://belgradearbor.rs/favicon.ico?favicon.0_jybvm-wd11s.ico",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#314759",
+    "w": 1296000
+   },
+   {
+    "v": "#fdfbef",
+    "w": 1296000
+   },
+   {
+    "v": "#ccbf99",
+    "w": 12542
+   },
+   {
+    "v": "#60735c",
+    "w": 280
+   }
+  ],
+  "text": [
+   {
+    "v": "#2e3a26",
+    "w": 3542
+   },
+   {
+    "v": "#fff4d6",
+    "w": 917
+   },
+   {
+    "v": "#a68150",
+    "w": 410
+   },
+   {
+    "v": "#ccbf99",
+    "w": 227
+   },
+   {
+    "v": "#f4f0db",
+    "w": 158
+   },
+   {
+    "v": "#e7fd55",
+    "w": 117
+   },
+   {
+    "v": "#3c3c3c",
+    "w": 8
+   },
+   {
+    "v": "#60735c",
+    "w": 5
+   }
+  ],
+  "border": [
+   {
+    "v": "#60735c",
+    "w": 7
+   },
+   {
+    "v": "#ccbf99",
+    "w": 3
+   },
+   {
+    "v": "#a68150",
+    "w": 1
+   }
+  ],
+  "fonts": [
+   {
+    "v": "Work Sans",
+    "w": 4735
+   },
+   {
+    "v": "editorialOld",
+    "w": 643
+   },
+   {
+    "v": "ui-sans-serif",
+    "w": 6
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "15.984px",
+    "w": 414
+   },
+   {
+    "v": "55.944px",
+    "w": 381
+   },
+   {
+    "v": "17.982px",
+    "w": 166
+   },
+   {
+    "v": "19.98px",
+    "w": 100
+   },
+   {
+    "v": "51.948px",
+    "w": 91
+   },
+   {
+    "v": "13.986px",
+    "w": 88
+   },
+   {
+    "v": "159.84px",
+    "w": 70
+   },
+   {
+    "v": "35.964px",
+    "w": 49
+   },
+   {
+    "v": "99.9px",
+    "w": 48
+   },
+   {
+    "v": "119.88px",
+    "w": 43
+   },
+   {
+    "v": "39.96px",
+    "w": 19
+   },
+   {
+    "v": "31.968px",
+    "w": 18
+   },
+   {
+    "v": "151.2px",
+    "w": 13
+   },
+   {
+    "v": "239.76px",
+    "w": 9
+   },
+   {
+    "v": "95.904px",
+    "w": 9
+   },
+   {
+    "v": "127.872px",
+    "w": 9
+   }
+  ],
+  "radius": [
+   {
+    "v": "3.35544e+07px",
+    "w": 9
+   },
+   {
+    "v": "19.98px",
+    "w": 5
+   },
+   {
+    "v": "27.972px",
+    "w": 2
+   }
+  ],
+  "shadows": [
+   {
+    "v": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0",
+    "w": 1
+   }
+  ],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.4 0.65s",
+    "w": 87
+   },
+   {
+    "v": "cubic-bezier(0.4 0.5s",
+    "w": 27
+   },
+   {
+    "v": "cubic-bezier(0.4 0.6s",
+    "w": 14
+   },
+   {
+    "v": "cubic-bezier(0.4 0.3s",
+    "w": 4
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "editorialOld, \"editorialOld Fallback\"",
+    "size": "151.2px",
+    "weight": "400",
+    "lineHeight": "151.2px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#f4f0db",
+    "sample": "Belgrade Arbor"
+   },
+   "h2": {
+    "family": "editorialOld, \"editorialOld Fallback\"",
+    "size": "55.944px",
+    "weight": "300",
+    "lineHeight": "61.5384px",
+    "letterSpacing": "1.11888px",
+    "transform": "none",
+    "color": "#fff4d6",
+    "sample": "The visual identity of Belgrade Arbor is defined by an elegant facade inspired b"
+   },
+   "p": {
+    "family": "\"Work Sans\", \"Work Sans Fallback\"",
+    "size": "19.98px",
+    "weight": "400",
+    "lineHeight": "29.97px",
+    "letterSpacing": "0.3996px",
+    "transform": "uppercase",
+    "color": "#e7fd55",
+    "sample": "BELGRADE ARBOR DESIGN"
+   },
+   "a": {
+    "family": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "size": "15.984px",
+    "weight": "400",
+    "lineHeight": "23.976px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#fff4d6",
+    "sample": "InquireInquire"
+   },
+   "button": {
+    "family": "\"Work Sans\", \"Work Sans Fallback\"",
+    "size": "13.986px",
+    "weight": "400",
+    "lineHeight": "20.979px",
+    "letterSpacing": "0.27972px",
+    "transform": "uppercase",
+    "color": "#fff4d6",
+    "sample": "Menu"
+   },
+   "li": {
+    "family": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "size": "15.984px",
+    "weight": "400",
+    "lineHeight": "23.976px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#2e3a26",
+    "sample": "20%Pre-contract"
+   },
+   "body": {
+    "family": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "size": "15.984px",
+    "weight": "400",
+    "lineHeight": "23.976px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#2e3a26",
+    "sample": "(self.__next_s=self.__next_s||[]).push([0,{\"children\":\"(function(w,d,s,l,i){w[l]"
+   }
+  },
+  "cssVars": {
+   "--font-sans": "var(--font-workSans)",
+   "--font-mono": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+   "--color-red-500": "lab(55.4814% 75.0732 48.8528)",
+   "--color-black": "#000",
+   "--spacing": ".25rem",
+   "--container-lg": "32rem",
+   "--container-xl": "36rem",
+   "--text-xs": ".75rem",
+   "--text-xs--line-height": "calc(1 / .75)",
+   "--text-sm": ".875rem",
+   "--text-sm--line-height": "calc(1.25 / .875)",
+   "--text-base": "1rem",
+   "--text-base--line-height": "calc(1.5 / 1)",
+   "--font-weight-light": "300",
+   "--font-weight-normal": "400",
+   "--font-weight-medium": "500",
+   "--font-weight-bold": "700",
+   "--tracking-widest": ".1em",
+   "--leading-tight": "1.25",
+   "--leading-snug": "1.375",
+   "--ease-in-out": "cubic-bezier(.4, 0, .2, 1)",
+   "--blur-lg": "16px",
+   "--aspect-video": "16 / 9",
+   "--default-transition-timing-function": "cubic-bezier(.4, 0, .2, 1)",
+   "--default-font-family": "var(--font-workSans)",
+   "--default-mono-font-family": "var(--font-mono)",
+   "--color-vanilla": "#fdfbef",
+   "--color-pine-green": "#2e3a26",
+   "--radius": ".625rem",
+   "--background": "var(--color-vanilla)",
+   "--foreground": "var(--color-pine-green)",
+   "--card": "lab(100% 0 0)",
+   "--card-foreground": "lab(2.75381% 0 0)",
+   "--popover": "lab(100% 0 0)",
+   "--popover-foreground": "lab(2.75381% 0 0)",
+   "--primary": "lab(7.78201% -.0000149012 0)",
+   "--primary-foreground": "lab(98.26% 0 0)",
+   "--secondary": "lab(96.52% -.0000298023 .0000119209)",
+   "--secondary-foreground": "lab(7.78201% -.0000149012 0)",
+   "--muted": "lab(96.52% -.0000298023 .0000119209)",
+   "--muted-foreground": "lab(48.496% 0 0)",
+   "--accent": "lab(96.52% -.0000298023 .0000119209)",
+   "--accent-foreground": "lab(7.78201% -.0000149012 0)",
+   "--destructive": "lab(48.4493% 77.4328 61.5452)",
+   "--border": "lab(90.952% 0 -.0000119209)",
+   "--input": "lab(90.952% 0 -.0000119209)",
+   "--ring": "lab(66.128% -.0000298023 .0000119209)",
+   "--chart-1": "lab(57.1026% 64.2584 89.8886)",
+   "--chart-2": "lab(55.0223% -41.0774 -3.90277)",
+   "--chart-3": "lab(30.372% -13.1853 -18.7887)",
+   "--chart-4": "lab(80.1641% 16.6016 99.2089)",
+   "--chart-5": "lab(72.7183% 31.8672 97.9407)",
+   "--sidebar": "lab(98.26% 0 0)",
+   "--sidebar-foreground": "lab(2.75381% 0 0)",
+   "--sidebar-primary": "lab(7.78201% -.0000149012 0)",
+   "--sidebar-primary-foreground": "lab(98.26% 0 0)",
+   "--sidebar-accent": "lab(96.52% -.0000298023 .0000119209)",
+   "--sidebar-accent-foreground": "lab(7.78201% -.0000149012 0)",
+   "--sidebar-border": "lab(90.952% 0 -.0000119209)",
+   "--sidebar-ring": "lab(66.128% -.0000298023 .0000119209)",
+   "--leva-colors-elevation1": "#292d39",
+   "--leva-colors-elevation2": "#181c20",
+   "--leva-colors-elevation3": "#373c4b",
+   "--leva-colors-accent1": "#0066dc",
+   "--leva-colors-accent2": "#007bff",
+   "--leva-colors-accent3": "#3c93ff",
+   "--leva-colors-highlight1": "#535760",
+   "--leva-colors-highlight2": "#8c92a4",
+   "--leva-colors-highlight3": "#fefefe",
+   "--leva-colors-vivid1": "#ffcc00",
+   "--leva-colors-folderWidgetColor": "var(--leva-colors-highlight2)",
+   "--leva-colors-folderTextColor": "var(--leva-colors-highlight3)",
+   "--leva-colors-toolTipBackground": "var(--leva-colors-highlight3)",
+   "--leva-colors-toolTipText": "var(--leva-colors-elevation2)",
+   "--leva-radii-xs": "2px",
+   "--leva-radii-sm": "3px",
+   "--leva-radii-lg": "10px",
+   "--leva-space-xs": "3px",
+   "--leva-space-sm": "6px",
+   "--leva-space-md": "10px",
+   "--leva-space-rowGap": "7px",
+   "--leva-space-colGap": "7px",
+   "--leva-fonts-mono": "ui-monospace, SFMono-Regular, Menlo, 'Roboto Mono', monospace",
+   "--leva-fonts-sans": "system-ui, sans-serif",
+   "--leva-fontSizes-root": "11px",
+   "--leva-fontSizes-toolTip": "var(--leva-fontSizes-root)",
+   "--leva-sizes-rootWidth": "280px",
+   "--leva-sizes-controlWidth": "160px",
+   "--leva-sizes-numberInputMinWidth": "38px",
+   "--leva-sizes-scrubberWidth": "8px",
+   "--leva-sizes-scrubberHeight": "16px",
+   "--leva-sizes-rowHeight": "24px",
+   "--leva-sizes-folderTitleHeight": "20px",
+   "--leva-sizes-checkboxSize": "16px",
+   "--leva-sizes-joystickWidth": "100px",
+   "--leva-sizes-joystickHeight": "100px",
+   "--leva-sizes-colorPickerWidth": "var(--leva-sizes-controlWidth)",
+   "--leva-sizes-colorPickerHeight": "100px",
+   "--leva-sizes-imagePreviewWidth": "var(--leva-sizes-controlWidth)",
+   "--leva-sizes-imagePreviewHeight": "100px",
+   "--leva-sizes-monitorHeight": "60px",
+   "--leva-sizes-titleBarHeight": "39px",
+   "--leva-shadows-level1": "0 0 9px 0 #00000088",
+   "--leva-shadows-level2": "0 4px 14px #00000033",
+   "--leva-borderWidths-root": "0px",
+   "--leva-borderWidths-input": "1px",
+   "--leva-borderWidths-focus": "1px",
+   "--leva-borderWidths-hover": "1px",
+   "--leva-borderWidths-active": "1px",
+   "--leva-borderWidths-folder": "1px",
+   "--leva-fontWeights-label": "normal",
+   "--leva-fontWeights-folder": "normal",
+   "--leva-fontWeights-button": "normal"
+  },
+  "fontFaces": [
+   {
+    "family": "Work Sans",
+    "weight": "300",
+    "style": "normal",
+    "src": "url(\"../media/8e3fbf4aa84d044b-s.15r3fd4k35w-q.woff2?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y\") format(\"woff2\")"
+   },
+   {
+    "family": "Work Sans",
+    "weight": "300",
+    "style": "normal",
+    "src": "url(\"../media/57dc28f7118abe14-s.0~q417~7alp5b.woff2?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y\") format(\"woff2\")"
+   },
+   {
+    "family": "Work Sans",
+    "weight": "300",
+    "style": "normal",
+    "src": "url(\"../media/7ddd198311ba7843-s.p.11f_0f-25f9yg.woff2?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y\") format(\"woff2\")"
+   },
+   {
+    "family": "Work Sans",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"../media/8e3fbf4aa84d044b-s.15r3fd4k35w-q.woff2?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y\") format(\"woff2\")"
+   },
+   {
+    "family": "Work Sans",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"../media/57dc28f7118abe14-s.0~q417~7alp5b.woff2?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y\") format(\"woff2\")"
+   },
+   {
+    "family": "Work Sans",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"../media/7ddd198311ba7843-s.p.11f_0f-25f9yg.woff2?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y\") format(\"woff2\")"
+   },
+   {
+    "family": "Work Sans",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"../media/8e3fbf4aa84d044b-s.15r3fd4k35w-q.woff2?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y\") format(\"woff2\")"
+   },
+   {
+    "family": "Work Sans",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"../media/57dc28f7118abe14-s.0~q417~7alp5b.woff2?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y\") format(\"woff2\")"
+   },
+   {
+    "family": "Work Sans",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"../media/7ddd198311ba7843-s.p.11f_0f-25f9yg.woff2?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y\") format(\"woff2\")"
+   },
+   {
+    "family": "Work Sans",
+    "weight": "600",
+    "style": "normal",
+    "src": "url(\"../media/8e3fbf4aa84d044b-s.15r3fd4k35w-q.woff2?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y\") format(\"woff2\")"
+   },
+   {
+    "family": "Work Sans",
+    "weight": "600",
+    "style": "normal",
+    "src": "url(\"../media/57dc28f7118abe14-s.0~q417~7alp5b.woff2?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y\") format(\"woff2\")"
+   },
+   {
+    "family": "Work Sans",
+    "weight": "600",
+    "style": "normal",
+    "src": "url(\"../media/7ddd198311ba7843-s.p.11f_0f-25f9yg.woff2?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y\") format(\"woff2\")"
+   },
+   {
+    "family": "Work Sans",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"../media/8e3fbf4aa84d044b-s.15r3fd4k35w-q.woff2?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y\") format(\"woff2\")"
+   },
+   {
+    "family": "Work Sans",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"../media/57dc28f7118abe14-s.0~q417~7alp5b.woff2?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y\") format(\"woff2\")"
+   },
+   {
+    "family": "Work Sans",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"../media/7ddd198311ba7843-s.p.11f_0f-25f9yg.woff2?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y\") format(\"woff2\")"
+   },
+   {
+    "family": "Work Sans Fallback",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   },
+   {
+    "family": "editorialOld",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"../media/PPEditorialOld_Regular-s.p.10x77zcrykmnq.otf?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y\") format(\"opentype\")"
+   },
+   {
+    "family": "editorialOld",
+    "weight": "300",
+    "style": "normal",
+    "src": "url(\"../media/PPEditorialOld_Ultralight-s.p.0u.0t_8-1e3wa.otf?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y\") format(\"opentype\")"
+   },
+   {
+    "family": "editorialOld",
+    "weight": "300",
+    "style": "italic",
+    "src": "url(\"../media/PPEditorialOld_UltralightItalic-s.p.0ojl3s380s~4~.otf?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y\") format(\"opentype\")"
+   },
+   {
+    "family": "editorialOld Fallback",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   }
+  ],
+  "keyframes": [
+   "spin",
+   "enter",
+   "exit"
+  ],
+  "breakpoints": [
+   {
+    "v": "601px",
+    "w": 8
+   },
+   {
+    "v": "1121px",
+    "w": 6
+   },
+   {
+    "v": "481px",
+    "w": 2
+   },
+   {
+    "v": "1441px",
+    "w": 2
+   },
+   {
+    "v": "1601px",
+    "w": 2
+   },
+   {
+    "v": "1921px",
+    "w": 1
+   },
+   {
+    "v": "2560px",
+    "w": 1
+   },
+   {
+    "v": "1920px",
+    "w": 1
+   },
+   {
+    "v": "1440px",
+    "w": 1
+   },
+   {
+    "v": "1120px",
+    "w": 1
+   },
+   {
+    "v": "850px",
+    "w": 1
+   },
+   {
+    "v": "600px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 1721,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "overflow-x-clip",
+    "h": 19079,
+    "title": "Belgrade Arbor",
+    "media": 56
+   },
+   {
+    "tag": "footer",
+    "id": null,
+    "cls": "to-vanilla relative bg-linear-to-t from-[#8AB6D2]",
+    "h": 1045,
+    "title": "",
+    "media": 3
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "HomeHome",
+    "href": "https://belgradearbor.rs/en"
+   },
+   {
+    "t": "3D Experience3D Experience",
+    "href": "https://belgradearbor.rs/en/3d"
+   },
+   {
+    "t": "ResidencesResidences",
+    "href": "https://belgradearbor.rs/en/residences"
+   },
+   {
+    "t": "BusinessBusiness",
+    "href": "https://belgradearbor.rs/en/business"
+   },
+   {
+    "t": "Retail SpacesRetail Spaces",
+    "href": "https://belgradearbor.rs/en/retail-spaces"
+   },
+   {
+    "t": "LocationLocation",
+    "href": "https://belgradearbor.rs/en#Around"
+   },
+   {
+    "t": "AmenitiesAmenities",
+    "href": "https://belgradearbor.rs/en#Amenities"
+   },
+   {
+    "t": "ContactContact",
+    "href": "https://belgradearbor.rs/en/contact"
+   },
+   {
+    "t": "About the investorAbout the investor",
+    "href": "https://belgradearbor.rs/en/about-the-investor"
+   }
+  ],
+  "ctas": [
+   "Building permit Building permit"
+  ],
+  "pageHeight": 20123,
+  "counts": {
+   "canvas": 2,
+   "videos": 7,
+   "imgs": 51,
+   "svgs": 73,
+   "iframes": 0,
+   "domNodes": 2721
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "184",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": true,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [
+   "googletagmanager",
+   "gtag",
+   "fbevents"
+  ],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://capi-automation.s3.us-east-2.amazonaws.com/public/client_js/capiParamBuilder/clientParamBuilder.bundle.js",
+  "https://connect.facebook.net/signals/config/881461921059348?v=2.9.433&r=stable&domain=belgradearbor.rs&optin_meta_enabled_capi=true&hme=4453c87d489b6902031c012cadd2731893cd69feb64fe8a61b339727247a7703&ex_m=118%2C242%2C171%2C27%2C82%2C83%2C162%2C78%2C77%2C11%2C181%2C102%2C20%2C153%2C141%2C46%2C85%2C90%2C149%2C176%2C183%2C8%2C4%2C5%2C7%2C6%2C3%2C103%2C115%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C37%2C55%2C163%2C87%2C126%2C22%2C24%2C51%2C47%2C49%2C48%2C95%2C104%2C108%2C124%2C160%2C164%2C53%2C125%2C29%2C26%2C133%2C79%2C43%2C166%2C165%2C167%2C157%2C155%2C30%2C42%2C66%2C123%2C178%2C80%2C21%2C128%2C93%2C76%2C23%2C97%2C98%2C130%2C96%2C151%2C150%2C154%2C109%2C177%2C180%2C41%2C56%2C127%2C54%2C161%2C72%2C185%2C110%2C184%2C211%2C263%2C84%2C283%2C282%2C281%2C14%2C25%2C28%2C40%2C62%2C117%2C68%2C10%2C73%2C111%2C112%2C113%2C119%2C144%2C38%2C36%2C146%2C147%2C148%2C143%2C142%2C172%2C86%2C175%2C173%2C174%2C57%2C69%2C67%2C137%2C19%2C179%2C52%2C333%2C334%2C335%2C332%2C349%2C371%2C256%2C238%2C70%2C239%2C237%2C374%2C365%2C59%2C257%2C121%2C145%2C92%2C135%2C61%2C134%2C140%2C139%2C65%2C74%2C168%2C88%2C89%2C129%2C44%2C39%2C60%2C63%2C114%2C182%2C1%2C138%2C16%2C136%2C12%2C2%2C64%2C105%2C15%2C75%2C71%2C132%2C101%2C100%2C187%2C188%2C106%2C107%2C9%2C116%2C186%2C58%2C158%2C99%2C91%2C81%2C131%2C120%2C169%2C50%2C159%2C0%2C94%2C152%2C156%2C170%2C45%2C122%2C13%2C189",
+  "https://connect.facebook.net/en_US/fbevents.js",
+  "https://www.googletagmanager.com/gtag/js?id=G-VMF0WT0D1Q&cx=c&gtm=4e6au1",
+  "https://www.googletagmanager.com/gtag/js?id=AW-17823718150&cx=c&gtm=4e6au1",
+  "https://js-eu1.hs-analytics.net/analytics/1793662200000/148338609.js",
+  "https://js-eu1.hs-banner.com/v2/148338609/banner.js",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-MSFLG4VN",
+  "https://belgradearbor.rs/_next/static/chunks/0fp4f9n3kdnns.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+  "https://belgradearbor.rs/_next/static/chunks/13uxtbrew9p8k.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+  "https://belgradearbor.rs/_next/static/chunks/110q6k5sdl4es.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+  "https://belgradearbor.rs/_next/static/chunks/turbopack-11d20dr7kd-ys.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+  "https://belgradearbor.rs/_next/static/chunks/0~ekro4dwr2lx.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+  "https://belgradearbor.rs/_next/static/chunks/15kkz14ouerlw.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+  "https://belgradearbor.rs/_next/static/chunks/07p~t9_ipiabo.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+  "https://belgradearbor.rs/_next/static/chunks/03vuy6q6j4ly0.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+  "https://belgradearbor.rs/_next/static/chunks/09j7w4tn._mx1.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+  "https://belgradearbor.rs/_next/static/chunks/00xx30o3ajzic.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+  "https://belgradearbor.rs/_next/static/chunks/01v_j1qgz7279.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+  "https://belgradearbor.rs/_next/static/chunks/10tlgl5wd827~.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+  "https://belgradearbor.rs/_next/static/chunks/0yq-18n76jjnc.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+  "https://belgradearbor.rs/_next/static/chunks/0rr1c7aibu-sx.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+  "https://belgradearbor.rs/_next/static/chunks/00attuc5pi6ze.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+  "https://belgradearbor.rs/_next/static/chunks/13n~4to3480~e.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+  "https://belgradearbor.rs/_next/static/chunks/0v4a4b733mtub.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+  "https://belgradearbor.rs/_next/static/chunks/03v7hy-oej4hm.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+  "https://belgradearbor.rs/_next/static/chunks/0pu5ckuyou92-.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+  "https://belgradearbor.rs/_next/static/chunks/03~yq9q893hmn.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+  "https://belgradearbor.rs/_next/static/chunks/0jw0x02uziwgj.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+  "https://belgradearbor.rs/_next/static/chunks/095uk5okkp766.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+  "https://belgradearbor.rs/_next/static/chunks/11-jbnjmn3saw.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+  "https://belgradearbor.rs/_next/static/chunks/0t6f78-uqoue4.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+  "https://belgradearbor.rs/_next/static/chunks/0-eq9er4__8p7.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+  "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/17823718150/?random=1793662224792&cv=11&fst=1793662224792&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6au1v9238495308za20ozb9240485851zd9240485851xecxf1&gcd=13t3t3t2t5l1&dma_cps=a&dma=1&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120412526~120469145~120469153~121246026~121246034~123691370~123814945&u_w=1440&u_h=900&url=https%3A%2F%2Fbelgradearbor.rs%2Fen&rcb=8&frm=0&tiba=Belgrade%20Arbor%20%7C%20Residential%20%26%20Business%20Complex%20in%20New%20Belgrade&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1872027632.1793662224&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.74%7CGoogle%2520Chrome%3B156.0.8078.74&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+  "https://belgradearbor.rs/_next/static/chunks/00u~npbo7.a04.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+  "https://js-eu1.hs-scripts.com/148338609.js"
+ ],
+ "internal": [
+  "https://belgradearbor.rs/en/contact",
+  "https://belgradearbor.rs/en/3d",
+  "https://belgradearbor.rs/en/residences",
+  "https://belgradearbor.rs/en/business",
+  "https://belgradearbor.rs/en/retail-spaces",
+  "https://belgradearbor.rs/en/about-the-investor",
+  "https://belgradearbor.rs/sr",
+  "https://belgradearbor.rs/en/privacy-policy"
+ ],
+ "perf": {
+  "ttfb": 185,
+  "dcl": 682,
+  "load": 5616,
+  "lcp": 21476,
+  "lcpEl": "DIV",
+  "cls": 0
+ },
+ "libs": {
+  "detected": [
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Next.js",
+   "Three.js",
+   "React Three Fiber",
+   "Lenis",
+   "Virtual scroll",
+   "React",
+   "GSAP",
+   "DrawSVG/MorphSVG",
+   "Keen slider",
+   "Barba.js"
+  ],
+  "where": {
+   "ScrollTrigger": [
+    "002-03vuy6q6j4ly0.js",
+    "009-09j7w4tn._mx1.js",
+    "014-01v_j1qgz7279.js",
+    "015-0rr1c7aibu-sx.js",
+    "016-07p_t9_ipiabo.js",
+    "019-10tlgl5wd827_.js"
+   ],
+   "SplitText/SplitType": [
+    "002-03vuy6q6j4ly0.js",
+    "014-01v_j1qgz7279.js",
+    "015-0rr1c7aibu-sx.js",
+    "019-10tlgl5wd827_.js"
+   ],
+   "Next.js": [
+    "002-03vuy6q6j4ly0.js",
+    "005-00u_npbo7.a04.js"
+   ],
+   "Three.js": [
+    "004-0yq-18n76jjnc.js",
+    "021-0v4a4b733mtub.js"
+   ],
+   "React Three Fiber": [
+    "004-0yq-18n76jjnc.js",
+    "015-0rr1c7aibu-sx.js",
+    "021-0v4a4b733mtub.js"
+   ],
+   "Lenis": [
+    "009-09j7w4tn._mx1.js",
+    "015-0rr1c7aibu-sx.js",
+    "016-07p_t9_ipiabo.js",
+    "styles.css"
+   ],
+   "Virtual scroll": [
+    "009-09j7w4tn._mx1.js"
+   ],
+   "React": [
+    "010-110q6k5sdl4es.js",
+    "012-0fp4f9n3kdnns.js",
+    "015-0rr1c7aibu-sx.js"
+   ],
+   "GSAP": [
+    "013-00attuc5pi6ze.js",
+    "019-10tlgl5wd827_.js"
+   ],
+   "DrawSVG/MorphSVG": [
+    "013-00attuc5pi6ze.js",
+    "015-0rr1c7aibu-sx.js"
+   ],
+   "Keen slider": [
+    "022-0jw0x02uziwgj.js",
+    "024-095uk5okkp766.js",
+    "027-0-eq9er4__8p7.js"
+   ],
+   "Barba.js": [
+    "029-clientParamBuilder.bundle.js"
+   ]
+  },
+  "gsapVersion": "3.11.0",
+  "threeRevision": null,
+  "shaders": 10,
+  "scripts": 29
+ },
+ "network": {
+  "requests": 96,
+  "totalKb": 22158,
+  "byType": {
+   "Document": {
+    "n": 2,
+    "kb": 64
+   },
+   "Stylesheet": {
+    "n": 5,
+    "kb": 21
+   },
+   "Font": {
+    "n": 5,
+    "kb": 388
+   },
+   "Image": {
+    "n": 30,
+    "kb": 2786
+   },
+   "Script": {
+    "n": 35,
+    "kb": 1556
+   },
+   "Media": {
+    "n": 4,
+    "kb": 17334
+   },
+   "Fetch": {
+    "n": 13,
+    "kb": 6
+   },
+   "Ping": {
+    "n": 1,
+    "kb": 1
+   },
+   "Other": {
+    "n": 1,
+    "kb": 3
+   }
+  },
+  "thirdPartyHosts": [
+   "js-eu1.hs-scripts.com",
+   "www.googletagmanager.com",
+   "js-eu1.hs-banner.com",
+   "ad.doubleclick.net",
+   "js-eu1.hs-analytics.net",
+   "www.google.com",
+   "connect.facebook.net",
+   "googleads.g.doubleclick.net",
+   "www.google.fr",
+   "stats.g.doubleclick.net",
+   "region1.analytics.google.com",
+   "www.facebook.com",
+   "mv-prod-1-1053047382554.us-central1.run.app",
+   "capi-automation.s3.us-east-2.amazonaws.com",
+   "track-eu1.hubspot.com"
+  ],
+  "fontFiles": [
+   "https://belgradearbor.rs/_next/static/media/7ddd198311ba7843-s.p.11f_0f-25f9yg.woff2?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+   "https://belgradearbor.rs/_next/static/media/PPEditorialOld_Ultralight-s.p.0u.0t_8-1e3wa.otf?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+   "https://belgradearbor.rs/_next/static/media/PPEditorialOld_Regular-s.p.10x77zcrykmnq.otf?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+   "https://belgradearbor.rs/_next/static/media/PPEditorialOld_UltralightItalic-s.p.0ojl3s380s~4~.otf?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+   "https://belgradearbor.rs/_next/static/media/57dc28f7118abe14-s.0~q417~7alp5b.woff2?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y"
+  ],
+  "biggest": [
+   {
+    "url": "https://belgradearbor.rs/home/residences/interior.mp4",
+    "kb": 6455,
+    "type": "Media"
+   },
+   {
+    "url": "https://belgradearbor.rs/home/hero.mp4",
+    "kb": 5722,
+    "type": "Media"
+   },
+   {
+    "url": "https://belgradearbor.rs/home/location/location.mp4",
+    "kb": 5157,
+    "type": "Media"
+   },
+   {
+    "url": "https://belgradearbor.rs/home/mapc.webp",
+    "kb": 372,
+    "type": "Image"
+   },
+   {
+    "url": "https://belgradearbor.rs/_next/image?url=%2Fhome%2Ffooter%2Ffront.webp&w=1920&q=75&dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+    "kb": 246,
+    "type": "Image"
+   },
+   {
+    "url": "https://belgradearbor.rs/_next/static/chunks/0v4a4b733mtub.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+    "kb": 232,
+    "type": "Script"
+   },
+   {
+    "url": "https://belgradearbor.rs/home/amenities/amenities-bg.webp",
+    "kb": 222,
+    "type": "Image"
+   },
+   {
+    "url": "https://www.googletagmanager.com/gtag/js?id=G-VMF0WT0D1Q&cx=c&gtm=4e6au1",
+    "kb": 194,
+    "type": "Script"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "66.3px",
+   "lineHeight": "66.3px"
+  },
+  "body": "15.99px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 296
+}

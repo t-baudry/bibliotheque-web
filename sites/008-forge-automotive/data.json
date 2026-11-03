@@ -1,0 +1,884 @@
+{
+ "id": 8,
+ "name": "Forge Automotive",
+ "sourceUrl": "https://forgeautomotive.co.uk/",
+ "capturedAt": "2026-11-02T23:25:55.063Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg"
+  ],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [
+   {
+    "url": "https://forgeautomotive.co.uk/contact/",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://forgeautomotive.co.uk/builds/",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://forgeautomotive.co.uk/stock/",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://forgeautomotive.co.uk/",
+ "title": "Bespoke Vehicle Builds & Styling | Forge Automotive",
+ "lang": "en-GB",
+ "generator": null,
+ "seo": {
+  "description": "A luxury automotive atelier for bespoke styling, performance and craftsmanship — one-off Defender, G63, Range Rover, Urus and 911 builds.",
+  "canonical": "https://forgeautomotive.co.uk/",
+  "robots": null,
+  "ogTitle": "Bespoke Vehicle Builds & Styling",
+  "ogImage": "https://cdn.forgeautomotive.media/images/ed72g2cx/production/44525b49e3b784d25700b232fc13009fbfcf2000-1200x630.jpg?w=1200&h=630",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "Organization"
+  ],
+  "h1Count": 1,
+  "headings": [
+   "H2 We don’t modify vehiclesWe build them for you",
+   "H1 For Those Who Refuse Ordinary",
+   "H2 Our Approach To Every Build",
+   "H3 Identity",
+   "H3 Insight",
+   "H3 Cohesion",
+   "H2 A vehicle should say something before it moves. Every line, material, and finish is consid",
+   "H3 Bodystyling",
+   "H3 Interior",
+   "H3 Wheels",
+   "H3 Lighting",
+   "H3 Exhaust",
+   "H3 Protection",
+   "H2 Ends Here",
+   "H2 Previous Builds",
+   "H2 Available Stock",
+   "H2 Refuse Ordinary"
+  ],
+  "imgs": 61,
+  "imgNoAlt": 14,
+  "favicon": "https://forgeautomotive.co.uk/favicon.ico?favicon.24pqam9041g9u.ico",
+  "themeColor": "#0c0c0c"
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#000000",
+    "w": 15616260
+   },
+   {
+    "v": "#0c0c0c",
+    "w": 13386603
+   },
+   {
+    "v": "#161616",
+    "w": 3888000
+   },
+   {
+    "v": "#f2f1ed",
+    "w": 4990
+   }
+  ],
+  "text": [
+   {
+    "v": "#ffffff",
+    "w": 549
+   },
+   {
+    "v": "#0c0c0c",
+    "w": 15
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "GeistSans",
+    "w": 2529
+   },
+   {
+    "v": "Times New Roman",
+    "w": 200
+   },
+   {
+    "v": "editorial",
+    "w": 146
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "10px",
+    "w": 292
+   },
+   {
+    "v": "18px",
+    "w": 59
+   },
+   {
+    "v": "140px",
+    "w": 20
+   },
+   {
+    "v": "96px",
+    "w": 14
+   },
+   {
+    "v": "80px",
+    "w": 13
+   },
+   {
+    "v": "24px",
+    "w": 6
+   },
+   {
+    "v": "8px",
+    "w": 5
+   },
+   {
+    "v": "90px",
+    "w": 5
+   },
+   {
+    "v": "14px",
+    "w": 1
+   }
+  ],
+  "radius": [],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.43 0.5s",
+    "w": 235
+   },
+   {
+    "v": "cubic-bezier(0.43 0.75s",
+    "w": 28
+   },
+   {
+    "v": "ease-in-out 0.5s",
+    "w": 26
+   },
+   {
+    "v": "ease-in-out 0.6s",
+    "w": 19
+   },
+   {
+    "v": "ease-in-out 0.15s",
+    "w": 1
+   },
+   {
+    "v": "cubic-bezier(0.43 1s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "editorial, \"editorial Fallback\", Georgia, Times, \"Times New Roman\", serif",
+    "size": "90px",
+    "weight": "200",
+    "lineHeight": "108px",
+    "letterSpacing": "-2px",
+    "transform": "capitalize",
+    "color": "#ffffff",
+    "sample": "For Those Who Refuse Ordinary"
+   },
+   "h2": {
+    "family": "editorial, \"editorial Fallback\", Georgia, Times, \"Times New Roman\", serif",
+    "size": "80px",
+    "weight": "200",
+    "lineHeight": "96px",
+    "letterSpacing": "-1px",
+    "transform": "capitalize",
+    "color": "#ffffff",
+    "sample": "We don’t modify vehiclesWe build them for you"
+   },
+   "h3": {
+    "family": "editorial, \"editorial Fallback\", Georgia, Times, \"Times New Roman\", serif",
+    "size": "96px",
+    "weight": "200",
+    "lineHeight": "115.2px",
+    "letterSpacing": "-2px",
+    "transform": "capitalize",
+    "color": "#ffffff",
+    "sample": "Identity"
+   },
+   "p": {
+    "family": "GeistSans, \"GeistSans Fallback\", Arial, Helvetica, \"Liberation Sans\", sans-serif",
+    "size": "10px",
+    "weight": "600",
+    "lineHeight": "20px",
+    "letterSpacing": "3px",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "Bespoke vehicles built on distinction, desire, and identity. not simply to be mo"
+   },
+   "a": {
+    "family": "GeistSans, \"GeistSans Fallback\", Arial, Helvetica, \"Liberation Sans\", sans-serif",
+    "size": "14px",
+    "weight": "400",
+    "lineHeight": "16.8px",
+    "letterSpacing": "-0.5px",
+    "transform": "none",
+    "color": "#0c0c0c",
+    "sample": "Skip to content"
+   },
+   "button": {
+    "family": "Arial",
+    "size": "13.3333px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "NavigateClose"
+   },
+   "li": {
+    "family": "\"Times New Roman\"",
+    "size": "10px",
+    "weight": "400",
+    "lineHeight": "10px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Builds"
+   },
+   "body": {
+    "family": "\"Times New Roman\"",
+    "size": "10px",
+    "weight": "400",
+    "lineHeight": "10px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"@id\":\"https://forgeauto"
+   }
+  },
+  "cssVars": {
+   "--page-beat-dur": ".6s",
+   "--page-leave-dur": "var(--page-beat-dur)",
+   "--page-enter-dur": "var(--page-beat-dur)",
+   "--page-enter-ease": "cubic-bezier(.2, .7, .2, 1)",
+   "--black": "var(--global-black)",
+   "--white": "var(--global-white)",
+   "--bezzy": "var(--easing-bezzy)",
+   "--bezzy2": "var(--easing-bezzy2)",
+   "--bezzy3": "var(--easing-bezzy3)",
+   "--next-build-dur": ".6s",
+   "--next-build-ease": "cubic-bezier(.7, .05, .13, 1)",
+   "--brand-bc1": "#0C0C0C",
+   "--brand-bc2": "#161616",
+   "--brand-bc3": "#410306",
+   "--brand-bc4": "#C5A064",
+   "--brand-bc5": "#F2F1ED",
+   "--global-white": "#ffffff",
+   "--global-black": "#000000",
+   "--feedback-positive": "#3adb76",
+   "--feedback-negative": "#cc4b37",
+   "--feedback-warning": "#face10",
+   "--space-s": "4.8rem",
+   "--space-m": "6rem",
+   "--space-l": "10rem",
+   "--space-xl": "12rem",
+   "--space-col": "calc(8.333vw + 1.8rem)",
+   "--gap-xxs": "0.2rem",
+   "--gap-xs": "0.4rem",
+   "--gap-s": "0.8rem",
+   "--gap-sm": "1.6rem",
+   "--gap-m": "2.4rem",
+   "--gap-l": "3.2rem",
+   "--gap-xl": "4rem",
+   "--gap-xxl": "6.4rem",
+   "--gap-huge": "8rem",
+   "--gap-uber": "9.6rem",
+   "--gap-massive": "12.8rem",
+   "--gap-col": "calc(8.333vw + 1.6rem)",
+   "--br-xs": "0.3rem",
+   "--br-s": "0.6rem",
+   "--br-m": "1.2rem",
+   "--br-l": "1.8rem",
+   "--br-round": "999rem",
+   "--easing-bezzy": "cubic-bezier(0.8, 0, 0, 1)",
+   "--easing-bezzy2": "cubic-bezier(0.430, 0.195, 0.020, 1)",
+   "--easing-bezzy3": "cubic-bezier(0.5, 0, 0, 1)",
+   "--easing-ease": "ease-in-out",
+   "--time-s": "0.15s",
+   "--time-m": "0.3s",
+   "--time-l": "0.6s",
+   "--font-heading": "var(--editorial),Georgia,Times,\"Times New Roman\",serif",
+   "--font-body": "var(--font-geist-sans),Arial,Helvetica,\"Liberation Sans\",sans-serif",
+   "--font-mono": "var(--font-geist-mono),\"SFMono-Regular\",\"Menlo\",\"Monaco\",\"Consolas\",\"Liberation Mono\",\"Courier New\",monospace",
+   "--font-script": "var(--inter),\"Comic Sans MS\",\"Comic Sans\",cursive,Arial,sans-serif",
+   "--header-size": "3.2rem",
+   "--header-size-mobile": "8.8rem",
+   "--header-size-desktop": "9.6rem"
+  },
+  "fontFaces": [
+   {
+    "family": "GeistSans",
+    "weight": "100 900",
+    "style": "",
+    "src": "url(\"../media/Geist_Variable-s.p.0mrjj4bg00-he.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "GeistSans Fallback",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   },
+   {
+    "family": "editorial",
+    "weight": "300",
+    "style": "normal",
+    "src": "url(\"../media/light-s.p.1q4b3b-dtiu5n.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "editorial",
+    "weight": "200",
+    "style": "normal",
+    "src": "url(\"../media/ultralight-s.p.0zgba-tqx_tb1.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "editorial",
+    "weight": "200",
+    "style": "italic",
+    "src": "url(\"../media/ultralight_italic-s.p.2aups5f54pqez.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "editorial Fallback",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   }
+  ],
+  "keyframes": [
+   "page-fade-in",
+   "next-build-dim",
+   "next-build-rise",
+   "next-build-dim-lite",
+   "next-build-fade-out",
+   "next-build-fade-in",
+   "gradient-angle",
+   "shimmer",
+   "logoMarquee"
+  ],
+  "breakpoints": [
+   {
+    "v": "1024px",
+    "w": 156
+   },
+   {
+    "v": "700px",
+    "w": 40
+   },
+   {
+    "v": "1200px",
+    "w": 39
+   },
+   {
+    "v": "420px",
+    "w": 12
+   },
+   {
+    "v": "1600px",
+    "w": 7
+   },
+   {
+    "v": "1400px",
+    "w": 4
+   },
+   {
+    "v": "320px",
+    "w": 2
+   },
+   {
+    "v": "800px",
+    "w": 2
+   },
+   {
+    "v": "500px",
+    "w": 2
+   },
+   {
+    "v": "1920px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 1204,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "lenis lenis-stopped",
+    "h": 900,
+    "title": "We don’t modify vehiclesWe build them for you",
+    "media": 83
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "",
+    "href": "https://www.linkedin.com/company/forge-automotive-ltd/"
+   },
+   {
+    "t": "",
+    "href": "https://www.instagram.com/forgeautomotive/"
+   },
+   {
+    "t": "",
+    "href": "https://www.facebook.com/profile.php?id=61588925168989"
+   },
+   {
+    "t": "",
+    "href": "tel:+443330417965"
+   },
+   {
+    "t": "",
+    "href": "https://forgeautomotive.co.uk/"
+   },
+   {
+    "t": "Builds",
+    "href": "https://forgeautomotive.co.uk/builds/"
+   },
+   {
+    "t": "Stock",
+    "href": "https://forgeautomotive.co.uk/stock/"
+   },
+   {
+    "t": "Contact",
+    "href": "https://forgeautomotive.co.uk/contact/"
+   },
+   {
+    "t": "Legal",
+    "href": "https://forgeautomotive.co.uk/legal/"
+   },
+   {
+    "t": "",
+    "href": "https://www.linkedin.com/company/forge-automotive-ltd/"
+   },
+   {
+    "t": "",
+    "href": "https://www.instagram.com/forgeautomotive/"
+   },
+   {
+    "t": "",
+    "href": "https://www.facebook.com/profile.php?id=61588925168989"
+   },
+   {
+    "t": "Powered by",
+    "href": "https://www.thevehiclewrappingcentre.com/"
+   },
+   {
+    "t": "Made by 12 Studio",
+    "href": "https://12.studio/"
+   },
+   {
+    "t": "Home",
+    "href": "https://forgeautomotive.co.uk/"
+   },
+   {
+    "t": "Builds",
+    "href": "https://forgeautomotive.co.uk/builds/"
+   },
+   {
+    "t": "Stock",
+    "href": "https://forgeautomotive.co.uk/stock/"
+   },
+   {
+    "t": "Contact",
+    "href": "https://forgeautomotive.co.uk/contact/"
+   },
+   {
+    "t": "Legal",
+    "href": "https://forgeautomotive.co.uk/legal/"
+   },
+   {
+    "t": "Sitemap",
+    "href": "https://forgeautomotive.co.uk/sitemap/"
+   }
+  ],
+  "ctas": [
+   "Skip to content",
+   "Start Your Project",
+   "Start Your Project",
+   "Start Your Project",
+   "Start Your Project",
+   "Start Your Project",
+   "Start your project",
+   "Start your project",
+   "Start your project",
+   "Start your project",
+   "Start your project",
+   "Start your project",
+   "Explore Builds",
+   "Browse Stock",
+   "Start Your Project"
+  ],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 0,
+   "videos": 0,
+   "imgs": 61,
+   "svgs": 11,
+   "iframes": 0,
+   "domNodes": 914
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": false,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": true,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [
+   "sanity"
+  ],
+  "analytics": [],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": false
+ },
+ "scripts": [
+  "https://forgeautomotive.co.uk/_next/static/chunks/1y75lk0sxsiyl.js",
+  "https://forgeautomotive.co.uk/_next/static/chunks/0-4srap-ffvu1.js",
+  "https://forgeautomotive.co.uk/_next/static/chunks/2bk5_69g8bfis.js",
+  "https://forgeautomotive.co.uk/_next/static/chunks/0_sa0502a_zms.js",
+  "https://forgeautomotive.co.uk/_next/static/chunks/turbopack-09j_a0p3oj5e6.js",
+  "https://forgeautomotive.co.uk/_next/static/chunks/1czk5und2ee0h.js",
+  "https://forgeautomotive.co.uk/_next/static/chunks/2772al7eqiee0.js",
+  "https://forgeautomotive.co.uk/_next/static/chunks/34aqkfuuzo3a7.js",
+  "https://forgeautomotive.co.uk/_next/static/chunks/13hs12i04jhzv.js",
+  "https://forgeautomotive.co.uk/_next/static/chunks/2ojz0fep8owih.js",
+  "https://forgeautomotive.co.uk/_next/static/chunks/1kbz4hbel73gu.js",
+  "https://forgeautomotive.co.uk/_next/static/chunks/22ymdas6yekr_.js",
+  "https://forgeautomotive.co.uk/_next/static/chunks/1glnxab0mgbi5.js",
+  "https://forgeautomotive.co.uk/_next/static/chunks/14jsbfibrjnyd.js",
+  "https://forgeautomotive.co.uk/_next/static/chunks/1z9v243o494gl.js",
+  "https://forgeautomotive.co.uk/_next/static/chunks/0d9ps84vi-m0d.js",
+  "https://forgeautomotive.co.uk/_next/static/chunks/1mv-tcvyyul86.js",
+  "https://forgeautomotive.co.uk/_next/static/chunks/41t5q7-2d5l5y.js",
+  "https://forgeautomotive.co.uk/_next/static/chunks/12_wxj0s5v3a7.js",
+  "https://forgeautomotive.co.uk/_next/static/chunks/293a_lz_sqwm6.js",
+  "https://forgeautomotive.co.uk/_next/static/chunks/250q5s2dhqsps.js",
+  "https://forgeautomotive.co.uk/_next/static/chunks/0cz1d0mv5g_q7.js",
+  "https://forgeautomotive.co.uk/_next/static/chunks/2r_ua74b-d3q7.js",
+  "https://forgeautomotive.co.uk/_next/static/chunks/0rkga1utnwcf3.js",
+  "https://forgeautomotive.co.uk/_next/static/chunks/438s292xvyzcm.js",
+  "https://forgeautomotive.co.uk/_next/static/chunks/2-m-faob1sepz.js",
+  "https://forgeautomotive.co.uk/_next/static/chunks/3tkg1z0jirgcp.js",
+  "https://forgeautomotive.co.uk/_next/static/chunks/3tfujoaltpyxn.js",
+  "https://forgeautomotive.co.uk/_next/static/chunks/15i3lvj4chs0r.js",
+  "https://forgeautomotive.co.uk/_next/static/chunks/431bw722fec3m.js",
+  "https://forgeautomotive.co.uk/ActiveFrame.js"
+ ],
+ "internal": [
+  "https://forgeautomotive.co.uk/contact/",
+  "https://forgeautomotive.co.uk/builds/",
+  "https://forgeautomotive.co.uk/stock/",
+  "https://forgeautomotive.co.uk/legal/",
+  "https://forgeautomotive.co.uk/sitemap/"
+ ],
+ "perf": {
+  "ttfb": 504,
+  "dcl": 598,
+  "load": 825,
+  "lcp": 996,
+  "lcpEl": "H2.sc-337305d3-0",
+  "cls": 0.002
+ },
+ "libs": {
+  "detected": [
+   "Lenis",
+   "React",
+   "Next.js",
+   "SplitText/SplitType",
+   "Sanity",
+   "GSAP",
+   "ScrollTrigger",
+   "Virtual scroll"
+  ],
+  "where": {
+   "Lenis": [
+    "001-ActiveFrame.js",
+    "003-2772al7eqiee0.js",
+    "006-1mv-tcvyyul86.js",
+    "006-2772al7eqiee0.js",
+    "009-13hs12i04jhzv.js",
+    "010-1kbz4hbel73gu.js",
+    "014-1kbz4hbel73gu.js",
+    "017-293a_lz_sqwm6.js",
+    "018-13hs12i04jhzv.js",
+    "019-1glnxab0mgbi5.js",
+    "019-2772al7eqiee0.js",
+    "021-0d9ps84vi-m0d.js",
+    "021-13hs12i04jhzv.js",
+    "022-41t5q7-2d5l5y.js",
+    "023-1kbz4hbel73gu.js",
+    "025-1glnxab0mgbi5.js",
+    "026-3tkg1z0jirgcp.js",
+    "028-0d9ps84vi-m0d.js",
+    "028-2-m-faob1sepz.js",
+    "029-1mv-tcvyyul86.js",
+    "030-3tfujoaltpyxn.js",
+    "030-41t5q7-2d5l5y.js",
+    "032-293a_lz_sqwm6.js",
+    "034-ActiveFrame.js",
+    "038-2-m-faob1sepz.js",
+    "039-3tkg1z0jirgcp.js",
+    "040-3tfujoaltpyxn.js",
+    "styles.css"
+   ],
+   "React": [
+    "003-1y75lk0sxsiyl.js",
+    "004-1y75lk0sxsiyl.js",
+    "013-1y75lk0sxsiyl.js",
+    "014-0-4srap-ffvu1.js",
+    "023-0-4srap-ffvu1.js"
+   ],
+   "Next.js": [
+    "004-0_sa0502a_zms.js",
+    "016-0_sa0502a_zms.js",
+    "020-0_sa0502a_zms.js",
+    "021-0d9ps84vi-m0d.js",
+    "026-3tkg1z0jirgcp.js",
+    "027-0rkga1utnwcf3.js",
+    "028-0d9ps84vi-m0d.js",
+    "036-0rkga1utnwcf3.js",
+    "039-3tkg1z0jirgcp.js"
+   ],
+   "SplitText/SplitType": [
+    "006-1mv-tcvyyul86.js",
+    "007-14jsbfibrjnyd.js",
+    "010-1kbz4hbel73gu.js",
+    "014-1kbz4hbel73gu.js",
+    "015-22ymdas6yekr_.js",
+    "021-0d9ps84vi-m0d.js",
+    "022-41t5q7-2d5l5y.js",
+    "023-1kbz4hbel73gu.js",
+    "024-22ymdas6yekr_.js",
+    "026-14jsbfibrjnyd.js",
+    "028-0d9ps84vi-m0d.js",
+    "029-1mv-tcvyyul86.js",
+    "030-41t5q7-2d5l5y.js"
+   ],
+   "Sanity": [
+    "006-1mv-tcvyyul86.js",
+    "010-12_wxj0s5v3a7.js",
+    "010-1kbz4hbel73gu.js",
+    "014-1kbz4hbel73gu.js",
+    "017-293a_lz_sqwm6.js",
+    "019-1glnxab0mgbi5.js",
+    "021-0d9ps84vi-m0d.js",
+    "022-41t5q7-2d5l5y.js",
+    "023-1kbz4hbel73gu.js",
+    "025-1glnxab0mgbi5.js",
+    "026-3tkg1z0jirgcp.js",
+    "027-0rkga1utnwcf3.js",
+    "028-0d9ps84vi-m0d.js",
+    "029-15i3lvj4chs0r.js",
+    "029-1mv-tcvyyul86.js",
+    "030-41t5q7-2d5l5y.js",
+    "031-12_wxj0s5v3a7.js",
+    "032-293a_lz_sqwm6.js",
+    "036-0rkga1utnwcf3.js",
+    "039-3tkg1z0jirgcp.js",
+    "041-15i3lvj4chs0r.js"
+   ],
+   "GSAP": [
+    "007-14jsbfibrjnyd.js",
+    "010-1kbz4hbel73gu.js",
+    "014-1kbz4hbel73gu.js",
+    "015-22ymdas6yekr_.js",
+    "023-1kbz4hbel73gu.js",
+    "024-22ymdas6yekr_.js",
+    "026-14jsbfibrjnyd.js"
+   ],
+   "ScrollTrigger": [
+    "007-14jsbfibrjnyd.js",
+    "010-1kbz4hbel73gu.js",
+    "014-1kbz4hbel73gu.js",
+    "015-22ymdas6yekr_.js",
+    "023-1kbz4hbel73gu.js",
+    "024-22ymdas6yekr_.js",
+    "026-14jsbfibrjnyd.js"
+   ],
+   "Virtual scroll": [
+    "017-293a_lz_sqwm6.js",
+    "019-1glnxab0mgbi5.js",
+    "025-1glnxab0mgbi5.js",
+    "032-293a_lz_sqwm6.js"
+   ]
+  },
+  "gsapVersion": "3.11.0",
+  "threeRevision": null,
+  "shaders": 12,
+  "scripts": 68
+ },
+ "network": {
+  "requests": 74,
+  "totalKb": 6647,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 49
+   },
+   "Font": {
+    "n": 4,
+    "kb": 154
+   },
+   "Stylesheet": {
+    "n": 3,
+    "kb": 3
+   },
+   "Image": {
+    "n": 30,
+    "kb": 360
+   },
+   "Script": {
+    "n": 30,
+    "kb": 380
+   },
+   "Other": {
+    "n": 1,
+    "kb": 15
+   },
+   "Fetch": {
+    "n": 4,
+    "kb": 5687
+   },
+   "EventSource": {
+    "n": 1,
+    "kb": 0
+   }
+  },
+  "thirdPartyHosts": [
+   "cdn.forgeautomotive.media",
+   "ed72g2cx.api.sanity.io"
+  ],
+  "fontFiles": [
+   "https://forgeautomotive.co.uk/_next/static/media/ultralight-s.p.0zgba-tqx_tb1.woff2",
+   "https://forgeautomotive.co.uk/_next/static/media/light-s.p.1q4b3b-dtiu5n.woff2",
+   "https://forgeautomotive.co.uk/_next/static/media/ultralight_italic-s.p.2aups5f54pqez.woff2",
+   "https://forgeautomotive.co.uk/_next/static/media/Geist_Variable-s.p.0mrjj4bg00-he.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://cdn.forgeautomotive.media/files/ed72g2cx/production/1edf555085ef9a6ae1dde1a1bbc3ea6ff806db34.af",
+    "kb": 2999,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://cdn.forgeautomotive.media/files/ed72g2cx/production/91db00e119f225ab9a13743fb569175afd125f02.af",
+    "kb": 2669,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://cdn.forgeautomotive.media/images/ed72g2cx/production/1ebe90ab77d2912275ef15f9ba86fe2fea1f451f-2880x3600.jpg?auto=format&fit=max&w=1920",
+    "kb": 116,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.forgeautomotive.media/images/ed72g2cx/production/1ae29c489c262e30eeef1b5f2c27aea51088455a-740x740.jpg?w=1480&q=85&fit=max&auto=format",
+    "kb": 114,
+    "type": "Image"
+   },
+   {
+    "url": "https://forgeautomotive.co.uk/_next/static/media/Geist_Variable-s.p.0mrjj4bg00-he.woff2",
+    "kb": 68,
+    "type": "Font"
+   },
+   {
+    "url": "https://forgeautomotive.co.uk/_next/static/chunks/0-4srap-ffvu1.js",
+    "kb": 61,
+    "type": "Script"
+   },
+   {
+    "url": "https://forgeautomotive.co.uk/",
+    "kb": 49,
+    "type": "Document"
+   },
+   {
+    "url": "https://forgeautomotive.co.uk/_next/static/chunks/2bk5_69g8bfis.js",
+    "kb": 40,
+    "type": "Script"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "64px",
+   "lineHeight": "76.8px"
+  },
+  "body": "10px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 105
+}

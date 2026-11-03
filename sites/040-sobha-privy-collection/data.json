@@ -1,0 +1,878 @@
+{
+ "id": 40,
+ "name": "Sobha Privy Collection",
+ "sourceUrl": "https://sobha-privy-collection.com/",
+ "capturedAt": "2026-11-02T23:49:26.881Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [
+   "txt:Accept"
+  ],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg"
+  ],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [
+   {
+    "url": "https://sobha-privy-collection.com/location",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://sobha-privy-collection.com/",
+ "title": "Sobha Privy Collection – Luxury Villas & Penthouses in Dubai",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Sobha Privy Collection: a handpicked selection of Dubai's rarest luxury villas, mansions and penthouses at the city's most iconic addresses.",
+  "canonical": "https://sobha-privy-collection.com/",
+  "robots": "noindex",
+  "ogTitle": "Sobha Privy Collection – Luxury Villas & Penthouses in Dubai",
+  "ogImage": "https://sobha-privy-collection.com/assets/manifest/og.png",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "Organization"
+  ],
+  "h1Count": 1,
+  "headings": [
+   "H1 The art of the sublime",
+   "H2 of the rarestluxury homes",
+   "H2 SOME CREATIONSMERIT A PLACE",
+   "H2 EVOKINGA SENSATIONCHASED BY SOMANY, ATTAINEDBY SO FEW",
+   "H2 The three worlds",
+   "H2 Tenets",
+   "H3 Expansive Spaces",
+   "H3 Iconic Addresses",
+   "H3 Uncompromising Finesse",
+   "H3 Exclusive Amenities",
+   "H3 Exceptional service",
+   "H3 Extraordinary Privacy",
+   "H3 A cut Above",
+   "H2 Projects location"
+  ],
+  "imgs": 55,
+  "imgNoAlt": 52,
+  "favicon": "https://sobha-privy-collection.com/favicon.ico?qqihq",
+  "themeColor": "#1A1919"
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#ffffff",
+    "w": 14076478
+   },
+   {
+    "v": "#1a1919",
+    "w": 5116430
+   },
+   {
+    "v": "#000000",
+    "w": 1297572
+   }
+  ],
+  "text": [
+   {
+    "v": "#1a1919",
+    "w": 1889
+   },
+   {
+    "v": "#ffffff",
+    "w": 1246
+   },
+   {
+    "v": "#717170",
+    "w": 311
+   },
+   {
+    "v": "#8c8c8c",
+    "w": 59
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "TT Commons Pro",
+    "w": 2007
+   },
+   {
+    "v": "TT Ramillas",
+    "w": 1462
+   },
+   {
+    "v": "altesse-std-64pt",
+    "w": 95
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "13px",
+    "w": 76
+   },
+   {
+    "v": "11px",
+    "w": 37
+   },
+   {
+    "v": "80px",
+    "w": 34
+   },
+   {
+    "v": "100px",
+    "w": 16
+   },
+   {
+    "v": "28px",
+    "w": 13
+   },
+   {
+    "v": "114px",
+    "w": 6
+   },
+   {
+    "v": "50px",
+    "w": 3
+   },
+   {
+    "v": "342px",
+    "w": 1
+   },
+   {
+    "v": "39px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "15px",
+    "w": 2
+   },
+   {
+    "v": "30px",
+    "w": 1
+   },
+   {
+    "v": "10px",
+    "w": 1
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.7 0.4s",
+    "w": 12
+   },
+   {
+    "v": "cubic-bezier(0.7 1s",
+    "w": 4
+   },
+   {
+    "v": "cubic-bezier(0.6 0.4s",
+    "w": 1
+   },
+   {
+    "v": "cubic-bezier(0.7 1.6s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "\"TT Ramillas\", Helvetica, Arial, sans-serif",
+    "size": "80px",
+    "weight": "300",
+    "lineHeight": "85px",
+    "letterSpacing": "1.6px",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "The art of the sublime"
+   },
+   "h2": {
+    "family": "\"TT Ramillas\", Helvetica, Arial, sans-serif",
+    "size": "50px",
+    "weight": "300",
+    "lineHeight": "50px",
+    "letterSpacing": "1px",
+    "transform": "uppercase",
+    "color": "#1a1919",
+    "sample": "of the rarestluxury homes"
+   },
+   "h3": {
+    "family": "\"TT Ramillas\", Helvetica, Arial, sans-serif",
+    "size": "114px",
+    "weight": "300",
+    "lineHeight": "110px",
+    "letterSpacing": "2.28px",
+    "transform": "uppercase",
+    "color": "#1a1919",
+    "sample": "Expansive Spaces"
+   },
+   "p": {
+    "family": "\"TT Commons Pro\", Helvetica, Arial, sans-serif",
+    "size": "11px",
+    "weight": "600",
+    "lineHeight": "15px",
+    "letterSpacing": "0.88px",
+    "transform": "uppercase",
+    "color": "#1a1919",
+    "sample": "a handpickedcollection"
+   },
+   "a": {
+    "family": "\"TT Commons Pro\", Helvetica, Arial, sans-serif",
+    "size": "13px",
+    "weight": "500",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#1a1919",
+    "sample": "Skip to main content"
+   },
+   "body": {
+    "family": "\"TT Commons Pro\", Helvetica, Arial, sans-serif",
+    "size": "13px",
+    "weight": "500",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#1a1919",
+    "sample": "Skip to main content Menu Close 3D Map The art of the sublime 3d openthe map a h"
+   }
+  },
+  "cssVars": {
+   "--fos": "-0.175em",
+   "--foe": "-0.125em",
+   "--lh": "var(--xxxl,1.25em) var(--n-xxxl,1.23077em)",
+   "--scale-px": "max(0.5px,min(1px,calc(0.5px + 0.5 * ((var(--vw100) - 980px) / 220))))",
+   "--scale-rem": "max(0.5rem,min(1rem,calc(0.5rem + 5 * ((var(--vw100) - 980px) / 220))))",
+   "--scale-em": "1em",
+   "--scale-text-px": "max(0.7px,min(1px,calc(0.7px + 0.3 * ((var(--vw100) - 980px) / 220))))",
+   "--scale-text-rem": "max(0.7rem,min(1rem,calc(0.7rem + 3 * ((var(--vw100) - 980px) / 220))))",
+   "--scale-text-em": "1em",
+   "--spacing": "var(--xxxxl,calc(var(--scale-px) * 40)) var(--n-xxxxl,var(--xxl,calc(var(--scale-px) * 30)) var(--n-xxl,calc(var(--scale-px) * 20)))",
+   "--sm": "initial",
+   "--n-sm": "",
+   "--md": "initial",
+   "--n-md": "",
+   "--lg": "initial",
+   "--n-lg": "",
+   "--xl": "initial",
+   "--n-xl": "",
+   "--xxl": "initial",
+   "--n-xxl": "",
+   "--xxxl": "initial",
+   "--n-xxxl": "",
+   "--xxxxl": "initial",
+   "--n-xxxxl": "",
+   "--vw": "1vw",
+   "--vw100": "100vw",
+   "--c-total-black": "#000",
+   "--c-total-black-rgb": "0,0,0",
+   "--c-brand-black": "#1a1919",
+   "--c-brand-black-rgb": "26,25,25",
+   "--c-gray": "#717170",
+   "--c-gray-rgb": "113,113,112",
+   "--c-white": "#fff",
+   "--c-white-rgb": "255,255,255",
+   "--c-error": "#930000",
+   "--c-error-rgb": "147,0,0",
+   "--t-background": "#fff",
+   "--t-background-rgb": "var(--c-white-rgb)",
+   "--t-background-alt": "var(--c-white)",
+   "--t-background-alt-rgb": "var(--c-white-rgb)",
+   "--t-line": "#666",
+   "--t-line-rgb": "var(--c-brand-black-rgb)",
+   "--t-line-alt": "rgba(var(--c-brand-black-rgb),0.1)",
+   "--t-line-alt-rgb": "var(--c-brand-black-rgb)",
+   "--t-small": "#666",
+   "--t-small-rgb": "var(--c-brand-black-rgb)",
+   "--t-text": "#000",
+   "--t-text-rgb": "var(--c-brand-black-rgb)",
+   "--t-heading": "#000",
+   "--t-heading-rgb": "var(--c-brand-black-rgb)",
+   "--t-primary": "var(--t-turquoise)",
+   "--t-primary-rgb": "var(--t-turquoise-rgb)",
+   "--t-primary-alt": "var(--c-gray)",
+   "--t-primary-alt-rgb": "var(--c-gray-rgb)",
+   "--t-button-primary-text": "var(--t-background)",
+   "--t-button-primary-text-rgb": "var(--t-background-rgb)",
+   "--t-button-primary-background": "var(--t-heading)",
+   "--t-button-primary-background-rgb": "var(--t-heading-rgb)",
+   "--t-button-primary-hover-text": "var(--t-background)",
+   "--t-button-primary-hover-text-rgb": "var(--t-background-rgb)",
+   "--t-button-primary-hover-background": "var(--t-primary)",
+   "--t-button-primary-hover-background-rgb": "var(--t-primary-rgb)",
+   "--t-button-primary-active-text": "var(--t-background)",
+   "--t-button-primary-active-text-rgb": "var(--t-background-rgb)",
+   "--t-button-primary-active-background": "var(--t-primary)",
+   "--t-button-primary-active-background-rgb": "var(--t-primary-rgb)",
+   "--t-button-primary-disabled-text": "var(--t-background)",
+   "--t-button-primary-disabled-text-rgb": "var(--t-background-rgb)",
+   "--t-button-primary-disabled-background": "rgba(var(--t-primary-rgb),0.4)",
+   "--t-button-primary-disabled-background-rgb": "var(--t-primary-rgb)",
+   "--t-button-primary-active-hover-text": "var(--t-background)",
+   "--t-button-primary-active-hover-text-rgb": "var(--t-background-rgb)",
+   "--t-button-primary-active-hover-background": "var(--t-heading)",
+   "--t-button-primary-active-hover-background-rgb": "var(--t-heading-rgb)",
+   "--t-button-outline-text": "var(--t-heading)",
+   "--t-button-outline-text-rgb": "var(--t-heading-rgb)",
+   "--t-button-outline-background": "transparent",
+   "--t-button-outline-border": "var(--t-heading)",
+   "--t-button-outline-border-rgb": "var(--t-heading-rgb)",
+   "--t-button-outline-hover-text": "var(--t-heading)",
+   "--t-button-outline-hover-text-rgb": "var(--t-heading-rgb)",
+   "--t-button-outline-hover-background": "transparent",
+   "--t-button-outline-hover-border": "var(--t-heading)",
+   "--t-button-outline-hover-border-rgb": "var(--t-heading-rgb)",
+   "--t-button-outline-tag-text": "var(--t-heading)",
+   "--t-button-outline-tag-text-rgb": "var(--t-heading-rgb)",
+   "--t-button-outline-tag-background": "transparent",
+   "--t-button-outline-tag-border": "var(--t-line-alt)",
+   "--t-button-outline-tag-border-rgb": "var(--t-line-alt-rgb)",
+   "--t-button-outline-tag-hover-text": "var(--t-heading)",
+   "--t-button-outline-tag-hover-text-rgb": "var(--t-heading-rgb)",
+   "--t-button-outline-tag-hover-background": "transparent",
+   "--t-button-outline-tag-hover-border": "var(--t-line-alt)",
+   "--t-button-outline-tag-hover-border-rgb": "var(--t-line-alt-rgb)",
+   "--t-button-outline-plus-text": "var(--t-heading)",
+   "--t-button-outline-plus-text-rgb": "var(--t-heading-rgb)",
+   "--t-button-outline-plus-background": "transparent",
+   "--t-button-outline-plus-border": "rgba(var(--t-heading-rgb),0.2)",
+   "--t-button-outline-plus-border-rgb": "var(--t-heading-rgb)",
+   "--t-button-outline-plus-hover-text": "var(--t-heading)",
+   "--t-button-outline-plus-hover-text-rgb": "var(--t-heading-rgb)",
+   "--t-button-outline-plus-hover-background": "transparent",
+   "--t-button-outline-plus-hover-border": "rgba(var(--t-heading-rgb),0.5)",
+   "--t-button-outline-plus-hover-border-rgb": "var(--t-heading-rgb)",
+   "--t-button-link-text": "var(--t-text)",
+   "--t-button-link-text-rgb": "var(--t-text-rgb)",
+   "--t-button-link-hover-text": "var(--t-heading)",
+   "--t-button-link-hover-text-rgb": "var(--t-heading-rgb)",
+   "--t-button-link-hover-border": "var(--t-heading)",
+   "--t-button-link-hover-border-rgb": "var(--t-heading-rgb)",
+   "--t-button-link-heading-text": "var(--t-heading)",
+   "--t-button-link-heading-text-rgb": "var(--t-heading-rgb)",
+   "--t-button-link-heading-border": "rgba(var(--t-heading-rgb),0.15)",
+   "--t-button-link-heading-border-rgb": "var(--t-heading-rgb)",
+   "--t-button-link-heading-hover-text": "var(--t-heading)",
+   "--t-button-link-heading-hover-text-rgb": "var(--t-heading-rgb)",
+   "--t-button-link-heading-hover-border": "var(--t-heading)",
+   "--t-button-link-heading-hover-border-rgb": "var(--t-heading-rgb)",
+   "--t-button-link-text-border": "var(--t-heading)",
+   "--t-button-link-text-border-rgb": "var(--t-heading-rgb)",
+   "--t-button-link-text-hover-border": "var(--t-heading)",
+   "--t-button-link-text-hover-border-rgb": "var(--t-heading-rgb)",
+   "--t-button-select-text": "var(--t-heading)",
+   "--t-button-select-text-rgb": "var(--t-heading-rgb)",
+   "--t-button-select-background": "transparent",
+   "--t-button-select-border": "var(--t-line)",
+   "--t-button-select-border-rgb": "var(--t-line-rgb)",
+   "--t-button-select-hover-text": "var(--t-heading)",
+   "--t-button-select-hover-text-rgb": "var(--t-heading-rgb)",
+   "--t-button-select-hover-background": "transparent",
+   "--t-button-select-hover-border": "var(--t-heading)",
+   "--t-button-select-hover-border-rgb": "var(--t-heading-rgb)",
+   "--t-button-select-active-text": "var(--t-heading)",
+   "--t-button-select-active-text-rgb": "var(--t-heading-rgb)",
+   "--t-button-select-active-background": "transparent",
+   "--t-button-select-active-border": "var(--t-heading)",
+   "--t-button-select-active-border-rgb": "var(--t-heading-rgb)",
+   "--t-button-gradient-text": "var(--t-text)",
+   "--t-button-gradient-text-rgb": "var(--t-text-rgb)",
+   "--t-button-gradient-background": "transparent",
+   "--t-button-gradient-hover-text": "var(--t-text)",
+   "--t-button-gradient-hover-text-rgb": "var(--t-text-rgb)",
+   "--t-button-gradient-hover-background": "transparent",
+   "--t-button-link-secondary-text": "var(--t-primary)",
+   "--t-button-link-secondary-text-rgb": "var(--t-primary-rgb)",
+   "--t-button-link-secondary-border": "transparent",
+   "--t-button-link-secondary-hover-text": "var(--t-primary)",
+   "--t-button-link-secondary-hover-text-rgb": "var(--t-primary-rgb)",
+   "--t-button-link-secondary-hover-border": "var(--t-primary)",
+   "--t-button-link-secondary-hover-border-rgb": "var(--t-primary-rgb)",
+   "--t-button-tab-text": "var(--t-primary)",
+   "--t-button-tab-text-rgb": "var(--t-primary-rgb)",
+   "--t-button-tab-hover-text": "var(--t-heading)",
+   "--t-button-tab-hover-text-rgb": "var(--t-heading-rgb)",
+   "--t-button-tab-hover-border": "var(--t-heading)",
+   "--t-button-tab-hover-border-rgb": "var(--t-heading-rgb)",
+   "--t-link-default-normal": "var(--t-text)",
+   "--t-link-default-normal-rgb": "var(--t-text-rgb)",
+   "--t-link-default-hover": "var(--t-primary)",
+   "--t-link-default-hover-rgb": "var(--t-primary-rgb)",
+   "--t-link-default-active": "var(--t-heading)",
+   "--t-link-default-active-rgb": "var(--t-heading-rgb)",
+   "--t-link-text-normal": "var(--t-text)",
+   "--t-link-text-normal-rgb": "var(--t-text-rgb)",
+   "--t-link-text-hover": "var(--t-primary)",
+   "--t-link-text-hover-rgb": "var(--t-primary-rgb)",
+   "--t-link-text-active": "var(--t-primary)",
+   "--t-link-text-active-rgb": "var(--t-primary-rgb)",
+   "--t-secondary": "#000",
+   "--container-max-width": "var(--vw100)",
+   "--container-content-width": "var(--vw100)",
+   "--container-h-padding-left": "0px",
+   "--container-h-padding-right": "0px",
+   "--grid-col": "var(--md,calc((var(--container-content-width) - var(--grid-gutter) * 11) / 12)) var(--n-md,calc((var(--container-content-width) - var(--grid",
+   "--grid-gutter": "0vw",
+   "--is-visible--sm-down": "none",
+   "--is-visible--md-xxl": "none",
+   "--is-visible--md-up": "block",
+   "--is-visible--xl-down": "none",
+   "--is-visible--xxl-up": "block",
+   "--is-visible--xxxl": "block"
+  },
+  "fontFaces": [
+   {
+    "family": "TT Commons Pro",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/TTCommonsPro-Md.woff2\") format(\"woff2\"), url(\"/assets/fonts/TTCommonsPro-Md.woff\") format(\"woff\")"
+   },
+   {
+    "family": "TT Commons Pro",
+    "weight": "600",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/TTCommonsPro-Db.woff2\") format(\"woff2\"), url(\"/assets/fonts/TTCommonsPro-Db.woff\") format(\"woff\")"
+   },
+   {
+    "family": "TT Ramillas",
+    "weight": "300",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/TTRamillas-Light.woff2\") format(\"woff2\"), url(\"/assets/fonts/TTRamillas-Light.woff\") format(\"woff\")"
+   }
+  ],
+  "keyframes": [
+   "move-left",
+   "logoGradient",
+   "footerText",
+   "gradient-flow"
+  ],
+  "breakpoints": [
+   {
+    "v": "668px",
+    "w": 60
+   },
+   {
+    "v": "667px",
+    "w": 46
+   },
+   {
+    "v": "980px",
+    "w": 43
+   },
+   {
+    "v": "568px",
+    "w": 32
+   },
+   {
+    "v": "416px",
+    "w": 29
+   },
+   {
+    "v": "1440px",
+    "w": 22
+   },
+   {
+    "v": "979px",
+    "w": 21
+   },
+   {
+    "v": "700px",
+    "w": 20
+   },
+   {
+    "v": "567px",
+    "w": 15
+   },
+   {
+    "v": "1px",
+    "w": 14
+   },
+   {
+    "v": "415px",
+    "w": 14
+   },
+   {
+    "v": "1439px",
+    "w": 9
+   }
+  ],
+  "rulesCount": 2283,
+  "crossOriginSheets": 1
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section section--top section--full-height ui-dark ui-background-alt",
+    "h": 901,
+    "title": "The art of the sublime",
+    "media": 6
+   },
+   {
+    "tag": "section",
+    "id": "about",
+    "cls": "section ui-light ui-background",
+    "h": 2724,
+    "title": "of the rarestluxury homes",
+    "media": 10
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section section--full-height ui-dark ui-background",
+    "h": 900,
+    "title": "SOME CREATIONSMERIT A PLACE",
+    "media": 3
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section section--no-overflow ui-dark ui-background-alt pt-1.5 pb-4 py-6:md",
+    "h": 1424,
+    "title": "EVOKINGA SENSATIONCHASED BY SOMANY, ATTAINEDBY SO FEW",
+    "media": 4
+   },
+   {
+    "tag": "section",
+    "id": "sublime",
+    "cls": "section section--full-height section--top ui-dark ui-background",
+    "h": 900,
+    "title": "",
+    "media": 2
+   },
+   {
+    "tag": "section",
+    "id": "collection",
+    "cls": "section section--no-overflow-clip ui-dark ui-background-alt pt-8 pt-3:md",
+    "h": 4772,
+    "title": "The three worlds",
+    "media": 2
+   },
+   {
+    "tag": "section",
+    "id": "tenets",
+    "cls": "section section--no-overflow-clip ui-light ui-background l-tenets-section",
+    "h": 2700,
+    "title": "",
+    "media": 2
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section ui-light l-expansive-section",
+    "h": 16284,
+    "title": "Tenets",
+    "media": 58
+   },
+   {
+    "tag": "section",
+    "id": "selection",
+    "cls": "section ui-dark ui-background",
+    "h": 2760,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": "locations",
+    "cls": "section ui-dark ui-background-alt l-location",
+    "h": 5850,
+    "title": "Projects location",
+    "media": 9
+   },
+   {
+    "tag": "section",
+    "id": "the-idea",
+    "cls": "section section--no-overflow-clip ui-light ui-background pt-6",
+    "h": 3711,
+    "title": "",
+    "media": 4
+   },
+   {
+    "tag": "section",
+    "id": "contact",
+    "cls": "section section--no-overflow-clip register-section ui-light ui-background",
+    "h": 1081,
+    "title": "",
+    "media": 2
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "Menu Close",
+    "href": "https://sobha-privy-collection.com/#menu"
+   },
+   {
+    "t": "",
+    "href": "https://sobha-privy-collection.com/#top"
+   },
+   {
+    "t": "",
+    "href": "https://sobha-privy-collection.com/#top"
+   },
+   {
+    "t": "3D Map",
+    "href": "https://sobha-privy-collection.com/location"
+   },
+   {
+    "t": "3d map",
+    "href": "https://sobha-privy-collection.com/location"
+   },
+   {
+    "t": "Chapter 1 About",
+    "href": "https://sobha-privy-collection.com/#about"
+   },
+   {
+    "t": "Chapter 2 Collection",
+    "href": "https://sobha-privy-collection.com/#collection"
+   },
+   {
+    "t": "Chapter 3 Tenets",
+    "href": "https://sobha-privy-collection.com/#tenets"
+   },
+   {
+    "t": "Chapter 4 Selection",
+    "href": "https://sobha-privy-collection.com/#selection"
+   },
+   {
+    "t": "Chapter 5 Locations",
+    "href": "https://sobha-privy-collection.com/#locations"
+   },
+   {
+    "t": "Chapter 6 The idea",
+    "href": "https://sobha-privy-collection.com/#the-idea"
+   },
+   {
+    "t": "3d open the map",
+    "href": "https://sobha-privy-collection.com/location"
+   }
+  ],
+  "ctas": [],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 0,
+   "videos": 12,
+   "imgs": 55,
+   "svgs": 32,
+   "iframes": 0,
+   "domNodes": 1028
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": false,
+  "locomotive": true,
+  "three": false,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": true,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": false
+ },
+ "scripts": [
+  "https://sobha-privy-collection.com/assets/javascripts/browser-message/browser-message.js?qqihq",
+  "https://sobha-privy-collection.com/assets/javascripts/shared.js?qqihq",
+  "https://sobha-privy-collection.com/assets/javascripts/landing.js?qqihq"
+ ],
+ "internal": [
+  "https://sobha-privy-collection.com/location"
+ ],
+ "perf": {
+  "ttfb": 117,
+  "dcl": 399,
+  "load": 1776,
+  "lcp": 436,
+  "lcpEl": "P.preloader__content__cover",
+  "cls": 0.01
+ },
+ "libs": {
+  "detected": [
+   "SplitText/SplitType",
+   "Locomotive Scroll",
+   "Three.js",
+   "Barba.js",
+   "jQuery",
+   "ScrollTrigger",
+   "Keen slider"
+  ],
+  "where": {
+   "SplitText/SplitType": [
+    "002-shared.js"
+   ],
+   "Locomotive Scroll": [
+    "002-shared.js",
+    "styles.css"
+   ],
+   "Three.js": [
+    "002-shared.js"
+   ],
+   "Barba.js": [
+    "002-shared.js",
+    "003-landing.js"
+   ],
+   "jQuery": [
+    "002-shared.js",
+    "003-landing.js"
+   ],
+   "ScrollTrigger": [
+    "003-landing.js"
+   ],
+   "Keen slider": [
+    "003-landing.js"
+   ]
+  },
+  "gsapVersion": null,
+  "threeRevision": null,
+  "shaders": 0,
+  "scripts": 3
+ },
+ "network": {
+  "requests": 123,
+  "totalKb": 26104,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 40
+   },
+   "Stylesheet": {
+    "n": 4,
+    "kb": 35
+   },
+   "Image": {
+    "n": 82,
+    "kb": 5391
+   },
+   "Other": {
+    "n": 3,
+    "kb": 39
+   },
+   "Script": {
+    "n": 3,
+    "kb": 173
+   },
+   "Font": {
+    "n": 4,
+    "kb": 231
+   },
+   "Media": {
+    "n": 26,
+    "kb": 20195
+   }
+  },
+  "thirdPartyHosts": [
+   "use.typekit.net",
+   "p.typekit.net"
+  ],
+  "fontFiles": [
+   "https://sobha-privy-collection.com/assets/fonts/TTCommonsPro-Md.woff2",
+   "https://sobha-privy-collection.com/assets/fonts/TTRamillas-Light.woff2",
+   "https://sobha-privy-collection.com/assets/fonts/TTCommonsPro-Db.woff2",
+   "https://use.typekit.net/af/2c5ecb/00000000000000007735ec1b/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3"
+  ],
+  "biggest": [
+   {
+    "url": "https://sobha-privy-collection.com/uploads/privacy.mp4",
+    "kb": 5831,
+    "type": "Media"
+   },
+   {
+    "url": "https://sobha-privy-collection.com/uploads/expensive_spaces.mp4",
+    "kb": 5263,
+    "type": "Media"
+   },
+   {
+    "url": "https://sobha-privy-collection.com/uploads/teaser.mp4",
+    "kb": 3876,
+    "type": "Media"
+   },
+   {
+    "url": "https://sobha-privy-collection.com/uploads/ribbons.mp4",
+    "kb": 2787,
+    "type": "Media"
+   },
+   {
+    "url": "https://sobha-privy-collection.com/uploads/a_place_above.mp4",
+    "kb": 1314,
+    "type": "Media"
+   },
+   {
+    "url": "https://sobha-privy-collection.com/assets/images/media/landing/12.register/background@xxl.webp",
+    "kb": 584,
+    "type": "Image"
+   },
+   {
+    "url": "https://sobha-privy-collection.com/assets/images/media/landing/7.tenets/background@xxl.webp",
+    "kb": 502,
+    "type": "Image"
+   },
+   {
+    "url": "https://sobha-privy-collection.com/uploads/space-table.mp4",
+    "kb": 481,
+    "type": "Media"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "36px",
+   "lineHeight": "40px"
+  },
+  "body": "13px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 144
+}

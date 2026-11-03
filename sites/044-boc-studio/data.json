@@ -1,0 +1,606 @@
+{
+ "id": 44,
+ "name": "Boc.Studio",
+ "sourceUrl": "https://boc.studio/",
+ "capturedAt": "2026-11-02T23:52:48.319Z",
+ "status": "ok",
+ "errors": [
+  "goto load: page.goto: Timeout 60000ms exceeded."
+ ],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg"
+  ],
+  "fullPage": 2244,
+  "subpages": [
+   {
+    "url": "https://boc.studio/work",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://boc.studio/",
+ "title": "Boc.Studio — Creative brand studio in Barcelona",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "A Barcelona creative brand studio. We create, refresh and boost brands through identity, creative direction, motion design and AI production.",
+  "canonical": "https://boc.studio/",
+  "robots": "index, follow",
+  "ogTitle": "Boc.Studio — Creative brand studio in Barcelona",
+  "ogImage": "https://cdn.sanity.io/images/r85jvkap/production/866aa5ad9cd1708e4a400a89523f405201d3e6fb-2146x1127.png?w=1200&h=630&fit=crop&auto=format",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "Organization",
+   "WebSite"
+  ],
+  "h1Count": 1,
+  "headings": [
+   "H1 Work"
+  ],
+  "imgs": 406,
+  "imgNoAlt": 203,
+  "favicon": "data:image/png;base64,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",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#181d21",
+    "w": 20973312
+   },
+   {
+    "v": "#545151",
+    "w": 74
+   },
+   {
+    "v": "#ff4421",
+    "w": 1
+   }
+  ],
+  "text": [
+   {
+    "v": "#adadad",
+    "w": 316
+   },
+   {
+    "v": "#545151",
+    "w": 118
+   },
+   {
+    "v": "#f3f3f3",
+    "w": 93
+   },
+   {
+    "v": "#000000",
+    "w": 15
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "ppMori",
+    "w": 542
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "16px",
+    "w": 104
+   },
+   {
+    "v": "13px",
+    "w": 36
+   },
+   {
+    "v": "15px",
+    "w": 27
+   },
+   {
+    "v": "28.26px",
+    "w": 8
+   },
+   {
+    "v": "28.259px",
+    "w": 3
+   }
+  ],
+  "radius": [],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(1 0.4s",
+    "w": 415
+   },
+   {
+    "v": "cubic-bezier(0.4 0.15s",
+    "w": 11
+   },
+   {
+    "v": "cubic-bezier(0.4 0.4s",
+    "w": 2
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "ppMori, \"ppMori Fallback\", system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif, system-ui, -app",
+    "size": "28.259px",
+    "weight": "400",
+    "lineHeight": "28.259px",
+    "letterSpacing": "-0.56518px",
+    "transform": "none",
+    "color": "#f3f3f3",
+    "sample": "Work"
+   },
+   "a": {
+    "family": "ppMori, \"ppMori Fallback\", system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif, system-ui, -app",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Skip to content"
+   },
+   "button": {
+    "family": "ppMori, \"ppMori Fallback\", system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif, system-ui, -app",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#000000",
+    "sample": "Watch our showreel"
+   },
+   "li": {
+    "family": "ppMori, \"ppMori Fallback\", system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif, system-ui, -app",
+    "size": "28.26px",
+    "weight": "400",
+    "lineHeight": "33.912px",
+    "letterSpacing": "-0.5652px",
+    "transform": "none",
+    "color": "#f3f3f3",
+    "sample": "Art direction"
+   },
+   "body": {
+    "family": "ppMori, \"ppMori Fallback\", system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif, system-ui, -app",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#f3f3f3",
+    "sample": "Skip to contentWatch our showreelCreative brand studioCreate, refresh and boost4"
+   }
+  },
+  "cssVars": {
+   "--font-sans": "var(--font-pp-mori), system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+   "--font-mono": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+   "--color-black": "#000",
+   "--color-white": "#fff",
+   "--spacing": ".25rem",
+   "--text-xs": ".75rem",
+   "--text-xs--line-height": "calc(1 / .75)",
+   "--text-sm": ".875rem",
+   "--text-sm--line-height": "calc(1.25 / .875)",
+   "--text-base": "1rem",
+   "--text-base--line-height": "calc(1.5 / 1)",
+   "--text-2xl": "1.5rem",
+   "--text-2xl--line-height": "calc(2 / 1.5)",
+   "--text-3xl": "1.875rem",
+   "--text-3xl--line-height": "calc(2.25 / 1.875)",
+   "--text-4xl": "2.25rem",
+   "--text-4xl--line-height": "calc(2.5 / 2.25)",
+   "--text-5xl": "3rem",
+   "--text-5xl--line-height": "1",
+   "--text-7xl": "4.5rem",
+   "--text-7xl--line-height": "1",
+   "--font-weight-normal": "400",
+   "--font-weight-medium": "500",
+   "--font-weight-semibold": "600",
+   "--tracking-tight": "-.025em",
+   "--tracking-widest": ".1em",
+   "--ease-in": "cubic-bezier(.4, 0, 1, 1)",
+   "--ease-out": "cubic-bezier(0, 0, .2, 1)",
+   "--default-transition-duration": ".15s",
+   "--default-transition-timing-function": "cubic-bezier(.4, 0, .2, 1)",
+   "--default-font-family": "var(--font-sans)",
+   "--default-mono-font-family": "var(--font-mono)",
+   "--color-boc-orange": "#ff4421",
+   "--color-boc-canvas": "#181d21",
+   "--color-boc-text-on-orange": "#000",
+   "--color-boc-text-on-canvas": "#f3f3f3",
+   "--color-boc-muted": "#adadad",
+   "--color-boc-gray": "#afabab",
+   "--color-boc-muted-2": "#545151",
+   "--color-boc-rule": "#181d21",
+   "--color-boc-online": "#b53219",
+   "--color-boc-muted-on-orange": "#b53219",
+   "--color-boc-info-shade": "#b62f17",
+   "--color-boc-info-label": "#85210f",
+   "--color-boc-offblack": "#181d21",
+   "--color-boc-black": "#111314",
+   "--grid-gutter": "15px",
+   "--boc-page-px": "15px",
+   "--boc-image-radius": "0px",
+   "--boc-sidebar-w": "min(calc((100% - 135px) / 4 + 45px), 390.75px)",
+   "--ease-boc-brisk": "cubic-bezier(.4, 0, .2, 1)",
+   "--ease-boc-grow": "cubic-bezier(1, 0, .47, 1.25)",
+   "--ease-boc-reveal": "cubic-bezier(.25, .1, .25, 1)",
+   "--color-boc-btn-grey": "#2a3137",
+   "--color-boc-btn-grey-hover": "#21272c",
+   "--lightningcss-light": "",
+   "--lightningcss-dark": "initial"
+  },
+  "fontFaces": [
+   {
+    "family": "ppMori",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"../media/PPMori_Regular-s.p.17eq0qxy1kc8k.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "ppMori",
+    "weight": "600",
+    "style": "normal",
+    "src": "url(\"../media/PPMori_SemiBold-s.p.0jstn4ve9kbmu.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "ppMori Fallback",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   }
+  ],
+  "keyframes": [
+   "boc-bump-left",
+   "boc-bump-arrow",
+   "egg-wave",
+   "egg-scatter",
+   "boc-marquee",
+   "boc-404-marquee",
+   "boc-404-back-marquee",
+   "bocBarFadeIn",
+   "bocMarqueeIn",
+   "boc-arrow-shot-mobile",
+   "boc-arrow-shot-desktop"
+  ],
+  "breakpoints": [
+   {
+    "v": "1024px",
+    "w": 7
+   },
+   {
+    "v": "48rem",
+    "w": 2
+   },
+   {
+    "v": "64rem",
+    "w": 2
+   },
+   {
+    "v": "1550px",
+    "w": 2
+   },
+   {
+    "v": "40rem",
+    "w": 1
+   },
+   {
+    "v": "80rem",
+    "w": 1
+   },
+   {
+    "v": "96rem",
+    "w": 1
+   }
+  ],
+  "rulesCount": 785,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "article",
+    "id": null,
+    "cls": "flex flex-col",
+    "h": 2206,
+    "title": "Work",
+    "media": 406
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "bg-boc-canvas fixed inset-0 z-40 h-[100svh] w-full overflow-hidden",
+    "h": 900,
+    "title": "",
+    "media": 1
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "",
+    "href": "https://boc.studio/"
+   }
+  ],
+  "ctas": [],
+  "pageHeight": 2267,
+  "counts": {
+   "canvas": 1,
+   "videos": 1,
+   "imgs": 406,
+   "svgs": 10,
+   "iframes": 0,
+   "domNodes": 1891
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": false,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": true,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [
+   "sanity"
+  ],
+  "analytics": [],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://boc.studio/_next/static/chunks/0-w966uza5eby.js",
+  "https://boc.studio/_next/static/chunks/0c3w.r6wy.9ib.js",
+  "https://boc.studio/_next/static/chunks/0rwwge57xnfls.js",
+  "https://boc.studio/_next/static/chunks/128aahewwf1we.js",
+  "https://boc.studio/_next/static/chunks/01.-sh3cgqu1l.js",
+  "https://boc.studio/_next/static/chunks/turbopack-0q_3muohy65hs.js",
+  "https://boc.studio/_next/static/chunks/0gd8m9610a291.js",
+  "https://boc.studio/_next/static/chunks/0i.l9589uvx0j.js",
+  "https://boc.studio/_next/static/chunks/16_jpe2u802_-.js",
+  "https://boc.studio/_next/static/chunks/0upucadyx34mm.js",
+  "https://boc.studio/_next/static/chunks/093m7985rg254.js",
+  "https://boc.studio/_next/static/chunks/0uta1m-ut_is8.js",
+  "https://boc.studio/_next/static/chunks/052_rgenbp_yq.js",
+  "https://boc.studio/_next/static/chunks/09uyk4q9ubkuu.js",
+  "https://boc.studio/_next/static/chunks/0ol1mhi~tvftw.js",
+  "https://boc.studio/_next/static/chunks/009q953p2hib1.js",
+  "https://boc.studio/_next/static/chunks/11qmg9f9gqd~r.js",
+  "https://boc.studio/_next/static/chunks/03~yq9q893hmn.js",
+  "https://boc.studio/87a865ca7d3fa3c3/script.js",
+  "https://boc.studio/5388dda024e924c8/script.js",
+  "https://boc.studio/_next/static/chunks/0-hrh_uw98wb_.js"
+ ],
+ "internal": [
+  "https://boc.studio/work",
+  "https://boc.studio/work/europa",
+  "https://boc.studio/work/marmota",
+  "https://boc.studio/work/chocovic",
+  "https://boc.studio/work/alien",
+  "https://boc.studio/work/sport",
+  "https://boc.studio/work/yaba",
+  "https://boc.studio/work/the-seam",
+  "https://boc.studio/work/the-champions-burger",
+  "https://boc.studio/work/incite"
+ ],
+ "perf": {
+  "ttfb": 18,
+  "dcl": 2131,
+  "load": 2218,
+  "lcp": 976,
+  "lcpEl": "IMG.object-cover",
+  "cls": 0.005
+ },
+ "libs": {
+  "detected": [
+   "React",
+   "Next.js",
+   "Sanity",
+   "Lenis",
+   "Virtual scroll",
+   "GSAP",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Contentful"
+  ],
+  "where": {
+   "React": [
+    "001-0-w966uza5eby.js",
+    "012-0rwwge57xnfls.js",
+    "020-0-w966uza5eby.js",
+    "022-0rwwge57xnfls.js"
+   ],
+   "Next.js": [
+    "002-0c3w.r6wy.9ib.js",
+    "021-0c3w.r6wy.9ib.js"
+   ],
+   "Sanity": [
+    "004-09uyk4q9ubkuu.js",
+    "006-11qmg9f9gqd_r.js",
+    "018-009q953p2hib1.js",
+    "033-09uyk4q9ubkuu.js",
+    "035-009q953p2hib1.js",
+    "036-11qmg9f9gqd_r.js"
+   ],
+   "Lenis": [
+    "005-0upucadyx34mm.js",
+    "006-11qmg9f9gqd_r.js",
+    "013-0uta1m-ut_is8.js",
+    "029-0upucadyx34mm.js",
+    "031-0uta1m-ut_is8.js",
+    "036-11qmg9f9gqd_r.js"
+   ],
+   "Virtual scroll": [
+    "005-0upucadyx34mm.js",
+    "029-0upucadyx34mm.js"
+   ],
+   "GSAP": [
+    "006-11qmg9f9gqd_r.js",
+    "016-052_rgenbp_yq.js",
+    "032-052_rgenbp_yq.js",
+    "036-11qmg9f9gqd_r.js"
+   ],
+   "ScrollTrigger": [
+    "016-052_rgenbp_yq.js",
+    "032-052_rgenbp_yq.js"
+   ],
+   "SplitText/SplitType": [
+    "016-052_rgenbp_yq.js",
+    "032-052_rgenbp_yq.js"
+   ],
+   "Contentful": [
+    "038-script.js"
+   ]
+  },
+  "gsapVersion": null,
+  "threeRevision": null,
+  "shaders": 8,
+  "scripts": 38
+ },
+ "network": {
+  "requests": 2825,
+  "totalKb": 19536,
+  "byType": {
+   "Document": {
+    "n": 2,
+    "kb": 518
+   },
+   "Stylesheet": {
+    "n": 2,
+    "kb": 11
+   },
+   "Image": {
+    "n": 778,
+    "kb": 1617
+   },
+   "Script": {
+    "n": 40,
+    "kb": 327
+   },
+   "Media": {
+    "n": 28,
+    "kb": 16864
+   },
+   "Font": {
+    "n": 4,
+    "kb": 73
+   },
+   "Fetch": {
+    "n": 37,
+    "kb": 29
+   },
+   "Other": {
+    "n": 1934,
+    "kb": 96
+   }
+  },
+  "thirdPartyHosts": [
+   "cdn.sanity.io",
+   "stream.mux.com"
+  ],
+  "fontFiles": [
+   "https://boc.studio/_next/static/media/PPMori_Regular-s.p.17eq0qxy1kc8k.woff2",
+   "https://boc.studio/_next/static/media/PPMori_SemiBold-s.p.0jstn4ve9kbmu.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://stream.mux.com/1s8r6u7NYws8ETAaQ88WbVwUMUIwMqnzIJIXpu2nJoo/480p.mp4",
+    "kb": 2453,
+    "type": "Media"
+   },
+   {
+    "url": "https://stream.mux.com/Vl2wKX8vMZ3XqHPcq6l6rtCpK29gzirQQYYhh800pxO4/480p.mp4",
+    "kb": 2426,
+    "type": "Media"
+   },
+   {
+    "url": "https://stream.mux.com/g3uhWvuiHK02fXIE39QPVbXJW01R8BAGE4iqXFasz48q8/480p.mp4",
+    "kb": 1376,
+    "type": "Media"
+   },
+   {
+    "url": "https://stream.mux.com/9hJmxz52q3YDpy9RtIL39kml4D7GSP7F2kAuev95F01g/480p.mp4",
+    "kb": 1286,
+    "type": "Media"
+   },
+   {
+    "url": "https://stream.mux.com/DGcCqpKooDeSKjxI1EIXLkGef1iK8tn2G00XC5qYYoBo/480p.mp4",
+    "kb": 1057,
+    "type": "Media"
+   },
+   {
+    "url": "https://stream.mux.com/WTA00BYkIrv00vfUqq40001W7KSWeTJfH8I3kXSQ2KGTBGk/480p.mp4",
+    "kb": 1056,
+    "type": "Media"
+   },
+   {
+    "url": "https://stream.mux.com/mteCrIL5o11WMGFzqpQsTjoUCmXPOufPUs8I28GsPLc/480p.mp4",
+    "kb": 1048,
+    "type": "Media"
+   },
+   {
+    "url": "https://stream.mux.com/E1lCsA00jVGa7nxkTaOUiMfgZrEDsSXg901fGQ3mTh6JY/480p.mp4",
+    "kb": 966,
+    "type": "Media"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "23.95px",
+   "lineHeight": "23.95px"
+  },
+  "body": "16px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 414
+}

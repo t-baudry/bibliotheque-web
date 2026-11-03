@@ -1,0 +1,374 @@
+{
+ "id": 38,
+ "name": "The Tie-break",
+ "sourceUrl": "https://thetiebreak.merci-michel.com/",
+ "capturedAt": "2026-11-02T23:47:34.488Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": "Start",
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg"
+  ],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://thetiebreak.merci-michel.com/eu/en/",
+ "title": "The Tie-break!",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Play the game and discover the latest New Balance X Miu Miu collection with Coco Gauff.",
+  "canonical": "https://miumiu-wimbledon.web.app/eu/en/",
+  "robots": "noindex,nofollow",
+  "ogTitle": "The Tie-break!",
+  "ogImage": "https://miumiu-wimbledon.web.app/share.png?v=5076f60e",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [],
+  "h1Count": 0,
+  "headings": [],
+  "imgs": 0,
+  "imgNoAlt": 0,
+  "favicon": "https://thetiebreak.merci-michel.com/favicon.ico?v=5076f60e",
+  "themeColor": "#000000"
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#ffffff",
+    "w": 153
+   }
+  ],
+  "text": [
+   {
+    "v": "#ffffff",
+    "w": 25
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "Instrument",
+    "w": 13
+   },
+   {
+    "v": "WorkSans",
+    "w": 12
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "7.5px",
+    "w": 3
+   },
+   {
+    "v": "46.5px",
+    "w": 2
+   },
+   {
+    "v": "14px",
+    "w": 2
+   },
+   {
+    "v": "16.5px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "0.75px",
+    "w": 1
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "ease 0.3s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "button": {
+    "family": "WorkSans, sans-serif",
+    "size": "7.5px",
+    "weight": "400",
+    "lineHeight": "8.25px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Next →"
+   },
+   "body": {
+    "family": "WorkSans, sans-serif",
+    "size": "7.5px",
+    "weight": "400",
+    "lineHeight": "8.25px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "YouvsOpponentNext →window.__VITEVUE_DATA__=JSON.parse('{\"project\":{\"timestamp\":\""
+   }
+  },
+  "cssVars": {
+   "--base-text": "10px",
+   "--padding": "max(6px, calc(var(--base-text) * .15))",
+   "--ui-bps": "xs:400px / s:640px / sm:768px / md:1024px / lg:1200px / xl:1600px / xxl:1920px",
+   "--ui-colors": "bg-primary:#000 / primary:#fff / blue:#142a48 / primary-hover:#fff302",
+   "--ui-color-bg-primary": "#000",
+   "--ui-color-primary": "#fff",
+   "--ui-color-blue": "#142a48",
+   "--ui-color-primary-hover": "#fff302",
+   "--miumiu-header": "1.5em"
+  },
+  "fontFaces": [
+   {
+    "family": "Instrument",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/assets/InstrumentSerif-Italic.Cg4-EJUh6b4d5903.woff2\") format(\"woff2\"), url(\"/assets/InstrumentSerif-Italic.BJ8tuapQ6b4d5903.woff\") format(\"woff\")"
+   },
+   {
+    "family": "WorkSans",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"/assets/WorkSans-Regular.B9ExyInW6b4d5903.woff2\") format(\"woff2\"), url(\"/assets/WorkSans-Regular.Dt5RlKZd6b4d5903.woff\") format(\"woff\")"
+   },
+   {
+    "family": "WorkSans",
+    "weight": "300",
+    "style": "normal",
+    "src": "url(\"/assets/WorkSans-Light.BJoAFi_B6b4d5903.woff2\") format(\"woff2\"), url(\"/assets/WorkSans-Light.DiLmPpxg6b4d5903.woff\") format(\"woff\")"
+   }
+  ],
+  "keyframes": [
+   "joystick-y-3b1265d4",
+   "quick-flick-3b1265d4",
+   "circular-spin-3b1265d4",
+   "bounceAnim",
+   "squishAnim",
+   "shadowAnim",
+   "shake1",
+   "jitter-subtle",
+   "jitter-subtle-rtl",
+   "ken-burns",
+   "join-shimmer-9301a5af"
+  ],
+  "breakpoints": [
+   {
+    "v": "1080px",
+    "w": 32
+   }
+  ],
+  "rulesCount": 339,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "view view-game",
+    "h": 900,
+    "title": "",
+    "media": 0
+   }
+  ],
+  "navLinks": [],
+  "ctas": [],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 1,
+   "videos": 0,
+   "imgs": 0,
+   "svgs": 0,
+   "iframes": 0,
+   "domNodes": 116
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": false,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": true,
+  "cms": [],
+  "analytics": [],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://tags.tiqcdn.com/utag/prada/prada.iframe/prod/utag.js",
+  "https://tags.tiqcdn.com/utag/prada/prada.iframe/prod/utag.1.js?utv=ut4.54.202511201011",
+  "https://tags.tiqcdn.com/utag/prada/prada.iframe/prod/utag.v.js?a=prada/prada.iframe/202511201001&cb=1793663257056",
+  "https://thetiebreak.merci-michel.com/assets/app.BJoZBxOG6b4d5903.js"
+ ],
+ "internal": [],
+ "perf": {
+  "ttfb": 20,
+  "dcl": 308,
+  "load": 1776,
+  "lcp": 7758,
+  "lcpEl": "H1.home__title",
+  "cls": 0
+ },
+ "libs": {
+  "detected": [
+   "Three.js",
+   "Vue"
+  ],
+  "where": {
+   "Three.js": [
+    "002-vendor.C2s8bVVS6b4d5903.js"
+   ],
+   "Vue": [
+    "002-vendor.C2s8bVVS6b4d5903.js"
+   ]
+  },
+  "gsapVersion": null,
+  "threeRevision": null,
+  "shaders": 20,
+  "scripts": 8
+ },
+ "network": {
+  "requests": 46,
+  "totalKb": 8274,
+  "byType": {
+   "Document": {
+    "n": 2,
+    "kb": 12
+   },
+   "Stylesheet": {
+    "n": 3,
+    "kb": 5
+   },
+   "Image": {
+    "n": 12,
+    "kb": 1736
+   },
+   "Script": {
+    "n": 7,
+    "kb": 268
+   },
+   "Fetch": {
+    "n": 15,
+    "kb": 4682
+   },
+   "XHR": {
+    "n": 2,
+    "kb": 1411
+   },
+   "Other": {
+    "n": 2,
+    "kb": 2
+   },
+   "Font": {
+    "n": 3,
+    "kb": 158
+   }
+  },
+  "thirdPartyHosts": [
+   "tags.tiqcdn.com"
+  ],
+  "fontFiles": [
+   "https://thetiebreak.merci-michel.com/assets/WorkSans-Regular.B9ExyInW6b4d5903.woff2",
+   "https://thetiebreak.merci-michel.com/assets/WorkSans-Light.BJoAFi_B6b4d5903.woff2",
+   "https://thetiebreak.merci-michel.com/assets/InstrumentSerif-Italic.Cg4-EJUh6b4d5903.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://thetiebreak.merci-michel.com/b/VNsb28kHH4Zp.jpg",
+    "kb": 1643,
+    "type": "Image"
+   },
+   {
+    "url": "https://thetiebreak.merci-michel.com/b/dIkpG95Tjxla.m4a",
+    "kb": 1032,
+    "type": "XHR"
+   },
+   {
+    "url": "https://thetiebreak.merci-michel.com/b/ybvR7AvSY6Yk.ktx2",
+    "kb": 668,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://thetiebreak.merci-michel.com/b/yU_3lfBASO8K.ktx2",
+    "kb": 642,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://thetiebreak.merci-michel.com/b/K-pGx3149FXG.ktx2",
+    "kb": 638,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://thetiebreak.merci-michel.com/b/yncPfz5HVhUP.ktx2",
+    "kb": 636,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://thetiebreak.merci-michel.com/b/XrE0yQu9MN6F.ktx2",
+    "kb": 547,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://thetiebreak.merci-michel.com/b/jXqL9owD7VRN.ktx2",
+    "kb": 506,
+    "type": "Fetch"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": null,
+  "body": "9.70149px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 112
+}

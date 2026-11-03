@@ -1,0 +1,6 @@
+_outils/node_modules/
+_outils/*.log
+_outils/patch*.py
+__pycache__/
+# les vidéos de scroll vont dans la release GitHub « videos », pas dans le dépôt
+*.webm

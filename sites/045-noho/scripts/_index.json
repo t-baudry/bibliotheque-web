@@ -1,0 +1,82 @@
+[
+ {
+  "file": "001-noho.bundle.min.js",
+  "url": "https://noho.ink/assets/js/noho.bundle.min.js",
+  "kb": 89
+ },
+ {
+  "file": "002-email-decode.min.js",
+  "url": "https://noho.ink/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+  "kb": 1
+ },
+ {
+  "file": "003-CustomEase.min.js",
+  "url": "https://noho.ink/assets/vendor/CustomEase.min.js",
+  "kb": 7
+ },
+ {
+  "file": "004-gsap.min.js",
+  "url": "https://noho.ink/assets/vendor/gsap.min.js",
+  "kb": 71
+ },
+ {
+  "file": "005-ScrollTrigger.min.js",
+  "url": "https://noho.ink/assets/vendor/ScrollTrigger.min.js",
+  "kb": 44
+ },
+ {
+  "file": "006-embla-carousel-auto-scroll.umd.js",
+  "url": "https://noho.ink/assets/vendor/embla-carousel-auto-scroll.umd.js",
+  "kb": 3
+ },
+ {
+  "file": "007-vce701823e78c4301a35b7e07294d87301792088814092.js",
+  "url": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+  "kb": 31
+ },
+ {
+  "file": "008-SplitText.min.js",
+  "url": "https://noho.ink/assets/vendor/SplitText.min.js",
+  "kb": 8
+ },
+ {
+  "file": "009-lenis.min.js",
+  "url": "https://noho.ink/assets/vendor/lenis.min.js",
+  "kb": 17
+ },
+ {
+  "file": "010-embla-carousel.umd.js",
+  "url": "https://noho.ink/assets/vendor/embla-carousel.umd.js",
+  "kb": 18
+ },
+ {
+  "file": "011-jquery.min.js",
+  "url": "https://noho.ink/assets/vendor/jquery.min.js",
+  "kb": 87
+ },
+ {
+  "file": "012-beacon.min.js",
+  "url": "https://static.cloudflareinsights.com/beacon.min.js",
+  "kb": 31
+ },
+ {
+  "file": "013-noho.bundle.deferred-heavy.min.js",
+  "url": "https://noho.ink/assets/js/noho.bundle.deferred-heavy.min.js",
+  "kb": 239
+ },
+ {
+  "file": "014-html2canvas.esm.js",
+  "url": "https://noho.ink/assets/vendor/html2canvas.esm.js",
+  "kb": 198
+ },
+ {
+  "file": "015-model-viewer.min.js",
+  "url": "https://noho.ink/assets/vendor/model-viewer.min.js",
+  "kb": 1017
+ },
+ {
+  "file": "016-ogl.esm.js",
+  "url": "https://noho.ink/assets/vendor/ogl.esm.js",
+  "kb": 130
+ }
+]

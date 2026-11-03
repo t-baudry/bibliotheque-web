@@ -1,0 +1,584 @@
+{
+ "id": 58,
+ "name": "Gionatan Nese 26",
+ "sourceUrl": "https://www.gionatannese.com/",
+ "capturedAt": "2026-11-03T00:06:21.250Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg"
+  ],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [
+   {
+    "url": "https://www.gionatannese.com/projects",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.gionatannese.com/about",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://www.gionatannese.com/",
+ "title": "Gionatan Nese — Multi-Disciplinary Designer",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Multi-disciplinary designer based in Italy. Gionatan Nese crafts websites, brand identities, and visual experiences that leave an impression.",
+  "canonical": "https://gionatannese.com/",
+  "robots": "index, follow",
+  "ogTitle": "Gionatan Nese — Multi-Disciplinary Designer",
+  "ogImage": "https://cdn.sanity.io/images/3dmz0m4k/production/0463c81a30ad4615b8df3a61f8c51093d0dd02a2-1200x630.jpg?w=1200&h=630&fit=crop&crop=entropy&auto=format",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "Person",
+   "WebSite",
+   "CollectionPage"
+  ],
+  "h1Count": 1,
+  "headings": [
+   "H1 Gionatan Nese — Multi-Disciplinary Designer",
+   "H2 Selected work",
+   "H3 Tengile MalaMala Collection",
+   "H3 Gionatan Nese, Website & Identity",
+   "H3 Anchor",
+   "H3 Ferrari 330 P4 Concept",
+   "H3 Erica Basile",
+   "H2 Explorations"
+  ],
+  "imgs": 0,
+  "imgNoAlt": 0,
+  "favicon": "https://cdn.sanity.io/images/3dmz0m4k/production/76033e8e4310b6d753ae0061f489f54b1ea5fae6-64x64.jpg?w=32&h=32&fit=crop&auto=format",
+  "themeColor": "#ffffff"
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#ffffff",
+    "w": 2592000
+   },
+   {
+    "v": "#ededed",
+    "w": 5222
+   },
+   {
+    "v": "#000000",
+    "w": 16
+   }
+  ],
+  "text": [
+   {
+    "v": "#000000",
+    "w": 1837
+   },
+   {
+    "v": "#ffffff",
+    "w": 5
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "LayGrotesk",
+    "w": 1812
+   },
+   {
+    "v": "Teodor",
+    "w": 30
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "16px",
+    "w": 44
+   },
+   {
+    "v": "14px",
+    "w": 6
+   },
+   {
+    "v": "15px",
+    "w": 3
+   },
+   {
+    "v": "11px",
+    "w": 3
+   },
+   {
+    "v": "12px",
+    "w": 1
+   },
+   {
+    "v": "13px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "4px",
+    "w": 4
+   },
+   {
+    "v": "3.35544e+07px",
+    "w": 1
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.65 0.45s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "LayGrotesk, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Gionatan Nese — Multi-Disciplinary Designer"
+   },
+   "h2": {
+    "family": "LayGrotesk, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Selected work"
+   },
+   "h3": {
+    "family": "LayGrotesk, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Tengile MalaMala Collection"
+   },
+   "p": {
+    "family": "LayGrotesk, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Multi-disciplinary designer based in Italy. Gionatan Nese crafts websites, brand"
+   },
+   "a": {
+    "family": "LayGrotesk, sans-serif",
+    "size": "12px",
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Creative Space1"
+   },
+   "li": {
+    "family": "LayGrotesk, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Tengile MalaMala CollectionWebsite DesignA new digital home for the Tengile Mala"
+   },
+   "body": {
+    "family": "LayGrotesk, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Person\",\"@id\":\"https://gion"
+   }
+  },
+  "cssVars": {
+   "--font-sans": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+   "--font-mono": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+   "--color-black": "#000",
+   "--color-white": "#fff",
+   "--spacing": ".25rem",
+   "--text-xs": ".75rem",
+   "--text-xs--line-height": "calc(1 / .75)",
+   "--text-sm": ".875rem",
+   "--text-sm--line-height": "calc(1.25 / .875)",
+   "--text-base": "1rem",
+   "--text-base--line-height": "calc(1.5 / 1)",
+   "--radius-sm": ".25rem",
+   "--blur-2xl": "40px",
+   "--blur-3xl": "64px",
+   "--default-transition-duration": ".15s",
+   "--default-transition-timing-function": "cubic-bezier(.4, 0, .2, 1)",
+   "--default-font-family": "var(--font-sans)",
+   "--default-mono-font-family": "var(--font-mono)",
+   "--font-lay-grotesk": "\"LayGrotesk\", sans-serif",
+   "--font-teodor": "\"Teodor\", serif"
+  },
+  "fontFaces": [
+   {
+    "family": "LayGrotesk",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"/fonts/LayGrotesk-Medium.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Teodor",
+    "weight": "300",
+    "style": "normal",
+    "src": "url(\"/fonts/Teodor-Light.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Teodor",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/fonts/Teodor-Regular.woff\") format(\"woff\")"
+   }
+  ],
+  "keyframes": [],
+  "breakpoints": [
+   {
+    "v": "40rem",
+    "w": 2
+   },
+   {
+    "v": "64rem",
+    "w": 2
+   },
+   {
+    "v": "1025px",
+    "w": 2
+   },
+   {
+    "v": "48rem",
+    "w": 1
+   },
+   {
+    "v": "80rem",
+    "w": 1
+   },
+   {
+    "v": "96rem",
+    "w": 1
+   },
+   {
+    "v": "1024px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 295,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "canvas",
+    "id": null,
+    "cls": "",
+    "h": 900,
+    "title": "",
+    "media": 0
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "Creative Space1",
+    "href": "https://www.gionatannese.com/"
+   },
+   {
+    "t": "Projects2",
+    "href": "https://www.gionatannese.com/projects"
+   },
+   {
+    "t": "About3",
+    "href": "https://www.gionatannese.com/about"
+   }
+  ],
+  "ctas": [],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 1,
+   "videos": 0,
+   "imgs": 0,
+   "svgs": 1,
+   "iframes": 0,
+   "domNodes": 183
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": false,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "184",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": true,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [
+   "sanity"
+  ],
+  "analytics": [],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://www.gionatannese.com/_next/static/chunks/1_0v6exngdege.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+  "https://www.gionatannese.com/_next/static/chunks/3w8d8k_dca5rp.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+  "https://www.gionatannese.com/_next/static/chunks/3ylc1rhil-pg1.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+  "https://www.gionatannese.com/_next/static/chunks/turbopack-2g2ls71ooiv5b.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+  "https://www.gionatannese.com/_next/static/chunks/05-c3ty_6dwfk.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+  "https://www.gionatannese.com/_next/static/chunks/14mrh2-p_w84d.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+  "https://www.gionatannese.com/_next/static/chunks/2b4n7zxxuniwz.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+  "https://www.gionatannese.com/_next/static/chunks/2t9ha_75cj8u2.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+  "https://www.gionatannese.com/_next/static/chunks/1ir0s561avd7s.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+  "https://www.gionatannese.com/_next/static/chunks/1stgzxt_cesa3.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+  "https://www.gionatannese.com/_next/static/chunks/2ynhpsd-1i1m_.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+  "https://www.gionatannese.com/_next/static/chunks/3o99qjmm-sqd_.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+  "https://www.gionatannese.com/_next/static/chunks/1r_mvu_vuwz3v.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+  "https://www.gionatannese.com/_next/static/chunks/3ktnh4sigh0eb.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+  "https://www.gionatannese.com/_next/static/chunks/0bqghpud0ytgb.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+  "https://www.gionatannese.com/_next/static/chunks/17gv23709kh0c.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+  "https://www.gionatannese.com/_next/static/chunks/2g16axkqp2g6-.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+  "https://www.gionatannese.com/_next/static/chunks/0cz1d0mv5g_q7.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+  "https://www.gionatannese.com/25d2d272a2e9ce4d/script.js",
+  "https://www.gionatannese.com/_next/static/chunks/3zt4mi0z0e4-j.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+  "https://www.gionatannese.com/_next/static/chunks/088zle-265k-w.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+  "https://www.gionatannese.com/_next/static/chunks/084_r2b5_j8fb.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+  "https://www.gionatannese.com/_next/static/chunks/1vv4ylf0apzor.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+  "https://www.gionatannese.com/_next/static/chunks/04xi6lk37w8d4.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+  "https://www.gionatannese.com/_next/static/chunks/1t-m5_jfk04ia.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq"
+ ],
+ "internal": [
+  "https://www.gionatannese.com/projects",
+  "https://www.gionatannese.com/about",
+  "https://www.gionatannese.com/projects/TengileMalaMala",
+  "https://www.gionatannese.com/projects/gionatannese",
+  "https://www.gionatannese.com/projects/anchor",
+  "https://www.gionatannese.com/projects/ferrari",
+  "https://www.gionatannese.com/projects/erica-basile"
+ ],
+ "perf": {
+  "ttfb": 115,
+  "dcl": 351,
+  "load": 619,
+  "lcp": 2480,
+  "lcpEl": "SPAN.inline-block",
+  "cls": 0
+ },
+ "libs": {
+  "detected": [
+   "Next.js",
+   "Three.js",
+   "Postprocessing",
+   "Sanity",
+   "GSAP",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "React",
+   "Lil-GUI/Tweakpane (debug)"
+  ],
+  "where": {
+   "Next.js": [
+    "001-1t-m5_jfk04ia.js"
+   ],
+   "Three.js": [
+    "011-3o99qjmm-sqd_.js",
+    "016-2g16axkqp2g6-.js",
+    "018-1r_mvu_vuwz3v.js",
+    "020-3zt4mi0z0e4-j.js",
+    "022-084_r2b5_j8fb.js",
+    "024-04xi6lk37w8d4.js"
+   ],
+   "Postprocessing": [
+    "011-3o99qjmm-sqd_.js"
+   ],
+   "Sanity": [
+    "013-0bqghpud0ytgb.js"
+   ],
+   "GSAP": [
+    "015-1ir0s561avd7s.js",
+    "022-084_r2b5_j8fb.js"
+   ],
+   "ScrollTrigger": [
+    "015-1ir0s561avd7s.js"
+   ],
+   "SplitText/SplitType": [
+    "015-1ir0s561avd7s.js"
+   ],
+   "React": [
+    "017-3w8d8k_dca5rp.js"
+   ],
+   "Lil-GUI/Tweakpane (debug)": [
+    "021-088zle-265k-w.js"
+   ]
+  },
+  "gsapVersion": null,
+  "threeRevision": null,
+  "shaders": 36,
+  "scripts": 24
+ },
+ "network": {
+  "requests": 99,
+  "totalKb": 9853,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 11
+   },
+   "Stylesheet": {
+    "n": 1,
+    "kb": 5
+   },
+   "Script": {
+    "n": 24,
+    "kb": 434
+   },
+   "Font": {
+    "n": 2,
+    "kb": 141
+   },
+   "Image": {
+    "n": 12,
+    "kb": 1812
+   },
+   "Fetch": {
+    "n": 31,
+    "kb": 569
+   },
+   "Other": {
+    "n": 1,
+    "kb": 1
+   },
+   "Media": {
+    "n": 27,
+    "kb": 6879
+   }
+  },
+  "thirdPartyHosts": [
+   "cdn.sanity.io"
+  ],
+  "fontFiles": [
+   "https://www.gionatannese.com/fonts/LayGrotesk-Medium.woff",
+   "https://www.gionatannese.com/fonts/Teodor-Regular.woff",
+   "https://www.gionatannese.com/fonts/Teodor-Light.woff"
+  ],
+  "biggest": [
+   {
+    "url": "https://www.gionatannese.com/sanity-files/5dfbaea59950a6ae55e4fdf86bbdb3e5227612fd.webm",
+    "kb": 4659,
+    "type": "Media"
+   },
+   {
+    "url": "https://www.gionatannese.com/sanity-files/364ddff7e3c794bc237765f0b07d94a3dc2735ce.webm",
+    "kb": 1941,
+    "type": "Media"
+   },
+   {
+    "url": "https://www.gionatannese.com/Model/MatCap.jpg",
+    "kb": 838,
+    "type": "Image"
+   },
+   {
+    "url": "https://www.gionatannese.com/Model/model.glb",
+    "kb": 451,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://cdn.sanity.io/images/3dmz0m4k/production/22437be2def8b2f70d7c76ff5a2c9d714ccf277b-1880x2512.jpg",
+    "kb": 335,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.sanity.io/images/3dmz0m4k/production/b139a3918966c22869a981d9027dbf627d8cc3e5-1876x2508.webp",
+    "kb": 164,
+    "type": "Image"
+   },
+   {
+    "url": "https://www.gionatannese.com/_next/static/chunks/1r_mvu_vuwz3v.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+    "kb": 146,
+    "type": "Script"
+   },
+   {
+    "url": "https://cdn.sanity.io/images/3dmz0m4k/production/b3e3faec1d70efd788be9c004721d22eba534f41-1876x2508.webp",
+    "kb": 101,
+    "type": "Image"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "16px",
+   "lineHeight": "24px"
+  },
+  "body": "16px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 173
+}

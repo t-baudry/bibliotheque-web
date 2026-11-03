@@ -1,0 +1,477 @@
+{
+ "id": 6,
+ "name": "Awards Racing",
+ "sourceUrl": "https://awards.racing/",
+ "capturedAt": "2026-11-02T23:14:38.475Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg"
+  ],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [],
+  "rea": "erreur: Command failed: C:\\Program Files\\nodejs\\node.exe C:\\Users\\Utilisateur\\Documents\\Pro\\Bibliothèque web\\_outils\\node_modules\\rea-agents\\scripts\\rea.mjs analyze-web-bundle http://127.0.0.1:9303 4AC6977789",
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://awards.racing/",
+ "title": "Awards Racing",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Customize your car and race through parody award shows and galleries in Awards Racing (also known as Versus Racing and Versus: Design Grand Prix) - tune your ride, chase the leaderboard, and show off your style.",
+  "canonical": null,
+  "robots": null,
+  "ogTitle": "Awards Racing",
+  "ogImage": "https://awards.racing/og-image.jpg",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [],
+  "h1Count": 0,
+  "headings": [],
+  "imgs": 4,
+  "imgNoAlt": 4,
+  "favicon": "https://awards.racing/favicon.ico",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#000000",
+    "w": 1296000
+   }
+  ],
+  "text": [
+   {
+    "v": "#ffffff",
+    "w": 23
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "Druk Wide Cy TT",
+    "w": 23
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "88px",
+    "w": 18
+   },
+   {
+    "v": "56px",
+    "w": 2
+   },
+   {
+    "v": "16px",
+    "w": 2
+   },
+   {
+    "v": "24px",
+    "w": 1
+   },
+   {
+    "v": "11px",
+    "w": 1
+   }
+  ],
+  "radius": [],
+  "shadows": [],
+  "transitions": [],
+  "typo": {
+   "button": {
+    "family": "\"Druk Wide Cy TT\", sans-serif",
+    "size": "56px",
+    "weight": "500",
+    "lineHeight": "56px",
+    "letterSpacing": "0.84px",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "Off"
+   },
+   "body": {
+    "family": "\"Druk Wide Cy TT\", sans-serif",
+    "size": "16px",
+    "weight": "500",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Off Sound?Sound?Sound? On Drive Back window.__NUXT__={};window.__NUXT__.config={"
+   }
+  },
+  "cssVars": {
+   "--font-primary": "\"Druk Wide Cy TT\",sans-serif",
+   "--base-font-size": "16px",
+   "--color-theme": "#ff1a1a",
+   "--color-theme-dark": "#1a0000",
+   "--color-theme-overlay": "rgba(255,26,26,.44)",
+   "--color-theme-selection": "rgba(255,26,26,.6)",
+   "--color-line-1": "#fff",
+   "--color-line-2": "#ff1a1a",
+   "--color-line-3": "#4d0000",
+   "--color-line-4": "#ff8080",
+   "--color-accent": "#ffc500",
+   "--color-text-white": "#fff",
+   "--color-text-black": "#000",
+   "--color-text-gray-light": "silver",
+   "--color-text-gray-dark": "#505050",
+   "--color-text-disabled": "#d9d9d9",
+   "--color-bg-white": "#fff",
+   "--color-bg-black": "#000",
+   "--color-bg-gray-default": "#e9e9e9",
+   "--color-bg-gray-secondary": "#ededed",
+   "--color-bg-gray-light": "#f6f6f6",
+   "--color-border-gray": "#909090",
+   "--color-white": "#fff",
+   "--color-black": "#000",
+   "--ease-out-cubic": "cubic-bezier(.33,1,.68,1)",
+   "--ease-in-out-cubic": "cubic-bezier(.65,0,.35,1)",
+   "--header-height": "192px",
+   "--header-offset-top": "48px",
+   "--header-offset-inline": "clamp(32px,2.5vw,48px)",
+   "--header-offset-bottom": "24px",
+   "--header-logo-width": "270px"
+  },
+  "fontFaces": [
+   {
+    "family": "Druk Wide Cy TT",
+    "weight": "900",
+    "style": "italic",
+    "src": "url(\"./DrukWide-HeavyItalic-Cy-Web.-i2-9fKe.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Druk Wide Cy TT",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"./DrukWide-Medium-Cy-Web.De633Rvj.woff2\") format(\"woff2\")"
+   }
+  ],
+  "keyframes": [
+   "online-counter-pulse-01f842bc",
+   "welcomeLetterPop",
+   "welcomeTitleFlyOutLeft",
+   "welcomeTitleFlyOutRight",
+   "revealCircle",
+   "share-link-press"
+  ],
+  "breakpoints": [
+   {
+    "v": "558px",
+    "w": 173
+   },
+   {
+    "v": "768px",
+    "w": 170
+   },
+   {
+    "v": "700px",
+    "w": 100
+   },
+   {
+    "v": "1920px",
+    "w": 73
+   },
+   {
+    "v": "900px",
+    "w": 61
+   },
+   {
+    "v": "2560px",
+    "w": 59
+   },
+   {
+    "v": "400px",
+    "w": 57
+   },
+   {
+    "v": "479px",
+    "w": 49
+   },
+   {
+    "v": "1280px",
+    "w": 43
+   },
+   {
+    "v": "1440px",
+    "w": 36
+   },
+   {
+    "v": "992px",
+    "w": 29
+   },
+   {
+    "v": "820px",
+    "w": 28
+   }
+  ],
+  "rulesCount": 1836,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": "__nuxt",
+    "cls": "",
+    "h": 900,
+    "title": "",
+    "media": 9
+   }
+  ],
+  "navLinks": [],
+  "ctas": [
+   "Drive",
+   "Back"
+  ],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 1,
+   "videos": 0,
+   "imgs": 4,
+   "svgs": 5,
+   "iframes": 0,
+   "domNodes": 407
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": false,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "180",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": true,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": true,
+  "cms": [],
+  "analytics": [],
+  "customCursor": false,
+  "audio": true,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://awards.racing/_nuxt/VrNLnv5y.js",
+  "https://awards.racing/physics/physics.202608121411.js",
+  "https://awards.racing/module.ae3c07ebaf53.js",
+  "https://awards.racing/module.ae3c07ebaf53.js"
+ ],
+ "internal": [],
+ "perf": {
+  "ttfb": 146,
+  "dcl": 876,
+  "load": 879,
+  "lcp": 18916,
+  "lcpEl": "IMG.made-with__character",
+  "cls": 0
+ },
+ "libs": {
+  "detected": [
+   "Nuxt",
+   "GSAP",
+   "ScrollTrigger",
+   "Vue",
+   "Howler (audio)",
+   "Lil-GUI/Tweakpane (debug)",
+   "Embla",
+   "Postprocessing",
+   "Three.js",
+   "React Three Fiber"
+  ],
+  "where": {
+   "Nuxt": [
+    "001-BP8ABm0N.js",
+    "001-VrNLnv5y.js",
+    "005-BP8ABm0N.js",
+    "011-DzWoPB3n.js",
+    "016-VrNLnv5y.js",
+    "021-DzWoPB3n.js"
+   ],
+   "GSAP": [
+    "001-VrNLnv5y.js",
+    "016-VrNLnv5y.js"
+   ],
+   "ScrollTrigger": [
+    "001-VrNLnv5y.js",
+    "016-VrNLnv5y.js"
+   ],
+   "Vue": [
+    "001-VrNLnv5y.js",
+    "016-VrNLnv5y.js"
+   ],
+   "Howler (audio)": [
+    "003-DsldY4uP.js",
+    "014-DsldY4uP.js",
+    "022-module.ae3c07ebaf53.js"
+   ],
+   "Lil-GUI/Tweakpane (debug)": [
+    "003-DsldY4uP.js",
+    "014-DsldY4uP.js"
+   ],
+   "Embla": [
+    "014-CtMOq5QQ.js",
+    "015-CGFEzoEJ.js",
+    "019-CtMOq5QQ.js",
+    "021-CGFEzoEJ.js"
+   ],
+   "Postprocessing": [
+    "015-CGFEzoEJ.js",
+    "021-CGFEzoEJ.js",
+    "022-module.ae3c07ebaf53.js"
+   ],
+   "Three.js": [
+    "022-module.ae3c07ebaf53.js"
+   ],
+   "React Three Fiber": [
+    "022-module.ae3c07ebaf53.js"
+   ]
+  },
+  "gsapVersion": null,
+  "threeRevision": null,
+  "shaders": 0,
+  "scripts": 44
+ },
+ "network": {
+  "requests": 331,
+  "totalKb": 23262,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 7
+   },
+   "Stylesheet": {
+    "n": 10,
+    "kb": 37
+   },
+   "Script": {
+    "n": 23,
+    "kb": 1083
+   },
+   "Other": {
+    "n": 62,
+    "kb": 3034
+   },
+   "Image": {
+    "n": 107,
+    "kb": 6733
+   },
+   "Font": {
+    "n": 2,
+    "kb": 85
+   },
+   "Fetch": {
+    "n": 82,
+    "kb": 3895
+   },
+   "Media": {
+    "n": 6,
+    "kb": 7372
+   },
+   "Preflight": {
+    "n": 1,
+    "kb": 0
+   },
+   "XHR": {
+    "n": 37,
+    "kb": 1017
+   }
+  },
+  "thirdPartyHosts": [
+   "api.awards.racing"
+  ],
+  "fontFiles": [
+   "https://awards.racing/_nuxt/DrukWide-HeavyItalic-Cy-Web.-i2-9fKe.woff2",
+   "https://awards.racing/_nuxt/DrukWide-Medium-Cy-Web.De633Rvj.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://awards.racing/common/assets/everything5.202608121411.glb",
+    "kb": 1538,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://awards.racing/common/tracks/chrome-vortex.202608301427.mp3",
+    "kb": 1471,
+    "type": "Media"
+   },
+   {
+    "url": "https://awards.racing/common/tracks/out-of-office.202609021305.mp3",
+    "kb": 1409,
+    "type": "Media"
+   },
+   {
+    "url": "https://awards.racing/common/tracks/rocket-burst.202608300946.mp3",
+    "kb": 1311,
+    "type": "Media"
+   },
+   {
+    "url": "https://awards.racing/common/tracks/emerald-mechanism.202608301427.mp3",
+    "kb": 1112,
+    "type": "Media"
+   },
+   {
+    "url": "https://awards.racing/common/tracks/hot-and-nebula-papapa-1.202608301004.mp3",
+    "kb": 1035,
+    "type": "Media"
+   },
+   {
+    "url": "https://awards.racing/common/tracks/evil-genius-ks-remont-u-sani-1.202608301007.mp3",
+    "kb": 1034,
+    "type": "Media"
+   },
+   {
+    "url": "https://awards.racing/common/stickers.202608191257.avif",
+    "kb": 799,
+    "type": "Image"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": null,
+  "body": "16px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 336
+}

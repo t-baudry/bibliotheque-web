@@ -1,0 +1,434 @@
+{
+ "id": 181,
+ "name": "Obys",
+ "sourceUrl": "https://obys.agency/",
+ "capturedAt": "2026-11-02T22:29:05.184Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "ok (4 Ko)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg"
+  ],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [
+   {
+    "url": "https://obys.agency/work/makhno",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://obys.agency/about",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://obys.agency/",
+ "title": "Obys Agency",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Concept-driven design studio based in the EU. Crafting award-winning brand and web experiences shaped by storytelling and strong visual systems.",
+  "canonical": "https://obys.agency/",
+  "robots": "all",
+  "ogTitle": "Obys Agency",
+  "ogImage": "https://cms.obys.agency/uploads/large_Thumbnail_Obys_5419986743.webp",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [],
+  "h1Count": 0,
+  "headings": [],
+  "imgs": 38,
+  "imgNoAlt": 34,
+  "favicon": "https://obys.agency/favicon/favicon-96x96.png?v=0",
+  "themeColor": "#ffffff"
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#000000",
+    "w": 3600
+   }
+  ],
+  "text": [
+   {
+    "v": "#000000",
+    "w": 6295
+   },
+   {
+    "v": "#c9c9c9",
+    "w": 31
+   },
+   {
+    "v": "#ffffff",
+    "w": 28
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "Obys",
+    "w": 6354
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "11px",
+    "w": 580
+   },
+   {
+    "v": "79.9999px",
+    "w": 38
+   }
+  ],
+  "radius": [],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.16 0.8s",
+    "w": 39
+   },
+   {
+    "v": "cubic-bezier(0.16 1.6s",
+    "w": 38
+   },
+   {
+    "v": "cubic-bezier(0.16 1s",
+    "w": 2
+   },
+   {
+    "v": "cubic-bezier(0.16 0.6s",
+    "w": 1
+   },
+   {
+    "v": "ease-out 0.4s",
+    "w": 1
+   },
+   {
+    "v": "cubic-bezier(0.19 1.6s",
+    "w": 1
+   },
+   {
+    "v": "cubic-bezier(0.76 1s",
+    "w": 1
+   },
+   {
+    "v": "cubic-bezier(0.16 3.5s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "p": {
+    "family": "Obys, serif",
+    "size": "11px",
+    "weight": "400",
+    "lineHeight": "13.2px",
+    "letterSpacing": "-0.11px",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "The studio is shaped by people who caredeeply about design and the process behin"
+   },
+   "a": {
+    "family": "Obys, serif",
+    "size": "11px",
+    "weight": "400",
+    "lineHeight": "13.2px",
+    "letterSpacing": "-0.11px",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Makhno"
+   },
+   "button": {
+    "family": "Obys, serif",
+    "size": "11px",
+    "weight": "400",
+    "lineHeight": "13.2px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Vertical,"
+   },
+   "body": {
+    "family": "Obys, serif",
+    "size": "11px",
+    "weight": "400",
+    "lineHeight": "13.2px",
+    "letterSpacing": "-0.11px",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "MakhnoSource UnknownAutexOdin’s CrowOlga PrudkaYuliaThe Ways We Work (Miro)Desig"
+   }
+  },
+  "cssVars": {
+   "--white": "#fff",
+   "--black": "#000",
+   "--g": "1rem",
+   "--m-x": "1rem",
+   "--m-y": "1rem",
+   "--c": "calc((100vw - (var(--m-x)*2 + var(--g)*11))/12)"
+  },
+  "fontFaces": [
+   {
+    "family": "Obys",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/font/ObysSans4.woff2\") format(\"woff2\")"
+   }
+  ],
+  "keyframes": [],
+  "breakpoints": [
+   {
+    "v": "1300px",
+    "w": 2
+   },
+   {
+    "v": "900px",
+    "w": 2
+   },
+   {
+    "v": "842px",
+    "w": 2
+   }
+  ],
+  "rulesCount": 215,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "page_",
+    "h": 900,
+    "title": "",
+    "media": 38
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "",
+    "href": "https://obys.agency/"
+   },
+   {
+    "t": "Work",
+    "href": "https://obys.agency/"
+   },
+   {
+    "t": "About",
+    "href": "https://obys.agency/about"
+   }
+  ],
+  "ctas": [],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 1,
+   "videos": 0,
+   "imgs": 38,
+   "svgs": 2,
+   "iframes": 0,
+   "domNodes": 1554
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": false,
+  "locomotive": false,
+  "three": false,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [
+   "googletagmanager",
+   "gtag"
+  ],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://www.googletagmanager.com/gtag/js?id=G-L16SCYVMS7",
+  "https://obys.agency/js/d.js?msh4f1r6"
+ ],
+ "internal": [
+  "https://obys.agency/work/makhno",
+  "https://obys.agency/work/source-unknown",
+  "https://obys.agency/work/autex",
+  "https://obys.agency/work/odins-crow",
+  "https://obys.agency/work/olga-prudka",
+  "https://obys.agency/work/yulia",
+  "https://obys.agency/work/the-ways-we-work-miro",
+  "https://obys.agency/work/design-education-series",
+  "https://obys.agency/work/obys-design-books",
+  "https://obys.agency/work/eminente",
+  "https://obys.agency/work/abetka",
+  "https://obys.agency/work/black-sheep",
+  "https://obys.agency/work/salience-labs",
+  "https://obys.agency/work/ai-modernism-of-kharkiv",
+  "https://obys.agency/work/glyphic-biotechnologies",
+  "https://obys.agency/work/porsche-taycan",
+  "https://obys.agency/work/ayocin-atmos-lamp",
+  "https://obys.agency/work/grids",
+  "https://obys.agency/work/peter-lindbergh",
+  "https://obys.agency/about"
+ ],
+ "perf": {
+  "ttfb": 465,
+  "dcl": 509,
+  "load": 730,
+  "lcp": 754,
+  "lcpEl": "P._sl",
+  "cls": 1
+ },
+ "libs": {
+  "detected": [],
+  "where": {},
+  "gsapVersion": null,
+  "threeRevision": null,
+  "shaders": 2,
+  "scripts": 1
+ },
+ "network": {
+  "requests": 28,
+  "totalKb": 1583,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 14
+   },
+   "Stylesheet": {
+    "n": 1,
+    "kb": 3
+   },
+   "Font": {
+    "n": 1,
+    "kb": 6
+   },
+   "Script": {
+    "n": 2,
+    "kb": 215
+   },
+   "Other": {
+    "n": 1,
+    "kb": 15
+   },
+   "Fetch": {
+    "n": 3,
+    "kb": 13
+   },
+   "Image": {
+    "n": 19,
+    "kb": 1317
+   }
+  },
+  "thirdPartyHosts": [
+   "www.googletagmanager.com",
+   "region1.google-analytics.com",
+   "cms.obys.agency"
+  ],
+  "fontFiles": [
+   "https://obys.agency/font/ObysSans4.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://www.googletagmanager.com/gtag/js?id=G-L16SCYVMS7",
+    "kb": 178,
+    "type": "Script"
+   },
+   {
+    "url": "https://cms.obys.agency/uploads/4_1eae03d525.webp",
+    "kb": 165,
+    "type": "Image"
+   },
+   {
+    "url": "https://cms.obys.agency/uploads/Black_Sheep_Thumbnail_09c8874314.webp",
+    "kb": 154,
+    "type": "Image"
+   },
+   {
+    "url": "https://cms.obys.agency/uploads/1_fae12fb704.webp",
+    "kb": 151,
+    "type": "Image"
+   },
+   {
+    "url": "https://cms.obys.agency/uploads/ODB_Thumbnail_ed9b4aa0f3.webp",
+    "kb": 124,
+    "type": "Image"
+   },
+   {
+    "url": "https://cms.obys.agency/uploads/Source_Unknown_Thumbnail_7e7a08561b.webp",
+    "kb": 116,
+    "type": "Image"
+   },
+   {
+    "url": "https://cms.obys.agency/uploads/Miro_Thumbnail_413fefb05d.webp",
+    "kb": 100,
+    "type": "Image"
+   },
+   {
+    "url": "https://cms.obys.agency/uploads/Ayocin_Thumbnail_0965a26e06.webp",
+    "kb": 77,
+    "type": "Image"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": null,
+  "body": "13.4062px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 131
+}

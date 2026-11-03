@@ -1,0 +1,149 @@
+{
+ "id": 26,
+ "name": "twks",
+ "sourceUrl": "https://twks.ch/en",
+ "capturedAt": "2026-11-02T23:38:36.282Z",
+ "status": "inaccessible",
+ "errors": [
+  "goto load: page.goto: Target page, context or browser has been closed",
+  "goto dcl: page.goto: Target page, context or browser has been closed",
+  "shot0 browserContext.newCDPSession: Target page, context or browser has been closed",
+  "extract: page.evaluate: Target page, context or browser has been closed",
+  "fullpage: page.evaluate: Target page, context or browser has been closed",
+  "browser.newContext: Target page, context or browser has been closed"
+ ],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [],
+  "subpages": []
+ },
+ "httpStatus": null,
+ "libs": {
+  "detected": [
+   "Lottie",
+   "GSAP",
+   "ScrollTrigger",
+   "Lenis",
+   "Alpine.js",
+   "Virtual scroll",
+   "React Three Fiber"
+  ],
+  "where": {
+   "Lottie": [
+    "001-dotlottie-BXFhH9kG.js",
+    "004-dotlottie-wc.js"
+   ],
+   "GSAP": [
+    "002-app-2F7L4ccL.js"
+   ],
+   "ScrollTrigger": [
+    "002-app-2F7L4ccL.js"
+   ],
+   "Lenis": [
+    "002-app-2F7L4ccL.js",
+    "styles.css"
+   ],
+   "Alpine.js": [
+    "002-app-2F7L4ccL.js"
+   ],
+   "Virtual scroll": [
+    "002-app-2F7L4ccL.js"
+   ],
+   "React Three Fiber": [
+    "004-dotlottie-wc.js"
+   ]
+  },
+  "gsapVersion": "3.11.0",
+  "threeRevision": null,
+  "shaders": 0,
+  "scripts": 4
+ },
+ "network": {
+  "requests": 47,
+  "totalKb": 9112,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 27
+   },
+   "Stylesheet": {
+    "n": 1,
+    "kb": 33
+   },
+   "Font": {
+    "n": 3,
+    "kb": 186
+   },
+   "Script": {
+    "n": 4,
+    "kb": 114
+   },
+   "Image": {
+    "n": 24,
+    "kb": 3644
+   },
+   "Fetch": {
+    "n": 3,
+    "kb": 468
+   },
+   "Media": {
+    "n": 11,
+    "kb": 4641
+   }
+  },
+  "thirdPartyHosts": [
+   "cdn.usefathom.com",
+   "cdn.jsdelivr.net"
+  ],
+  "fontFiles": [
+   "https://twks.ch/build/assets/GT-Standard-L-Standard-Regular-DXTyW8mc.woff2",
+   "https://twks.ch/build/assets/GT-Standard-L-Standard-Medium-BDsqGhKS.woff2",
+   "https://twks.ch/build/assets/GT-Standard-L-Standard-Semibold-cqzJajLp.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://twks.ch/storage/home_slider/twks_sps.mp4",
+    "kb": 4485,
+    "type": "Media"
+   },
+   {
+    "url": "https://twks.ch/storage/insights/branding-food-beverage-the-secret-sauce/twks_article_thumbnail.gif",
+    "kb": 1274,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.jsdelivr.net/npm/@lottiefiles/dotlottie-web@0.82.1/dist/dotlottie-player.wasm",
+    "kb": 464,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://twks.ch/en/img/asset/aG9tZV9zbGlkZXIvdHdrc19nZWNhXzI0XzI1LmpwZw/twks_geca_24_25.jpg?p=full&s=1b4063d0596a28d421d21de8bf406b05",
+    "kb": 301,
+    "type": "Image"
+   },
+   {
+    "url": "https://twks.ch/en/img/asset/aG9tZV9zbGlkZXIvbWNrX2dlY2EyNl9sYXB0b3AuanBn/mck_geca26_laptop.jpg?p=full&s=64383aaf326b36f1d2c54dccb6f384dd",
+    "kb": 294,
+    "type": "Image"
+   },
+   {
+    "url": "https://twks.ch/en/img/asset/aG9tZV9zbGlkZXIvdHdrc19vY2dfMDMuanBn/twks_ocg_03.jpg?p=full&s=8726ebfa05c5c4424fc9eb08a65dcef2",
+    "kb": 286,
+    "type": "Image"
+   },
+   {
+    "url": "https://twks.ch/en/img/asset/aG9tZV9zbGlkZXIvdHdrc19tZXlyaW5jdWx0dXJlXzA3LmpwZw/twks_meyrinculture_07.jpg?p=full&s=e266b54ccaf412ef151c855fa1ee0cae",
+    "kb": 254,
+    "type": "Image"
+   },
+   {
+    "url": "https://twks.ch/en/img/asset/aG9tZV9zbGlkZXIvdHdrc19mYXZyZV9ndXRoLmpwZw/twks_favre_guth.jpg?p=full&s=b6b2f7d5d0512e0e7dd5396500d9fcd6",
+    "kb": 164,
+    "type": "Image"
+   }
+  ]
+ },
+ "durationS": 47
+}

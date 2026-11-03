@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,89567,o=>{"use strict";var e=o.i(71645);o.s(["default",0,function(){return(0,e.useEffect)(()=>{console.log("Developed by Yousuf Soomro")},[]),null}])}]);

@@ -1,0 +1,41 @@
+{
+ "id": 21,
+ "name": "Heron AI",
+ "sourceUrl": "https://heronaiapp.com/",
+ "capturedAt": "2026-11-02T23:35:36.467Z",
+ "status": "inaccessible",
+ "errors": [
+  "goto load: page.goto: Target page, context or browser has been closed",
+  "goto dcl: page.goto: Target page, context or browser has been closed",
+  "shot0 browserContext.newCDPSession: Target page, context or browser has been closed",
+  "extract: page.evaluate: Target page, context or browser has been closed",
+  "fullpage: page.evaluate: Target page, context or browser has been closed",
+  "browser.newContext: Target page, context or browser has been closed"
+ ],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [],
+  "subpages": [],
+  "video": "desktop-scroll.webm"
+ },
+ "httpStatus": null,
+ "libs": {
+  "detected": [],
+  "where": {},
+  "gsapVersion": null,
+  "threeRevision": null,
+  "shaders": 0,
+  "scripts": 0
+ },
+ "network": {
+  "requests": 0,
+  "totalKb": 0,
+  "byType": {},
+  "thirdPartyHosts": [],
+  "fontFiles": [],
+  "biggest": []
+ },
+ "durationS": 16
+}

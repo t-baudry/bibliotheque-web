@@ -1,0 +1,567 @@
+{
+ "id": 5,
+ "name": "G. Colombel - Portfolio 2026",
+ "sourceUrl": "https://guillaumecolombel.fr/",
+ "capturedAt": "2026-11-02T23:14:38.471Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "desktopFrames": [
+   "desktop-01.jpg"
+  ],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [
+   {
+    "url": "https://guillaumecolombel.fr/about",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://guillaumecolombel.fr/projects/clarte",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   }
+  ],
+  "rea": "erreur: Command failed: C:\\Program Files\\nodejs\\node.exe C:\\Users\\Utilisateur\\Documents\\Pro\\Bibliothèque web\\_outils\\node_modules\\rea-agents\\scripts\\rea.mjs analyze-web-bundle http://127.0.0.1:9302 5750C3B3E3",
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://guillaumecolombel.fr/",
+ "title": "Guillaume Colombel — Freelance Interactive Developer",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Freelance Interactive Developer specializing in immersive web experiences and creative websites. Based in Paris, available worldwide.",
+  "canonical": "https://guillaumecolombel.fr/",
+  "robots": null,
+  "ogTitle": "Guillaume Colombel — Freelance Interactive Developer",
+  "ogImage": "https://guillaumecolombel.fr/opengraph-2026.jpg",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "Person",
+   "WebSite"
+  ],
+  "h1Count": 1,
+  "headings": [
+   "H1 Guillaume Colombel, freelance interactive developer"
+  ],
+  "imgs": 0,
+  "imgNoAlt": 0,
+  "favicon": "https://guillaumecolombel.fr/favicon-96.png",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#ffd6b0",
+    "w": 756
+   }
+  ],
+  "text": [
+   {
+    "v": "#f4f2ee",
+    "w": 272
+   },
+   {
+    "v": "#ffffff",
+    "w": 51
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "Neue Montreal",
+    "w": 328
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "12px",
+    "w": 46
+   },
+   {
+    "v": "17px",
+    "w": 10
+   },
+   {
+    "v": "10px",
+    "w": 7
+   },
+   {
+    "v": "14px",
+    "w": 2
+   },
+   {
+    "v": "16px",
+    "w": 2
+   },
+   {
+    "v": "32px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "50%",
+    "w": 21
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.22 0.6s",
+    "w": 4
+   },
+   {
+    "v": "ease 0.25s",
+    "w": 3
+   },
+   {
+    "v": "cubic-bezier(0.165 0.4s",
+    "w": 2
+   },
+   {
+    "v": "cubic-bezier(0.165 0.16s",
+    "w": 2
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "\"Neue Montreal\", system-ui, sans-serif",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Guillaume Colombel, freelance interactive developer"
+   },
+   "p": {
+    "family": "\"Neue Montreal\", system-ui, sans-serif",
+    "size": "17px",
+    "weight": "400",
+    "lineHeight": "25.5px",
+    "letterSpacing": "0.085px",
+    "transform": "none",
+    "color": "#f4f2ee",
+    "sample": "Guillaume Colombel, freelance interactive developer."
+   },
+   "a": {
+    "family": "\"Neue Montreal\", system-ui, sans-serif",
+    "size": "14px",
+    "weight": "600",
+    "lineHeight": "16.8px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#f4f2ee",
+    "sample": "Guillaume Colombel"
+   },
+   "button": {
+    "family": "\"Neue Montreal\", system-ui, sans-serif",
+    "size": "12px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "0.24px",
+    "transform": "none",
+    "color": "#f4f2ee",
+    "sample": "Copy email"
+   },
+   "li": {
+    "family": "\"Neue Montreal\", system-ui, sans-serif",
+    "size": "12px",
+    "weight": "400",
+    "lineHeight": "18px",
+    "letterSpacing": "0.24px",
+    "transform": "none",
+    "color": "#f4f2ee",
+    "sample": "16xAwwwards, Site of the Day"
+   },
+   "body": {
+    "family": "\"Neue Montreal\", system-ui, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Guillaume ColombelAboutwireframeuvclaynormalstransmissionbeautybeauty01CLARTÉ02J"
+   }
+  },
+  "cssVars": {
+   "--black": "#050404",
+   "--ivory": "#f0ebe2"
+  },
+  "fontFaces": [
+   {
+    "family": "Neue Montreal",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/NeueMontreal-Regular.woff2\") format(\"woff2\"), url(\"/assets/fonts/NeueMontreal-Regular.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Neue Montreal",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/NeueMontreal-Medium.woff2\") format(\"woff2\"), url(\"/assets/fonts/NeueMontreal-Medium.woff\") format(\"woff\")"
+   }
+  ],
+  "keyframes": [
+   "sound-pop-on",
+   "sound-pop-off",
+   "stele-ui-in",
+   "visit-rule",
+   "visit-ne-out",
+   "visit-ne-in",
+   "arrow-leave",
+   "arrow-erase",
+   "arrow-draw",
+   "arrow-undraw",
+   "lost-in",
+   "lost-arrow-leave",
+   "lost-arrow-erase",
+   "lost-arrow-draw",
+   "lost-arrow-undraw"
+  ],
+  "breakpoints": [
+   {
+    "v": "768px",
+    "w": 5
+   }
+  ],
+  "rulesCount": 293,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [],
+  "navLinks": [
+   {
+    "t": "Guillaume Colombel",
+    "href": "https://guillaumecolombel.fr/"
+   },
+   {
+    "t": "About",
+    "href": "https://guillaumecolombel.fr/about"
+   },
+   {
+    "t": "01CLARTÉ",
+    "href": "https://guillaumecolombel.fr/projects/clarte"
+   },
+   {
+    "t": "02Jean Paul Gaultier — La Favorite",
+    "href": "https://guillaumecolombel.fr/projects/jpg-la-favorite"
+   },
+   {
+    "t": "03Chris Macari",
+    "href": "https://guillaumecolombel.fr/projects/chris-macari"
+   },
+   {
+    "t": "04Ousmane Ballon d'Or",
+    "href": "https://guillaumecolombel.fr/projects/ousmane-ballon-dor"
+   },
+   {
+    "t": "05Axel Vanhessche",
+    "href": "https://guillaumecolombel.fr/projects/axel-vanhessche"
+   },
+   {
+    "t": "06Kaizen",
+    "href": "https://guillaumecolombel.fr/projects/kaizen"
+   },
+   {
+    "t": "07Magical Pantry",
+    "href": "https://guillaumecolombel.fr/projects/magical-pantry"
+   },
+   {
+    "t": "08Portfolio 2024",
+    "href": "https://guillaumecolombel.fr/projects/portfolio-2024"
+   },
+   {
+    "t": "09Adrien Laurent",
+    "href": "https://guillaumecolombel.fr/projects/adrien-laurent"
+   },
+   {
+    "t": "10Jean Dawson",
+    "href": "https://guillaumecolombel.fr/projects/jean-dawson"
+   },
+   {
+    "t": "11Salomon Ligthelm",
+    "href": "https://guillaumecolombel.fr/projects/salomon-ligthelm"
+   },
+   {
+    "t": "12Rabanne — 1 Million Black",
+    "href": "https://guillaumecolombel.fr/projects/rabanne-1-million-black"
+   },
+   {
+    "t": "Instagram",
+    "href": "https://instagram.com/guicolombel"
+   },
+   {
+    "t": "LinkedIn",
+    "href": "https://linkedin.com/in/guillaumecolombel"
+   },
+   {
+    "t": "Twitter",
+    "href": "https://x.com/guicolombel"
+   }
+  ],
+  "ctas": [],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 2,
+   "videos": 0,
+   "imgs": 0,
+   "svgs": 4,
+   "iframes": 0,
+   "domNodes": 260
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": false,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "185",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": true,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": true,
+  "cms": [],
+  "analytics": [],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://cloud.umami.is/script.js",
+  "https://guillaumecolombel.fr/_nuxt/BegnV_pG.js"
+ ],
+ "internal": [
+  "https://guillaumecolombel.fr/about",
+  "https://guillaumecolombel.fr/projects/clarte",
+  "https://guillaumecolombel.fr/projects/jpg-la-favorite",
+  "https://guillaumecolombel.fr/projects/chris-macari",
+  "https://guillaumecolombel.fr/projects/ousmane-ballon-dor",
+  "https://guillaumecolombel.fr/projects/axel-vanhessche",
+  "https://guillaumecolombel.fr/projects/kaizen",
+  "https://guillaumecolombel.fr/projects/magical-pantry",
+  "https://guillaumecolombel.fr/projects/portfolio-2024",
+  "https://guillaumecolombel.fr/projects/adrien-laurent",
+  "https://guillaumecolombel.fr/projects/jean-dawson",
+  "https://guillaumecolombel.fr/projects/salomon-ligthelm",
+  "https://guillaumecolombel.fr/projects/rabanne-1-million-black"
+ ],
+ "perf": {
+  "ttfb": 260,
+  "dcl": 562,
+  "load": 612,
+  "lcp": 0,
+  "lcpEl": null,
+  "cls": 0
+ },
+ "libs": {
+  "detected": [
+   "Contentful",
+   "GSAP",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Locomotive Scroll",
+   "Howler (audio)",
+   "Vue",
+   "Nuxt",
+   "Three.js",
+   "Lil-GUI/Tweakpane (debug)"
+  ],
+  "where": {
+   "Contentful": [
+    "001-script.js",
+    "003-script.js"
+   ],
+   "GSAP": [
+    "004-BegnV_pG.js",
+    "005-BegnV_pG.js"
+   ],
+   "ScrollTrigger": [
+    "004-BegnV_pG.js",
+    "005-BegnV_pG.js"
+   ],
+   "SplitText/SplitType": [
+    "004-BegnV_pG.js",
+    "005-BegnV_pG.js"
+   ],
+   "Locomotive Scroll": [
+    "004-BegnV_pG.js",
+    "005-BegnV_pG.js",
+    "005-DyApX3F_.js",
+    "007-DyApX3F_.js"
+   ],
+   "Howler (audio)": [
+    "004-BegnV_pG.js",
+    "004-ZcAlFalt.js",
+    "005-BegnV_pG.js",
+    "007-ZcAlFalt.js",
+    "010-ZcAlFalt.js"
+   ],
+   "Vue": [
+    "004-BegnV_pG.js",
+    "005-BegnV_pG.js"
+   ],
+   "Nuxt": [
+    "004-BegnV_pG.js",
+    "005-BegnV_pG.js"
+   ],
+   "Three.js": [
+    "006-q85zufTc.js",
+    "008-q85zufTc.js",
+    "009-q85zufTc.js"
+   ],
+   "Lil-GUI/Tweakpane (debug)": [
+    "006-q85zufTc.js",
+    "008-q85zufTc.js",
+    "009-q85zufTc.js"
+   ]
+  },
+  "gsapVersion": null,
+  "threeRevision": null,
+  "shaders": 8,
+  "scripts": 17
+ },
+ "network": {
+  "requests": 32,
+  "totalKb": 3273,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 8
+   },
+   "Other": {
+    "n": 6,
+    "kb": 326
+   },
+   "Image": {
+    "n": 2,
+    "kb": 200
+   },
+   "Script": {
+    "n": 7,
+    "kb": 111
+   },
+   "Font": {
+    "n": 2,
+    "kb": 47
+   },
+   "Fetch": {
+    "n": 12,
+    "kb": 791
+   },
+   "Preflight": {
+    "n": 1,
+    "kb": 0
+   },
+   "Media": {
+    "n": 1,
+    "kb": 1789
+   }
+  },
+  "thirdPartyHosts": [
+   "cloud.umami.is",
+   "gateway.umami.is"
+  ],
+  "fontFiles": [
+   "https://guillaumecolombel.fr/assets/fonts/NeueMontreal-Medium.woff2",
+   "https://guillaumecolombel.fr/assets/fonts/NeueMontreal-Regular.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://guillaumecolombel.fr/assets/covers/clarte.mp4",
+    "kb": 1789,
+    "type": "Media"
+   },
+   {
+    "url": "https://guillaumecolombel.fr/_nuxt/q85zufTc.js",
+    "kb": 303,
+    "type": "Other"
+   },
+   {
+    "url": "https://guillaumecolombel.fr/assets/covers/axel-vanhessche.webp",
+    "kb": 269,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://guillaumecolombel.fr/assets/covers/portfolio-2024.webp",
+    "kb": 239,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://guillaumecolombel.fr/assets/fonts/integral-msdf.png",
+    "kb": 193,
+    "type": "Image"
+   },
+   {
+    "url": "https://guillaumecolombel.fr/_nuxt/BegnV_pG.js",
+    "kb": 104,
+    "type": "Script"
+   },
+   {
+    "url": "https://guillaumecolombel.fr/assets/covers/ousmane-ballon-dor.webp",
+    "kb": 89,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://guillaumecolombel.fr/assets/covers/jean-dawson.webp",
+    "kb": 70,
+    "type": "Fetch"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "32px",
+   "lineHeight": "normal"
+  },
+  "body": "16px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 562
+}

@@ -1,0 +1,14 @@
+/* ===== https://gilhuybrecht.com/_nuxt/index.BNTavj1K.css ===== */
+.media__aspect{width:100%}.media__picture{height:100%;left:0;position:absolute;top:0;width:100%}.media__picture.is-animated{opacity:0;transition:opacity 1s ease-out}.is-fast-animated .media__picture.is-animated{transition-duration:.2s}.is-loaded .media__picture.is-animated{opacity:1}.media__video{z-index:2}.media__video.is-animated{opacity:0;transition:opacity 1s ease-out}.is-fast-animated .media__video.is-animated{transition-duration:.2s}.is-loaded .media__video.is-animated{opacity:1}
+
+
+/* ===== https://gilhuybrecht.com/_nuxt/index.C9NGgy1a.css ===== */
+.projects{padding-top:15rem}@media(min-width:650px){.projects{padding-top:clamp(25rem,50vh,50rem)}}
+
+
+/* ===== https://gilhuybrecht.com/_nuxt/profile.CLhtfNTd.css ===== */
+.crawl-src{font-size:5vw;letter-spacing:-.02em;line-height:1.08;width:60vw}.crawl-src p+p{margin-top:1.1em}
+
+
+/* ===== https://gilhuybrecht.com/_nuxt/gallery.BwGtHGK3.css ===== */
+.gallery{padding-top:clamp(25rem,50vh,50rem)}.gallery-grid{display:grid;grid-template-columns:repeat(14,minmax(0,1fr))}.gallery-item{grid-column:1/-1;grid-row:var(--row)}@media(min-width:650px){.gallery-item{grid-column:var(--start)/span var(--span)}}.gallery-item:after{border:1px solid;content:"";inset:0;opacity:0;pointer-events:none;position:absolute;transition:opacity .2s cubic-bezier(.23,1,.32,1)}.gallery-item--hovered:after{opacity:1}.gallery-thumbs{left:1.4rem;position:fixed;right:1.4rem;top:1.4rem;grid-row-gap:1.4rem;pointer-events:none;z-index:2}.gallery .gallery-thumb{grid-column:span 2/span 2}

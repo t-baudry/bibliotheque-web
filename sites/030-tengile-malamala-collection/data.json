@@ -1,0 +1,861 @@
+{
+ "id": 30,
+ "name": "Tengile Malamala Collection",
+ "sourceUrl": "https://tengilemalamala.com/",
+ "capturedAt": "2026-11-02T23:40:59.254Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [
+   "txt:Accept All"
+  ],
+  "enter": "Explore",
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg"
+  ],
+  "fullPage": 11532,
+  "subpages": [
+   {
+    "url": "https://tengilemalamala.com/booking",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://tengilemalamala.com/about",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://tengilemalamala.com/accommodation",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://tengilemalamala.com/",
+ "title": "Luxury Safari Experiences in Greater Kruger & Sabi Sand | Tengile MalaMala Collection",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Discover luxury safari experiences in Greater Kruger and Sabi Sand. Wildlife, luxury accommodation and unforgettable Big Five encounters. Explore MalaMala.",
+  "canonical": "https://tengilemalamala.com/",
+  "robots": "index, follow",
+  "ogTitle": "Luxury Safari Experiences in Greater Kruger & Sabi Sand | Tengile MalaMala Collection",
+  "ogImage": "https://cdn.sanity.io/images/lbfzk6b6/production/ca6fbf894e87773a6deda777b11eb76f89958e3b-1200x630.jpg",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "LodgingBusiness"
+  ],
+  "h1Count": 1,
+  "headings": [
+   "H1 UNMATCHEDABUNDANCE",
+   "H2 Along one of the most wildlife-rich stretches of the Sand River in the Sabi Sand region, T",
+   "H2 Our lodges and camps each offer a distinct expression of the wilderness, from earthy tradi",
+   "H2 Lodges",
+   "H3 Tengile River Lodge",
+   "H3 Rattray's Lodge",
+   "H3 Khensani River Lodge",
+   "H2 Camps",
+   "H3 MalaMala Camp",
+   "H3 Sable Camp",
+   "H3 Kirkman's Kamp",
+   "H2 With roots reaching back to 1927, our story is one of stewardship, partnership and respect",
+   "H2 Preserving Life’s Balance",
+   "H2 Our purpose extends beyond the land – it’s about people. As one of South Africa’s few blac",
+   "H2 Our dedicated travel specialists craft every journey with care, shaping seamless experienc",
+   "H3 Subscribe to our newsletter",
+   "H3 Explore",
+   "H3 Company",
+   "H3 Malamala Game Reserve",
+   "H3 Tengile Game Reserve",
+   "H3 Connect"
+  ],
+  "imgs": 38,
+  "imgNoAlt": 38,
+  "favicon": "https://tengilemalamala.com/assets/images/icon-32.png",
+  "themeColor": "#242d23"
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#e3e1d4",
+    "w": 12147081
+   },
+   {
+    "v": "#f5eee9",
+    "w": 2077510
+   },
+   {
+    "v": "#5c6e21",
+    "w": 1997850
+   },
+   {
+    "v": "#fbf8f6",
+    "w": 86913
+   }
+  ],
+  "text": [
+   {
+    "v": "#373f1d",
+    "w": 2659
+   },
+   {
+    "v": "#5c6e21",
+    "w": 599
+   },
+   {
+    "v": "#f5eee9",
+    "w": 452
+   },
+   {
+    "v": "#fbf8f6",
+    "w": 358
+   },
+   {
+    "v": "#e3e1d4",
+    "w": 167
+   },
+   {
+    "v": "#ffffff",
+    "w": 22
+   },
+   {
+    "v": "#a5a593",
+    "w": 19
+   }
+  ],
+  "border": [
+   {
+    "v": "#a5a593",
+    "w": 3
+   }
+  ],
+  "fonts": [
+   {
+    "v": "Inter",
+    "w": 2310
+   },
+   {
+    "v": "PP Fragment",
+    "w": 1966
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "16px",
+    "w": 48
+   },
+   {
+    "v": "14px",
+    "w": 42
+   },
+   {
+    "v": "120px",
+    "w": 18
+   },
+   {
+    "v": "20px",
+    "w": 7
+   },
+   {
+    "v": "32px",
+    "w": 6
+   },
+   {
+    "v": "40px",
+    "w": 5
+   },
+   {
+    "v": "48px",
+    "w": 2
+   },
+   {
+    "v": "18px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "2px",
+    "w": 22
+   },
+   {
+    "v": "4px",
+    "w": 8
+   },
+   {
+    "v": "24px",
+    "w": 6
+   },
+   {
+    "v": "50%",
+    "w": 2
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "ease 0.3s",
+    "w": 78
+   },
+   {
+    "v": "cubic-bezier(0.19 1.6s",
+    "w": 18
+   },
+   {
+    "v": "cubic-bezier(0.19 0.4s",
+    "w": 14
+   },
+   {
+    "v": "cubic-bezier(0.165 0.5s",
+    "w": 2
+   },
+   {
+    "v": "cubic-bezier(0.77 0.8s",
+    "w": 2
+   },
+   {
+    "v": "cubic-bezier(0.25 0.3s",
+    "w": 1
+   },
+   {
+    "v": "cubic-bezier(0.165 1s",
+    "w": 1
+   },
+   {
+    "v": "cubic-bezier(0.19 2s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "\"PP Fragment\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "size": "120px",
+    "weight": "220",
+    "lineHeight": "108px",
+    "letterSpacing": "-2.4px",
+    "transform": "uppercase",
+    "color": "#f5eee9",
+    "sample": "UNMATCHEDABUNDANCE"
+   },
+   "h2": {
+    "family": "\"PP Fragment\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "size": "32px",
+    "weight": "310",
+    "lineHeight": "36.8px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#373f1d",
+    "sample": "Along one of the most wildlife-rich stretches of the Sand River in the Sabi Sand"
+   },
+   "h3": {
+    "family": "\"PP Fragment\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "size": "20px",
+    "weight": "310",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#373f1d",
+    "sample": "Tengile River Lodge"
+   },
+   "p": {
+    "family": "\"PP Fragment\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "size": "18px",
+    "weight": "310",
+    "lineHeight": "19.8px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#f5eee9",
+    "sample": "A rare opportunity to experience and protect an iconic African wilderness of ext"
+   },
+   "a": {
+    "family": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "size": "14px",
+    "weight": "500",
+    "lineHeight": "14px",
+    "letterSpacing": "-0.28px",
+    "transform": "none",
+    "color": "#373f1d",
+    "sample": "Skip to main content"
+   },
+   "button": {
+    "family": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "size": "14px",
+    "weight": "500",
+    "lineHeight": "14px",
+    "letterSpacing": "-0.14px",
+    "transform": "uppercase",
+    "color": "#373f1d",
+    "sample": "Menu"
+   },
+   "li": {
+    "family": "\"PP Fragment\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "size": "40px",
+    "weight": "220",
+    "lineHeight": "40px",
+    "letterSpacing": "-0.16px",
+    "transform": "none",
+    "color": "#373f1d",
+    "sample": "About"
+   },
+   "body": {
+    "family": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "-0.16px",
+    "transform": "none",
+    "color": "#373f1d",
+    "sample": "Skip to main contentEnquireMenuCloseAboutAccommodationExperiencesConservationPar"
+   }
+  },
+  "cssVars": {
+   "--lvh": "1vh",
+   "--svh": "1vh",
+   "--size": "1920"
+  },
+  "fontFaces": [
+   {
+    "family": "PP Fragment",
+    "weight": "",
+    "style": "normal",
+    "src": "url(\"/fonts/PPFragment-GlareVariable.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/fonts/inter-regular.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"/fonts/inter-medium.woff2\") format(\"woff2\")"
+   }
+  ],
+  "keyframes": [
+   "DrawerSkeleton-module-scss-module__Zmpd7q__skeleton-fade",
+   "SectionImagesMarquee-module-scss-module__eXBUiG__marquee",
+   "plyr-progress",
+   "plyr-popup",
+   "plyr-fade-in",
+   "SectionMap-module-scss-module__xgLpBa__pinPointIddler"
+  ],
+  "breakpoints": [
+   {
+    "v": "1024px",
+    "w": 518
+   },
+   {
+    "v": "1920px",
+    "w": 307
+   },
+   {
+    "v": "1023px",
+    "w": 162
+   },
+   {
+    "v": "486px",
+    "w": 11
+   },
+   {
+    "v": "640px",
+    "w": 4
+   },
+   {
+    "v": "639px",
+    "w": 2
+   },
+   {
+    "v": "480px",
+    "w": 2
+   },
+   {
+    "v": "390px",
+    "w": 1
+   },
+   {
+    "v": "768px",
+    "w": 1
+   },
+   {
+    "v": "767px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 3572,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "",
+    "h": 11030,
+    "title": "UNMATCHEDABUNDANCE",
+    "media": 39
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "Enquire",
+    "href": "https://tengilemalamala.com/booking"
+   },
+   {
+    "t": "",
+    "href": "https://tengilemalamala.com/"
+   },
+   {
+    "t": "About",
+    "href": "https://tengilemalamala.com/about"
+   },
+   {
+    "t": "Accommodation",
+    "href": "https://tengilemalamala.com/accommodation"
+   },
+   {
+    "t": "Experiences",
+    "href": "https://tengilemalamala.com/experiences"
+   },
+   {
+    "t": "Conservation",
+    "href": "https://tengilemalamala.com/conservation"
+   },
+   {
+    "t": "Partner Hub",
+    "href": "https://tengilemalamala.com/partner-hub"
+   },
+   {
+    "t": "Stories",
+    "href": "https://tengilemalamala.com/stories"
+   },
+   {
+    "t": "Wildlife Journals",
+    "href": "https://tengilemalamala.com/wildlife-journal"
+   },
+   {
+    "t": "Gallery",
+    "href": "https://tengilemalamala.com/gallery"
+   },
+   {
+    "t": "FAQ",
+    "href": "https://tengilemalamala.com/faq"
+   },
+   {
+    "t": "Contact",
+    "href": "https://tengilemalamala.com/contact"
+   },
+   {
+    "t": "Plan Your Stay",
+    "href": "https://tengilemalamala.com/booking"
+   },
+   {
+    "t": "About",
+    "href": "https://tengilemalamala.com/about"
+   },
+   {
+    "t": "Accommodation",
+    "href": "https://tengilemalamala.com/accommodation"
+   },
+   {
+    "t": "Experiences",
+    "href": "https://tengilemalamala.com/experiences"
+   },
+   {
+    "t": "Conservation",
+    "href": "https://tengilemalamala.com/conservation"
+   },
+   {
+    "t": "Partner Hub",
+    "href": "https://tengilemalamala.com/partner-hub"
+   },
+   {
+    "t": "Stories",
+    "href": "https://tengilemalamala.com/stories"
+   },
+   {
+    "t": "Wildlife Journals",
+    "href": "https://tengilemalamala.com/wildlife-journal"
+   },
+   {
+    "t": "Gallery",
+    "href": "https://tengilemalamala.com/gallery"
+   },
+   {
+    "t": "FAQ",
+    "href": "https://tengilemalamala.com/faq"
+   },
+   {
+    "t": "Contact",
+    "href": "https://tengilemalamala.com/contact"
+   },
+   {
+    "t": "Plan Your Stay",
+    "href": "https://tengilemalamala.com/booking"
+   }
+  ],
+  "ctas": [],
+  "pageHeight": 11532,
+  "counts": {
+   "canvas": 0,
+   "videos": 1,
+   "imgs": 38,
+   "svgs": 22,
+   "iframes": 0,
+   "domNodes": 753
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": false,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": true,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [
+   "sanity"
+  ],
+  "analytics": [
+   "googletagmanager",
+   "gtag"
+  ],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": false
+ },
+ "scripts": [
+  "https://www.googletagmanager.com/gtag/js?id=G-61PY6JQCW1&cx=c&gtm=4e6au1",
+  "https://tengilemalamala.com/_next/static/chunks/ea2d203011477ad5.js",
+  "https://tengilemalamala.com/_next/static/chunks/bc33c8cc47ecd499.js",
+  "https://tengilemalamala.com/_next/static/chunks/6f4704ed30d2e22c.js",
+  "https://tengilemalamala.com/_next/static/chunks/eab46db3e20d2fbc.js",
+  "https://tengilemalamala.com/_next/static/chunks/2c6eb7d379aa75a0.js",
+  "https://tengilemalamala.com/_next/static/chunks/6a19777aa9acf744.js",
+  "https://tengilemalamala.com/_next/static/chunks/abf74bf39dc2e291.js",
+  "https://tengilemalamala.com/_next/static/chunks/ecb023d1377d754b.js",
+  "https://tengilemalamala.com/_next/static/chunks/d9d05a2a7eafa578.js",
+  "https://tengilemalamala.com/_next/static/chunks/turbopack-1198868ab744aba5.js",
+  "https://tengilemalamala.com/_next/static/chunks/0459ae8ae0a409ed.js",
+  "https://tengilemalamala.com/_next/static/chunks/95cbba95617b59b7.js",
+  "https://tengilemalamala.com/_next/static/chunks/1f8a66739f3beae5.js",
+  "https://tengilemalamala.com/_next/static/chunks/fdc5c9b14da6267d.js",
+  "https://tengilemalamala.com/_next/static/chunks/turbopack-abf8f7aec4ce03da.js",
+  "https://tengilemalamala.com/_next/static/fysAX0ORQvpdVT8uq5NmQ/_ssgManifest.js",
+  "https://tengilemalamala.com/_next/static/fysAX0ORQvpdVT8uq5NmQ/_buildManifest.js",
+  "https://tengilemalamala.com/_next/static/chunks/c83913b757ce2b9d.js",
+  "https://tengilemalamala.com/_next/static/chunks/06e320700a080908.js",
+  "https://tengilemalamala.com/_next/static/chunks/f50f5f3120cbc8ed.js",
+  "https://tengilemalamala.com/_next/static/chunks/f39e63cb12b19b1b.js",
+  "https://tengilemalamala.com/_next/static/chunks/9f164cfc0bab4cb8.js",
+  "https://tengilemalamala.com/_next/static/chunks/turbopack-87afad4679ebedaf.js",
+  "https://tengilemalamala.com/_next/static/chunks/642116eeb6ef7790.js",
+  "https://tengilemalamala.com/_next/static/chunks/turbopack-d4a7a114bfd3d0a3.js",
+  "https://tengilemalamala.com/_next/static/chunks/4b3f931a7b949188.js",
+  "https://tengilemalamala.com/_next/static/chunks/turbopack-a4c06971553663ab.js",
+  "https://tengilemalamala.com/_next/static/chunks/7f1a467769cf8485.js",
+  "https://tengilemalamala.com/_next/static/chunks/7a4138b45fe55f3c.js",
+  "https://tengilemalamala.com/_next/static/chunks/turbopack-4cc286ff612c85ea.js",
+  "https://tengilemalamala.com/_next/static/chunks/e67316a1312bca2f.js",
+  "https://tengilemalamala.com/_next/static/chunks/d51c2385ec173ac5.js",
+  "https://tengilemalamala.com/_next/static/chunks/turbopack-cfb401ace5e07b2b.js",
+  "https://tengilemalamala.com/_next/static/chunks/be2830bf408f015a.js",
+  "https://tengilemalamala.com/_next/static/chunks/turbopack-a136b460a867a5eb.js",
+  "https://tengilemalamala.com/_next/static/chunks/b9c04653e02047ff.js",
+  "https://tengilemalamala.com/_next/static/chunks/turbopack-d91a23a95ae4de37.js",
+  "https://tengilemalamala.com/_next/static/chunks/6032b4a1bd4c9fea.js",
+  "https://tengilemalamala.com/_next/static/chunks/turbopack-7aef715d81772d1e.js",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-MMWFT46X",
+  "https://tengilemalamala.com/_next/static/chunks/e641e1f4e6060622.js",
+  "https://tengilemalamala.com/_next/static/chunks/658421dc36e5a9ef.js",
+  "https://tengilemalamala.com/_next/static/chunks/c33502467184b86d.js",
+  "https://tengilemalamala.com/_next/static/chunks/6dac811c4b80a784.js",
+  "https://tengilemalamala.com/_next/static/chunks/e5c02031f358ac01.js",
+  "https://tengilemalamala.com/_next/static/chunks/1edbd5cb34fc6212.js",
+  "https://tengilemalamala.com/_next/static/chunks/6e112291d0545eb4.js",
+  "https://tengilemalamala.com/_next/static/chunks/544122e0c1ad51a5.js"
+ ],
+ "internal": [
+  "https://tengilemalamala.com/booking",
+  "https://tengilemalamala.com/about",
+  "https://tengilemalamala.com/accommodation",
+  "https://tengilemalamala.com/experiences",
+  "https://tengilemalamala.com/conservation",
+  "https://tengilemalamala.com/partner-hub",
+  "https://tengilemalamala.com/stories",
+  "https://tengilemalamala.com/wildlife-journal",
+  "https://tengilemalamala.com/gallery",
+  "https://tengilemalamala.com/faq",
+  "https://tengilemalamala.com/contact",
+  "https://tengilemalamala.com/accommodation/tengile-river-lodge",
+  "https://tengilemalamala.com/accommodation/rattrays-lodge",
+  "https://tengilemalamala.com/accommodation/khensani-river-lodge",
+  "https://tengilemalamala.com/accommodation/malamala-camp",
+  "https://tengilemalamala.com/accommodation/sable-camp",
+  "https://tengilemalamala.com/accommodation/kirkmans-kamp",
+  "https://tengilemalamala.com/privacy-policy",
+  "https://tengilemalamala.com/terms-and-conditions"
+ ],
+ "perf": {
+  "ttfb": 130,
+  "dcl": 355,
+  "load": 877,
+  "lcp": 468,
+  "lcpEl": "SPAN.HeroTitle-module-scss-module__Eg-KiW__text",
+  "cls": 0.044
+ },
+ "libs": {
+  "detected": [
+   "Next.js",
+   "React",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Lenis",
+   "Virtual scroll",
+   "Sanity",
+   "GSAP",
+   "Barba.js"
+  ],
+  "where": {
+   "Next.js": [
+    "001-6f4704ed30d2e22c.js",
+    "003-2c6eb7d379aa75a0.js",
+    "004-eab46db3e20d2fbc.js",
+    "011-1f8a66739f3beae5.js",
+    "016-ecb023d1377d754b.js",
+    "041-e67316a1312bca2f.js",
+    "042-7f1a467769cf8485.js",
+    "043-7a4138b45fe55f3c.js",
+    "050-b9c04653e02047ff.js"
+   ],
+   "React": [
+    "003-2c6eb7d379aa75a0.js",
+    "004-eab46db3e20d2fbc.js",
+    "011-1f8a66739f3beae5.js",
+    "016-ecb023d1377d754b.js",
+    "041-e67316a1312bca2f.js",
+    "042-7f1a467769cf8485.js",
+    "043-7a4138b45fe55f3c.js",
+    "050-b9c04653e02047ff.js"
+   ],
+   "ScrollTrigger": [
+    "006-d9d05a2a7eafa578.js",
+    "007-abf74bf39dc2e291.js",
+    "008-0459ae8ae0a409ed.js",
+    "011-1f8a66739f3beae5.js",
+    "012-95cbba95617b59b7.js",
+    "017-fdc5c9b14da6267d.js",
+    "031-4b3f931a7b949188.js",
+    "033-642116eeb6ef7790.js",
+    "041-e67316a1312bca2f.js",
+    "042-7f1a467769cf8485.js",
+    "043-7a4138b45fe55f3c.js",
+    "044-d51c2385ec173ac5.js",
+    "045-be2830bf408f015a.js",
+    "050-b9c04653e02047ff.js"
+   ],
+   "SplitText/SplitType": [
+    "006-d9d05a2a7eafa578.js",
+    "007-abf74bf39dc2e291.js",
+    "011-1f8a66739f3beae5.js",
+    "012-95cbba95617b59b7.js",
+    "017-fdc5c9b14da6267d.js",
+    "044-d51c2385ec173ac5.js"
+   ],
+   "Lenis": [
+    "006-d9d05a2a7eafa578.js",
+    "007-abf74bf39dc2e291.js",
+    "012-95cbba95617b59b7.js",
+    "017-fdc5c9b14da6267d.js",
+    "025-06e320700a080908.js",
+    "034-f39e63cb12b19b1b.js",
+    "041-e67316a1312bca2f.js",
+    "042-7f1a467769cf8485.js",
+    "043-7a4138b45fe55f3c.js",
+    "044-d51c2385ec173ac5.js",
+    "045-be2830bf408f015a.js",
+    "050-b9c04653e02047ff.js",
+    "styles.css"
+   ],
+   "Virtual scroll": [
+    "006-d9d05a2a7eafa578.js"
+   ],
+   "Sanity": [
+    "006-d9d05a2a7eafa578.js",
+    "007-abf74bf39dc2e291.js",
+    "012-95cbba95617b59b7.js",
+    "015-6a19777aa9acf744.js",
+    "017-fdc5c9b14da6267d.js",
+    "031-4b3f931a7b949188.js",
+    "041-e67316a1312bca2f.js",
+    "044-d51c2385ec173ac5.js"
+   ],
+   "GSAP": [
+    "007-abf74bf39dc2e291.js",
+    "017-fdc5c9b14da6267d.js",
+    "044-d51c2385ec173ac5.js"
+   ],
+   "Barba.js": [
+    "025-06e320700a080908.js"
+   ]
+  },
+  "gsapVersion": "3.11.0",
+  "threeRevision": null,
+  "shaders": 0,
+  "scripts": 56
+ },
+ "network": {
+  "requests": 138,
+  "totalKb": 7482,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 32
+   },
+   "Stylesheet": {
+    "n": 11,
+    "kb": 49
+   },
+   "Script": {
+    "n": 49,
+    "kb": 1112
+   },
+   "Media": {
+    "n": 1,
+    "kb": 4860
+   },
+   "Font": {
+    "n": 3,
+    "kb": 331
+   },
+   "Fetch": {
+    "n": 18,
+    "kb": 164
+   },
+   "Image": {
+    "n": 45,
+    "kb": 922
+   },
+   "Other": {
+    "n": 10,
+    "kb": 11
+   }
+  },
+  "thirdPartyHosts": [
+   "d1z1bhj01il1nu.cloudfront.net",
+   "cdn.sanity.io",
+   "www.googletagmanager.com",
+   "region1.google-analytics.com"
+  ],
+  "fontFiles": [
+   "https://tengilemalamala.com/fonts/inter-regular.woff2",
+   "https://tengilemalamala.com/fonts/PPFragment-GlareVariable.woff",
+   "https://tengilemalamala.com/fonts/inter-medium.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://d1z1bhj01il1nu.cloudfront.net/tmmc-home-hero-preview_1080p.mp4",
+    "kb": 4860,
+    "type": "Media"
+   },
+   {
+    "url": "https://tengilemalamala.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Flbfzk6b6%2Fproduction%2F9df8d1bf98e06bd9cf3d8d1ece76b09296eb30e0-7680x6776.jp",
+    "kb": 247,
+    "type": "Image"
+   },
+   {
+    "url": "https://www.googletagmanager.com/gtag/js?id=G-61PY6JQCW1&cx=c&gtm=4e6au1",
+    "kb": 177,
+    "type": "Script"
+   },
+   {
+    "url": "https://tengilemalamala.com/fonts/PPFragment-GlareVariable.woff",
+    "kb": 127,
+    "type": "Font"
+   },
+   {
+    "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MMWFT46X",
+    "kb": 121,
+    "type": "Script"
+   },
+   {
+    "url": "https://tengilemalamala.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Flbfzk6b6%2Fproduction%2F198b478bdb2519980fd7682bd68e61a8be330d40-2308x2936.jp",
+    "kb": 121,
+    "type": "Image"
+   },
+   {
+    "url": "https://tengilemalamala.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Flbfzk6b6%2Fproduction%2F8d7a933dd45f344ac9cde3552a61d232256041f8-2784x3360.jp",
+    "kb": 120,
+    "type": "Image"
+   },
+   {
+    "url": "https://tengilemalamala.com/fonts/inter-medium.woff2",
+    "kb": 106,
+    "type": "Font"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "48.75px",
+   "lineHeight": "43.875px"
+  },
+  "body": "16px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 114
+}

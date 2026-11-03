@@ -1,0 +1,798 @@
+{
+ "id": 39,
+ "name": "Moto Finance",
+ "sourceUrl": "https://www.moto-card.com/",
+ "capturedAt": "2026-11-02T23:49:21.219Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg"
+  ],
+  "fullPage": 11995,
+  "subpages": [
+   {
+    "url": "https://www.moto-card.com/partnership",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg"
+    ]
+   },
+   {
+    "url": "https://www.moto-card.com/legals/terms-and-conditions",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://www.moto-card.com/",
+ "title": "Moto Card | Homepage",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Visa Infinite card built for modern wealth. Zero FX fees globally, 24/7 concierge, exclusive access to hotels, dining & travel. $2,500/year membership.",
+  "canonical": null,
+  "robots": null,
+  "ogTitle": "Moto Card | Homepage",
+  "ogImage": "https://cdn.prod.website-files.com/6a7ad390f189a22016c86fa4/6a7ad390f189a22016c87017_OG2.png",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "WebPage"
+  ],
+  "h1Count": 1,
+  "headings": [
+   "H1 BUILT FOR MODERN WEALTH",
+   "H2 INFRASTRUCTURE FOR HOW YOU MOVE",
+   "H2 THE CARD IS ONLY THE BEGINNING",
+   "H2 Spend globally. 0 FX Fees built in.",
+   "H2 24/7 Concierge. Anything. Anytime.",
+   "H2 Made for the places you already move through.",
+   "H3 Hotels",
+   "H3 Dining",
+   "H3 Travel",
+   "H3 Experiences",
+   "H3 Wellness",
+   "H2 ACCESS OUR NETWORK",
+   "H2 FREQUENTLY ASKED QUESTIONS",
+   "H3 ABOUT MOTO",
+   "H3 COSTS & BENEFITS",
+   "H3 Usage",
+   "H2 A quieter way to move through the world",
+   "H2 Get early access",
+   "H2 Moto Membership"
+  ],
+  "imgs": 11,
+  "imgNoAlt": 5,
+  "favicon": "https://cdn.prod.website-files.com/6a7ad390f189a22016c86fa4/6aa287eae6a20181d1e35a5e_moto-icon.png",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#ffffff",
+    "w": 3294923
+   },
+   {
+    "v": "#edefef",
+    "w": 1944000
+   },
+   {
+    "v": "#080808",
+    "w": 1342170
+   },
+   {
+    "v": "#e1e5e5",
+    "w": 52674
+   },
+   {
+    "v": "#12191c",
+    "w": 24453
+   },
+   {
+    "v": "#1c2227",
+    "w": 7949
+   }
+  ],
+  "text": [
+   {
+    "v": "#080808",
+    "w": 9889
+   },
+   {
+    "v": "#e1e5e5",
+    "w": 532
+   },
+   {
+    "v": "#666f76",
+    "w": 416
+   },
+   {
+    "v": "#ffffff",
+    "w": 284
+   },
+   {
+    "v": "#c0c4c6",
+    "w": 233
+   },
+   {
+    "v": "#3a3e40",
+    "w": 17
+   },
+   {
+    "v": "#838a8f",
+    "w": 4
+   }
+  ],
+  "border": [
+   {
+    "v": "#20272c",
+    "w": 2
+   },
+   {
+    "v": "#1c1e20",
+    "w": 1
+   }
+  ],
+  "fonts": [
+   {
+    "v": "Neuemontreal",
+    "w": 12263
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "16px",
+    "w": 151
+   },
+   {
+    "v": "34.56px",
+    "w": 114
+   },
+   {
+    "v": "12px",
+    "w": 55
+   },
+   {
+    "v": "14px",
+    "w": 45
+   },
+   {
+    "v": "18px",
+    "w": 25
+   },
+   {
+    "v": "20px",
+    "w": 21
+   },
+   {
+    "v": "24px",
+    "w": 14
+   },
+   {
+    "v": "52px",
+    "w": 11
+   },
+   {
+    "v": "64px",
+    "w": 7
+   },
+   {
+    "v": "10px",
+    "w": 5
+   },
+   {
+    "v": "42px",
+    "w": 2
+   },
+   {
+    "v": "8px",
+    "w": 2
+   },
+   {
+    "v": "11.2px",
+    "w": 2
+   },
+   {
+    "v": "32px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "1425.6px",
+    "w": 10
+   },
+   {
+    "v": "4px",
+    "w": 2
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "ease 0.3s",
+    "w": 16
+   },
+   {
+    "v": "ease 0.2s",
+    "w": 7
+   },
+   {
+    "v": "ease 0.5s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "Neuemontreal, Arial, sans-serif",
+    "size": "64px",
+    "weight": "500",
+    "lineHeight": "64px",
+    "letterSpacing": "-0.512px",
+    "transform": "uppercase",
+    "color": "#e1e5e5",
+    "sample": "BUILT FOR MODERN WEALTH"
+   },
+   "h2": {
+    "family": "Neuemontreal, Arial, sans-serif",
+    "size": "64px",
+    "weight": "500",
+    "lineHeight": "64px",
+    "letterSpacing": "-0.512px",
+    "transform": "uppercase",
+    "color": "#e1e5e5",
+    "sample": "INFRASTRUCTURE FOR HOW YOU MOVE"
+   },
+   "h3": {
+    "family": "Neuemontreal, Arial, sans-serif",
+    "size": "18px",
+    "weight": "500",
+    "lineHeight": "23.4px",
+    "letterSpacing": "-0.054px",
+    "transform": "none",
+    "color": "#080808",
+    "sample": "Hotels"
+   },
+   "h4": {
+    "family": "Neuemontreal, Arial, sans-serif",
+    "size": "12px",
+    "weight": "500",
+    "lineHeight": "12px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#080808",
+    "sample": "Transaction"
+   },
+   "p": {
+    "family": "Neuemontreal, Arial, sans-serif",
+    "size": "18px",
+    "weight": "500",
+    "lineHeight": "23.4px",
+    "letterSpacing": "-0.054px",
+    "transform": "none",
+    "color": "#c0c4c6",
+    "sample": "At home, abroad, and everywhere in between, Moto gives its members a quieter way"
+   },
+   "a": {
+    "family": "Neuemontreal, Arial, sans-serif",
+    "size": "14px",
+    "weight": "500",
+    "lineHeight": "18.2px",
+    "letterSpacing": "-0.042px",
+    "transform": "none",
+    "color": "#e1e5e5",
+    "sample": "Membership"
+   },
+   "button": {
+    "family": "Neuemontreal, Arial, sans-serif",
+    "size": "20px",
+    "weight": "500",
+    "lineHeight": "26px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#080808",
+    "sample": "What is Moto?"
+   },
+   "li": {
+    "family": "Neuemontreal, Arial, sans-serif",
+    "size": "24px",
+    "weight": "500",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#080808",
+    "sample": "Frictionless"
+   },
+   "body": {
+    "family": "Neuemontreal, Arial, sans-serif",
+    "size": "16px",
+    "weight": "500",
+    "lineHeight": "20.8px",
+    "letterSpacing": "-0.048px",
+    "transform": "none",
+    "color": "#e1e5e5",
+    "sample": "/* effort_less DOCS: effortless.moredata.pl*/ *, *::after, *::before { margin: 0"
+   }
+  },
+  "cssVars": {
+   "--_themes---background": "var(--_colors---dark)",
+   "--_text-style---font-family": "Neuemontreal,Arial,sans-serif",
+   "--_themes---text": "var(--_colors---light)",
+   "--text--body": "1.4rem",
+   "--_text-style---line-height": "1.3",
+   "--_text-style---font-weight": "500",
+   "--_text-style---letter-spacing": "-.003em",
+   "--_text-style---font-size": "var(--text--body)",
+   "--_colors---grey400": "#838a8f",
+   "--_colors---grey100": "#e1e5e5",
+   "--_colors---grey800": "#1c2227",
+   "--_colors---light": "#e1e5e5",
+   "--_colors---grey200": "#dfe3e3",
+   "--_colors---grey500": "#666f76",
+   "--_colors---grey300": "#c0c4c6",
+   "--text--text-small": "1.2rem",
+   "--_themes---nav_color": "var(--_colors---light)",
+   "--_colors---dark": "#080808",
+   "--padding-global": "3%",
+   "--_colors---white": "white",
+   "--text--text-medium": "1.4rem",
+   "--text--text-large": "1.6rem",
+   "--_colors---transparent": "transparent",
+   "--_colors---grey700": "#20272c",
+   "--text--h3": "3.2rem",
+   "--_colors---grey01": "#1c2227",
+   "--_colors---black": "#000",
+   "--_colors---dark900": "#08080a",
+   "--padding-section": "12rem",
+   "--padding-section-m": "10rem",
+   "--padding-section-l": "8rem",
+   "--_font-family---heading": "Arial,\"Helvetica Neue\",Helvetica,sans-serif",
+   "--_font-family---body": "Arial,\"Helvetica Neue\",Helvetica,sans-serif",
+   "--container-nav": "100%",
+   "--container-large": "100%",
+   "--container-medium": "100rem",
+   "--container-small": "60rem",
+   "--text--h1": "3.6rem",
+   "--text--h2": "3.2rem",
+   "--text--h4": "1.6rem",
+   "--text--h5": "1.8rem",
+   "--text--h6": "0rem",
+   "--text--display1": "0rem",
+   "--text--display2": "0rem",
+   "--_colors---nav_color": "#e1e5e5",
+   "--_colors---grey600": "#212528"
+  },
+  "fontFaces": [
+   {
+    "family": "webflow-icons",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"data:application/x-font-ttf;charset=utf-8;base64,AAEAAAALAIAAAwAwT1MvMg8SBiUAAAC8AAAAYGNtYXDpP+a4AAABHAAAAFxnYXNwAAAAEAAAAXgAAAAIZ2x5ZmhS2XEAAAGAAAADHGhlYWQTFw3HAAAEnAAAADZoaGVhCXYFgQAABNQAAAAkaG"
+   },
+   {
+    "family": "Neuemontreal",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/6a7ad390f189a22016c86fa4/6a7ad390f189a22016c86fb4_NeueMontreal-Regular.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Neuemontreal",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/6a7ad390f189a22016c86fa4/6a7ad390f189a22016c86fb1_NeueMontreal-Medium.woff2\") format(\"woff2\")"
+   }
+  ],
+  "keyframes": [
+   "spin"
+  ],
+  "breakpoints": [
+   {
+    "v": "767px",
+    "w": 6
+   },
+   {
+    "v": "991px",
+    "w": 4
+   },
+   {
+    "v": "479px",
+    "w": 4
+   },
+   {
+    "v": "992px",
+    "w": 3
+   },
+   {
+    "v": "768px",
+    "w": 1
+   },
+   {
+    "v": "1921px",
+    "w": 1
+   },
+   {
+    "v": "500px",
+    "w": 1
+   },
+   {
+    "v": "772px",
+    "w": 1
+   },
+   {
+    "v": "576px",
+    "w": 1
+   },
+   {
+    "v": "1200px",
+    "w": 1
+   },
+   {
+    "v": "600px",
+    "w": 1
+   },
+   {
+    "v": "655px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 965,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "pin-spacer",
+    "h": 900,
+    "title": "INFRASTRUCTURE FOR HOW YOU MOVE",
+    "media": 1
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "card",
+    "h": 2250,
+    "title": "THE CARD IS ONLY THE BEGINNING",
+    "media": 1
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "numbers theme-invert end-card-trigger",
+    "h": 1350,
+    "title": "Spend globally. 0 FX Fees built in.",
+    "media": 1
+   },
+   {
+    "tag": "section",
+    "id": "benefits",
+    "cls": "concierge no-container",
+    "h": 2340,
+    "title": "24/7 Concierge. Anything. Anytime.",
+    "media": 4
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "made theme-invert no-container",
+    "h": 1010,
+    "title": "Made for the places you already move through.",
+    "media": 5
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "luxury",
+    "h": 900,
+    "title": "ACCESS OUR NETWORK",
+    "media": 1
+   },
+   {
+    "tag": "section",
+    "id": "faq",
+    "cls": "faq theme-invert",
+    "h": 1278,
+    "title": "FREQUENTLY ASKED QUESTIONS",
+    "media": 0
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "",
+    "href": "https://www.moto-card.com/"
+   },
+   {
+    "t": "Membership",
+    "href": "https://www.moto-card.com/"
+   },
+   {
+    "t": "Partnership",
+    "href": "https://www.moto-card.com/partnership"
+   },
+   {
+    "t": "Become a Partner",
+    "href": "https://play.google.com/store/apps/details?id=com.moto.mobile&pcampaignid=web_share"
+   },
+   {
+    "t": "Apply for Access",
+    "href": "https://play.google.com/store/apps/details?id=com.moto.mobile&pcampaignid=web_share"
+   },
+   {
+    "t": "Apply for Access",
+    "href": "https://play.google.com/store/apps/details?id=com.moto.mobile&pcampaignid=web_share"
+   },
+   {
+    "t": "Apply for Access",
+    "href": "https://play.google.com/store/apps/details?id=com.moto.mobile&pcampaignid=web_share"
+   }
+  ],
+  "ctas": [
+   "Apply for Access",
+   "Apply for Access",
+   "Apply for Access",
+   "Apply for Access",
+   "Apply for Access",
+   "Apply for Access"
+  ],
+  "pageHeight": 11995,
+  "counts": {
+   "canvas": 3,
+   "videos": 1,
+   "imgs": 11,
+   "svgs": 18,
+   "iframes": 0,
+   "domNodes": 1124
+  }
+ },
+ "tech": {
+  "gsap": true,
+  "gsapVersion": "3.15.0",
+  "scrollTrigger": true,
+  "splitText": true,
+  "lenis": true,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "181",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": true,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [
+   "googletagmanager",
+   "gtag"
+  ],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://www.googletagmanager.com/gtag/js?id=G-1TWZG170K9",
+  "https://challenges.cloudflare.com/turnstile/v0/api.js",
+  "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6a7ad390f189a22016c86fa4",
+  "https://cdn.prod.website-files.com/6a7ad390f189a22016c86fa4/js/webflow.a0aa6ca1.b7683852b8a60d8e.js",
+  "https://unpkg.com/lenis@1.3.18/dist/lenis.min.js",
+  "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/gsap.min.js",
+  "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/ScrollTrigger.min.js",
+  "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/SplitText.min.js"
+ ],
+ "internal": [
+  "https://www.moto-card.com/partnership",
+  "https://www.moto-card.com/legals/terms-and-conditions",
+  "https://www.moto-card.com/legals/privacy-policy"
+ ],
+ "perf": {
+  "ttfb": 118,
+  "dcl": 1535,
+  "load": 2595,
+  "lcp": 536,
+  "lcpEl": "H1.text-style-h1",
+  "cls": 0.003
+ },
+ "libs": {
+  "detected": [
+   "jQuery",
+   "Lenis",
+   "Virtual scroll",
+   "GSAP",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Three.js"
+  ],
+  "where": {
+   "jQuery": [
+    "001-jquery-3.5.1.min.dc5e7f18c8.js",
+    "002-webflow.a0aa6ca1.b7683852b8a60d8e.js"
+   ],
+   "Lenis": [
+    "003-lenis.min.js"
+   ],
+   "Virtual scroll": [
+    "003-lenis.min.js"
+   ],
+   "GSAP": [
+    "004-ScrollTrigger.min.js",
+    "005-gsap.min.js",
+    "006-SplitText.min.js"
+   ],
+   "ScrollTrigger": [
+    "004-ScrollTrigger.min.js",
+    "005-gsap.min.js"
+   ],
+   "SplitText/SplitType": [
+    "005-gsap.min.js",
+    "006-SplitText.min.js"
+   ],
+   "Three.js": [
+    "008-three.module.min.js",
+    "012-three.core.min.js"
+   ]
+  },
+  "gsapVersion": "3.11.0",
+  "threeRevision": null,
+  "shaders": 9,
+  "scripts": 13
+ },
+ "network": {
+  "requests": 52,
+  "totalKb": 7174,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 101
+   },
+   "Image": {
+    "n": 25,
+    "kb": 2137
+   },
+   "Stylesheet": {
+    "n": 1,
+    "kb": 0
+   },
+   "Script": {
+    "n": 14,
+    "kb": 643
+   },
+   "Font": {
+    "n": 2,
+    "kb": 29
+   },
+   "Media": {
+    "n": 2,
+    "kb": 4225
+   },
+   "Fetch": {
+    "n": 5,
+    "kb": 36
+   },
+   "Ping": {
+    "n": 1,
+    "kb": 1
+   },
+   "Other": {
+    "n": 1,
+    "kb": 2
+   }
+  },
+  "thirdPartyHosts": [
+   "cdn.prod.website-files.com",
+   "d3e54v103j8qbb.cloudfront.net",
+   "unpkg.com",
+   "www.googletagmanager.com",
+   "cdn.jsdelivr.net",
+   "properlystudio.s3.eu-central-1.amazonaws.com",
+   "www.google.fr",
+   "region1.analytics.google.com",
+   "stats.g.doubleclick.net",
+   "challenges.cloudflare.com"
+  ],
+  "fontFiles": [
+   "https://cdn.prod.website-files.com/6a7ad390f189a22016c86fa4/6a7ad390f189a22016c86fb1_NeueMontreal-Medium.woff2",
+   "https://cdn.prod.website-files.com/6a7ad390f189a22016c86fa4/6a7ad390f189a22016c86fb4_NeueMontreal-Regular.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://properlystudio.s3.eu-central-1.amazonaws.com/Moto/MOTO_HERO_2.mp4",
+    "kb": 4225,
+    "type": "Media"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/6a4002cce4ba0d72bb35a7fc/6a418ffc495223e0854f7b13_clouds_2.webp",
+    "kb": 553,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/6a4002cce4ba0d72bb35a7fc/6a418ffc9ea227a7c2e11171_day_2.webp",
+    "kb": 308,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/6a4002cce4ba0d72bb35a7fc/6a419ebd1cb78872d95d7ade_uv-map-card.jpg",
+    "kb": 233,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/6a4002cce4ba0d72bb35a7fc/6a418ffc55c6edeb67368418_night_2.webp",
+    "kb": 182,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/6a46c3359aed934cfe0970a4/6a4e250cad44c66422965137_Matcap_1K_300DPI.jpg",
+    "kb": 178,
+    "type": "Image"
+   },
+   {
+    "url": "https://www.googletagmanager.com/gtag/js?id=G-1TWZG170K9",
+    "kb": 178,
+    "type": "Script"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/6a7ad390f189a22016c86fa4/6a7ad390f189a22016c87010_made%2520(1)-p-1600.webp",
+    "kb": 142,
+    "type": "Image"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "37.3464px",
+   "lineHeight": "37.3464px"
+  },
+  "body": "14.5236px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 207
+}

@@ -1,0 +1,511 @@
+{
+ "id": 24,
+ "name": "Maria Vasilyeva Portfolio",
+ "sourceUrl": "https://www.mariavasilyeva.com/",
+ "capturedAt": "2026-11-02T23:38:06.490Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg"
+  ],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [
+   {
+    "url": "https://www.mariavasilyeva.com/work/phantom",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.mariavasilyeva.com/about",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.mariavasilyeva.com/contact",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://www.mariavasilyeva.com/",
+ "title": "Welcome | Maria Vasilyeva",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Sr. Visual and Interactive Designer.",
+  "canonical": "https://mariavasilyeva.com/",
+  "robots": "all",
+  "ogTitle": "Welcome | Maria Vasilyeva",
+  "ogImage": "https://cdn.sanity.io/images/lkk4kvz7/production/7842a250c3ce2bd03210b9845305cf3ddb69f7da-1200x630.png",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [],
+  "h1Count": 0,
+  "headings": [
+   "H2 Phantom(2024)",
+   "H2 Sierra(2025)",
+   "H2 Photoncycle(2024)",
+   "H2 DIIR(2024)",
+   "H2 Península(2025)",
+   "H2 Klarna(2022-2024)",
+   "H2 Genomapp(2022)",
+   "H2 Bildia(2023)",
+   "H2 Playground(2025-2026)"
+  ],
+  "imgs": 0,
+  "imgNoAlt": 0,
+  "favicon": "https://www.mariavasilyeva.com/favicon/favicon-96x96.png?0",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#131313",
+    "w": 55328
+   },
+   {
+    "v": "#f9f9f9",
+    "w": 3291
+   }
+  ],
+  "text": [
+   {
+    "v": "#f9f9f9",
+    "w": 76
+   },
+   {
+    "v": "#131313",
+    "w": 39
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "feat",
+    "w": 131
+   },
+   {
+    "v": "synt",
+    "w": 97
+   },
+   {
+    "v": "suo",
+    "w": 18
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "14.664px",
+    "w": 27
+   },
+   {
+    "v": "29.3279px",
+    "w": 9
+   },
+   {
+    "v": "12.831px",
+    "w": 9
+   },
+   {
+    "v": "21.9959px",
+    "w": 4
+   },
+   {
+    "v": "122.811px",
+    "w": 4
+   },
+   {
+    "v": "58.6558px",
+    "w": 4
+   },
+   {
+    "v": "36.6599px",
+    "w": 2
+   }
+  ],
+  "radius": [],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.16 1.4s",
+    "w": 2
+   },
+   {
+    "v": "cubic-bezier(0.16 3.5s",
+    "w": 2
+   },
+   {
+    "v": "linear 0.2s",
+    "w": 1
+   },
+   {
+    "v": "ease 0.3s",
+    "w": 1
+   },
+   {
+    "v": "linear 0.25s",
+    "w": 1
+   },
+   {
+    "v": "cubic-bezier(0.7 1.2s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h2": {
+    "family": "feat",
+    "size": "29.3279px",
+    "weight": "400",
+    "lineHeight": "29.3279px",
+    "letterSpacing": "-0.586558px",
+    "transform": "uppercase",
+    "color": null,
+    "sample": "Phantom(2024)"
+   },
+   "p": {
+    "family": "suo",
+    "size": "36.6599px",
+    "weight": "400",
+    "lineHeight": "36.6599px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#131313",
+    "sample": "More details"
+   },
+   "a": {
+    "family": "synt",
+    "size": "14.664px",
+    "weight": "400",
+    "lineHeight": "14.664px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#131313",
+    "sample": "View project"
+   },
+   "button": {
+    "family": "synt",
+    "size": "14.664px",
+    "weight": "400",
+    "lineHeight": "14.664px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#131313",
+    "sample": "Sierra"
+   },
+   "li": {
+    "family": "synt",
+    "size": "14.664px",
+    "weight": "400",
+    "lineHeight": "14.664px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#131313",
+    "sample": "Sierra"
+   },
+   "body": {
+    "family": "synt, monospace",
+    "size": "14.664px",
+    "weight": "400",
+    "lineHeight": "14.664px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#131313",
+    "sample": "More detailsPhantom(2024)Sierra(2025)Photoncycle(2024)DIIR(2024)Península(2025)K"
+   }
+  },
+  "cssVars": {
+   "--white": "#f9f9f9",
+   "--black": "#131313",
+   "--dark-grey": "#626262",
+   "--light-grey": "#e9e9e9",
+   "--g": "1.6rem",
+   "--m": "5.3rem",
+   "--my": "2rem",
+   "--col": "calc(8.3333vw - 2.35rem)"
+  },
+  "fontFaces": [
+   {
+    "family": "synt",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/fonts/synt-4.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "feat",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/fonts/feat-4.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "suo",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/fonts/suo-4.woff2\") format(\"woff2\")"
+   }
+  ],
+  "keyframes": [],
+  "breakpoints": [
+   {
+    "v": "768px",
+    "w": 107
+   },
+   {
+    "v": "769px",
+    "w": 5
+   }
+  ],
+  "rulesCount": 659,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "pg_",
+    "h": 900,
+    "title": "Phantom(2024)",
+    "media": 0
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "(01)Notes",
+    "href": "https://www.mariavasilyeva.com/"
+   },
+   {
+    "t": "(02)Melody",
+    "href": "https://www.mariavasilyeva.com/work"
+   },
+   {
+    "t": "(03)Overture",
+    "href": "https://www.mariavasilyeva.com/about"
+   },
+   {
+    "t": "(04)Jazz",
+    "href": "https://substack.com/@thenewneighbor"
+   },
+   {
+    "t": "Get in touch",
+    "href": "https://www.mariavasilyeva.com/contact"
+   },
+   {
+    "t": "Instagram",
+    "href": "https://www.instagram.com/"
+   },
+   {
+    "t": "Savee",
+    "href": "https://savee.it/"
+   }
+  ],
+  "ctas": [],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 3,
+   "videos": 0,
+   "imgs": 0,
+   "svgs": 24,
+   "iframes": 0,
+   "domNodes": 363
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": false,
+  "locomotive": false,
+  "three": false,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [
+   "sanity"
+  ],
+  "analytics": [],
+  "customCursor": false,
+  "audio": true,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://www.mariavasilyeva.com/js/_.js?1791985815414"
+ ],
+ "internal": [
+  "https://www.mariavasilyeva.com/work/phantom",
+  "https://www.mariavasilyeva.com/work/sierra",
+  "https://www.mariavasilyeva.com/work/photoncycle",
+  "https://www.mariavasilyeva.com/work/diir",
+  "https://www.mariavasilyeva.com/work/peninsula",
+  "https://www.mariavasilyeva.com/work/klarna",
+  "https://www.mariavasilyeva.com/work/genomapp",
+  "https://www.mariavasilyeva.com/work/bildia",
+  "https://www.mariavasilyeva.com/work/playground",
+  "https://www.mariavasilyeva.com/work",
+  "https://www.mariavasilyeva.com/about",
+  "https://www.mariavasilyeva.com/contact"
+ ],
+ "perf": {
+  "ttfb": 114,
+  "dcl": 532,
+  "load": 533,
+  "lcp": 524,
+  "lcpEl": "P",
+  "cls": 0.042
+ },
+ "libs": {
+  "detected": [],
+  "where": {},
+  "gsapVersion": null,
+  "threeRevision": null,
+  "shaders": 9,
+  "scripts": 3
+ },
+ "network": {
+  "requests": 89,
+  "totalKb": 5354,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 16
+   },
+   "Font": {
+    "n": 3,
+    "kb": 356
+   },
+   "Other": {
+    "n": 2,
+    "kb": 12
+   },
+   "Stylesheet": {
+    "n": 1,
+    "kb": 7
+   },
+   "Script": {
+    "n": 1,
+    "kb": 123
+   },
+   "Fetch": {
+    "n": 24,
+    "kb": 1450
+   },
+   "Media": {
+    "n": 55,
+    "kb": 3390
+   },
+   "Image": {
+    "n": 2,
+    "kb": 0
+   }
+  },
+  "thirdPartyHosts": [],
+  "fontFiles": [
+   "https://www.mariavasilyeva.com/fonts/feat-4.woff2",
+   "https://www.mariavasilyeva.com/fonts/synt-4.woff2",
+   "https://www.mariavasilyeva.com/fonts/suo-4.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://www.mariavasilyeva.com/vid/a3ce7e852dddd72ff4ea9ac29ac94c7b95244938-mo.mp4",
+    "kb": 484,
+    "type": "Media"
+   },
+   {
+    "url": "https://www.mariavasilyeva.com/fonts/msdf/feat.bin?1791985815414",
+    "kb": 392,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://www.mariavasilyeva.com/fonts/msdf/synt.bin?1791985815414",
+    "kb": 367,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://www.mariavasilyeva.com/fonts/suo-4.woff2",
+    "kb": 274,
+    "type": "Font"
+   },
+   {
+    "url": "https://www.mariavasilyeva.com/vid/dec900e64c5a99a90321ed8eb7429ccc04310114-mo.mp4",
+    "kb": 263,
+    "type": "Media"
+   },
+   {
+    "url": "https://www.mariavasilyeva.com/vid/48c19bfb4394bd5285f5f851302179e034a42241-mo.mp4",
+    "kb": 223,
+    "type": "Media"
+   },
+   {
+    "url": "https://www.mariavasilyeva.com/vid/c72550ca81a040ae5c2d393bed0fa2c1b10b5e7a-mo.mp4",
+    "kb": 212,
+    "type": "Media"
+   },
+   {
+    "url": "https://www.mariavasilyeva.com/snd/nav/3.ogg",
+    "kb": 161,
+    "type": "Fetch"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": null,
+  "body": "15.8498px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 170
+}

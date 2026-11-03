@@ -1,0 +1,959 @@
+{
+ "id": 55,
+ "name": "Seasats",
+ "sourceUrl": "https://www.seasats.com/",
+ "capturedAt": "2026-11-03T00:04:19.187Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg",
+   "desktop-13.jpg",
+   "desktop-14.jpg"
+  ],
+  "fullPage": 34147,
+  "subpages": [
+   {
+    "url": "https://www.seasats.com/privacy-policy",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://www.seasats.com/",
+ "title": "Seasats | Ocean Autonomy That Works",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Missions completed for defense, science, and commercial customers around the world.",
+  "canonical": null,
+  "robots": null,
+  "ogTitle": "Seasats | Ocean Autonomy That Works",
+  "ogImage": "https://www.seasats.comhttps//seasats.sfo3.cdn.digitaloceanspaces.com/Cover-1200x630.jpg",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [],
+  "h1Count": 1,
+  "headings": [
+   "H1 Ocean Autonomy That Works",
+   "H3 Deploy in minutes.",
+   "H3 Detect from miles.",
+   "H3 React at once.",
+   "H3 Deploy in minutes.",
+   "H2 Mission after mission",
+   "H3 ",
+   "H3 ",
+   "H3 ",
+   "H3 ",
+   "H3 ",
+   "H3 ",
+   "H3 ",
+   "H3 ",
+   "H3 ",
+   "H3 ",
+   "H3 ",
+   "H3 ",
+   "H3 ",
+   "H3 ",
+   "H3 ",
+   "H3 ",
+   "H3 ",
+   "H3 ",
+   "H3 ",
+   "H3 ",
+   "H3 ",
+   "H3 ",
+   "H3 ",
+   "H3 ",
+   "H3 ",
+   "H3 ",
+   "H3 ",
+   "H3 ",
+   "H3 ",
+   "H2 Satellites at sea",
+   "H2 Engineered for every need",
+   "H3 Lightfish",
+   "H3 Lightfish",
+   "H3 Quickfish",
+   "H3 Heavyfish",
+   "H2 Lightfish",
+   "H3 The vessel, in brief",
+   "H3 Persistent",
+   "H3 Portable",
+   "H3 Modular",
+   "H3 Rugged",
+   "H3 Affordable",
+   "H3 Simple",
+   "H2 Quickfish"
+  ],
+  "imgs": 119,
+  "imgNoAlt": 116,
+  "favicon": "https://www.seasats.com/favicon.svg",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#fffdfd",
+    "w": 2535984
+   },
+   {
+    "v": "#d9d9d9",
+    "w": 1351193
+   },
+   {
+    "v": "#232323",
+    "w": 1349874
+   },
+   {
+    "v": "#cfcfcf",
+    "w": 990184
+   },
+   {
+    "v": "#000000",
+    "w": 97500
+   },
+   {
+    "v": "#b7c8be",
+    "w": 75566
+   },
+   {
+    "v": "#d7c5ba",
+    "w": 45417
+   },
+   {
+    "v": "#2b3922",
+    "w": 16710
+   },
+   {
+    "v": "#8e9489",
+    "w": 15074
+   },
+   {
+    "v": "#757d70",
+    "w": 15074
+   },
+   {
+    "v": "#4b5746",
+    "w": 15074
+   },
+   {
+    "v": "#e3ede4",
+    "w": 10437
+   }
+  ],
+  "text": [
+   {
+    "v": "#232323",
+    "w": 3840
+   },
+   {
+    "v": "#fffdfd",
+    "w": 2554
+   },
+   {
+    "v": "#ffffff",
+    "w": 74
+   },
+   {
+    "v": "#2b3922",
+    "w": 33
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "seasonSans",
+    "w": 3644
+   },
+   {
+    "v": "seasonMix",
+    "w": 1713
+   },
+   {
+    "v": "supplyMono",
+    "w": 1396
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "14px",
+    "w": 229
+   },
+   {
+    "v": "12px",
+    "w": 146
+   },
+   {
+    "v": "16px",
+    "w": 136
+   },
+   {
+    "v": "24px",
+    "w": 81
+   },
+   {
+    "v": "20px",
+    "w": 53
+   },
+   {
+    "v": "19px",
+    "w": 35
+   },
+   {
+    "v": "124px",
+    "w": 9
+   },
+   {
+    "v": "32px",
+    "w": 9
+   },
+   {
+    "v": "64px",
+    "w": 7
+   },
+   {
+    "v": "28px",
+    "w": 6
+   },
+   {
+    "v": "80px",
+    "w": 6
+   },
+   {
+    "v": "18px",
+    "w": 4
+   },
+   {
+    "v": "48px",
+    "w": 2
+   }
+  ],
+  "radius": [
+   {
+    "v": "8px",
+    "w": 36
+   },
+   {
+    "v": "4px",
+    "w": 20
+   },
+   {
+    "v": "6px",
+    "w": 6
+   },
+   {
+    "v": "2px",
+    "w": 1
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.215 0.372s",
+    "w": 38
+   },
+   {
+    "v": "cubic-bezier(0.215 0.408s",
+    "w": 32
+   },
+   {
+    "v": "ease 0.3s",
+    "w": 16
+   },
+   {
+    "v": "cubic-bezier(0.215 0.504s",
+    "w": 16
+   },
+   {
+    "v": "cubic-bezier(0.215 0.42s",
+    "w": 15
+   },
+   {
+    "v": "ease 0.8s",
+    "w": 14
+   },
+   {
+    "v": "cubic-bezier(0.215 0.516s",
+    "w": 14
+   },
+   {
+    "v": "cubic-bezier(0.215 0.432s",
+    "w": 14
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "seasonMix, \"seasonMix Fallback\", serif",
+    "size": "124px",
+    "weight": "400",
+    "lineHeight": "111.6px",
+    "letterSpacing": "-1.24px",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Ocean Autonomy That Works"
+   },
+   "h2": {
+    "family": "seasonMix, \"seasonMix Fallback\", serif",
+    "size": "80px",
+    "weight": "400",
+    "lineHeight": "80px",
+    "letterSpacing": "-0.8px",
+    "transform": "none",
+    "color": "#fffdfd",
+    "sample": "Mission after mission"
+   },
+   "h3": {
+    "family": "seasonMix, \"seasonMix Fallback\", serif",
+    "size": "64px",
+    "weight": "400",
+    "lineHeight": "64px",
+    "letterSpacing": "-0.64px",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Deploy in minutes."
+   },
+   "h4": {
+    "family": "seasonMix, \"seasonMix Fallback\", serif",
+    "size": "20px",
+    "weight": "500",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Deploys by hand"
+   },
+   "p": {
+    "family": "supplyMono, \"supplyMono Fallback\", monospace",
+    "size": "14px",
+    "weight": "400",
+    "lineHeight": "12.6px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#232323",
+    "sample": "Ghost fleet"
+   },
+   "a": {
+    "family": "seasonMix, \"seasonMix Fallback\", serif",
+    "size": "14px",
+    "weight": "500",
+    "lineHeight": "18.2px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#232323",
+    "sample": "Home"
+   },
+   "button": {
+    "family": "supplyMono, \"supplyMono Fallback\", monospace",
+    "size": "12px",
+    "weight": "400",
+    "lineHeight": "10.8px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#232323",
+    "sample": "MenuMenu"
+   },
+   "li": {
+    "family": "seasonMix, \"seasonMix Fallback\", serif",
+    "size": "28px",
+    "weight": "400",
+    "lineHeight": "33.6px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#fffdfd",
+    "sample": "The coordinates of the ghost fleet."
+   },
+   "body": {
+    "family": "seasonSans, \"seasonSans Fallback\", sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "22.4px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#232323",
+    "sample": "MenuMenuHome01Capabilities02Past MissionsProducts01Comparison02Lightfish03Quickf"
+   }
+  },
+  "cssVars": {
+   "--swiper-theme-color": "#007aff",
+   "--wrapperWidth": "144rem",
+   "--headerHeight": "6rem",
+   "--columns": "8",
+   "--columnWidth": "calc((min(100vw, var(--wrapperWidth)) - 2 * var(--margin) - (var(--columns) - 1) * var(--gutter)) / var(--columns))",
+   "--gutter": "1.2rem",
+   "--margin": "1.6rem",
+   "--radius": "0.8rem",
+   "--colorText": "#fffdfd",
+   "--colorAccent": "#bf5114",
+   "--gradient": "linear-gradient(180deg,#e08826 -48.83%,#eca43b -22.63%,#ca612a 33.9%,#752210 75.45%,#370e0a 116.33%)",
+   "--body-adjustOffset": "-27rem",
+   "--body-adjustScale": "0.9",
+   "--body-adjustScalePrecise": "0.847",
+   "--uiOffset": "48px"
+  },
+  "fontFaces": [
+   {
+    "family": "seasonMix",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_next/static/media/13be4abfd8609ebb-s.p.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "seasonMix",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"/_next/static/media/9350f266b74e3a7f-s.p.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "seasonMix Fallback",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   },
+   {
+    "family": "seasonSans",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_next/static/media/310b4a069ec82868-s.p.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "seasonSans Fallback",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   },
+   {
+    "family": "supplyMono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_next/static/media/fbfb48e1b67fc10e-s.p.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "supplyMono Fallback",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   }
+  ],
+  "keyframes": [
+   "swiper-preloader-spin",
+   "Preloader_preloaderOut__7TtFA",
+   "Preloader_letterHide__YIkgB",
+   "Toast_toast-hide__lE1eT",
+   "Toast_toast-slideIn__BxcBZ",
+   "Toast_toast-swipeOut__gPuFR",
+   "LivestreamWidget_livestreamDot__an5Zk",
+   "Footer_parallax__XK28M",
+   "BoatPhoto_photoFadeIn__3SD7f",
+   "BoatPhoto_wrapperScale__zl0ku",
+   "BoatPhoto_innerClipPath__BVFuS",
+   "BoatPhoto_mediaScale__LEeXS",
+   "Checkbox_toggleIn__XwrQz",
+   "Select_select-enter__WLPf_",
+   "Select_select-exit__nd9rO",
+   "CareersDropdown_select-enter__qI_D4",
+   "CareersDropdown_select-exit__06OXs",
+   "ProductStory_parallax__hriNH"
+  ],
+  "breakpoints": [
+   {
+    "v": "519px",
+    "w": 116
+   },
+   {
+    "v": "1023px",
+    "w": 114
+   },
+   {
+    "v": "520px",
+    "w": 21
+   },
+   {
+    "v": "1024px",
+    "w": 20
+   },
+   {
+    "v": "768px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 1702,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": "hero",
+    "cls": "section heroMedia HeroMedia_container__F7Yar",
+    "h": 900,
+    "title": "Ocean Autonomy That Works",
+    "media": 4
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "section flythroughPoints FlythroughPoints_container__ngP9w",
+    "h": 5040,
+    "title": "",
+    "media": 7
+   },
+   {
+    "tag": "div",
+    "id": "capabilities",
+    "cls": "section virtues Virtues_container__sQLEg",
+    "h": 4050,
+    "title": "Deploy in minutes.",
+    "media": 39
+   },
+   {
+    "tag": "div",
+    "id": "past-missions",
+    "cls": "section missions Missions_container__YIPcX",
+    "h": 900,
+    "title": "Mission after mission",
+    "media": 30
+   },
+   {
+    "tag": "div",
+    "id": "products",
+    "cls": "section productIntro ProductIntro_container__LKL97",
+    "h": 891,
+    "title": "Satellites at sea",
+    "media": 1
+   },
+   {
+    "tag": "div",
+    "id": "comparison",
+    "cls": "section productComparison ProductComparison_container__wf3qF overlay-adjust--lef",
+    "h": 1183,
+    "title": "Engineered for every need",
+    "media": 4
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "blockGroup",
+    "h": 17755,
+    "title": "Lightfish",
+    "media": 42
+   },
+   {
+    "tag": "div",
+    "id": "leadership",
+    "cls": "section Leaders_container__3xVqh overlay-adjust--left",
+    "h": 601,
+    "title": "Leadership",
+    "media": 6
+   },
+   {
+    "tag": "div",
+    "id": "careers",
+    "cls": "section Careers_container__wm02o overlay-adjust--left",
+    "h": 610,
+    "title": "Join the crew. Build the future.",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": "press",
+    "cls": "section Press_container__jDYph overlay-adjust--left",
+    "h": 1098,
+    "title": "Press,",
+    "media": 5
+   },
+   {
+    "tag": "div",
+    "id": "contact",
+    "cls": "section callToAction CallToAction_container__7D5Cf",
+    "h": 797,
+    "title": "Take action",
+    "media": 0
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "",
+    "href": "https://www.seasats.com/"
+   },
+   {
+    "t": "Home",
+    "href": "https://www.seasats.com/"
+   },
+   {
+    "t": "01Capabilities",
+    "href": "https://www.seasats.com/#capabilities"
+   },
+   {
+    "t": "02Past Missions",
+    "href": "https://www.seasats.com/#past-missions"
+   },
+   {
+    "t": "Products",
+    "href": "https://www.seasats.com/#products"
+   },
+   {
+    "t": "01Comparison",
+    "href": "https://www.seasats.com/#comparison"
+   },
+   {
+    "t": "02Lightfish",
+    "href": "https://www.seasats.com/#lightfish"
+   },
+   {
+    "t": "03Quickfish",
+    "href": "https://www.seasats.com/#quickfish"
+   },
+   {
+    "t": "04Heavyfish",
+    "href": "https://www.seasats.com/#heavyfish"
+   },
+   {
+    "t": "Leadership",
+    "href": "https://www.seasats.com/#leadership"
+   },
+   {
+    "t": "Careers",
+    "href": "https://www.seasats.com/#careers"
+   },
+   {
+    "t": "Press",
+    "href": "https://www.seasats.com/#press"
+   },
+   {
+    "t": "Contact",
+    "href": "https://www.seasats.com/#contact"
+   },
+   {
+    "t": "HomeHome",
+    "href": "https://www.seasats.com/"
+   },
+   {
+    "t": "ProductsProducts",
+    "href": "https://www.seasats.com/#products"
+   },
+   {
+    "t": "CareersCareers",
+    "href": "https://www.seasats.com/#careers"
+   },
+   {
+    "t": "PressPress",
+    "href": "https://www.seasats.com/#press"
+   },
+   {
+    "t": "ContactContact",
+    "href": "https://www.seasats.com/#contact"
+   },
+   {
+    "t": "LinkedInLinkedIn",
+    "href": "https://www.linkedin.com/company/seasats/"
+   },
+   {
+    "t": "Privacy PolicyPrivacy Policy",
+    "href": "https://www.seasats.com/privacy-policy"
+   }
+  ],
+  "ctas": [
+   "Home",
+   "01Capabilities",
+   "02Past Missions",
+   "Products",
+   "01Comparison",
+   "02Lightfish",
+   "03Quickfish",
+   "04Heavyfish",
+   "Leadership",
+   "Careers",
+   "Press",
+   "Contact",
+   "Explore productsExplore products",
+   "Download full statsDownload full stats",
+   "Download full statsDownload full stats"
+  ],
+  "pageHeight": 34147,
+  "counts": {
+   "canvas": 5,
+   "videos": 26,
+   "imgs": 119,
+   "svgs": 22,
+   "iframes": 0,
+   "domNodes": 2243
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "180",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": true,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": true,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [
+   "payloadcms"
+  ],
+  "analytics": [
+   "googletagmanager",
+   "gtag"
+  ],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://www.seasats.com/_next/static/chunks/4bd1b696-100b9d70ed4e49c1.js",
+  "https://www.seasats.com/_next/static/chunks/1255-642c76f13c20a3ec.js",
+  "https://www.seasats.com/_next/static/chunks/main-app-43b4b242c17d47ff.js",
+  "https://www.seasats.com/_next/static/chunks/c15bf2b0-11d3b8116e36b044.js",
+  "https://www.seasats.com/_next/static/chunks/7822-0426072929606d8a.js",
+  "https://www.seasats.com/_next/static/chunks/2954-8a3d3355581ae6d9.js",
+  "https://www.seasats.com/_next/static/chunks/641-dbd1edaa12919922.js",
+  "https://www.seasats.com/_next/static/chunks/9495-79fc1d15e2f22bd7.js",
+  "https://www.seasats.com/_next/static/chunks/app/(frontend)/layout-07e7b1b1d477ef6b.js",
+  "https://www.seasats.com/_next/static/chunks/bd904a5c-a41790b73ae35279.js",
+  "https://www.seasats.com/_next/static/chunks/b536a0f1-a89aaee2c858350d.js",
+  "https://www.seasats.com/_next/static/chunks/1329d575-913930d6a3ee9f96.js",
+  "https://www.seasats.com/_next/static/chunks/176-652cc20e888daa36.js",
+  "https://www.seasats.com/_next/static/chunks/3426-7d84bfa17595a05c.js",
+  "https://www.seasats.com/_next/static/chunks/3492-7000bd1695ecfecb.js",
+  "https://www.seasats.com/_next/static/chunks/9297-dbee6a385ac69d9c.js",
+  "https://www.seasats.com/_next/static/chunks/541-06b2e01ac6d38102.js",
+  "https://www.seasats.com/_next/static/chunks/3067-5e667a9ff21b27a9.js",
+  "https://www.seasats.com/_next/static/chunks/app/(frontend)/page-94f9d8abdf26b788.js",
+  "https://www.seasats.com/_next/static/chunks/polyfills-42372ed130431b0a.js",
+  "https://www.seasats.com/_next/static/chunks/webpack-65c43869c84a28e8.js",
+  "https://www.googletagmanager.com/gtag/js?id=G-TP69LL8MSH"
+ ],
+ "internal": [
+  "https://www.seasats.com/privacy-policy"
+ ],
+ "perf": {
+  "ttfb": 242,
+  "dcl": 1556,
+  "load": 20216,
+  "lcp": 4748,
+  "lcpEl": "SPAN",
+  "cls": 0
+ },
+ "libs": {
+  "detected": [
+   "GSAP",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "React",
+   "Lenis",
+   "Virtual scroll",
+   "Next.js",
+   "Three.js",
+   "Swiper",
+   "React Three Fiber"
+  ],
+  "where": {
+   "GSAP": [
+    "004-c15bf2b0-11d3b8116e36b044.js",
+    "007-2954-8a3d3355581ae6d9.js",
+    "021-9297-dbee6a385ac69d9c.js"
+   ],
+   "ScrollTrigger": [
+    "004-c15bf2b0-11d3b8116e36b044.js",
+    "007-2954-8a3d3355581ae6d9.js",
+    "013-3492-7000bd1695ecfecb.js"
+   ],
+   "SplitText/SplitType": [
+    "004-c15bf2b0-11d3b8116e36b044.js"
+   ],
+   "React": [
+    "005-4bd1b696-100b9d70ed4e49c1.js",
+    "006-1255-642c76f13c20a3ec.js",
+    "020-3067-5e667a9ff21b27a9.js"
+   ],
+   "Lenis": [
+    "007-2954-8a3d3355581ae6d9.js",
+    "020-3067-5e667a9ff21b27a9.js"
+   ],
+   "Virtual scroll": [
+    "007-2954-8a3d3355581ae6d9.js"
+   ],
+   "Next.js": [
+    "013-3492-7000bd1695ecfecb.js",
+    "020-3067-5e667a9ff21b27a9.js"
+   ],
+   "Three.js": [
+    "017-b536a0f1-a89aaee2c858350d.js",
+    "019-bd904a5c-a41790b73ae35279.js",
+    "021-9297-dbee6a385ac69d9c.js"
+   ],
+   "Swiper": [
+    "020-3067-5e667a9ff21b27a9.js",
+    "021-9297-dbee6a385ac69d9c.js"
+   ],
+   "React Three Fiber": [
+    "021-9297-dbee6a385ac69d9c.js"
+   ]
+  },
+  "gsapVersion": "3.11.0",
+  "threeRevision": null,
+  "shaders": 14,
+  "scripts": 22
+ },
+ "network": {
+  "requests": 1292,
+  "totalKb": 18454,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 60
+   },
+   "Script": {
+    "n": 22,
+    "kb": 824
+   },
+   "Stylesheet": {
+    "n": 5,
+    "kb": 35
+   },
+   "Image": {
+    "n": 1230,
+    "kb": 11017
+   },
+   "Media": {
+    "n": 7,
+    "kb": 4779
+   },
+   "Font": {
+    "n": 4,
+    "kb": 192
+   },
+   "Fetch": {
+    "n": 7,
+    "kb": 1543
+   },
+   "Ping": {
+    "n": 1,
+    "kb": 1
+   },
+   "Other": {
+    "n": 15,
+    "kb": 4
+   }
+  },
+  "thirdPartyHosts": [
+   "seasats.sfo3.cdn.digitaloceanspaces.com",
+   "www.googletagmanager.com",
+   "www.google.fr",
+   "region1.analytics.google.com",
+   "stats.g.doubleclick.net",
+   "cdn.jsdelivr.net"
+  ],
+  "fontFiles": [
+   "https://www.seasats.com/_next/static/media/310b4a069ec82868-s.p.woff2",
+   "https://www.seasats.com/_next/static/media/13be4abfd8609ebb-s.p.woff2",
+   "https://www.seasats.com/_next/static/media/fbfb48e1b67fc10e-s.p.woff2",
+   "https://www.seasats.com/_next/static/media/9350f266b74e3a7f-s.p.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://seasats.sfo3.cdn.digitaloceanspaces.com/React_With_Speed.mp4",
+    "kb": 2749,
+    "type": "Media"
+   },
+   {
+    "url": "https://seasats.sfo3.cdn.digitaloceanspaces.com/Screenshot%202026-07-10%20at%203.48.16%E2%80%AFPM-900x903.png?2026-07-10T22:52:33.031Z",
+    "kb": 902,
+    "type": "Image"
+   },
+   {
+    "url": "https://seasats.sfo3.cdn.digitaloceanspaces.com/SeaSats_combo_cropped.png?2026-10-06T06:15:25.815Z",
+    "kb": 878,
+    "type": "Image"
+   },
+   {
+    "url": "https://seasats.sfo3.cdn.digitaloceanspaces.com/Screenshot%202026-07-10%20at%203.48.28%E2%80%AFPM-900x897.png?2026-07-10T22:51:54.719Z",
+    "kb": 827,
+    "type": "Image"
+   },
+   {
+    "url": "https://seasats.sfo3.cdn.digitaloceanspaces.com/deploys-with-speed.mp4",
+    "kb": 809,
+    "type": "Media"
+   },
+   {
+    "url": "https://seasats.sfo3.cdn.digitaloceanspaces.com/Screenshot%202026-07-10%20at%203.48.42%E2%80%AFPM-900x902.png?2026-07-10T22:51:17.936Z",
+    "kb": 789,
+    "type": "Image"
+   },
+   {
+    "url": "https://www.seasats.com/models/globe-materials/color_diffuse_new_texture_02.ktx2",
+    "kb": 736,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://seasats.sfo3.cdn.digitaloceanspaces.com/quickfish_update_shading_002_Angle_Main_Cam_E0008%20(1)-1920x1080.png?2026-10-05T07:57:22.296Z",
+    "kb": 709,
+    "type": "Image"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "63.5115px",
+   "lineHeight": "63.5115px"
+  },
+  "body": "15.8779px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 211
+}

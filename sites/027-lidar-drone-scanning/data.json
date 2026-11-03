@@ -1,0 +1,658 @@
+{
+ "id": 27,
+ "name": "Lidar Drone Scanning",
+ "sourceUrl": "https://drone.riotters.com/",
+ "capturedAt": "2026-11-02T23:39:24.050Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg",
+   "desktop-13.jpg",
+   "desktop-14.jpg"
+  ],
+  "fullPage": 16891,
+  "subpages": [],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://drone.riotters.com/",
+ "title": "Aevion — autonomous LiDAR inspection drone",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Interactive 3D demo of Aevion: full-hemisphere LiDAR capture at 240,000 points per second, folding to 42 cm. A technology demo by Riotters.",
+  "canonical": "https://drone.riotters.com/",
+  "robots": "index, follow",
+  "ogTitle": "Aevion — autonomous LiDAR inspection drone",
+  "ogImage": "https://drone.riotters.com/opengraph-image.png?opengraph-image.f40b0b62.png",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [],
+  "h1Count": 0,
+  "headings": [
+   "H2 GearGear",
+   "H2 SolutionsSolutions",
+   "H2 CapabilitiesCapabilities",
+   "H2 SoftwareSoftware"
+  ],
+  "imgs": 11,
+  "imgNoAlt": 7,
+  "favicon": "https://drone.riotters.com/favicon.ico?favicon.0ef5fcab.ico",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#ffffff",
+    "w": 10241795
+   },
+   {
+    "v": "#fdfdfd",
+    "w": 8050900
+   },
+   {
+    "v": "#dde5e9",
+    "w": 366867
+   },
+   {
+    "v": "#24363f",
+    "w": 13312
+   }
+  ],
+  "text": [
+   {
+    "v": "#24363f",
+    "w": 1011
+   },
+   {
+    "v": "#c7cccb",
+    "w": 822
+   },
+   {
+    "v": "#ffffff",
+    "w": 386
+   },
+   {
+    "v": "#171717",
+    "w": 287
+   }
+  ],
+  "border": [
+   {
+    "v": "#cacfd1",
+    "w": 2
+   },
+   {
+    "v": "#24363f",
+    "w": 1
+   }
+  ],
+  "fonts": [
+   {
+    "v": "switzer",
+    "w": 2490
+   },
+   {
+    "v": "protoMono",
+    "w": 453
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "31.968px",
+    "w": 321
+   },
+   {
+    "v": "28px",
+    "w": 191
+   },
+   {
+    "v": "20px",
+    "w": 170
+   },
+   {
+    "v": "14px",
+    "w": 138
+   },
+   {
+    "v": "24px",
+    "w": 114
+   },
+   {
+    "v": "64px",
+    "w": 109
+   },
+   {
+    "v": "12px",
+    "w": 44
+   },
+   {
+    "v": "240px",
+    "w": 37
+   },
+   {
+    "v": "15px",
+    "w": 27
+   },
+   {
+    "v": "16px",
+    "w": 17
+   },
+   {
+    "v": "56px",
+    "w": 8
+   },
+   {
+    "v": "47.952px",
+    "w": 6
+   },
+   {
+    "v": "32px",
+    "w": 6
+   },
+   {
+    "v": "51.84px",
+    "w": 6
+   },
+   {
+    "v": "48px",
+    "w": 5
+   }
+  ],
+  "radius": [
+   {
+    "v": "24px",
+    "w": 8
+   },
+   {
+    "v": "3.35544e+07px",
+    "w": 3
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.4 0.5s",
+    "w": 6
+   },
+   {
+    "v": "cubic-bezier(0.22 0.5s",
+    "w": 6
+   },
+   {
+    "v": "cubic-bezier(0.4 0.15s",
+    "w": 5
+   },
+   {
+    "v": "cubic-bezier(0.4 0.3s",
+    "w": 4
+   },
+   {
+    "v": "cubic-bezier(0.22 0.7s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h2": {
+    "family": "switzer, \"switzer Fallback\", sans-serif",
+    "size": "240px",
+    "weight": "300",
+    "lineHeight": "360px",
+    "letterSpacing": "-13px",
+    "transform": "none",
+    "color": "#171717",
+    "sample": "GearGear"
+   },
+   "p": {
+    "family": "switzer, \"switzer Fallback\", sans-serif",
+    "size": "14px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#24363f",
+    "sample": "Lidar Drone Scanning"
+   },
+   "a": {
+    "family": "switzer, \"switzer Fallback\", sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#171717",
+    "sample": "aevion"
+   },
+   "button": {
+    "family": "switzer, \"switzer Fallback\", sans-serif",
+    "size": "14px",
+    "weight": "500",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "lowercase",
+    "color": "#24363f",
+    "sample": "menumenu"
+   },
+   "body": {
+    "family": "switzer, \"switzer Fallback\", sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#171717",
+    "sample": "aevionLidar Drone ScanningTech Demo by RiottersRiottersGMT 11:39 pmmenumenuAuton"
+   }
+  },
+  "cssVars": {
+   "--color-white": "#fff",
+   "--spacing": ".25rem",
+   "--text-xs": ".75rem",
+   "--text-xs--line-height": "calc(1/.75)",
+   "--text-sm": ".875rem",
+   "--text-sm--line-height": "calc(1.25/.875)",
+   "--text-base": "1rem",
+   "--text-base--line-height": "calc(1.5/1)",
+   "--text-xl": "1.25rem",
+   "--text-xl--line-height": "calc(1.75/1.25)",
+   "--text-2xl": "1.5rem",
+   "--text-2xl--line-height": "calc(2/1.5)",
+   "--text-5xl": "3rem",
+   "--text-5xl--line-height": "1",
+   "--font-weight-light": "300",
+   "--font-weight-medium": "500",
+   "--tracking-wide": ".025em",
+   "--radius-sm": ".25rem",
+   "--radius-3xl": "1.5rem",
+   "--ease-out": "cubic-bezier(0,0,.2,1)",
+   "--ease-in-out": "cubic-bezier(.4,0,.2,1)",
+   "--animate-ping": "ping 1s cubic-bezier(0,0,.2,1)infinite",
+   "--aspect-video": "16/9",
+   "--default-transition-duration": ".15s",
+   "--default-transition-timing-function": "cubic-bezier(.4,0,.2,1)",
+   "--default-font-family": "var(--font-switzer),sans-serif",
+   "--default-mono-font-family": "var(--font-proto-mono)",
+   "--breakpoint-dsk": "75rem",
+   "--color-ink": "#24363f",
+   "--background": "#0a0a0a",
+   "--foreground": "#ededed"
+  },
+  "fontFaces": [
+   {
+    "family": "switzer",
+    "weight": "",
+    "style": "normal",
+    "src": "url(\"../media/Switzer_Variable-s.p.bd58316e.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "switzer Fallback",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   },
+   {
+    "family": "protoMono",
+    "weight": "300",
+    "style": "normal",
+    "src": "url(\"../media/proto_mono_light-s.p.ae56eb32.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "protoMono Fallback",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   }
+  ],
+  "keyframes": [
+   "colon-blink",
+   "ping"
+  ],
+  "breakpoints": [
+   {
+    "v": "48rem",
+    "w": 5
+   },
+   {
+    "v": "64rem",
+    "w": 3
+   },
+   {
+    "v": "75rem",
+    "w": 2
+   },
+   {
+    "v": "40rem",
+    "w": 1
+   },
+   {
+    "v": "80rem",
+    "w": 1
+   },
+   {
+    "v": "96rem",
+    "w": 1
+   },
+   {
+    "v": "74.9375rem",
+    "w": 1
+   }
+  ],
+  "rulesCount": 759,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "fixed inset-0 z-120 flex",
+    "h": 900,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": "hero",
+    "cls": "relative flex h-svh flex-col overflow-hidden bg-canvas px-2 md:px-4 dsk:px-6",
+    "h": 900,
+    "title": "",
+    "media": 1
+   },
+   {
+    "tag": "section",
+    "id": "intro-section",
+    "cls": "bg-canvas px-4 dsk:px-6",
+    "h": 1090,
+    "title": "",
+    "media": 3
+   },
+   {
+    "tag": "section",
+    "id": "gear",
+    "cls": "bg-canvas px-6 flex flex-col items-center justify-center max-lg:px-2",
+    "h": 864,
+    "title": "GearGear",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": "drone-lock",
+    "cls": "relative bg-canvas max-lg:px-2 max-lg:pt-[20vh] lg:h-(--stats-section-h) lg:mb-[",
+    "h": 3510,
+    "title": "",
+    "media": 3
+   },
+   {
+    "tag": "section",
+    "id": "solutions",
+    "cls": "relative flex flex-col items-center bg-white px-2 pb-16 md:px-4 dsk:px-6 dsk:pt-",
+    "h": 1582,
+    "title": "SolutionsSolutions",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": "capabilities",
+    "cls": "relative border-ink/24 border-t bg-white",
+    "h": 6121,
+    "title": "CapabilitiesCapabilities",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": "software",
+    "cls": "relative flex flex-col items-center bg-white px-2 md:px-4 dsk:px-6",
+    "h": 1565,
+    "title": "SoftwareSoftware",
+    "media": 8
+   },
+   {
+    "tag": "section",
+    "id": "landing-section",
+    "cls": "relative flex h-100 w-full flex-col items-center justify-between overflow-x-clip",
+    "h": 700,
+    "title": "",
+    "media": 0
+   }
+  ],
+  "navLinks": [],
+  "ctas": [
+   "Contact UsContact Us"
+  ],
+  "pageHeight": 16891,
+  "counts": {
+   "canvas": 5,
+   "videos": 3,
+   "imgs": 11,
+   "svgs": 2,
+   "iframes": 0,
+   "domNodes": 2097
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "183",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": true,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [
+   "segment"
+  ],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://drone.riotters.com/_next/static/chunks/72c822cfe5b6f4f2.js?dpl=dpl_7Wc7CdYXC5XSy3Z9hzPq4nAGcbAN",
+  "https://drone.riotters.com/_next/static/chunks/045c83caa4d15373.js?dpl=dpl_7Wc7CdYXC5XSy3Z9hzPq4nAGcbAN",
+  "https://drone.riotters.com/_next/static/chunks/01bf887ab4501022.js?dpl=dpl_7Wc7CdYXC5XSy3Z9hzPq4nAGcbAN",
+  "https://drone.riotters.com/_next/static/chunks/turbopack-42ccd3accfeeb189.js?dpl=dpl_7Wc7CdYXC5XSy3Z9hzPq4nAGcbAN",
+  "https://drone.riotters.com/_next/static/chunks/1b6b9f7d60f2591f.js?dpl=dpl_7Wc7CdYXC5XSy3Z9hzPq4nAGcbAN",
+  "https://drone.riotters.com/_next/static/chunks/edf0036d357232b2.js?dpl=dpl_7Wc7CdYXC5XSy3Z9hzPq4nAGcbAN",
+  "https://drone.riotters.com/_next/static/chunks/ff1a16fafef87110.js?dpl=dpl_7Wc7CdYXC5XSy3Z9hzPq4nAGcbAN",
+  "https://drone.riotters.com/_next/static/chunks/d2be314c3ece3fbe.js?dpl=dpl_7Wc7CdYXC5XSy3Z9hzPq4nAGcbAN",
+  "https://drone.riotters.com/_next/static/chunks/680d33e4c65eee79.js?dpl=dpl_7Wc7CdYXC5XSy3Z9hzPq4nAGcbAN",
+  "https://drone.riotters.com/_next/static/chunks/1c21992ade81f5f5.js?dpl=dpl_7Wc7CdYXC5XSy3Z9hzPq4nAGcbAN",
+  "https://drone.riotters.com/_next/static/chunks/a6dad97d9634a72d.js?dpl=dpl_7Wc7CdYXC5XSy3Z9hzPq4nAGcbAN",
+  "https://drone.riotters.com/da9234f8dd2b67f3/script.js",
+  "https://drone.riotters.com/_next/static/chunks/7ed531b8e7e46c44.js?dpl=dpl_7Wc7CdYXC5XSy3Z9hzPq4nAGcbAN"
+ ],
+ "internal": [],
+ "perf": {
+  "ttfb": 176,
+  "dcl": 341,
+  "load": 2247,
+  "lcp": 936,
+  "lcpEl": "SPAN.inline-block",
+  "cls": 0
+ },
+ "libs": {
+  "detected": [
+   "Lenis",
+   "Virtual scroll",
+   "Rive",
+   "React",
+   "Next.js",
+   "Three.js",
+   "React Three Fiber",
+   "Postprocessing"
+  ],
+  "where": {
+   "Lenis": [
+    "005-1b6b9f7d60f2591f.js",
+    "007-edf0036d357232b2.js",
+    "011-1c21992ade81f5f5.js"
+   ],
+   "Virtual scroll": [
+    "007-edf0036d357232b2.js"
+   ],
+   "Rive": [
+    "008-680d33e4c65eee79.js",
+    "011-1c21992ade81f5f5.js"
+   ],
+   "React": [
+    "009-7ed531b8e7e46c44.js",
+    "010-045c83caa4d15373.js"
+   ],
+   "Next.js": [
+    "009-7ed531b8e7e46c44.js"
+   ],
+   "Three.js": [
+    "011-1c21992ade81f5f5.js"
+   ],
+   "React Three Fiber": [
+    "011-1c21992ade81f5f5.js"
+   ],
+   "Postprocessing": [
+    "011-1c21992ade81f5f5.js"
+   ]
+  },
+  "gsapVersion": null,
+  "threeRevision": null,
+  "shaders": 37,
+  "scripts": 12
+ },
+ "network": {
+  "requests": 44,
+  "totalKb": 15221,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 19
+   },
+   "Stylesheet": {
+    "n": 1,
+    "kb": 9
+   },
+   "Script": {
+    "n": 12,
+    "kb": 749
+   },
+   "Media": {
+    "n": 10,
+    "kb": 11936
+   },
+   "Font": {
+    "n": 2,
+    "kb": 58
+   },
+   "Image": {
+    "n": 6,
+    "kb": 95
+   },
+   "Other": {
+    "n": 1,
+    "kb": 1
+   },
+   "Fetch": {
+    "n": 11,
+    "kb": 2354
+   }
+  },
+  "thirdPartyHosts": [],
+  "fontFiles": [
+   "https://drone.riotters.com/_next/static/media/proto_mono_light-s.p.ae56eb32.woff2",
+   "https://drone.riotters.com/_next/static/media/Switzer_Variable-s.p.bd58316e.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://drone.riotters.com/intro/video3.mp4",
+    "kb": 3202,
+    "type": "Media"
+   },
+   {
+    "url": "https://drone.riotters.com/solutions/energy.mp4",
+    "kb": 2663,
+    "type": "Media"
+   },
+   {
+    "url": "https://drone.riotters.com/solutions/infrastructure.mp4",
+    "kb": 1840,
+    "type": "Media"
+   },
+   {
+    "url": "https://drone.riotters.com/software/NewTerreain_006.glb",
+    "kb": 1557,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://drone.riotters.com/solutions/geospatial.mp4",
+    "kb": 1264,
+    "type": "Media"
+   },
+   {
+    "url": "https://drone.riotters.com/solutions/industry.mp4",
+    "kb": 1259,
+    "type": "Media"
+   },
+   {
+    "url": "https://drone.riotters.com/intro/video2.mp4",
+    "kb": 854,
+    "type": "Media"
+   },
+   {
+    "url": "https://drone.riotters.com/intro/video2.mp4",
+    "kb": 854,
+    "type": "Media"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": null,
+  "body": "16px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 87
+}

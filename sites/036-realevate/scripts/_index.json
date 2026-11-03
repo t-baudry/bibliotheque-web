@@ -1,0 +1,42 @@
+[
+ {
+  "file": "001-splittext.min.js",
+  "url": "https://realevate.agency/js/splittext.min.js",
+  "kb": 15
+ },
+ {
+  "file": "002-gsap.min.js",
+  "url": "https://realevate.agency/js/gsap.min.js",
+  "kb": 70
+ },
+ {
+  "file": "003-scrolltrigger.min.js",
+  "url": "https://realevate.agency/js/scrolltrigger.min.js",
+  "kb": 42
+ },
+ {
+  "file": "004-site-preloader.timing.js",
+  "url": "https://realevate.agency/js/site-preloader.timing.js",
+  "kb": 0
+ },
+ {
+  "file": "005-slider-manifest.js",
+  "url": "https://realevate.agency/slider-manifest.js",
+  "kb": 3
+ },
+ {
+  "file": "006-load-meta-pixel.js",
+  "url": "https://realevate.agency/js/load-meta-pixel.js",
+  "kb": 2
+ },
+ {
+  "file": "007-load-analytics.js",
+  "url": "https://realevate.agency/js/load-analytics.js",
+  "kb": 2
+ },
+ {
+  "file": "008-realevate-app.js",
+  "url": "https://realevate.agency/js/realevate-app.js?v=1789247589730",
+  "kb": 278
+ }
+]

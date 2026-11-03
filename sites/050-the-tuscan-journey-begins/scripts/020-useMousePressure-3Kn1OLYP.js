@@ -1,0 +1,2 @@
+import{I as n,F as u,D as f}from"./app-Dyqo_2kd.js";const c=1/3,i=n(()=>{const a=u(!1),s=u(!1),e=u(0);f(({delta:r})=>{if(s.value)return;const o=a.value?1:-1,t=Math.max(0,Math.min(1,e.value+o*(r/1e3)*c));t!==e.value&&(e.value=t,t>=1&&(s.value=!0))});function l(){a.value=!1,s.value=!1,e.value=0}return{pressed:a,completed:s,progress:e,reset:l}});export{i as u};
+//# sourceMappingURL=useMousePressure-3Kn1OLYP.js.map

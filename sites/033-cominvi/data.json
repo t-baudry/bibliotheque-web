@@ -1,0 +1,12 @@
+{
+ "id": 33,
+ "name": "CoMinVi",
+ "sourceUrl": "https://www.cominvi.com.mx/",
+ "capturedAt": "2026-11-02T23:42:53.691Z",
+ "status": "inaccessible",
+ "errors": [
+  "browserContext.newPage: Target page, context or browser has been closed"
+ ],
+ "steps": {},
+ "durationS": 3
+}

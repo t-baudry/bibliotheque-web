@@ -1,0 +1,17 @@
+[
+ {
+  "file": "001-vendors.js",
+  "url": "https://lisa.locomotive.ca/assets/scripts/vendors.js?v=1773158732955",
+  "kb": 5
+ },
+ {
+  "file": "002-app.js",
+  "url": "https://lisa.locomotive.ca/assets/scripts/app.js?v=1773158732955",
+  "kb": 2491
+ },
+ {
+  "file": "003-main.js",
+  "url": "https://lisa.locomotive.ca/cdn-cgi/challenge-platform/h/g/scripts/jsd/5c2e6b612edd/main.js?ray=a54718346800d10c",
+  "kb": 39
+ }
+]

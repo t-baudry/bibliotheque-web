@@ -1,0 +1,847 @@
+{
+ "id": 45,
+ "name": "Noho",
+ "sourceUrl": "https://noho.ink/",
+ "capturedAt": "2026-11-02T23:58:07.258Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg",
+   "desktop-13.jpg",
+   "desktop-14.jpg"
+  ],
+  "fullPage": 14965,
+  "subpages": [
+   {
+    "url": "https://noho.ink/assets/models/67bc7aa56be8d59c6ca25efb_compressed-combined.glb",
+    "error": "page.goto: Download is starting"
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://noho.ink/",
+ "title": "Noho",
+ "lang": "en",
+ "generator": "Webflow",
+ "seo": {
+  "description": null,
+  "canonical": null,
+  "robots": null,
+  "ogTitle": null,
+  "ogImage": null,
+  "twitterCard": null,
+  "jsonLd": [],
+  "h1Count": 1,
+  "headings": [
+   "H3 “He ain’t heavy”",
+   "H3 “Not only do they look great, but they are very comfortable too”",
+   "H3 Josh L",
+   "H3 Why Lighty",
+   "H3 All purpose chair",
+   "H3 “Never sit still”",
+   "H3 “I love these chairs. They feel like a comfortable outfit that holds you, and moves with y",
+   "H3 Michael M",
+   "H3 Why Move",
+   "H3 Chairs that care",
+   "H2 Chairs that care",
+   "H2 People stories",
+   "H2 A few words about us",
+   "H2 Awards&Recognitions",
+   "H3 Move awards",
+   "H3 Lighty awards",
+   "H3 Media",
+   "H2 Noho stories",
+   "H2 FAQ",
+   "H2 Play around",
+   "H2 FAQ",
+   "H2 Follow us on Instagram",
+   "H2 A good goodbuy",
+   "H1 Privacy Policy"
+  ],
+  "imgs": 70,
+  "imgNoAlt": 70,
+  "favicon": "https://noho.ink/assets/media/6a4e44ce6ee465198645089f_favicon-light.png",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#f1eee9",
+    "w": 12917340
+   },
+   {
+    "v": "#e7e2da",
+    "w": 7028362
+   },
+   {
+    "v": "#cdc0b0",
+    "w": 5783510
+   },
+   {
+    "v": "#3c3c3c",
+    "w": 2222645
+   },
+   {
+    "v": "#d7d1c7",
+    "w": 1393713
+   },
+   {
+    "v": "#ffffff",
+    "w": 637570
+   },
+   {
+    "v": "#f6825d",
+    "w": 810
+   },
+   {
+    "v": "#f6d45d",
+    "w": 810
+   },
+   {
+    "v": "#cef65d",
+    "w": 810
+   },
+   {
+    "v": "#ffe500",
+    "w": 450
+   },
+   {
+    "v": "#3b3b3d",
+    "w": 450
+   },
+   {
+    "v": "#f4faf1",
+    "w": 450
+   }
+  ],
+  "text": [
+   {
+    "v": "#3c3c3c",
+    "w": 8765
+   },
+   {
+    "v": "#ffffff",
+    "w": 96
+   }
+  ],
+  "border": [
+   {
+    "v": "#3c3c3c",
+    "w": 4
+   },
+   {
+    "v": "#cccccc",
+    "w": 1
+   }
+  ],
+  "fonts": [
+   {
+    "v": "Switzer",
+    "w": 8801
+   },
+   {
+    "v": "Arial",
+    "w": 86
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "13.5072px",
+    "w": 327
+   },
+   {
+    "v": "60.048px",
+    "w": 73
+   },
+   {
+    "v": "13.536px",
+    "w": 61
+   },
+   {
+    "v": "18.72px",
+    "w": 56
+   },
+   {
+    "v": "29.952px",
+    "w": 56
+   },
+   {
+    "v": "14.4px",
+    "w": 26
+   },
+   {
+    "v": "225px",
+    "w": 11
+   },
+   {
+    "v": "10.512px",
+    "w": 10
+   }
+  ],
+  "radius": [
+   {
+    "v": "100%",
+    "w": 38
+   },
+   {
+    "v": "29.9952px",
+    "w": 6
+   },
+   {
+    "v": "50px",
+    "w": 4
+   }
+  ],
+  "shadows": [],
+  "transitions": [],
+  "typo": {
+   "h2": {
+    "family": "Switzer, sans-serif",
+    "size": "60.048px",
+    "weight": "600",
+    "lineHeight": "60.048px",
+    "letterSpacing": "-2.40192px",
+    "transform": "none",
+    "color": "#3c3c3c",
+    "sample": "Chairs that care"
+   },
+   "h3": {
+    "family": "Switzer, sans-serif",
+    "size": "29.952px",
+    "weight": "600",
+    "lineHeight": "29.952px",
+    "letterSpacing": "-0.89856px",
+    "transform": "none",
+    "color": "#3c3c3c",
+    "sample": "“He ain’t heavy”"
+   },
+   "h4": {
+    "family": "Switzer, sans-serif",
+    "size": "18.72px",
+    "weight": "600",
+    "lineHeight": "18.72px",
+    "letterSpacing": "-0.1872px",
+    "transform": "none",
+    "color": "#3c3c3c",
+    "sample": "Light and nimble"
+   },
+   "p": {
+    "family": "Switzer, sans-serif",
+    "size": "13.5072px",
+    "weight": "400",
+    "lineHeight": "13.5072px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#3c3c3c",
+    "sample": "Energy usageEnergy usage"
+   },
+   "a": {
+    "family": "Switzer, sans-serif",
+    "size": "13.5072px",
+    "weight": "400",
+    "lineHeight": "13.5072px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#3c3c3c",
+    "sample": "AboutAbout"
+   },
+   "body": {
+    "family": "Arial, sans-serif",
+    "size": "14.4px",
+    "weight": "400",
+    "lineHeight": "14.4px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#3c3c3c",
+    "sample": "AboutAboutPricePriceBlogBlogFAQFAQEnergy usageEnergy usageHighMedLow Energy rati"
+   }
+  },
+  "cssVars": {
+   "--bg-page": "#f1eee9",
+   "--txt-main": "#3c3c3c",
+   "--bg-form-element": "white",
+   "--raven-black-100": "#3c3c3c",
+   "--bg-switch": "#d7d1c7",
+   "--bg-inner-switch": "white",
+   "--bg-btn-pm": "#3c3c3c",
+   "--txt-btn-pm": "white",
+   "--bg-btn-sc": "white",
+   "--txt-btn-sc": "#3c3c3c",
+   "--bg-btn-big": "#3c3c3c",
+   "--txt-btn-big": "white",
+   "--transperent": "#0000",
+   "--raven-black-40": "#3c3c3c66",
+   "--offbeat": "#d7d1c7",
+   "--white": "white",
+   "--txt-form-element": "#3c3c3c",
+   "--bg-element": "#e7e2da",
+   "--txt-main-opacity-max": "#3c3c3c66",
+   "--icon-contrast": "#3c3c3c",
+   "--bg-header": "white",
+   "--text-form-element-opacity-med": "#3c3c3c99",
+   "--bg-element-third": "#cdc0b0",
+   "--txt-main-opacity-med": "#3c3c3c99",
+   "--text-form-header": "#3c3c3c99",
+   "--bg-element-second": "#d7d1c7",
+   "--bg-switch-active": "#3c3c3c",
+   "--indicator-red": "#dc5b5b",
+   "--black": "black",
+   "--text-form-header-active": "#3c3c3c",
+   "--hacienda-white": "#f1eee9",
+   "--toque-white": "#e7e2da",
+   "--indicator-green": "#88c159",
+   "--sandbar": "#cdc0b0",
+   "--raven-black-60": "#3c3c3c99",
+   "--dim-gray": "#686868",
+   "--bg-element-hover": "#cdc0b0",
+   "--text-form-element-opacity-max": "#3c3c3c66"
+  },
+  "fontFaces": [
+   {
+    "family": "webflow-icons",
+    "weight": "normal",
+    "style": "normal",
+    "src": "url(\"data:application/x-font-ttf;charset=utf-8;base64,AAEAAAALAIAAAwAwT1MvMg8SBiUAAAC8AAAAYGNtYXDpP+a4AAABHAAAAFxnYXNwAAAAEAAAAXgAAAAIZ2x5ZmhS2XEAAAGAAAADHGhlYWQTFw3HAAAEnAAAADZoaGVhCXYFgQAABNQAAAAkaG"
+   },
+   {
+    "family": "Switzer",
+    "weight": "600",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/667ab0784136240d5e8010d7_Switzer-Semibold.woff2\") format(\"woff2\"), url(\"/assets/fonts/667ab0784136240d5e8010d7_Switzer-Semibold.woff2\") format(\"woff\"), url(\"/assets/fonts/667ab07841"
+   },
+   {
+    "family": "Switzer",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/667ab07840bd3945abc5dc76_Switzer-Regular.woff2\") format(\"woff2\"), url(\"/assets/fonts/667ab07840bd3945abc5dc76_Switzer-Regular.woff2\") format(\"woff\"), url(\"/assets/fonts/667ab07840bd"
+   },
+   {
+    "family": "Switzer",
+    "weight": "100 900",
+    "style": "italic",
+    "src": "url(\"/assets/fonts/667ab079892cd32135eb588f_Switzer-VariableItalic.woff2\") format(\"woff2\"), url(\"/assets/fonts/667ab079892cd32135eb588f_Switzer-VariableItalic.woff2\") format(\"woff\"), url(\"/assets/font"
+   },
+   {
+    "family": "Switzer Variable",
+    "weight": "100 900",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/667ab078b05a6478d90c054f_Switzer-Variable.woff2\") format(\"woff2\"), url(\"/assets/fonts/667ab078b05a6478d90c054f_Switzer-Variable.woff2\") format(\"woff\"), url(\"/assets/fonts/667ab078b0"
+   }
+  ],
+  "keyframes": [
+   "spin"
+  ],
+  "breakpoints": [
+   {
+    "v": "991px",
+    "w": 10
+   },
+   {
+    "v": "992px",
+    "w": 9
+   },
+   {
+    "v": "479px",
+    "w": 7
+   },
+   {
+    "v": "1279px",
+    "w": 7
+   },
+   {
+    "v": "480px",
+    "w": 4
+   },
+   {
+    "v": "767px",
+    "w": 3
+   },
+   {
+    "v": "768px",
+    "w": 1
+   },
+   {
+    "v": "1280px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 1768,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "section",
+    "id": "hero-section",
+    "cls": "hero-section-parent",
+    "h": 900,
+    "title": "",
+    "media": 8
+   },
+   {
+    "tag": "section",
+    "id": "quote-section",
+    "cls": "quote-section-parent",
+    "h": 236,
+    "title": "",
+    "media": 8
+   },
+   {
+    "tag": "section",
+    "id": "product-section",
+    "cls": "product-section-parent",
+    "h": 900,
+    "title": "“He ain’t heavy”",
+    "media": 24
+   },
+   {
+    "tag": "section",
+    "id": "advantages-section",
+    "cls": "advantages-section-parent",
+    "h": 566,
+    "title": "Chairs that care",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": "gallery-section",
+    "cls": "gallery-section-parent",
+    "h": 553,
+    "title": "",
+    "media": 13
+   },
+   {
+    "tag": "section",
+    "id": "reviews-section",
+    "cls": "reviews-section-parent",
+    "h": 486,
+    "title": "People stories",
+    "media": 5
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "form-section",
+    "h": 422,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": "about-section",
+    "cls": "about-us-section-parent",
+    "h": 600,
+    "title": "A few words about us",
+    "media": 4
+   },
+   {
+    "tag": "section",
+    "id": "awards-section",
+    "cls": "awards-section-parent",
+    "h": 832,
+    "title": "Awards&Recognitions",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "pin-spacer pin-spacer-blog-collection-pin",
+    "h": 4079,
+    "title": "Noho stories",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": "sustainability-section",
+    "cls": "sustainability-section-parent",
+    "h": 262,
+    "title": "",
+    "media": 1
+   },
+   {
+    "tag": "section",
+    "id": "faq-section",
+    "cls": "faq-section-parent",
+    "h": 715,
+    "title": "FAQ",
+    "media": 1
+   },
+   {
+    "tag": "section",
+    "id": "social-section",
+    "cls": "social-section-parent",
+    "h": 1120,
+    "title": "Follow us on Instagram",
+    "media": 3
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "noho-footer-reveal-mask",
+    "h": 695,
+    "title": "",
+    "media": 0
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "",
+    "href": "https://noho.ink/"
+   },
+   {
+    "t": "AboutAbout",
+    "href": "https://noho.ink/#about-section"
+   },
+   {
+    "t": "PricePrice",
+    "href": "https://noho.ink/#product-section"
+   },
+   {
+    "t": "BlogBlog",
+    "href": "https://noho.ink/#blog-section"
+   },
+   {
+    "t": "FAQFAQ",
+    "href": "https://noho.ink/#faq-section"
+   },
+   {
+    "t": "About",
+    "href": "https://noho.ink/#about-section"
+   },
+   {
+    "t": "Blog",
+    "href": "https://noho.ink/#blog-section"
+   },
+   {
+    "t": "FAQ",
+    "href": "https://noho.ink/#faq-section"
+   },
+   {
+    "t": "Instagram",
+    "href": "https://www.instagram.com/noho_co/"
+   },
+   {
+    "t": "Facebook",
+    "href": "https://www.facebook.com/nohohq/"
+   },
+   {
+    "t": "LinkedIn",
+    "href": "https://nz.linkedin.com/company/nohohq"
+   },
+   {
+    "t": "Pinterest",
+    "href": "https://pinterest.com/noho_co/"
+   },
+   {
+    "t": "Explore in 3DExplore in 3D",
+    "href": "https://noho.ink/#none"
+   }
+  ],
+  "ctas": [
+   "AboutAbout",
+   "PricePrice",
+   "BlogBlog",
+   "FAQFAQ",
+   "Learn moreLearn more",
+   "BuyBuy",
+   "Learn moreLearn more",
+   "BuyBuy",
+   "Next 1/4Next 1/4",
+   "SendSend",
+   "Make an orderMake an order",
+   "RandomRandom",
+   "MoodMood"
+  ],
+  "pageHeight": 14965,
+  "counts": {
+   "canvas": 2,
+   "videos": 0,
+   "imgs": 70,
+   "svgs": 67,
+   "iframes": 0,
+   "domNodes": 1781
+  }
+ },
+ "tech": {
+  "gsap": true,
+  "gsapVersion": "3.15.0",
+  "scrollTrigger": true,
+  "splitText": true,
+  "lenis": true,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "182",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": true,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://noho.ink/assets/vendor/model-viewer.min.js",
+  "https://noho.ink/assets/vendor/jquery.min.js",
+  "https://noho.ink/assets/vendor/gsap.min.js",
+  "https://noho.ink/assets/vendor/ScrollTrigger.min.js",
+  "https://noho.ink/assets/vendor/CustomEase.min.js",
+  "https://noho.ink/assets/vendor/SplitText.min.js",
+  "https://noho.ink/assets/vendor/lenis.min.js",
+  "https://noho.ink/assets/vendor/embla-carousel.umd.js",
+  "https://noho.ink/assets/vendor/embla-carousel-auto-scroll.umd.js",
+  "https://noho.ink/assets/js/noho.bundle.min.js",
+  "https://noho.ink/assets/js/noho.bundle.deferred-slim.min.js",
+  "https://static.cloudflareinsights.com/beacon.min.js",
+  "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+  "https://noho.ink/assets/js/noho.bundle.deferred-heavy.min.js"
+ ],
+ "internal": [
+  "https://noho.ink/assets/models/67bc7aa56be8d59c6ca25efb_compressed-combined.glb",
+  "https://noho.ink/assets/media/6a3578d4ca0e46e56cd2278c_noho-article-1-main-image.webp",
+  "https://noho.ink/assets/media/6a357979eee401aaf1eca2ef_noho-article-2-main-image.webp",
+  "https://noho.ink/assets/media/6a357a85235f0819a166289f_noho-article-3-main-image.webp",
+  "https://noho.ink/assets/media/6a357a51162d9d628262a386_noho-article-4-main-image.webp",
+  "https://noho.ink/assets/media/6a3579993cb43f4335860848_noho-article-5-main-image.webp"
+ ],
+ "perf": {
+  "ttfb": 100,
+  "dcl": 482,
+  "load": 766,
+  "lcp": 356,
+  "lcpEl": "IMG.noho-lcp-anchor",
+  "cls": 0
+ },
+ "libs": {
+  "detected": [
+   "GSAP",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Lenis",
+   "Embla",
+   "jQuery",
+   "Contentful",
+   "Virtual scroll",
+   "OGL",
+   "Three.js",
+   "PlayCanvas",
+   "Postprocessing",
+   "Lottie"
+  ],
+  "where": {
+   "GSAP": [
+    "001-noho.bundle.min.js",
+    "003-CustomEase.min.js",
+    "004-gsap.min.js",
+    "005-ScrollTrigger.min.js",
+    "008-SplitText.min.js",
+    "013-noho.bundle.deferred-heavy.min.js"
+   ],
+   "ScrollTrigger": [
+    "001-noho.bundle.min.js",
+    "004-gsap.min.js",
+    "005-ScrollTrigger.min.js",
+    "013-noho.bundle.deferred-heavy.min.js"
+   ],
+   "SplitText/SplitType": [
+    "001-noho.bundle.min.js",
+    "004-gsap.min.js",
+    "008-SplitText.min.js",
+    "013-noho.bundle.deferred-heavy.min.js",
+    "014-html2canvas.esm.js"
+   ],
+   "Lenis": [
+    "001-noho.bundle.min.js",
+    "009-lenis.min.js",
+    "013-noho.bundle.deferred-heavy.min.js"
+   ],
+   "Embla": [
+    "001-noho.bundle.min.js",
+    "006-embla-carousel-auto-scroll.umd.js",
+    "010-embla-carousel.umd.js",
+    "013-noho.bundle.deferred-heavy.min.js"
+   ],
+   "jQuery": [
+    "001-noho.bundle.min.js",
+    "011-jquery.min.js"
+   ],
+   "Contentful": [
+    "007-vce701823e78c4301a35b7e07294d87301792088814092.js",
+    "012-beacon.min.js"
+   ],
+   "Virtual scroll": [
+    "009-lenis.min.js"
+   ],
+   "OGL": [
+    "013-noho.bundle.deferred-heavy.min.js",
+    "016-ogl.esm.js"
+   ],
+   "Three.js": [
+    "015-model-viewer.min.js"
+   ],
+   "PlayCanvas": [
+    "015-model-viewer.min.js"
+   ],
+   "Postprocessing": [
+    "015-model-viewer.min.js"
+   ],
+   "Lottie": [
+    "015-model-viewer.min.js"
+   ]
+  },
+  "gsapVersion": "3.15.0",
+  "threeRevision": null,
+  "shaders": 40,
+  "scripts": 16
+ },
+ "network": {
+  "requests": 120,
+  "totalKb": 7653,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 20
+   },
+   "Script": {
+    "n": 17,
+    "kb": 544
+   },
+   "Stylesheet": {
+    "n": 3,
+    "kb": 34
+   },
+   "Font": {
+    "n": 2,
+    "kb": 37
+   },
+   "Image": {
+    "n": 82,
+    "kb": 3956
+   },
+   "Other": {
+    "n": 1,
+    "kb": 1
+   },
+   "Preflight": {
+    "n": 1,
+    "kb": 0
+   },
+   "XHR": {
+    "n": 1,
+    "kb": 0
+   },
+   "Fetch": {
+    "n": 12,
+    "kb": 3061
+   }
+  },
+  "thirdPartyHosts": [
+   "static.cloudflareinsights.com",
+   "cloudflareinsights.com",
+   "www.gstatic.com"
+  ],
+  "fontFiles": [
+   "https://noho.ink/assets/fonts/667ab07840bd3945abc5dc76_Switzer-Regular.woff2",
+   "https://noho.ink/assets/fonts/667ab0784136240d5e8010d7_Switzer-Semibold.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://noho.ink/assets/models/67bc7aa56be8d59c6ca25efb_compressed-combined.glb",
+    "kb": 2202,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://noho.ink/assets/js/move-random-environments/neutral-tint-bg-element-light-e7e2da.hdr",
+    "kb": 760,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://noho.ink/assets/vendor/model-viewer.min.js",
+    "kb": 274,
+    "type": "Script"
+   },
+   {
+    "url": "https://noho.ink/assets/media/67bc9262988905a5cbe8bbe2_move-random-poster.webp",
+    "kb": 219,
+    "type": "Image"
+   },
+   {
+    "url": "https://noho.ink/assets/media/6a34086d2aabea231ac251a4_noho-move-gallery-6-p-1600.webp",
+    "kb": 183,
+    "type": "Image"
+   },
+   {
+    "url": "https://noho.ink/assets/media/6a394c9b0c3b2147b88721a1_noho-hero-5.webp",
+    "kb": 166,
+    "type": "Image"
+   },
+   {
+    "url": "https://noho.ink/assets/media/6a340a653e9b142380ddd518_noho-review-5.webp",
+    "kb": 150,
+    "type": "Image"
+   },
+   {
+    "url": "https://noho.ink/assets/media/6a3407e7c088d4d5cd1e3675_noho-gallery-06.webp",
+    "kb": 146,
+    "type": "Image"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "51.9987px",
+   "lineHeight": "49.3988px"
+  },
+  "body": "3.9px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 82
+}

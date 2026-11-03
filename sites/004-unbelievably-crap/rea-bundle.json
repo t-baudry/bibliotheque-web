@@ -1,0 +1,1 @@
+{"error":"Command failed: C:\\Program Files\\nodejs\\node.exe C:\\Users\\Utilisateur\\Documents\\Pro\\Bibliothèque web\\_outils\\node_modules\\rea-agents\\scripts\\rea.mjs analyze-web-bundle http://127.0.0.1:9304 263AF818E35F158CC8CA622B71721EBA --observation-ms 1500 --format json\n","stderr":""}

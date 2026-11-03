@@ -1,0 +1,808 @@
+{
+ "id": 22,
+ "name": "Nick Ho",
+ "sourceUrl": "https://nickho-motorsports.nl/",
+ "capturedAt": "2026-11-02T23:35:54.349Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg",
+   "desktop-13.jpg",
+   "desktop-14.jpg"
+  ],
+  "fullPage": 11648,
+  "subpages": [
+   {
+    "url": "https://nickho-motorsports.nl/disclaimer-privacy-policy",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://nickho-motorsports.nl/",
+ "title": "Nick Ho - Dutch Racing Driver | Porsche Carrera Cup",
+ "lang": "en",
+ "generator": "Webflow",
+ "seo": {
+  "description": "21-year-old racing driver from Rotterdam competing in Porsche Carrera Cup Deutschland. 17 career podiums, 14 circuits raced. Follow my motorsport journey.",
+  "canonical": null,
+  "robots": null,
+  "ogTitle": "Nick Ho - Dutch Racing Driver | Porsche Carrera Cup",
+  "ogImage": "https://cdn.prod.website-files.com/6a422333c15d8477da5a8443/6a6363682aa7756ce5b192c9_1-%20THUMBNAIL-compressed.avif",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "Person"
+  ],
+  "h1Count": 1,
+  "headings": [
+   "H1 Nick Ho",
+   "H2 The Foundation",
+   "H2 First Victories",
+   "H2 Proving Speed",
+   "H2 Going International",
+   "H2 Pole position",
+   "H2 The Foundation",
+   "H3 First Victories",
+   "H3 Proving Speed",
+   "H3 Going International",
+   "H3 Pole position",
+   "H2 Media & articles",
+   "H2 race calendar 2026",
+   "H3 Race 3 - Circuit Ricardo Tormo",
+   "H3 Race 4 - Circuit de Barcelona-Catalunya",
+   "H3 Race 1 - WEC Imola",
+   "H3 Race 2 - DTM Red Bull Ring",
+   "H3 Race 3 - GT OPEN Spa-Francorchamps",
+   "H3 Race 4 - DTM Zandvoort",
+   "H3 Race 5 - DTM Lausitzring",
+   "H3 Race 7 - DTM Nürburgring",
+   "H3 Race 6 - Circuit Zandvoort",
+   "H3 Race 8 - DTM Hockenheim",
+   "H2 Want to know more about the championships I compete in ?",
+   "H2 Contact"
+  ],
+  "imgs": 67,
+  "imgNoAlt": 61,
+  "favicon": "https://cdn.prod.website-files.com/6a422333c15d8477da5a8443/6a423f0c4a28dcd7702058a2_nick-ho-favicon-dark.png",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#ffffff",
+    "w": 8727909
+   },
+   {
+    "v": "#000000",
+    "w": 6989932
+   },
+   {
+    "v": "#fed60a",
+    "w": 1317007
+   },
+   {
+    "v": "#f2f2f2",
+    "w": 13909
+   }
+  ],
+  "text": [
+   {
+    "v": "#ffffff",
+    "w": 1088
+   },
+   {
+    "v": "#333333",
+    "w": 751
+   },
+   {
+    "v": "#000000",
+    "w": 358
+   },
+   {
+    "v": "#fed60a",
+    "w": 61
+   }
+  ],
+  "border": [
+   {
+    "v": "#000000",
+    "w": 4
+   }
+  ],
+  "fonts": [
+   {
+    "v": "Helvetica",
+    "w": 1605
+   },
+   {
+    "v": "Anton",
+    "w": 653
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "14px",
+    "w": 424
+   },
+   {
+    "v": "16px",
+    "w": 158
+   },
+   {
+    "v": "26px",
+    "w": 58
+   },
+   {
+    "v": "50px",
+    "w": 35
+   },
+   {
+    "v": "32px",
+    "w": 7
+   },
+   {
+    "v": "64px",
+    "w": 5
+   },
+   {
+    "v": "200px",
+    "w": 2
+   }
+  ],
+  "radius": [
+   {
+    "v": "4px",
+    "w": 53
+   },
+   {
+    "v": "160px",
+    "w": 2
+   },
+   {
+    "v": "2px",
+    "w": 2
+   },
+   {
+    "v": "10px",
+    "w": 1
+   },
+   {
+    "v": "8px",
+    "w": 1
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.19 0.6s",
+    "w": 241
+   },
+   {
+    "v": "cubic-bezier(0.19 0.75s",
+    "w": 21
+   },
+   {
+    "v": "cubic-bezier(0.4 0.15s",
+    "w": 18
+   },
+   {
+    "v": "cubic-bezier(0.7 0.3s",
+    "w": 10
+   },
+   {
+    "v": "cubic-bezier(0.7 0.75s",
+    "w": 5
+   },
+   {
+    "v": "ease 0.2s",
+    "w": 5
+   },
+   {
+    "v": "cubic-bezier(0.25 0.4s",
+    "w": 5
+   },
+   {
+    "v": "cubic-bezier(0.7 0.5s",
+    "w": 4
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "Anton, Arial, sans-serif",
+    "size": "50px",
+    "weight": "600",
+    "lineHeight": "55px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "Nick Ho"
+   },
+   "h2": {
+    "family": "Anton, Arial, sans-serif",
+    "size": "50px",
+    "weight": "600",
+    "lineHeight": "50px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "The Foundation"
+   },
+   "h3": {
+    "family": "Anton, Arial, sans-serif",
+    "size": "26px",
+    "weight": "700",
+    "lineHeight": "26px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "Race 3 - Circuit Ricardo Tormo"
+   },
+   "p": {
+    "family": "Helvetica, Arial, sans-serif",
+    "size": "14px",
+    "weight": "400",
+    "lineHeight": "19.6px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Car number"
+   },
+   "a": {
+    "family": "Helvetica, Arial, sans-serif",
+    "size": "93.6px",
+    "weight": "400",
+    "lineHeight": "102.96px",
+    "letterSpacing": "-3.744px",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "About"
+   },
+   "li": {
+    "family": "Helvetica, Arial, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "22.4px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "About"
+   },
+   "body": {
+    "family": "Helvetica, Arial, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "22.4px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#333333",
+    "sample": ":root { --font-from-0: 13; --font-to-0: 15; --vw-from-0: calc(1 / 100); --vw-to-"
+   }
+  },
+  "cssVars": {
+   "--_typography---fonts--primary-font": "Helvetica, Arial, sans-serif",
+   "--_colors---black--80": "#333",
+   "--_typography---line-height--body": "1.4",
+   "--_typography---heading-size--xlarge": "10rem",
+   "--_typography---line-height--heading": "1",
+   "--_typography---heading-size--large": "2.5rem",
+   "--_typography---heading-size--medium": "2rem",
+   "--_typography---heading-size--small": "2rem",
+   "--_typography---heading-size--xsmall": "1.25rem",
+   "--_typography---body-size--regular": "1rem",
+   "--_typography---body-size--small": "1rem",
+   "--_typography---body-size--large": "1.25rem",
+   "--_typography---fonts--heading-font": "Anton, Arial, sans-serif",
+   "--_colors---black--100": "black",
+   "--_colors---white--100": "white",
+   "--_typography---rich-text--h1": "6rem",
+   "--_typography---rich-text--h2": "4rem",
+   "--_typography---rich-text--h3": "2.5rem",
+   "--_typography---rich-text--h4": "1.75rem",
+   "--_colors---black--50": "#00000080",
+   "--_typography---body-size--medium": "1.15rem",
+   "--padding-global--regular": "2rem",
+   "--padding-section--small": "4rem",
+   "--padding-section--regular": "6rem",
+   "--gap-spacing--regular": "1.5rem",
+   "--_spacing---padding-section--medium<deleted|variable-e4fc0c3b-8757-704c-061b-a68b9dea2dc5>": "5em",
+   "--padding-section--large": "8rem",
+   "--_colors---white--20": "#fff3",
+   "--_colors---black--5": "#0000000d",
+   "--border-radius--regular": ".25rem",
+   "--padding-section--xlarge": "10rem",
+   "--border-radius--small": ".125rem",
+   "--_colors---primary--100": "#fed60a",
+   "--border-radius--medium": ".5rem",
+   "--_typography---button-size--regular": "1.15rem",
+   "--_typography---button-size--small": "1rem",
+   "--gap-spacing--large": "4em",
+   "--border-radius--large": "0em",
+   "--gap-spacing--small": "1em",
+   "--_colors---white--80": "#fffc",
+   "--_colors---white--50": "#ffffff80",
+   "--_colors---white--10": "#ffffff1a",
+   "--_colors---white--5": "#ffffff0d",
+   "--_colors---black--20": "#0003",
+   "--_colors---black--10": "#0000001a",
+   "--_typography---rich-text--body": "1rem",
+   "--_typography---rich-text--contents": "1rem",
+   "--_typography---line-height--button": "1",
+   "--font-from-0": "13",
+   "--font-to-0": "15",
+   "--vw-from-0": "calc(1 / 100)",
+   "--vw-to-0": "calc(479 / 100)",
+   "--coefficient-0": "calc((var(--font-to-0) - var(--font-from-0)) / (var(--vw-to-0) - var(--vw-from-0)))",
+   "--base-0": "calc((var(--font-from-0) - var(--vw-from-0) * var(--coefficient-0)) / 16)",
+   "--font-from-1": "12",
+   "--font-to-1": "14",
+   "--vw-from-1": "calc(479 / 100)",
+   "--vw-to-1": "calc(992 / 100)",
+   "--coefficient-1": "calc((var(--font-to-1) - var(--font-from-1)) / (var(--vw-to-1) - var(--vw-from-1)))",
+   "--base-1": "calc((var(--font-from-1) - var(--vw-from-1) * var(--coefficient-1)) / 16)",
+   "--font-from-2": "11",
+   "--font-to-2": "16",
+   "--vw-from-2": "calc(992 / 100)",
+   "--vw-to-2": "calc(1440 / 100)",
+   "--coefficient-2": "calc((var(--font-to-2) - var(--font-from-2)) / (var(--vw-to-2) - var(--vw-from-2)))",
+   "--base-2": "calc((var(--font-from-2) - var(--vw-from-2) * var(--coefficient-2)) / 16)",
+   "--font-from-3": "16",
+   "--font-to-3": "19",
+   "--vw-from-3": "calc(1440 / 100)",
+   "--vw-to-3": "calc(2000 / 100)",
+   "--coefficient-3": "calc((var(--font-to-3) - var(--font-from-3)) / (var(--vw-to-3) - var(--vw-from-3)))",
+   "--base-3": "calc((var(--font-from-3) - var(--vw-from-3) * var(--coefficient-3)) / 16)",
+   "--font-from-4": "16",
+   "--font-to-4": "18",
+   "--vw-from-4": "calc(2000 / 100)",
+   "--vw-to-4": "calc(2400 / 100)",
+   "--coefficient-4": "calc((var(--font-to-4) - var(--font-from-4)) / (var(--vw-to-4) - var(--vw-from-4)))",
+   "--base-4": "calc((var(--font-from-4) - var(--vw-from-4) * var(--coefficient-4)) / 16)",
+   "--font-from-5": "18",
+   "--font-to-5": "20",
+   "--vw-from-5": "calc(2400 / 100)",
+   "--vw-to-5": "calc(2800 / 100)",
+   "--coefficient-5": "calc((var(--font-to-5) - var(--font-from-5)) / (var(--vw-to-5) - var(--vw-from-5)))",
+   "--base-5": "calc((var(--font-from-5) - var(--vw-from-5) * var(--coefficient-5)) / 16)",
+   "--button-099-overflow": "clip",
+   "--button-099-focus-inset": "-0.125rem",
+   "--button-099-hover-scale": "1.025 1.035",
+   "--button-099-click-scale": "0.955 0.925",
+   "--button-099-ease-click": "cubic-bezier(0.4, 0, 0.2, 1)",
+   "--button-099-ease-hover": "cubic-bezier(0.19, 1, 0.22, 1)",
+   "--button-099-ease-focus": "cubic-bezier(0.32, 0.72, 0, 1)",
+   "--button-099-stagger": "0.018s",
+   "--button-099-out-delay": "0.05s",
+   "--button-099-in-delay": "0.2s",
+   "--logo-wall-row-gap": "2rem",
+   "--logo-wall-offset": "5.4rem"
+  },
+  "fontFaces": [
+   {
+    "family": "webflow-icons",
+    "weight": "normal",
+    "style": "normal",
+    "src": "url(\"data:application/x-font-ttf;charset=utf-8;base64,AAEAAAALAIAAAwAwT1MvMg8SBiUAAAC8AAAAYGNtYXDpP+a4AAABHAAAAFxnYXNwAAAAEAAAAXgAAAAIZ2x5ZmhS2XEAAAGAAAADHGhlYWQTFw3HAAAEnAAAADZoaGVhCXYFgQAABNQAAAAkaG"
+   },
+   {
+    "family": "Anton",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/6a422333c15d8477da5a8443/6a4240a6af6238e6637a1d56_subset-Anton-Regular.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Helvetica",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/6a422333c15d8477da5a8443/6a4240b8e734cc5ac63414fe_subset-Helvetica.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Helvetica",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/6a422333c15d8477da5a8443/6a425c54f5639097d74da74b_subset-Helvetica-Bold.woff\") format(\"woff\")"
+   }
+  ],
+  "keyframes": [
+   "spin"
+  ],
+  "breakpoints": [
+   {
+    "v": "479px",
+    "w": 7
+   },
+   {
+    "v": "991px",
+    "w": 5
+   },
+   {
+    "v": "767px",
+    "w": 5
+   },
+   {
+    "v": "768px",
+    "w": 3
+   },
+   {
+    "v": "2400px",
+    "w": 1
+   },
+   {
+    "v": "2000px",
+    "w": 1
+   },
+   {
+    "v": "1440px",
+    "w": 1
+   },
+   {
+    "v": "992px",
+    "w": 1
+   },
+   {
+    "v": "480px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 1141,
+  "crossOriginSheets": 1
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "main-wrapper",
+    "h": 11648,
+    "title": "Nick Ho",
+    "media": 70
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "",
+    "href": "https://nickho-motorsports.nl/#hero"
+   },
+   {
+    "t": "About",
+    "href": "https://nickho-motorsports.nl/#about"
+   },
+   {
+    "t": "History",
+    "href": "https://nickho-motorsports.nl/#history"
+   },
+   {
+    "t": "Gallery",
+    "href": "https://nickho-motorsports.nl/#gallery"
+   },
+   {
+    "t": "Calendar",
+    "href": "https://nickho-motorsports.nl/#calendar"
+   },
+   {
+    "t": "Contact",
+    "href": "https://nickho-motorsports.nl/#contact"
+   },
+   {
+    "t": "InstagramInstagram",
+    "href": "https://www.instagram.com/nickho_98"
+   },
+   {
+    "t": "LinkedInLinkedIn",
+    "href": "https://www.linkedin.com/in/nick-ho-042054327/"
+   },
+   {
+    "t": "nick@nickho-motorsports.comnick@nickho-m",
+    "href": "mailto:nick@nickho-motorsports.com"
+   }
+  ],
+  "ctas": [],
+  "pageHeight": 11648,
+  "counts": {
+   "canvas": 2,
+   "videos": 1,
+   "imgs": 67,
+   "svgs": 30,
+   "iframes": 0,
+   "domNodes": 1805
+  }
+ },
+ "tech": {
+  "gsap": true,
+  "gsapVersion": "3.15.0",
+  "scrollTrigger": true,
+  "splitText": true,
+  "lenis": true,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "128",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": true,
+  "webflow": true,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [
+   "googletagmanager",
+   "gtag"
+  ],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://www.googletagmanager.com/gtag/js?id=G-TG70X8DDXN",
+  "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js",
+  "https://challenges.cloudflare.com/turnstile/v0/api.js",
+  "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6a422333c15d8477da5a8443",
+  "https://cdn.prod.website-files.com/6a422333c15d8477da5a8443/js/webflow.a0aa6ca1.b7683852b8a60d8e.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/CustomEase.min.js",
+  "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+  "https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js",
+  "https://cdn.jsdelivr.net/npm/hls.js@1.6.11",
+  "https://unpkg.com/lenis@1.1.18/dist/lenis.min.js",
+  "https://assets.slater.app/slater/20545.js?v=1.0"
+ ],
+ "internal": [
+  "https://nickho-motorsports.nl/disclaimer-privacy-policy"
+ ],
+ "perf": {
+  "ttfb": 137,
+  "dcl": 1532,
+  "load": 2873,
+  "lcp": 500,
+  "lcpEl": "P.text-size-small",
+  "cls": 0.003
+ },
+ "libs": {
+  "detected": [
+   "jQuery",
+   "GSAP",
+   "Swiper",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Lenis",
+   "Virtual scroll",
+   "Three.js",
+   "Webflow (runtime)"
+  ],
+  "where": {
+   "jQuery": [
+    "002-webflow.a0aa6ca1.b7683852b8a60d8e.js",
+    "007-jquery-3.5.1.min.dc5e7f18c8.js"
+   ],
+   "GSAP": [
+    "003-CustomEase.min.js",
+    "005-ScrollTrigger.min.js",
+    "006-SplitText.min.js",
+    "008-gsap.min.js",
+    "028-63239.js",
+    "029-62847.js",
+    "031-62670.js",
+    "032-63183.js",
+    "033-63069.js",
+    "035-62715.js",
+    "038-63174.js",
+    "039-62861.js",
+    "040-63252.js",
+    "041-62857.js",
+    "042-62848.js",
+    "043-62450.js",
+    "045-62406.js",
+    "046-62796.js",
+    "047-63560.js",
+    "050-62716.js",
+    "051-63349.js"
+   ],
+   "Swiper": [
+    "004-swiper-bundle.min.js",
+    "027-62643.js"
+   ],
+   "ScrollTrigger": [
+    "005-ScrollTrigger.min.js",
+    "008-gsap.min.js",
+    "027-62643.js",
+    "029-62847.js",
+    "031-62670.js",
+    "032-63183.js",
+    "033-63069.js",
+    "038-63174.js",
+    "039-62861.js",
+    "041-62857.js",
+    "042-62848.js",
+    "043-62450.js",
+    "045-62406.js",
+    "047-63560.js",
+    "050-62716.js"
+   ],
+   "SplitText/SplitType": [
+    "006-SplitText.min.js",
+    "008-gsap.min.js",
+    "032-63183.js",
+    "033-63069.js",
+    "035-62715.js",
+    "046-62796.js"
+   ],
+   "Lenis": [
+    "009-lenis.min.js",
+    "030-62816.js",
+    "035-62715.js",
+    "045-62406.js"
+   ],
+   "Virtual scroll": [
+    "009-lenis.min.js"
+   ],
+   "Three.js": [
+    "011-three.min.js",
+    "051-63349.js"
+   ],
+   "Webflow (runtime)": [
+    "020-chunk-GGDEANQW.js"
+   ]
+  },
+  "gsapVersion": "3.11.0",
+  "threeRevision": null,
+  "shaders": 16,
+  "scripts": 51
+ },
+ "network": {
+  "requests": 310,
+  "totalKb": 18021,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 33
+   },
+   "Stylesheet": {
+    "n": 2,
+    "kb": 0
+   },
+   "Image": {
+    "n": 237,
+    "kb": 9929
+   },
+   "Script": {
+    "n": 53,
+    "kb": 657
+   },
+   "Font": {
+    "n": 3,
+    "kb": 89
+   },
+   "Other": {
+    "n": 1,
+    "kb": 2
+   },
+   "Fetch": {
+    "n": 1,
+    "kb": 0
+   },
+   "Media": {
+    "n": 12,
+    "kb": 7311
+   }
+  },
+  "thirdPartyHosts": [
+   "cdn.prod.website-files.com",
+   "cdn.jsdelivr.net",
+   "vz-8e4b5d5e-758.b-cdn.net",
+   "d3e54v103j8qbb.cloudfront.net",
+   "unpkg.com",
+   "cdnjs.cloudflare.com",
+   "www.googletagmanager.com",
+   "challenges.cloudflare.com",
+   "assets.slater.app",
+   "region1.google-analytics.com",
+   "nick-ho.b-cdn.net"
+  ],
+  "fontFiles": [
+   "https://cdn.prod.website-files.com/6a422333c15d8477da5a8443/6a4240a6af6238e6637a1d56_subset-Anton-Regular.woff",
+   "https://cdn.prod.website-files.com/6a422333c15d8477da5a8443/6a4240b8e734cc5ac63414fe_subset-Helvetica.woff",
+   "https://cdn.prod.website-files.com/6a422333c15d8477da5a8443/6a425c54f5639097d74da74b_subset-Helvetica-Bold.woff"
+  ],
+  "biggest": [
+   {
+    "url": "https://vz-8e4b5d5e-758.b-cdn.net/3b2cd584-13b7-4a43-b9d5-3f0d5989251a/1080p/video2.ts",
+    "kb": 3248,
+    "type": "Media"
+   },
+   {
+    "url": "https://vz-8e4b5d5e-758.b-cdn.net/3b2cd584-13b7-4a43-b9d5-3f0d5989251a/1080p/video1.ts",
+    "kb": 2726,
+    "type": "Media"
+   },
+   {
+    "url": "https://vz-8e4b5d5e-758.b-cdn.net/3b2cd584-13b7-4a43-b9d5-3f0d5989251a/720p/video0.ts",
+    "kb": 1333,
+    "type": "Media"
+   },
+   {
+    "url": "https://vz-8e4b5d5e-758.b-cdn.net/3b2cd584-13b7-4a43-b9d5-3f0d5989251a/thumbnail_5c181fe7.jpg",
+    "kb": 817,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/6a60aefe5c0b20d26e4ab9ca/6a73465374d30fca53a1490a_6a6872eb33ed553a05321d1d_2025810-RB-Racing-Day6583.avif",
+    "kb": 214,
+    "type": "Image"
+   },
+   {
+    "url": "https://www.googletagmanager.com/gtag/js?id=G-TG70X8DDXN",
+    "kb": 178,
+    "type": "Script"
+   },
+   {
+    "url": "https://cdn.jsdelivr.net/npm/hls.js@1.6.11",
+    "kb": 129,
+    "type": "Script"
+   },
+   {
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+    "kb": 119,
+    "type": "Script"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "36.569px",
+   "lineHeight": "40.2259px"
+  },
+  "body": "14.6276px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 135
+}

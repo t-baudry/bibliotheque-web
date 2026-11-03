@@ -1,0 +1,2 @@
+import{I as f,F as a}from"./app-Dyqo_2kd.js";const o=3,p=f(()=>{const e=a(0),t=a(0),u=a(0),n=a(!1);function l(){e.value<o&&e.value++}function s(){t.value<o&&t.value++}function i(){e.value=0,t.value=0,n.value=!1}function c(){n.value=!0,u.value++}function r(){n.value=!1}return{pendingCount:e,dropCount:t,skipRequestCount:u,isSkipping:n,trigger:l,advance:s,reset:i,requestSkip:c,completeSkip:r}});export{o as S,p as u};
+//# sourceMappingURL=usePelletteriaInteraction-D9I1rvzE.js.map

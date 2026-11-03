@@ -1,0 +1,662 @@
+{
+ "id": 1,
+ "name": "Dont Look up game",
+ "sourceUrl": "https://www.dontlookup.app/",
+ "capturedAt": "2026-11-02T22:29:05.181Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": "Start",
+  "rea": "ok (9 Ko)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg"
+  ],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://www.dontlookup.app/",
+ "title": "Don't Look Up — a game about keeping everyone looking down",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "You are very rich, very tall, and standing on quite a lot of people. Keep them distracted and they keep paying. Let them look up, and they push you over.",
+  "canonical": "https://www.dontlookup.app/",
+  "robots": null,
+  "ogTitle": "Don't Look Up — a game about keeping everyone looking down",
+  "ogImage": "https://www.dontlookup.app/assets/brand/og.jpg",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "VideoGame"
+  ],
+  "h1Count": 0,
+  "headings": [],
+  "imgs": 58,
+  "imgNoAlt": 56,
+  "favicon": "https://www.dontlookup.app/favicon.ico",
+  "themeColor": "#f4f3ef"
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#ffffff",
+    "w": 318957
+   },
+   {
+    "v": "#f4f3ef",
+    "w": 65341
+   },
+   {
+    "v": "#f8e08a",
+    "w": 24247
+   },
+   {
+    "v": "#14140f",
+    "w": 6979
+   },
+   {
+    "v": "#000000",
+    "w": 5122
+   },
+   {
+    "v": "#c0342a",
+    "w": 533
+   },
+   {
+    "v": "#c98f06",
+    "w": 121
+   }
+  ],
+  "text": [
+   {
+    "v": "#14140f",
+    "w": 700
+   },
+   {
+    "v": "#000000",
+    "w": 17
+   },
+   {
+    "v": "#f4f3ef",
+    "w": 10
+   }
+  ],
+  "border": [
+   {
+    "v": "#14140f",
+    "w": 24
+   },
+   {
+    "v": "#f4f3ef",
+    "w": 2
+   }
+  ],
+  "fonts": [
+   {
+    "v": "Nunito",
+    "w": 597
+   },
+   {
+    "v": "Marsipan",
+    "w": 111
+   },
+   {
+    "v": "Arial",
+    "w": 19
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "13px",
+    "w": 42
+   },
+   {
+    "v": "12px",
+    "w": 11
+   },
+   {
+    "v": "11px",
+    "w": 9
+   },
+   {
+    "v": "9px",
+    "w": 8
+   },
+   {
+    "v": "15px",
+    "w": 8
+   },
+   {
+    "v": "10px",
+    "w": 5
+   },
+   {
+    "v": "9.5px",
+    "w": 4
+   },
+   {
+    "v": "10.5px",
+    "w": 4
+   },
+   {
+    "v": "12.5px",
+    "w": 2
+   },
+   {
+    "v": "8px",
+    "w": 2
+   },
+   {
+    "v": "14px",
+    "w": 2
+   },
+   {
+    "v": "40px",
+    "w": 1
+   },
+   {
+    "v": "7.25px",
+    "w": 1
+   },
+   {
+    "v": "27px",
+    "w": 1
+   },
+   {
+    "v": "17px",
+    "w": 1
+   },
+   {
+    "v": "18px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "12px",
+    "w": 7
+   },
+   {
+    "v": "3px",
+    "w": 3
+   },
+   {
+    "v": "50%",
+    "w": 3
+   },
+   {
+    "v": "24px 30px",
+    "w": 3
+   },
+   {
+    "v": "11px",
+    "w": 2
+   },
+   {
+    "v": "7px",
+    "w": 2
+   },
+   {
+    "v": "16px 20px",
+    "w": 2
+   },
+   {
+    "v": "22px 26px",
+    "w": 2
+   }
+  ],
+  "shadows": [
+   {
+    "v": "rgb(20, 20, 15) 5px 6px 0px 0px",
+    "w": 2
+   },
+   {
+    "v": "rgb(20, 20, 15) 4px 5px 0px 0px",
+    "w": 2
+   },
+   {
+    "v": "rgb(20, 20, 15) 0px 0px 0px 1.5px",
+    "w": 2
+   },
+   {
+    "v": "rgb(20, 20, 15) 2px 3px 0px 0px",
+    "w": 2
+   },
+   {
+    "v": "rgba(20, 20, 15, 0.9) 3px 4px 0px 0px",
+    "w": 1
+   }
+  ],
+  "transitions": [
+   {
+    "v": "ease-out 0.14s",
+    "w": 5
+   },
+   {
+    "v": "ease 0.18s",
+    "w": 3
+   },
+   {
+    "v": "ease 0.3s",
+    "w": 2
+   },
+   {
+    "v": "ease 0.26s",
+    "w": 2
+   },
+   {
+    "v": "ease-in 0.26s",
+    "w": 2
+   },
+   {
+    "v": "ease-out 0.12s",
+    "w": 2
+   },
+   {
+    "v": "ease 0.14s",
+    "w": 2
+   },
+   {
+    "v": "ease-out 0.13s",
+    "w": 2
+   }
+  ],
+  "typo": {
+   "p": {
+    "family": "Nunito, ui-rounded, \"SF Pro Rounded\", system-ui, sans-serif",
+    "size": "11px",
+    "weight": "600",
+    "lineHeight": "15.4px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#14140f",
+    "sample": "We count runs, not people. Anonymously, through Google Analytics, and only if yo"
+   },
+   "a": {
+    "family": "Nunito, ui-rounded, \"SF Pro Rounded\", system-ui, sans-serif",
+    "size": "11px",
+    "weight": "600",
+    "lineHeight": "16.5px",
+    "letterSpacing": "0.11px",
+    "transform": "none",
+    "color": "#14140f",
+    "sample": "here"
+   },
+   "button": {
+    "family": "Arial",
+    "size": "13.3333px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "1-$356.4M"
+   },
+   "body": {
+    "family": "Nunito, ui-rounded, \"SF Pro Rounded\", system-ui, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#14140f",
+    "sample": "as usualokright?no waylisten—hahaoh totallyexactlyyeah…finehmsuresureok oklisten"
+   }
+  },
+  "cssVars": {
+   "--paper": "#f4f3ef",
+   "--ink": "#14140f",
+   "--red": "#c0342a",
+   "--btn-h": "40px",
+   "--convert": "#9abeef",
+   "--follow": "#2b5a9b",
+   "--y1": "#f8e08a",
+   "--y2": "#f2c31a",
+   "--y3": "#c98f06",
+   "--btn-r": "14px",
+   "--display": "'Marsipan', 'Luckiest Guy', ui-rounded, \"SF Pro Rounded\", system-ui, sans-serif",
+   "--body": "'Nunito', ui-rounded, \"SF Pro Rounded\", system-ui, sans-serif",
+   "--font": "var(--body)",
+   "--hand": "var(--body)",
+   "--rail-n": "8",
+   "--rail-bottom": "calc(var(--btn-h) + 26px + env(safe-area-inset-bottom, 0px))",
+   "--rail-h": "calc(var(--rail-n) * var(--btn-h) + (var(--rail-n) - 1) * 10px)"
+  },
+  "fontFaces": [
+   {
+    "family": "Marsipan",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/Marsipan-Regular.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Luckiest Guy",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/luckiest-guy-latin.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Luckiest Guy",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/luckiest-guy-latin-ext.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Nunito",
+    "weight": "400 800",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/nunito-latin.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Nunito",
+    "weight": "400 800",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/nunito-latin-ext.woff2\") format(\"woff2\")"
+   }
+  ],
+  "keyframes": [
+   "feeAlarm",
+   "urgent",
+   "brink",
+   "pulse",
+   "tapbeat",
+   "dropIn",
+   "fadeUp",
+   "riseIn",
+   "pilewipe",
+   "coindrop-0",
+   "coindrop-1",
+   "coindrop-2",
+   "coindrop-3",
+   "coindrop-4",
+   "coindrop-5",
+   "coindrop-6",
+   "coindrop-7",
+   "coindrop-8",
+   "coindrop-9",
+   "coindrop-10",
+   "coindrop-11",
+   "coindrop-12",
+   "coindrop-13",
+   "coindrop-14",
+   "coindrop-15",
+   "coindrop-16",
+   "coindrop-17",
+   "coindrop-18",
+   "coindrop-19",
+   "coinface",
+   "coinsolid",
+   "dots",
+   "dropBob",
+   "feeBob",
+   "feeDemo",
+   "feePlus"
+  ],
+  "breakpoints": [
+   {
+    "v": "820px",
+    "w": 8
+   },
+   {
+    "v": "1060px",
+    "w": 1
+   },
+   {
+    "v": "520px",
+    "w": 1
+   },
+   {
+    "v": "821px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 690,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": "stage",
+    "cls": "",
+    "h": 900,
+    "title": "",
+    "media": 1
+   },
+   {
+    "tag": "div",
+    "id": "bubbles",
+    "cls": "",
+    "h": 900,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": "top",
+    "cls": "",
+    "h": 187,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": "steps",
+    "cls": "",
+    "h": 900,
+    "title": "",
+    "media": 4
+   },
+   {
+    "tag": "div",
+    "id": "tbars",
+    "cls": "",
+    "h": 900,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": "loader",
+    "cls": "is-done",
+    "h": 900,
+    "title": "",
+    "media": 40
+   }
+  ],
+  "navLinks": [],
+  "ctas": [
+   "Skip",
+   "Next"
+  ],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 1,
+   "videos": 0,
+   "imgs": 58,
+   "svgs": 40,
+   "iframes": 0,
+   "domNodes": 482
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": false,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "170",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [
+   "segment"
+  ],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://www.dontlookup.app/assets/index-urJsVLlw.js"
+ ],
+ "internal": [],
+ "perf": {
+  "ttfb": 98,
+  "dcl": 691,
+  "load": 692,
+  "lcp": 280,
+  "lcpEl": "IMG",
+  "cls": 0
+ },
+ "libs": {
+  "detected": [
+   "GSAP",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Three.js"
+  ],
+  "where": {
+   "GSAP": [
+    "001-index-urJsVLlw.js"
+   ],
+   "ScrollTrigger": [
+    "001-index-urJsVLlw.js"
+   ],
+   "SplitText/SplitType": [
+    "001-index-urJsVLlw.js"
+   ],
+   "Three.js": [
+    "001-index-urJsVLlw.js"
+   ]
+  },
+  "gsapVersion": "3.15.0",
+  "threeRevision": null,
+  "shaders": 40,
+  "scripts": 1
+ },
+ "network": {
+  "requests": 44,
+  "totalKb": 24041,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 46
+   },
+   "Image": {
+    "n": 13,
+    "kb": 896
+   },
+   "Font": {
+    "n": 2,
+    "kb": 74
+   },
+   "Script": {
+    "n": 1,
+    "kb": 258
+   },
+   "Fetch": {
+    "n": 25,
+    "kb": 22753
+   },
+   "Other": {
+    "n": 2,
+    "kb": 14
+   }
+  },
+  "thirdPartyHosts": [],
+  "fontFiles": [
+   "https://www.dontlookup.app/assets/fonts/nunito-latin.woff2",
+   "https://www.dontlookup.app/assets/fonts/Marsipan-Regular.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://www.dontlookup.app/assets/giant.glb",
+    "kb": 8420,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://www.dontlookup.app/assets/audio/ambient_sound.aac",
+    "kb": 6681,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://www.dontlookup.app/assets/prop_tv.glb",
+    "kb": 1906,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://www.dontlookup.app/assets/audio/panic_music.aac",
+    "kb": 1849,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://www.dontlookup.app/assets/prop_cat.glb",
+    "kb": 1204,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://www.dontlookup.app/assets/audio/priest.aac",
+    "kb": 605,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://www.dontlookup.app/assets/audio/hat_shirt_crowd_sound.aac",
+    "kb": 556,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://www.dontlookup.app/assets/index-urJsVLlw.js",
+    "kb": 258,
+    "type": "Script"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": null,
+  "body": "16px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 172
+}

@@ -1,0 +1,1 @@
+import{o as s,c as t,a as n,Q as o,J as r}from"./CT1tNzyx.js";const i={class:"o-container-inner"},m={__name:"ContentContainer",props:{size:{type:String,default:""}},setup(e){return(a,l)=>(s(),t("div",{class:r(["o-container",{"-small":e.size==="small","-medium":e.size==="medium","-large":e.size==="large"}])},[n("div",i,[o(a.$slots,"default")])],2))}};export{m as _};

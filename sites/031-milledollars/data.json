@@ -1,0 +1,690 @@
+{
+ "id": 31,
+ "name": "Milledollars",
+ "sourceUrl": "https://milledollars.fr/",
+ "capturedAt": "2026-11-02T23:41:29.315Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg"
+  ],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [
+   {
+    "url": "https://milledollars.fr/works",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg"
+    ]
+   },
+   {
+    "url": "https://milledollars.fr/info",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg"
+    ]
+   },
+   {
+    "url": "https://milledollars.fr/contact",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://milledollars.fr/",
+ "title": "MilleDollars",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Creative bureau focused on high-end video production. Working worldwide.",
+  "canonical": "https://milledollars.fr/",
+  "robots": null,
+  "ogTitle": "MilleDollars",
+  "ogImage": "https://images.prismic.io/mille-dollars/aV5wMnNYClf9o3FJ_MILLEDOLLAR_DEFAULT_SHARING_IMG.png?auto=format,compress&rect=0,0,1200,630&w=1200&h=630",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "Organization"
+  ],
+  "h1Count": 1,
+  "headings": [
+   "H1 MilleDollars",
+   "H2 The Dazzling Division",
+   "H2 Ultimate Shield",
+   "H2 Eternal Snow",
+   "H2 Spinning Tops",
+   "H2 The Hard Path",
+   "H2 The Murcian Has Landed",
+   "H2 Neural Overdrive",
+   "H2 Nous utilisons des cookies"
+  ],
+  "imgs": 0,
+  "imgNoAlt": 0,
+  "favicon": "https://milledollars.fr/favicons/favicon-96x96.png",
+  "themeColor": "#ffffff"
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#181818",
+    "w": 137689
+   }
+  ],
+  "text": [
+   {
+    "v": "#181818",
+    "w": 368
+   },
+   {
+    "v": "#c2a1c7",
+    "w": 368
+   },
+   {
+    "v": "#ffffff",
+    "w": 353
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "ABCDiatype",
+    "w": 1035
+   },
+   {
+    "v": "Migra",
+    "w": 54
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "10px",
+    "w": 21
+   },
+   {
+    "v": "18px",
+    "w": 14
+   },
+   {
+    "v": "16px",
+    "w": 11
+   },
+   {
+    "v": "9.84px",
+    "w": 3
+   },
+   {
+    "v": "12px",
+    "w": 2
+   },
+   {
+    "v": "12.6px",
+    "w": 1
+   },
+   {
+    "v": "10.8px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "16px",
+    "w": 4
+   }
+  ],
+  "shadows": [
+   {
+    "v": "rgba(0, 0, 2, 0.3) 0px 7.5px 22.5px 0px",
+    "w": 1
+   }
+  ],
+  "transitions": [
+   {
+    "v": "ease-in-out 0.3s",
+    "w": 7
+   },
+   {
+    "v": "ease 0.15s",
+    "w": 3
+   },
+   {
+    "v": "cubic-bezier(0.19 1s",
+    "w": 1
+   },
+   {
+    "v": "linear 0.2s",
+    "w": 1
+   },
+   {
+    "v": "cubic-bezier(0.19 1.5s",
+    "w": 1
+   },
+   {
+    "v": "ease 0.25s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "ABCDiatype, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "MilleDollars"
+   },
+   "h2": {
+    "family": "ABCDiatype, sans-serif",
+    "size": "18px",
+    "weight": "400",
+    "lineHeight": "18px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "The Dazzling Division"
+   },
+   "p": {
+    "family": "ABCDiatype, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#181818",
+    "sample": "Creative bureau focused on high-end video production. Working worldwide."
+   },
+   "a": {
+    "family": "ABCDiatype, sans-serif",
+    "size": "10px",
+    "weight": "400",
+    "lineHeight": "15px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "Home"
+   },
+   "button": {
+    "family": "ABCDiatype, sans-serif",
+    "size": "9.84px",
+    "weight": "600",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#181818",
+    "sample": "Accepter les cookies"
+   },
+   "li": {
+    "family": "ABCDiatype, sans-serif",
+    "size": "10px",
+    "weight": "400",
+    "lineHeight": "15px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "Home"
+   },
+   "body": {
+    "family": "ABCDiatype, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#181818",
+    "sample": "PLAYPAUSEDISCOVER MilleDollars HomeWorksInfoContact✺ Creative bureau focused on "
+   }
+  },
+  "cssVars": {
+   "--ease-in-quad": "cubic-bezier(.55,.085,.68,.53)",
+   "--ease-in-cubic": "cubic-bezier(.55,.055,.675,.19)",
+   "--ease-in-quart": "cubic-bezier(.895,.03,.685,.22)",
+   "--ease-in-quint": "cubic-bezier(.755,.05,.855,.06)",
+   "--ease-in-expo": "cubic-bezier(.95,.05,.795,.035)",
+   "--ease-in-circ": "cubic-bezier(.6,.04,.98,.335)",
+   "--ease-out-quad": "cubic-bezier(.25,.46,.45,.94)",
+   "--ease-out-cubic": "cubic-bezier(.215,.61,.355,1)",
+   "--ease-out-quart": "cubic-bezier(.165,.84,.44,1)",
+   "--ease-out-quint": "cubic-bezier(.23,1,.32,1)",
+   "--ease-out-expo": "cubic-bezier(.19,1,.22,1)",
+   "--ease-out-circ": "cubic-bezier(.075,.82,.165,1)",
+   "--ease-in-out-quad": "cubic-bezier(.455,.03,.515,.955)",
+   "--ease-in-out-cubic": "cubic-bezier(.645,.045,.355,1)",
+   "--ease-in-out-quart": "cubic-bezier(.77,0,.175,1)",
+   "--ease-in-out-quint": "cubic-bezier(.86,0,.07,1)",
+   "--ease-in-out-expo": "cubic-bezier(1,0,0,1)",
+   "--ease-in-out-circ": "cubic-bezier(.785,.135,.15,.86)",
+   "--vh": "1vh",
+   "--column-spacing": "1.5rem",
+   "--logo-dollars-scale": "1.0643",
+   "--color-action": "#c2a1c7",
+   "--tw-bg-opacity": "1",
+   "--tw-text-opacity": "1",
+   "--transition-easing": "cubic-bezier(.38,.005,.215,1)",
+   "--transition-translate": "2rem",
+   "--transition-duration": ".8s",
+   "--transition-delay": "0s",
+   "--transition-stagger-delay": ".1s",
+   "--layout-columns-count": "12",
+   "--layout-columns-gap": "calc(var(--vw, 1vw)*1.38889)",
+   "--layout-margin": "calc(var(--vw, 1vw)*2.22222)",
+   "--container-width": "100vw",
+   "--layout-width": "calc(var(--container-width) - var(--layout-margin)*2)",
+   "--layout-column-width": "calc((var(--layout-width) - ((var(--layout-columns-count) - 1)*var(--layout-columns-gap)))/var(--layout-columns-count))",
+   "--margin-reset-container": "calc((100vw + 2rem - r(1200px))/-2)",
+   "--bg-color": "#e0dee1",
+   "--text-color": "#181818",
+   "--accent-bg-color": "#fff",
+   "--accent-border-color": "#fff",
+   "--accent-color": "#fff",
+   "--accent-bg-hover-color": "#e0dee1",
+   "--accent-border-hover-color": "#e0dee1",
+   "--accent-hover-color": "#fff",
+   "--cc-font-family": "ABCDiatype,sans-serif",
+   "--cc-modal-border-radius": "1rem",
+   "--cc-btn-border-radius": "1rem",
+   "--cc-modal-transition-duration": ".25s",
+   "--cc-link-color": "var(--cc-btn-primary-bg)",
+   "--cc-modal-margin": "1rem",
+   "--cc-z-index": "40",
+   "--cc-bg": "#181818",
+   "--cc-primary-color": "#c2a1c7",
+   "--cc-secondary-color": "#c2a1c7",
+   "--cc-btn-primary-bg": "#c2a1c7",
+   "--cc-btn-primary-color": "#181818",
+   "--cc-btn-primary-border-color": "#181818",
+   "--cc-btn-primary-hover-bg": "#ad81b4",
+   "--cc-btn-primary-hover-color": "#fff",
+   "--cc-btn-primary-hover-border-color": "var(--cc-btn-primary-hover-bg)",
+   "--cc-btn-secondary-bg": "var(--cc-bg)",
+   "--cc-btn-secondary-color": "var(--cc-primary-color)",
+   "--cc-btn-secondary-border-color": "var(--cc-btn-secondary-bg)",
+   "--cc-btn-secondary-hover-bg": "var(--cc-bg)",
+   "--cc-btn-secondary-hover-color": "var(--cc-text)",
+   "--cc-btn-secondary-hover-border-color": "#d4dae0",
+   "--cc-separator-border-color": "#f0f4f7",
+   "--cc-toggle-on-bg": "var(--cc-btn-primary-bg)",
+   "--cc-toggle-off-bg": "#667481",
+   "--cc-toggle-on-knob-bg": "#fff",
+   "--cc-toggle-off-knob-bg": "var(--cc-toggle-on-knob-bg)",
+   "--cc-toggle-enabled-icon-color": "var(--cc-bg)",
+   "--cc-toggle-disabled-icon-color": "var(--cc-bg)",
+   "--cc-toggle-readonly-bg": "#181818",
+   "--cc-toggle-readonly-knob-bg": "#fff",
+   "--cc-toggle-readonly-knob-icon-color": "var(--cc-toggle-readonly-bg)",
+   "--cc-section-category-border": "var(--cc-cookie-category-block-bg)",
+   "--cc-cookie-category-block-bg": "#000",
+   "--cc-cookie-category-block-border": "#f0f4f7",
+   "--cc-cookie-category-block-hover-bg": "#1a1a1a",
+   "--cc-cookie-category-block-hover-border": "#e9eff4",
+   "--cc-cookie-category-expanded-block-bg": "transparent",
+   "--cc-cookie-category-expanded-block-hover-bg": "#dee4e9",
+   "--cc-overlay-bg": "rgba(4,6,8,.85)",
+   "--cc-webkit-scrollbar-bg": "#cfd5db",
+   "--cc-webkit-scrollbar-hover-bg": "var(--cc-btn-primary-hover-bg)",
+   "--cc-footer-bg": "var(--cc-btn-secondary-bg)",
+   "--cc-footer-color": "var(--cc-secondary-color)",
+   "--cc-footer-border-color": "#e4eaed",
+   "--cc-pm-toggle-border-radius": "4em",
+   "--cc-text": "#c2a1c7",
+   "--cc-border-radius": "1rem",
+   "--cc-btn-secondary-text": "var(--cc-text)",
+   "--cc-toggle-bg-off": "#919ea6",
+   "--cc-toggle-bg-on": "var(--cc-btn-primary-bg)",
+   "--cc-toggle-knob-bg": "#fff",
+   "--cc-toggle-knob-icon-color": "#ecf2fa",
+   "--cc-block-text": "var(--cc-text)",
+   "--cc-section-border": "#f1f3f5",
+   "--cc-cookie-table-border": "#e9edf2",
+   "--cc-webkit-scrollbar-bg-hover": "#9199a0"
+  },
+  "fontFaces": [
+   {
+    "family": "ABCDiatype",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_nuxt/ABCDiatype-Regular.De34QEg0.woff2\") format(\"woff2\"), url(\"/_nuxt/ABCDiatype-Regular.BCJQC8_L.woff\") format(\"woff\")"
+   },
+   {
+    "family": "ABCDiatype",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"/_nuxt/ABCDiatype-Medium.50JOIEfe.woff2\") format(\"woff2\"), url(\"/_nuxt/ABCDiatype-Medium.B07ewv5H.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Migra",
+    "weight": "800",
+    "style": "normal",
+    "src": "url(\"/_nuxt/Migra-Extrabold.CgBZYN2-.woff2\") format(\"woff2\"), url(\"/_nuxt/Migra-Extrabold.Czpy5i83.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Migra",
+    "weight": "200",
+    "style": "normal",
+    "src": "url(\"/_nuxt/Migra-Extralight.Bd6Lqv6T.woff2\") format(\"woff2\"), url(\"/_nuxt/Migra-Extralight.Bcudeh30.woff\") format(\"woff\")"
+   }
+  ],
+  "keyframes": [
+   "blink"
+  ],
+  "breakpoints": [
+   {
+    "v": "768px",
+    "w": 68
+   },
+   {
+    "v": "640px",
+    "w": 8
+   },
+   {
+    "v": "1200px",
+    "w": 3
+   },
+   {
+    "v": "1024px",
+    "w": 3
+   },
+   {
+    "v": "460px",
+    "w": 2
+   },
+   {
+    "v": "639px",
+    "w": 2
+   }
+  ],
+  "rulesCount": 1011,
+  "crossOriginSheets": 1
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": "projects",
+    "cls": "c-home-projects || a-leave",
+    "h": 900,
+    "title": "The Dazzling Division",
+    "media": 0
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "",
+    "href": "https://milledollars.fr/"
+   },
+   {
+    "t": "Home",
+    "href": "https://milledollars.fr/"
+   },
+   {
+    "t": "Works",
+    "href": "https://milledollars.fr/works"
+   },
+   {
+    "t": "Info",
+    "href": "https://milledollars.fr/info"
+   },
+   {
+    "t": "Contact",
+    "href": "https://milledollars.fr/contact"
+   }
+  ],
+  "ctas": [],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 5,
+   "videos": 1,
+   "imgs": 0,
+   "svgs": 3,
+   "iframes": 1,
+   "domNodes": 263
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": false,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": true,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": true,
+  "cms": [
+   "prismic"
+  ],
+  "analytics": [
+   "googletagmanager",
+   "gtag"
+  ],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://static.cdn.prismic.io/prismic.min.js?repo=mille-dollars&new=true",
+  "https://milledollars.fr/_nuxt/CT1tNzyx.js"
+ ],
+ "internal": [
+  "https://milledollars.fr/works",
+  "https://milledollars.fr/info",
+  "https://milledollars.fr/contact",
+  "https://milledollars.fr/works/the-dazzling-division",
+  "https://milledollars.fr/works/ultimate-shield",
+  "https://milledollars.fr/works/eternal-snow",
+  "https://milledollars.fr/works/spinning-tops",
+  "https://milledollars.fr/works/the-hard-path",
+  "https://milledollars.fr/works/the-murcian-has-landed",
+  "https://milledollars.fr/works/neural-overdrive"
+ ],
+ "perf": {
+  "ttfb": 2581,
+  "dcl": 2931,
+  "load": 4475,
+  "lcp": 10244,
+  "lcpEl": "SPAN",
+  "cls": 0.044
+ },
+ "libs": {
+  "detected": [
+   "Prismic",
+   "Nuxt",
+   "GSAP",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Lenis",
+   "Vue",
+   "Lil-GUI/Tweakpane (debug)",
+   "Virtual scroll"
+  ],
+  "where": {
+   "Prismic": [
+    "001-prismic.min.js",
+    "008-CT1tNzyx.js"
+   ],
+   "Nuxt": [
+    "002-C6QHSIf2.js",
+    "008-CT1tNzyx.js",
+    "010-u65T1dZ5.js"
+   ],
+   "GSAP": [
+    "008-CT1tNzyx.js",
+    "019-DCjxwaJN.js"
+   ],
+   "ScrollTrigger": [
+    "008-CT1tNzyx.js"
+   ],
+   "SplitText/SplitType": [
+    "008-CT1tNzyx.js"
+   ],
+   "Lenis": [
+    "008-CT1tNzyx.js"
+   ],
+   "Vue": [
+    "008-CT1tNzyx.js"
+   ],
+   "Lil-GUI/Tweakpane (debug)": [
+    "008-CT1tNzyx.js"
+   ],
+   "Virtual scroll": [
+    "008-CT1tNzyx.js"
+   ]
+  },
+  "gsapVersion": "3.11.0",
+  "threeRevision": null,
+  "shaders": 2,
+  "scripts": 19
+ },
+ "network": {
+  "requests": 105,
+  "totalKb": 17688,
+  "byType": {
+   "Document": {
+    "n": 2,
+    "kb": 45
+   },
+   "Stylesheet": {
+    "n": 9,
+    "kb": 7
+   },
+   "Script": {
+    "n": 18,
+    "kb": 267
+   },
+   "Other": {
+    "n": 7,
+    "kb": 28
+   },
+   "Image": {
+    "n": 40,
+    "kb": 3571
+   },
+   "Font": {
+    "n": 4,
+    "kb": 181
+   },
+   "Fetch": {
+    "n": 8,
+    "kb": 115
+   },
+   "Media": {
+    "n": 17,
+    "kb": 13474
+   }
+  },
+  "thirdPartyHosts": [
+   "fonts.googleapis.com",
+   "static.cdn.prismic.io",
+   "mille-dollars.cdn.prismic.io",
+   "mille-dollars.prismic.io",
+   "images.prismic.io",
+   "download-video-ak.vimeocdn.com"
+  ],
+  "fontFiles": [
+   "https://milledollars.fr/_nuxt/ABCDiatype-Regular.De34QEg0.woff2",
+   "https://milledollars.fr/_nuxt/Migra-Extrabold.CgBZYN2-.woff2",
+   "https://milledollars.fr/_nuxt/Migra-Extralight.Bd6Lqv6T.woff2",
+   "https://milledollars.fr/_nuxt/ABCDiatype-Medium.50JOIEfe.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/dbd04767-0055-4d67-9422-85011a807e15/2a8a6632?__token__=st=1793662899~exp=1793666499~acl=%2Fv3-1%2Fplayback",
+    "kb": 13474,
+    "type": "Media"
+   },
+   {
+    "url": "https://milledollars.fr/sprites/cat-lick.png",
+    "kb": 341,
+    "type": "Image"
+   },
+   {
+    "url": "https://images.prismic.io/mille-dollars/acqXopGXnQHGZGmp_Eternal_frame1169.png?auto=format,compress",
+    "kb": 250,
+    "type": "Image"
+   },
+   {
+    "url": "https://milledollars.fr/sprites/cat-idle.png",
+    "kb": 243,
+    "type": "Image"
+   },
+   {
+    "url": "https://milledollars.fr/sprites/cat-tie-down.png",
+    "kb": 237,
+    "type": "Image"
+   },
+   {
+    "url": "https://milledollars.fr/sprites/cat-tie-up.png",
+    "kb": 233,
+    "type": "Image"
+   },
+   {
+    "url": "https://milledollars.fr/_nuxt/CT1tNzyx.js",
+    "kb": 227,
+    "type": "Script"
+   },
+   {
+    "url": "https://milledollars.fr/duotone.jpg",
+    "kb": 214,
+    "type": "Image"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "16px",
+   "lineHeight": "24px"
+  },
+  "body": "16px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 192
+}

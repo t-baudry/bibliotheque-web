@@ -1,0 +1,400 @@
+{
+ "id": 29,
+ "name": "EDOLUS",
+ "sourceUrl": "https://edolus.com/",
+ "capturedAt": "2026-11-02T23:40:56.708Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg"
+  ],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://edolus.com/",
+ "title": "EDOLUS",
+ "lang": null,
+ "generator": null,
+ "seo": {
+  "description": null,
+  "canonical": null,
+  "robots": null,
+  "ogTitle": null,
+  "ogImage": null,
+  "twitterCard": null,
+  "jsonLd": [],
+  "h1Count": 0,
+  "headings": [],
+  "imgs": 0,
+  "imgNoAlt": 0,
+  "favicon": null,
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#000000",
+    "w": 2592000
+   }
+  ],
+  "text": [
+   {
+    "v": "#c4c7c7",
+    "w": 119
+   },
+   {
+    "v": "#ffffff",
+    "w": 48
+   },
+   {
+    "v": "#000000",
+    "w": 15
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "General Sans",
+    "w": 150
+   },
+   {
+    "v": "JetBrains Mono",
+    "w": 32
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "12px",
+    "w": 7
+   },
+   {
+    "v": "14px",
+    "w": 7
+   },
+   {
+    "v": "36px",
+    "w": 2
+   },
+   {
+    "v": "16px",
+    "w": 1
+   },
+   {
+    "v": "96px",
+    "w": 1
+   },
+   {
+    "v": "48px",
+    "w": 1
+   }
+  ],
+  "radius": [],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "ease 0.35s",
+    "w": 4
+   },
+   {
+    "v": "ease 0.3s",
+    "w": 1
+   },
+   {
+    "v": "linear 0.18s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "body": {
+    "family": "Helvetica, arial, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": ".st0{fill:#FFFFFF;}7799%INTELLIGENCE AT PLANETARY SCALEOrchestrating the foundat"
+   }
+  },
+  "cssVars": {},
+  "fontFaces": [],
+  "keyframes": [
+   "ctaLabelBlink",
+   "ctaBlink",
+   "cursorOrbitSpin",
+   "pc-eq-dance",
+   "pc-o-loop"
+  ],
+  "breakpoints": [
+   {
+    "v": "768px",
+    "w": 6
+   }
+  ],
+  "rulesCount": 134,
+  "crossOriginSheets": 3
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "canvas",
+    "id": "application-canvas",
+    "cls": "fill-mode-FILL_WINDOW",
+    "h": 900,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": "custom-splash-wrapper",
+    "cls": "",
+    "h": 900,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": "transition-overlay",
+    "cls": "",
+    "h": 900,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": "pc-overlay-root",
+    "cls": "",
+    "h": 900,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "",
+    "h": 900,
+    "title": "",
+    "media": 0
+   }
+  ],
+  "navLinks": [],
+  "ctas": [],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 1,
+   "videos": 2,
+   "imgs": 0,
+   "svgs": 10,
+   "iframes": 0,
+   "domNodes": 182
+  }
+ },
+ "tech": {
+  "gsap": true,
+  "gsapVersion": "3.12.5",
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": false,
+  "locomotive": false,
+  "three": false,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://edolus.com/playcanvas-stable.min.js",
+  "https://edolus.com/__settings__.js",
+  "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js",
+  "https://edolus.com/__game-scripts.js",
+  "https://edolus.com/__modules__.js",
+  "https://edolus.com/__start__.js",
+  "https://edolus.com/__loading__.js"
+ ],
+ "internal": [],
+ "perf": {
+  "ttfb": 145,
+  "dcl": 458,
+  "load": 918,
+  "lcp": 11716,
+  "lcpEl": "DIV",
+  "cls": 0.046
+ },
+ "libs": {
+  "detected": [
+   "GSAP",
+   "PlayCanvas",
+   "ScrollTrigger"
+  ],
+  "where": {
+   "GSAP": [
+    "003-__loading__.js",
+    "007-gsap.min.js",
+    "009-__game-scripts.js"
+   ],
+   "PlayCanvas": [
+    "003-__loading__.js",
+    "005-playcanvas-stable.min.js",
+    "009-__game-scripts.js"
+   ],
+   "ScrollTrigger": [
+    "007-gsap.min.js"
+   ]
+  },
+  "gsapVersion": "3.12.5",
+  "threeRevision": null,
+  "shaders": 40,
+  "scripts": 10
+ },
+ "network": {
+  "requests": 108,
+  "totalKb": 49520,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 1
+   },
+   "Script": {
+    "n": 7,
+    "kb": 935
+   },
+   "Stylesheet": {
+    "n": 8,
+    "kb": 7
+   },
+   "XHR": {
+    "n": 74,
+    "kb": 36659
+   },
+   "Font": {
+    "n": 14,
+    "kb": 165
+   },
+   "Fetch": {
+    "n": 1,
+    "kb": 286
+   },
+   "Other": {
+    "n": 1,
+    "kb": 0
+   },
+   "Media": {
+    "n": 2,
+    "kb": 11467
+   }
+  },
+  "thirdPartyHosts": [
+   "fonts.googleapis.com",
+   "cdnjs.cloudflare.com",
+   "fonts.gstatic.com",
+   "api.fontshare.com",
+   "cdn.fontshare.com"
+  ],
+  "fontFiles": [
+   "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8-qxTOlOV.woff2",
+   "https://cdn.fontshare.com/wf/MFQT7HFGCR2L5ULQTW6YXYZXXHMPKLJ3/YWQ244D6TACUX5JBKATPOW5I5MGJ3G73/7YY3ZAAE3TRV2LANYOLXNHTPHLXVWTKH.woff2",
+   "https://cdn.fontshare.com/wf/HFTXPYOBEE22ON2ZH2TDSTBQLGERA7LU/4AOH2PGTMHZO2YX5HMTOAV52ONC3WIXE/TW4KNQIPR4LNP4I6I6C6HKQ23B2EQAU5.woff2",
+   "https://cdn.fontshare.com/wf/KWXO5X3YW4X7OLUMPO4X24HQJGJU7E2Q/VOWUQZS3YLP66ZHPTXAFSH6YACY4WJHT/NIQ54PVBBIWVK3PFSOIOUJSXIJ5WTNDP.woff2",
+   "https://cdn.fontshare.com/wf/3RZHWSNONLLWJK3RLPEKUZOMM56GO4LJ/BPDRY7AHVI3MCDXXVXTQQ76H3UXA63S3/SB2OEB6IKZPRR6JT4GFJ2TFT6HBB6AZN.woff2",
+   "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPxDcwg.woff2",
+   "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKxTOlOV.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://edolus.com/files/assets/295657347/1/ComputeTrayJOINED.glb?t=8ce0797c7b650df871d236a54eead989",
+    "kb": 7333,
+    "type": "XHR"
+   },
+   {
+    "url": "https://edolus.com/files/assets/298949851/1/Tesla-ready2.glb?t=2f3940419bc18acd7c2019d5206c3305",
+    "kb": 7155,
+    "type": "XHR"
+   },
+   {
+    "url": "https://edolus.com/files/assets/297340642/1/Space-compressNOAUDIO-YTfullHD.mp4?t=5a0a9ec555552bb84bfa533812619b4e",
+    "kb": 5909,
+    "type": "Media"
+   },
+   {
+    "url": "https://edolus.com/files/assets/297340938/1/Seedance2-0_r2v_00002YTHD_lowbitrate.mp4?t=5f0560e47ec95621695e44389cbc520f",
+    "kb": 5558,
+    "type": "Media"
+   },
+   {
+    "url": "https://edolus.com/files/assets/294606322/1/StarlinkV2-1.glb?t=de925792652e508f31cca5c035cb07c7",
+    "kb": 3568,
+    "type": "XHR"
+   },
+   {
+    "url": "https://edolus.com/files/assets/298350544/1/6kgfa2umfqb91-edit.webp?t=aafb654c69b180967cacaa23ea6ed927",
+    "kb": 2427,
+    "type": "XHR"
+   },
+   {
+    "url": "https://edolus.com/files/assets/297261766/1/GDX-3PODS-F2.glb?t=ab0a12f255fc890bc0fa03829ea3e56f",
+    "kb": 1500,
+    "type": "XHR"
+   },
+   {
+    "url": "https://edolus.com/files/assets/296179108/1/Solar_panelDiffuse1.basis?t=3e43c8d02b3bd044973f54ed55ee6cbd",
+    "kb": 1464,
+    "type": "XHR"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": null,
+  "body": "16px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 115
+}

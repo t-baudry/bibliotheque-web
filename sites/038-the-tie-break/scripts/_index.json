@@ -1,0 +1,42 @@
+[
+ {
+  "file": "001-app.BJoZBxOG6b4d5903.js",
+  "url": "https://thetiebreak.merci-michel.com/assets/app.BJoZBxOG6b4d5903.js",
+  "kb": 7
+ },
+ {
+  "file": "002-vendor.C2s8bVVS6b4d5903.js",
+  "url": "https://thetiebreak.merci-michel.com/assets/vendor.C2s8bVVS6b4d5903.js",
+  "kb": 760
+ },
+ {
+  "file": "003-loader.CM330CYc6b4d5903.js",
+  "url": "https://thetiebreak.merci-michel.com/assets/loader.CM330CYc6b4d5903.js",
+  "kb": 227
+ },
+ {
+  "file": "004-utag.js",
+  "url": "https://tags.tiqcdn.com/utag/prada/prada.iframe/prod/utag.js",
+  "kb": 35
+ },
+ {
+  "file": "005-draco_wasm_wrapper.js",
+  "url": "https://thetiebreak.merci-michel.com/vendors/draco/draco_wasm_wrapper.js",
+  "kb": 57
+ },
+ {
+  "file": "006-basis_transcoder.js",
+  "url": "https://thetiebreak.merci-michel.com/vendors/basis/basis_transcoder.js",
+  "kb": 61
+ },
+ {
+  "file": "007-utag.1.js",
+  "url": "https://tags.tiqcdn.com/utag/prada/prada.iframe/prod/utag.1.js?utv=ut4.54.202511201011",
+  "kb": 2
+ },
+ {
+  "file": "008-GameView.CMTTJcT86b4d5903.js",
+  "url": "https://thetiebreak.merci-michel.com/assets/GameView.CMTTJcT86b4d5903.js",
+  "kb": 19
+ }
+]

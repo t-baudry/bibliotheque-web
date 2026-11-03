@@ -1,0 +1,1053 @@
+{
+ "id": 46,
+ "name": "LxL Creative",
+ "sourceUrl": "https://www.lxlcreative.co.uk/",
+ "capturedAt": "2026-11-02T23:59:28.848Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg",
+   "desktop-13.jpg",
+   "desktop-14.jpg"
+  ],
+  "fullPage": 15323,
+  "subpages": [
+   {
+    "url": "https://www.lxlcreative.co.uk/work",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.lxlcreative.co.uk/services",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.lxlcreative.co.uk/lxl-studios",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://www.lxlcreative.co.uk/",
+ "title": "LxL Creative",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "360° creative agency for TV & entertainment. Key art, social campaigns, EPKs & unit photography. One team, from day one.",
+  "canonical": null,
+  "robots": null,
+  "ogTitle": "LxL Creative",
+  "ogImage": "https://cdn.prod.website-files.com/69e88d0efafb70caf79fbd65/6a160412b478c9c74155b7d3_lxl-ctrative-og.jpg",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "Organization"
+  ],
+  "h1Count": 2,
+  "headings": [
+   "H1 Real craft. ‍Real people.‍",
+   "H1 Real results.",
+   "H2 Our services",
+   "H3 Activations",
+   "H3 Editorial",
+   "H3 EPK",
+   "H3 Unit",
+   "H3 Social Campaigns",
+   "H3 Key Art",
+   "H2 Discover some of our favourite projects",
+   "H2 Discover some of our favourite projects",
+   "H3 Why LxL",
+   "H3 We’re collaborative",
+   "H3 We’re upfront & honest",
+   "H3 We love what we do",
+   "H2 Why lxl",
+   "H2 Studios",
+   "H3 Where brands, music and culture meet.",
+   "H2 Got a production coming up? Let’s do something great together."
+  ],
+  "imgs": 39,
+  "imgNoAlt": 36,
+  "favicon": "https://cdn.prod.website-files.com/69e88d0efafb70caf79fbd65/69fe0d3cd4eb40be8283dec9_favicon-1.png",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#27201d",
+    "w": 10930973
+   },
+   {
+    "v": "#055dff",
+    "w": 398197
+   },
+   {
+    "v": "#ffffff",
+    "w": 120511
+   },
+   {
+    "v": "#ff5121",
+    "w": 25702
+   },
+   {
+    "v": "#646464",
+    "w": 9216
+   },
+   {
+    "v": "#fcf2bd",
+    "w": 7889
+   }
+  ],
+  "text": [
+   {
+    "v": "#fcf2bd",
+    "w": 1217
+   },
+   {
+    "v": "#ffffff",
+    "w": 114
+   },
+   {
+    "v": "#27201d",
+    "w": 73
+   },
+   {
+    "v": "#ff5121",
+    "w": 55
+   },
+   {
+    "v": "#055dff",
+    "w": 7
+   }
+  ],
+  "border": [
+   {
+    "v": "#ffffff",
+    "w": 1
+   }
+  ],
+  "fonts": [
+   {
+    "v": "Manrope",
+    "w": 1364
+   },
+   {
+    "v": "Owners Wide",
+    "w": 1092
+   },
+   {
+    "v": "Scribo",
+    "w": 62
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "17.432px",
+    "w": 28
+   },
+   {
+    "v": "15.432px",
+    "w": 22
+   },
+   {
+    "v": "13px",
+    "w": 13
+   },
+   {
+    "v": "14.432px",
+    "w": 11
+   },
+   {
+    "v": "28.568px",
+    "w": 9
+   },
+   {
+    "v": "22.864px",
+    "w": 6
+   },
+   {
+    "v": "42.296px",
+    "w": 5
+   },
+   {
+    "v": "98.7552px",
+    "w": 4
+   },
+   {
+    "v": "54.864px",
+    "w": 3
+   },
+   {
+    "v": "16.3425px",
+    "w": 3
+   },
+   {
+    "v": "32.568px",
+    "w": 2
+   },
+   {
+    "v": "45.704px",
+    "w": 2
+   },
+   {
+    "v": "101.704px",
+    "w": 2
+   },
+   {
+    "v": "58.6224px",
+    "w": 1
+   },
+   {
+    "v": "51.4224px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "12px",
+    "w": 50
+   },
+   {
+    "v": "16px",
+    "w": 12
+   },
+   {
+    "v": "1440px",
+    "w": 9
+   },
+   {
+    "v": "20px",
+    "w": 7
+   },
+   {
+    "v": "11.2px",
+    "w": 4
+   },
+   {
+    "v": "50%",
+    "w": 1
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.35 0.5s",
+    "w": 13
+   },
+   {
+    "v": "ease 0.2s",
+    "w": 7
+   },
+   {
+    "v": "cubic-bezier(0.65 0.15s",
+    "w": 5
+   },
+   {
+    "v": "ease 0.5s",
+    "w": 4
+   },
+   {
+    "v": "ease-in-out 0.4s",
+    "w": 4
+   },
+   {
+    "v": "cubic-bezier(0.65 0.6s",
+    "w": 2
+   },
+   {
+    "v": "linear 0.3s",
+    "w": 2
+   },
+   {
+    "v": "ease 0.3s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "\"Owners Wide\", Impact, sans-serif",
+    "size": "32.568px",
+    "weight": "700",
+    "lineHeight": "32.568px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#fcf2bd",
+    "sample": "Real craft. ‍Real people.‍"
+   },
+   "h2": {
+    "family": "\"Owners Wide\", Impact, sans-serif",
+    "size": "54.864px",
+    "weight": "700",
+    "lineHeight": "49.3776px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#fcf2bd",
+    "sample": "Our services"
+   },
+   "h3": {
+    "family": "\"Owners Wide\", Impact, sans-serif",
+    "size": "22.864px",
+    "weight": "700",
+    "lineHeight": "22.864px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "Activations"
+   },
+   "p": {
+    "family": "Manrope, Arial, sans-serif",
+    "size": "17.432px",
+    "weight": "500",
+    "lineHeight": "24.4048px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#27201d",
+    "sample": "There’s another side to what we do. Through LXL Studios, we bring the same creat"
+   },
+   "a": {
+    "family": "Manrope, Arial, sans-serif",
+    "size": "17.432px",
+    "weight": "600",
+    "lineHeight": "24.4048px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#fcf2bd",
+    "sample": "Work"
+   },
+   "button": {
+    "family": "Manrope, Arial, sans-serif",
+    "size": "17.432px",
+    "weight": "500",
+    "lineHeight": "24.4048px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Sound"
+   },
+   "li": {
+    "family": "Manrope, Arial, sans-serif",
+    "size": "17.432px",
+    "weight": "500",
+    "lineHeight": "24.4048px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#fcf2bd",
+    "sample": "Work"
+   },
+   "body": {
+    "family": "Manrope, Arial, sans-serif",
+    "size": "17.432px",
+    "weight": "500",
+    "lineHeight": "24.4048px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#fcf2bd",
+    "sample": "::before, ::after { box-sizing: border-box; } .w-embed:before, .w-embed:after, ."
+   }
+  },
+  "cssVars": {
+   "--_theme---background": "var(--swatch--dark)",
+   "--_text-style---font-family": "var(--_typography---font--primary-family)",
+   "--_theme---text": "var(--swatch--light)",
+   "--_text-style---font-size": "var(--_typography---font-size--text-main)",
+   "--_text-style---line-height": "var(--_typography---line-height--huge)",
+   "--_text-style---font-weight": "var(--_typography---font--medium)",
+   "--_text-style---letter-spacing": "var(--_typography---letter-spacing--normal)",
+   "--_text-style---text-wrap": "pretty",
+   "--_gap---size": "var(--site--gutter)",
+   "--_column-count---value": "1",
+   "--_theme---background-skeleton": "var(--_theme---card)",
+   "--_spacing---space--2-5rem": "clamp(2.25*1rem,((2.25 - ((2.608 - 2.25)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((2.608 ",
+   "--_spacing---space--1-5rem": "clamp(1.25*1rem,((1.25 - ((1.608 - 1.25)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((1.608 ",
+   "--border-width--main": ".0625rem",
+   "--_text-style---margin-bottom": "var(--_spacing---space--2rem)",
+   "--_spacing---space--2rem": "clamp(1.75*1rem,((1.75 - ((2.108 - 1.75)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((2.108 ",
+   "--_spacing---space--1rem": "clamp(1*1rem,((1 - ((1 - 1)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((1 - 1)/(var(--site-",
+   "--_spacing---section-space--main": "clamp(6*1rem,((6 - ((14.571 - 6)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((14.571 - 6)/(v",
+   "--_spacing---section-space--none": "0px",
+   "--_spacing---section-space--small": "clamp(3*1rem,((3 - ((7.287 - 3)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((7.287 - 3)/(var",
+   "--_spacing---section-space--large": "clamp(7.5*1rem,((7.5 - ((18.213 - 7.5)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((18.213 -",
+   "--site--margin": "clamp(1.25*1rem,((1.25 - ((3.037 - 1.25)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((3.037 ",
+   "--_spacing---section-space--page-top": "clamp(8*1rem,((8 - ((20.142 - 8)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((20.142 - 8)/(v",
+   "--max-width--main": "calc(var(--site--viewport-max)*1rem)",
+   "--_spacing---space--5rem": "clamp(4*1rem,((4 - ((5.429 - 4)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((5.429 - 4)/(var",
+   "--max-width--small": "50rem",
+   "--max-width--full": "100%",
+   "--_text-style---margin-top": "var(--_spacing---space--2rem)",
+   "--_spacing---space--3rem": "clamp(2.5*1rem,((2.5 - ((3.213 - 2.5)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((3.213 - 2",
+   "--_text-style---trim-top": "var(--_typography---font--primary-trim-top)",
+   "--_text-style---trim-bottom": "var(--_typography---font--primary-trim-bottom)",
+   "--_spacing---space--4rem": "clamp(3*1rem,((3 - ((4.429 - 3)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((4.429 - 3)/(var",
+   "--_typography---line-height--small": ".9",
+   "--_typography---line-height--medium": "1",
+   "--_typography---line-height--large": "1.2",
+   "--_typography---line-height--huge": "1.4",
+   "--_typography---letter-spacing--tight": "-.03em",
+   "--_typography---letter-spacing--normal": "0em",
+   "--_typography---font--tertiary-family": "Scribo,Georgia,sans-serif",
+   "--_theme---heading-accent": "var(--swatch--brand)",
+   "--_typography---font--regular": "400",
+   "--site--gutter": "clamp(.75*1rem,((.75 - ((.75 - .75)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((.75 - .75)/",
+   "--site--column-count": "12",
+   "--site--column-width": "calc((min(var(--max-width--main),100% - var(--site--margin)*2) - (var(--site--gutter)*(var(--site--column-count) - 1)))/var(--site--column-c",
+   "--_theme---card": "color-mix(in srgb,var(--_theme---background),white 7%)",
+   "--_spacing---space--0-75rem": "clamp(.75*1rem,((.75 - ((.75 - .75)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((.75 - .75)/",
+   "--_typography---font--primary-family": "Manrope,Arial,sans-serif",
+   "--_typography---font--medium": "500",
+   "--radius--small": ".5rem",
+   "--radius--main": ".75rem",
+   "--radius--round": "100vw",
+   "--_theme---border": "var(--swatch--light-o20)",
+   "--_trigger---on<deleted|variable-1ae199b9-e5bb-5612-518e-c30c67ad76ce>": "1",
+   "--_trigger---off<deleted|variable-318d80a1-5b54-d47e-96ba-f008a23d016a>": "0",
+   "--focus--offset-inner": "calc(var(--focus--width)*-1)",
+   "--border-width--large": ".125rem",
+   "--_theme---button-primary--border": "var(--swatch--brand-text-o20)",
+   "--_theme---button-primary--background": "var(--swatch--brand)",
+   "--_theme---button-primary--text": "var(--swatch--brand-text)",
+   "--_theme---button-secondary--border": "var(--swatch--brand-text-o20)",
+   "--_theme---button-secondary--background": "var(--swatch--light)",
+   "--_theme---button-secondary--text": "var(--swatch--dark)",
+   "--button-size--medium": "clamp(2.25*1rem,((2.25 - ((2.608 - 2.25)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((2.608 ",
+   "--site--viewport-max": "160",
+   "--site--viewport-min": "20",
+   "--swatch--studios": "#055dff",
+   "--swatch--brand": "#ff5121",
+   "--_typography---font--semibold": "600",
+   "--button-size--large": "clamp(2.75*1rem,((2.75 - ((3.108 - 2.75)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((3.108 ",
+   "--radius--large": "1.25rem",
+   "--_theme---menu": "var(--_theme---background)",
+   "--_spacing---space--inner-padding": "clamp(1*1rem,((1 - ((1.358 - 1)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((1.358 - 1)/(var",
+   "--swatch--transparent": "transparent",
+   "--swatch--light": "#fcf2bd",
+   "--swatch--white": "white",
+   "--_typography---font-size--h3-accent": "clamp(2.25*1rem,((2.25 - ((4.75 - 2.25)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((4.75 - ",
+   "--_typography---font-size--h4-accent": "clamp(2.5*1rem,((2.5 - ((3.213 - 2.5)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((3.213 - 2",
+   "--swatch--dark-o20": "color-mix(in srgb,var(--swatch--dark)20%,transparent)",
+   "--swatch--dark": "#27201d",
+   "--_typography---font-size--display-accent": "clamp(2.25*1rem,((2.25 - ((10.463 - 2.25)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((10.46",
+   "--_typography---font-size--h1-accent": "clamp(3.5*1rem,((3.5 - ((7.071 - 3.5)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((7.071 - 3",
+   "--_typography---font-size--h2-accent": "clamp(2.75*1rem,((2.75 - ((4.537 - 2.75)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((4.537 ",
+   "--_theme---accent": "var(--swatch--brand)",
+   "--swatch--brand-text-o20": "color-mix(in srgb,var(--swatch--brand-text)20%,transparent)",
+   "--_typography---font-size--text-small": "clamp(.8125*1rem,((.8125 - ((.8125 - .8125)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((.81",
+   "--_typography---font-size--h2": "clamp(1.5*1rem,((1.5 - ((2.571 - 1.5)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((2.571 - 1",
+   "--_responsive---large": "1",
+   "--_responsive---medium": "0",
+   "--_responsive---small": "0",
+   "--_responsive---xsmall": "0",
+   "--_text-style---text-transform": "var(--_typography---text-transform--none)",
+   "--_theme---selection--background": "color-mix(in srgb,var(--_theme---accent),white 40%)",
+   "--_theme---selection--text": "var(--swatch--dark)",
+   "--squiggle-width--main": "clamp(.75*1rem,((.75 - ((1.3565 - .75)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((1.3565 -",
+   "--focus--width": ".125rem",
+   "--focus--offset-outer": ".1875rem",
+   "--swatch--light-o20": "color-mix(in srgb,var(--swatch--light)20%,transparent)",
+   "--swatch--brand-text": "var(--swatch--white)",
+   "--swatch--sky": "#e2f2fd",
+   "--swatch--berry": "#760021",
+   "--swatch--berry-accent": "#62001b",
+   "--_theme---button-primary--background-hover": "color-mix(in srgb,var(--_theme---button-primary--background),black 15%)",
+   "--_theme---button-secondary--background-hover": "color-mix(in srgb,var(--_theme---button-secondary--background),black 15%)",
+   "--_typography---font--primary-trim-top": ".34em",
+   "--_typography---font--primary-trim-bottom": ".39em",
+   "--_typography---font--secondary-family": "\"Owners Wide\",Impact,sans-serif",
+   "--_typography---font--secondary-trim-top": ".37em",
+   "--_typography---font--secondary-trim-bottom": ".34em",
+   "--_typography---font--tertiary-trim-top": ".22em",
+   "--_typography---font--tertiary-trim-bottom": ".14em",
+   "--_typography---font--bold": "700",
+   "--_typography---font-size--text-main": "clamp(1*1rem,((1 - ((1.179 - 1)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((1.179 - 1)/(var",
+   "--_typography---font-size--text-large": "clamp(1.125*1rem,((1.125 - ((1.483 - 1.125)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((1.4",
+   "--_typography---font-size--h6": "clamp(.8125*1rem,((.8125 - ((.9915 - .8125)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((.99",
+   "--_typography---font-size--h5": "clamp(.875*1rem,((.875 - ((1.054 - .875)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((1.054 ",
+   "--_typography---font-size--h4": "clamp(1.25*1rem,((1.25 - ((1.608 - 1.25)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((1.608 ",
+   "--_typography---font-size--h3": "clamp(1.25*1rem,((1.25 - ((2.321 - 1.25)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((2.321 ",
+   "--_typography---font-size--h1": "clamp(1.75*1rem,((1.75 - ((3.537 - 1.75)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((3.537 ",
+   "--_typography---font-size--display": "clamp(2*1rem,((2 - ((4.858 - 2)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((4.858 - 2)/(var",
+   "--_typography---text-transform--none": "var(--text-transform,none)",
+   "--_typography---text-transform--uppercase": "uppercase",
+   "--_typography---text-transform--capitalize": "capitalize",
+   "--_typography---text-transform--lowercase": "lowercase",
+   "--_text-style-accents---font-size": "var(--_typography---font-size--text-main)",
+   "--_text-style-accents---line-height": "var(--_typography---line-height--huge)",
+   "--_text-style-accents---letter-spacing": "var(--_typography---letter-spacing--normal)",
+   "--_text-style-accents---text-transform": "var(--_typography---text-transform--none)",
+   "--_text-style-accents---margin-top": "var(--_spacing---space--2rem)",
+   "--_text-style-accents---margin-bottom": "var(--_spacing---space--2rem)",
+   "--_text-style-accents---font-family": "var(--_typography---font--primary-family)",
+   "--_text-style-accents---font-weight": "var(--_typography---font--regular)",
+   "--_text-style-accents---trim-top": "var(--_typography---font--primary-trim-top)",
+   "--_text-style-accents---trim-bottom": "var(--_typography---font--primary-trim-bottom)",
+   "--_text-style-accents---text-wrap": "pretty",
+   "--swatch--brand-500<deleted|variable-5c209bac-cd05-3f37-75d8-4eb87bac274e>": "#c6fb50"
+  },
+  "fontFaces": [
+   {
+    "family": "webflow-icons",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"data:application/x-font-ttf;charset=utf-8;base64,AAEAAAALAIAAAwAwT1MvMg8SBiUAAAC8AAAAYGNtYXDpP+a4AAABHAAAAFxnYXNwAAAAEAAAAXgAAAAIZ2x5ZmhS2XEAAAGAAAADHGhlYWQTFw3HAAAEnAAAADZoaGVhCXYFgQAABNQAAAAkaG"
+   },
+   {
+    "family": "Owners Wide",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/69e88d0efafb70caf79fbd65/69e88fdb179cd440edfa895f_OwnersWide-Bold.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Owners Wide",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/69e88d0efafb70caf79fbd65/69e88fdb7ed07cb25cd2f3e1_OwnersWide-Medium.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Scribo",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/69e88d0efafb70caf79fbd65/69e8901cc8478b5629cf8cbd_ScriboRoughPro-Regular.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Manrope",
+    "weight": "600",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/69e88d0efafb70caf79fbd65/69e890bf9ce0bb572c0c198f_Manrope-SemiBold.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Manrope",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/69e88d0efafb70caf79fbd65/69e890bf554d77b610d317f7_Manrope-Medium.woff2\") format(\"woff2\")"
+   }
+  ],
+  "keyframes": [
+   "spin"
+  ],
+  "breakpoints": [
+   {
+    "v": "991px",
+    "w": 4
+   },
+   {
+    "v": "479px",
+    "w": 4
+   },
+   {
+    "v": "767px",
+    "w": 3
+   },
+   {
+    "v": "768px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 1627,
+  "crossOriginSheets": 1
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "hero_home_wrap u-section",
+    "h": 900,
+    "title": "Real craft. ‍Real people.‍",
+    "media": 6
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "video-scroll_wrap u-section",
+    "h": 3481,
+    "title": "",
+    "media": 2
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "card-stack_wrap u-section",
+    "h": 5400,
+    "title": "Our services",
+    "media": 6
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "img-cycle_wrap u-section",
+    "h": 891,
+    "title": "",
+    "media": 2
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "ft-projects_wrap u-section",
+    "h": 990,
+    "title": "Discover some of our favourite projects",
+    "media": 8
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "features_wrap u-section",
+    "h": 1076,
+    "title": "Why LxL",
+    "media": 5
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "testimonials_wrap u-section",
+    "h": 636,
+    "title": "",
+    "media": 4
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "studios_wrap u-section",
+    "h": 1035,
+    "title": "Studios",
+    "media": 1
+   },
+   {
+    "tag": "footer",
+    "id": null,
+    "cls": "footer_wrap u-section",
+    "h": 892,
+    "title": "Got a production coming up? Let’s do something great together.",
+    "media": 2
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "",
+    "href": "https://www.lxlcreative.co.uk/"
+   },
+   {
+    "t": "",
+    "href": "https://www.lxlcreative.co.uk/#main"
+   },
+   {
+    "t": "Work",
+    "href": "https://www.lxlcreative.co.uk/work"
+   },
+   {
+    "t": "Services",
+    "href": "https://www.lxlcreative.co.uk/services"
+   },
+   {
+    "t": "LxL Studios",
+    "href": "https://www.lxlcreative.co.uk/lxl-studios"
+   },
+   {
+    "t": "LxL Creative",
+    "href": "https://www.lxlcreative.co.uk/"
+   },
+   {
+    "t": "About",
+    "href": "https://www.lxlcreative.co.uk/about"
+   },
+   {
+    "t": "Contact",
+    "href": "https://www.lxlcreative.co.uk/contact"
+   },
+   {
+    "t": "StealKey ArtUnitEPKSocial Campaigns",
+    "href": "https://www.lxlcreative.co.uk/work/steal"
+   },
+   {
+    "t": "Key Art",
+    "href": "https://www.lxlcreative.co.uk/service/key-art"
+   },
+   {
+    "t": "Unit",
+    "href": "https://www.lxlcreative.co.uk/service/unit"
+   },
+   {
+    "t": "EPK",
+    "href": "https://www.lxlcreative.co.uk/service/epk"
+   },
+   {
+    "t": "Social Campaigns",
+    "href": "https://www.lxlcreative.co.uk/service/social-campaigns"
+   },
+   {
+    "t": "SAS Rogue HeroesKey ArtUnit",
+    "href": "https://www.lxlcreative.co.uk/work/sas-rogue-heroes"
+   },
+   {
+    "t": "Key Art",
+    "href": "https://www.lxlcreative.co.uk/service/key-art"
+   },
+   {
+    "t": "Unit",
+    "href": "https://www.lxlcreative.co.uk/service/unit"
+   },
+   {
+    "t": "MaliceEPKUnitKey Art",
+    "href": "https://www.lxlcreative.co.uk/work/malice"
+   },
+   {
+    "t": "EPK",
+    "href": "https://www.lxlcreative.co.uk/service/epk"
+   },
+   {
+    "t": "Unit",
+    "href": "https://www.lxlcreative.co.uk/service/unit"
+   },
+   {
+    "t": "Key Art",
+    "href": "https://www.lxlcreative.co.uk/service/key-art"
+   },
+   {
+    "t": "",
+    "href": "https://www.lxlcreative.co.uk/work"
+   },
+   {
+    "t": "Key Art",
+    "href": "https://www.lxlcreative.co.uk/service/key-art"
+   },
+   {
+    "t": "Social Campaigns",
+    "href": "https://www.lxlcreative.co.uk/service/social-campaigns"
+   },
+   {
+    "t": "Unit",
+    "href": "https://www.lxlcreative.co.uk/service/unit"
+   },
+   {
+    "t": "EPK",
+    "href": "https://www.lxlcreative.co.uk/service/epk"
+   },
+   {
+    "t": "Editorial",
+    "href": "https://www.lxlcreative.co.uk/service/editorial"
+   },
+   {
+    "t": "Activations",
+    "href": "https://www.lxlcreative.co.uk/service/activations"
+   },
+   {
+    "t": "",
+    "href": "https://www.lxlcreative.co.uk/services"
+   },
+   {
+    "t": "",
+    "href": "https://www.lxlcreative.co.uk/lxl-studios"
+   },
+   {
+    "t": "",
+    "href": "https://www.lxlcreative.co.uk/"
+   }
+  ],
+  "ctas": [],
+  "pageHeight": 15300,
+  "counts": {
+   "canvas": 0,
+   "videos": 2,
+   "imgs": 39,
+   "svgs": 50,
+   "iframes": 0,
+   "domNodes": 1001
+  }
+ },
+ "tech": {
+  "gsap": true,
+  "gsapVersion": "3.15.0",
+  "scrollTrigger": true,
+  "splitText": true,
+  "lenis": true,
+  "locomotive": false,
+  "three": false,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": true,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": true,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": false
+ },
+ "scripts": [
+  "https://cdn.odyn.dev/auto/shdd/bundle.js",
+  "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js",
+  "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=69e88d0efafb70caf79fbd65",
+  "https://cdn.prod.website-files.com/69e88d0efafb70caf79fbd65/js/webflow.schunk.7321a5097fb66f41.js",
+  "https://cdn.prod.website-files.com/69e88d0efafb70caf79fbd65/js/webflow.751e0867.148dc658e77a3916.js",
+  "https://cdn.jsdelivr.net/npm/@barba/core@2.10.3/dist/barba.umd.min.js",
+  "https://cdn.jsdelivr.net/npm/lenis@1.3.17/dist/lenis.min.js",
+  "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/gsap.min.js",
+  "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/ScrollTrigger.min.js",
+  "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/CustomEase.min.js",
+  "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/DrawSVGPlugin.min.js",
+  "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/InertiaPlugin.min.js",
+  "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/Draggable.min.js",
+  "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/Observer.min.js",
+  "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/Flip.min.js",
+  "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/SplitText.min.js",
+  "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/ScrollToPlugin.min.js",
+  "https://cdn.jsdelivr.net/gh/lumosframework/scripts@v1.1.1/theme-collector.js"
+ ],
+ "internal": [
+  "https://www.lxlcreative.co.uk/work",
+  "https://www.lxlcreative.co.uk/services",
+  "https://www.lxlcreative.co.uk/lxl-studios",
+  "https://www.lxlcreative.co.uk/about",
+  "https://www.lxlcreative.co.uk/contact",
+  "https://www.lxlcreative.co.uk/work/steal",
+  "https://www.lxlcreative.co.uk/service/key-art",
+  "https://www.lxlcreative.co.uk/service/unit",
+  "https://www.lxlcreative.co.uk/service/epk",
+  "https://www.lxlcreative.co.uk/service/social-campaigns",
+  "https://www.lxlcreative.co.uk/work/sas-rogue-heroes",
+  "https://www.lxlcreative.co.uk/work/malice",
+  "https://www.lxlcreative.co.uk/service/editorial",
+  "https://www.lxlcreative.co.uk/service/activations",
+  "https://www.lxlcreative.co.uk/work/bake-off",
+  "https://www.lxlcreative.co.uk/privacy"
+ ],
+ "perf": {
+  "ttfb": 101,
+  "dcl": 1469,
+  "load": 1530,
+  "lcp": 1032,
+  "lcpEl": "IMG.u-image",
+  "cls": 0.004
+ },
+ "libs": {
+  "detected": [
+   "jQuery",
+   "Lenis",
+   "Virtual scroll",
+   "GSAP",
+   "ScrollTrigger",
+   "Barba.js",
+   "SplitText/SplitType",
+   "Flip (GSAP)",
+   "DrawSVG/MorphSVG",
+   "Webflow (runtime)"
+  ],
+  "where": {
+   "jQuery": [
+    "002-webflow.schunk.7321a5097fb66f41.js",
+    "027-jquery-3.5.1.min.dc5e7f18c8.js"
+   ],
+   "Lenis": [
+    "004-lenis.min.js",
+    "050-bundle.js",
+    "styles.css"
+   ],
+   "Virtual scroll": [
+    "004-lenis.min.js"
+   ],
+   "GSAP": [
+    "005-ScrollTrigger.min.js",
+    "006-CustomEase.min.js",
+    "008-gsap.min.js",
+    "009-Observer.min.js",
+    "010-Flip.min.js",
+    "011-SplitText.min.js",
+    "012-DrawSVGPlugin.min.js",
+    "013-InertiaPlugin.min.js",
+    "014-ScrollToPlugin.min.js",
+    "022-Draggable.min.js",
+    "050-bundle.js"
+   ],
+   "ScrollTrigger": [
+    "005-ScrollTrigger.min.js",
+    "008-gsap.min.js",
+    "009-Observer.min.js",
+    "014-ScrollToPlugin.min.js",
+    "050-bundle.js"
+   ],
+   "Barba.js": [
+    "007-barba.umd.min.js",
+    "050-bundle.js"
+   ],
+   "SplitText/SplitType": [
+    "008-gsap.min.js",
+    "011-SplitText.min.js",
+    "050-bundle.js"
+   ],
+   "Flip (GSAP)": [
+    "010-Flip.min.js",
+    "050-bundle.js"
+   ],
+   "DrawSVG/MorphSVG": [
+    "012-DrawSVGPlugin.min.js",
+    "050-bundle.js"
+   ],
+   "Webflow (runtime)": [
+    "028-chunk-GGDEANQW.js"
+   ]
+  },
+  "gsapVersion": "3.11.0",
+  "threeRevision": null,
+  "shaders": 0,
+  "scripts": 53
+ },
+ "network": {
+  "requests": 95,
+  "totalKb": 19366,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 45
+   },
+   "Stylesheet": {
+    "n": 2,
+    "kb": 26
+   },
+   "Image": {
+    "n": 29,
+    "kb": 3073
+   },
+   "Script": {
+    "n": 38,
+    "kb": 342
+   },
+   "Font": {
+    "n": 4,
+    "kb": 466
+   },
+   "Fetch": {
+    "n": 6,
+    "kb": 104
+   },
+   "Other": {
+    "n": 1,
+    "kb": 2
+   },
+   "XHR": {
+    "n": 14,
+    "kb": 15309
+   }
+  },
+  "thirdPartyHosts": [
+   "cdn.prod.website-files.com",
+   "cdn.jsdelivr.net",
+   "d3e54v103j8qbb.cloudfront.net",
+   "cdn.odyn.dev",
+   "vz-c0fa1f6d-a21.b-cdn.net"
+  ],
+  "fontFiles": [
+   "https://cdn.prod.website-files.com/69e88d0efafb70caf79fbd65/69e890bf554d77b610d317f7_Manrope-Medium.woff2",
+   "https://cdn.prod.website-files.com/69e88d0efafb70caf79fbd65/69e890bf9ce0bb572c0c198f_Manrope-SemiBold.woff2",
+   "https://cdn.prod.website-files.com/69e88d0efafb70caf79fbd65/69e88fdb179cd440edfa895f_OwnersWide-Bold.woff2",
+   "https://cdn.prod.website-files.com/69e88d0efafb70caf79fbd65/69e8901cc8478b5629cf8cbd_ScriboRoughPro-Regular.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://vz-c0fa1f6d-a21.b-cdn.net/8904ac88-d0e9-4a69-9c1c-78da3e430f3a/720p/video3.ts",
+    "kb": 1797,
+    "type": "XHR"
+   },
+   {
+    "url": "https://vz-c0fa1f6d-a21.b-cdn.net/8904ac88-d0e9-4a69-9c1c-78da3e430f3a/720p/video4.ts",
+    "kb": 1491,
+    "type": "XHR"
+   },
+   {
+    "url": "https://vz-c0fa1f6d-a21.b-cdn.net/8904ac88-d0e9-4a69-9c1c-78da3e430f3a/720p/video10.ts",
+    "kb": 1475,
+    "type": "XHR"
+   },
+   {
+    "url": "https://vz-c0fa1f6d-a21.b-cdn.net/8904ac88-d0e9-4a69-9c1c-78da3e430f3a/720p/video11.ts",
+    "kb": 1393,
+    "type": "XHR"
+   },
+   {
+    "url": "https://vz-c0fa1f6d-a21.b-cdn.net/8904ac88-d0e9-4a69-9c1c-78da3e430f3a/720p/video6.ts",
+    "kb": 1238,
+    "type": "XHR"
+   },
+   {
+    "url": "https://vz-c0fa1f6d-a21.b-cdn.net/8904ac88-d0e9-4a69-9c1c-78da3e430f3a/720p/video0.ts",
+    "kb": 1235,
+    "type": "XHR"
+   },
+   {
+    "url": "https://vz-c0fa1f6d-a21.b-cdn.net/8904ac88-d0e9-4a69-9c1c-78da3e430f3a/720p/video8.ts",
+    "kb": 1196,
+    "type": "XHR"
+   },
+   {
+    "url": "https://vz-c0fa1f6d-a21.b-cdn.net/8904ac88-d0e9-4a69-9c1c-78da3e430f3a/720p/video2.ts",
+    "kb": 1190,
+    "type": "XHR"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "33.429px",
+   "lineHeight": "30.0861px"
+  },
+  "body": "16.0895px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 168
+}

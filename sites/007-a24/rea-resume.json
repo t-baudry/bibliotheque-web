@@ -1,0 +1,18 @@
+{
+ "outil": "rea analyze-javascript-application (rea-agents 6.7.0)",
+ "code": 1,
+ "durationS": 242,
+ "types_de_noeuds": {},
+ "fonctions_par_fichier": {},
+ "fonctions_nommees": [],
+ "modules": [],
+ "requetes": [],
+ "reponses": [],
+ "timers": [],
+ "taches": [],
+ "frontieres": [],
+ "promesses": [],
+ "empreintes_fonctions": 0,
+ "inconnues": 0,
+ "limites": []
+}

@@ -1,0 +1,507 @@
+[
+ {
+  "file": "001-paul-kalkbrenner-staging.a0aa6ca1.b7683852b8a60d8e.js",
+  "url": "https://cdn.prod.website-files.com/69bbf53ccfefd61290c68689/js/paul-kalkbrenner-staging.a0aa6ca1.b7683852b8a60d8e.js",
+  "kb": 45
+ },
+ {
+  "file": "002-SplitText.min.js",
+  "url": "https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js",
+  "kb": 8
+ },
+ {
+  "file": "003-InertiaPlugin.min.js",
+  "url": "https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js",
+  "kb": 7
+ },
+ {
+  "file": "004-ScrollTrigger.min.js",
+  "url": "https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js",
+  "kb": 44
+ },
+ {
+  "file": "005-Flip.min.js",
+  "url": "https://cdn.prod.website-files.com/gsap/3.15.0/Flip.min.js",
+  "kb": 25
+ },
+ {
+  "file": "006-Observer.min.js",
+  "url": "https://cdn.prod.website-files.com/gsap/3.15.0/Observer.min.js",
+  "kb": 10
+ },
+ {
+  "file": "007-gsap.min.js",
+  "url": "https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js",
+  "kb": 71
+ },
+ {
+  "file": "008-CustomEase.min.js",
+  "url": "https://cdn.prod.website-files.com/gsap/3.15.0/CustomEase.min.js",
+  "kb": 7
+ },
+ {
+  "file": "009-Draggable.min.js",
+  "url": "https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js",
+  "kb": 35
+ },
+ {
+  "file": "010-barba.umd.js",
+  "url": "https://cdn.jsdelivr.net/npm/@barba/core@2/dist/barba.umd.js",
+  "kb": 31
+ },
+ {
+  "file": "011-jquery-3.5.1.min.dc5e7f18c8.js",
+  "url": "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=69bbf53ccfefd61290c68689",
+  "kb": 87
+ },
+ {
+  "file": "012-lenis.min.js",
+  "url": "https://unpkg.com/lenis@1.3.23/dist/lenis.min.js",
+  "kb": 17
+ },
+ {
+  "file": "013-bundle.js",
+  "url": "https://cdn.odyn.dev/p/j52r/bundle.js",
+  "kb": 67
+ },
+ {
+  "file": "014-api.js",
+  "url": "https://challenges.cloudflare.com/turnstile/v0/g/5c2e6b612edd/api.js",
+  "kb": 85
+ },
+ {
+  "file": "015-iframe_api.js",
+  "url": "https://www.youtube.com/iframe_api",
+  "kb": 1
+ },
+ {
+  "file": "016-iframe_api.js",
+  "url": "https://www.youtube.com/iframe_api",
+  "kb": 1
+ },
+ {
+  "file": "017-www-widgetapi.js",
+  "url": "https://www.youtube.com/s/player/4efb8b2c/www-widgetapi.vflset/www-widgetapi.js",
+  "kb": 26
+ },
+ {
+  "file": "018-www-widgetapi.js",
+  "url": "https://www.youtube.com/s/player/4efb8b2c/www-widgetapi.vflset/www-widgetapi.js",
+  "kb": 26
+ },
+ {
+  "file": "019-iframe_api.js",
+  "url": "https://www.youtube.com/iframe_api",
+  "kb": 1
+ },
+ {
+  "file": "020-iframe_api.js",
+  "url": "https://www.youtube.com/iframe_api",
+  "kb": 1
+ },
+ {
+  "file": "021-iframe_api.js",
+  "url": "https://www.youtube.com/iframe_api",
+  "kb": 1
+ },
+ {
+  "file": "022-iframe_api.js",
+  "url": "https://www.youtube.com/iframe_api",
+  "kb": 1
+ },
+ {
+  "file": "023-www-widgetapi.js",
+  "url": "https://www.youtube.com/s/player/4efb8b2c/www-widgetapi.vflset/www-widgetapi.js",
+  "kb": 26
+ },
+ {
+  "file": "024-www-widgetapi.js",
+  "url": "https://www.youtube.com/s/player/4efb8b2c/www-widgetapi.vflset/www-widgetapi.js",
+  "kb": 26
+ },
+ {
+  "file": "025-www-widgetapi.js",
+  "url": "https://www.youtube.com/s/player/4efb8b2c/www-widgetapi.vflset/www-widgetapi.js",
+  "kb": 26
+ },
+ {
+  "file": "026-iframe_api.js",
+  "url": "https://www.youtube.com/iframe_api",
+  "kb": 1
+ },
+ {
+  "file": "027-www-widgetapi.js",
+  "url": "https://www.youtube.com/s/player/4a1e575f/www-widgetapi.vflset/www-widgetapi.js",
+  "kb": 26
+ },
+ {
+  "file": "028-iframe_api.js",
+  "url": "https://www.youtube.com/iframe_api",
+  "kb": 1
+ },
+ {
+  "file": "029-www-widgetapi.js",
+  "url": "https://www.youtube.com/s/player/4efb8b2c/www-widgetapi.vflset/www-widgetapi.js",
+  "kb": 26
+ },
+ {
+  "file": "030-www-widgetapi.js",
+  "url": "https://www.youtube.com/s/player/4efb8b2c/www-widgetapi.vflset/www-widgetapi.js",
+  "kb": 26
+ },
+ {
+  "file": "031-m_root_base.js",
+  "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.JmpblAJx_rU.2021.O/am=AAAAQA/d=1/excm=base,root/br=1/rs=AGKMywGCZ-aqsvswcccXBlsVNGAZ4ZN66Q/m=root,base",
+  "kb": 450
+ },
+ {
+  "file": "032-m_root_base.js",
+  "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.JmpblAJx_rU.2021.O/am=AAAAQA/d=1/excm=base,root/br=1/rs=AGKMywGCZ-aqsvswcccXBlsVNGAZ4ZN66Q/m=root,base",
+  "kb": 450
+ },
+ {
+  "file": "033-m_root_base.js",
+  "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.JmpblAJx_rU.2021.O/am=AAAAQA/d=1/excm=base,root/br=1/rs=AGKMywGCZ-aqsvswcccXBlsVNGAZ4ZN66Q/m=root,base",
+  "kb": 450
+ },
+ {
+  "file": "034-m_root_base.js",
+  "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.JmpblAJx_rU.2021.O/am=AAAAQA/d=1/excm=base,root/br=1/rs=AGKMywGCZ-aqsvswcccXBlsVNGAZ4ZN66Q/m=root,base",
+  "kb": 450
+ },
+ {
+  "file": "035-m_root_base.js",
+  "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.JmpblAJx_rU.2021.O/am=AAAAQA/d=1/excm=base,root/br=1/rs=AGKMywGCZ-aqsvswcccXBlsVNGAZ4ZN66Q/m=root,base",
+  "kb": 450
+ },
+ {
+  "file": "036-base.js",
+  "url": "https://www.youtube.com/s/player/4efb8b2c/player_embed_es6.vflset/fr_FR/base.js",
+  "kb": 1626
+ },
+ {
+  "file": "037-m_root_base.js",
+  "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.JmpblAJx_rU.2021.O/am=AAAAQA/d=1/excm=base,root/br=1/rs=AGKMywGCZ-aqsvswcccXBlsVNGAZ4ZN66Q/m=root,base",
+  "kb": 450
+ },
+ {
+  "file": "038-m_root_base.js",
+  "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.JmpblAJx_rU.2021.O/am=AAAAQA/d=1/excm=base,root/br=1/rs=AGKMywGCZ-aqsvswcccXBlsVNGAZ4ZN66Q/m=root,base",
+  "kb": 450
+ },
+ {
+  "file": "039-base.js",
+  "url": "https://www.youtube.com/s/player/4efb8b2c/player_embed_es6.vflset/fr_FR/base.js",
+  "kb": 1626
+ },
+ {
+  "file": "040-m_root_base.js",
+  "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.JmpblAJx_rU.2021.O/am=AAAAQA/d=1/excm=base,root/br=1/rs=AGKMywGCZ-aqsvswcccXBlsVNGAZ4ZN66Q/m=root,base",
+  "kb": 450
+ },
+ {
+  "file": "041-base.js",
+  "url": "https://www.youtube.com/s/player/4efb8b2c/player_embed_es6.vflset/fr_FR/base.js",
+  "kb": 1626
+ },
+ {
+  "file": "042-base.js",
+  "url": "https://www.youtube.com/s/player/4efb8b2c/player_embed_es6.vflset/fr_FR/base.js",
+  "kb": 1626
+ },
+ {
+  "file": "043-base.js",
+  "url": "https://www.youtube.com/s/player/4efb8b2c/player_embed_es6.vflset/fr_FR/base.js",
+  "kb": 1626
+ },
+ {
+  "file": "044-base.js",
+  "url": "https://www.youtube.com/s/player/4efb8b2c/player_embed_es6.vflset/fr_FR/base.js",
+  "kb": 1626
+ },
+ {
+  "file": "045-base.js",
+  "url": "https://www.youtube.com/s/player/4efb8b2c/player_embed_es6.vflset/fr_FR/base.js",
+  "kb": 1626
+ },
+ {
+  "file": "046-base.js",
+  "url": "https://www.youtube.com/s/player/4efb8b2c/player_embed_es6.vflset/fr_FR/base.js",
+  "kb": 1626
+ },
+ {
+  "file": "047-jquery-3.5.1.min.dc5e7f18c8.js",
+  "url": "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=69bbf53ccfefd61290c68689",
+  "kb": 87
+ },
+ {
+  "file": "048-paul-kalkbrenner-staging.a0aa6ca1.b7683852b8a60d8e.js",
+  "url": "https://cdn.prod.website-files.com/69bbf53ccfefd61290c68689/js/paul-kalkbrenner-staging.a0aa6ca1.b7683852b8a60d8e.js",
+  "kb": 45
+ },
+ {
+  "file": "049-gsap.min.js",
+  "url": "https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js",
+  "kb": 71
+ },
+ {
+  "file": "050-ScrollTrigger.min.js",
+  "url": "https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js",
+  "kb": 44
+ },
+ {
+  "file": "051-SplitText.min.js",
+  "url": "https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js",
+  "kb": 8
+ },
+ {
+  "file": "052-CustomEase.min.js",
+  "url": "https://cdn.prod.website-files.com/gsap/3.15.0/CustomEase.min.js",
+  "kb": 7
+ },
+ {
+  "file": "053-InertiaPlugin.min.js",
+  "url": "https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js",
+  "kb": 7
+ },
+ {
+  "file": "054-Draggable.min.js",
+  "url": "https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js",
+  "kb": 35
+ },
+ {
+  "file": "055-Observer.min.js",
+  "url": "https://cdn.prod.website-files.com/gsap/3.15.0/Observer.min.js",
+  "kb": 10
+ },
+ {
+  "file": "056-Flip.min.js",
+  "url": "https://cdn.prod.website-files.com/gsap/3.15.0/Flip.min.js",
+  "kb": 25
+ },
+ {
+  "file": "057-barba.umd.js",
+  "url": "https://cdn.jsdelivr.net/npm/@barba/core@2/dist/barba.umd.js",
+  "kb": 31
+ },
+ {
+  "file": "058-lenis.min.js",
+  "url": "https://unpkg.com/lenis@1.3.23/dist/lenis.min.js",
+  "kb": 17
+ },
+ {
+  "file": "059-bundle.js",
+  "url": "https://cdn.odyn.dev/p/j52r/bundle.js",
+  "kb": 67
+ },
+ {
+  "file": "060-bundle.js",
+  "url": "https://cdn.odyn.dev/p/j52r/bundle.js",
+  "kb": 67
+ },
+ {
+  "file": "061-api.js",
+  "url": "https://challenges.cloudflare.com/turnstile/v0/api.js",
+  "kb": 85
+ },
+ {
+  "file": "062-iframe_api.js",
+  "url": "https://www.youtube.com/iframe_api",
+  "kb": 1
+ },
+ {
+  "file": "063-www-widgetapi.js",
+  "url": "https://www.youtube.com/s/player/4efb8b2c/www-widgetapi.vflset/www-widgetapi.js",
+  "kb": 26
+ },
+ {
+  "file": "064-iframe_api.js",
+  "url": "https://www.youtube.com/iframe_api",
+  "kb": 1
+ },
+ {
+  "file": "065-iframe_api.js",
+  "url": "https://www.youtube.com/iframe_api",
+  "kb": 1
+ },
+ {
+  "file": "066-www-widgetapi.js",
+  "url": "https://www.youtube.com/s/player/4efb8b2c/www-widgetapi.vflset/www-widgetapi.js",
+  "kb": 26
+ },
+ {
+  "file": "067-www-widgetapi.js",
+  "url": "https://www.youtube.com/s/player/4efb8b2c/www-widgetapi.vflset/www-widgetapi.js",
+  "kb": 26
+ },
+ {
+  "file": "068-iframe_api.js",
+  "url": "https://www.youtube.com/iframe_api",
+  "kb": 1
+ },
+ {
+  "file": "069-www-widgetapi.js",
+  "url": "https://www.youtube.com/s/player/4efb8b2c/www-widgetapi.vflset/www-widgetapi.js",
+  "kb": 26
+ },
+ {
+  "file": "070-iframe_api.js",
+  "url": "https://www.youtube.com/iframe_api",
+  "kb": 1
+ },
+ {
+  "file": "071-www-widgetapi.js",
+  "url": "https://www.youtube.com/s/player/4efb8b2c/www-widgetapi.vflset/www-widgetapi.js",
+  "kb": 26
+ },
+ {
+  "file": "072-iframe_api.js",
+  "url": "https://www.youtube.com/iframe_api",
+  "kb": 1
+ },
+ {
+  "file": "073-www-widgetapi.js",
+  "url": "https://www.youtube.com/s/player/4efb8b2c/www-widgetapi.vflset/www-widgetapi.js",
+  "kb": 26
+ },
+ {
+  "file": "074-iframe_api.js",
+  "url": "https://www.youtube.com/iframe_api",
+  "kb": 1
+ },
+ {
+  "file": "075-iframe_api.js",
+  "url": "https://www.youtube.com/iframe_api",
+  "kb": 1
+ },
+ {
+  "file": "076-www-widgetapi.js",
+  "url": "https://www.youtube.com/s/player/4efb8b2c/www-widgetapi.vflset/www-widgetapi.js",
+  "kb": 26
+ },
+ {
+  "file": "077-www-widgetapi.js",
+  "url": "https://www.youtube.com/s/player/4efb8b2c/www-widgetapi.vflset/www-widgetapi.js",
+  "kb": 26
+ },
+ {
+  "file": "078-m_root_base.js",
+  "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.JmpblAJx_rU.2021.O/am=AAAAQA/d=1/excm=base,root/br=1/rs=AGKMywGCZ-aqsvswcccXBlsVNGAZ4ZN66Q/m=root,base",
+  "kb": 450
+ },
+ {
+  "file": "079-base.js",
+  "url": "https://www.youtube.com/s/player/4efb8b2c/player_embed_es6.vflset/fr_FR/base.js",
+  "kb": 1626
+ },
+ {
+  "file": "080-m_root_base.js",
+  "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.JmpblAJx_rU.2021.O/am=AAAAQA/d=1/excm=base,root/br=1/rs=AGKMywGCZ-aqsvswcccXBlsVNGAZ4ZN66Q/m=root,base",
+  "kb": 450
+ },
+ {
+  "file": "081-base.js",
+  "url": "https://www.youtube.com/s/player/4efb8b2c/player_embed_es6.vflset/fr_FR/base.js",
+  "kb": 1626
+ },
+ {
+  "file": "082-m_root_base.js",
+  "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.JmpblAJx_rU.2021.O/am=AAAAQA/d=1/excm=base,root/br=1/rs=AGKMywGCZ-aqsvswcccXBlsVNGAZ4ZN66Q/m=root,base",
+  "kb": 450
+ },
+ {
+  "file": "083-base.js",
+  "url": "https://www.youtube.com/s/player/4efb8b2c/player_embed_es6.vflset/fr_FR/base.js",
+  "kb": 1626
+ },
+ {
+  "file": "084-m_root_base.js",
+  "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.JmpblAJx_rU.2021.O/am=AAAAQA/d=1/excm=base,root/br=1/rs=AGKMywGCZ-aqsvswcccXBlsVNGAZ4ZN66Q/m=root,base",
+  "kb": 450
+ },
+ {
+  "file": "085-base.js",
+  "url": "https://www.youtube.com/s/player/4efb8b2c/player_embed_es6.vflset/fr_FR/base.js",
+  "kb": 1626
+ },
+ {
+  "file": "086-m_root_base.js",
+  "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.JmpblAJx_rU.2021.O/am=AAAAQA/d=1/excm=base,root/br=1/rs=AGKMywGCZ-aqsvswcccXBlsVNGAZ4ZN66Q/m=root,base",
+  "kb": 450
+ },
+ {
+  "file": "087-base.js",
+  "url": "https://www.youtube.com/s/player/4efb8b2c/player_embed_es6.vflset/fr_FR/base.js",
+  "kb": 1626
+ },
+ {
+  "file": "088-m_root_base.js",
+  "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.JmpblAJx_rU.2021.O/am=AAAAQA/d=1/excm=base,root/br=1/rs=AGKMywGCZ-aqsvswcccXBlsVNGAZ4ZN66Q/m=root,base",
+  "kb": 450
+ },
+ {
+  "file": "089-base.js",
+  "url": "https://www.youtube.com/s/player/4efb8b2c/player_embed_es6.vflset/fr_FR/base.js",
+  "kb": 1626
+ },
+ {
+  "file": "090-m_root_base.js",
+  "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.JmpblAJx_rU.2021.O/am=AAAAQA/d=1/excm=base,root/br=1/rs=AGKMywGCZ-aqsvswcccXBlsVNGAZ4ZN66Q/m=root,base",
+  "kb": 450
+ },
+ {
+  "file": "091-base.js",
+  "url": "https://www.youtube.com/s/player/4efb8b2c/player_embed_es6.vflset/fr_FR/base.js",
+  "kb": 1626
+ },
+ {
+  "file": "092-m_root_base.js",
+  "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.JmpblAJx_rU.2021.O/am=AAAAQA/d=1/excm=base,root/br=1/rs=AGKMywGCZ-aqsvswcccXBlsVNGAZ4ZN66Q/m=root,base",
+  "kb": 450
+ },
+ {
+  "file": "093-base.js",
+  "url": "https://www.youtube.com/s/player/4efb8b2c/player_embed_es6.vflset/fr_FR/base.js",
+  "kb": 1626
+ },
+ {
+  "file": "094-m_r78Drb.js",
+  "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.JmpblAJx_rU.2021.O/ck=ytembeds.base.G--eQF_j-zc.L.W.O/am=AAAAQA/d=1/exm=base,root/excm=base,root/ed=1/br=1/rs=AGKMywHxQ3ulJ0arXK40i-yRDvEEhcylGQ/m=r78Drb",
+  "kb": 920
+ },
+ {
+  "file": "095-m_r78Drb.js",
+  "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.JmpblAJx_rU.2021.O/ck=ytembeds.base.G--eQF_j-zc.L.W.O/am=AAAAQA/d=1/exm=base,root/excm=base,root/ed=1/br=1/rs=AGKMywHxQ3ulJ0arXK40i-yRDvEEhcylGQ/m=r78Drb",
+  "kb": 920
+ },
+ {
+  "file": "096-m_r78Drb.js",
+  "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.JmpblAJx_rU.2021.O/ck=ytembeds.base.G--eQF_j-zc.L.W.O/am=AAAAQA/d=1/exm=base,root/excm=base,root/ed=1/br=1/rs=AGKMywHxQ3ulJ0arXK40i-yRDvEEhcylGQ/m=r78Drb",
+  "kb": 920
+ },
+ {
+  "file": "097-m_r78Drb.js",
+  "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.JmpblAJx_rU.2021.O/ck=ytembeds.base.G--eQF_j-zc.L.W.O/am=AAAAQA/d=1/exm=base,root/excm=base,root/ed=1/br=1/rs=AGKMywHxQ3ulJ0arXK40i-yRDvEEhcylGQ/m=r78Drb",
+  "kb": 920
+ },
+ {
+  "file": "098-m_r78Drb.js",
+  "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.JmpblAJx_rU.2021.O/ck=ytembeds.base.G--eQF_j-zc.L.W.O/am=AAAAQA/d=1/exm=base,root/excm=base,root/ed=1/br=1/rs=AGKMywHxQ3ulJ0arXK40i-yRDvEEhcylGQ/m=r78Drb",
+  "kb": 920
+ },
+ {
+  "file": "099-4EvjCv-Ec3CUEfuZ02Sl0XavNabsvZ4oxHb-mEz-ZgU.js",
+  "url": "https://www.google.com/js/th/4EvjCv-Ec3CUEfuZ02Sl0XavNabsvZ4oxHb-mEz-ZgU.js",
+  "kb": 62
+ },
+ {
+  "file": "100-4EvjCv-Ec3CUEfuZ02Sl0XavNabsvZ4oxHb-mEz-ZgU.js",
+  "url": "https://www.google.com/js/th/4EvjCv-Ec3CUEfuZ02Sl0XavNabsvZ4oxHb-mEz-ZgU.js",
+  "kb": 62
+ },
+ {
+  "file": "101-m_r78Drb.js",
+  "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.JmpblAJx_rU.2021.O/ck=ytembeds.base.G--eQF_j-zc.L.W.O/am=AAAAQA/d=1/exm=base,root/excm=base,root/ed=1/br=1/rs=AGKMywHxQ3ulJ0arXK40i-yRDvEEhcylGQ/m=r78Drb",
+  "kb": 920
+ }
+]

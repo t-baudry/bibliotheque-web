@@ -1,0 +1,52 @@
+[
+ {
+  "file": "001-__settings__.js",
+  "url": "https://edolus.com/__settings__.js",
+  "kb": 2
+ },
+ {
+  "file": "002-__start__.js",
+  "url": "https://edolus.com/__start__.js",
+  "kb": 12
+ },
+ {
+  "file": "003-__loading__.js",
+  "url": "https://edolus.com/__loading__.js",
+  "kb": 70
+ },
+ {
+  "file": "004-__modules__.js",
+  "url": "https://edolus.com/__modules__.js",
+  "kb": 2
+ },
+ {
+  "file": "005-playcanvas-stable.min.js",
+  "url": "https://edolus.com/playcanvas-stable.min.js",
+  "kb": 2494
+ },
+ {
+  "file": "006-a1fab3ea-df30-4226-a7cb-b9e783bc7548.js",
+  "url": "blob:https://edolus.com/a1fab3ea-df30-4226-a7cb-b9e783bc7548",
+  "kb": 2
+ },
+ {
+  "file": "007-gsap.min.js",
+  "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js",
+  "kb": 71
+ },
+ {
+  "file": "008-basis.wasm.js",
+  "url": "https://edolus.com/files/assets/298861850/1/basis.wasm.js",
+  "kb": 59
+ },
+ {
+  "file": "009-__game-scripts.js",
+  "url": "https://edolus.com/__game-scripts.js",
+  "kb": 977
+ },
+ {
+  "file": "010-9b6d27d8-3be8-475e-b766-2f16fa07122b.js",
+  "url": "blob:https://edolus.com/9b6d27d8-3be8-475e-b766-2f16fa07122b",
+  "kb": 64
+ }
+]

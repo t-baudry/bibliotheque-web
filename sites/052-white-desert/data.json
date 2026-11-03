@@ -1,0 +1,1041 @@
+{
+ "id": 52,
+ "name": "White Desert",
+ "sourceUrl": "https://white-desert.com/",
+ "capturedAt": "2026-11-03T00:02:29.342Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [
+   "txt:Accept"
+  ],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg",
+   "desktop-13.jpg",
+   "desktop-14.jpg"
+  ],
+  "fullPage": 20782,
+  "subpages": [
+   {
+    "url": "https://white-desert.com/prices",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://white-desert.com/enquire",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://white-desert.com/itineraries/early-emperor-penguins",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://white-desert.com/",
+ "title": "Luxury Adventures in Antarctica | White Desert",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "White Desert is the world’s leading luxury Antarctic expedition company, offering once-in-a-lifetime journeys to the South Pole and Emperor Penguins",
+  "canonical": "https://white-desert.com/",
+  "robots": null,
+  "ogTitle": "Luxury Adventures in Antarctica | White Desert",
+  "ogImage": "https://cdn.sanity.io/images/kq9qn5zn/production/61d6822b0a9de3ba0d497135328c37d64f981c0d-2000x1333.jpg",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "Organization",
+   "WebSite",
+   "WebPage"
+  ],
+  "h1Count": 1,
+  "headings": [
+   "H1 Antarctica",
+   "H3 Vast, majestic and unimaginably beautiful — setting foot in Antarctica’s fabled interior r",
+   "H3 Our Trips",
+   "H3 Baby Penguins & Blue Tunnels",
+   "H3 South Pole & Penguins",
+   "H3 South Pole & Blue Rivers",
+   "H3 The Long Stay",
+   "H3 Antarctica in a Day",
+   "H2 Our Camps",
+   "H3 Whichaway",
+   "H3 Echo",
+   "H3 Explorer",
+   "H2 CPT – WFR",
+   "H2 CPTWFR",
+   "H3 To the End of the Earth",
+   "H3 05:30 hrs",
+   "H3 4,220 km / 2,610 mi",
+   "H3 -5°C / 23° F",
+   "H3 Start planning your adventure",
+   "H3 How it works",
+   "H3 1. Consultation",
+   "H3 2. Confirmation",
+   "H3 3. Planning",
+   "H3 4. On-Boarding",
+   "H3 5. Safety Briefing",
+   "H3 6. Departure"
+  ],
+  "imgs": 29,
+  "imgNoAlt": 4,
+  "favicon": "https://white-desert.com/favicon.ico?favicon.d05ab43b.ico",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#ffffff",
+    "w": 7687416
+   },
+   {
+    "v": "#090b10",
+    "w": 6366240
+   },
+   {
+    "v": "#000000",
+    "w": 5554082
+   },
+   {
+    "v": "#e9e7e1",
+    "w": 1469625
+   },
+   {
+    "v": "#1f2a44",
+    "w": 1446247
+   },
+   {
+    "v": "#f5f5f5",
+    "w": 665667
+   },
+   {
+    "v": "#f0f0f0",
+    "w": 104352
+   },
+   {
+    "v": "#f3f1ec",
+    "w": 98768
+   },
+   {
+    "v": "#ff7e15",
+    "w": 12026
+   },
+   {
+    "v": "#6af0ff",
+    "w": 220
+   }
+  ],
+  "text": [
+   {
+    "v": "#1f2a44",
+    "w": 3230
+   },
+   {
+    "v": "#ffffff",
+    "w": 2258
+   },
+   {
+    "v": "#535353",
+    "w": 610
+   },
+   {
+    "v": "#ff7e15",
+    "w": 20
+   }
+  ],
+  "border": [
+   {
+    "v": "#ffffff",
+    "w": 5
+   },
+   {
+    "v": "#6af0ff",
+    "w": 2
+   },
+   {
+    "v": "#1f2a44",
+    "w": 1
+   }
+  ],
+  "fonts": [
+   {
+    "v": "Inter Tight",
+    "w": 4749
+   },
+   {
+    "v": "Cardinal Classic Long",
+    "w": 1096
+   },
+   {
+    "v": "Oswald",
+    "w": 273
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "14px",
+    "w": 86
+   },
+   {
+    "v": "16px",
+    "w": 48
+   },
+   {
+    "v": "18px",
+    "w": 23
+   },
+   {
+    "v": "42px",
+    "w": 14
+   },
+   {
+    "v": "12px",
+    "w": 8
+   },
+   {
+    "v": "32px",
+    "w": 2
+   },
+   {
+    "v": "320px",
+    "w": 2
+   },
+   {
+    "v": "256px",
+    "w": 1
+   },
+   {
+    "v": "59.9999px",
+    "w": 1
+   },
+   {
+    "v": "36px",
+    "w": 1
+   },
+   {
+    "v": "22px",
+    "w": 1
+   },
+   {
+    "v": "90px",
+    "w": 1
+   },
+   {
+    "v": "51.9999px",
+    "w": 1
+   },
+   {
+    "v": "20px",
+    "w": 1
+   },
+   {
+    "v": "9.99999px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "2px",
+    "w": 38
+   },
+   {
+    "v": "5.99999px",
+    "w": 20
+   },
+   {
+    "v": "4.99999px",
+    "w": 6
+   },
+   {
+    "v": "4px",
+    "w": 3
+   },
+   {
+    "v": "100%",
+    "w": 3
+   },
+   {
+    "v": "50%",
+    "w": 2
+   }
+  ],
+  "shadows": [
+   {
+    "v": "rgba(255, 255, 255, 0.2) 0.35px 0.35px 0px 0px inset, rgba(255, 255, 255, 0.2) 0px 0px 1.75px 0px inset",
+    "w": 11
+   }
+  ],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.5 0.3s",
+    "w": 78
+   },
+   {
+    "v": "cubic-bezier(0.4 0.6s",
+    "w": 5
+   },
+   {
+    "v": "cubic-bezier(0.76 0.45s",
+    "w": 3
+   },
+   {
+    "v": "ease 0.3s",
+    "w": 1
+   },
+   {
+    "v": "ease-in-out 0.3s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "Oswald, \"Arial Narrow\", Arial, sans-serif",
+    "size": "256px",
+    "weight": "400",
+    "lineHeight": "256px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "Antarctica"
+   },
+   "h2": {
+    "family": "\"Cardinal Classic Long\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+    "size": "90px",
+    "weight": "500",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "Our Camps"
+   },
+   "h3": {
+    "family": "\"Cardinal Classic Long\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+    "size": "42px",
+    "weight": "400",
+    "lineHeight": "42px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#1f2a44",
+    "sample": "Vast, majestic and unimaginably beautiful — setting foot in Antarctica’s fabled "
+   },
+   "p": {
+    "family": "\"Cardinal Classic Long\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+    "size": "18px",
+    "weight": "500",
+    "lineHeight": "21.6px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Luxury and adventure in the most remote place on Earth"
+   },
+   "a": {
+    "family": "\"Inter Tight\", ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", \"Apple",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Rates"
+   },
+   "button": {
+    "family": "Arial",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Experience"
+   },
+   "li": {
+    "family": "\"Inter Tight\", ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", \"Apple",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Experience"
+   },
+   "body": {
+    "family": "\"Inter Tight\", ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", \"Apple",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#1f2a44",
+    "sample": "ExperienceOperationAboutRatesEnquireMenuEnquireHomeEnquire nowCloseHomeExperienc"
+   }
+  },
+  "cssVars": {
+   "--bg": "#fff",
+   "--surface": "#12141a",
+   "--text": "var(--wd_dark-blue)",
+   "--quote-accent": "var(--WD_Dark-Blue,#1f2a44)",
+   "--muted": "#a8acb3",
+   "--primary": "#6aa5ff",
+   "--primary-contrast": "#0b0c0f",
+   "--border": "#1f2330",
+   "--white": "#fff",
+   "--black": "#000",
+   "--black-faded": "rgba(0,0,0,.5)",
+   "--dark-bg": "#090b10",
+   "--background": "#0a0a0a",
+   "--foreground": "#ededed",
+   "--wd_dark-blue": "#1f2a44",
+   "--wd_deep-blue": "#0e1118",
+   "--wd-grey": "#323640",
+   "--wd_dark-blue-faded": "rgba(31,42,68,.2)",
+   "--wd_blue-faded": "rgba(31,42,68,.5)",
+   "--wd_ash-blue": "#2c374b",
+   "--wd_orange": "#ff7e15",
+   "--wd_red": "#ff1515",
+   "--wd_white": "#fff",
+   "--wd_black": "#000",
+   "--wd_light-charcoal": "#535353",
+   "--wd_light-charcoal-faded": "#a4a29c",
+   "--wd_mushroom": "#e9e7e1",
+   "--wd_light-grey": "#f3f1ec",
+   "--wd_beige": "#dcd8cc",
+   "--wd_turqoise": "#6af0ff",
+   "--space-1": ".35em",
+   "--space-2": ".75em",
+   "--space-3": "1.1em",
+   "--space-4": "1.5em",
+   "--space-5": "2em",
+   "--space-6": "2.75em",
+   "--space-8": "4em",
+   "--space-10": "5.5em",
+   "--space-12": "7em",
+   "--size-03125": ".3125rem",
+   "--size-0375": ".375rem",
+   "--size-05": ".5rem",
+   "--size-0625": ".625rem",
+   "--size-075": ".75rem",
+   "--size-0875": ".875rem",
+   "--size-1": "1rem",
+   "--size-1125": "1.125rem",
+   "--size-125": "1.25rem",
+   "--size-1375": "1.375rem",
+   "--size-15": "1.5rem",
+   "--size-1625": "1.625rem",
+   "--size-175": "1.75rem",
+   "--size-1875": "1.875rem",
+   "--size-2": "2rem",
+   "--size-225": "2.25rem",
+   "--size-25": "2.5rem",
+   "--size-2625": "2.625rem",
+   "--size-3": "3rem",
+   "--size-3125": "3.125rem",
+   "--size-325": "3.25rem",
+   "--size-375": "3.75rem",
+   "--size-425": "4.25rem",
+   "--size-475": "4.75rem",
+   "--size-5": "5rem",
+   "--size-5625": "5.625rem",
+   "--size-6": "6rem",
+   "--size-625": "6.25rem",
+   "--size-6875": "6.875rem",
+   "--size-7375": "7.375rem",
+   "--size-75": "7.5rem",
+   "--size-78125": "7.8125rem",
+   "--size-875": "8.75rem",
+   "--size-12-5": "12.5rem",
+   "--size-10": "10rem",
+   "--size-15-5": "15.5rem",
+   "--size-16": "16rem",
+   "--size-20": "20rem",
+   "--size-24": "24rem",
+   "--section-padding-lg": "20em",
+   "--container-max": "100%",
+   "--container-pad": "var(--size-125)",
+   "--grid-columns": "8",
+   "--gutter-x": "var(--space-2)",
+   "--gutter-y": "var(--space-4)",
+   "--radius-0125": ".125rem",
+   "--radius-sm": ".25rem",
+   "--radius-hover": ".275em",
+   "--radius-0375": ".375rem",
+   "--radius-0625": ".625rem",
+   "--radius-md": ".5rem",
+   "--radius-lg": "2.5rem",
+   "--shadow-1": "0 1px 2px rgba(0,0,0,.06),0 1px 1px rgba(0,0,0,.04)",
+   "--shadow-2": "0 4px 10px rgba(0,0,0,.08),0 2px 4px rgba(0,0,0,.06)",
+   "--font-sans": "\"Inter Tight\",ui-sans-serif,system-ui,-apple-system,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",\"Apple Color Emoji\",\"Segoe UI Emoji",
+   "--font-display": "\"Cardinal Classic Long\",ui-serif,Georgia,Cambria,\"Times New Roman\",Times,serif",
+   "--font-condensed": "\"Oswald\",\"Arial Narrow\",Arial,sans-serif",
+   "--lh-90": ".9",
+   "--lh-100": "1",
+   "--lh-110": "1.1",
+   "--lh-120": "1.2",
+   "--lh-130": "1.3",
+   "--lh-140": "1.4",
+   "--lh-150": "1.5",
+   "--transition-ease-in-out": "all .3s ease-in-out",
+   "--transition-ease-in": "all .3s ease-in",
+   "--transition-ease-out": "all .3s cubic-bezier(.5,1,.89,1)",
+   "--transform-ease-out": "transform .3s cubic-bezier(.5,1,.89,1)",
+   "--transition-wd": "all .45s cubic-bezier(.76,0,.24,1)"
+  },
+  "fontFaces": [
+   {
+    "family": "Inter Tight",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"/fonts/InterTight-VariableFont_wght.woff2\") format(\"woff2\"), url(\"/fonts/InterTight-VariableFont_wght.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Inter Tight",
+    "weight": "500",
+    "style": "italic",
+    "src": "url(\"/fonts/InterTight-Italic-VariableFont_wght.woff2\") format(\"woff2\"), url(\"/fonts/InterTight-Italic-VariableFont_wght.woff\") format(\"woff\")"
+   },
+   {
+    "family": "Cardinal Classic Long",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/fonts/CardinalClassicMidWeb-Regular.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Cardinal Classic Long",
+    "weight": "500",
+    "style": "italic",
+    "src": "url(\"/fonts/CardinalClassicMidWeb-Italic.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Cardinal Classic Long",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"/fonts/CardinalClassicMidWeb-Medium.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Cardinal Classic Long",
+    "weight": "500",
+    "style": "italic",
+    "src": "url(\"/fonts/CardinalClassicMidWeb-MediumItalic.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Cardinal Classic Long",
+    "weight": "600",
+    "style": "normal",
+    "src": "url(\"/fonts/CardinalClassicLongWeb-SemiBold-Trial.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Cardinal Classic Long",
+    "weight": "600",
+    "style": "italic",
+    "src": "url(\"/fonts/CardinalClassicLongWeb-SemiBoldItalic-Trial.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Cardinal Classic Long",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"/fonts/CardinalClassicLongWeb-Bold-Trial.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Cardinal Classic Long",
+    "weight": "700",
+    "style": "italic",
+    "src": "url(\"/fonts/CardinalClassicLongWeb-BoldItalic-Trial.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Oswald",
+    "weight": "",
+    "style": "normal",
+    "src": "url(\"/fonts/Oswald-VariableFont_wght.woff2\") format(\"woff2\"), url(\"/fonts/Oswald-VariableFont_wght.woff\") format(\"woff\")"
+   }
+  ],
+  "keyframes": [
+   "page-exit",
+   "page-enter",
+   "reveal-opacity",
+   "reveal-transform",
+   "fadeIn",
+   "pulsed"
+  ],
+  "breakpoints": [
+   {
+    "v": "767px",
+    "w": 11
+   },
+   {
+    "v": "768px",
+    "w": 10
+   },
+   {
+    "v": "1560px",
+    "w": 1
+   },
+   {
+    "v": "540px",
+    "w": 1
+   },
+   {
+    "v": "769px",
+    "w": 1
+   },
+   {
+    "v": "1279px",
+    "w": 1
+   },
+   {
+    "v": "1023px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 1069,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "page-content",
+    "h": 19841,
+    "title": "Antarctica",
+    "media": 22
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "flyout_container is-ready  is-sticky",
+    "h": 900,
+    "title": "How it works",
+    "media": 0
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "",
+    "href": "https://white-desert.com/"
+   },
+   {
+    "t": "Rates",
+    "href": "https://white-desert.com/prices"
+   },
+   {
+    "t": "Enquire",
+    "href": "https://white-desert.com/enquire"
+   },
+   {
+    "t": "",
+    "href": "https://white-desert.com/"
+   },
+   {
+    "t": "Enquire",
+    "href": "https://white-desert.com/enquire"
+   },
+   {
+    "t": "Home",
+    "href": "https://white-desert.com/"
+   },
+   {
+    "t": "Enquire now",
+    "href": "https://white-desert.com/enquire"
+   },
+   {
+    "t": "Home",
+    "href": "https://white-desert.com/"
+   },
+   {
+    "t": "Dates & Prices",
+    "href": "https://white-desert.com/prices"
+   },
+   {
+    "t": "Enquire now",
+    "href": "https://white-desert.com/enquire"
+   }
+  ],
+  "ctas": [
+   "Experience",
+   "Operation",
+   "About",
+   "Rates",
+   "Enquire",
+   "Enquire now",
+   "Watch Film",
+   "Watch Film",
+   "Dates & Rates",
+   "Enquire now",
+   "Newsletter Signup"
+  ],
+  "pageHeight": 20782,
+  "counts": {
+   "canvas": 0,
+   "videos": 1,
+   "imgs": 29,
+   "svgs": 53,
+   "iframes": 1,
+   "domNodes": 1061
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": false,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": true,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [
+   "sanity"
+  ],
+  "analytics": [
+   "googletagmanager",
+   "gtag",
+   "clarity.ms",
+   "fbevents",
+   "hubspot"
+  ],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": false
+ },
+ "scripts": [
+  "https://www.clarity.ms/tag/uet/97244427?conversions=1",
+  "https://scripts.clarity.ms/0.8.77-beta/clarity.js",
+  "https://connect.facebook.net/signals/config/878941760836673?v=2.9.433&r=stable&domain=white-desert.com&hme=4453c87d489b6902031c012cadd2731893cd69feb64fe8a61b339727247a7703&ex_m=118%2C242%2C171%2C27%2C82%2C83%2C162%2C78%2C77%2C11%2C181%2C102%2C20%2C153%2C141%2C46%2C85%2C90%2C149%2C176%2C183%2C8%2C4%2C5%2C7%2C6%2C3%2C103%2C115%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C37%2C55%2C163%2C87%2C126%2C22%2C24%2C51%2C47%2C49%2C48%2C95%2C104%2C108%2C124%2C160%2C164%2C53%2C125%2C29%2C26%2C133%2C79%2C43%2C166%2C165%2C167%2C157%2C155%2C30%2C42%2C66%2C123%2C178%2C80%2C21%2C128%2C93%2C76%2C23%2C97%2C98%2C130%2C96%2C151%2C150%2C154%2C109%2C177%2C180%2C41%2C56%2C127%2C54%2C161%2C72%2C185%2C110%2C184%2C211%2C263%2C84%2C283%2C282%2C281%2C14%2C25%2C28%2C40%2C62%2C117%2C68%2C10%2C73%2C111%2C112%2C113%2C119%2C144%2C38%2C36%2C146%2C147%2C148%2C143%2C142%2C172%2C86%2C175%2C173%2C174%2C57%2C69%2C67%2C137%2C19%2C179%2C52%2C333%2C334%2C335%2C332%2C349%2C371%2C256%2C238%2C70%2C239%2C237%2C374%2C365%2C59%2C257%2C121%2C145%2C92%2C135%2C61%2C134%2C140%2C139%2C65%2C74%2C168%2C88%2C89%2C129%2C44%2C39%2C60%2C63%2C114%2C182%2C1%2C138%2C16%2C136%2C12%2C2%2C64%2C105%2C15%2C75%2C71%2C132%2C101%2C100%2C187%2C188%2C106%2C107%2C9%2C116%2C186%2C58%2C158%2C99%2C91%2C81%2C131%2C120%2C169%2C50%2C159%2C0%2C94%2C152%2C156%2C170%2C45%2C122%2C13%2C189",
+  "https://connect.facebook.net/en_US/fbevents.js",
+  "https://www.clarity.ms/tag/umgd0iuvfb",
+  "https://bat.bing.com/bat.js",
+  "https://www.googletagmanager.com/gtag/js?id=G-S90YQ7PDN8&cx=c&gtm=4e6au1",
+  "https://www.googletagmanager.com/gtag/js?id=DC-16612707&cx=c&gtm=4e6au1",
+  "https://www.googletagmanager.com/gtag/js?id=AW-17269461649&cx=c&gtm=4e6au1",
+  "https://js-eu1.usemessages.com/conversations-embed.js",
+  "https://js-eu1.hs-banner.com/v2/27087760/banner.js",
+  "https://js-eu1.hs-analytics.net/analytics/1793664000000/27087760.js",
+  "https://js-eu1.hscollectedforms.net/collectedforms.js",
+  "https://white-desert.com/_next/static/chunks/613eff4f63f3cbd0.js?dpl=dpl_95Z7ryCnE3uLicYnPCq8zEtbHAYS",
+  "https://white-desert.com/_next/static/chunks/06687ac130c66111.js?dpl=dpl_95Z7ryCnE3uLicYnPCq8zEtbHAYS",
+  "https://white-desert.com/_next/static/chunks/a38b13957ccda190.js?dpl=dpl_95Z7ryCnE3uLicYnPCq8zEtbHAYS",
+  "https://white-desert.com/_next/static/chunks/turbopack-7249dcdd8e7cb093.js?dpl=dpl_95Z7ryCnE3uLicYnPCq8zEtbHAYS",
+  "https://white-desert.com/_next/static/chunks/ff1a16fafef87110.js?dpl=dpl_95Z7ryCnE3uLicYnPCq8zEtbHAYS",
+  "https://white-desert.com/_next/static/chunks/7dd66bdf8a7e5707.js?dpl=dpl_95Z7ryCnE3uLicYnPCq8zEtbHAYS",
+  "https://white-desert.com/_next/static/chunks/36269ef0e4c9af0e.js?dpl=dpl_95Z7ryCnE3uLicYnPCq8zEtbHAYS",
+  "https://white-desert.com/_next/static/chunks/b67b107e891260db.js?dpl=dpl_95Z7ryCnE3uLicYnPCq8zEtbHAYS",
+  "https://white-desert.com/_next/static/chunks/3fc23f0de7d23d6d.js?dpl=dpl_95Z7ryCnE3uLicYnPCq8zEtbHAYS",
+  "https://white-desert.com/_next/static/chunks/d2e25e0992870da6.js?dpl=dpl_95Z7ryCnE3uLicYnPCq8zEtbHAYS",
+  "https://white-desert.com/_next/static/chunks/b62d095e5c483d7e.js?dpl=dpl_95Z7ryCnE3uLicYnPCq8zEtbHAYS",
+  "https://white-desert.com/_next/static/chunks/3740e28aac5f04a8.js?dpl=dpl_95Z7ryCnE3uLicYnPCq8zEtbHAYS",
+  "https://white-desert.com/_next/static/chunks/d80e3f399c77bf13.js?dpl=dpl_95Z7ryCnE3uLicYnPCq8zEtbHAYS",
+  "https://white-desert.com/_next/static/chunks/a6dad97d9634a72d.js?dpl=dpl_95Z7ryCnE3uLicYnPCq8zEtbHAYS",
+  "https://white-desert.com/consent-init.js",
+  "https://white-desert.com/_vercel/insights/script.js",
+  "https://white-desert.com/_next/static/chunks/cfce93c6cd2e504b.js?dpl=dpl_95Z7ryCnE3uLicYnPCq8zEtbHAYS",
+  "https://white-desert.com/_next/static/chunks/d482d747da6c5eef.js?dpl=dpl_95Z7ryCnE3uLicYnPCq8zEtbHAYS",
+  "https://tracker.metricool.com/resources/be.js",
+  "https://bat.bing.com/p/action/97244427.js",
+  "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/17269461649/?random=1793664178810&cv=11&fst=1793664178810&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6au1v9223546708za20ozb9237221384zd9237221384xecxf1&gcd=13r3v3X2r5l1&dma_cps=a&dma=1&tag_exp=115616986~115938466~115938468~118897920~118897930~119863601~120213116~120385422~120469145~120469153~121246026~121246034~123691370~123692835~123814185~123814946&rcb=17&frm=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1811770420.1793664179&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.74%7CGoogle%2520Chrome%3B156.0.8078.74&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+  "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/17269461649/?random=1793664178833&cv=11&fst=1793664178833&bg=ffffff&guid=ON&async=1&gtm=45be6au1v9223546708z89237221384za20gzb9237221384zd9237221384xeaxf1&gcd=13r3v3X2r5l1&dma_cps=a&dma=1&tag_exp=115616986~115938466~115938468~118897920~118897930~119863601~120213116~120385422~120469145~120469153~121246026~121246034~123691370~123692835~123814185~123814946&rcb=17&label=H7duCPOb_NMbEJGl3KpA&frm=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1811770420.1793664179&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.74%7CGoogle%2520Chrome%3B156.0.8078.74&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&ept=9&rfmt=3&fmt=4",
+  "https://white-desert.com/_next/static/chunks/5c2203363474d50c.js?dpl=dpl_95Z7ryCnE3uLicYnPCq8zEtbHAYS",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-NS26H2GZ",
+  "https://js-eu1.hs-scripts.com/27087760.js"
+ ],
+ "internal": [
+  "https://white-desert.com/prices",
+  "https://white-desert.com/enquire",
+  "https://white-desert.com/itineraries/early-emperor-penguins",
+  "https://white-desert.com/itineraries/south-pole-emperor-penguins",
+  "https://white-desert.com/itineraries/south-pole-blue-rivers",
+  "https://white-desert.com/itineraries/the-long-stay",
+  "https://white-desert.com/itineraries/antarctica-in-a-day",
+  "https://white-desert.com/camps/whichaway-camp",
+  "https://white-desert.com/camps/echo-base",
+  "https://white-desert.com/camps/explorer-camp",
+  "https://white-desert.com/itineraries/discovery-week",
+  "https://white-desert.com/itineraries",
+  "https://white-desert.com/camps",
+  "https://white-desert.com/antarctica/polar-plateau",
+  "https://white-desert.com/antarctica/fuel-depot",
+  "https://white-desert.com/antarctica/atka-penguin-colony",
+  "https://white-desert.com/antarctica/wolfs-fang-runway-mountains",
+  "https://white-desert.com/antarctica/schirmacher-oasis",
+  "https://white-desert.com/antarctica/direct-flights-to-antarctica",
+  "https://white-desert.com/antarctica",
+  "https://white-desert.com/about/founders",
+  "https://white-desert.com/legal/website-terms",
+  "https://white-desert.com/legal/booking-terms",
+  "https://white-desert.com/legal/privacy-policy",
+  "https://white-desert.com/legal/cookies"
+ ],
+ "perf": {
+  "ttfb": 106,
+  "dcl": 713,
+  "load": 15286,
+  "lcp": 2220,
+  "lcpEl": "H1.hero-banner_title",
+  "cls": 0
+ },
+ "libs": {
+  "detected": [
+   "Next.js",
+   "GSAP",
+   "ScrollTrigger",
+   "DrawSVG/MorphSVG",
+   "Lenis",
+   "Sanity",
+   "Virtual scroll",
+   "React",
+   "Framer Motion"
+  ],
+  "where": {
+   "Next.js": [
+    "002-5c2203363474d50c.js",
+    "015-3fc23f0de7d23d6d.js"
+   ],
+   "GSAP": [
+    "007-b67b107e891260db.js",
+    "008-d80e3f399c77bf13.js",
+    "011-3740e28aac5f04a8.js",
+    "012-d2e25e0992870da6.js",
+    "015-3fc23f0de7d23d6d.js",
+    "022-d482d747da6c5eef.js",
+    "023-cfce93c6cd2e504b.js"
+   ],
+   "ScrollTrigger": [
+    "007-b67b107e891260db.js",
+    "011-3740e28aac5f04a8.js",
+    "012-d2e25e0992870da6.js",
+    "015-3fc23f0de7d23d6d.js",
+    "022-d482d747da6c5eef.js"
+   ],
+   "DrawSVG/MorphSVG": [
+    "011-3740e28aac5f04a8.js",
+    "022-d482d747da6c5eef.js"
+   ],
+   "Lenis": [
+    "011-3740e28aac5f04a8.js",
+    "012-d2e25e0992870da6.js",
+    "015-3fc23f0de7d23d6d.js",
+    "022-d482d747da6c5eef.js",
+    "023-cfce93c6cd2e504b.js",
+    "styles.css"
+   ],
+   "Sanity": [
+    "011-3740e28aac5f04a8.js",
+    "012-d2e25e0992870da6.js",
+    "022-d482d747da6c5eef.js",
+    "023-cfce93c6cd2e504b.js"
+   ],
+   "Virtual scroll": [
+    "015-3fc23f0de7d23d6d.js"
+   ],
+   "React": [
+    "016-06687ac130c66111.js",
+    "018-collectedforms.js",
+    "019-conversations-embed.js"
+   ],
+   "Framer Motion": [
+    "018-collectedforms.js",
+    "019-conversations-embed.js"
+   ]
+  },
+  "gsapVersion": "3.11.0",
+  "threeRevision": null,
+  "shaders": 0,
+  "scripts": 26
+ },
+ "network": {
+  "requests": 128,
+  "totalKb": 8473,
+  "byType": {
+   "Document": {
+    "n": 3,
+    "kb": 27
+   },
+   "Stylesheet": {
+    "n": 19,
+    "kb": 35
+   },
+   "Image": {
+    "n": 29,
+    "kb": 2153
+   },
+   "Script": {
+    "n": 37,
+    "kb": 1358
+   },
+   "Fetch": {
+    "n": 16,
+    "kb": 23
+   },
+   "XHR": {
+    "n": 13,
+    "kb": 5
+   },
+   "Media": {
+    "n": 1,
+    "kb": 4324
+   },
+   "Font": {
+    "n": 5,
+    "kb": 545
+   },
+   "Preflight": {
+    "n": 1,
+    "kb": 0
+   },
+   "Ping": {
+    "n": 3,
+    "kb": 1
+   },
+   "Other": {
+    "n": 1,
+    "kb": 2
+   }
+  },
+  "thirdPartyHosts": [
+   "js-eu1.hs-scripts.com",
+   "js-eu1.hs-banner.com",
+   "js-eu1.hscollectedforms.net",
+   "js-eu1.usemessages.com",
+   "js-eu1.hs-analytics.net",
+   "www.googletagmanager.com",
+   "forms-eu1.hscollectedforms.net",
+   "customer-0f1muz5hahtwutl3.cloudflarestream.com",
+   "pagead2.googlesyndication.com",
+   "forms-eu1.hsforms.com",
+   "www.clarity.ms",
+   "tracker.metricool.com",
+   "bat.bing.com",
+   "api-eu1.hubspot.com",
+   "connect.facebook.net",
+   "region1.google-analytics.com",
+   "scripts.clarity.ms",
+   "bat.bing.net",
+   "www.facebook.com",
+   "j.clarity.ms",
+   "track-eu1.hubspot.com",
+   "region1.analytics.google.com",
+   "www.google.com",
+   "ad.doubleclick.net",
+   "www.google.fr",
+   "googleads.g.doubleclick.net",
+   "c.clarity.ms"
+  ],
+  "fontFiles": [
+   "https://white-desert.com/fonts/InterTight-VariableFont_wght.woff2",
+   "https://white-desert.com/fonts/Oswald-VariableFont_wght.woff2",
+   "https://white-desert.com/fonts/CardinalClassicMidWeb-MediumItalic.woff2",
+   "https://white-desert.com/fonts/CardinalClassicMidWeb-Medium.woff2",
+   "https://white-desert.com/fonts/CardinalClassicMidWeb-Regular.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://customer-0f1muz5hahtwutl3.cloudflarestream.com/6cbe45de8a02fd4b5b862fdec4a2b1ad/dl/default.mp4?p=eyJ0eXBlIjoiZG93bmxvYWRzIiwidmlkZW9JRCI6IjZjYmU0NWRlOGE",
+    "kb": 4324,
+    "type": "Media"
+   },
+   {
+    "url": "https://white-desert.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkq9qn5zn%2Fproduction%2F7f7efa50400ce9b425d21711fe3dbc6f34da5056-2000x1333.jpg&w",
+    "kb": 484,
+    "type": "Image"
+   },
+   {
+    "url": "https://white-desert.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkq9qn5zn%2Fproduction%2F545ecd31bdf0cdd5605316894111fb0f197e0129-2668x2000.jpg&w",
+    "kb": 358,
+    "type": "Image"
+   },
+   {
+    "url": "https://white-desert.com/fonts/InterTight-VariableFont_wght.woff2",
+    "kb": 234,
+    "type": "Font"
+   },
+   {
+    "url": "https://www.googletagmanager.com/gtag/js?id=G-S90YQ7PDN8&cx=c&gtm=4e6au1",
+    "kb": 196,
+    "type": "Script"
+   },
+   {
+    "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NS26H2GZ",
+    "kb": 169,
+    "type": "Script"
+   },
+   {
+    "url": "https://www.googletagmanager.com/gtag/js?id=AW-17269461649&cx=c&gtm=4e6au1",
+    "kb": 167,
+    "type": "Script"
+   },
+   {
+    "url": "https://white-desert.com/_next/image?url=%2Fimages%2Fcloud-2-full.png&w=1920&q=75",
+    "kb": 162,
+    "type": "Image"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "80px",
+   "lineHeight": "80px"
+  },
+  "body": "16px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 183
+}

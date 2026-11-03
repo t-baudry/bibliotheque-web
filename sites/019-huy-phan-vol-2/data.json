@@ -1,0 +1,121 @@
+{
+ "id": 19,
+ "name": "Huy Phan Vol.2",
+ "sourceUrl": "https://huyml.co/",
+ "capturedAt": "2026-11-02T23:35:16.437Z",
+ "status": "inaccessible",
+ "errors": [
+  "shot0 browserContext.newCDPSession: Target page, context or browser has been closed",
+  "extract: page.evaluate: Target page, context or browser has been closed",
+  "fullpage: page.evaluate: Target page, context or browser has been closed",
+  "browser.newContext: Target page, context or browser has been closed"
+ ],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [],
+  "subpages": []
+ },
+ "httpStatus": 200,
+ "libs": {
+  "detected": [],
+  "where": {},
+  "gsapVersion": null,
+  "threeRevision": null,
+  "shaders": 0,
+  "scripts": 0
+ },
+ "network": {
+  "requests": 59,
+  "totalKb": 3546,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 35
+   },
+   "Image": {
+    "n": 25,
+    "kb": 1886
+   },
+   "Script": {
+    "n": 18,
+    "kb": 806
+   },
+   "Font": {
+    "n": 4,
+    "kb": 74
+   },
+   "Fetch": {
+    "n": 3,
+    "kb": 700
+   },
+   "Other": {
+    "n": 1,
+    "kb": 18
+   },
+   "Media": {
+    "n": 7,
+    "kb": 27
+   }
+  },
+  "thirdPartyHosts": [
+   "framerusercontent.com",
+   "www.googletagmanager.com",
+   "events.framer.com",
+   "region1.google-analytics.com",
+   "framer.com",
+   "app.framerstatic.com",
+   "unpkg.com"
+  ],
+  "fontFiles": [
+   "https://framerusercontent.com/assets/pczyWZYmicHp9LhGgMJo7tnDcHo.woff2",
+   "https://framerusercontent.com/assets/NjDO01jId5REkpwNN1pD7i8fBLY.woff2",
+   "https://framerusercontent.com/assets/xirQ3g4Sv5q7MG0KvL1PiOOLLBA.woff2",
+   "https://framerusercontent.com/assets/oDqinH2S9k4fMbGueYwREUmNFM.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://unpkg.com/@rive-app/canvas@2.38.5/rive.wasm",
+    "kb": 700,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://framerusercontent.com/images/bovi8JsQWnROEtE0WYyYwqPkiE.jpg?scale-down-to=512&lossless=1&width=1138&height=915",
+    "kb": 308,
+    "type": "Image"
+   },
+   {
+    "url": "https://framerusercontent.com/images/PbGu32LciyVQZHUuKJCNLLV2qZc.jpg?width=910&height=732",
+    "kb": 279,
+    "type": "Image"
+   },
+   {
+    "url": "https://framerusercontent.com/sites/4CUEbC1Vb07LtNCTtfjk6i/e8XHUPKsgUbD_j36i5m_YIM8UIU28O8o8aXrZlbi1A8.tux3-Cyy.mjs",
+    "kb": 233,
+    "type": "Script"
+   },
+   {
+    "url": "https://framerusercontent.com/images/75mCZ5SdSy2FaX0ameAhFh9ynE.jpg?width=1138&height=915",
+    "kb": 176,
+    "type": "Image"
+   },
+   {
+    "url": "https://www.googletagmanager.com/gtag/js?id=G-EM3JMY7NKM",
+    "kb": 168,
+    "type": "Script"
+   },
+   {
+    "url": "https://framerusercontent.com/images/ZMZlhfAKVDPaWVzDIpnuU6HVRO4.jpg?width=1138&height=915",
+    "kb": 157,
+    "type": "Image"
+   },
+   {
+    "url": "https://framerusercontent.com/images/FP8bs8WqEOFTFST8L2YGqot9idA.jpg?width=910&height=732",
+    "kb": 146,
+    "type": "Image"
+   }
+  ]
+ },
+ "durationS": 18
+}

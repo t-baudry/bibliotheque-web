@@ -1,0 +1,539 @@
+{
+ "id": 34,
+ "name": "Jesper Landberg",
+ "sourceUrl": "http://jesperlandberg.com/",
+ "capturedAt": "2026-11-02T23:42:57.057Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg"
+  ],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [
+   {
+    "url": "https://jesperlandberg.com/projects/nathan-riley",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://jesperlandberg.com/full",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://jesperlandberg.com/newsletter",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://jesperlandberg.com/",
+ "title": "Jesper Landberg",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Swedish design engineer building visually rich, motion-driven websites. Two-time Awwwards Independent of the Year (2022 & 2024).",
+  "canonical": "https://jesperlandberg.com/",
+  "robots": null,
+  "ogTitle": "Jesper Landberg",
+  "ogImage": "https://www.datocms-assets.com/223669/1786435410-share.webp?auto=format&fit=crop&h=630&w=1200",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "Person",
+   "WebSite",
+   "ProfilePage"
+  ],
+  "h1Count": 1,
+  "headings": [
+   "H1 Jesper Landberg — design engineer",
+   "H2 Featured work",
+   "H2 Elsewhere"
+  ],
+  "imgs": 0,
+  "imgNoAlt": 0,
+  "favicon": "https://www.datocms-assets.com/223669/1786371616-face.png?auto=format&h=16&w=16",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [],
+  "text": [
+   {
+    "v": "#ffffff",
+    "w": 2019
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "sans",
+    "w": 2019
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "13.44px",
+    "w": 32
+   },
+   {
+    "v": "9.6px",
+    "w": 11
+   },
+   {
+    "v": "17.28px",
+    "w": 8
+   },
+   {
+    "v": "20.16px",
+    "w": 2
+   },
+   {
+    "v": "26.88px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "19.2px",
+    "w": 8
+   },
+   {
+    "v": "999px",
+    "w": 2
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0 0.3s",
+    "w": 2
+   },
+   {
+    "v": "cubic-bezier(0 0.5s",
+    "w": 2
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "sans, sans-serif",
+    "size": "26.88px",
+    "weight": "700",
+    "lineHeight": "37.632px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Jesper Landberg — design engineer"
+   },
+   "h2": {
+    "family": "sans, sans-serif",
+    "size": "20.16px",
+    "weight": "700",
+    "lineHeight": "28.224px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Featured work"
+   },
+   "p": {
+    "family": "sans, sans-serif",
+    "size": "13.44px",
+    "weight": "400",
+    "lineHeight": "18.816px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Jesper Landberg, Swedish design engineer, named Awwwards Independent of the Year"
+   },
+   "a": {
+    "family": "sans, sans-serif",
+    "size": "13.44px",
+    "weight": "400",
+    "lineHeight": "18.816px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Nathan Riley"
+   },
+   "button": {
+    "family": "sans, sans-serif",
+    "size": "9.6px",
+    "weight": "500",
+    "lineHeight": "13.44px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "Profile"
+   },
+   "li": {
+    "family": "sans, sans-serif",
+    "size": "13.44px",
+    "weight": "400",
+    "lineHeight": "18.816px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Nathan Riley — Nathan is a UK-based digital creative specializing in art directi"
+   },
+   "body": {
+    "family": "sans, sans-serif",
+    "size": "13.44px",
+    "weight": "400",
+    "lineHeight": "18.816px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Jesper Landberg — design engineerJesper Landberg, Swedish design engineer, named"
+   }
+  },
+  "cssVars": {
+   "--size": "1500"
+  },
+  "fontFaces": [
+   {
+    "family": "sans",
+    "weight": "200 1000",
+    "style": "normal",
+    "src": "url(\"/_nuxt/ABCDiatypePlusVariable.DURmIfav.woff2\") format(\"woff2-variations\")"
+   }
+  ],
+  "keyframes": [],
+  "breakpoints": [
+   {
+    "v": "650px",
+    "w": 3
+   },
+   {
+    "v": "1100px",
+    "w": 1
+   },
+   {
+    "v": "1300px",
+    "w": 1
+   },
+   {
+    "v": "1400px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 287,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "article",
+    "id": null,
+    "cls": "relative w-full s:h-[43.5svh] s:max-h-[55rem] s:w-auto flex-none cursor-pointer ",
+    "h": 392,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "article",
+    "id": null,
+    "cls": "relative w-full s:h-[43.5svh] s:max-h-[55rem] s:w-auto flex-none cursor-pointer ",
+    "h": 392,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "article",
+    "id": null,
+    "cls": "relative w-full s:h-[43.5svh] s:max-h-[55rem] s:w-auto flex-none cursor-pointer ",
+    "h": 392,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "article",
+    "id": null,
+    "cls": "relative w-full s:h-[43.5svh] s:max-h-[55rem] s:w-auto flex-none cursor-pointer ",
+    "h": 392,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "article",
+    "id": null,
+    "cls": "relative w-full s:h-[43.5svh] s:max-h-[55rem] s:w-auto flex-none cursor-pointer ",
+    "h": 392,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "article",
+    "id": null,
+    "cls": "relative w-full s:h-[43.5svh] s:max-h-[55rem] s:w-auto flex-none cursor-pointer ",
+    "h": 392,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "article",
+    "id": null,
+    "cls": "relative w-full s:h-[43.5svh] s:max-h-[55rem] s:w-auto flex-none cursor-pointer ",
+    "h": 392,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "article",
+    "id": null,
+    "cls": "relative w-full s:h-[43.5svh] s:max-h-[55rem] s:w-auto flex-none cursor-pointer ",
+    "h": 392,
+    "title": "",
+    "media": 0
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "Featured",
+    "href": "https://jesperlandberg.com/"
+   },
+   {
+    "t": "Full",
+    "href": "https://jesperlandberg.com/full"
+   }
+  ],
+  "ctas": [],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 1,
+   "videos": 0,
+   "imgs": 0,
+   "svgs": 0,
+   "iframes": 0,
+   "domNodes": 171
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": false,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "185",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": true,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": true,
+  "cms": [
+   "datocms"
+  ],
+  "analytics": [],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://jesperlandberg.com/_nuxt/DZyj3ghP.js"
+ ],
+ "internal": [
+  "https://jesperlandberg.com/projects/nathan-riley",
+  "https://jesperlandberg.com/projects/casa-di-solare",
+  "https://jesperlandberg.com/projects/the-lookback",
+  "https://jesperlandberg.com/projects/book-of-happiness",
+  "https://jesperlandberg.com/projects/dogelon-mars",
+  "https://jesperlandberg.com/projects/gil-huybrecht",
+  "https://jesperlandberg.com/projects/discoveryland",
+  "https://jesperlandberg.com/projects/griflan",
+  "https://jesperlandberg.com/full",
+  "https://jesperlandberg.com/newsletter",
+  "https://jesperlandberg.com/llms.txt"
+ ],
+ "perf": {
+  "ttfb": 209,
+  "dcl": 512,
+  "load": 513,
+  "lcp": 328,
+  "lcpEl": "P.text-14",
+  "cls": 0
+ },
+ "libs": {
+  "detected": [
+   "GSAP",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Three.js",
+   "Vue",
+   "Nuxt"
+  ],
+  "where": {
+   "GSAP": [
+    "004-DZyj3ghP.js"
+   ],
+   "ScrollTrigger": [
+    "004-DZyj3ghP.js"
+   ],
+   "SplitText/SplitType": [
+    "004-DZyj3ghP.js"
+   ],
+   "Three.js": [
+    "004-DZyj3ghP.js"
+   ],
+   "Vue": [
+    "004-DZyj3ghP.js"
+   ],
+   "Nuxt": [
+    "004-DZyj3ghP.js"
+   ]
+  },
+  "gsapVersion": null,
+  "threeRevision": null,
+  "shaders": 23,
+  "scripts": 10
+ },
+ "network": {
+  "requests": 99,
+  "totalKb": 34554,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 10
+   },
+   "Other": {
+    "n": 6,
+    "kb": 72
+   },
+   "Script": {
+    "n": 9,
+    "kb": 370
+   },
+   "Font": {
+    "n": 1,
+    "kb": 113
+   },
+   "Fetch": {
+    "n": 67,
+    "kb": 6972
+   },
+   "Media": {
+    "n": 8,
+    "kb": 26544
+   },
+   "Image": {
+    "n": 6,
+    "kb": 473
+   },
+   "Preflight": {
+    "n": 1,
+    "kb": 0
+   }
+  },
+  "thirdPartyHosts": [
+   "www.datocms-assets.com",
+   "stream.mux.com",
+   "image.mux.com",
+   "graphql.datocms.com"
+  ],
+  "fontFiles": [
+   "https://jesperlandberg.com/_nuxt/ABCDiatypePlusVariable.DURmIfav.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://stream.mux.com/e79MwNWsJkhoNzhR02UVL3LRe1wexvcA9/high.mp4",
+    "kb": 7847,
+    "type": "Media"
+   },
+   {
+    "url": "https://stream.mux.com/qmEPTzOaDQBZL5258j01i2mMBkGh3G9BI/high.mp4",
+    "kb": 7198,
+    "type": "Media"
+   },
+   {
+    "url": "https://stream.mux.com/X3NsXaLph6rhK6M9kgi24PWL9vfH7SSf/high.mp4",
+    "kb": 4045,
+    "type": "Media"
+   },
+   {
+    "url": "https://stream.mux.com/9AaOR02f5lWzxopxZCg54ZRXsxGe4SSE7/high.mp4",
+    "kb": 3102,
+    "type": "Media"
+   },
+   {
+    "url": "https://stream.mux.com/DrMKk9cqmTOu4Y4dJzCjEn5ny37s02001I/high.mp4",
+    "kb": 2403,
+    "type": "Media"
+   },
+   {
+    "url": "https://stream.mux.com/01CbIdBLVCiUlQLMC8Ct3vq014VS02lwCaq/high.mp4",
+    "kb": 1950,
+    "type": "Media"
+   },
+   {
+    "url": "https://jesperlandberg.com/glyphs/sans-400.bin",
+    "kb": 401,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://jesperlandberg.com/glyphs/sans-500.bin",
+    "kb": 401,
+    "type": "Fetch"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "28px",
+   "lineHeight": "39.2px"
+  },
+  "body": "14px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 264
+}

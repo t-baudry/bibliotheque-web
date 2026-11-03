@@ -1,0 +1,738 @@
+{
+ "id": 20,
+ "name": "Neutomni",
+ "sourceUrl": "https://neutomni.com/",
+ "capturedAt": "2026-11-02T23:35:34.656Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [
+   "txt:Allow All"
+  ],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg",
+   "desktop-13.jpg",
+   "desktop-14.jpg"
+  ],
+  "fullPage": 21534,
+  "subpages": [],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://neutomni.com/",
+ "title": "Digital Design & Webflow Studio - Neutomni",
+ "lang": null,
+ "generator": null,
+ "seo": {
+  "description": "Your website isn't an expensive decoration. It's the sharpest point of your digital presence. First, we understand where you are  → then we build the clearest path to where you're going.",
+  "canonical": null,
+  "robots": null,
+  "ogTitle": "Digital Design & Webflow Studio - Neutomni",
+  "ogImage": "https://cdn.prod.website-files.com/696f937263525fd559c6ea5f/6a6b2aa45ed9e07d1510aaf3_Desktop%20-%2088.png",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "invalide"
+  ],
+  "h1Count": 1,
+  "headings": [
+   "H2 Who would’ve thought? ‍We use cookies.",
+   "H2 How would you like your cookies?",
+   "H1 We build websites forpeople who careas much as we do",
+   "H2 Your website isn't an expensive decoration. It's the sharpest point of your digital presen",
+   "H3 Discovery & Strategy",
+   "H3 Design ‍Iterations",
+   "H3 Webflow Build",
+   "H3 Post-launch Support",
+   "H2 Selected Work",
+   "H2 Selected Works",
+   "H3 Essentials",
+   "H3 Growth",
+   "H3 Enterprise",
+   "H2 Ready to get yourbusiness in shape?"
+  ],
+  "imgs": 89,
+  "imgNoAlt": 17,
+  "favicon": "https://cdn.prod.website-files.com/696f937263525fd559c6ea5f/6a6755ced15975ea883eac33_Instagram%20_%20Profile%20Picture%20(circle).png",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#ffffff",
+    "w": 18201772
+   },
+   {
+    "v": "#cf1830",
+    "w": 1160573
+   },
+   {
+    "v": "#070707",
+    "w": 687383
+   },
+   {
+    "v": "#6db1f0",
+    "w": 514800
+   },
+   {
+    "v": "#67dfff",
+    "w": 514800
+   },
+   {
+    "v": "#ff1212",
+    "w": 400
+   }
+  ],
+  "text": [
+   {
+    "v": "#cf1830",
+    "w": 1364
+   },
+   {
+    "v": "#ffffff",
+    "w": 978
+   }
+  ],
+  "border": [
+   {
+    "v": "#ffffff",
+    "w": 3
+   }
+  ],
+  "fonts": [
+   {
+    "v": "Vazirmatn Local",
+    "w": 1172
+   },
+   {
+    "v": "Firacode Local",
+    "w": 650
+   },
+   {
+    "v": "Italic Local",
+    "w": 511
+   },
+   {
+    "v": "Editorial new Local",
+    "w": 9
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "14px",
+    "w": 230
+   },
+   {
+    "v": "13px",
+    "w": 188
+   },
+   {
+    "v": "16px",
+    "w": 144
+   },
+   {
+    "v": "11.2px",
+    "w": 118
+   },
+   {
+    "v": "32px",
+    "w": 20
+   },
+   {
+    "v": "15px",
+    "w": 14
+   },
+   {
+    "v": "60px",
+    "w": 9
+   },
+   {
+    "v": "118px",
+    "w": 4
+   },
+   {
+    "v": "80px",
+    "w": 4
+   },
+   {
+    "v": "52px",
+    "w": 3
+   },
+   {
+    "v": "20px",
+    "w": 3
+   },
+   {
+    "v": "64px",
+    "w": 3
+   },
+   {
+    "v": "36px",
+    "w": 2
+   }
+  ],
+  "radius": [
+   {
+    "v": "20px",
+    "w": 12
+   },
+   {
+    "v": "4px",
+    "w": 6
+   },
+   {
+    "v": "50%",
+    "w": 3
+   },
+   {
+    "v": "5px",
+    "w": 3
+   }
+  ],
+  "shadows": [
+   {
+    "v": "rgba(0, 0, 0, 0.12) 5px 5px 40px 0px",
+    "w": 3
+   },
+   {
+    "v": "rgba(207, 24, 48, 0.353) 0px 0px 0px 1.4272px",
+    "w": 1
+   }
+  ],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.175 0.6s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "\"Vazirmatn Local\", sans-serif",
+    "size": "52px",
+    "weight": "400",
+    "lineHeight": "52px",
+    "letterSpacing": "-2px",
+    "transform": "none",
+    "color": "#cf1830",
+    "sample": "We build websites forpeople who careas much as we do"
+   },
+   "h2": {
+    "family": "\"Vazirmatn Local\", sans-serif",
+    "size": "60px",
+    "weight": "400",
+    "lineHeight": "60px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#cf1830",
+    "sample": "Your website isn't an expensive decoration. It's the sharpest point of your digi"
+   },
+   "h3": {
+    "family": "\"Vazirmatn Local\", sans-serif",
+    "size": "32px",
+    "weight": "400",
+    "lineHeight": "32px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Discovery & Strategy"
+   },
+   "p": {
+    "family": "\"Vazirmatn Local\", sans-serif",
+    "size": "16px",
+    "weight": "500",
+    "lineHeight": "19.2px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#cf1830",
+    "sample": "Digital Design & Webflow Studio"
+   },
+   "a": {
+    "family": "\"Vazirmatn Local\", sans-serif",
+    "size": "16px",
+    "weight": "500",
+    "lineHeight": "19.2px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#cf1830",
+    "sample": "Process"
+   },
+   "body": {
+    "family": "\"Vazirmatn Local\", sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "19.2px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#cf1830",
+    "sample": "/* This will hide elements with .your-body-class if .wf-doc is not on the <html>"
+   }
+  },
+  "cssVars": {
+   "--_typography---font-secondary": "\"Vazirmatn Local\",sans-serif",
+   "--_colors---text-colors--main-text-color": "var(--_colors---base-colors--red)",
+   "--_typography---text-size--main-text": "15px",
+   "--_typography---text-size--line-height-main": "120%",
+   "--_colors---base-colors--red": "#cf1830",
+   "--_colors---base-colors--white": "white",
+   "--_typography---heading-size--h1": "40px",
+   "--_typography---heading-size--line-height-100": "100%",
+   "--_typography---italic": "\"Italic Local\",sans-serif",
+   "--_typography---font-tertiary": "\"Firacode Local\",Arial,sans-serif",
+   "--_typography---heading-size--h2": "54px",
+   "--_typography---text-size--jumbo-text": "32px",
+   "--_typography---heading-size--h3": "32px",
+   "--_colors---bg-colors--bg-primary": "var(--_colors---base-colors--white)",
+   "--_colors---base-colors--blue": "#6db1f0",
+   "--_typography---heading-size--line-height-110": "110%",
+   "--_colors---text-colors--headings-color": "var(--_colors---base-colors--red)",
+   "--_typography---font-primary": "\"Editorial new Local\",sans-serif",
+   "--_typography---text-size--small-text": "13px",
+   "--_colors---bg-colors--bg-tertiary": "var(--_colors---base-colors--red)",
+   "--_colors---bg-colors--accent-color": "var(--_colors---base-colors--blue)",
+   "--_colors---text-colors--title-color": "var(--_colors---base-colors--red)",
+   "--_colors---base-colors--grey": "#f8f4f4",
+   "--_colors---bg-colors--bg-secondary": "var(--_colors---base-colors--grey)",
+   "---mode--collection-fb935ae5-15ff-b7cd-2257-4d818e296216": "mode-b391287c-5d98-807f-e8ef-8eb70e65c981",
+   "--sb-track": "#000",
+   "--sb-thumb": "rgba(255, 255, 255, 0.3)",
+   "--sb-thumb-hover": "rgba(255, 255, 255, 0.45)"
+  },
+  "fontFaces": [
+   {
+    "family": "webflow-icons",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"data:application/x-font-ttf;charset=utf-8;base64,AAEAAAALAIAAAwAwT1MvMg8SBiUAAAC8AAAAYGNtYXDpP+a4AAABHAAAAFxnYXNwAAAAEAAAAXgAAAAIZ2x5ZmhS2XEAAAGAAAADHGhlYWQTFw3HAAAEnAAAADZoaGVhCXYFgQAABNQAAAAkaG"
+   },
+   {
+    "family": "Italic Local",
+    "weight": "400",
+    "style": "italic",
+    "src": "url(\"https://cdn.prod.website-files.com/696f937263525fd559c6ea5f/69d6543004152005279a44f2_PPEditorialNew-Italic.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Vazirmatn Local",
+    "weight": "100 900",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/696f937263525fd559c6ea5f/69708959fef5e934c74b2781_Vazirmatn-VariableFont_wght.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Firacode Local",
+    "weight": "300 700",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/696f937263525fd559c6ea5f/6996e2a8567ee7b9dd661d52_FiraCode-VariableFont_wght.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Firacode Local",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/696f937263525fd559c6ea5f/6996e38228bba08593823730_FiraCode-Regular.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Firacode Local",
+    "weight": "300",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/696f937263525fd559c6ea5f/6996e3824cc5a290289c6d2e_FiraCode-Light.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Firacode Local",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/696f937263525fd559c6ea5f/6996e382493455e1bcfa77d9_FiraCode-Medium.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Firacode Local",
+    "weight": "600",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/696f937263525fd559c6ea5f/6996e3ca7973ab3e2d72f3af_FiraCode-SemiBold.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Editorial new Local",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/696f937263525fd559c6ea5f/6970899ddcc21b73dfd850f5_EditorialNew-Regular.otf\") format(\"opentype\")"
+   }
+  ],
+  "keyframes": [
+   "spin",
+   "pulse-animation-white",
+   "pulse-animation"
+  ],
+  "breakpoints": [
+   {
+    "v": "767px",
+    "w": 7
+   },
+   {
+    "v": "991px",
+    "w": 6
+   },
+   {
+    "v": "479px",
+    "w": 6
+   },
+   {
+    "v": "768px",
+    "w": 3
+   },
+   {
+    "v": "1440px",
+    "w": 1
+   },
+   {
+    "v": "1920px",
+    "w": 1
+   },
+   {
+    "v": "992px",
+    "w": 1
+   },
+   {
+    "v": "480px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 1321,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section light _30vh_mobile",
+    "h": 500,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section dark video",
+    "h": 1800,
+    "title": "We build websites forpeople who careas much as we do",
+    "media": 1
+   },
+   {
+    "tag": "section",
+    "id": "process",
+    "cls": "section light",
+    "h": 5363,
+    "title": "Your website isn't an expensive decoration. It's the sharpest point of your digi",
+    "media": 4
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section light desktop_version",
+    "h": 3600,
+    "title": "Selected Work",
+    "media": 3
+   },
+   {
+    "tag": "section",
+    "id": "pricing",
+    "cls": "section dark above",
+    "h": 9000,
+    "title": "Essentials",
+    "media": 68
+   },
+   {
+    "tag": "section",
+    "id": "hover-section",
+    "cls": "section light hover",
+    "h": 790,
+    "title": "Ready to get yourbusiness in shape?",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "footer",
+    "h": 481,
+    "title": "",
+    "media": 0
+   }
+  ],
+  "navLinks": [],
+  "ctas": [],
+  "pageHeight": 21534,
+  "counts": {
+   "canvas": 1,
+   "videos": 1,
+   "imgs": 89,
+   "svgs": 30,
+   "iframes": 0,
+   "domNodes": 1779
+  }
+ },
+ "tech": {
+  "gsap": true,
+  "gsapVersion": "3.15.0",
+  "scrollTrigger": true,
+  "splitText": true,
+  "lenis": true,
+  "locomotive": false,
+  "three": false,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": true,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": true,
+  "webflow": true,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [
+   "googletagmanager",
+   "gtag",
+   "segment"
+  ],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": false
+ },
+ "scripts": [
+  "https://challenges.cloudflare.com/turnstile/v0/api.js",
+  "https://www.googletagmanager.com/gtag/js?id=G-2BNEHSN7NP",
+  "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=696f937263525fd559c6ea5f",
+  "https://cdn.prod.website-files.com/696f937263525fd559c6ea5f/js/neutomni-026b92.schunk.36b8fb49256177c8.js",
+  "https://cdn.prod.website-files.com/696f937263525fd559c6ea5f/js/neutomni-026b92.schunk.c42549641b7d4501.js",
+  "https://cdn.prod.website-files.com/696f937263525fd559c6ea5f/js/neutomni-026b92.schunk.1dc753494da16c63.js",
+  "https://cdn.prod.website-files.com/696f937263525fd559c6ea5f/js/neutomni-026b92.c9d1dd2a.74bcab7a0490916e.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/MorphSVGPlugin.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/ScrollToPlugin.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/Observer.min.js",
+  "https://unpkg.com/lenis@1.3.21/dist/lenis.min.js",
+  "https://unpkg.com/split-type",
+  "https://cdn.jsdelivr.net/npm/circletype@2.3.0/dist/circletype.min.js",
+  "https://cookie-consent-cdn-prod.pages.dev/cookie-consent/3.0.33/cookie-consent.js",
+  "https://assets.slater.app/slater/18712.js?v=1.0"
+ ],
+ "internal": [],
+ "perf": {
+  "ttfb": 141,
+  "dcl": 1079,
+  "load": 2668,
+  "lcp": 536,
+  "lcpEl": "H1.h1",
+  "cls": 0.061
+ },
+ "libs": {
+  "detected": [
+   "GSAP",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "DrawSVG/MorphSVG",
+   "Lottie",
+   "jQuery",
+   "Lenis",
+   "Virtual scroll"
+  ],
+  "where": {
+   "GSAP": [
+    "002-ScrollToPlugin.min.js",
+    "003-Observer.min.js",
+    "004-SplitText.min.js",
+    "005-MorphSVGPlugin.min.js",
+    "007-gsap.min.js",
+    "008-ScrollTrigger.min.js",
+    "017-54535.js"
+   ],
+   "ScrollTrigger": [
+    "002-ScrollToPlugin.min.js",
+    "003-Observer.min.js",
+    "007-gsap.min.js",
+    "008-ScrollTrigger.min.js",
+    "009-neutomni-026b92.c9d1dd2a.74bcab7a0490916e.js",
+    "014-cookie-consent.js"
+   ],
+   "SplitText/SplitType": [
+    "004-SplitText.min.js",
+    "007-gsap.min.js",
+    "009-neutomni-026b92.c9d1dd2a.74bcab7a0490916e.js",
+    "015-index.min.js"
+   ],
+   "DrawSVG/MorphSVG": [
+    "005-MorphSVGPlugin.min.js"
+   ],
+   "Lottie": [
+    "006-neutomni-026b92.schunk.1dc753494da16c63.js",
+    "009-neutomni-026b92.c9d1dd2a.74bcab7a0490916e.js",
+    "010-neutomni-026b92.schunk.c42549641b7d4501.js"
+   ],
+   "jQuery": [
+    "006-neutomni-026b92.schunk.1dc753494da16c63.js",
+    "012-jquery-3.5.1.min.dc5e7f18c8.js"
+   ],
+   "Lenis": [
+    "013-lenis.min.js"
+   ],
+   "Virtual scroll": [
+    "013-lenis.min.js"
+   ]
+  },
+  "gsapVersion": "3.15.0",
+  "threeRevision": null,
+  "shaders": 0,
+  "scripts": 19
+ },
+ "network": {
+  "requests": 86,
+  "totalKb": 43018,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 41
+   },
+   "Stylesheet": {
+    "n": 1,
+    "kb": 0
+   },
+   "Image": {
+    "n": 44,
+    "kb": 1984
+   },
+   "Script": {
+    "n": 20,
+    "kb": 550
+   },
+   "Font": {
+    "n": 6,
+    "kb": 532
+   },
+   "Media": {
+    "n": 5,
+    "kb": 39901
+   },
+   "XHR": {
+    "n": 5,
+    "kb": 7
+   },
+   "Fetch": {
+    "n": 3,
+    "kb": 1
+   },
+   "Other": {
+    "n": 1,
+    "kb": 2
+   }
+  },
+  "thirdPartyHosts": [
+   "cdn.prod.website-files.com",
+   "cdn.jsdelivr.net",
+   "d3e54v103j8qbb.cloudfront.net",
+   "unpkg.com",
+   "cookie-consent-cdn-prod.pages.dev",
+   "pub-72fbbd6aa7d54a70b04aaa87235f19c9.r2.dev",
+   "assets.slater.app",
+   "cache-service-production.up.railway.app",
+   "challenges.cloudflare.com",
+   "cookie-consent-production.up.railway.app",
+   "www.googletagmanager.com",
+   "region1.google-analytics.com"
+  ],
+  "fontFiles": [
+   "https://cdn.prod.website-files.com/696f937263525fd559c6ea5f/69708959fef5e934c74b2781_Vazirmatn-VariableFont_wght.ttf",
+   "https://cdn.prod.website-files.com/696f937263525fd559c6ea5f/6996e2a8567ee7b9dd661d52_FiraCode-VariableFont_wght.ttf",
+   "https://cdn.prod.website-files.com/696f937263525fd559c6ea5f/69d6543004152005279a44f2_PPEditorialNew-Italic.woff2",
+   "https://cdn.prod.website-files.com/696f937263525fd559c6ea5f/6996e382493455e1bcfa77d9_FiraCode-Medium.ttf",
+   "https://cdn.prod.website-files.com/696f937263525fd559c6ea5f/6996e38228bba08593823730_FiraCode-Regular.ttf",
+   "https://cdn.prod.website-files.com/696f937263525fd559c6ea5f/6970899ddcc21b73dfd850f5_EditorialNew-Regular.otf"
+  ],
+  "biggest": [
+   {
+    "url": "https://pub-72fbbd6aa7d54a70b04aaa87235f19c9.r2.dev/Scene-2%20(1)%20(1).mp4",
+    "kb": 39872,
+    "type": "Media"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/696f937263525fd559c6ea5f/6a7edd0938121cbf205f879a_Frame%20484276.webp",
+    "kb": 871,
+    "type": "Image"
+   },
+   {
+    "url": "https://www.googletagmanager.com/gtag/js?id=G-2BNEHSN7NP",
+    "kb": 181,
+    "type": "Script"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/696f937263525fd559c6ea5f/69ef6b2df0eb90f6f76e7717_Frame%20484311.webp",
+    "kb": 141,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/696f937263525fd559c6ea5f/6996e2a8567ee7b9dd661d52_FiraCode-VariableFont_wght.ttf",
+    "kb": 136,
+    "type": "Font"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/696f937263525fd559c6ea5f/69708959fef5e934c74b2781_Vazirmatn-VariableFont_wght.ttf",
+    "kb": 135,
+    "type": "Font"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/696f937263525fd559c6ea5f/6a140385117bd9c5fd2cd554_IMG_6707%203%201%20(1).avif",
+    "kb": 130,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/696f937263525fd559c6ea5f/69ef56402e38efd97459d475_Mockup%20(72)%20(1).avif",
+    "kb": 129,
+    "type": "Image"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "40px",
+   "lineHeight": "40px"
+  },
+  "body": "15px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 142
+}

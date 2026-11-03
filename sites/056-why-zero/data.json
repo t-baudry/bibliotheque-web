@@ -1,0 +1,486 @@
+{
+ "id": 56,
+ "name": "Why Zero",
+ "sourceUrl": "https://why.zero.university/",
+ "capturedAt": "2026-11-03T00:04:51.714Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg"
+  ],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://why.zero.university/",
+ "title": "Zero — Human Infrastructure to Get Hired",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Zero is building human infrastructure for the AI era. Learn, build, and get hired through immersive, AI-native experiences designed by reverse-engineering real jobs.",
+  "canonical": "https://why.zero.university/",
+  "robots": null,
+  "ogTitle": "Zero — Human Infrastructure to Get Hired",
+  "ogImage": "https://why.zero.university/assets/brand/og_image.jpg",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [],
+  "h1Count": 0,
+  "headings": [],
+  "imgs": 2,
+  "imgNoAlt": 0,
+  "favicon": "https://why.zero.university/assets/brand/favicon.svg",
+  "themeColor": "#000000"
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#1c4839",
+    "w": 1296000
+   },
+   {
+    "v": "#d4d4d4",
+    "w": 4884
+   },
+   {
+    "v": "#201d1d",
+    "w": 4884
+   },
+   {
+    "v": "#ffffff",
+    "w": 1823
+   }
+  ],
+  "text": [
+   {
+    "v": "#ffffff",
+    "w": 77
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "PP Supply Mono",
+    "w": 75
+   },
+   {
+    "v": "Supply Sans",
+    "w": 2
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "12px",
+    "w": 5
+   },
+   {
+    "v": "10px",
+    "w": 5
+   },
+   {
+    "v": "16px",
+    "w": 2
+   },
+   {
+    "v": "150.003px",
+    "w": 1
+   },
+   {
+    "v": "14.4px",
+    "w": 1
+   },
+   {
+    "v": "20px",
+    "w": 1
+   },
+   {
+    "v": "16.8px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "999px",
+    "w": 8
+   },
+   {
+    "v": "50%",
+    "w": 2
+   }
+  ],
+  "shadows": [
+   {
+    "v": "rgba(255, 255, 255, 0.5) -4.725px -4.725px 1.575px -5.5125px inset",
+    "w": 1
+   },
+   {
+    "v": "rgba(255, 255, 255, 0.8) 4.725px 4.725px 1.575px -5.5125px inset",
+    "w": 1
+   },
+   {
+    "v": "rgba(179, 179, 179, 0.5) 3.15px 4.725px 1.575px -3.15px inset",
+    "w": 1
+   },
+   {
+    "v": "rgba(179, 179, 179, 0.3) -3.15px -4.725px 1.575px -3.15px inset",
+    "w": 1
+   },
+   {
+    "v": "rgba(242, 242, 242, 0.3) 0px 0px 29.4px 0px inset",
+    "w": 1
+   }
+  ],
+  "transitions": [
+   {
+    "v": "ease 0.4s",
+    "w": 140
+   },
+   {
+    "v": "ease 0.2s",
+    "w": 10
+   },
+   {
+    "v": "ease 0.35s",
+    "w": 2
+   },
+   {
+    "v": "ease 0.25s",
+    "w": 1
+   },
+   {
+    "v": "ease 0.5s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "button": {
+    "family": "\"PP Supply Mono\", \"Supply Sans\", monospace",
+    "size": "10px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "1.2px",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "-100 BZ"
+   },
+   "body": {
+    "family": "\"Times New Roman\"",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "99 degree 0XPDRAW A ZEROSCROLL-100 BZ-75 BZ-50 BZ-25 BZ0 BZ-100 BZ-75 BZ-50 BZ-2"
+   }
+  },
+  "cssVars": {
+   "--lightningcss-light": "initial",
+   "--lightningcss-dark": ""
+  },
+  "fontFaces": [
+   {
+    "family": "Supply Sans",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/PPSupplySans-Regular.otf\") format(\"opentype\")"
+   },
+   {
+    "family": "Bethany Elingston",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/Bethany%20Elingston.otf\") format(\"opentype\")"
+   },
+   {
+    "family": "PP Supply Mono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/PPSupplyMono-Regular.otf\") format(\"opentype\")"
+   },
+   {
+    "family": "STK Bureau Serif",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/STKBureau-SerifBook.otf\") format(\"opentype\")"
+   }
+  ],
+  "keyframes": [
+   "xpStrokeGlow",
+   "xpFlashWhite",
+   "xpFlashBlack",
+   "next-btn-ripple",
+   "scroll-indicator-bob",
+   "hud-status-shimmer",
+   "hud-status-chevron-bounce",
+   "scroll-ruler-nav-spin"
+  ],
+  "breakpoints": [
+   {
+    "v": "768px",
+    "w": 2
+   },
+   {
+    "v": "767px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 197,
+  "crossOriginSheets": 1
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": "bg-gradient",
+    "cls": "",
+    "h": 900,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "canvas",
+    "id": "webgl",
+    "cls": "",
+    "h": 900,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": "ui-container",
+    "cls": "",
+    "h": 900,
+    "title": "",
+    "media": 2
+   }
+  ],
+  "navLinks": [],
+  "ctas": [],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 1,
+   "videos": 2,
+   "imgs": 2,
+   "svgs": 3,
+   "iframes": 0,
+   "domNodes": 397
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": false,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "160",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [
+   "googletagmanager",
+   "gtag",
+   "segment"
+  ],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://www.googletagmanager.com/gtag/js?id=G-N4VGV4H4EN",
+  "https://why.zero.university/assets/main-BYq3OzcY.js"
+ ],
+ "internal": [],
+ "perf": {
+  "ttfb": 235,
+  "dcl": 520,
+  "load": 818,
+  "lcp": 452,
+  "lcpEl": "DIV",
+  "cls": 0
+ },
+ "libs": {
+  "detected": [
+   "GSAP",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Three.js",
+   "Postprocessing",
+   "Howler (audio)",
+   "Lil-GUI/Tweakpane (debug)",
+   "Stats.js"
+  ],
+  "where": {
+   "GSAP": [
+    "001-main-BYq3OzcY.js"
+   ],
+   "ScrollTrigger": [
+    "001-main-BYq3OzcY.js"
+   ],
+   "SplitText/SplitType": [
+    "001-main-BYq3OzcY.js"
+   ],
+   "Three.js": [
+    "001-main-BYq3OzcY.js"
+   ],
+   "Postprocessing": [
+    "001-main-BYq3OzcY.js"
+   ],
+   "Howler (audio)": [
+    "001-main-BYq3OzcY.js"
+   ],
+   "Lil-GUI/Tweakpane (debug)": [
+    "001-main-BYq3OzcY.js"
+   ],
+   "Stats.js": [
+    "001-main-BYq3OzcY.js"
+   ]
+  },
+  "gsapVersion": null,
+  "threeRevision": null,
+  "shaders": 40,
+  "scripts": 3
+ },
+ "network": {
+  "requests": 59,
+  "totalKb": 6298,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 3
+   },
+   "Stylesheet": {
+    "n": 2,
+    "kb": 8
+   },
+   "Script": {
+    "n": 2,
+    "kb": 507
+   },
+   "Font": {
+    "n": 2,
+    "kb": 41
+   },
+   "Image": {
+    "n": 4,
+    "kb": 10
+   },
+   "Fetch": {
+    "n": 30,
+    "kb": 4297
+   },
+   "Other": {
+    "n": 2,
+    "kb": 160
+   },
+   "Media": {
+    "n": 2,
+    "kb": 294
+   },
+   "XHR": {
+    "n": 14,
+    "kb": 978
+   }
+  },
+  "thirdPartyHosts": [
+   "fonts.googleapis.com",
+   "www.googletagmanager.com",
+   "region1.google-analytics.com"
+  ],
+  "fontFiles": [
+   "https://why.zero.university/assets/fonts/PPSupplySans-Regular.otf",
+   "https://why.zero.university/assets/fonts/PPSupplyMono-Regular.otf"
+  ],
+  "biggest": [
+   {
+    "url": "https://why.zero.university/assets/atlases/human_hands.ktx2",
+    "kb": 948,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://why.zero.university/assets/atlases/texts.ktx2",
+    "kb": 528,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://why.zero.university/assets/models/fancy_hand_2.glb",
+    "kb": 378,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://why.zero.university/assets/models/human_hand_1.glb",
+    "kb": 345,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://why.zero.university/assets/main-BYq3OzcY.js",
+    "kb": 330,
+    "type": "Script"
+   },
+   {
+    "url": "https://why.zero.university/assets/audio/amb_stage4-5.mp3",
+    "kb": 328,
+    "type": "XHR"
+   },
+   {
+    "url": "https://why.zero.university/assets/models/stage2_glass-shatter.glb",
+    "kb": 303,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://why.zero.university/assets/videos/stage2_background_video-desktop.mp4",
+    "kb": 294,
+    "type": "Media"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": null,
+  "body": "16px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 90
+}

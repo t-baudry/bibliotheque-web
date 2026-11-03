@@ -1,0 +1,632 @@
+{
+ "id": 10,
+ "name": "ESR Bespoke",
+ "sourceUrl": "https://www.esrbespoke.au/",
+ "capturedAt": "2026-11-02T23:25:55.072Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg"
+  ],
+  "fullPage": 6870,
+  "subpages": [
+   {
+    "url": "https://www.esrbespoke.au/services",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.esrbespoke.au/partners",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.esrbespoke.au/about",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://www.esrbespoke.au/",
+ "title": "ESR",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Three decades of restoring excellence and reigniting the joy of the drive.",
+  "canonical": "https://www.esrbespoke.au/",
+  "robots": null,
+  "ogTitle": "ESR | Exceptional is our standard",
+  "ogImage": "https://cdn.sanity.io/images/ms481rgs/production/b26e225048a304fff8d0f66c968480b2bd427f5f-10307x6871.jpg?rect=0,731,10307,5411&w=1200&h=630",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [],
+  "h1Count": 1,
+  "headings": [
+   "H1 Exceptional is our standard",
+   "H2 ESR is recognised as an official Porsche Certified Collision Centre, one of only a select ",
+   "H2 At ESR, we offer a complete end-to-end service experience for owners of luxury and high-pe"
+  ],
+  "imgs": 17,
+  "imgNoAlt": 17,
+  "favicon": "https://www.esrbespoke.au/apple-touch-icon.png",
+  "themeColor": "#000"
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#ffffff",
+    "w": 6412530
+   },
+   {
+    "v": "#000000",
+    "w": 5006978
+   },
+   {
+    "v": "#191919",
+    "w": 1282500
+   },
+   {
+    "v": "#99bcd6",
+    "w": 45582
+   }
+  ],
+  "text": [
+   {
+    "v": "#ffffff",
+    "w": 954
+   },
+   {
+    "v": "#000000",
+    "w": 795
+   }
+  ],
+  "border": [
+   {
+    "v": "#ffffff",
+    "w": 1
+   }
+  ],
+  "fonts": [
+   {
+    "v": "__bodyFont_0f148b",
+    "w": 1326
+   },
+   {
+    "v": "__headingFont_a39ca7",
+    "w": 423
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "14px",
+    "w": 616
+   },
+   {
+    "v": "62px",
+    "w": 59
+   },
+   {
+    "v": "92px",
+    "w": 12
+   },
+   {
+    "v": "20px",
+    "w": 6
+   },
+   {
+    "v": "40px",
+    "w": 2
+   },
+   {
+    "v": "18px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "2px",
+    "w": 1
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.19 0.3s",
+    "w": 22
+   },
+   {
+    "v": "cubic-bezier(0.19 0.5s",
+    "w": 15
+   },
+   {
+    "v": "cubic-bezier(0.19 0.1s",
+    "w": 12
+   },
+   {
+    "v": "cubic-bezier(0.16 0.3s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "__bodyFont_0f148b, __bodyFont_Fallback_0f148b, helvetica, arial, sans-serif, ui-sans-serif, system-ui, sans-serif, \"Appl",
+    "size": "62px",
+    "weight": "500",
+    "lineHeight": "58.9px",
+    "letterSpacing": "-0.62px",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Exceptional is our standard"
+   },
+   "h2": {
+    "family": "__bodyFont_0f148b, __bodyFont_Fallback_0f148b, helvetica, arial, sans-serif, ui-sans-serif, system-ui, sans-serif, \"Appl",
+    "size": "40px",
+    "weight": "500",
+    "lineHeight": "40px",
+    "letterSpacing": "-0.4px",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "ESR is recognised as an official Porsche Certified Collision Centre, one of only"
+   },
+   "p": {
+    "family": "__headingFont_a39ca7, __headingFont_Fallback_a39ca7, helvetica, arial, sans-serif, ui-sans-serif, system-ui, sans-serif,",
+    "size": "14px",
+    "weight": "300",
+    "lineHeight": "14px",
+    "letterSpacing": "1.26px",
+    "transform": "uppercase",
+    "color": "#000000",
+    "sample": "Contact"
+   },
+   "a": {
+    "family": "__headingFont_a39ca7, __headingFont_Fallback_a39ca7, helvetica, arial, sans-serif, ui-sans-serif, system-ui, sans-serif,",
+    "size": "14px",
+    "weight": "300",
+    "lineHeight": "14px",
+    "letterSpacing": "1.26px",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "ESR Bespoke"
+   },
+   "button": {
+    "family": "__headingFont_a39ca7, __headingFont_Fallback_a39ca7, helvetica, arial, sans-serif, ui-sans-serif, system-ui, sans-serif,",
+    "size": "14px",
+    "weight": "300",
+    "lineHeight": "20px",
+    "letterSpacing": "1.4px",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "Unmute"
+   },
+   "body": {
+    "family": "__bodyFont_0f148b, __bodyFont_Fallback_0f148b, helvetica, arial, sans-serif, ui-sans-serif, system-ui, sans-serif, \"Appl",
+    "size": "18px",
+    "weight": "300",
+    "lineHeight": "23.4px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "ESR BespokeAutomotive Groupsince 1989ServicesPartnersAboutContactCareersContactS"
+   }
+  },
+  "cssVars": {
+   "--foreground-rgb": "0,0,0",
+   "--background-rgb": "255,255,255",
+   "--border-rgb": "0,0,0",
+   "--scrollbarWidth": "0px"
+  },
+  "fontFaces": [
+   {
+    "family": "__bodyFont_0f148b",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_next/static/media/5ff020520c816464-s.p.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "__bodyFont_0f148b",
+    "weight": "400",
+    "style": "italic",
+    "src": "url(\"/_next/static/media/8502d5c4d62e96aa-s.p.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "__bodyFont_0f148b",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"/_next/static/media/2e325ac31a69599d-s.p.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "__bodyFont_0f148b",
+    "weight": "500",
+    "style": "italic",
+    "src": "url(\"/_next/static/media/e18653aa310c4642-s.p.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "__bodyFont_Fallback_0f148b",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   },
+   {
+    "family": "__headingFont_a39ca7",
+    "weight": "",
+    "style": "",
+    "src": "url(\"/_next/static/media/e0ac8fe0d2c1027e-s.p.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "__headingFont_Fallback_a39ca7",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   }
+  ],
+  "keyframes": [
+   "nprogress-spinner",
+   "pulse"
+  ],
+  "breakpoints": [
+   {
+    "v": "1024px",
+    "w": 12
+   },
+   {
+    "v": "1023px",
+    "w": 2
+   }
+  ],
+  "rulesCount": 549,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "w-auto grid-layout px-[1.125rem] md:px-8 fixed inset-0 overflow-hidden bg-white ",
+    "h": 900,
+    "title": "",
+    "media": 16
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "fixed inset-0 bg-black z-menuShadow pointer-events-none",
+    "h": 900,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "main",
+    "id": "page-content",
+    "cls": "flex flex-col",
+    "h": 6870,
+    "title": "Exceptional is our standard",
+    "media": 39
+   },
+   {
+    "tag": "div",
+    "id": "curtain",
+    "cls": "w-auto grid-layout px-[1.125rem] md:px-8 !fixed inset-0 bg-black text-white z-cu",
+    "h": 900,
+    "title": "",
+    "media": 0
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "ESR Bespoke",
+    "href": "https://www.esrbespoke.au/"
+   },
+   {
+    "t": "",
+    "href": "https://www.esrbespoke.au/"
+   },
+   {
+    "t": "Services",
+    "href": "https://www.esrbespoke.au/services"
+   },
+   {
+    "t": "Partners",
+    "href": "https://www.esrbespoke.au/partners"
+   },
+   {
+    "t": "About",
+    "href": "https://www.esrbespoke.au/about"
+   },
+   {
+    "t": "Contact",
+    "href": "https://www.esrbespoke.au/contact"
+   },
+   {
+    "t": "Careers",
+    "href": "https://www.esrbespoke.au/careers"
+   },
+   {
+    "t": "Services",
+    "href": "https://www.esrbespoke.au/services"
+   },
+   {
+    "t": "Partners",
+    "href": "https://www.esrbespoke.au/partners"
+   },
+   {
+    "t": "About",
+    "href": "https://www.esrbespoke.au/about"
+   },
+   {
+    "t": "Contact",
+    "href": "https://www.esrbespoke.au/contact"
+   },
+   {
+    "t": "Careers",
+    "href": "https://www.esrbespoke.au/careers"
+   }
+  ],
+  "ctas": [],
+  "pageHeight": 6870,
+  "counts": {
+   "canvas": 18,
+   "videos": 3,
+   "imgs": 17,
+   "svgs": 5,
+   "iframes": 0,
+   "domNodes": 1190
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": false,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": true,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [
+   "sanity"
+  ],
+  "analytics": [],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": false
+ },
+ "scripts": [
+  "https://www.esrbespoke.au/_next/static/chunks/polyfills-42372ed130431b0a.js",
+  "https://www.esrbespoke.au/_next/static/chunks/webpack-c4c67869b2eaf6be.js",
+  "https://www.esrbespoke.au/_next/static/chunks/framework-64ad27b21261a9ce.js",
+  "https://www.esrbespoke.au/_next/static/chunks/main-4b423ec82b590a3f.js",
+  "https://www.esrbespoke.au/_next/static/chunks/pages/_app-73de1ae2e4fdf2b5.js",
+  "https://www.esrbespoke.au/_next/static/chunks/94726e6d-ea109d70b133db93.js",
+  "https://www.esrbespoke.au/_next/static/chunks/457-97f8d33e3bf8c638.js",
+  "https://www.esrbespoke.au/_next/static/chunks/792-c0bbf8f9d8820cfa.js",
+  "https://www.esrbespoke.au/_next/static/chunks/pages/%5B%5B...slug%5D%5D-18da56d929bfa1ff.js",
+  "https://www.esrbespoke.au/_next/static/9ix10enmKtr8fTCSsfGYS/_buildManifest.js",
+  "https://www.esrbespoke.au/_next/static/9ix10enmKtr8fTCSsfGYS/_ssgManifest.js"
+ ],
+ "internal": [
+  "https://www.esrbespoke.au/services",
+  "https://www.esrbespoke.au/partners",
+  "https://www.esrbespoke.au/about",
+  "https://www.esrbespoke.au/contact",
+  "https://www.esrbespoke.au/careers",
+  "https://www.esrbespoke.au/privacy-policy"
+ ],
+ "perf": {
+  "ttfb": 442,
+  "dcl": 605,
+  "load": 607,
+  "lcp": 7260,
+  "lcpEl": "VIDEO.w-full",
+  "cls": 0.005
+ },
+ "libs": {
+  "detected": [
+   "GSAP",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "DrawSVG/MorphSVG",
+   "Lenis",
+   "Keen slider",
+   "Sanity",
+   "Next.js",
+   "Contentful",
+   "React"
+  ],
+  "where": {
+   "GSAP": [
+    "001-457-97f8d33e3bf8c638.js",
+    "009-94726e6d-ea109d70b133db93.js"
+   ],
+   "ScrollTrigger": [
+    "001-457-97f8d33e3bf8c638.js",
+    "006-792-c0bbf8f9d8820cfa.js",
+    "009-94726e6d-ea109d70b133db93.js"
+   ],
+   "SplitText/SplitType": [
+    "001-457-97f8d33e3bf8c638.js",
+    "009-94726e6d-ea109d70b133db93.js"
+   ],
+   "DrawSVG/MorphSVG": [
+    "001-457-97f8d33e3bf8c638.js"
+   ],
+   "Lenis": [
+    "001-457-97f8d33e3bf8c638.js",
+    "006-792-c0bbf8f9d8820cfa.js"
+   ],
+   "Keen slider": [
+    "001-457-97f8d33e3bf8c638.js",
+    "006-792-c0bbf8f9d8820cfa.js"
+   ],
+   "Sanity": [
+    "001-457-97f8d33e3bf8c638.js"
+   ],
+   "Next.js": [
+    "007-main-4b423ec82b590a3f.js"
+   ],
+   "Contentful": [
+    "007-main-4b423ec82b590a3f.js"
+   ],
+   "React": [
+    "008-framework-64ad27b21261a9ce.js"
+   ]
+  },
+  "gsapVersion": "3.11.0",
+  "threeRevision": null,
+  "shaders": 0,
+  "scripts": 10
+ },
+ "network": {
+  "requests": 96,
+  "totalKb": 57868,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 15
+   },
+   "Script": {
+    "n": 11,
+    "kb": 323
+   },
+   "Font": {
+    "n": 5,
+    "kb": 272
+   },
+   "Stylesheet": {
+    "n": 2,
+    "kb": 8
+   },
+   "Image": {
+    "n": 25,
+    "kb": 853
+   },
+   "Other": {
+    "n": 1,
+    "kb": 2
+   },
+   "XHR": {
+    "n": 51,
+    "kb": 56395
+   }
+  },
+  "thirdPartyHosts": [
+   "cdn.sanity.io",
+   "vod-adaptive-ak.vimeocdn.com"
+  ],
+  "fontFiles": [
+   "https://www.esrbespoke.au/_next/static/media/e0ac8fe0d2c1027e-s.p.woff2",
+   "https://www.esrbespoke.au/_next/static/media/2e325ac31a69599d-s.p.woff2",
+   "https://www.esrbespoke.au/_next/static/media/8502d5c4d62e96aa-s.p.woff2",
+   "https://www.esrbespoke.au/_next/static/media/e18653aa310c4642-s.p.woff2",
+   "https://www.esrbespoke.au/_next/static/media/5ff020520c816464-s.p.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://vod-adaptive-ak.vimeocdn.com/exp=1793665556~acl=%2F1dddeba7-a6c0-421a-ae4c-5180c10f52fa%2Fpsid%3D92c1f4466cd3d5de5914b6bfa152976755afbb9a1793661956%2F%2",
+    "kb": 4424,
+    "type": "XHR"
+   },
+   {
+    "url": "https://vod-adaptive-ak.vimeocdn.com/exp=1793665556~acl=%2F7a8fc8ab-74a4-4bcc-856a-5a9c0301f485%2Fpsid%3D9c9e2dc2fd2be12279f797a8196fda70f28676ad1793661956%2F%2",
+    "kb": 4258,
+    "type": "XHR"
+   },
+   {
+    "url": "https://vod-adaptive-ak.vimeocdn.com/exp=1793665556~acl=%2F7a8fc8ab-74a4-4bcc-856a-5a9c0301f485%2Fpsid%3D9c9e2dc2fd2be12279f797a8196fda70f28676ad1793661956%2F%2",
+    "kb": 3886,
+    "type": "XHR"
+   },
+   {
+    "url": "https://vod-adaptive-ak.vimeocdn.com/exp=1793665556~acl=%2F1dddeba7-a6c0-421a-ae4c-5180c10f52fa%2Fpsid%3D92c1f4466cd3d5de5914b6bfa152976755afbb9a1793661956%2F%2",
+    "kb": 3693,
+    "type": "XHR"
+   },
+   {
+    "url": "https://vod-adaptive-ak.vimeocdn.com/exp=1793665556~acl=%2F7a8fc8ab-74a4-4bcc-856a-5a9c0301f485%2Fpsid%3D9c9e2dc2fd2be12279f797a8196fda70f28676ad1793661956%2F%2",
+    "kb": 3650,
+    "type": "XHR"
+   },
+   {
+    "url": "https://vod-adaptive-ak.vimeocdn.com/exp=1793665556~acl=%2F7a8fc8ab-74a4-4bcc-856a-5a9c0301f485%2Fpsid%3D9c9e2dc2fd2be12279f797a8196fda70f28676ad1793661956%2F%2",
+    "kb": 3414,
+    "type": "XHR"
+   },
+   {
+    "url": "https://vod-adaptive-ak.vimeocdn.com/exp=1793665556~acl=%2F1dddeba7-a6c0-421a-ae4c-5180c10f52fa%2Fpsid%3D92c1f4466cd3d5de5914b6bfa152976755afbb9a1793661956%2F%2",
+    "kb": 2962,
+    "type": "XHR"
+   },
+   {
+    "url": "https://vod-adaptive-ak.vimeocdn.com/exp=1793665556~acl=%2F7a8fc8ab-74a4-4bcc-856a-5a9c0301f485%2Fpsid%3D9c9e2dc2fd2be12279f797a8196fda70f28676ad1793661956%2F%2",
+    "kb": 2862,
+    "type": "XHR"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "38px",
+   "lineHeight": "36.1px"
+  },
+  "body": "18px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 132
+}

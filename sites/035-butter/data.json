@@ -1,0 +1,1046 @@
+{
+ "id": 35,
+ "name": "Butter",
+ "sourceUrl": "https://www.butter.video/",
+ "capturedAt": "2026-11-02T23:44:41.813Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [
+   "txt:Accept all"
+  ],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg",
+   "desktop-13.jpg",
+   "desktop-14.jpg"
+  ],
+  "fullPage": 14818,
+  "subpages": [
+   {
+    "url": "https://www.butter.video/product",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.butter.video/pricing",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.butter.video/blog",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://www.butter.video/",
+ "title": "Butter Video | Online Video Editor Engineered for Creativity",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "The first video editor and design platform built with creative code for creative teams. It's a whole new timeline.",
+  "canonical": "https://www.butter.video/",
+  "robots": null,
+  "ogTitle": "Butter Video | Online Video Editor Engineered for Creativity",
+  "ogImage": "https://images.prismic.io/butter/GqsF4V1-u4zf61-k_01.jpg?auto=format%2Ccompress&w=2400&h=1260",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "Organization",
+   "WebSite"
+  ],
+  "h1Count": 1,
+  "headings": [
+   "H1 Engineered for CreativityEngineered for Creativity",
+   "H2 Butter is the first video editor where creatives can build and remix custom design tools r",
+   "H2 Browse curated blocks for motion graphics, kinetic type, 3D, shader effects, and beyond..B",
+   "H2 Make blocks your own with intuitive dials, sliders , prompts, and even with code.Make bloc",
+   "H2 Customize and save your favorite blocks so your team never starts from scratch again.Custo",
+   "H3 Your new all-in-one video editor.Your new all-in-one video editor.",
+   "H3 ImportImport",
+   "H3 EditEdit",
+   "H3 EnhanceEnhance",
+   "H3 ShipShip",
+   "H3 RemixRemix",
+   "H2 RemixRemix",
+   "H3 DescribeDescribe",
+   "H2 DescribeDescribe",
+   "H3 CodeCode",
+   "H2 CodeCode",
+   "H3 The best stories are built block by block.The best stories are built block by block.",
+   "H3 Accelerate your content production.Accelerate your content production.",
+   "H3 Turn anything into everything.Turn anything into everything.",
+   "H3 High performance. Totally programmable.High performance. Totally programmable.",
+   "H3 Justified Justified Studio",
+   "H3 Dedcool ilovecreatives",
+   "H3 Sad Wild Thing Kiel Dangler"
+  ],
+  "imgs": 78,
+  "imgNoAlt": 15,
+  "favicon": "https://www.butter.video/favicon.ico",
+  "themeColor": "#000000"
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#fafafa",
+    "w": 3999895
+   },
+   {
+    "v": "#ededed",
+    "w": 3192310
+   },
+   {
+    "v": "#1e1e1e",
+    "w": 595688
+   },
+   {
+    "v": "#0a0909",
+    "w": 453587
+   },
+   {
+    "v": "#151515",
+    "w": 345405
+   },
+   {
+    "v": "#2e2e2e",
+    "w": 10244
+   },
+   {
+    "v": "#f6d84d",
+    "w": 4632
+   },
+   {
+    "v": "#000000",
+    "w": 4608
+   },
+   {
+    "v": "#1cc691",
+    "w": 1152
+   },
+   {
+    "v": "#00ffd0",
+    "w": 100
+   }
+  ],
+  "text": [
+   {
+    "v": "#0f0f0f",
+    "w": 2600
+   },
+   {
+    "v": "#ffffff",
+    "w": 576
+   },
+   {
+    "v": "#1e1e1e",
+    "w": 257
+   },
+   {
+    "v": "#000000",
+    "w": 88
+   },
+   {
+    "v": "#b6b6b6",
+    "w": 45
+   },
+   {
+    "v": "#ebebeb",
+    "w": 43
+   },
+   {
+    "v": "#fafafa",
+    "w": 25
+   }
+  ],
+  "border": [
+   {
+    "v": "#212121",
+    "w": 4
+   }
+  ],
+  "fonts": [
+   {
+    "v": "DieGrotesk",
+    "w": 2803
+   },
+   {
+    "v": "-apple-system",
+    "w": 586
+   },
+   {
+    "v": "ABCDiatype",
+    "w": 245
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "60.4px",
+    "w": 133
+   },
+   {
+    "v": "16px",
+    "w": 104
+   },
+   {
+    "v": "20.7474px",
+    "w": 87
+   },
+   {
+    "v": "18px",
+    "w": 63
+   },
+   {
+    "v": "13.4947px",
+    "w": 42
+   },
+   {
+    "v": "45.4526px",
+    "w": 30
+   },
+   {
+    "v": "14px",
+    "w": 13
+   },
+   {
+    "v": "13px",
+    "w": 12
+   },
+   {
+    "v": "24.4842px",
+    "w": 10
+   },
+   {
+    "v": "41.6667px",
+    "w": 6
+   },
+   {
+    "v": "107.568px",
+    "w": 4
+   },
+   {
+    "v": "20px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "8px",
+    "w": 30
+   },
+   {
+    "v": "32px",
+    "w": 28
+   },
+   {
+    "v": "20px",
+    "w": 24
+   },
+   {
+    "v": "22px",
+    "w": 24
+   },
+   {
+    "v": "16px",
+    "w": 8
+   },
+   {
+    "v": "11px",
+    "w": 4
+   },
+   {
+    "v": "50px",
+    "w": 4
+   },
+   {
+    "v": "10px",
+    "w": 3
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.2 1s",
+    "w": 48
+   },
+   {
+    "v": "cubic-bezier(0.2 0.5s",
+    "w": 26
+   },
+   {
+    "v": "cubic-bezier(0.835 0.5s",
+    "w": 12
+   },
+   {
+    "v": "ease 0.4s",
+    "w": 8
+   },
+   {
+    "v": "cubic-bezier(0.835 0.6s",
+    "w": 3
+   },
+   {
+    "v": "cubic-bezier(0 0.8s",
+    "w": 2
+   },
+   {
+    "v": "cubic-bezier(0.2 0.8s",
+    "w": 2
+   },
+   {
+    "v": "cubic-bezier(0.2 0.2s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "DieGrotesk, \"DieGrotesk Fallback\"",
+    "size": "107.568px",
+    "weight": "400",
+    "lineHeight": "106.708px",
+    "letterSpacing": "0.344219px",
+    "transform": "none",
+    "color": "#0f0f0f",
+    "sample": "Engineered for CreativityEngineered for Creativity"
+   },
+   "h2": {
+    "family": "DieGrotesk, \"DieGrotesk Fallback\"",
+    "size": "60.4px",
+    "weight": "400",
+    "lineHeight": "58.588px",
+    "letterSpacing": "0.3624px",
+    "transform": "none",
+    "color": "#0f0f0f",
+    "sample": "Butter is the first video editor where creatives can build and remix custom desi"
+   },
+   "h3": {
+    "family": "DieGrotesk, \"DieGrotesk Fallback\"",
+    "size": "45.4526px",
+    "weight": "400",
+    "lineHeight": "43.6345px",
+    "letterSpacing": "0.363621px",
+    "transform": "none",
+    "color": "#0f0f0f",
+    "sample": "Your new all-in-one video editor.Your new all-in-one video editor."
+   },
+   "p": {
+    "family": "DieGrotesk, \"DieGrotesk Fallback\"",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "21px",
+    "letterSpacing": "0.7px",
+    "transform": "none",
+    "color": "#fafafa",
+    "sample": "Add butter"
+   },
+   "a": {
+    "family": "DieGrotesk, \"DieGrotesk Fallback\"",
+    "size": "18px",
+    "weight": "400",
+    "lineHeight": "27px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#fafafa",
+    "sample": "Skip to content"
+   },
+   "button": {
+    "family": "DieGrotesk, \"DieGrotesk Fallback\"",
+    "size": "18px",
+    "weight": "400",
+    "lineHeight": "27px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#1e1e1e",
+    "sample": "Co-CreateCo-Create"
+   },
+   "li": {
+    "family": "DieGrotesk, \"DieGrotesk Fallback\"",
+    "size": "18px",
+    "weight": "400",
+    "lineHeight": "27px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#1e1e1e",
+    "sample": "Co-CreateCo-Create"
+   },
+   "body": {
+    "family": "DieGrotesk, \"DieGrotesk Fallback\"",
+    "size": "18px",
+    "weight": "400",
+    "lineHeight": "27px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#0f0f0f",
+    "sample": "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https:"
+   }
+  },
+  "cssVars": {
+   "--butter-white": "#FAFAFA",
+   "--butter-off-white": "#F7F7F7",
+   "--butter-black": "#1E1E1E",
+   "--butter-true-black": "#0F0F0F",
+   "--butter-charcoal": "#3C3C3C",
+   "--butter-light-grey": "#EDEDED",
+   "--butter-dark-grey": "#E2E2E2",
+   "--butter-light": "#EBEBEB",
+   "--butter-red": "#FF3333",
+   "--butter-blue": "#4DC5E5",
+   "--butter-green": "#63AD45",
+   "--butter-yellow": "#E9D352",
+   "--butter-pink": "#F9ABFF",
+   "--butter-font-primary": "'DieGrotesk','DieGrotesk Fallback'",
+   "--butter-font-secondary": "'ABCDiatype','ABCDiatype Fallback'",
+   "--butter-ease-out": "cubic-bezier(0.200, 0.715, 0.205, 0.990)",
+   "--butter-ease-in-out": "cubic-bezier(0.835, 0.120, 0.225, 0.770)",
+   "--leva-colors-elevation1": "#292d39",
+   "--leva-colors-elevation2": "#181c20",
+   "--leva-colors-elevation3": "#373c4b",
+   "--leva-colors-accent1": "#0066dc",
+   "--leva-colors-accent2": "#007bff",
+   "--leva-colors-accent3": "#3c93ff",
+   "--leva-colors-highlight1": "#535760",
+   "--leva-colors-highlight2": "#8c92a4",
+   "--leva-colors-highlight3": "#fefefe",
+   "--leva-colors-vivid1": "#ffcc00",
+   "--leva-colors-folderWidgetColor": "var(--leva-colors-highlight2)",
+   "--leva-colors-folderTextColor": "var(--leva-colors-highlight3)",
+   "--leva-colors-toolTipBackground": "var(--leva-colors-highlight3)",
+   "--leva-colors-toolTipText": "var(--leva-colors-elevation2)",
+   "--leva-radii-xs": "2px",
+   "--leva-radii-sm": "3px",
+   "--leva-radii-lg": "10px",
+   "--leva-space-xs": "3px",
+   "--leva-space-sm": "6px",
+   "--leva-space-md": "10px",
+   "--leva-space-rowGap": "7px",
+   "--leva-space-colGap": "7px",
+   "--leva-fonts-mono": "ui-monospace, SFMono-Regular, Menlo, 'Roboto Mono', monospace",
+   "--leva-fonts-sans": "system-ui, sans-serif",
+   "--leva-fontSizes-root": "11px",
+   "--leva-fontSizes-toolTip": "var(--leva-fontSizes-root)",
+   "--leva-sizes-rootWidth": "280px",
+   "--leva-sizes-controlWidth": "160px",
+   "--leva-sizes-numberInputMinWidth": "38px",
+   "--leva-sizes-scrubberWidth": "8px",
+   "--leva-sizes-scrubberHeight": "16px",
+   "--leva-sizes-rowHeight": "24px",
+   "--leva-sizes-folderTitleHeight": "20px",
+   "--leva-sizes-checkboxSize": "16px",
+   "--leva-sizes-joystickWidth": "100px",
+   "--leva-sizes-joystickHeight": "100px",
+   "--leva-sizes-colorPickerWidth": "var(--leva-sizes-controlWidth)",
+   "--leva-sizes-colorPickerHeight": "100px",
+   "--leva-sizes-imagePreviewWidth": "var(--leva-sizes-controlWidth)",
+   "--leva-sizes-imagePreviewHeight": "100px",
+   "--leva-sizes-monitorHeight": "60px",
+   "--leva-sizes-titleBarHeight": "39px",
+   "--leva-shadows-level1": "0 0 9px 0 #00000088",
+   "--leva-shadows-level2": "0 4px 14px #00000033",
+   "--leva-borderWidths-root": "0px",
+   "--leva-borderWidths-input": "1px",
+   "--leva-borderWidths-focus": "1px",
+   "--leva-borderWidths-hover": "1px",
+   "--leva-borderWidths-active": "1px",
+   "--leva-borderWidths-folder": "1px",
+   "--leva-fontWeights-label": "normal",
+   "--leva-fontWeights-folder": "normal",
+   "--leva-fontWeights-button": "normal",
+   "--perf-bg": "rgba(8, 10, 15, .92)",
+   "--perf-glass": "rgba(255, 255, 255, .03)",
+   "--perf-border": "rgba(255, 255, 255, .08)",
+   "--perf-text": "#ffffff",
+   "--perf-text-dim": "#a0aec0",
+   "--perf-text-muted": "#718096",
+   "--perf-gauge-bg": "rgba(0, 0, 0, .15)",
+   "--perf-fps": "#00ffd0",
+   "--perf-gpu": "#ff9f43",
+   "--perf-cpu": "#a78bfa",
+   "--perf-success": "#10b981",
+   "--perf-warning": "#f59e0b",
+   "--perf-danger": "#ef4444",
+   "--perf-gradient-primary": "linear-gradient(135deg, #00ffd0 0%, #a78bfa 100%)",
+   "--perf-gradient-glow": "radial-gradient(ellipse at center, rgba(0, 255, 208, .15) 0%, transparent 70%)",
+   "--perf-radius": "12px",
+   "--perf-radius-sm": "8px",
+   "--perf-padding": "12px"
+  },
+  "fontFaces": [],
+  "keyframes": [
+   "dafZtH",
+   "hqtXGH",
+   "fIeEtv",
+   "perf-fade-in",
+   "perf-pulse"
+  ],
+  "breakpoints": [
+   {
+    "v": "48rem",
+    "w": 18
+   },
+   {
+    "v": "64rem",
+    "w": 15
+   },
+   {
+    "v": "77.5rem",
+    "w": 14
+   },
+   {
+    "v": "640px",
+    "w": 11
+   },
+   {
+    "v": "40rem",
+    "w": 7
+   },
+   {
+    "v": "63.9375rem",
+    "w": 7
+   },
+   {
+    "v": "992px",
+    "w": 7
+   },
+   {
+    "v": "47.9375rem",
+    "w": 4
+   },
+   {
+    "v": "639px",
+    "w": 4
+   },
+   {
+    "v": "991px",
+    "w": 4
+   },
+   {
+    "v": "480px",
+    "w": 3
+   },
+   {
+    "v": "77.4375rem",
+    "w": 2
+   }
+  ],
+  "rulesCount": 884,
+  "crossOriginSheets": 3
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "svg",
+    "id": null,
+    "cls": "",
+    "h": 1425,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "index-style__TransitionMaskWrapper-sc-5e9af4b5-0 lbqRX",
+    "h": 900,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "index-style__HeaderOverlay-sc-d968d94e-1 gRRfYC",
+    "h": 900,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "index-style__PageBackgroundMain-sc-ef9a9ebb-0 iPkdfn",
+    "h": 13192,
+    "title": "Engineered for CreativityEngineered for Creativity",
+    "media": 119
+   },
+   {
+    "tag": "footer",
+    "id": null,
+    "cls": "index-style__FooterMain-sc-144eedcf-0 bdNowa",
+    "h": 1120,
+    "title": "",
+    "media": 1
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "index-style__R3FWrapper-sc-79d7a145-0 vKsMM",
+    "h": 900,
+    "title": "",
+    "media": 0
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "Skip to content",
+    "href": "https://www.butter.video/#main"
+   },
+   {
+    "t": "",
+    "href": "https://www.butter.video/"
+   },
+   {
+    "t": "ProductProduct",
+    "href": "https://www.butter.video/product"
+   },
+   {
+    "t": "BlocksBlocks",
+    "href": "https://butter.video/blocks"
+   },
+   {
+    "t": "TemplatesTemplates",
+    "href": "https://butter.video/templates"
+   },
+   {
+    "t": "PricingPricing",
+    "href": "https://www.butter.video/pricing"
+   },
+   {
+    "t": "BlogBlog",
+    "href": "https://www.butter.video/blog"
+   },
+   {
+    "t": "ProductProductExplore featuresExplore fe",
+    "href": "https://www.butter.video/product"
+   },
+   {
+    "t": "BlocksBlocksBrowse 1000s of butter block",
+    "href": "https://butter.video/blocks"
+   },
+   {
+    "t": "TemplatesTemplatesStart with a templateS",
+    "href": "https://butter.video/templates"
+   },
+   {
+    "t": "PricingPricingCompare our plansCompare o",
+    "href": "https://www.butter.video/pricing"
+   },
+   {
+    "t": "MCPMCP",
+    "href": "https://www.butter.video/mcp"
+   },
+   {
+    "t": "InstagramInstagram",
+    "href": "https://www.instagram.com/_butterstudio"
+   },
+   {
+    "t": "YouTubeYouTube",
+    "href": "https://www.youtube.com/@buttervideoapp"
+   },
+   {
+    "t": "XX",
+    "href": "https://x.com/_butterstudio"
+   },
+   {
+    "t": "BlogBlog",
+    "href": "https://www.butter.video/blog"
+   },
+   {
+    "t": "LoginLogin",
+    "href": "https://butter.video/login"
+   },
+   {
+    "t": "Try for free",
+    "href": "https://butter.video/explore"
+   },
+   {
+    "t": "ProjectsProjects",
+    "href": "https://www.butter.video/projects"
+   },
+   {
+    "t": "Dashboard",
+    "href": "https://www.butter.video/explore"
+   }
+  ],
+  "ctas": [
+   "Skip to content",
+   "Learn more",
+   "Reject all",
+   "Accept all"
+  ],
+  "pageHeight": 14252,
+  "counts": {
+   "canvas": 1,
+   "videos": 49,
+   "imgs": 78,
+   "svgs": 14,
+   "iframes": 1,
+   "domNodes": 2202
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": true,
+  "lenis": true,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "183",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": true,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [
+   "prismic"
+  ],
+  "analytics": [
+   "googletagmanager",
+   "google-analytics",
+   "gtag",
+   "clarity.ms",
+   "fbevents"
+  ],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://cdn.iubenda.com/cookie_solution/iubenda_cs/1.109.0/core-en.js",
+  "https://scripts.clarity.ms/0.8.75/clarity.js",
+  "https://embeds.iubenda.com/widgets/98db1c73-328f-4f88-97ea-617fe5600c4a.js",
+  "https://www.clarity.ms/tag/uet/343261450?conversions=1&insights=1",
+  "https://www.googletagmanager.com/gtag/js?id=AW-16609341711",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-K9MLNNT8",
+  "https://www.googletagmanager.com/gtag/js?id=G-LH9RMN243R",
+  "https://connect.facebook.net/signals/config/537213872431788?v=2.9.433&r=stable&domain=www.butter.video&hme=4453c87d489b6902031c012cadd2731893cd69feb64fe8a61b339727247a7703&ex_m=118%2C242%2C171%2C27%2C82%2C83%2C162%2C78%2C77%2C11%2C181%2C102%2C20%2C153%2C141%2C46%2C85%2C90%2C149%2C176%2C183%2C8%2C4%2C5%2C7%2C6%2C3%2C103%2C115%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C37%2C55%2C163%2C87%2C126%2C22%2C24%2C51%2C47%2C49%2C48%2C95%2C104%2C108%2C124%2C160%2C164%2C53%2C125%2C29%2C26%2C133%2C79%2C43%2C166%2C165%2C167%2C157%2C155%2C30%2C42%2C66%2C123%2C178%2C80%2C21%2C128%2C93%2C76%2C23%2C97%2C98%2C130%2C96%2C151%2C150%2C154%2C109%2C177%2C180%2C41%2C56%2C127%2C54%2C161%2C72%2C185%2C110%2C184%2C211%2C263%2C84%2C283%2C282%2C281%2C14%2C25%2C28%2C40%2C62%2C117%2C68%2C10%2C73%2C111%2C112%2C113%2C119%2C144%2C38%2C36%2C146%2C147%2C148%2C143%2C142%2C172%2C86%2C175%2C173%2C174%2C57%2C69%2C67%2C137%2C19%2C179%2C52%2C333%2C334%2C335%2C332%2C349%2C371%2C256%2C238%2C70%2C239%2C237%2C374%2C365%2C59%2C257%2C121%2C145%2C92%2C135%2C61%2C134%2C140%2C139%2C65%2C74%2C168%2C88%2C89%2C129%2C44%2C39%2C60%2C63%2C114%2C182%2C1%2C138%2C16%2C136%2C12%2C2%2C64%2C105%2C15%2C75%2C71%2C132%2C101%2C100%2C187%2C188%2C106%2C107%2C9%2C116%2C186%2C58%2C158%2C99%2C91%2C81%2C131%2C120%2C169%2C50%2C159%2C0%2C94%2C152%2C156%2C170%2C45%2C122%2C13%2C189",
+  "https://connect.facebook.net/en_US/fbevents.js",
+  "https://static.ads-twitter.com/uwt.js",
+  "https://bat.bing.com/bat.js",
+  "https://cdp.customer.io/v1/analytics-js/actions/google-tag-manager.js",
+  "https://cdp.customer.io/v1/analytics-js/actions/twitter-pixel.js",
+  "https://cdp.customer.io/v1/analytics-js/actions/google-analytics-4-web.js",
+  "https://cdp.customer.io/v1/analytics-js/actions/meta-pixel.js",
+  "https://cdp.customer.io/v1/analytics-js/actions/bing-ads.js",
+  "https://cdp.customer.io/v1/analytics-js/actions/google-ads.js",
+  "https://marketing.butter.video/_next/static/chunks/4bd1b696-f2a5235c67c67b30.js?dpl=dpl_CBAKg5DSmzUqJ4j8uQFJcJXcTEfA",
+  "https://marketing.butter.video/_next/static/chunks/1255-6efa24cb8961ad47.js?dpl=dpl_CBAKg5DSmzUqJ4j8uQFJcJXcTEfA",
+  "https://marketing.butter.video/_next/static/chunks/main-app-4a99a8316d93e51b.js?dpl=dpl_CBAKg5DSmzUqJ4j8uQFJcJXcTEfA",
+  "https://marketing.butter.video/_next/static/chunks/1329d575-c3673c15d5843089.js?dpl=dpl_CBAKg5DSmzUqJ4j8uQFJcJXcTEfA",
+  "https://marketing.butter.video/_next/static/chunks/2664-d4d6d9eff805242c.js?dpl=dpl_CBAKg5DSmzUqJ4j8uQFJcJXcTEfA",
+  "https://marketing.butter.video/_next/static/chunks/2553-a3fddc2b043ee91d.js?dpl=dpl_CBAKg5DSmzUqJ4j8uQFJcJXcTEfA",
+  "https://marketing.butter.video/_next/static/chunks/1070-60f118ff9f727aaa.js?dpl=dpl_CBAKg5DSmzUqJ4j8uQFJcJXcTEfA",
+  "https://marketing.butter.video/_next/static/chunks/4396-c2f63c60738708b9.js?dpl=dpl_CBAKg5DSmzUqJ4j8uQFJcJXcTEfA",
+  "https://marketing.butter.video/_next/static/chunks/5891-1807ace8aaae2a37.js?dpl=dpl_CBAKg5DSmzUqJ4j8uQFJcJXcTEfA",
+  "https://marketing.butter.video/_next/static/chunks/7780-8b79132db573c56f.js?dpl=dpl_CBAKg5DSmzUqJ4j8uQFJcJXcTEfA",
+  "https://marketing.butter.video/_next/static/chunks/137-347fcc003d01ef6f.js?dpl=dpl_CBAKg5DSmzUqJ4j8uQFJcJXcTEfA",
+  "https://marketing.butter.video/_next/static/chunks/6922-eb29110ff9ceabdf.js?dpl=dpl_CBAKg5DSmzUqJ4j8uQFJcJXcTEfA",
+  "https://marketing.butter.video/_next/static/chunks/2455-6d1f80dc6948c671.js?dpl=dpl_CBAKg5DSmzUqJ4j8uQFJcJXcTEfA",
+  "https://marketing.butter.video/_next/static/chunks/4757-d754cba9ee306140.js?dpl=dpl_CBAKg5DSmzUqJ4j8uQFJcJXcTEfA",
+  "https://marketing.butter.video/_next/static/chunks/6693-1e014e13422bfe3c.js?dpl=dpl_CBAKg5DSmzUqJ4j8uQFJcJXcTEfA",
+  "https://marketing.butter.video/_next/static/chunks/8703-08bba9a146cc6bfc.js?dpl=dpl_CBAKg5DSmzUqJ4j8uQFJcJXcTEfA",
+  "https://marketing.butter.video/_next/static/chunks/1901-6c1d8c09325553cd.js?dpl=dpl_CBAKg5DSmzUqJ4j8uQFJcJXcTEfA",
+  "https://marketing.butter.video/_next/static/chunks/9780-d08ffe27f0381efe.js?dpl=dpl_CBAKg5DSmzUqJ4j8uQFJcJXcTEfA",
+  "https://marketing.butter.video/_next/static/chunks/4100-1f366cc582110851.js?dpl=dpl_CBAKg5DSmzUqJ4j8uQFJcJXcTEfA",
+  "https://marketing.butter.video/_next/static/chunks/polyfills-42372ed130431b0a.js?dpl=dpl_CBAKg5DSmzUqJ4j8uQFJcJXcTEfA",
+  "https://bat.bing.com/p/action/343261450.js",
+  "https://cdn.iubenda.com/iubenda_i_badge.js",
+  "https://cdn.iubenda.com/iubenda_i_badge.js",
+  "https://marketing.butter.video/_next/static/chunks/webpack-b0cf3468268c23ba.js?dpl=dpl_CBAKg5DSmzUqJ4j8uQFJcJXcTEfA",
+  "https://cdn.iubenda.com/iubenda.js",
+  "https://static.cdn.prismic.io/prismic.js?new=true&repo=butter"
+ ],
+ "internal": [
+  "https://www.butter.video/product",
+  "https://www.butter.video/pricing",
+  "https://www.butter.video/blog",
+  "https://www.butter.video/mcp",
+  "https://www.butter.video/projects",
+  "https://www.butter.video/explore",
+  "https://www.butter.video/contact",
+  "https://www.butter.video/terms-of-service"
+ ],
+ "perf": {
+  "ttfb": 248,
+  "dcl": 529,
+  "load": 1101,
+  "lcp": 784,
+  "lcpEl": "SPAN.index-style__SplitTextWrapper-sc-6461e2eb-1",
+  "cls": 0.001
+ },
+ "libs": {
+  "detected": [
+   "React",
+   "Prismic",
+   "GSAP",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "React Three Fiber",
+   "Next.js",
+   "jQuery",
+   "Lenis",
+   "Virtual scroll",
+   "Three.js",
+   "Rapier/Cannon (physique)"
+  ],
+  "where": {
+   "React": [
+    "003-4bd1b696-f2a5235c67c67b30.js",
+    "025-1255-6efa24cb8961ad47.js"
+   ],
+   "Prismic": [
+    "007-7780-8b79132db573c56f.js",
+    "012-137-347fcc003d01ef6f.js",
+    "016-1901-6c1d8c09325553cd.js",
+    "017-6922-eb29110ff9ceabdf.js",
+    "020-4100-1f366cc582110851.js",
+    "023-8703-08bba9a146cc6bfc.js",
+    "026-page-7ee2a73d3a16c75d.js",
+    "028-7738-f9b1a0bbaea7cca3.js",
+    "029-6620.98afef4a42faa01d.js",
+    "030-2754.caec3e6832df1314.js",
+    "032-4109.37e7637386d65c46.js",
+    "033-not-found-52df98f4d86e1890.js",
+    "048-7682-f94f15dea8418873.js",
+    "054-7891-6ec153b7f5a7a4aa.js",
+    "058-prismic.js"
+   ],
+   "GSAP": [
+    "009-2664-d4d6d9eff805242c.js",
+    "018-6693-1e014e13422bfe3c.js",
+    "042-3199-6ab0c6ff54a8ecbd.js",
+    "045-c15bf2b0-bdf82ac138c08b2c.js",
+    "046-1113-277270398feae61f.js"
+   ],
+   "ScrollTrigger": [
+    "009-2664-d4d6d9eff805242c.js",
+    "045-c15bf2b0-bdf82ac138c08b2c.js"
+   ],
+   "SplitText/SplitType": [
+    "010-5891-1807ace8aaae2a37.js",
+    "019-4989.b5f413189b435557.js",
+    "022-894.3b5f006bda412abe.js",
+    "038-6339.3f6db166379496b8.js",
+    "044-page-b593d5508e75f015.js",
+    "045-c15bf2b0-bdf82ac138c08b2c.js",
+    "055-page-b0add4f659bdc3e3.js"
+   ],
+   "React Three Fiber": [
+    "024-4396-c2f63c60738708b9.js",
+    "041-layout-789b765e85bd3476.js",
+    "044-page-b593d5508e75f015.js",
+    "051-f739f9f4.ec3fb35788f5fd45.js"
+   ],
+   "Next.js": [
+    "028-7738-f9b1a0bbaea7cca3.js"
+   ],
+   "jQuery": [
+    "031-2203-b6a0d874658fe457.js"
+   ],
+   "Lenis": [
+    "034-1996-ed495363eed4d6fe.js"
+   ],
+   "Virtual scroll": [
+    "034-1996-ed495363eed4d6fe.js"
+   ],
+   "Three.js": [
+    "037-bd904a5c-3e98b3ace8e3e633.js",
+    "047-b536a0f1-0a3a352546b0d274.js"
+   ],
+   "Rapier/Cannon (physique)": [
+    "050-121.9963d3afbfdfd178.js",
+    "051-f739f9f4.ec3fb35788f5fd45.js"
+   ]
+  },
+  "gsapVersion": "3.11.0",
+  "threeRevision": null,
+  "shaders": 14,
+  "scripts": 73
+ },
+ "network": {
+  "requests": 222,
+  "totalKb": 18027,
+  "byType": {
+   "Document": {
+    "n": 2,
+    "kb": 44
+   },
+   "Stylesheet": {
+    "n": 3,
+    "kb": 15
+   },
+   "Script": {
+    "n": 80,
+    "kb": 3811
+   },
+   "Font": {
+    "n": 2,
+    "kb": 90
+   },
+   "Image": {
+    "n": 55,
+    "kb": 880
+   },
+   "Other": {
+    "n": 1,
+    "kb": 5
+   },
+   "Preflight": {
+    "n": 4,
+    "kb": 0
+   },
+   "Fetch": {
+    "n": 26,
+    "kb": 1135
+   },
+   "Ping": {
+    "n": 2,
+    "kb": 0
+   },
+   "XHR": {
+    "n": 14,
+    "kb": 4
+   },
+   "Media": {
+    "n": 33,
+    "kb": 12043
+   }
+  },
+  "thirdPartyHosts": [
+   "marketing.butter.video",
+   "images.prismic.io",
+   "api.butter.video",
+   "www.gstatic.com",
+   "static.cdn.prismic.io",
+   "cdn.iubenda.com",
+   "butter.prismic.io",
+   "cdp.customer.io",
+   "static.ads-twitter.com",
+   "bat.bing.com",
+   "connect.facebook.net",
+   "consumer.cloud.gist.build",
+   "www.googletagmanager.com",
+   "analytics.twitter.com",
+   "t.co",
+   "www.google.com",
+   "ad.doubleclick.net",
+   "bat.bing.net",
+   "www.clarity.ms",
+   "embeds.iubenda.com",
+   "www.facebook.com",
+   "pagead2.googlesyndication.com",
+   "track.butter.video",
+   "scripts.clarity.ms",
+   "idb.iubenda.com",
+   "f.clarity.ms",
+   "res.cloudinary.com"
+  ],
+  "fontFiles": [
+   "https://marketing.butter.video/_next/static/media/da60608f2183158e-s.p.woff2",
+   "https://marketing.butter.video/_next/static/media/5fb8d156cdd6d753-s.p.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/story_3/dash_rltoqm.mp4?_a=DATAiZAAZAA0",
+    "kb": 1383,
+    "type": "Media"
+   },
+   {
+    "url": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/gallery_carousel/running_kit_h9ea1n.mp4?_a=DATAiZAAZAA0",
+    "kb": 797,
+    "type": "Media"
+   },
+   {
+    "url": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/gallery_carousel/running_kit_h9ea1n.mp4?_a=DATAiZAAZAA0",
+    "kb": 797,
+    "type": "Media"
+   },
+   {
+    "url": "https://marketing.butter.video/_next/static/chunks/f739f9f4.ec3fb35788f5fd45.js?dpl=dpl_CBAKg5DSmzUqJ4j8uQFJcJXcTEfA",
+    "kb": 785,
+    "type": "Script"
+   },
+   {
+    "url": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/gallery_carousel/sodas_back_gwklxl.mp4?_a=DATAiZAAZAA0",
+    "kb": 785,
+    "type": "Media"
+   },
+   {
+    "url": "https://res.cloudinary.com/buttercreatives/video/upload/v1/website/home/double_block/anything-into-everything_k15fdk.webm?_a=DATAiZAAZAA0",
+    "kb": 755,
+    "type": "Media"
+   },
+   {
+    "url": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/story_2/blocks-dials-sliders_rdphvr.mp4?_a=DATAiZAAZAA0",
+    "kb": 743,
+    "type": "Media"
+   },
+   {
+    "url": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/statement/statement-3_ljgfrz.mp4?_a=DATAiZAAZAA0",
+    "kb": 652,
+    "type": "Media"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "56.7263px",
+   "lineHeight": "61.8317px"
+  },
+  "body": "18px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 328
+}

@@ -1,0 +1,947 @@
+{
+ "id": 90,
+ "name": "Serotoninn",
+ "sourceUrl": "https://serotoninn.com/",
+ "capturedAt": "2026-11-03T21:57:28.230Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg"
+  ],
+  "fullPage": 7833,
+  "subpages": [
+   {
+    "url": "https://serotoninn.com/all-products/",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://serotoninn.com/products/backless-knit-maxi-dress/",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://serotoninn.com/collections/",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://serotoninn.com/",
+ "title": "Serotoninn",
+ "lang": "en-US",
+ "generator": null,
+ "seo": {
+  "description": null,
+  "canonical": "https://serotoninn.com/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "ogTitle": "Serotoninn",
+  "ogImage": null,
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "WebPage",
+   "BreadcrumbList",
+   "WebSite"
+  ],
+  "h1Count": 1,
+  "headings": [
+   "H3 Backless Knit Maxi Dress",
+   "H3 Crinkled Top",
+   "H3 Faux Fur Top",
+   "H3 Velvet Bra Top",
+   "H3 Dune Gown",
+   "H3 Faux Fur Coat",
+   "H3 SUNNA Dress",
+   "H3 Oversize SILK Dress",
+   "H3 Silk MAXI SKIRT ecru",
+   "H3 Backless Knit Maxi Dress",
+   "H3 Dune Gown",
+   "H3 Architecture Dress",
+   "H3 Draped Corset",
+   "H3 Halter Neck Dress in blue",
+   "H3 Faux Fur Top",
+   "H3 Faux Fur Coat",
+   "H3 SUNNA Dress",
+   "H3 Oversize SILK Dress",
+   "H3 Silk MAXI SKIRT ecru",
+   "H3 Backless Knit Maxi Dress",
+   "H3 Dune Gown",
+   "H3 Architecture Dress",
+   "H3 Draped Corset",
+   "H3 Halter Neck Dress in blue",
+   "H3 Faux Fur Top",
+   "H1 Serotoninn",
+   "H3 NEW DROP",
+   "H3 NEW DROP",
+   "H3 QUARPA CAPSULE",
+   "H3 QUARPA CAPSULE",
+   "H3 LIFE FORCE",
+   "H3 LIFE FORCE",
+   "H3 BERLIN VIBES",
+   "H3 BERLIN VIBES",
+   "H3 BEAUTY WILL SAVE THE WORLD",
+   "H3 BEAUTY WILL SAVE THE WORLD",
+   "H2 02. New Arrivals",
+   "H3 SUNNA DRESS",
+   "H3 Velvet Witch Corset",
+   "H3 Velvet Bra Top",
+   "H3 Mesh Dress",
+   "H3 Sparkling Mini Dress",
+   "H3 Faux Fur Top",
+   "H3 KNIT DRESS",
+   "H3 Architecture Trousers",
+   "H3 Slimming bodysuit yellow",
+   "H3 Faux Fur Coat",
+   "H3 LUREX Mini Dress with cross at the back",
+   "H3 Oversize SILK Dress",
+   "H3 SUNNA DRESS"
+  ],
+  "imgs": 395,
+  "imgNoAlt": 349,
+  "favicon": "https://serotoninn.com/wp-content/themes/ref/img/favicon.png.pagespeed.ce.n1yD6mJQx8.png",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#fff9f7",
+    "w": 7843709
+   },
+   {
+    "v": "#000000",
+    "w": 1498860
+   },
+   {
+    "v": "#ffffff",
+    "w": 460888
+   }
+  ],
+  "text": [
+   {
+    "v": "#000000",
+    "w": 987
+   },
+   {
+    "v": "#ffffff",
+    "w": 417
+   },
+   {
+    "v": "#ed3833",
+    "w": 47
+   }
+  ],
+  "border": [
+   {
+    "v": "#000000",
+    "w": 6
+   },
+   {
+    "v": "#eedfdf",
+    "w": 5
+   }
+  ],
+  "fonts": [
+   {
+    "v": "Thunder",
+    "w": 937
+   },
+   {
+    "v": "Inter",
+    "w": 412
+   },
+   {
+    "v": "PP Fraktion Mono",
+    "w": 102
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "24px",
+    "w": 419
+   },
+   {
+    "v": "13px",
+    "w": 290
+   },
+   {
+    "v": "16px",
+    "w": 217
+   },
+   {
+    "v": "12px",
+    "w": 151
+   },
+   {
+    "v": "14px",
+    "w": 91
+   },
+   {
+    "v": "17px",
+    "w": 74
+   },
+   {
+    "v": "30px",
+    "w": 60
+   },
+   {
+    "v": "64px",
+    "w": 36
+   },
+   {
+    "v": "22px",
+    "w": 33
+   },
+   {
+    "v": "80px",
+    "w": 25
+   },
+   {
+    "v": "10px",
+    "w": 18
+   },
+   {
+    "v": "18px",
+    "w": 16
+   },
+   {
+    "v": "11px",
+    "w": 15
+   },
+   {
+    "v": "20px",
+    "w": 14
+   },
+   {
+    "v": "118px",
+    "w": 10
+   },
+   {
+    "v": "9px",
+    "w": 9
+   }
+  ],
+  "radius": [],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "ease 0.4s",
+    "w": 37
+   },
+   {
+    "v": "ease 0.3s",
+    "w": 9
+   },
+   {
+    "v": "ease 0.5s",
+    "w": 5
+   },
+   {
+    "v": "cubic-bezier(0.75 0.7s",
+    "w": 4
+   },
+   {
+    "v": "cubic-bezier(0.75 1.2s",
+    "w": 3
+   },
+   {
+    "v": "cubic-bezier(0.75 0.8s",
+    "w": 2
+   },
+   {
+    "v": "ease 0.6s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "Thunder, sans-serif",
+    "size": "80px",
+    "weight": "800",
+    "lineHeight": "64px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#000000",
+    "sample": "Serotoninn"
+   },
+   "h2": {
+    "family": "Thunder, sans-serif",
+    "size": "20px",
+    "weight": "500",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#ed3833",
+    "sample": "03. Campaign"
+   },
+   "h3": {
+    "family": "Inter",
+    "size": "12px",
+    "weight": "600",
+    "lineHeight": "12px",
+    "letterSpacing": "-0.4px",
+    "transform": "uppercase",
+    "color": "#000000",
+    "sample": "Backless Knit Maxi Dress"
+   },
+   "p": {
+    "family": "Thunder, sans-serif",
+    "size": "20px",
+    "weight": "500",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#ed3833",
+    "sample": "SEARCH"
+   },
+   "a": {
+    "family": "\"PP Fraktion Mono\", monospace",
+    "size": "13px",
+    "weight": "400",
+    "lineHeight": "13px",
+    "letterSpacing": "-1.2px",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "Shop all"
+   },
+   "button": {
+    "family": "\"PP Fraktion Mono\", monospace",
+    "size": "13px",
+    "weight": "400",
+    "lineHeight": "13px",
+    "letterSpacing": "-1.2px",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "menu"
+   },
+   "li": {
+    "family": "Thunder, sans-serif",
+    "size": "10px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "menu"
+   },
+   "body": {
+    "family": "Thunder, sans-serif",
+    "size": "10px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "menu Bag.0 Shop all Search Categories Favorites.0 [ 5-HT ] \"/> SEARCH [ no resul"
+   }
+  },
+  "cssVars": {
+   "--swiper-theme-color": "#007aff",
+   "--f-spinner-width": "36px",
+   "--f-spinner-height": "36px",
+   "--f-spinner-color-1": "rgba(0,0,0,.1)",
+   "--f-spinner-color-2": "rgba(17,24,28,.8)",
+   "--f-spinner-stroke": "2.75",
+   "--f-button-width": "40px",
+   "--f-button-height": "40px",
+   "--f-button-border": "0",
+   "--f-button-border-radius": "0",
+   "--f-button-color": "#374151",
+   "--f-button-bg": "#f8f8f8",
+   "--f-button-hover-bg": "#e0e0e0",
+   "--f-button-active-bg": "#d0d0d0",
+   "--f-button-shadow": "none",
+   "--f-button-transition": "all .15s ease",
+   "--f-button-transform": "none",
+   "--f-button-svg-width": "20px",
+   "--f-button-svg-height": "20px",
+   "--f-button-svg-stroke-width": "1.5",
+   "--f-button-svg-fill": "none",
+   "--f-button-svg-filter": "none",
+   "--f-button-svg-disabled-opacity": ".65",
+   "--wp--preset--aspect-ratio--square": "1",
+   "--wp--preset--aspect-ratio--4-3": "4/3",
+   "--wp--preset--aspect-ratio--3-4": "3/4",
+   "--wp--preset--aspect-ratio--3-2": "3/2",
+   "--wp--preset--aspect-ratio--2-3": "2/3",
+   "--wp--preset--aspect-ratio--16-9": "16/9",
+   "--wp--preset--aspect-ratio--9-16": "9/16",
+   "--wp--preset--color--black": "#000000",
+   "--wp--preset--color--cyan-bluish-gray": "#abb8c3",
+   "--wp--preset--color--white": "#ffffff",
+   "--wp--preset--color--pale-pink": "#f78da7",
+   "--wp--preset--color--vivid-red": "#cf2e2e",
+   "--wp--preset--color--luminous-vivid-orange": "#ff6900",
+   "--wp--preset--color--luminous-vivid-amber": "#fcb900",
+   "--wp--preset--color--light-green-cyan": "#7bdcb5",
+   "--wp--preset--color--vivid-green-cyan": "#00d084",
+   "--wp--preset--color--pale-cyan-blue": "#8ed1fc",
+   "--wp--preset--color--vivid-cyan-blue": "#0693e3",
+   "--wp--preset--color--vivid-purple": "#9b51e0",
+   "--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple": "linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%)",
+   "--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan": "linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%)",
+   "--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange": "linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%)",
+   "--wp--preset--gradient--luminous-vivid-orange-to-vivid-red": "linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%)",
+   "--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray": "linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%)",
+   "--wp--preset--gradient--cool-to-warm-spectrum": "linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 1",
+   "--wp--preset--gradient--blush-light-purple": "linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%)",
+   "--wp--preset--gradient--blush-bordeaux": "linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%)",
+   "--wp--preset--gradient--luminous-dusk": "linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%)",
+   "--wp--preset--gradient--pale-ocean": "linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%)",
+   "--wp--preset--gradient--electric-grass": "linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%)",
+   "--wp--preset--gradient--midnight": "linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%)",
+   "--wp--preset--font-size--small": "13px",
+   "--wp--preset--font-size--medium": "20px",
+   "--wp--preset--font-size--large": "36px",
+   "--wp--preset--font-size--x-large": "42px",
+   "--wp--preset--spacing--20": "0.44rem",
+   "--wp--preset--spacing--30": "0.67rem",
+   "--wp--preset--spacing--40": "1rem",
+   "--wp--preset--spacing--50": "1.5rem",
+   "--wp--preset--spacing--60": "2.25rem",
+   "--wp--preset--spacing--70": "3.38rem",
+   "--wp--preset--spacing--80": "5.06rem",
+   "--wp--preset--shadow--natural": "6px 6px 9px rgba(0, 0, 0, 0.2)",
+   "--wp--preset--shadow--deep": "12px 12px 50px rgba(0, 0, 0, 0.4)",
+   "--wp--preset--shadow--sharp": "6px 6px 0px rgba(0, 0, 0, 0.2)",
+   "--wp--preset--shadow--outlined": "6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0)",
+   "--wp--preset--shadow--crisp": "6px 6px 0px rgb(0, 0, 0)"
+  },
+  "fontFaces": [
+   {
+    "family": "swiper-icons",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"data:application/font-woff;charset=utf-8;base64, d09GRgABAAAAAAZgABAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAAGRAAAABoAAAAci6qHkUdERUYAAAWgAAAAIwAAACQAYABXR1BPUwAABhQAAAAuAAAANuAY7+xHU1VCAA"
+   },
+   {
+    "family": "Thunder",
+    "weight": "100",
+    "style": "normal",
+    "src": "url(\"/fonts/Thunder-ThinLC.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Thunder",
+    "weight": "200",
+    "style": "normal",
+    "src": "url(\"/fonts/Thunder-ExtraLightLC.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Thunder",
+    "weight": "300",
+    "style": "normal",
+    "src": "url(\"/fonts/Thunder-LightLC.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Thunder",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/fonts/Thunder-LC.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Thunder",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"/fonts/Thunder-MediumLC.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Thunder",
+    "weight": "600",
+    "style": "normal",
+    "src": "url(\"/fonts/Thunder-SemiBoldLC.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Thunder",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"/fonts/Thunder-BoldLC.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Thunder",
+    "weight": "800",
+    "style": "normal",
+    "src": "url(\"/fonts/Thunder-ExtraBoldLC.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Thunder",
+    "weight": "900",
+    "style": "normal",
+    "src": "url(\"/fonts/Thunder-BlackLC.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "PP Fraktion Mono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/fonts/PPFraktionMono-Regular-BF675904a6a1564.otf\") format(\"opentype\")"
+   },
+   {
+    "family": "PP Fraktion Mono",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"/fonts/PPFraktionMono-Bold-BF675904a6c4c6e.otf\") format(\"opentype\")"
+   }
+  ],
+  "keyframes": [
+   "swiper-preloader-spin",
+   "f-spinner-rotate",
+   "f-spinner-dash",
+   "f-throwOutUp",
+   "f-throwOutDown",
+   "f-zoomInUp",
+   "f-zoomOutDown",
+   "f-fadeIn",
+   "f-fadeOut",
+   "f-fadeFastIn",
+   "f-fadeFastOut",
+   "f-fadeSlowIn",
+   "f-fadeSlowOut",
+   "f-crossfadeIn",
+   "f-crossfadeOut",
+   "f-slideInPrev",
+   "f-slideInNext",
+   "f-slideOutNext",
+   "f-slideOutPrev",
+   "f-classicInNext",
+   "f-classicInPrev",
+   "f-classicOutNext",
+   "f-classicOutPrev"
+  ],
+  "breakpoints": [
+   {
+    "v": "768px",
+    "w": 29
+   },
+   {
+    "v": "1024px",
+    "w": 23
+   },
+   {
+    "v": "767px",
+    "w": 8
+   },
+   {
+    "v": "1023px",
+    "w": 5
+   }
+  ],
+  "rulesCount": 1488,
+  "crossOriginSheets": 1
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "pin-spacer",
+    "h": 900,
+    "top": 0,
+    "title": "Serotoninn",
+    "media": 25
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "arrivals-section",
+    "h": 876,
+    "top": 900,
+    "title": "02. New Arrivals",
+    "media": 152
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "campaign-section",
+    "h": 900,
+    "top": 1776,
+    "title": "03. Campaign",
+    "media": 1
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "categories-section",
+    "h": 926,
+    "top": 2676,
+    "title": "04. CATEGORIES",
+    "media": 148
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "best-section",
+    "h": 1061,
+    "top": 3602,
+    "title": "05. CATEGORIES",
+    "media": 4
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "bold-section",
+    "h": 810,
+    "top": 4663,
+    "title": "SPACE (transformation)",
+    "media": 10
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "motion-section",
+    "h": 1800,
+    "top": 5473,
+    "title": "07. serotoninn film",
+    "media": 4
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "Shop all",
+    "href": "https://serotoninn.com/all-products/"
+   },
+   {
+    "t": "[ 5-HT ]",
+    "href": "https://serotoninn.com/"
+   },
+   {
+    "t": "",
+    "href": "https://serotoninn.com/"
+   }
+  ],
+  "ctas": [],
+  "pageHeight": 7833,
+  "counts": {
+   "canvas": 0,
+   "videos": 31,
+   "imgs": 395,
+   "svgs": 11,
+   "iframes": 0,
+   "domNodes": 3678
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": false,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": true,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": true,
+  "webflow": false,
+  "framer": false,
+  "wordpress": true,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [
+   "fbevents"
+  ],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": false
+ },
+ "scripts": [
+  "https://connect.facebook.net/signals/config/1665769257981189?v=2.9.435&r=stable&domain=serotoninn.com&optin_meta_enabled_capi=true&hme=4453c87d489b6902031c012cadd2731893cd69feb64fe8a61b339727247a7703&ex_m=118%2C242%2C171%2C27%2C82%2C83%2C162%2C78%2C77%2C11%2C181%2C102%2C20%2C153%2C141%2C46%2C85%2C90%2C149%2C176%2C183%2C8%2C4%2C5%2C7%2C6%2C3%2C103%2C115%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C37%2C55%2C163%2C87%2C126%2C22%2C24%2C51%2C47%2C49%2C48%2C95%2C104%2C108%2C124%2C160%2C164%2C53%2C125%2C29%2C26%2C133%2C79%2C43%2C166%2C165%2C167%2C157%2C155%2C30%2C42%2C66%2C123%2C178%2C80%2C21%2C128%2C93%2C76%2C23%2C97%2C98%2C130%2C96%2C151%2C150%2C154%2C109%2C177%2C180%2C41%2C56%2C127%2C54%2C161%2C72%2C185%2C110%2C184%2C211%2C263%2C84%2C283%2C282%2C281%2C14%2C25%2C28%2C40%2C62%2C117%2C68%2C10%2C73%2C111%2C112%2C113%2C119%2C144%2C38%2C36%2C146%2C147%2C148%2C143%2C142%2C172%2C86%2C175%2C173%2C174%2C57%2C69%2C67%2C137%2C19%2C179%2C52%2C333%2C334%2C335%2C332%2C349%2C371%2C256%2C238%2C70%2C239%2C237%2C374%2C365%2C59%2C257%2C121%2C145%2C92%2C135%2C61%2C134%2C140%2C139%2C65%2C74%2C168%2C88%2C89%2C129%2C44%2C39%2C60%2C63%2C114%2C182%2C1%2C138%2C16%2C136%2C12%2C2%2C64%2C105%2C15%2C75%2C71%2C132%2C101%2C100%2C187%2C188%2C106%2C107%2C9%2C116%2C186%2C58%2C158%2C99%2C91%2C81%2C131%2C120%2C169%2C50%2C159%2C0%2C94%2C152%2C156%2C170%2C45%2C122%2C13%2C189",
+  "https://connect.facebook.net/en_US/fbevents.js",
+  "https://serotoninn.com/wp-content/themes/ref/js/main.js",
+  "https://serotoninn.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+  "https://serotoninn.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+  "https://serotoninn.com/wp-content/themes/ref/js/add-to-cart.js",
+  "https://serotoninn.com/wp-content/themes/ref/js/mail.js",
+  "https://serotoninn.com/wp-content/plugins/pixelyoursite/dist/scripts/jquery.bind-first-0.2.3.min.js?ver=0.2.3",
+  "https://serotoninn.com/wp-content/plugins/pixelyoursite/dist/scripts/js.cookie-2.1.3.min.js?ver=2.1.3",
+  "https://serotoninn.com/wp-content/plugins/pixelyoursite/dist/scripts/sha256.js?ver=0.11.0",
+  "https://serotoninn.com/wp-content/plugins/pixelyoursite/dist/scripts/tld.min.js?ver=2.3.1",
+  "https://serotoninn.com/wp-content/plugins/pixelyoursite/dist/scripts/public.js?ver=11.4.0"
+ ],
+ "internal": [
+  "https://serotoninn.com/all-products/",
+  "https://serotoninn.com/products/backless-knit-maxi-dress/",
+  "https://serotoninn.com/products/crinkled-top/",
+  "https://serotoninn.com/products/faux-fur-top/",
+  "https://serotoninn.com/products/velvet-bra-top/",
+  "https://serotoninn.com/products/dune-gown/",
+  "https://serotoninn.com/products/faux-fur-coat/",
+  "https://serotoninn.com/products/sunna-dress/",
+  "https://serotoninn.com/products/oversize-silk-dress/",
+  "https://serotoninn.com/products/silk-maxi-skirt-ecru/",
+  "https://serotoninn.com/products/architecture-dress/",
+  "https://serotoninn.com/products/draped-corset/",
+  "https://serotoninn.com/products/halter-neck-dress-in-blue/",
+  "https://serotoninn.com/collections/",
+  "https://serotoninn.com/%D1%81ampaign/",
+  "https://serotoninn.com/about/",
+  "https://serotoninn.com/contact/",
+  "https://serotoninn.com/media/",
+  "https://serotoninn.com/all-products/sale/",
+  "https://serotoninn.com/terms/",
+  "https://serotoninn.com/all-products/new-drop/",
+  "https://serotoninn.com/all-products/accessories/",
+  "https://serotoninn.com/all-products/bodys/",
+  "https://serotoninn.com/all-products/coats/",
+  "https://serotoninn.com/all-products/corsets/",
+  "https://serotoninn.com/all-products/dresses/",
+  "https://serotoninn.com/all-products/jackets/",
+  "https://serotoninn.com/all-products/pants/",
+  "https://serotoninn.com/all-products/skirts/",
+  "https://serotoninn.com/all-products/special-edition/",
+  "https://serotoninn.com/all-products/tops/",
+  "https://serotoninn.com/products/witch-velvet-corset/",
+  "https://serotoninn.com/products/faux-leather-bra-top/",
+  "https://serotoninn.com/products/mesh-dress/",
+  "https://serotoninn.com/products/sparkling-mini-dress/",
+  "https://serotoninn.com/products/classic-knit-maxi-dress/",
+  "https://serotoninn.com/products/architecture-trousers/",
+  "https://serotoninn.com/products/slimming-bodysuit-yellow-corset-body-in-energizing-yellow/",
+  "https://serotoninn.com/products/lurex-mini-dress-with-cross-at-the-back/"
+ ],
+ "perf": {
+  "ttfb": 2462,
+  "dcl": 3576,
+  "load": 4213,
+  "lcp": 2892,
+  "lcpEl": "H3.hero-card__title",
+  "cls": 0.041
+ },
+ "libs": {
+  "detected": [
+   "Swiper",
+   "Lenis",
+   "Lottie",
+   "jQuery",
+   "GSAP",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Virtual scroll",
+   "Barba.js"
+  ],
+  "where": {
+   "Swiper": [
+    "001-arrivals-anim.js",
+    "001-main.js",
+    "004-arrivals-anim.js",
+    "004-main.js",
+    "006-add-to-cart.js",
+    "007-add-to-cart.js",
+    "008-loader.js",
+    "009-loader.js"
+   ],
+   "Lenis": [
+    "001-main.js",
+    "004-main.js",
+    "006-add-to-cart.js",
+    "007-add-to-cart.js",
+    "008-loader.js",
+    "009-loader.js",
+    "styles.css"
+   ],
+   "Lottie": [
+    "001-main.js",
+    "002-footer-anim.js",
+    "003-footer-anim.js",
+    "004-main.js",
+    "006-add-to-cart.js",
+    "007-add-to-cart.js",
+    "008-loader.js",
+    "009-loader.js"
+   ],
+   "jQuery": [
+    "005-jquery.min.js",
+    "006-jquery-migrate.min.js",
+    "008-jquery.min.js",
+    "009-jquery-migrate.min.js",
+    "010-jquery.bind-first-0.2.3.min.js",
+    "012-public.js",
+    "013-public.js"
+   ],
+   "GSAP": [
+    "008-loader.js",
+    "009-loader.js"
+   ],
+   "ScrollTrigger": [
+    "008-loader.js",
+    "009-loader.js"
+   ],
+   "SplitText/SplitType": [
+    "008-loader.js",
+    "009-loader.js"
+   ],
+   "Virtual scroll": [
+    "008-loader.js",
+    "009-loader.js"
+   ],
+   "Barba.js": [
+    "013-tld.min.js",
+    "014-tld.min.js"
+   ]
+  },
+  "gsapVersion": "3.14.2",
+  "threeRevision": null,
+  "shaders": 0,
+  "scripts": 27
+ },
+ "network": {
+  "requests": 343,
+  "totalKb": 43197,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 43
+   },
+   "Stylesheet": {
+    "n": 4,
+    "kb": 29
+   },
+   "Script": {
+    "n": 16,
+    "kb": 551
+   },
+   "Image": {
+    "n": 300,
+    "kb": 22718
+   },
+   "Font": {
+    "n": 12,
+    "kb": 365
+   },
+   "Media": {
+    "n": 7,
+    "kb": 17613
+   },
+   "XHR": {
+    "n": 2,
+    "kb": 1867
+   },
+   "Other": {
+    "n": 1,
+    "kb": 12
+   }
+  },
+  "thirdPartyHosts": [
+   "fonts.googleapis.com",
+   "fonts.gstatic.com",
+   "connect.facebook.net",
+   "www.facebook.com"
+  ],
+  "fontFiles": [
+   "https://fonts.gstatic.com/s/inter/v20/UcCo3FwrK3iLTcviYwY.woff2",
+   "https://serotoninn.com/fonts/PPFraktionMono-Regular-BF675904a6a1564.otf",
+   "https://serotoninn.com/fonts/Thunder-ThinLC.woff2",
+   "https://serotoninn.com/fonts/Thunder-LC.woff2",
+   "https://serotoninn.com/fonts/Thunder-ExtraBoldLC.woff2",
+   "https://serotoninn.com/fonts/Thunder-MediumLC.woff2",
+   "https://serotoninn.com/fonts/Thunder-LightLC.woff2",
+   "https://serotoninn.com/fonts/Thunder-SemiBoldLC.woff2",
+   "https://serotoninn.com/fonts/Thunder-ExtraLightLC.woff2",
+   "https://serotoninn.com/fonts/Thunder-BoldLC.woff2",
+   "https://serotoninn.com/fonts/Thunder-BlackLC.woff2",
+   "https://serotoninn.com/fonts/PPFraktionMono-Bold-BF675904a6c4c6e.otf"
+  ],
+  "biggest": [
+   {
+    "url": "https://serotoninn.com/wp-content/themes/ref/media/campaign_video.webm",
+    "kb": 8937,
+    "type": "Media"
+   },
+   {
+    "url": "https://serotoninn.com/wp-content/uploads/2026/05/menu_video_n.mp4",
+    "kb": 4073,
+    "type": "Media"
+   },
+   {
+    "url": "https://serotoninn.com/wp-content/themes/ref/media/menu_video_n.mp4",
+    "kb": 4073,
+    "type": "Media"
+   },
+   {
+    "url": "https://serotoninn.com/wp-content/themes/ref/lottie/FOOTER_LOTTIE_v1.json",
+    "kb": 1867,
+    "type": "XHR"
+   },
+   {
+    "url": "https://serotoninn.com/wp-content/uploads/2026/03/Desktop-5-scaled.png.pagespeed.ce.ARfGYtpa8a.png",
+    "kb": 1065,
+    "type": "Image"
+   },
+   {
+    "url": "https://serotoninn.com/wp-content/uploads/2026/04/%D0%B8%D1%83%D0%BA%D0%B4%D1%88%D1%82-scaled.png",
+    "kb": 953,
+    "type": "Image"
+   },
+   {
+    "url": "https://serotoninn.com/wp-content/uploads/2026/04/Hero_image2-scaled.png.pagespeed.ce.LTcZ8Bb-WX.png",
+    "kb": 934,
+    "type": "Image"
+   },
+   {
+    "url": "https://serotoninn.com/wp-content/uploads/2026/04/01.Main_screen-scaled.png.pagespeed.ce.aMss6uOejb.png",
+    "kb": 926,
+    "type": "Image"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "66.56px",
+   "lineHeight": "53.04px"
+  },
+  "body": "10.4px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 103
+}

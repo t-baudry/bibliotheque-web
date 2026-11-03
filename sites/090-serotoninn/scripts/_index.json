@@ -1,48 +1,48 @@
 [
  {
-  "file": "001-main.js",
-  "url": "https://serotoninn.com/wp-content/themes/ref/js/main.js",
-  "kb": 38
- },
- {
-  "file": "002-custom-cursor.js",
-  "url": "https://serotoninn.com/wp-content/themes/ref/js/custom-cursor.js",
-  "kb": 4
- },
- {
-  "file": "003-footer-anim.js",
-  "url": "https://serotoninn.com/wp-content/themes/ref/js/footer-anim.js",
-  "kb": 5
- },
- {
-  "file": "004-arrivals-anim.js",
+  "file": "001-arrivals-anim.js",
   "url": "https://serotoninn.com/wp-content/themes/ref/js/arrivals-anim.js",
   "kb": 6
  },
  {
-  "file": "005-jquery.min.js",
-  "url": "https://serotoninn.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
-  "kb": 86
+  "file": "002-footer-anim.js",
+  "url": "https://serotoninn.com/wp-content/themes/ref/js/footer-anim.js",
+  "kb": 5
  },
  {
-  "file": "006-add-to-cart.js",
-  "url": "https://serotoninn.com/wp-content/themes/ref/js/add-to-cart.js",
-  "kb": 34
+  "file": "003-custom-cursor.js",
+  "url": "https://serotoninn.com/wp-content/themes/ref/js/custom-cursor.js",
+  "kb": 4
  },
  {
-  "file": "007-mail.js",
+  "file": "004-main.js",
+  "url": "https://serotoninn.com/wp-content/themes/ref/js/main.js",
+  "kb": 38
+ },
+ {
+  "file": "005-mail.js",
   "url": "https://serotoninn.com/wp-content/themes/ref/js/mail.js",
   "kb": 5
  },
  {
-  "file": "008-loader.js",
-  "url": "https://serotoninn.com/wp-content/themes/ref/js/loader.js",
-  "kb": 783
- },
- {
-  "file": "009-jquery-migrate.min.js",
+  "file": "006-jquery-migrate.min.js",
   "url": "https://serotoninn.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
   "kb": 13
+ },
+ {
+  "file": "007-add-to-cart.js",
+  "url": "https://serotoninn.com/wp-content/themes/ref/js/add-to-cart.js",
+  "kb": 34
+ },
+ {
+  "file": "008-jquery.min.js",
+  "url": "https://serotoninn.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+  "kb": 86
+ },
+ {
+  "file": "009-loader.js",
+  "url": "https://serotoninn.com/wp-content/themes/ref/js/loader.js",
+  "kb": 783
  },
  {
   "file": "010-jquery.bind-first-0.2.3.min.js",
@@ -50,23 +50,23 @@
   "kb": 1
  },
  {
-  "file": "011-sha256.js",
-  "url": "https://serotoninn.com/wp-content/plugins/pixelyoursite/dist/scripts/sha256.js?ver=0.11.0",
-  "kb": 21
- },
- {
-  "file": "012-js.cookie-2.1.3.min.js",
+  "file": "011-js.cookie-2.1.3.min.js",
   "url": "https://serotoninn.com/wp-content/plugins/pixelyoursite/dist/scripts/js.cookie-2.1.3.min.js?ver=2.1.3",
   "kb": 2
  },
  {
-  "file": "013-public.js",
+  "file": "012-public.js",
   "url": "https://serotoninn.com/wp-content/plugins/pixelyoursite/dist/scripts/public.js?ver=11.4.0",
   "kb": 199
  },
  {
-  "file": "014-tld.min.js",
+  "file": "013-tld.min.js",
   "url": "https://serotoninn.com/wp-content/plugins/pixelyoursite/dist/scripts/tld.min.js?ver=2.3.1",
   "kb": 138
+ },
+ {
+  "file": "014-sha256.js",
+  "url": "https://serotoninn.com/wp-content/plugins/pixelyoursite/dist/scripts/sha256.js?ver=0.11.0",
+  "kb": 21
  }
 ]

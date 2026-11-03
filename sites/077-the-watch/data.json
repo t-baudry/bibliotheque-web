@@ -1,0 +1,783 @@
+{
+ "id": 77,
+ "name": "The Watch",
+ "sourceUrl": "https://thewatch.60fps.fr/",
+ "capturedAt": "2026-11-03T09:12:52.597Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg",
+   "desktop-13.jpg",
+   "desktop-14.jpg"
+  ],
+  "fullPage": 34586,
+  "subpages": [],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://thewatch.60fps.fr/",
+ "title": "FS 60P - The timeless automatic watch by 60fps",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": null,
+  "canonical": null,
+  "robots": null,
+  "ogTitle": "FS 60P - The timeless automatic watch by 60fps",
+  "ogImage": "https://thewatch.60fps.fr/share-image.webp",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [],
+  "h1Count": 1,
+  "headings": [
+   "H1 FS 60P",
+   "H3 Tourbillon",
+   "H3 Mainplate",
+   "H3 Dial",
+   "H3 Barrel",
+   "H3 Backplate",
+   "H3 Weight",
+   "H2 Elegant Contours",
+   "H2 Slim Profile",
+   "H2 Bracelet",
+   "H3 MODEL146GR"
+  ],
+  "imgs": 15,
+  "imgNoAlt": 15,
+  "favicon": "https://thewatch.60fps.fr/favicon.png",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#ebebeb",
+    "w": 5130000
+   },
+   {
+    "v": "#a1a1a1",
+    "w": 3847500
+   },
+   {
+    "v": "#0a0a0a",
+    "w": 3847500
+   },
+   {
+    "v": "#bcbcbc",
+    "w": 3920
+   },
+   {
+    "v": "#323232",
+    "w": 1960
+   },
+   {
+    "v": "#b9b6bd",
+    "w": 42
+   }
+  ],
+  "text": [
+   {
+    "v": "#000000",
+    "w": 662
+   },
+   {
+    "v": "#ffffff",
+    "w": 234
+   },
+   {
+    "v": "#bcbcbc",
+    "w": 50
+   },
+   {
+    "v": "#323232",
+    "w": 40
+   },
+   {
+    "v": "#dddddd",
+    "w": 18
+   }
+  ],
+  "border": [
+   {
+    "v": "#c8c8c8",
+    "w": 1
+   }
+  ],
+  "fonts": [
+   {
+    "v": "Inter",
+    "w": 784
+   },
+   {
+    "v": "Nekst",
+    "w": 153
+   },
+   {
+    "v": "Times New Roman",
+    "w": 67
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "12px",
+    "w": 114
+   },
+   {
+    "v": "80px",
+    "w": 36
+   },
+   {
+    "v": "192px",
+    "w": 28
+   },
+   {
+    "v": "350px",
+    "w": 15
+   },
+   {
+    "v": "16.875px",
+    "w": 10
+   },
+   {
+    "v": "360px",
+    "w": 10
+   },
+   {
+    "v": "25px",
+    "w": 10
+   },
+   {
+    "v": "60px",
+    "w": 8
+   },
+   {
+    "v": "9px",
+    "w": 4
+   },
+   {
+    "v": "270px",
+    "w": 4
+   },
+   {
+    "v": "190px",
+    "w": 3
+   },
+   {
+    "v": "10px",
+    "w": 2
+   },
+   {
+    "v": "50px",
+    "w": 2
+   },
+   {
+    "v": "11px",
+    "w": 1
+   },
+   {
+    "v": "1.40625px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "50%",
+    "w": 2
+   },
+   {
+    "v": "5px",
+    "w": 1
+   },
+   {
+    "v": "4px",
+    "w": 1
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.215 1s",
+    "w": 4
+   },
+   {
+    "v": "cubic-bezier(0.215 3s",
+    "w": 4
+   },
+   {
+    "v": "ease-in-out 0.5s",
+    "w": 4
+   },
+   {
+    "v": "ease-in-out 4s",
+    "w": 3
+   },
+   {
+    "v": "ease-out 0.8s",
+    "w": 1
+   },
+   {
+    "v": "cubic-bezier(0.645 1s",
+    "w": 1
+   },
+   {
+    "v": "ease-out 0.3s",
+    "w": 1
+   },
+   {
+    "v": "linear 0.5s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "Nekst, sans-serif",
+    "size": "350px",
+    "weight": "400",
+    "lineHeight": "280px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#000000",
+    "sample": "FS 60P"
+   },
+   "h3": {
+    "family": "Nekst, sans-serif",
+    "size": "192px",
+    "weight": "400",
+    "lineHeight": "149.76px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "MODEL146GR"
+   },
+   "p": {
+    "family": "Inter, sans-serif",
+    "size": "9px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "SWAP"
+   },
+   "li": {
+    "family": "\"Times New Roman\"",
+    "size": "11px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Dial 01 Mechanism 11 Gr"
+   },
+   "body": {
+    "family": "\"Times New Roman\"",
+    "size": "1.40625px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Now loading Main SWAP SWAP SWAP SWAP HOLD TOEXPLORE SELECTMODEL FS 60P FS 60P Co"
+   }
+  },
+  "cssVars": {
+   "--vh": "1vh"
+  },
+  "fontFaces": [
+   {
+    "family": "Nekst",
+    "weight": "100",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/Nekst/Nekst-Thin.woff2\") format(\"woff2\"), url(\"/assets/fonts/Nekst/Nekst-Thin.woff\") format(\"woff\"), url(\"/assets/fonts/Nekst/Nekst-Thin.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Nekst",
+    "weight": "300",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/Nekst/Nekst-Light.woff2\") format(\"woff2\"), url(\"/assets/fonts/Nekst/Nekst-Light.woff\") format(\"woff\"), url(\"/assets/fonts/Nekst/Nekst-Light.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Nekst",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/Nekst/Nekst-Regular.woff2\") format(\"woff2\"), url(\"/assets/fonts/Nekst/Nekst-Regular.woff\") format(\"woff\"), url(\"/assets/fonts/Nekst/Nekst-Regular.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Nekst",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/Nekst/Nekst-Medium.woff2\") format(\"woff2\"), url(\"/assets/fonts/Nekst/Nekst-Medium.woff\") format(\"woff\"), url(\"/assets/fonts/Nekst/Nekst-Medium.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Nekst",
+    "weight": "600",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/Nekst/Nekst-SemiBold.woff2\") format(\"woff2\"), url(\"/assets/fonts/Nekst/Nekst-SemiBold.woff\") format(\"woff\"), url(\"/assets/fonts/Nekst/Nekst-SemiBold.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Nekst",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/Nekst/Nekst-Bold.woff2\") format(\"woff2\"), url(\"/assets/fonts/Nekst/Nekst-Bold.woff\") format(\"woff\"), url(\"/assets/fonts/Nekst/Nekst-Bold.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Nekst",
+    "weight": "900",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/Nekst/Nekst-Black.woff2\") format(\"woff2\"), url(\"/assets/fonts/Nekst/Nekst-Black.woff\") format(\"woff\"), url(\"/assets/fonts/Nekst/Nekst-Black.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "100",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/Inter/Inter-Thin.woff2\") format(\"woff2\"), url(\"/assets/fonts/Inter/Inter-Thin.woff\") format(\"woff\"), url(\"/assets/fonts/Inter/Inter-Thin.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "200",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/Inter/Inter-ExtraLight.woff2\") format(\"woff2\"), url(\"/assets/fonts/Inter/Inter-ExtraLight.woff\") format(\"woff\"), url(\"/assets/fonts/Inter/Inter-ExtraLight.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "300",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/Inter/Inter-Light.woff2\") format(\"woff2\"), url(\"/assets/fonts/Inter/Inter-Light.woff\") format(\"woff\"), url(\"/assets/fonts/Inter/Inter-Light.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/Inter/Inter-Regular.woff2\") format(\"woff2\"), url(\"/assets/fonts/Inter/Inter-Regular.woff\") format(\"woff\"), url(\"/assets/fonts/Inter/Inter-Regular.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/Inter/Inter-Medium.woff2\") format(\"woff2\"), url(\"/assets/fonts/Inter/Inter-Medium.woff\") format(\"woff\"), url(\"/assets/fonts/Inter/Inter-Medium.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "600",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/Inter/Inter-SemiBold.woff2\") format(\"woff2\"), url(\"/assets/fonts/Inter/Inter-SemiBold.woff\") format(\"woff\"), url(\"/assets/fonts/Inter/Inter-SemiBold.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/Inter/Inter-Bold.woff2\") format(\"woff2\"), url(\"/assets/fonts/Inter/Inter-Bold.woff\") format(\"woff\"), url(\"/assets/fonts/Inter/Inter-Bold.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/Inter/Inter-ExtraBold.woff2\") format(\"woff2\"), url(\"/assets/fonts/Inter/Inter-ExtraBold.woff\") format(\"woff\"), url(\"/assets/fonts/Inter/Inter-ExtraBold.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "900",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/Inter/Inter-Black.woff2\") format(\"woff2\"), url(\"/assets/fonts/Inter/Inter-Black.woff\") format(\"woff\"), url(\"/assets/fonts/Inter/Inter-Black.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Nekst",
+    "weight": "100",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/Nekst/Nekst-Thin.woff2\") format(\"woff2\"), url(\"/assets/fonts/Nekst/Nekst-Thin.woff\") format(\"woff\"), url(\"/assets/fonts/Nekst/Nekst-Thin.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Nekst",
+    "weight": "300",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/Nekst/Nekst-Light.woff2\") format(\"woff2\"), url(\"/assets/fonts/Nekst/Nekst-Light.woff\") format(\"woff\"), url(\"/assets/fonts/Nekst/Nekst-Light.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Nekst",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/Nekst/Nekst-Regular.woff2\") format(\"woff2\"), url(\"/assets/fonts/Nekst/Nekst-Regular.woff\") format(\"woff\"), url(\"/assets/fonts/Nekst/Nekst-Regular.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Nekst",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/Nekst/Nekst-Medium.woff2\") format(\"woff2\"), url(\"/assets/fonts/Nekst/Nekst-Medium.woff\") format(\"woff\"), url(\"/assets/fonts/Nekst/Nekst-Medium.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Nekst",
+    "weight": "600",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/Nekst/Nekst-SemiBold.woff2\") format(\"woff2\"), url(\"/assets/fonts/Nekst/Nekst-SemiBold.woff\") format(\"woff\"), url(\"/assets/fonts/Nekst/Nekst-SemiBold.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Nekst",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/Nekst/Nekst-Bold.woff2\") format(\"woff2\"), url(\"/assets/fonts/Nekst/Nekst-Bold.woff\") format(\"woff\"), url(\"/assets/fonts/Nekst/Nekst-Bold.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Nekst",
+    "weight": "900",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/Nekst/Nekst-Black.woff2\") format(\"woff2\"), url(\"/assets/fonts/Nekst/Nekst-Black.woff\") format(\"woff\"), url(\"/assets/fonts/Nekst/Nekst-Black.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "100",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/Inter/Inter-Thin.woff2\") format(\"woff2\"), url(\"/assets/fonts/Inter/Inter-Thin.woff\") format(\"woff\"), url(\"/assets/fonts/Inter/Inter-Thin.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "200",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/Inter/Inter-ExtraLight.woff2\") format(\"woff2\"), url(\"/assets/fonts/Inter/Inter-ExtraLight.woff\") format(\"woff\"), url(\"/assets/fonts/Inter/Inter-ExtraLight.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "300",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/Inter/Inter-Light.woff2\") format(\"woff2\"), url(\"/assets/fonts/Inter/Inter-Light.woff\") format(\"woff\"), url(\"/assets/fonts/Inter/Inter-Light.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/Inter/Inter-Regular.woff2\") format(\"woff2\"), url(\"/assets/fonts/Inter/Inter-Regular.woff\") format(\"woff\"), url(\"/assets/fonts/Inter/Inter-Regular.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/Inter/Inter-Medium.woff2\") format(\"woff2\"), url(\"/assets/fonts/Inter/Inter-Medium.woff\") format(\"woff\"), url(\"/assets/fonts/Inter/Inter-Medium.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "600",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/Inter/Inter-SemiBold.woff2\") format(\"woff2\"), url(\"/assets/fonts/Inter/Inter-SemiBold.woff\") format(\"woff\"), url(\"/assets/fonts/Inter/Inter-SemiBold.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/Inter/Inter-Bold.woff2\") format(\"woff2\"), url(\"/assets/fonts/Inter/Inter-Bold.woff\") format(\"woff\"), url(\"/assets/fonts/Inter/Inter-Bold.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/Inter/Inter-ExtraBold.woff2\") format(\"woff2\"), url(\"/assets/fonts/Inter/Inter-ExtraBold.woff\") format(\"woff\"), url(\"/assets/fonts/Inter/Inter-ExtraBold.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "900",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/Inter/Inter-Black.woff2\") format(\"woff2\"), url(\"/assets/fonts/Inter/Inter-Black.woff\") format(\"woff\"), url(\"/assets/fonts/Inter/Inter-Black.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Nekst",
+    "weight": "100",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/Nekst/Nekst-Thin.woff2\") format(\"woff2\"), url(\"/assets/fonts/Nekst/Nekst-Thin.woff\") format(\"woff\"), url(\"/assets/fonts/Nekst/Nekst-Thin.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Nekst",
+    "weight": "300",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/Nekst/Nekst-Light.woff2\") format(\"woff2\"), url(\"/assets/fonts/Nekst/Nekst-Light.woff\") format(\"woff\"), url(\"/assets/fonts/Nekst/Nekst-Light.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Nekst",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/Nekst/Nekst-Regular.woff2\") format(\"woff2\"), url(\"/assets/fonts/Nekst/Nekst-Regular.woff\") format(\"woff\"), url(\"/assets/fonts/Nekst/Nekst-Regular.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Nekst",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/Nekst/Nekst-Medium.woff2\") format(\"woff2\"), url(\"/assets/fonts/Nekst/Nekst-Medium.woff\") format(\"woff\"), url(\"/assets/fonts/Nekst/Nekst-Medium.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Nekst",
+    "weight": "600",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/Nekst/Nekst-SemiBold.woff2\") format(\"woff2\"), url(\"/assets/fonts/Nekst/Nekst-SemiBold.woff\") format(\"woff\"), url(\"/assets/fonts/Nekst/Nekst-SemiBold.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Nekst",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/Nekst/Nekst-Bold.woff2\") format(\"woff2\"), url(\"/assets/fonts/Nekst/Nekst-Bold.woff\") format(\"woff\"), url(\"/assets/fonts/Nekst/Nekst-Bold.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Nekst",
+    "weight": "900",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/Nekst/Nekst-Black.woff2\") format(\"woff2\"), url(\"/assets/fonts/Nekst/Nekst-Black.woff\") format(\"woff\"), url(\"/assets/fonts/Nekst/Nekst-Black.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "100",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/Inter/Inter-Thin.woff2\") format(\"woff2\"), url(\"/assets/fonts/Inter/Inter-Thin.woff\") format(\"woff\"), url(\"/assets/fonts/Inter/Inter-Thin.ttf\") format(\"truetype\")"
+   }
+  ],
+  "keyframes": [
+   "fill-circle",
+   "stroke"
+  ],
+  "breakpoints": [
+   {
+    "v": "1025px",
+    "w": 67
+   },
+   {
+    "v": "768px",
+    "w": 32
+   },
+   {
+    "v": "1024px",
+    "w": 2
+   },
+   {
+    "v": "1600px",
+    "w": 2
+   },
+   {
+    "v": "767px",
+    "w": 2
+   },
+   {
+    "v": "1441px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 672,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [],
+  "navLinks": [],
+  "ctas": [],
+  "pageHeight": 34586,
+  "counts": {
+   "canvas": 1,
+   "videos": 0,
+   "imgs": 15,
+   "svgs": 64,
+   "iframes": 1,
+   "domNodes": 847
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "162",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": true,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://thewatch.60fps.fr/assets/index-Ck-pEZ8v.js"
+ ],
+ "internal": [],
+ "perf": {
+  "ttfb": 161,
+  "dcl": 431,
+  "load": 1107,
+  "lcp": 256,
+  "lcpEl": "DIV",
+  "cls": 0.025
+ },
+ "libs": {
+  "detected": [
+   "GSAP",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Three.js",
+   "Svelte",
+   "Lenis"
+  ],
+  "where": {
+   "GSAP": [
+    "001-index-Ck-pEZ8v.js",
+    "002-the-watch.D6O26wKS.js"
+   ],
+   "ScrollTrigger": [
+    "001-index-Ck-pEZ8v.js",
+    "002-the-watch.D6O26wKS.js"
+   ],
+   "SplitText/SplitType": [
+    "001-index-Ck-pEZ8v.js"
+   ],
+   "Three.js": [
+    "001-index-Ck-pEZ8v.js"
+   ],
+   "Svelte": [
+    "001-index-Ck-pEZ8v.js",
+    "002-the-watch.D6O26wKS.js"
+   ],
+   "Lenis": [
+    "002-the-watch.D6O26wKS.js"
+   ]
+  },
+  "gsapVersion": "3.15.0",
+  "threeRevision": null,
+  "shaders": 26,
+  "scripts": 5
+ },
+ "network": {
+  "requests": 54,
+  "totalKb": 11670,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 2
+   },
+   "Stylesheet": {
+    "n": 4,
+    "kb": 11
+   },
+   "Script": {
+    "n": 5,
+    "kb": 292
+   },
+   "Font": {
+    "n": 2,
+    "kb": 139
+   },
+   "XHR": {
+    "n": 1,
+    "kb": 1
+   },
+   "Other": {
+    "n": 2,
+    "kb": 5
+   },
+   "Image": {
+    "n": 18,
+    "kb": 529
+   },
+   "Fetch": {
+    "n": 21,
+    "kb": 10691
+   }
+  },
+  "thirdPartyHosts": [
+   "use.typekit.net",
+   "p.typekit.net"
+  ],
+  "fontFiles": [
+   "https://thewatch.60fps.fr/assets/fonts/Inter/Inter-Regular.woff2",
+   "https://thewatch.60fps.fr/assets/fonts/Nekst/Nekst-Regular.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://thewatch.60fps.fr/assets/watch-DXFPNOEl.glb",
+    "kb": 8799,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://thewatch.60fps.fr/assets/envmap-kW4EmG7W.exr",
+    "kb": 1403,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://thewatch.60fps.fr/assets/metal-B47qzO42.exr",
+    "kb": 387,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://thewatch.60fps.fr/assets/index-Ck-pEZ8v.js",
+    "kb": 190,
+    "type": "Script"
+   },
+   {
+    "url": "https://thewatch.60fps.fr/assets/the-watch/img/images-section/first_4.webp",
+    "kb": 125,
+    "type": "Image"
+   },
+   {
+    "url": "https://thewatch.60fps.fr/assets/the-watch/img/images-section/first_3.webp",
+    "kb": 113,
+    "type": "Image"
+   },
+   {
+    "url": "https://thewatch.60fps.fr/assets/noise-solid-Lw93M9Kl.png",
+    "kb": 102,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://thewatch.60fps.fr/assets/the-watch/img/images-section/first_5.webp",
+    "kb": 102,
+    "type": "Image"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "100px",
+   "lineHeight": "80px"
+  },
+  "body": "1.21875px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 213
+}

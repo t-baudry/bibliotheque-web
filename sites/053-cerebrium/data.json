@@ -2,100 +2,1138 @@
  "id": 53,
  "name": "Cerebrium",
  "sourceUrl": "https://cerebrium.ai/",
- "capturedAt": "2026-11-03T00:04:08.777Z",
- "status": "inaccessible",
- "errors": [
-  "goto load: page.goto: Target page, context or browser has been closed",
-  "goto dcl: page.goto: Target page, context or browser has been closed",
-  "shot0 browserContext.newCDPSession: Target page, context or browser has been closed",
-  "extract: page.evaluate: Target page, context or browser has been closed",
-  "fullpage: page.evaluate: Target page, context or browser has been closed",
-  "browser.newContext: Target page, context or browser has been closed"
- ],
+ "capturedAt": "2026-11-03T08:51:28.763Z",
+ "status": "ok",
+ "errors": [],
  "steps": {
-  "cookies": [],
+  "cookies": [
+   "txt:Accept all"
+  ],
   "enter": null,
   "rea": "passe hors ligne (rea-pass.mjs)",
-  "desktopFrames": [],
-  "subpages": [],
-  "video": "desktop-scroll.webm"
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg",
+   "desktop-13.jpg",
+   "desktop-14.jpg"
+  ],
+  "fullPage": 10841,
+  "subpages": [
+   {
+    "url": "https://cerebrium.ai/use-cases/large-language-models",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://cerebrium.ai/pricing",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://cerebrium.ai/blog",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
  },
- "httpStatus": null,
+ "httpStatus": 200,
+ "url": "https://cerebrium.ai/",
+ "title": "Serverless GPU Infrastructure for Real-Time AI | Cerebrium",
+ "lang": "en",
+ "generator": "Astro v6.1.0",
+ "seo": {
+  "description": "Deploy voice agents, video models, and LLMs on serverless GPUs with sub-second cold starts. Pay-per-second pricing. No Kubernetes.",
+  "canonical": "https://cerebrium.ai/",
+  "robots": null,
+  "ogTitle": "Serverless GPU Infrastructure for Real-Time AI",
+  "ogImage": "https://www.datocms-assets.com/180613/1774904124-og-image.png?auto=format&fit=max&w=1200",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "Organization",
+   "WebSite",
+   "SoftwareApplication"
+  ],
+  "h1Count": 1,
+  "headings": [
+   "H1 Real-time AI infrastructure that scales with you",
+   "H2 Why Cerebrium",
+   "H3 Cerebrium (with snapshots)",
+   "H3 Cerebrium",
+   "H3 Provider A",
+   "H3 EKS/GKE",
+   "H3 Cerebrium (with snapshots)",
+   "H3 Cerebrium",
+   "H3 Provider A",
+   "H3 EKS/GKE",
+   "H3 Low-latency from the first request.",
+   "H3 No reservations, no lock-ins.",
+   "H3 Bring your own code. We’ll run it.",
+   "H3 End-to-end Observability for every workload.",
+   "H2 Security",
+   "H2 Built with Cerebrium",
+   "H3 500ms Low Latency Voice Agent",
+   "H3 Twilio voice agent with Pipecat",
+   "H3 Outbound agent with LiveKit",
+   "H3 Transcribe a 1 hour podcast",
+   "H3 Serving GPT-OSS with vLLM",
+   "H3 Deploy a VLM with SGLang",
+   "H3 Deploy Triton Inference server with TensorRT-LLM",
+   "H3 Hyperparameter Sweep training Llama 3.2 with WandB",
+   "H3 Deploy a Gradio Chat Interface",
+   "H3 Generate Images using SDXL",
+   "H3 High Throughput Server for Embeddings and Reranking",
+   "H2 Industries",
+   "H3 How Linkup Scales AI-Native Web Search with Cerebrium",
+   "H3 Scaling Resemble AI’s Real-Time Deepfake Detection Models with Cerebrium",
+   "H3 How DistilLabs is Delivering 50% Lower Inference Costs with Production-Grade Autoscaling o",
+   "H3 Lelapa AI uses Cerebrium to Break Language Barriers",
+   "H3 How bitHuman Scaled Digital Humans 10x Faster with Cerebrium",
+   "H3 How Tavus Scaled Human-like AI Experiences with Cerebrium",
+   "H3 Scaling AI Tutors: How Creatium Achieved 18x Faster Cold Starts with Cerebrium",
+   "H2 Features",
+   "H3 Latest from our blog",
+   "H3 A Low-Latency Architecture for Voice Agents with Real-time Web Search",
+   "H3 2026 GPU Buyer’s Guide",
+   "H3 Cerebrium Achieves SOC 2 Type II Compliance for Secure Production AI Infrastructure",
+   "H2 Use Cases",
+   "H2 Cerebrium",
+   "H2 We value your privacy"
+  ],
+  "imgs": 49,
+  "imgNoAlt": 49,
+  "favicon": "https://www.datocms-assets.com/180613/1770487378-iiynr41hlhnjq7vtreipiv8k6eo.png?auto=format&h=16&w=16",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#eef2f5",
+    "w": 4441386
+   },
+   {
+    "v": "#ffffff",
+    "w": 4131042
+   },
+   {
+    "v": "#dbe5ed",
+    "w": 2010210
+   },
+   {
+    "v": "#101421",
+    "w": 673659
+   },
+   {
+    "v": "#172b76",
+    "w": 220697
+   },
+   {
+    "v": "#cfd7e7",
+    "w": 70082
+   },
+   {
+    "v": "#ff488b",
+    "w": 28579
+   },
+   {
+    "v": "#22273e",
+    "w": 25072
+   },
+   {
+    "v": "#586490",
+    "w": 13068
+   },
+   {
+    "v": "#c6cee0",
+    "w": 2660
+   },
+   {
+    "v": "#7a7fb2",
+    "w": 1203
+   },
+   {
+    "v": "#90aade",
+    "w": 1203
+   }
+  ],
+  "text": [
+   {
+    "v": "#172b76",
+    "w": 2859
+   },
+   {
+    "v": "#ffffff",
+    "w": 1548
+   },
+   {
+    "v": "#586490",
+    "w": 494
+   },
+   {
+    "v": "#ff488b",
+    "w": 145
+   },
+   {
+    "v": "#c6cee0",
+    "w": 67
+   },
+   {
+    "v": "#101421",
+    "w": 59
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "Suisse Intl",
+    "w": 4245
+   },
+   {
+    "v": "Suisse Intl Mono",
+    "w": 736
+   },
+   {
+    "v": "ABC Favorit Trial",
+    "w": 233
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "13px",
+    "w": 130
+   },
+   {
+    "v": "16px",
+    "w": 52
+   },
+   {
+    "v": "26.5214px",
+    "w": 41
+   },
+   {
+    "v": "144px",
+    "w": 20
+   },
+   {
+    "v": "17px",
+    "w": 20
+   },
+   {
+    "v": "15px",
+    "w": 19
+   },
+   {
+    "v": "72.6086px",
+    "w": 15
+   },
+   {
+    "v": "30.5214px",
+    "w": 12
+   },
+   {
+    "v": "21.2614px",
+    "w": 11
+   },
+   {
+    "v": "86.0864px",
+    "w": 7
+   },
+   {
+    "v": "43.9117px",
+    "w": 5
+   },
+   {
+    "v": "18px",
+    "w": 4
+   },
+   {
+    "v": "57.3909px",
+    "w": 4
+   },
+   {
+    "v": "26px",
+    "w": 2
+   },
+   {
+    "v": "36.0866px",
+    "w": 2
+   },
+   {
+    "v": "16.8px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "7px",
+    "w": 236
+   },
+   {
+    "v": "10px",
+    "w": 34
+   },
+   {
+    "v": "100%",
+    "w": 5
+   },
+   {
+    "v": "6px",
+    "w": 4
+   },
+   {
+    "v": "15px",
+    "w": 4
+   },
+   {
+    "v": "4px",
+    "w": 2
+   },
+   {
+    "v": "32px",
+    "w": 2
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.4 0.2s",
+    "w": 78
+   },
+   {
+    "v": "cubic-bezier(0.4 0.4s",
+    "w": 14
+   },
+   {
+    "v": "cubic-bezier(0.645 0.2s",
+    "w": 9
+   },
+   {
+    "v": "cubic-bezier(0.645 0.3s",
+    "w": 4
+   },
+   {
+    "v": "cubic-bezier(0.4 0.35s",
+    "w": 4
+   },
+   {
+    "v": "cubic-bezier(0.645 0.25s",
+    "w": 4
+   },
+   {
+    "v": "cubic-bezier(0.4 0.3s",
+    "w": 3
+   },
+   {
+    "v": "cubic-bezier(0.645 0.8s",
+    "w": 3
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "\"ABC Favorit Trial\", sans-serif",
+    "size": "86.0864px",
+    "weight": "300",
+    "lineHeight": "86.0864px",
+    "letterSpacing": "-2.15216px",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Real-time AI infrastructure that scales with you"
+   },
+   "h2": {
+    "family": "\"Suisse Int'l\", sans-serif",
+    "size": "16px",
+    "weight": "500",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#172b76",
+    "sample": "Why Cerebrium"
+   },
+   "h3": {
+    "family": "\"Suisse Int'l Mono\", monospace",
+    "size": "13px",
+    "weight": "400",
+    "lineHeight": "13.91px",
+    "letterSpacing": "-0.325px",
+    "transform": "uppercase",
+    "color": "#172b76",
+    "sample": "Cerebrium (with snapshots)"
+   },
+   "p": {
+    "family": "\"Suisse Int'l\", sans-serif",
+    "size": "17px",
+    "weight": "400",
+    "lineHeight": "22.95px",
+    "letterSpacing": "0.17px",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Deploy voice agents, video models, LLMs, and any AI workload with sub-second col"
+   },
+   "a": {
+    "family": "\"Suisse Int'l\", sans-serif",
+    "size": "16px",
+    "weight": "500",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#172b76",
+    "sample": "Cerebrium"
+   },
+   "button": {
+    "family": "\"Suisse Int'l\", sans-serif",
+    "size": "16px",
+    "weight": "500",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Use Cases"
+   },
+   "li": {
+    "family": "\"Suisse Int'l\", sans-serif",
+    "size": "16px",
+    "weight": "500",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Use Cases Large Language Models Voice Image & Video More examples"
+   },
+   "body": {
+    "family": "\"Suisse Int'l\", sans-serif",
+    "size": "16px",
+    "weight": "500",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#172b76",
+    "sample": "<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-59Z6C5L9\" height=\"0"
+   }
+  },
+  "cssVars": {
+   "--font-sans": "\"Suisse Int'l\",sans-serif",
+   "--font-mono": "\"Suisse Int'l Mono\",monospace",
+   "--spacing": ".25rem",
+   "--breakpoint-sm": "700px",
+   "--breakpoint-md": "1000px",
+   "--breakpoint-lg": "1200px",
+   "--breakpoint-xl": "1400px",
+   "--breakpoint-2xl": "1600px",
+   "--container-md": "28rem",
+   "--container-lg": "32rem",
+   "--container-2xl": "42rem",
+   "--container-3xl": "48rem",
+   "--text-xs": ".75rem",
+   "--text-xs--line-height": "calc(1/.75)",
+   "--text-sm": ".875rem",
+   "--text-sm--line-height": "calc(1.25/.875)",
+   "--text-7xl": "4.5rem",
+   "--text-7xl--line-height": "1",
+   "--font-weight-light": "300",
+   "--font-weight-normal": "400",
+   "--font-weight-medium": "500",
+   "--font-weight-semibold": "600",
+   "--font-weight-bold": "700",
+   "--tracking-tighter": "-.05em",
+   "--tracking-tight": "-.025em",
+   "--tracking-wider": ".05em",
+   "--radius-sm": "7px",
+   "--radius-md": "10px",
+   "--radius-lg": "15px",
+   "--radius-xl": "30px",
+   "--radius-4xl": "2rem",
+   "--ease-out": "cubic-bezier(0,0,.2,1)",
+   "--ease-in-out": "cubic-bezier(.4,0,.2,1)",
+   "--blur-sm": "8px",
+   "--blur-lg": "16px",
+   "--aspect-video": "16/9",
+   "--default-transition-duration": ".15s",
+   "--default-transition-timing-function": "cubic-bezier(.4,0,.2,1)",
+   "--default-font-family": "var(--font-sans)",
+   "--default-mono-font-family": "var(--font-mono)",
+   "--font-secondary": "\"ABC Favorit Trial\",sans-serif",
+   "--text-fluid-heading-3xl": "clamp(2.8125rem, 1.5256rem + 5.2795vw, 8.125rem)",
+   "--text-fluid-heading-2xl": "clamp(2.8125rem, 1.8587rem + 3.913vw, 6.75rem)",
+   "--text-fluid-heading-xl": "clamp(2.5rem, 1.743rem + 3.1056vw, 5.625rem)",
+   "--text-fluid-heading-lg": "clamp(1.875rem, 1.2391rem + 2.6087vw, 4.5rem)",
+   "--text-fluid-heading-md": "clamp(1.5625rem, 1.1234rem + 1.8012vw, 3.375rem)",
+   "--text-fluid-heading-sm": "clamp(1.5625rem, 1.3051rem + 1.0559vw, 2.625rem)",
+   "--text-fluid-heading-xs": "clamp(1.25rem, 1.0986rem + .6211vw, 1.875rem)",
+   "--text-fluid-heading-2xs": "clamp(1.125rem, 1.0493rem + .3106vw, 1.4375rem)",
+   "--color-black": "#000",
+   "--color-white": "#fff",
+   "--color-slate-50": "#eef2f5",
+   "--color-slate-100": "#dbe5ed",
+   "--color-slate-200": "#cfd7e7",
+   "--color-slate-300": "#c6cee0",
+   "--color-slate-400": "#b3c0d4",
+   "--color-navy-500": "#586490",
+   "--color-navy-900": "#172b76",
+   "--color-pink-100": "#fdcdeb",
+   "--color-pink-200": "#f8a2d3",
+   "--color-pink-300": "#f480c0",
+   "--color-pink-500": "#ff488b",
+   "--color-pink-600": "#f6186a",
+   "--color-purple-100": "#e33adb",
+   "--color-charcoal": "#101421",
+   "--color-red": "red",
+   "--spacing-fluid-xs": "clamp(.5rem, .4394rem + .2484vw, .75rem)",
+   "--spacing-fluid-sm": "clamp(1rem, .8032rem + .8075vw, 1.8125rem)",
+   "--spacing-fluid-md": "clamp(1.5rem, 1.288rem + .8696vw, 2.375rem)",
+   "--spacing-fluid-lg": "clamp(2rem, 1.7578rem + .9938vw, 3rem)",
+   "--spacing-fluid-xl": "clamp(2.5rem, 2.0912rem + 1.677vw, 4.1875rem)",
+   "--spacing-fluid-2xl": "clamp(3.5rem, 2.8944rem + 2.4845vw, 6rem)",
+   "--spacing-fluid-3xl": "clamp(5rem, 3.8797rem + 4.5963vw, 9.625rem)",
+   "--spacing-fluid-4xl": "clamp(8rem, 7.0311rem + 3.9752vw, 12rem)",
+   "--breakpoint-2xs": "340px",
+   "--breakpoint-xs": "500px",
+   "--breakpoint-3xl": "1800px",
+   "--breakpoint-4xl": "2000px",
+   "--breakpoint-5xl": "2400px",
+   "--transition-page-duration": ".3s",
+   "--transition-duration-fast": ".2s",
+   "--transition-duration": ".3s",
+   "--transition-duration-slow": ".6s",
+   "--transition-duration-slower": ".8s",
+   "--transition-duration-slowest": "1s",
+   "--ease": "cubic-bezier(.645,.045,.355,1)",
+   "--ease-bounce": "cubic-bezier(.175,.885,.32,1.275)",
+   "--z-index-modal": "200",
+   "--z-index-overlay": "300",
+   "--z-index-header-absolute": "90",
+   "--z-index-header": "100",
+   "--z-index-header-fixed": "150",
+   "--z-index": "0",
+   "--z-index-above": "1",
+   "--z-index-below": "-1",
+   "--spacing-gutter": "var(--grid-gutter)",
+   "--spacing-header": "calc(var(--header-height) + var(--announcement-banner-height,0px))",
+   "--spacing-safe-header": "calc(var(--spacing-header) + calc(var(--spacing)*4))",
+   "--tw-leading": "1.35",
+   "--tw-font-weight": "var(--font-weight-normal)",
+   "--tw-tracking": ".01em",
+   "--cc-font-family": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\"",
+   "--cc-modal-border-radius": ".5rem",
+   "--cc-btn-border-radius": ".4rem",
+   "--cc-modal-transition-duration": "0s",
+   "--cc-link-color": "var(--cc-btn-primary-bg)",
+   "--cc-modal-margin": "1rem",
+   "--cc-z-index": "2147480000",
+   "--cc-bg": "var(--color-white)",
+   "--cc-primary-color": "var(--color-navy-900)",
+   "--cc-secondary-color": "var(--color-navy-500)",
+   "--cc-btn-primary-bg": "var(--color-pink-500)",
+   "--cc-btn-primary-color": "var(--color-charcoal)",
+   "--cc-btn-primary-border-color": "var(--cc-btn-primary-bg)",
+   "--cc-btn-primary-hover-bg": "var(--color-pink-600)",
+   "--cc-btn-primary-hover-color": "var(--color-charcoal)",
+   "--cc-btn-primary-hover-border-color": "var(--cc-btn-primary-hover-bg)",
+   "--cc-btn-secondary-bg": "var(--color-slate-50)",
+   "--cc-btn-secondary-color": "var(--cc-primary-color)",
+   "--cc-btn-secondary-border-color": "var(--cc-btn-secondary-bg)",
+   "--cc-btn-secondary-hover-bg": "var(--color-slate-100)",
+   "--cc-btn-secondary-hover-color": "var(--color-navy-900)",
+   "--cc-btn-secondary-hover-border-color": "var(--cc-btn-secondary-hover-bg)",
+   "--cc-separator-border-color": "#f0f4f7",
+   "--cc-toggle-on-bg": "var(--cc-btn-primary-bg)",
+   "--cc-toggle-off-bg": "var(--color-slate-300)",
+   "--cc-toggle-on-knob-bg": "#fff",
+   "--cc-toggle-off-knob-bg": "var(--cc-toggle-on-knob-bg)",
+   "--cc-toggle-enabled-icon-color": "var(--cc-bg)",
+   "--cc-toggle-disabled-icon-color": "var(--cc-bg)",
+   "--cc-toggle-readonly-bg": "color-mix(in oklab,var(--color-pink-500)45%,transparent)",
+   "--cc-toggle-readonly-knob-bg": "#fff",
+   "--cc-toggle-readonly-knob-icon-color": "var(--cc-toggle-readonly-bg)",
+   "--cc-section-category-border": "var(--cc-cookie-category-block-bg)",
+   "--cc-cookie-category-block-bg": "var(--color-slate-50)",
+   "--cc-cookie-category-block-border": "var(--color-slate-100)",
+   "--cc-cookie-category-block-hover-bg": "color-mix(in oklab,var(--color-slate-50)25%,transparent)",
+   "--cc-cookie-category-block-hover-border": "var(--color-slate-100)",
+   "--cc-cookie-category-expanded-block-bg": "var(--color-slate-50)",
+   "--cc-cookie-category-expanded-block-hover-bg": "var(--color-slate-100)",
+   "--cc-overlay-bg": "#000000a6",
+   "--cc-webkit-scrollbar-bg": "var(--cc-section-category-border)",
+   "--cc-webkit-scrollbar-hover-bg": "var(--cc-btn-primary-hover-bg)",
+   "--cc-footer-bg": "var(--cc-btn-secondary-bg)",
+   "--cc-footer-color": "var(--cc-secondary-color)",
+   "--cc-footer-border-color": "#e4eaed",
+   "--cc-pm-toggle-border-radius": "4em",
+   "--grid-columns": "12",
+   "--grid-gutter": "calc(var(--spacing)*5)",
+   "--grid-margin": "calc(var(--spacing)*10)",
+   "--announcement-banner-height": "calc(var(--spacing)*8)",
+   "--header-height": "calc(calc(var(--spacing,.25rem)*13.5) + (calc(var(--spacing,.25rem)*3.5)*2))",
+   "--icon-width-arrow-external": "18px",
+   "--icon-ratio-arrow-external": "1/1",
+   "--icon-width-menu": "11px",
+   "--icon-ratio-menu": "1/1",
+   "--icon-width-icon-koki-kiko": "122px",
+   "--icon-ratio-icon-koki-kiko": "122/20",
+   "--icon-width-arrow-right": "28px",
+   "--icon-ratio-arrow-right": "1/1",
+   "--icon-width-download": "28px",
+   "--icon-ratio-download": "1/1",
+   "--icon-width-logo-outline": "150vw",
+   "--icon-ratio-logo-outline": "1570/216",
+   "--swiper-theme-color": "#007aff"
+  },
+  "fontFaces": [
+   {
+    "family": "Suisse Intl Mono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/fonts/SuisseIntlMono-Regular.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Suisse Intl",
+    "weight": "600",
+    "style": "normal",
+    "src": "url(\"/fonts/SuisseIntl-Semibold.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Suisse Intl",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/fonts/SuisseIntl-Regular.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "ABC Favorit Trial",
+    "weight": "300",
+    "style": "normal",
+    "src": "url(\"/fonts/ABCFavorit-Light.woff2\") format(\"woff2\")"
+   }
+  ],
+  "keyframes": [
+   "fade-slide-in",
+   "initial-loader-logo-bar",
+   "initial-loader-logo-bar-middle",
+   "overlay-anim-in",
+   "overlay-anim-out",
+   "swiper-preloader-spin",
+   "fadeIn",
+   "fadeOut",
+   "slideFromBottom",
+   "slideToBottom",
+   "slideFromTop",
+   "slideToTop",
+   "slideFromLeft",
+   "slideToLeft",
+   "slideFromRight",
+   "slideToRight"
+  ],
+  "breakpoints": [
+   {
+    "v": "1000px",
+    "w": 48
+   },
+   {
+    "v": "2000px",
+    "w": 15
+   },
+   {
+    "v": "700px",
+    "w": 14
+   },
+   {
+    "v": "1200px",
+    "w": 7
+   },
+   {
+    "v": "500px",
+    "w": 6
+   },
+   {
+    "v": "1400px",
+    "w": 6
+   },
+   {
+    "v": "340px",
+    "w": 4
+   },
+   {
+    "v": "1600px",
+    "w": 4
+   },
+   {
+    "v": "1800px",
+    "w": 4
+   },
+   {
+    "v": "2400px",
+    "w": 4
+   },
+   {
+    "v": "640px",
+    "w": 3
+   },
+   {
+    "v": "400px",
+    "w": 2
+   }
+  ],
+  "rulesCount": 1989,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "transition-fade",
+    "h": 9980,
+    "title": "Real-time AI infrastructure that scales with you",
+    "media": 58
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "Cerebrium",
+    "href": "https://cerebrium.ai/"
+   },
+   {
+    "t": "Large Language Models",
+    "href": "https://cerebrium.ai/use-cases/large-language-models"
+   },
+   {
+    "t": "Voice",
+    "href": "https://cerebrium.ai/use-cases/voice"
+   },
+   {
+    "t": "Image & Video",
+    "href": "https://cerebrium.ai/use-cases/image-and-video"
+   },
+   {
+    "t": "More examples",
+    "href": "https://docs.cerebrium.ai/docs/v4/examples/featured"
+   },
+   {
+    "t": "Pricing",
+    "href": "https://cerebrium.ai/pricing"
+   },
+   {
+    "t": "Docs",
+    "href": "https://docs.cerebrium.ai/"
+   },
+   {
+    "t": "Blog",
+    "href": "https://cerebrium.ai/blog"
+   },
+   {
+    "t": "Company",
+    "href": "https://cerebrium.ai/about"
+   },
+   {
+    "t": "Book a demo",
+    "href": "https://cerebrium.ai/book-demo"
+   },
+   {
+    "t": "Contact us",
+    "href": "https://cerebrium.ai/contact"
+   },
+   {
+    "t": "Twitter",
+    "href": "https://x.com/cerebriumai"
+   },
+   {
+    "t": "GitHub",
+    "href": "https://github.com/CerebriumAI"
+   },
+   {
+    "t": "Discord",
+    "href": "https://discord.gg/ATj6USmeE2"
+   },
+   {
+    "t": "LinkedIn",
+    "href": "https://www.linkedin.com/company/cerebrium/"
+   },
+   {
+    "t": "Log in",
+    "href": "https://dashboard.cerebrium.ai/login"
+   },
+   {
+    "t": "Sign up",
+    "href": "https://dashboard.cerebrium.ai/signup"
+   },
+   {
+    "t": "Log in",
+    "href": "https://dashboard.cerebrium.ai/login"
+   },
+   {
+    "t": "Large Language Models",
+    "href": "https://cerebrium.ai/use-cases/large-language-models"
+   },
+   {
+    "t": "Voice",
+    "href": "https://cerebrium.ai/use-cases/voice"
+   },
+   {
+    "t": "Image & Video",
+    "href": "https://cerebrium.ai/use-cases/image-and-video"
+   },
+   {
+    "t": "More Examples",
+    "href": "https://docs.cerebrium.ai/docs/v4/examples/featured"
+   },
+   {
+    "t": "Pricing",
+    "href": "https://cerebrium.ai/pricing"
+   },
+   {
+    "t": "Docs",
+    "href": "https://docs.cerebrium.ai/"
+   },
+   {
+    "t": "Blog",
+    "href": "https://cerebrium.ai/blog"
+   },
+   {
+    "t": "Company",
+    "href": "https://cerebrium.ai/about"
+   },
+   {
+    "t": "Contact Us",
+    "href": "https://cerebrium.ai/contact"
+   },
+   {
+    "t": "Try it now",
+    "href": "https://dashboard.cerebrium.ai/signup"
+   },
+   {
+    "t": "Book a demo",
+    "href": "https://cerebrium.ai/book-demo"
+   },
+   {
+    "t": "Log in",
+    "href": "https://dashboard.cerebrium.ai/login"
+   }
+  ],
+  "ctas": [
+   "More examples",
+   "Log in",
+   "Sign up",
+   "More examples",
+   "Log in",
+   "Sign up",
+   "Try it now",
+   "Book a demo",
+   "Status Page",
+   "Security Docs",
+   "See all",
+   "Get started",
+   "Book a demo",
+   "Accept all",
+   "Reject all"
+  ],
+  "pageHeight": 10841,
+  "counts": {
+   "canvas": 1,
+   "videos": 0,
+   "imgs": 49,
+   "svgs": 92,
+   "iframes": 0,
+   "domNodes": 3912
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "183",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": true,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": true,
+  "highway": false,
+  "taxi": false,
+  "swiper": true,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": true,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [
+   "datocms"
+  ],
+  "analytics": [
+   "googletagmanager",
+   "gtag",
+   "segment"
+  ],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://ddwl4m2hdecbv.cloudfront.net/b/GOYPYHD1P1OX/GOYPYHD1P1OX.js.gz",
+  "https://www.googletagmanager.com/gtag/js?id=G-9KSTJC8JM1&cx=c&gtm=4e6au1",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-59Z6C5L9",
+  "https://cerebrium.ai/_astro/BackgroundCanvas.astro_astro_type_script_index_0_lang.D3Lp_Wou.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+  "https://cerebrium.ai/_astro/Layout.astro_astro_type_script_index_0_lang.Uecdo5Qu.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+  "https://cerebrium.ai/_astro/Header.astro_astro_type_script_index_0_lang.BtAjWJU9.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+  "https://cerebrium.ai/_astro/SplitTitle.astro_astro_type_script_index_0_lang.BbZ1CTCO.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+  "https://cerebrium.ai/_astro/Rail.astro_astro_type_script_index_0_lang.CZr9GlFT.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+  "https://cerebrium.ai/_astro/InteractiveDots.astro_astro_type_script_index_0_lang.Cz09iMZ4.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+  "https://cerebrium.ai/_astro/HeroHome.astro_astro_type_script_index_0_lang.BXXELPVp.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+  "https://cerebrium.ai/_astro/DatoImage.astro_astro_type_script_index_0_lang.D-dDcxY7.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+  "https://cerebrium.ai/_astro/SegmentedControls.astro_astro_type_script_index_0_lang.B8mFLyTV.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+  "https://cerebrium.ai/_astro/FeatureCardRangeChart.astro_astro_type_script_index_0_lang.DqfGEs_c.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+  "https://cerebrium.ai/_astro/FeatureCardWorldMapAnimation.astro_astro_type_script_index_0_lang.9Xz-3fuD.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+  "https://cerebrium.ai/_astro/FeatureCardTerminal.astro_astro_type_script_index_0_lang.TN8hVZ5i.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+  "https://cerebrium.ai/_astro/AnimatedChart.astro_astro_type_script_index_0_lang.Dx07ukeg.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+  "https://cerebrium.ai/_astro/FeatureCards.astro_astro_type_script_index_0_lang.KQojuyvT.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+  "https://cerebrium.ai/_astro/CarouselTile.astro_astro_type_script_index_0_lang.DW5EwKCf.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm"
+ ],
+ "internal": [
+  "https://cerebrium.ai/use-cases/large-language-models",
+  "https://cerebrium.ai/use-cases/voice",
+  "https://cerebrium.ai/use-cases/image-and-video",
+  "https://cerebrium.ai/pricing",
+  "https://cerebrium.ai/blog",
+  "https://cerebrium.ai/about",
+  "https://cerebrium.ai/book-demo",
+  "https://cerebrium.ai/contact",
+  "https://cerebrium.ai/blog/how-linkup-scales-ai-native-web-search-with-cerebrium",
+  "https://cerebrium.ai/blog/scaling-resemble-ais-real-time-deepfake-models-with-cerebrium",
+  "https://cerebrium.ai/blog/how-distillabs-is-delivering-50percent-lower-inference-costs-with-production-grad",
+  "https://cerebrium.ai/blog/lelapa-ai-uses-cerebrium-to-break-language-barriers",
+  "https://cerebrium.ai/blog/how-bithuman-scaled-digital-humans-10x-faster-with-cerebrium",
+  "https://cerebrium.ai/blog/how-tavus-scaled-human-like-ai-experiences-with-cerebrium",
+  "https://cerebrium.ai/blog/scaling-ai-tutors-how-creatium-achieved-18x-faster-cold-starts-with-cerebrium",
+  "https://cerebrium.ai/blog/a-low-latency-architecture-for-voice-agents-with-real-time-web-search",
+  "https://cerebrium.ai/blog/2026-gpu-buyers-guide",
+  "https://cerebrium.ai/blog/cerebrium-achieves-soc-2-type-ii-compliance-for-secure-production-ai-infrastructure",
+  "https://cerebrium.ai/resources",
+  "https://cerebrium.ai/brand-assets",
+  "https://cerebrium.ai/privacy",
+  "https://cerebrium.ai/terms-of-service",
+  "https://cerebrium.ai/privacy-policy"
+ ],
+ "perf": {
+  "ttfb": 403,
+  "dcl": 1291,
+  "load": 9160,
+  "lcp": 9248,
+  "lcpEl": "H1.text-heading-2xl",
+  "cls": 0
+ },
  "libs": {
   "detected": [
-   "Swup"
+   "Swup",
+   "Lottie",
+   "React",
+   "Astro",
+   "Lenis",
+   "Locomotive Scroll",
+   "Virtual scroll",
+   "Three.js",
+   "Postprocessing",
+   "Lil-GUI/Tweakpane (debug)",
+   "GSAP",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Swiper"
   ],
   "where": {
    "Swup": [
-    "002-Layout.astro_astro_type_script_index_0_lang.Uecdo5Qu.js"
+    "002-Layout.astro_astro_type_script_index_0_lang.Uecdo5Qu.js",
+    "010-Layout.astro_astro_type_script_index_0_lang.Uecdo5Qu.js",
+    "024-Transitions.CDveHI5v.js",
+    "037-BackgroundCanvas.Bg_NUauP.js"
+   ],
+   "Lottie": [
+    "013-FeatureCardWorldMapAnimation.astro_astro_type_script_index_0.js",
+    "015-FeatureCardWorldMapAnimation.astro_astro_type_script_index_0.js",
+    "046-FeatureCardWorldMapAnimation.D7NAwJpY.js",
+    "052-lottie_light.BKS0DOqd.js"
+   ],
+   "React": [
+    "023-client.DaaVUJUT.js"
+   ],
+   "Astro": [
+    "023-client.DaaVUJUT.js",
+    "024-Transitions.CDveHI5v.js"
+   ],
+   "Lenis": [
+    "025-Scroll.cO9MU0Pv.js",
+    "030-ModalDrawer.BoWjr6Dr.js"
+   ],
+   "Locomotive Scroll": [
+    "025-Scroll.cO9MU0Pv.js"
+   ],
+   "Virtual scroll": [
+    "025-Scroll.cO9MU0Pv.js"
+   ],
+   "Three.js": [
+    "037-BackgroundCanvas.Bg_NUauP.js"
+   ],
+   "Postprocessing": [
+    "037-BackgroundCanvas.Bg_NUauP.js"
+   ],
+   "Lil-GUI/Tweakpane (debug)": [
+    "037-BackgroundCanvas.Bg_NUauP.js"
+   ],
+   "GSAP": [
+    "038-CSSPlugin.DXs0xWkv.js",
+    "045-SegmentedControls.CSkc8zFG.js"
+   ],
+   "ScrollTrigger": [
+    "038-CSSPlugin.DXs0xWkv.js"
+   ],
+   "SplitText/SplitType": [
+    "039-SplitTitle.B2QJBP10.js"
+   ],
+   "Swiper": [
+    "051-CarouselTile.DoCIG5tT.js"
    ]
   },
-  "gsapVersion": null,
+  "gsapVersion": "3.14.2",
   "threeRevision": null,
-  "shaders": 0,
-  "scripts": 6
+  "shaders": 34,
+  "scripts": 66
  },
  "network": {
-  "requests": 17,
-  "totalKb": 93,
+  "requests": 123,
+  "totalKb": 2646,
   "byType": {
    "Document": {
     "n": 1,
     "kb": 68
    },
    "Image": {
-    "n": 1,
-    "kb": 0
+    "n": 48,
+    "kb": 468
    },
    "Script": {
-    "n": 15,
-    "kb": 25
+    "n": 57,
+    "kb": 979
+   },
+   "Font": {
+    "n": 3,
+    "kb": 109
+   },
+   "Fetch": {
+    "n": 12,
+    "kb": 923
+   },
+   "XHR": {
+    "n": 1,
+    "kb": 95
+   },
+   "Other": {
+    "n": 1,
+    "kb": 4
    }
   },
-  "thirdPartyHosts": [],
-  "fontFiles": [],
+  "thirdPartyHosts": [
+   "www.datocms-assets.com",
+   "www.googletagmanager.com",
+   "ddwl4m2hdecbv.cloudfront.net",
+   "region1.google-analytics.com",
+   "pro.ip-api.com"
+  ],
+  "fontFiles": [
+   "https://cerebrium.ai/fonts/SuisseIntl-Regular.woff2",
+   "https://cerebrium.ai/fonts/ABCFavorit-Light.woff2",
+   "https://cerebrium.ai/fonts/SuisseIntlMono-Regular.woff2"
+  ],
   "biggest": [
    {
-    "url": "https://cerebrium.ai/",
-    "kb": 68,
-    "type": "Document"
+    "url": "https://cerebrium.ai/models/CEREBRIUM_part2_4_optimization.glb",
+    "kb": 593,
+    "type": "Fetch"
    },
    {
-    "url": "https://cerebrium.ai/_astro/Layout.astro_astro_type_script_index_0_lang.Uecdo5Qu.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
-    "kb": 11,
+    "url": "https://cerebrium.ai/_astro/BackgroundCanvas.Bg_NUauP.js",
+    "kb": 344,
     "type": "Script"
    },
    {
-    "url": "https://cerebrium.ai/_astro/BackgroundCanvas.astro_astro_type_script_index_0_lang.D3Lp_Wou.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
-    "kb": 1,
+    "url": "https://cerebrium.ai/models/CEREBRIUM_part1_11_optimization.glb",
+    "kb": 196,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://www.googletagmanager.com/gtag/js?id=G-9KSTJC8JM1&cx=c&gtm=4e6au1",
+    "kb": 192,
     "type": "Script"
    },
    {
-    "url": "https://cerebrium.ai/_astro/SplitTitle.astro_astro_type_script_index_0_lang.BbZ1CTCO.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
-    "kb": 1,
+    "url": "https://www.googletagmanager.com/gtm.js?id=GTM-59Z6C5L9",
+    "kb": 130,
     "type": "Script"
    },
    {
-    "url": "https://cerebrium.ai/_astro/Rail.astro_astro_type_script_index_0_lang.CZr9GlFT.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
-    "kb": 1,
-    "type": "Script"
+    "url": "https://cerebrium.ai/textures/Particules10.png",
+    "kb": 123,
+    "type": "Image"
    },
    {
-    "url": "https://cerebrium.ai/_astro/FeatureCardWorldMapAnimation.astro_astro_type_script_index_0_lang.9Xz-3fuD.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
-    "kb": 1,
-    "type": "Script"
+    "url": "https://www.datocms-assets.com/180613/1774712182-resemble-ai.svg",
+    "kb": 96,
+    "type": "Image"
    },
    {
-    "url": "https://cerebrium.ai/_astro/FeatureCards.astro_astro_type_script_index_0_lang.KQojuyvT.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
-    "kb": 1,
-    "type": "Script"
-   },
-   {
-    "url": "https://cerebrium.ai/_astro/InteractiveDots.astro_astro_type_script_index_0_lang.Cz09iMZ4.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
-    "kb": 1,
-    "type": "Script"
+    "url": "https://cerebrium.ai/lottie/map.json",
+    "kb": 95,
+    "type": "XHR"
    }
   ]
  },
- "durationS": 10
+ "mobile": {
+  "h1": {
+   "size": "45px",
+   "lineHeight": "45px"
+  },
+  "body": "16px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 272
 }

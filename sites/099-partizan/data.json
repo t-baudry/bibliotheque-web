@@ -1,0 +1,702 @@
+{
+ "id": 99,
+ "name": "Partizan",
+ "sourceUrl": "https://partizan.com/",
+ "capturedAt": "2026-11-03T22:15:55.959Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [
+   "txt:Accept"
+  ],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg"
+  ],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [
+   {
+    "url": "https://partizan.com/works/",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://partizan.com/directors/",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://partizan.com/about/",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://partizan.com/",
+ "title": "Home | Partizan",
+ "lang": "en-US",
+ "generator": "WordPress 7.1.4",
+ "seo": {
+  "description": null,
+  "canonical": "https://partizan.com/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "ogTitle": "Home | Partizan",
+  "ogImage": "https://partizan.com/wp-content/uploads/2025/07/OG-Image.jpg",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "Corporation"
+  ],
+  "h1Count": 0,
+  "headings": [],
+  "imgs": 16,
+  "imgNoAlt": 0,
+  "favicon": "https://partizan.com/wp-content/themes/beaucoup/resources/favicon/apple-touch-icon-57x57.png",
+  "themeColor": "#ffffff"
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#ffffff",
+    "w": 1300060
+   },
+   {
+    "v": "#000000",
+    "w": 142288
+   }
+  ],
+  "text": [
+   {
+    "v": "#000000",
+    "w": 326
+   },
+   {
+    "v": "#ffffff",
+    "w": 258
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "GT America Standard",
+    "w": 450
+   },
+   {
+    "v": "Teodor",
+    "w": 134
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "10px",
+    "w": 246
+   },
+   {
+    "v": "36px",
+    "w": 22
+   },
+   {
+    "v": "32px",
+    "w": 16
+   },
+   {
+    "v": "20px",
+    "w": 10
+   },
+   {
+    "v": "48px",
+    "w": 2
+   },
+   {
+    "v": "12px",
+    "w": 2
+   },
+   {
+    "v": "14px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "10px",
+    "w": 12
+   },
+   {
+    "v": "9999px",
+    "w": 10
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.23 0.6s",
+    "w": 21
+   },
+   {
+    "v": "cubic-bezier(0.4 0.3s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "a": {
+    "family": "\"GT America Standard\", sans-serif",
+    "size": "10px",
+    "weight": "500",
+    "lineHeight": "12.5px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#000000",
+    "sample": "Work"
+   },
+   "body": {
+    "family": "\"GT America Standard\", sans-serif",
+    "size": "10px",
+    "weight": "400",
+    "lineHeight": "12.5px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Close - Menu + Work Directors About Contact Instagram Linkedin Instagram Linkedi"
+   }
+  },
+  "cssVars": {
+   "--color-black": "0 0 0",
+   "--color-white": "255 255 255",
+   "--color-grid": "0 0 255",
+   "--color-blue": "0 0 255",
+   "--ease-out": "cubic-bezier(0.23,1,0.32,1)",
+   "--ease-in": "cubic-bezier(0.12,0,0.39,0)",
+   "--ease-in-out": "cubic-bezier(0.86,0,0.07,1)",
+   "--ease-out-back": "cubic-bezier(0.175,0.885,0.32,1.275)",
+   "--size": "1440",
+   "--padding-container": "1rem",
+   "--gap": "0.5rem",
+   "--vw": "100vw",
+   "--vh": "calc(var(--vh-initial, 1vh)*100)",
+   "--header-height": "5rem",
+   "--available-height": "calc(var(--vh) - var(--header-height) - var(--padding-container)*2 - 0.2rem)",
+   "--column": "calc(var(--vw)/24 - var(--padding-container)*2/24 - var(--gap)*23/24)",
+   "--tw-bg-opacity": "1",
+   "--tw-text-opacity": "1"
+  },
+  "fontFaces": [
+   {
+    "family": "GT America Standard",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/wp-content/themes/beaucoup/public/fonts/GT-America-Standard-Regular.d2f736.woff2\") format(\"woff2\"), url(\"/wp-content/themes/beaucoup/public/fonts/GT-America-Standard-Regular.69c48b.woff\") format"
+   },
+   {
+    "family": "GT America Standard",
+    "weight": "400",
+    "style": "italic",
+    "src": "url(\"/wp-content/themes/beaucoup/public/fonts/GT-America-Standard-Regular-Italic.b33372.woff2\") format(\"woff2\"), url(\"/wp-content/themes/beaucoup/public/fonts/GT-America-Standard-Regular-Italic.dffa6d"
+   },
+   {
+    "family": "GT America Standard",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"/wp-content/themes/beaucoup/public/fonts/GT-America-Standard-Medium.3582f3.woff2\") format(\"woff2\"), url(\"/wp-content/themes/beaucoup/public/fonts/GT-America-Standard-Medium.8a2683.woff\") format(\""
+   },
+   {
+    "family": "GT America Standard",
+    "weight": "500",
+    "style": "italic",
+    "src": "url(\"/wp-content/themes/beaucoup/public/fonts/GT-America-Standard-Medium-Italic.2fb650.woff2\") format(\"woff2\"), url(\"/wp-content/themes/beaucoup/public/fonts/GT-America-Standard-Medium-Italic.0b8503.w"
+   },
+   {
+    "family": "GT America Standard",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"/wp-content/themes/beaucoup/public/fonts/GT-America-Standard-Bold.f1c331.woff2\") format(\"woff2\"), url(\"/wp-content/themes/beaucoup/public/fonts/GT-America-Standard-Bold.a9e301.woff\") format(\"woff"
+   },
+   {
+    "family": "GT America Standard",
+    "weight": "700",
+    "style": "italic",
+    "src": "url(\"/wp-content/themes/beaucoup/public/fonts/GT-America-Standard-Bold-Italic.8eb0ea.woff2\") format(\"woff2\"), url(\"/wp-content/themes/beaucoup/public/fonts/GT-America-Standard-Bold-Italic.d2e3f3.woff\""
+   },
+   {
+    "family": "Teodor",
+    "weight": "100",
+    "style": "normal",
+    "src": "url(\"/wp-content/themes/beaucoup/public/fonts/Teodor-Thin.526ecf.woff2\") format(\"woff2\"), url(\"/wp-content/themes/beaucoup/public/fonts/Teodor-Thin.cf5bec.woff\") format(\"woff\")"
+   }
+  ],
+  "keyframes": [
+   "marquee"
+  ],
+  "breakpoints": [
+   {
+    "v": "1200px",
+    "w": 13
+   },
+   {
+    "v": "768px",
+    "w": 11
+   },
+   {
+    "v": "1024px",
+    "w": 4
+   },
+   {
+    "v": "2560px",
+    "w": 2
+   },
+   {
+    "v": "767px",
+    "w": 2
+   },
+   {
+    "v": "1600px",
+    "w": 1
+   },
+   {
+    "v": "700px",
+    "w": 1
+   },
+   {
+    "v": "650px",
+    "w": 1
+   },
+   {
+    "v": "800px",
+    "w": 1
+   },
+   {
+    "v": "850px",
+    "w": 1
+   },
+   {
+    "v": "479px",
+    "w": 1
+   },
+   {
+    "v": "991px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 851,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "loader fixed top-0 left-0 w-screen h-screen bg-white pointer-events-none z-loade",
+    "h": 900,
+    "top": 0,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "popup-overlay fixed top-0 left-0 w-full h-screen pointer-events-none cursor-poin",
+    "h": 900,
+    "top": 0,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": "popup",
+    "cls": "popup  fixed top-0 left-0 w-full h-screen overflow-hidden z-popup",
+    "h": 900,
+    "top": 900,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "popup-small-overlay fixed top-0 left-0 w-full h-screen bg-black opacity-0 pointe",
+    "h": 900,
+    "top": 0,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": "popup-small",
+    "cls": "popup-small  fixed top-0 left-0 w-full h-screen overflow-hidden pointer-events-n",
+    "h": 900,
+    "top": 0,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "popup-overlay fixed top-0 left-0 w-full h-screen pointer-events-none cursor-poin",
+    "h": 900,
+    "top": 0,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": "popup-video",
+    "cls": "popup-video fixed top-0 left-0 w-full h-screen overflow-hidden z-popup",
+    "h": 900,
+    "top": 900,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "popup-image-overlay fixed top-0 left-0 w-full h-screen bg-black opacity-0 pointe",
+    "h": 900,
+    "top": 0,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": "popup-image",
+    "cls": "fixed top-0 left-0 w-full h-screen overflow-hidden pointer-events-none z-popup-i",
+    "h": 900,
+    "top": 0,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "fade fixed top-0 left-0 w-full h-full bg-white pointer-events-none opacity-0 z-t",
+    "h": 900,
+    "top": 0,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "content",
+    "h": 900,
+    "top": 0,
+    "title": "",
+    "media": 52
+   },
+   {
+    "tag": "canvas",
+    "id": "gl",
+    "cls": "",
+    "h": 900,
+    "top": 0,
+    "title": "",
+    "media": 0
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "Work",
+    "href": "https://partizan.com/works/"
+   },
+   {
+    "t": "Directors",
+    "href": "https://partizan.com/directors/"
+   },
+   {
+    "t": "About",
+    "href": "https://partizan.com/about/"
+   },
+   {
+    "t": "Contact",
+    "href": "https://partizan.com/contact/"
+   },
+   {
+    "t": "Instagram",
+    "href": "https://www.instagram.com/wearepartizan"
+   },
+   {
+    "t": "Linkedin",
+    "href": "https://www.linkedin.com/company/partizan/"
+   },
+   {
+    "t": "",
+    "href": "https://partizan.com/"
+   },
+   {
+    "t": "Instagram",
+    "href": "https://www.instagram.com/wearepartizan"
+   },
+   {
+    "t": "Linkedin",
+    "href": "https://www.linkedin.com/company/partizan/"
+   },
+   {
+    "t": "US",
+    "href": "https://partizan.com/regions/?redirect_to=partizan.com/&region=en_us"
+   },
+   {
+    "t": "UK",
+    "href": "https://partizan.com/regions/?redirect_to=partizan.com/&region=en_uk"
+   },
+   {
+    "t": "France",
+    "href": "https://partizan.com/regions/?redirect_to=partizan.com/&region=fr"
+   },
+   {
+    "t": "World",
+    "href": "https://partizan.com/regions/?redirect_to=partizan.com/&region=world"
+   }
+  ],
+  "ctas": [],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 1,
+   "videos": 36,
+   "imgs": 16,
+   "svgs": 3,
+   "iframes": 0,
+   "domNodes": 1396
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "171",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": true,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": true,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [
+   "googletagmanager",
+   "gtag"
+  ],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://partizan.com/wp-content/themes/beaucoup/tarteaucitron/tarteaucitron.js",
+  "https://partizan.com/wp-content/themes/beaucoup/tarteaucitron/lang/tarteaucitron.en.js?v=20210509",
+  "https://partizan.com/wp-content/themes/beaucoup/tarteaucitron/tarteaucitron.services.js?v=20210509",
+  "https://www.googletagmanager.com/gtag/js?id=G-8M53606Q5S",
+  "https://partizan.com/wp-content/themes/beaucoup/public/js/app.6a6f75.js",
+  "https://partizan.com/wp-content/themes/beaucoup/public/js/acf.ff8ed3.js"
+ ],
+ "internal": [
+  "https://partizan.com/works/",
+  "https://partizan.com/directors/",
+  "https://partizan.com/about/",
+  "https://partizan.com/contact/",
+  "https://partizan.com/regions/?redirect_to=partizan.com/&region=en_us",
+  "https://partizan.com/regions/?redirect_to=partizan.com/&region=en_uk",
+  "https://partizan.com/regions/?redirect_to=partizan.com/&region=fr",
+  "https://partizan.com/regions/?redirect_to=partizan.com/&region=world",
+  "https://partizan.com/work/range-rover-peak-to-peak/",
+  "https://partizan.com/work/ford-born-in-a-ford/",
+  "https://partizan.com/work/alpine-70-years/",
+  "https://partizan.com/work/chanel-handbag-25/",
+  "https://partizan.com/work/nspcc-keyboard-worriers/",
+  "https://partizan.com/work/chanel-metiers-dart-2026/",
+  "https://partizan.com/work/skoda-cest-louche/",
+  "https://partizan.com/director/michel-gondry/",
+  "https://partizan.com/works/music-content/",
+  "https://partizan.com/director/antoine-bardou-jacquet/",
+  "https://partizan.com/works/branded-content/",
+  "https://partizan.com/works/animation/"
+ ],
+ "perf": {
+  "ttfb": 486,
+  "dcl": 885,
+  "load": 889,
+  "lcp": 676,
+  "lcpEl": "IMG.",
+  "cls": 0
+ },
+ "libs": {
+  "detected": [
+   "jQuery",
+   "GSAP",
+   "ScrollTrigger",
+   "Lenis",
+   "Three.js",
+   "Lil-GUI/Tweakpane (debug)",
+   "Virtual scroll"
+  ],
+  "where": {
+   "jQuery": [
+    "002-acf.ff8ed3.js"
+   ],
+   "GSAP": [
+    "003-app.6a6f75.js"
+   ],
+   "ScrollTrigger": [
+    "003-app.6a6f75.js"
+   ],
+   "Lenis": [
+    "003-app.6a6f75.js",
+    "styles.css"
+   ],
+   "Three.js": [
+    "003-app.6a6f75.js"
+   ],
+   "Lil-GUI/Tweakpane (debug)": [
+    "003-app.6a6f75.js"
+   ],
+   "Virtual scroll": [
+    "003-app.6a6f75.js"
+   ]
+  },
+  "gsapVersion": "3.11.0",
+  "threeRevision": null,
+  "shaders": 8,
+  "scripts": 5
+ },
+ "network": {
+  "requests": 39,
+  "totalKb": 22142,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 11
+   },
+   "Stylesheet": {
+    "n": 2,
+    "kb": 13
+   },
+   "Image": {
+    "n": 10,
+    "kb": 659
+   },
+   "Script": {
+    "n": 6,
+    "kb": 446
+   },
+   "Font": {
+    "n": 3,
+    "kb": 162
+   },
+   "Other": {
+    "n": 1,
+    "kb": 1
+   },
+   "Media": {
+    "n": 14,
+    "kb": 20849
+   },
+   "Fetch": {
+    "n": 2,
+    "kb": 1
+   }
+  },
+  "thirdPartyHosts": [
+   "www.googletagmanager.com",
+   "region1.google-analytics.com"
+  ],
+  "fontFiles": [
+   "https://partizan.com/wp-content/themes/beaucoup/public/fonts/GT-America-Standard-Regular.d2f736.woff2",
+   "https://partizan.com/wp-content/themes/beaucoup/public/fonts/Teodor-Thin.526ecf.woff2",
+   "https://partizan.com/wp-content/themes/beaucoup/public/fonts/GT-America-Standard-Medium.3582f3.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://partizan.com/wp-content/uploads/2025/12/Michel-Gondry_Chanel_Metiers-dArt-2026_800px__.mp4",
+    "kb": 4254,
+    "type": "Media"
+   },
+   {
+    "url": "https://partizan.com/wp-content/uploads/2025/06/Antoine-Bardou-Jacquet_Alpine_70-Years_800px.mp4",
+    "kb": 3735,
+    "type": "Media"
+   },
+   {
+    "url": "https://partizan.com/wp-content/uploads/2026/05/Martin-Holzman_Skoda_Cest-Louche_800px.mp4",
+    "kb": 3256,
+    "type": "Media"
+   },
+   {
+    "url": "https://partizan.com/wp-content/uploads/2026/03/Michel-Gondry_Chanel_Handbag-25_800px.mp4",
+    "kb": 3183,
+    "type": "Media"
+   },
+   {
+    "url": "https://partizan.com/wp-content/uploads/2026/05/Ethan-and-Tom_NSPCC_Keyboard-Worriers_800px.mp4",
+    "kb": 2751,
+    "type": "Media"
+   },
+   {
+    "url": "https://partizan.com/wp-content/uploads/2026/06/Floyd-Russ_Ford_Born-in-a-Ford_800px_new.mp4",
+    "kb": 1886,
+    "type": "Media"
+   },
+   {
+    "url": "https://partizan.com/wp-content/uploads/2026/10/Matt-Baron_Range-Rover_Peak-to-Peak_800px.mp4",
+    "kb": 1784,
+    "type": "Media"
+   },
+   {
+    "url": "https://partizan.com/wp-content/themes/beaucoup/public/js/app.6a6f75.js",
+    "kb": 239,
+    "type": "Script"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": null,
+  "body": "10.4px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 99
+}

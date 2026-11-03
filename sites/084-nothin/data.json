@@ -1,0 +1,698 @@
+{
+ "id": 84,
+ "name": "NOTHIN",
+ "sourceUrl": "https://www.noth.in/",
+ "capturedAt": "2026-11-03T09:24:28.208Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [
+   "txt:Accept"
+  ],
+  "enter": "explore",
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg",
+   "desktop-13.jpg",
+   "desktop-14.jpg"
+  ],
+  "fullPage": 12412,
+  "subpages": [
+   {
+    "url": "https://www.noth.in/works",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.noth.in/studio",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.noth.in/awards",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://www.noth.in/works/utopia",
+ "title": "Nothin' | Utopia",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Nothin' A protean augmented-creative studio in Paris. Branding, editorial, art direction & AI for fashion & luxury strategists who refuse the generic.",
+  "canonical": "https://www.noth.in/",
+  "robots": null,
+  "ogTitle": "Nothin' | Home",
+  "ogImage": "https://cdn.prod.website-files.com/6a0c501c42b9751b78a9d1a7/6a2ecb5b635d5e15f3be5005_open-graph-3.jpg",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "Organization"
+  ],
+  "h1Count": 1,
+  "headings": [
+   "H1 Utopia",
+   "H2 W'01",
+   "H2 A Swiss specialty coffee house and roaster: single-origin selections, organic, origin-guar",
+   "H2 Aurbse",
+   "H2 W'02"
+  ],
+  "imgs": 34,
+  "imgNoAlt": 13,
+  "favicon": "https://cdn.prod.website-files.com/6a0c501c42b9751b78a9d1a7/6a2ec8c3185420a875d49039_favicon-1.png",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#000000",
+    "w": 86238
+   },
+   {
+    "v": "#ffffff",
+    "w": 18964
+   }
+  ],
+  "text": [
+   {
+    "v": "#000000",
+    "w": 973
+   },
+   {
+    "v": "#ffffff",
+    "w": 184
+   },
+   {
+    "v": "#9a9a94",
+    "w": 11
+   }
+  ],
+  "border": [
+   {
+    "v": "#000000",
+    "w": 3
+   },
+   {
+    "v": "#ffffff",
+    "w": 2
+   }
+  ],
+  "fonts": [
+   {
+    "v": "Ppneuemontreal",
+    "w": 1162
+   },
+   {
+    "v": "IBM Plex Mono",
+    "w": 6
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "14px",
+    "w": 35
+   },
+   {
+    "v": "90px",
+    "w": 20
+   },
+   {
+    "v": "10.8px",
+    "w": 19
+   },
+   {
+    "v": "16.2px",
+    "w": 11
+   },
+   {
+    "v": "22.5px",
+    "w": 9
+   },
+   {
+    "v": "12px",
+    "w": 6
+   },
+   {
+    "v": "14.4px",
+    "w": 2
+   },
+   {
+    "v": "18px",
+    "w": 2
+   },
+   {
+    "v": "11px",
+    "w": 2
+   },
+   {
+    "v": "12.6px",
+    "w": 1
+   },
+   {
+    "v": "36px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "90px",
+    "w": 2
+   },
+   {
+    "v": "100px",
+    "w": 2
+   },
+   {
+    "v": "32px",
+    "w": 2
+   },
+   {
+    "v": "3.6px",
+    "w": 1
+   },
+   {
+    "v": "16px",
+    "w": 1
+   }
+  ],
+  "shadows": [
+   {
+    "v": "rgb(0, 0, 0) 0px 0px 0px 1px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+    "w": 1
+   }
+  ],
+  "transitions": [
+   {
+    "v": "ease 0.3s",
+    "w": 9
+   },
+   {
+    "v": "ease 0.4s",
+    "w": 4
+   },
+   {
+    "v": "ease 0.25s",
+    "w": 2
+   },
+   {
+    "v": "cubic-bezier(0.22 0.5s",
+    "w": 1
+   },
+   {
+    "v": "cubic-bezier(0.22 0.62s",
+    "w": 1
+   },
+   {
+    "v": "ease 0.22s",
+    "w": 1
+   },
+   {
+    "v": "ease 0.32s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "Ppneuemontreal, Arial, sans-serif",
+    "size": "90px",
+    "weight": "500",
+    "lineHeight": "90px",
+    "letterSpacing": "-0.9px",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Utopia"
+   },
+   "h2": {
+    "family": "Ppneuemontreal, Arial, sans-serif",
+    "size": "90px",
+    "weight": "500",
+    "lineHeight": "90px",
+    "letterSpacing": "-0.9px",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "W'01"
+   },
+   "p": {
+    "family": "Ppneuemontreal, Arial, sans-serif",
+    "size": "22.5px",
+    "weight": "500",
+    "lineHeight": "31.5px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "©25 . 26"
+   },
+   "a": {
+    "family": "Ppneuemontreal, Arial, sans-serif",
+    "size": "10.8px",
+    "weight": "700",
+    "lineHeight": "10.8px",
+    "letterSpacing": "0.324px",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "works"
+   },
+   "button": {
+    "family": "Ppneuemontreal, \"PP Neue Montreal\", \"Neue Montreal\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "size": "12px",
+    "weight": "500",
+    "lineHeight": "12px",
+    "letterSpacing": "0.96px",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "Decline"
+   },
+   "body": {
+    "family": "Ppneuemontreal, Arial, sans-serif",
+    "size": "14px",
+    "weight": "500",
+    "lineHeight": "15.4px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "/* ------------------------- Variables -----------------------------------------"
+   }
+  },
+  "cssVars": {
+   "--white": "white",
+   "--black": "black",
+   "--color-neutral-300<deleted|variable-1d6890ef-448c-9061-c4bf-c4a137eac590>": "#e3e1de",
+   "--transparent": "#0000",
+   "--color-success<deleted|variable-9f54a720-69d3-aab8-4e89-4762934afb98>": "#0ba954"
+  },
+  "fontFaces": [
+   {
+    "family": "webflow-icons",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"data:application/x-font-ttf;charset=utf-8;base64,AAEAAAALAIAAAwAwT1MvMg8SBiUAAAC8AAAAYGNtYXDpP+a4AAABHAAAAFxnYXNwAAAAEAAAAXgAAAAIZ2x5ZmhS2XEAAAGAAAADHGhlYWQTFw3HAAAEnAAAADZoaGVhCXYFgQAABNQAAAAkaG"
+   },
+   {
+    "family": "Ppneuemontreal",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/6a0c501c42b9751b78a9d1a7/6a0c501c42b9751b78a9d1cc_PPNeueMontreal-Medium.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Ppneuemontreal",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/6a0c501c42b9751b78a9d1a7/6a0c501c42b9751b78a9d1cd_PPNeueMontreal-Regular.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Ppneuemontreal Book",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/6a0c501c42b9751b78a9d1a7/6a0c501c42b9751b78a9d1cf_PPNeueMontreal-Book.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Ppneuemontreal",
+    "weight": "300",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/6a0c501c42b9751b78a9d1a7/6a0c501c42b9751b78a9d1d6_PPNeueMontreal-Light.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Ppneuemontreal",
+    "weight": "600",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/6a0c501c42b9751b78a9d1a7/6a0c501c42b9751b78a9d1d2_PPNeueMontreal-SemiBold.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Ppneuemontreal",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/6a0c501c42b9751b78a9d1a7/6a0c501c42b9751b78a9d1d4_PPNeueMontreal-Bold.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Ppneuemontreal",
+    "weight": "100",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/6a0c501c42b9751b78a9d1a7/6a0c501c42b9751b78a9d1ce_PPNeueMontreal-Thin.woff2\") format(\"woff2\")"
+   }
+  ],
+  "keyframes": [
+   "spin",
+   "nwdot"
+  ],
+  "breakpoints": [
+   {
+    "v": "991px",
+    "w": 7
+   },
+   {
+    "v": "767px",
+    "w": 7
+   },
+   {
+    "v": "479px",
+    "w": 7
+   },
+   {
+    "v": "768px",
+    "w": 2
+   },
+   {
+    "v": "720px",
+    "w": 2
+   },
+   {
+    "v": "992px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 1394,
+  "crossOriginSheets": 1
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "page-wrapper",
+    "h": 12412,
+    "title": "Utopia",
+    "media": 20
+   },
+   {
+    "tag": "div",
+    "id": "ncb-root",
+    "cls": "",
+    "h": 196,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": "awwwards",
+    "cls": "",
+    "h": 175,
+    "title": "",
+    "media": 0
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "",
+    "href": "https://www.noth.in/"
+   },
+   {
+    "t": "works",
+    "href": "https://www.noth.in/works"
+   },
+   {
+    "t": "STUDIO",
+    "href": "https://www.noth.in/studio"
+   },
+   {
+    "t": "awards",
+    "href": "https://www.noth.in/awards"
+   },
+   {
+    "t": "method",
+    "href": "https://www.noth.in/method"
+   },
+   {
+    "t": "contact",
+    "href": "https://calendly.com/sara-noth/30min"
+   }
+  ],
+  "ctas": [
+   "book a call",
+   "drop us an email@",
+   "Send"
+  ],
+  "pageHeight": 12412,
+  "counts": {
+   "canvas": 0,
+   "videos": 0,
+   "imgs": 34,
+   "svgs": 6,
+   "iframes": 1,
+   "domNodes": 449
+  }
+ },
+ "tech": {
+  "gsap": true,
+  "gsapVersion": "3.13.0",
+  "scrollTrigger": true,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "184",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": true,
+  "swiper": false,
+  "webflow": true,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [
+   "googletagmanager",
+   "gtag",
+   "fbevents"
+  ],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": false
+ },
+ "scripts": [
+  "https://www.googletagmanager.com/gtm.js?id=GTM-TXXTT3WJ",
+  "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js",
+  "https://cdn.prod.website-files.com/6a0c501c42b9751b78a9d1a7%2F689e5ba67671442434f3ca35%2F6adfb3a1a7b90ee5ba671ade%2Fchatfr-1.0.1.js",
+  "https://cdn.prod.website-files.com/6a0c501c42b9751b78a9d1a7%2F689e5ba67671442434f3ca35%2F6adfb63e61417b162801f7a9%2Ftogglelangues-1.1.0.js",
+  "https://nothinv1.netlify.app/main.js",
+  "https://tools.noth.in/webmcp/nothin-webmcp.js",
+  "https://www.noth.in/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+  "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6a0c501c42b9751b78a9d1a7",
+  "https://cdn.prod.website-files.com/6a0c501c42b9751b78a9d1a7/js/webflow.schunk.f383f5e6d5965c7d.js",
+  "https://cdn.prod.website-files.com/6a0c501c42b9751b78a9d1a7/js/webflow.751e0867.6551f58fa950fc60.js",
+  "https://tools.noth.in/chat/widget-v3.js",
+  "https://cdn.prod.website-files.com/6a0c501c42b9751b78a9d1a7%2F689e5ba67671442434f3ca35%2F6ad629fcd3431332ab8fe4bc%2Fnothinwebmcp-1.0.0.js",
+  "https://cdn.prod.website-files.com/6a0c501c42b9751b78a9d1a7%2F689e5ba67671442434f3ca35%2F6adfb193ff928009b213a916%2Fasklauncherlift-1.0.2.js"
+ ],
+ "internal": [
+  "https://www.noth.in/",
+  "https://www.noth.in/works",
+  "https://www.noth.in/studio",
+  "https://www.noth.in/awards",
+  "https://www.noth.in/method",
+  "https://www.noth.in/fr",
+  "https://www.noth.in/works/aurbse",
+  "https://www.noth.in/works/in-cognita",
+  "https://www.noth.in/works/lgm",
+  "https://www.noth.in/works/haptify",
+  "https://www.noth.in/works/mova",
+  "https://www.noth.in/works/france-chimie"
+ ],
+ "perf": {
+  "ttfb": 133,
+  "dcl": 636,
+  "load": 1380,
+  "lcp": 780,
+  "lcpEl": "VIDEO.video-hero-bg",
+  "cls": 0.852
+ },
+ "libs": {
+  "detected": [
+   "jQuery",
+   "Lenis",
+   "GSAP",
+   "ScrollTrigger",
+   "Three.js",
+   "Virtual scroll"
+  ],
+  "where": {
+   "jQuery": [
+    "007-webflow.schunk.f383f5e6d5965c7d.js",
+    "008-jquery-3.5.1.min.dc5e7f18c8.js"
+   ],
+   "Lenis": [
+    "010-widget-v3.js",
+    "013-main.js"
+   ],
+   "GSAP": [
+    "013-main.js"
+   ],
+   "ScrollTrigger": [
+    "013-main.js"
+   ],
+   "Three.js": [
+    "013-main.js"
+   ],
+   "Virtual scroll": [
+    "013-main.js"
+   ]
+  },
+  "gsapVersion": "3.13.0",
+  "threeRevision": null,
+  "shaders": 19,
+  "scripts": 13
+ },
+ "network": {
+  "requests": 79,
+  "totalKb": 17502,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 29
+   },
+   "Stylesheet": {
+    "n": 4,
+    "kb": 7
+   },
+   "Script": {
+    "n": 14,
+    "kb": 453
+   },
+   "Font": {
+    "n": 5,
+    "kb": 214
+   },
+   "Image": {
+    "n": 45,
+    "kb": 5616
+   },
+   "Media": {
+    "n": 4,
+    "kb": 11156
+   },
+   "Fetch": {
+    "n": 3,
+    "kb": 26
+   },
+   "XHR": {
+    "n": 1,
+    "kb": 1
+   },
+   "Other": {
+    "n": 2,
+    "kb": 1
+   }
+  },
+  "thirdPartyHosts": [
+   "cdn.prod.website-files.com",
+   "d3e54v103j8qbb.cloudfront.net",
+   "ajax.googleapis.com",
+   "fonts.googleapis.com",
+   "noth-in.b-cdn.net",
+   "fonts.gstatic.com",
+   "tools.noth.in",
+   "www.googletagmanager.com",
+   "nothinv1.netlify.app",
+   "n8n.noth.in"
+  ],
+  "fontFiles": [
+   "https://cdn.prod.website-files.com/6a0c501c42b9751b78a9d1a7/6a0c501c42b9751b78a9d1cc_PPNeueMontreal-Medium.woff2",
+   "https://cdn.prod.website-files.com/6a0c501c42b9751b78a9d1a7/6a0c501c42b9751b78a9d1cd_PPNeueMontreal-Regular.woff2",
+   "https://fonts.gstatic.com/s/ibmplexmono/v20/-F63fjptAgt5VM-kVkqdyU8n1i8q1w.woff2",
+   "https://cdn.prod.website-files.com/6a0c501c42b9751b78a9d1a7/6a0c501c42b9751b78a9d1d4_PPNeueMontreal-Bold.woff2",
+   "https://cdn.prod.website-files.com/6a0c501c42b9751b78a9d1a7/6a0c501c42b9751b78a9d1cf_PPNeueMontreal-Book.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://noth-in.b-cdn.net/nothin-sharp-high.mp4",
+    "kb": 9918,
+    "type": "Media"
+   },
+   {
+    "url": "https://noth-in.b-cdn.net/NOTHIN_MANIFESTE_REFLECT_H265.mp4",
+    "kb": 1238,
+    "type": "Media"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/6a2679b9acc91890e34df140/6a3248e1e43838193b409f08_work-utopia-cover.webp",
+    "kb": 556,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/6a0c501c42b9751b78a9d1a7/6a31722974b25426299f5e83_saussice-V2.webp",
+    "kb": 437,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/6a2679b9acc91890e34df140/6a319bb9740ace5d22b1065c_work-vignette-utopia-V2.webp",
+    "kb": 411,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/6a2679b9acc91890e34df140/6a31973b9a932d9fe80a553b_work-utopia-15-p-1600.webp",
+    "kb": 354,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/6a2679b9acc91890e34df140/6a3253fc7fef825d58c3567f_work-utopia-14-V2.webp",
+    "kb": 303,
+    "type": "Image"
+   },
+   {
+    "url": "https://noth-in.b-cdn.net/freepik__photography-frontal-shot-of-a-huge-large-169-white__495122.webp",
+    "kb": 277,
+    "type": "Image"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "14px",
+   "lineHeight": "14px"
+  },
+  "body": "14px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 182
+}

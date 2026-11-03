@@ -1,0 +1,731 @@
+{
+ "id": 87,
+ "name": "20 Years Inspired by People",
+ "sourceUrl": "https://inspiring.nk.studio/es",
+ "capturedAt": "2026-11-03T09:28:59.606Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg"
+  ],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [
+   {
+    "url": "https://inspiring.nk.studio/en",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://inspiring.nk.studio/es/manifesto",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://inspiring.nk.studio/es",
+ "title": "20 Años Inspirados por Personas /nk.studio",
+ "lang": "es",
+ "generator": null,
+ "seo": {
+  "description": "Un archivo de historias, personas y momentos que inspiraron a /nk.studio durante estos 20 años. Antes de inspirar, fuimos inspirados.",
+  "canonical": null,
+  "robots": null,
+  "ogTitle": "20 Años Inspirados por Personas /nk.studio",
+  "ogImage": "https://inspiring.nk.studio/share.jpg",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [],
+  "h1Count": 1,
+  "headings": [
+   "H2 20 años inspirados por personas",
+   "H1 Antes de inspirar,fuimos inspirados.",
+   "H2 ",
+   "H3 Conocé la historia de",
+   "H2 Comparte tu historiade inspiración"
+  ],
+  "imgs": 96,
+  "imgNoAlt": 37,
+  "favicon": "https://inspiring.nk.studio/favicon.ico?favicon.127f05b1h3x.4.ico",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#00ffc2",
+    "w": 10970
+   },
+   {
+    "v": "#ffffff",
+    "w": 4800
+   },
+   {
+    "v": "#070b0a",
+    "w": 1296
+   }
+  ],
+  "text": [
+   {
+    "v": "#ffffff",
+    "w": 1186
+   },
+   {
+    "v": "#041819",
+    "w": 62
+   },
+   {
+    "v": "#000000",
+    "w": 14
+   }
+  ],
+  "border": [
+   {
+    "v": "#ffffff",
+    "w": 1
+   }
+  ],
+  "fonts": [
+   {
+    "v": "Instrument Serif",
+    "w": 1028
+   },
+   {
+    "v": "DM Sans",
+    "w": 969
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "16px",
+    "w": 97
+   },
+   {
+    "v": "12px",
+    "w": 94
+   },
+   {
+    "v": "8px",
+    "w": 35
+   },
+   {
+    "v": "24px",
+    "w": 34
+   },
+   {
+    "v": "100px",
+    "w": 33
+   },
+   {
+    "v": "14px",
+    "w": 17
+   },
+   {
+    "v": "10px",
+    "w": 10
+   },
+   {
+    "v": "13px",
+    "w": 9
+   },
+   {
+    "v": "48px",
+    "w": 5
+   },
+   {
+    "v": "11px",
+    "w": 4
+   },
+   {
+    "v": "44px",
+    "w": 2
+   },
+   {
+    "v": "58px",
+    "w": 1
+   },
+   {
+    "v": "15px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "10px",
+    "w": 102
+   },
+   {
+    "v": "3.35544e+07px",
+    "w": 27
+   },
+   {
+    "v": "5px",
+    "w": 19
+   },
+   {
+    "v": "8px",
+    "w": 6
+   },
+   {
+    "v": "50%",
+    "w": 2
+   },
+   {
+    "v": "3px",
+    "w": 1
+   },
+   {
+    "v": "4px",
+    "w": 1
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0 0.5s",
+    "w": 176
+   },
+   {
+    "v": "ease 0.35s",
+    "w": 5
+   },
+   {
+    "v": "cubic-bezier(0.64 0.4s",
+    "w": 3
+   },
+   {
+    "v": "cubic-bezier(0.4 0.3s",
+    "w": 3
+   },
+   {
+    "v": "cubic-bezier(0.86 0.6s",
+    "w": 2
+   },
+   {
+    "v": "cubic-bezier(0 0.7s",
+    "w": 2
+   },
+   {
+    "v": "cubic-bezier(0 0.3s",
+    "w": 2
+   },
+   {
+    "v": "cubic-bezier(0.4 0.5s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "\"Instrument Serif\", \"Instrument Serif Fallback\", Arial, Helvetica, sans-serif",
+    "size": "100px",
+    "weight": "400",
+    "lineHeight": "97px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Antes de inspirar,fuimos inspirados."
+   },
+   "h2": {
+    "family": "\"Instrument Serif\", \"Instrument Serif Fallback\"",
+    "size": "44px",
+    "weight": "400",
+    "lineHeight": "45.76px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#070b0a",
+    "sample": "Comparte tu historiade inspiración"
+   },
+   "h3": {
+    "family": "\"Instrument Serif\", \"Instrument Serif Fallback\", Arial, Helvetica, sans-serif",
+    "size": "58px",
+    "weight": "400",
+    "lineHeight": "60.32px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#070b0a",
+    "sample": "Conocé la historia de"
+   },
+   "p": {
+    "family": "\"DM Sans\", \"DM Sans Fallback\"",
+    "size": "13px",
+    "weight": "400",
+    "lineHeight": "12.35px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": null,
+    "sample": "DESDE 2006"
+   },
+   "a": {
+    "family": "\"Instrument Serif\", \"Instrument Serif Fallback\", Arial, Helvetica, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ededed",
+    "sample": "ENG"
+   },
+   "button": {
+    "family": "\"DM Sans\", \"DM Sans Fallback\"",
+    "size": "14px",
+    "weight": "700",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#041819",
+    "sample": "Entrá al archivo de inspiraciónEntrá al archivo de inspiración"
+   },
+   "body": {
+    "family": "\"Instrument Serif\", \"Instrument Serif Fallback\", Arial, Helvetica, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ededed",
+    "sample": "20 años inspirados por personasPor nuestros 20 años, invitamos a quienes marcaro"
+   }
+  },
+  "cssVars": {
+   "--font-sans": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+   "--font-mono": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+   "--color-gray-50": "lab(98.2596% -.247031 -.706708)",
+   "--color-gray-200": "lab(91.6229% -.159115 -2.26791)",
+   "--color-black": "#000",
+   "--color-white": "#fff",
+   "--font-weight-normal": "400",
+   "--font-weight-medium": "500",
+   "--font-weight-bold": "700",
+   "--leading-snug": "1.375",
+   "--ease-in": "cubic-bezier(.4, 0, 1, 1)",
+   "--ease-out": "cubic-bezier(0, 0, .2, 1)",
+   "--ease-in-out": "cubic-bezier(.4, 0, .2, 1)",
+   "--blur-xs": "4px",
+   "--blur-md": "12px",
+   "--aspect-video": "16 / 9",
+   "--default-transition-duration": ".15s",
+   "--default-transition-timing-function": "cubic-bezier(.4, 0, .2, 1)",
+   "--default-font-family": "var(--font-sans)",
+   "--default-mono-font-family": "var(--font-mono)",
+   "--font-dm-sans": "var(--font-dm-sans)",
+   "--font-instrument-serif": "var(--font-instrument-serif)",
+   "--color-brand-green": "#00ffc2",
+   "--color-galaxy-green": "#070b0a",
+   "--background": "#0a0a0a",
+   "--foreground": "#ededed"
+  },
+  "fontFaces": [
+   {
+    "family": "DM Sans",
+    "weight": "100 1000",
+    "style": "normal",
+    "src": "url(\"../media/c3cb240f9c892514-s.163v2i5cux7-c.woff2?dpl=dpl_FZzNsVweQ4o5G2B2s3uTQxPz9CX5\") format(\"woff2\")"
+   },
+   {
+    "family": "DM Sans",
+    "weight": "100 1000",
+    "style": "normal",
+    "src": "url(\"../media/5c285b27cdda1fe8-s.p.0yo6-5yoeeudq.woff2?dpl=dpl_FZzNsVweQ4o5G2B2s3uTQxPz9CX5\") format(\"woff2\")"
+   },
+   {
+    "family": "DM Sans Fallback",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   },
+   {
+    "family": "Instrument Serif",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"../media/ccf27e5a7366fb23-s.0hck6o0i8wq3a.woff2?dpl=dpl_FZzNsVweQ4o5G2B2s3uTQxPz9CX5\") format(\"woff2\")"
+   },
+   {
+    "family": "Instrument Serif",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"../media/e41d5df559864f9e-s.p.0gq7fw9.sy_5..woff2?dpl=dpl_FZzNsVweQ4o5G2B2s3uTQxPz9CX5\") format(\"woff2\")"
+   },
+   {
+    "family": "Instrument Serif Fallback",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Times New Roman\")"
+   }
+  ],
+  "keyframes": [
+   "carousel-selection-ring-spin",
+   "site-noise-grain"
+  ],
+  "breakpoints": [
+   {
+    "v": "1024px",
+    "w": 10
+   },
+   {
+    "v": "768px",
+    "w": 8
+   },
+   {
+    "v": "1280px",
+    "w": 7
+   },
+   {
+    "v": "640px",
+    "w": 5
+   },
+   {
+    "v": "1536px",
+    "w": 1
+   },
+   {
+    "v": "700px",
+    "w": 1
+   },
+   {
+    "v": "769px",
+    "w": 1
+   },
+   {
+    "v": "1200px",
+    "w": 1
+   },
+   {
+    "v": "1025px",
+    "w": 1
+   },
+   {
+    "v": "1279px",
+    "w": 1
+   },
+   {
+    "v": "719px",
+    "w": 1
+   },
+   {
+    "v": "1023px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 1275,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "relative flex min-h-0 w-full flex-1 flex-col",
+    "h": 900,
+    "title": "Antes de inspirar,fuimos inspirados.",
+    "media": 90
+   }
+  ],
+  "navLinks": [],
+  "ctas": [
+   "enviar"
+  ],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 7,
+   "videos": 1,
+   "imgs": 96,
+   "svgs": 54,
+   "iframes": 2,
+   "domNodes": 1613
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "183",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": true,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [
+   "googletagmanager",
+   "gtag"
+  ],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://www.gstatic.com/recaptcha/releases/bSuJ2xBC8cHT21-c68JXN31m/recaptcha__fr.js",
+  "https://inspiring.nk.studio/_next/static/chunks/10ye5bwjwd67i.js?dpl=dpl_FZzNsVweQ4o5G2B2s3uTQxPz9CX5",
+  "https://inspiring.nk.studio/_next/static/chunks/0u7jag0_1s_wt.js?dpl=dpl_FZzNsVweQ4o5G2B2s3uTQxPz9CX5",
+  "https://inspiring.nk.studio/_next/static/chunks/0yyfkiwhh2fo2.js?dpl=dpl_FZzNsVweQ4o5G2B2s3uTQxPz9CX5",
+  "https://inspiring.nk.studio/_next/static/chunks/turbopack-0qopo33yozuwv.js?dpl=dpl_FZzNsVweQ4o5G2B2s3uTQxPz9CX5",
+  "https://inspiring.nk.studio/_next/static/chunks/01xlw8hd842-c.js?dpl=dpl_FZzNsVweQ4o5G2B2s3uTQxPz9CX5",
+  "https://inspiring.nk.studio/_next/static/chunks/0d3shmwh5_nmn.js?dpl=dpl_FZzNsVweQ4o5G2B2s3uTQxPz9CX5",
+  "https://inspiring.nk.studio/_next/static/chunks/07yah2fc8dkzg.js?dpl=dpl_FZzNsVweQ4o5G2B2s3uTQxPz9CX5",
+  "https://inspiring.nk.studio/_next/static/chunks/0ogyncvab3r8x.js?dpl=dpl_FZzNsVweQ4o5G2B2s3uTQxPz9CX5",
+  "https://inspiring.nk.studio/_next/static/chunks/0mrsm3pryz__1.js?dpl=dpl_FZzNsVweQ4o5G2B2s3uTQxPz9CX5",
+  "https://inspiring.nk.studio/_next/static/chunks/00osrxc66bqm6.js?dpl=dpl_FZzNsVweQ4o5G2B2s3uTQxPz9CX5",
+  "https://inspiring.nk.studio/_next/static/chunks/0j76~vspnm6bf.js?dpl=dpl_FZzNsVweQ4o5G2B2s3uTQxPz9CX5",
+  "https://inspiring.nk.studio/_next/static/chunks/0twjqni3og8k1.js?dpl=dpl_FZzNsVweQ4o5G2B2s3uTQxPz9CX5",
+  "https://inspiring.nk.studio/_next/static/chunks/0yw007.vb_n7k.js?dpl=dpl_FZzNsVweQ4o5G2B2s3uTQxPz9CX5",
+  "https://inspiring.nk.studio/_next/static/chunks/0s~ip.mla.pj5.js?dpl=dpl_FZzNsVweQ4o5G2B2s3uTQxPz9CX5",
+  "https://inspiring.nk.studio/_next/static/chunks/07t8ll_pti98f.js?dpl=dpl_FZzNsVweQ4o5G2B2s3uTQxPz9CX5",
+  "https://inspiring.nk.studio/_next/static/chunks/0wtuz.izo-qyu.js?dpl=dpl_FZzNsVweQ4o5G2B2s3uTQxPz9CX5",
+  "https://inspiring.nk.studio/_next/static/chunks/037p2i.nzd8.z.js?dpl=dpl_FZzNsVweQ4o5G2B2s3uTQxPz9CX5",
+  "https://inspiring.nk.studio/_next/static/chunks/0p8xno.kbv8zx.js?dpl=dpl_FZzNsVweQ4o5G2B2s3uTQxPz9CX5",
+  "https://inspiring.nk.studio/_next/static/chunks/03~yq9q893hmn.js?dpl=dpl_FZzNsVweQ4o5G2B2s3uTQxPz9CX5",
+  "https://inspiring.nk.studio/_next/static/chunks/0bzkk9rr8sd8v.js?dpl=dpl_FZzNsVweQ4o5G2B2s3uTQxPz9CX5",
+  "https://inspiring.nk.studio/_next/static/chunks/0nqf85598fyrf.js?dpl=dpl_FZzNsVweQ4o5G2B2s3uTQxPz9CX5",
+  "https://inspiring.nk.studio/_next/static/chunks/0r9pqp~2_494_.js?dpl=dpl_FZzNsVweQ4o5G2B2s3uTQxPz9CX5",
+  "https://www.googletagmanager.com/gtag/js?id=G-ELJR3B67PQ",
+  "https://www.google.com/recaptcha/api.js?render=6LdvkhctAAAAANXBbE8hFKYFQXk37DK_yIK4YxaF"
+ ],
+ "internal": [
+  "https://inspiring.nk.studio/en",
+  "https://inspiring.nk.studio/es/manifesto",
+  "https://inspiring.nk.studio/es/credits"
+ ],
+ "perf": {
+  "ttfb": 267,
+  "dcl": 1579,
+  "load": 1630,
+  "lcp": 5536,
+  "lcpEl": "SPAN.hero-char",
+  "cls": 0
+ },
+ "libs": {
+  "detected": [
+   "React",
+   "Next.js",
+   "Howler (audio)",
+   "Rive",
+   "SplitText/SplitType",
+   "Lottie",
+   "GSAP",
+   "ScrollTrigger",
+   "Lil-GUI/Tweakpane (debug)",
+   "Lenis",
+   "Three.js",
+   "React Three Fiber",
+   "Barba.js",
+   "Virtual scroll"
+  ],
+  "where": {
+   "React": [
+    "001-10ye5bwjwd67i.js",
+    "016-0yyfkiwhh2fo2.js",
+    "017-0yw007.vb_n7k.js"
+   ],
+   "Next.js": [
+    "002-0r9pqp_2_494.js"
+   ],
+   "Howler (audio)": [
+    "003-0j76_vspnm6bf.js",
+    "005-0twjqni3og8k1.js",
+    "007-0mrsm3pryz__1.js"
+   ],
+   "Rive": [
+    "005-0twjqni3og8k1.js"
+   ],
+   "SplitText/SplitType": [
+    "007-0mrsm3pryz__1.js",
+    "009-00osrxc66bqm6.js",
+    "013-0wtuz.izo-qyu.js"
+   ],
+   "Lottie": [
+    "007-0mrsm3pryz__1.js",
+    "008-037p2i.nzd8.z.js",
+    "010-07yah2fc8dkzg.js",
+    "019-07t8ll_pti98f.js"
+   ],
+   "GSAP": [
+    "009-00osrxc66bqm6.js",
+    "013-0wtuz.izo-qyu.js",
+    "015-0s_ip.mla.pj5.js"
+   ],
+   "ScrollTrigger": [
+    "009-00osrxc66bqm6.js",
+    "013-0wtuz.izo-qyu.js",
+    "015-0s_ip.mla.pj5.js"
+   ],
+   "Lil-GUI/Tweakpane (debug)": [
+    "011-0ogyncvab3r8x.js"
+   ],
+   "Lenis": [
+    "015-0s_ip.mla.pj5.js",
+    "017-0yw007.vb_n7k.js"
+   ],
+   "Three.js": [
+    "017-0yw007.vb_n7k.js"
+   ],
+   "React Three Fiber": [
+    "017-0yw007.vb_n7k.js",
+    "019-07t8ll_pti98f.js"
+   ],
+   "Barba.js": [
+    "017-0yw007.vb_n7k.js"
+   ],
+   "Virtual scroll": [
+    "017-0yw007.vb_n7k.js"
+   ]
+  },
+  "gsapVersion": "3.11.0",
+  "threeRevision": null,
+  "shaders": 14,
+  "scripts": 19
+ },
+ "network": {
+  "requests": 136,
+  "totalKb": 18727,
+  "byType": {
+   "Document": {
+    "n": 2,
+    "kb": 72
+   },
+   "Image": {
+    "n": 88,
+    "kb": 14337
+   },
+   "Font": {
+    "n": 2,
+    "kb": 51
+   },
+   "Stylesheet": {
+    "n": 2,
+    "kb": 16
+   },
+   "Script": {
+    "n": 24,
+    "kb": 1240
+   },
+   "Other": {
+    "n": 1,
+    "kb": 1
+   },
+   "Fetch": {
+    "n": 16,
+    "kb": 2926
+   },
+   "Media": {
+    "n": 1,
+    "kb": 83
+   }
+  },
+  "thirdPartyHosts": [
+   "www.googletagmanager.com",
+   "cdn.jsdelivr.net",
+   "www.google.com",
+   "region1.google-analytics.com",
+   "www.gstatic.com",
+   "estudionkcdn.sfo3.cdn.digitaloceanspaces.com",
+   "lottie.host",
+   "unpkg.com"
+  ],
+  "fontFiles": [
+   "https://inspiring.nk.studio/_next/static/media/5c285b27cdda1fe8-s.p.0yo6-5yoeeudq.woff2?dpl=dpl_FZzNsVweQ4o5G2B2s3uTQxPz9CX5",
+   "https://inspiring.nk.studio/_next/static/media/e41d5df559864f9e-s.p.0gq7fw9.sy_5..woff2?dpl=dpl_FZzNsVweQ4o5G2B2s3uTQxPz9CX5",
+   "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://inspiring.nk.studio/audio/0-ambient.mp3",
+    "kb": 999,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://estudionkcdn.sfo3.cdn.digitaloceanspaces.com/20years/gif/Alan-Buscaglia.gif",
+    "kb": 927,
+    "type": "Image"
+   },
+   {
+    "url": "https://estudionkcdn.sfo3.cdn.digitaloceanspaces.com/20years/assets/Rafa-cover.png",
+    "kb": 750,
+    "type": "Image"
+   },
+   {
+    "url": "https://unpkg.com/@rive-app/canvas@2.37.7/rive.wasm",
+    "kb": 682,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://cdn.jsdelivr.net/npm/@lottiefiles/dotlottie-web@0.73.0/dist/dotlottie-player.wasm",
+    "kb": 607,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://estudionkcdn.sfo3.cdn.digitaloceanspaces.com/20years/gif/Dave-Benton.gif",
+    "kb": 576,
+    "type": "Image"
+   },
+   {
+    "url": "https://estudionkcdn.sfo3.cdn.digitaloceanspaces.com/20years/gif/Fernando-Vega-Olmos.gif",
+    "kb": 538,
+    "type": "Image"
+   },
+   {
+    "url": "https://estudionkcdn.sfo3.cdn.digitaloceanspaces.com/20years/gif/Liva-Grinberga.gif",
+    "kb": 423,
+    "type": "Image"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "40px",
+   "lineHeight": "38.8px"
+  },
+  "body": "16px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 622
+}

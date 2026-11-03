@@ -1,0 +1,988 @@
+{
+ "id": 68,
+ "name": "Ai in Design Report 2026",
+ "sourceUrl": "https://stateofaidesign.com/",
+ "capturedAt": "2026-11-03T09:03:36.772Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg",
+   "desktop-13.jpg",
+   "desktop-14.jpg"
+  ],
+  "fullPage": 11209,
+  "subpages": [
+   {
+    "url": "https://stateofaidesign.com/about",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://stateofaidesign.com/chapters/tools",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://stateofaidesign.com/cases/sierra",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://stateofaidesign.com/",
+ "title": "AI in Design Report 2026",
+ "lang": null,
+ "generator": "Framer 8cfa921",
+ "seo": {
+  "description": "The second annual report by Designer Fund and Foundation Capital on how design teams are adapting to AI across tooling, craft, and org.",
+  "canonical": "https://stateofaidesign.com/",
+  "robots": "max-image-preview:large",
+  "ogTitle": "AI in Design Report 2026",
+  "ogImage": "https://framerusercontent.com/assets/A09Xgh73SLRYZSBFXJ9fBxyvHlY.png",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [],
+  "h1Count": 5,
+  "headings": [
+   "H1 AI in Design Report 2026",
+   "H1 In 2025, designers were experimenting with AI. In 2026, they’re rebuilding around it.",
+   "H2 01",
+   "H2 Tools",
+   "H1 The great toolstack shakeup",
+   "H2 02",
+   "H2 Craft",
+   "H1 Craft in the age of infinite output",
+   "H2 03",
+   "H2 Teams",
+   "H1 Redesigning the design org",
+   "H2 Video Case Studies",
+   "H2 Seven companies. Seven ways of navigating the same shift.",
+   "H3 Inside AI-native design teams",
+   "H2 Get new case studies & report markdown",
+   "H3 Download the markdown version of the report, ready to drop into any tool. Get notified as ",
+   "H2 Methodology"
+  ],
+  "imgs": 36,
+  "imgNoAlt": 36,
+  "favicon": "https://framerusercontent.com/images/YeBg4KhukpeFDQRc7qUySaNCzM4.png",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#ffffff",
+    "w": 14517940
+   },
+   {
+    "v": "#000000",
+    "w": 8556333
+   },
+   {
+    "v": "#cdabfe",
+    "w": 3655584
+   },
+   {
+    "v": "#d1ddd3",
+    "w": 2395341
+   },
+   {
+    "v": "#fe7141",
+    "w": 1617419
+   },
+   {
+    "v": "#f0ff1c",
+    "w": 952800
+   }
+  ],
+  "text": [
+   {
+    "v": "#000000",
+    "w": 5076
+   },
+   {
+    "v": "#ffffff",
+    "w": 674
+   },
+   {
+    "v": "#2b2b2b",
+    "w": 4
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "Beausite Classic Regular",
+    "w": 4047
+   },
+   {
+    "v": "Beausite Classic Medium",
+    "w": 1451
+   },
+   {
+    "v": "Geist Mono",
+    "w": 256
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "16px",
+    "w": 40
+   },
+   {
+    "v": "18px",
+    "w": 34
+   },
+   {
+    "v": "40px",
+    "w": 18
+   },
+   {
+    "v": "14px",
+    "w": 18
+   },
+   {
+    "v": "12px",
+    "w": 15
+   },
+   {
+    "v": "80px",
+    "w": 12
+   },
+   {
+    "v": "13px",
+    "w": 12
+   },
+   {
+    "v": "15px",
+    "w": 10
+   },
+   {
+    "v": "24px",
+    "w": 7
+   },
+   {
+    "v": "120px",
+    "w": 6
+   },
+   {
+    "v": "85px",
+    "w": 4
+   },
+   {
+    "v": "50px",
+    "w": 3
+   },
+   {
+    "v": "20px",
+    "w": 2
+   },
+   {
+    "v": "22px",
+    "w": 2
+   },
+   {
+    "v": "32px",
+    "w": 2
+   },
+   {
+    "v": "26px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "100%",
+    "w": 1
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.44 0.2s",
+    "w": 3
+   },
+   {
+    "v": "ease 0.2s",
+    "w": 2
+   },
+   {
+    "v": "cubic-bezier(0.4 0.1s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "\"Beausite Classic Medium\", \"Beausite Classic Medium Placeholder\", sans-serif",
+    "size": "120px",
+    "weight": "500",
+    "lineHeight": "114px",
+    "letterSpacing": "-7.2px",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "AI in Design Report 2026"
+   },
+   "h2": {
+    "family": "\"Beausite Classic Medium\", \"Beausite Classic Medium Placeholder\", sans-serif",
+    "size": "80px",
+    "weight": "500",
+    "lineHeight": "76px",
+    "letterSpacing": "-4.8px",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "01"
+   },
+   "h3": {
+    "family": "\"Beausite Classic Medium\", \"Beausite Classic Medium Placeholder\", sans-serif",
+    "size": "26px",
+    "weight": "500",
+    "lineHeight": "36.4px",
+    "letterSpacing": "-1.04px",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Inside AI-native design teams"
+   },
+   "h4": {
+    "family": "\"Beausite Classic Medium\", \"Beausite Classic Medium Placeholder\", sans-serif",
+    "size": "22px",
+    "weight": "500",
+    "lineHeight": "30.8px",
+    "letterSpacing": "-0.88px",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Designers surveyed in 60+ countries."
+   },
+   "p": {
+    "family": "\"Beausite Classic Medium\", \"Beausite Classic Medium Placeholder\", sans-serif",
+    "size": "18px",
+    "weight": "500",
+    "lineHeight": "18px",
+    "letterSpacing": "-0.54px",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "About"
+   },
+   "a": {
+    "family": "sans-serif",
+    "size": "12px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#0000ee",
+    "sample": "AboutAbout"
+   },
+   "button": {
+    "family": "sans-serif",
+    "size": "12px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Submit"
+   },
+   "body": {
+    "family": "sans-serif",
+    "size": "12px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": ":root body { background: rgb(255, 255, 255); }html body { background: rgb(255, 2"
+   }
+  },
+  "cssVars": {
+   "--token-3412d4dd-2f5f-48c8-b607-f8105a8b7211": "#fe7141",
+   "--token-a228bc56-904d-4a09-b7f8-6b60e0221982": "#000",
+   "--token-0d9c52bb-4346-4afb-b8ae-283673444b3f": "#fff",
+   "--token-54653423-a788-4b87-99d2-f130e2af5148": "#cdabfe",
+   "--token-6af35a76-1812-4e65-b20e-93b47dd846c7": "#597e87",
+   "--token-dc58878c-6871-4081-9b9a-81f0df31eb6a": "#d1ddd3",
+   "--token-9c987371-9131-4ecc-9a69-10e703280af3": "#f5f9fc",
+   "--token-ce625ef5-5dd0-428c-a706-db60cbd06c7f": "#153250",
+   "--token-d66b7197-4553-4ba6-b16f-d06cd8b6ab87": "#d1ddd3",
+   "--framer-will-change-override": "transform",
+   "--framer-will-change-filter-override": "filter",
+   "--overflow-clip-fallback": "hidden",
+   "--one-if-corner-shape-supported": "1",
+   "--framer-aspect-ratio-supported": "auto"
+  },
+  "fontFaces": [
+   {
+    "family": "Fragment Mono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB45HhrUI.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Fragment Mono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB41HhrUI.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Fragment Mono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB4NHhg.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geistmono/v6/or3nQ6H-1_WfwkMZI_qYFrodmgPn.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geistmono/v6/or3nQ6H-1_WfwkMZI_qYFrMdmgPn.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geistmono/v6/or3nQ6H-1_WfwkMZI_qYFg08vz7ehw.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geistmono/v6/or3nQ6H-1_WfwkMZI_qYFrgdmgPn.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geistmono/v6/or3nQ6H-1_WfwkMZI_qYFrkdmgPn.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geistmono/v6/or3nQ6H-1_WfwkMZI_qYFrcdmg.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geistmono/v6/or3nQ6H-1_WfwkMZI_qYFrodmgPn.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geistmono/v6/or3nQ6H-1_WfwkMZI_qYFrMdmgPn.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geistmono/v6/or3nQ6H-1_WfwkMZI_qYFg08vz7ehw.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geistmono/v6/or3nQ6H-1_WfwkMZI_qYFrgdmgPn.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geistmono/v6/or3nQ6H-1_WfwkMZI_qYFrkdmgPn.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geistmono/v6/or3nQ6H-1_WfwkMZI_qYFrcdmg.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geistmono/v6/or3nQ6H-1_WfwkMZI_qYFrodmgPn.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geistmono/v6/or3nQ6H-1_WfwkMZI_qYFrMdmgPn.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geistmono/v6/or3nQ6H-1_WfwkMZI_qYFg08vz7ehw.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geistmono/v6/or3nQ6H-1_WfwkMZI_qYFrgdmgPn.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geistmono/v6/or3nQ6H-1_WfwkMZI_qYFrkdmgPn.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"https://fonts.gstatic.com/s/geistmono/v6/or3nQ6H-1_WfwkMZI_qYFrcdmg.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Beausite Classic Medium",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/MBjc90WtMiSr0OrKYYmz40TcKU.woff2\")"
+   },
+   {
+    "family": "Beausite Classic Regular",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/Wqw1c5sXED5xQCM8PaZ7f1elFuw.woff2\")"
+   },
+   {
+    "family": "Beausite Classic Bold",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/YDCWfdCkSc7C2mn3RfnQRFI4A.woff2\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/EOr0mi4hNtlgWNn9if640EZzXCo.woff2\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/Y9k9QrlZAqio88Klkmbd8VoMQc.woff2\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/OYrD2tBIBPvoJXiIHnLoOXnY9M.woff2\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/JeYwfuaPfZHQhEG8U5gtPDZ7WQ.woff2\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/b6Y37FthZeALduNqHicBT6FutY.woff2\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "900",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/mkY5Sgyq51ik0AMrSBwhm9DJg.woff2\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "900",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/X5hj6qzcHUYv7h1390c8Rhm6550.woff2\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "900",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/gQhNpS3tN86g8RcVKYUUaKt2oMQ.woff2\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "900",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/cugnVhSraaRyANCaUtI5FV17wk.woff2\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "900",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/5HcVoGak8k5agFJSaKa4floXVu0.woff2\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "900",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/rZ5DdENNqIdFTIyQQiP5isO7M.woff2\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "900",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/P2Bw01CtL0b9wqygO0sSVogWbo.woff2\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "900",
+    "style": "italic",
+    "src": "url(\"https://framerusercontent.com/assets/05KsVHGDmqXSBXM4yRZ65P8i0s.woff2\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "900",
+    "style": "italic",
+    "src": "url(\"https://framerusercontent.com/assets/ky8ovPukK4dJ1Pxq74qGhOqCYI.woff2\")"
+   }
+  ],
+  "keyframes": [
+   "__framer-editorbar-spinner-spin"
+  ],
+  "breakpoints": [
+   {
+    "v": "1440px",
+    "w": 14
+   },
+   {
+    "v": "1439px",
+    "w": 14
+   },
+   {
+    "v": "900px",
+    "w": 14
+   },
+   {
+    "v": "899px",
+    "w": 14
+   },
+   {
+    "v": "1919px",
+    "w": 10
+   },
+   {
+    "v": "2559px",
+    "w": 4
+   },
+   {
+    "v": "768px",
+    "w": 1
+   },
+   {
+    "v": "1199.98px",
+    "w": 1
+   },
+   {
+    "v": "767.98px",
+    "w": 1
+   },
+   {
+    "v": "2560px",
+    "w": 1
+   },
+   {
+    "v": "1199px",
+    "w": 1
+   },
+   {
+    "v": "810px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 1304,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "framer-WgHH7 framer-1ti4ff8",
+    "h": 11209,
+    "title": "AI in Design Report 2026",
+    "media": 42
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "AboutAbout",
+    "href": "https://stateofaidesign.com/about"
+   },
+   {
+    "t": "Case StudiesCase Studies",
+    "href": ""
+   },
+   {
+    "t": "",
+    "href": "https://stateofaidesign.com/"
+   },
+   {
+    "t": "Tools01",
+    "href": "https://stateofaidesign.com/chapters/tools"
+   },
+   {
+    "t": "Craft02",
+    "href": "https://stateofaidesign.com/chapters/craft"
+   },
+   {
+    "t": "Teams03",
+    "href": "https://stateofaidesign.com/chapters/teams"
+   },
+   {
+    "t": "Sierra01",
+    "href": "https://stateofaidesign.com/cases/sierra"
+   },
+   {
+    "t": "Linear02",
+    "href": "https://stateofaidesign.com/cases/linear"
+   },
+   {
+    "t": "Shopify03",
+    "href": "https://stateofaidesign.com/cases/shopify"
+   },
+   {
+    "t": "Stripe04",
+    "href": "https://stateofaidesign.com/cases/stripe"
+   },
+   {
+    "t": "Anthropic05",
+    "href": "https://stateofaidesign.com/cases/anthropic"
+   },
+   {
+    "t": "Notion06Coming soon",
+    "href": ""
+   },
+   {
+    "t": "Framer07Coming soon",
+    "href": ""
+   },
+   {
+    "t": "AboutAbout",
+    "href": "https://stateofaidesign.com/about"
+   },
+   {
+    "t": "Case StudiesCase Studies",
+    "href": ""
+   },
+   {
+    "t": "",
+    "href": "https://stateofaidesign.com/"
+   },
+   {
+    "t": "Tools01",
+    "href": "https://stateofaidesign.com/chapters/tools"
+   },
+   {
+    "t": "Craft02",
+    "href": "https://stateofaidesign.com/chapters/craft"
+   },
+   {
+    "t": "Teams03",
+    "href": "https://stateofaidesign.com/chapters/teams"
+   },
+   {
+    "t": "Sierra01",
+    "href": "https://stateofaidesign.com/cases/sierra"
+   },
+   {
+    "t": "Linear02",
+    "href": "https://stateofaidesign.com/cases/linear"
+   },
+   {
+    "t": "Shopify03",
+    "href": "https://stateofaidesign.com/cases/shopify"
+   },
+   {
+    "t": "Stripe04",
+    "href": "https://stateofaidesign.com/cases/stripe"
+   },
+   {
+    "t": "Anthropic05",
+    "href": "https://stateofaidesign.com/cases/anthropic"
+   },
+   {
+    "t": "Notion06Coming soon",
+    "href": ""
+   },
+   {
+    "t": "Framer07Coming soon",
+    "href": ""
+   }
+  ],
+  "ctas": [
+   "AboutAbout",
+   "Case StudiesCase Studies",
+   "AboutAbout",
+   "Case StudiesCase Studies"
+  ],
+  "pageHeight": 11209,
+  "counts": {
+   "canvas": 0,
+   "videos": 6,
+   "imgs": 36,
+   "svgs": 13,
+   "iframes": 2,
+   "domNodes": 1275
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": false,
+  "locomotive": false,
+  "three": false,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": true,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [
+   "googletagmanager",
+   "gtag"
+  ],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": false
+ },
+ "scripts": [
+  "https://www.googletagmanager.com/gtag/js?id=G-ENCTDDZ16K",
+  "https://adora-cdn.com/adora-start.js",
+  "https://events.framer.com/script?v=2",
+  "https://framerusercontent.com/sites/6aF4zBd35UnGf38z5p3Qso/script_main.BJcbrVg_.mjs"
+ ],
+ "internal": [
+  "https://stateofaidesign.com/about",
+  "https://stateofaidesign.com/chapters/tools",
+  "https://stateofaidesign.com/chapters/craft",
+  "https://stateofaidesign.com/chapters/teams",
+  "https://stateofaidesign.com/cases/sierra",
+  "https://stateofaidesign.com/cases/linear",
+  "https://stateofaidesign.com/cases/shopify",
+  "https://stateofaidesign.com/cases/stripe",
+  "https://stateofaidesign.com/cases/anthropic"
+ ],
+ "perf": {
+  "ttfb": 119,
+  "dcl": 380,
+  "load": 4167,
+  "lcp": 848,
+  "lcpEl": "VIDEO",
+  "cls": 0.289
+ },
+ "libs": {
+  "detected": [
+   "Contentful",
+   "React",
+   "Lottie",
+   "Lenis",
+   "SplitText/SplitType",
+   "Barba.js"
+  ],
+  "where": {
+   "Contentful": [
+    "006-script.js"
+   ],
+   "React": [
+    "018-react.3Mia_jwR.js",
+    "027-script_main.BJcbrVg.js",
+    "030-init.js"
+   ],
+   "Lottie": [
+    "028-1LTmzATxvmGhdjw7qYw3V5tTa-IQsRljvvwr6q5TJKk.oSmzaCgE.js"
+   ],
+   "Lenis": [
+    "030-init.js"
+   ],
+   "SplitText/SplitType": [
+    "057-V_appcGAo-chunk-default-0.framercms.js"
+   ],
+   "Barba.js": [
+    "062-lxW0bh6P2.DiG7zvn5.js"
+   ]
+  },
+  "gsapVersion": null,
+  "threeRevision": null,
+  "shaders": 0,
+  "scripts": 90
+ },
+ "network": {
+  "requests": 151,
+  "totalKb": 15615,
+  "byType": {
+   "Document": {
+    "n": 2,
+    "kb": 88
+   },
+   "Image": {
+    "n": 34,
+    "kb": 1432
+   },
+   "Media": {
+    "n": 18,
+    "kb": 12796
+   },
+   "Font": {
+    "n": 4,
+    "kb": 181
+   },
+   "Script": {
+    "n": 80,
+    "kb": 1045
+   },
+   "Fetch": {
+    "n": 11,
+    "kb": 72
+   },
+   "Ping": {
+    "n": 1,
+    "kb": 0
+   },
+   "Other": {
+    "n": 1,
+    "kb": 1
+   }
+  },
+  "thirdPartyHosts": [
+   "framerusercontent.com",
+   "i.ytimg.com",
+   "events.framer.com",
+   "www.googletagmanager.com",
+   "fonts.gstatic.com",
+   "framer.com",
+   "app.framerstatic.com",
+   "region1.google-analytics.com"
+  ],
+  "fontFiles": [
+   "https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+   "https://framerusercontent.com/assets/Wqw1c5sXED5xQCM8PaZ7f1elFuw.woff2",
+   "https://fonts.gstatic.com/s/geistmono/v6/or3nQ6H-1_WfwkMZI_qYFrcdmg.woff2",
+   "https://framerusercontent.com/assets/MBjc90WtMiSr0OrKYYmz40TcKU.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://framerusercontent.com/assets/60TSo4WrKzA27Mp4KCDTmVbhc.webm",
+    "kb": 3555,
+    "type": "Media"
+   },
+   {
+    "url": "https://framerusercontent.com/assets/4RQvaMC0xNnbs7f7MQ6hG63i2pM.webm",
+    "kb": 3193,
+    "type": "Media"
+   },
+   {
+    "url": "https://framerusercontent.com/assets/11fQjZ8SBLFtf9GDiGqEbzqKI8.webm",
+    "kb": 2712,
+    "type": "Media"
+   },
+   {
+    "url": "https://framerusercontent.com/assets/11fQjZ8SBLFtf9GDiGqEbzqKI8.webm",
+    "kb": 2712,
+    "type": "Media"
+   },
+   {
+    "url": "https://framerusercontent.com/assets/vMHevGIeALFuIZsCH4NOQ9K5FRM.webm",
+    "kb": 617,
+    "type": "Media"
+   },
+   {
+    "url": "https://framerusercontent.com/images/3PnnEUOWmeA3vqUKVJ7ZWHROyuI.webp?width=1080&height=1080",
+    "kb": 231,
+    "type": "Image"
+   },
+   {
+    "url": "https://framerusercontent.com/images/twdkVJGqcc9X8Hrg5LcZPHKJBQ.webp?width=1080&height=1080",
+    "kb": 208,
+    "type": "Image"
+   },
+   {
+    "url": "https://www.googletagmanager.com/gtag/js?id=G-ENCTDDZ16K",
+    "kb": 178,
+    "type": "Script"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "48px",
+   "lineHeight": "48px"
+  },
+  "body": "12px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 114
+}

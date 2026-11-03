@@ -1,0 +1,420 @@
+{
+ "id": 97,
+ "name": "Obys Experiment Space",
+ "sourceUrl": "https://experiment.obys.agency/",
+ "capturedAt": "2026-11-03T22:11:59.133Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg"
+  ],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [
+   {
+    "url": "https://experiment.obys.agency/about",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://experiment.obys.agency/",
+ "title": "Obys® Experiment Space — Unpublished Works & Experiments",
+ "lang": null,
+ "generator": "Webflow",
+ "seo": {
+  "description": "Obys® Experiment Space is a living archive of unpublished concepts, experiments, and side projects. A glimpse into the ideas, explorations, and creative directions behind the work of Obys.",
+  "canonical": "https://experiment.obys.agency/",
+  "robots": null,
+  "ogTitle": "Obys® Experiment Space — Unpublished Works & Experiments",
+  "ogImage": "https://cdn.prod.website-files.com/6a144ba0b441780cf00851e8/6a27d5baf969e78e5e345643_Obys%20Experiment%20Space_OG.jpg",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [],
+  "h1Count": 0,
+  "headings": [],
+  "imgs": 4,
+  "imgNoAlt": 3,
+  "favicon": "https://cdn.prod.website-files.com/6a144ba0b441780cf00851e8/6a27d0db13061be14ba10694_Favicon.jpg",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#ffffff",
+    "w": 1944000
+   },
+   {
+    "v": "#000000",
+    "w": 1300745
+   }
+  ],
+  "text": [
+   {
+    "v": "#000000",
+    "w": 148
+   }
+  ],
+  "border": [
+   {
+    "v": "#000000",
+    "w": 1
+   }
+  ],
+  "fonts": [
+   {
+    "v": "OTF Obys NG",
+    "w": 148
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "13px",
+    "w": 22
+   },
+   {
+    "v": "14px",
+    "w": 11
+   },
+   {
+    "v": "94px",
+    "w": 2
+   }
+  ],
+  "radius": [],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "ease 0.3s",
+    "w": 3
+   },
+   {
+    "v": "cubic-bezier(0.4 0.6s",
+    "w": 1
+   },
+   {
+    "v": "ease 0.4s",
+    "w": 1
+   },
+   {
+    "v": "cubic-bezier(0.16 0.5s",
+    "w": 1
+   },
+   {
+    "v": "ease 0.2s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "a": {
+    "family": "\"OTF Obys NG\", sans-serif",
+    "size": "13px",
+    "weight": "500",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Link"
+   },
+   "body": {
+    "family": "\"Times New Roman\"",
+    "size": "14px",
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#333333",
+    "sample": "#obys-fluid-gallery { width: 100%; height: 100vh; min-height: 600px; position: r"
+   }
+  },
+  "cssVars": {},
+  "fontFaces": [
+   {
+    "family": "webflow-icons",
+    "weight": "normal",
+    "style": "normal",
+    "src": "url(\"data:application/x-font-ttf;charset=utf-8;base64,AAEAAAALAIAAAwAwT1MvMg8SBiUAAAC8AAAAYGNtYXDpP+a4AAABHAAAAFxnYXNwAAAAEAAAAXgAAAAIZ2x5ZmhS2XEAAAGAAAADHGhlYWQTFw3HAAAEnAAAADZoaGVhCXYFgQAABNQAAAAkaG"
+   },
+   {
+    "family": "OTF Obys NG",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/6a144ba0b441780cf00851e8/6a144ba0b441780cf00851eb_ObysSans-Regular.woff2\") format(\"woff2\")"
+   }
+  ],
+  "keyframes": [
+   "spin",
+   "mbDot0",
+   "mbDot1",
+   "mbDot2",
+   "mbDot3"
+  ],
+  "breakpoints": [
+   {
+    "v": "991px",
+    "w": 3
+   },
+   {
+    "v": "479px",
+    "w": 3
+   },
+   {
+    "v": "767px",
+    "w": 2
+   },
+   {
+    "v": "768px",
+    "w": 1
+   },
+   {
+    "v": "1199px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 775,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "page-transition-overlay",
+    "h": 900,
+    "top": -900,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "div-block-3",
+    "h": 900,
+    "top": 0,
+    "title": "",
+    "media": 2
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "page-wrapper",
+    "h": 900,
+    "top": 0,
+    "title": "",
+    "media": 1
+   }
+  ],
+  "navLinks": [],
+  "ctas": [],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 2,
+   "videos": 0,
+   "imgs": 4,
+   "svgs": 0,
+   "iframes": 0,
+   "domNodes": 131
+  }
+ },
+ "tech": {
+  "gsap": true,
+  "gsapVersion": "3.12.5",
+  "scrollTrigger": false,
+  "splitText": true,
+  "lenis": false,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "170",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": true,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6a144ba0b441780cf00851e8",
+  "https://cdn.prod.website-files.com/6a144ba0b441780cf00851e8/js/webflow.751e0867.c4af84be1c21006a.js",
+  "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js",
+  "https://unpkg.com/split-type"
+ ],
+ "internal": [
+  "https://experiment.obys.agency/about"
+ ],
+ "perf": {
+  "ttfb": 603,
+  "dcl": 755,
+  "load": 827,
+  "lcp": 756,
+  "lcpEl": "DIV.hero-reveal-top",
+  "cls": 0.008
+ },
+ "libs": {
+  "detected": [
+   "GSAP",
+   "ScrollTrigger",
+   "jQuery",
+   "SplitText/SplitType",
+   "Three.js"
+  ],
+  "where": {
+   "GSAP": [
+    "001-gsap.min.js"
+   ],
+   "ScrollTrigger": [
+    "001-gsap.min.js"
+   ],
+   "jQuery": [
+    "002-jquery-3.5.1.min.dc5e7f18c8.js",
+    "003-webflow.751e0867.c4af84be1c21006a.js"
+   ],
+   "SplitText/SplitType": [
+    "004-index.min.js"
+   ],
+   "Three.js": [
+    "005-three.js"
+   ]
+  },
+  "gsapVersion": "3.12.5",
+  "threeRevision": null,
+  "shaders": 6,
+  "scripts": 5
+ },
+ "network": {
+  "requests": 45,
+  "totalKb": 5229,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 16
+   },
+   "Script": {
+    "n": 6,
+    "kb": 298
+   },
+   "Stylesheet": {
+    "n": 1,
+    "kb": 12
+   },
+   "Image": {
+    "n": 35,
+    "kb": 4896
+   },
+   "Font": {
+    "n": 1,
+    "kb": 7
+   },
+   "Other": {
+    "n": 1,
+    "kb": 1
+   }
+  },
+  "thirdPartyHosts": [
+   "cdnjs.cloudflare.com",
+   "d3e54v103j8qbb.cloudfront.net",
+   "cdn.prod.website-files.com",
+   "unpkg.com",
+   "esm.sh",
+   "media.base44.com"
+  ],
+  "fontFiles": [
+   "https://cdn.prod.website-files.com/6a144ba0b441780cf00851e8/6a144ba0b441780cf00851eb_ObysSans-Regular.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://media.base44.com/images/public/69cbcd44d3da2a5cef013f5e/35b4cd3a3_images_12_mpcm73ey.jpg",
+    "kb": 1285,
+    "type": "Image"
+   },
+   {
+    "url": "https://media.base44.com/images/public/69cbcd44d3da2a5cef013f5e/81b4626b5_images_9_mpcm73ew.jpg",
+    "kb": 350,
+    "type": "Image"
+   },
+   {
+    "url": "https://media.base44.com/images/public/69cbcd44d3da2a5cef013f5e/0e40b44a8_images_17_mpcm73f0.jpg",
+    "kb": 301,
+    "type": "Image"
+   },
+   {
+    "url": "https://media.base44.com/images/public/69cbcd44d3da2a5cef013f5e/af618977f_images_26_mpcm73f2.jpg",
+    "kb": 247,
+    "type": "Image"
+   },
+   {
+    "url": "https://esm.sh/three@0.170.0/es2022/three.mjs",
+    "kb": 222,
+    "type": "Script"
+   },
+   {
+    "url": "https://media.base44.com/images/public/69cbcd44d3da2a5cef013f5e/524984858_images_1_mpcm73ev.jpg",
+    "kb": 214,
+    "type": "Image"
+   },
+   {
+    "url": "https://media.base44.com/images/public/69cbcd44d3da2a5cef013f5e/681d33c8f_images_30_mpcm73f3.jpg",
+    "kb": 195,
+    "type": "Image"
+   },
+   {
+    "url": "https://media.base44.com/images/public/69cbcd44d3da2a5cef013f5e/e290ce602_images_0_mpcm73ev.jpg",
+    "kb": 188,
+    "type": "Image"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": null,
+  "body": "14px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 45
+}

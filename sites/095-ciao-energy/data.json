@@ -1,0 +1,793 @@
+{
+ "id": 95,
+ "name": "CIAO ENERGY",
+ "sourceUrl": "https://www.ciaoenergy.com/",
+ "capturedAt": "2026-11-03T22:09:10.232Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg",
+   "desktop-13.jpg",
+   "desktop-14.jpg"
+  ],
+  "fullPage": 12807,
+  "subpages": [
+   {
+    "url": "https://www.ciaoenergy.com/politique-de-confidentialite",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg"
+    ]
+   },
+   {
+    "url": "https://www.ciaoenergy.com/mentions-legales",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg"
+    ]
+   },
+   {
+    "url": "https://www.ciaoenergy.com/cgu",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://www.ciaoenergy.com/",
+ "title": "Ciao Energy - L’energy drink parfaite",
+ "lang": "fr-FR",
+ "generator": "Webflow",
+ "seo": {
+  "description": "Ciao Energy, une gamme de boisson énergisante zero bullshit. Moins de sucre. Arômes naturels. Caféine d’origine végétale. Vitamines. Extraits de stévia. 6 saveurs.",
+  "canonical": "https://www.ciaoenergy.com/",
+  "robots": null,
+  "ogTitle": "Ciao Energy - L’energy drink parfaite",
+  "ogImage": "https://cdn.prod.website-files.com/69fb53371d5b8e9c3f4e4c69/6a1c669055af9680ca67da10_Ciao-energy_meta-img.jpg",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "Organization",
+   "FAQPage"
+  ],
+  "h1Count": 1,
+  "headings": [
+   "H1 Ciao Energy – L'energy drink parfaite",
+   "H2 Moins de sucre",
+   "H2 arômesnaturels",
+   "H2 caféine issue de grains de café",
+   "H2 stevia",
+   "H2 FOIRE AUXQUESTIONS"
+  ],
+  "imgs": 2,
+  "imgNoAlt": 1,
+  "favicon": "https://cdn.prod.website-files.com/69fb53371d5b8e9c3f4e4c69/6a1d9bb2854e5557fe84e7d1_Ciao_energy-fav-dark.png",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#000000",
+    "w": 1296000
+   },
+   {
+    "v": "#ffffff",
+    "w": 65044
+   }
+  ],
+  "text": [
+   {
+    "v": "#ffffff",
+    "w": 3101
+   },
+   {
+    "v": "#000000",
+    "w": 27
+   }
+  ],
+  "border": [
+   {
+    "v": "#ffffff",
+    "w": 2
+   }
+  ],
+  "fonts": [
+   {
+    "v": "Geist",
+    "w": 2929
+   },
+   {
+    "v": "Franklin Gothic Atf",
+    "w": 84
+   },
+   {
+    "v": "Roboto",
+    "w": 70
+   },
+   {
+    "v": "Geistmono",
+    "w": 45
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "42px",
+    "w": 219
+   },
+   {
+    "v": "14px",
+    "w": 139
+   },
+   {
+    "v": "12.25px",
+    "w": 130
+   },
+   {
+    "v": "17.5px",
+    "w": 33
+   },
+   {
+    "v": "10.5px",
+    "w": 11
+   },
+   {
+    "v": "18px",
+    "w": 9
+   },
+   {
+    "v": "15.75px",
+    "w": 9
+   },
+   {
+    "v": "28.8px",
+    "w": 4
+   },
+   {
+    "v": "16px",
+    "w": 2
+   },
+   {
+    "v": "60.0048px",
+    "w": 1
+   },
+   {
+    "v": "108px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "7px",
+    "w": 4
+   },
+   {
+    "v": "3.5px",
+    "w": 2
+   },
+   {
+    "v": "720px",
+    "w": 1
+   }
+  ],
+  "shadows": [
+   {
+    "v": "rgba(255, 255, 255, 0.6) 0px 0px 20px 0px",
+    "w": 2
+   },
+   {
+    "v": "rgba(255, 255, 255, 0.2) 0px 0px 0px 1px",
+    "w": 1
+   }
+  ],
+  "transitions": [
+   {
+    "v": "ease 0.2s",
+    "w": 14
+   },
+   {
+    "v": "ease 0.4s",
+    "w": 4
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "\"Franklin Gothic Atf\", Arial, sans-serif",
+    "size": "60.0048px",
+    "weight": "500",
+    "lineHeight": "60.0048px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "Ciao Energy – L'energy drink parfaite"
+   },
+   "h2": {
+    "family": "\"Franklin Gothic Atf\", Arial, sans-serif",
+    "size": "42px",
+    "weight": "500",
+    "lineHeight": "50.4px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "Moins de sucre"
+   },
+   "p": {
+    "family": "Geist, Arial, sans-serif",
+    "size": "17.5px",
+    "weight": "300",
+    "lineHeight": "26.25px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Une explosion exotique. Une recette intense en litchi qui rappelle les saveurs d"
+   },
+   "a": {
+    "family": "Geist, Arial, sans-serif",
+    "size": "12.25px",
+    "weight": "400",
+    "lineHeight": "12.25px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#000000",
+    "sample": "Contact Contact"
+   },
+   "button": {
+    "family": "Geist, Arial, sans-serif",
+    "size": "14px",
+    "weight": "400",
+    "lineHeight": "14px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#000000",
+    "sample": "S'INSCRIRE"
+   },
+   "body": {
+    "family": "Geist, Arial, sans-serif",
+    "size": "14px",
+    "weight": "300",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "html { font-size: clamp(0.875rem, 0.833vw, 1rem) !important; } * { -webkit-tap-h"
+   }
+  },
+  "cssVars": {
+   "--color-scheme-1--background": "var(--_primitives---colors--neutral-darkest)",
+   "--_typography---font-styles--body": "Geist,Arial,sans-serif",
+   "--color-scheme-1--text": "var(--_primitives---colors--white)",
+   "--_typography---font-styles--heading": "\"Franklin Gothic Atf\",Arial,sans-serif",
+   "--_typography---font-styles--heading-weight": "500",
+   "--_spacing-sizing---element-padding--s": "clamp(1.25rem,1.1vw,1.5rem)",
+   "--_spacing-sizing---element-padding--l": "clamp(2rem,2vw,3rem)",
+   "--_ui-styles---radius--medium": ".5rem",
+   "--_spacing-sizing---container--container-xlarge": "120rem",
+   "--_spacing-sizing---element-padding--t": ".25rem",
+   "--_spacing-sizing---element-padding--xxs": ".5rem",
+   "--_spacing-sizing---element-padding--xs": "clamp(.75rem,.65vw,1rem)",
+   "--_spacing-sizing---element-padding--m": "clamp(1.5rem,1.4vw,2rem)",
+   "--_spacing-sizing---element-padding--xl": "clamp(2.5rem,2.8vw,4rem)",
+   "--_spacing-sizing---element-padding--xxl": "clamp(3rem,3.5vw,5rem)",
+   "--_spacing-sizing---element-padding--h": "clamp(3.5rem,4vw,6rem)",
+   "--_spacing-sizing---element-padding--xh": "clamp(4rem,4.8vw,7rem)",
+   "--_spacing-sizing---element-padding--xxh": "clamp(5rem,6.5vw,10rem)",
+   "--_primitives---colors--white": "#fff",
+   "--_ui-styles---radius--xsmall": ".25rem",
+   "--color-scheme-1--border": "var(--_primitives---opacity--white-20)",
+   "--_primitives---opacity--transparent": "transparent",
+   "--_primitives---opacity--white-60": "#fff9",
+   "--text-color--text-alternate<deleted|relume-variable-text-color-3>": "var(--base-color-neutral--white\\<deleted\\|relume-variable-color-neutral-2\\>)",
+   "--_ui-styles---radius--button": "var(--_ui-styles---radius--small)",
+   "--_primitives---colors--neutral-darkest": "black",
+   "--_primitives---brand--camel-lightest<deleted|variable-bbcec2e4-52d1-09ad-f906-5dfe61628d9e>": "#f9f8ee",
+   "--_ui-styles---stroke--border-width": "1px",
+   "--background-color--background-secondary<deleted|relume-variable-background-color-2>": "var(--base-color-neutral--neutral-lightest\\<deleted\\|relume-variable-color-neutral-3\\>)",
+   "--border-color--border-primary<deleted|relume-variable-border-color-1>": "var(--base-color-neutral--black\\<deleted\\|relume-variable-color-neutral-1\\>)",
+   "--_spacing-sizing---page-padding--padding-global": "4%",
+   "--color-scheme-1--foreground": "var(--_primitives---colors--white)",
+   "--_ui-styles---radius--small": ".25rem",
+   "--_primitives---colors--neutral-lightest": "#eee",
+   "--_ui-styles---radius--large": "1rem",
+   "--color-scheme-1--accent": "var(--_primitives---colors--white)",
+   "--_primitives---opacity--white-5": "#ffffff0d",
+   "--_spacing-sizing---booking--nav-height": "7rem",
+   "--_primitives---opacity--white-20": "#fff3",
+   "--_primitives---opacity--white-50": "#ffffff80",
+   "--color-scheme-1--taste-secondary": "#ff659d",
+   "--_primitives---opacity--white-30": "#ffffff4d",
+   "--color-scheme-1--taste-primary": "#800035",
+   "--_primitives---opacity--white-80": "#fffc",
+   "--_typography---font-styles--mono": "Geistmono,Arial,sans-serif",
+   "--_ui-styles---blur--backdrop": "2rem",
+   "--_ui-styles---stroke--divider-width": "1px",
+   "--color-scheme-1--background-0": "var(--_primitives---opacity--white-0)",
+   "--_primitives---colors--neutral-lighter": "#ccc",
+   "--_primitives---colors--neutral-light": "#aaa",
+   "--_primitives---colors--neutral": "#666",
+   "--_primitives---colors--neutral-dark": "#444",
+   "--_primitives---colors--neutral-darker": "#222",
+   "--_primitives---opacity--white-0": "#fff0",
+   "--_primitives---opacity--white-10": "#ffffff1a",
+   "--_primitives---opacity--white-15": "#ffffff26",
+   "--_primitives---opacity--white-40": "#fff6",
+   "--_primitives---brand--camel-darker<deleted|variable-74f42268-8c16-e229-6c18-0ec873762b21>": "#56130b",
+   "--_primitives---brand--camel-lighter<deleted|variable-4272e369-2e59-611b-8101-6fde95679a7f>": "#f4ecdd",
+   "--_primitives---brand--camel-light<deleted|variable-ff740804-f932-5337-8488-1ea17676efd1>": "#e6d2c0",
+   "--base-color-neutral--white<deleted|relume-variable-color-neutral-2>": "white",
+   "--base-color-neutral--neutral-lightest<deleted|relume-variable-color-neutral-3>": "#eee",
+   "--base-color-neutral--black<deleted|relume-variable-color-neutral-1>": "black",
+   "--_primitives---brand--camel<deleted|variable-35e9b1e4-c803-8b54-ef7d-02b672f67117>": "#c79f7b",
+   "--_primitives---opacity--camel-darker-0<deleted|variable-cd006c58-4fb4-d5b0-b950-0b03504a4727>": "#56130b00"
+  },
+  "fontFaces": [
+   {
+    "family": "webflow-icons",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"data:application/x-font-ttf;charset=utf-8;base64,AAEAAAALAIAAAwAwT1MvMg8SBiUAAAC8AAAAYGNtYXDpP+a4AAABHAAAAFxnYXNwAAAAEAAAAXgAAAAIZ2x5ZmhS2XEAAAGAAAADHGhlYWQTFw3HAAAEnAAAADZoaGVhCXYFgQAABNQAAAAkaG"
+   },
+   {
+    "family": "Geistmono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/69fb53371d5b8e9c3f4e4c69/6a0b0eef462d20ff07b9cbe9_GeistMono-Regular.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Franklin Gothic Atf",
+    "weight": "900",
+    "style": "italic",
+    "src": "url(\"https://cdn.prod.website-files.com/69fb53371d5b8e9c3f4e4c69/6a0b3ae273b9c591afba279f_Franklin_Gothic_ATF_Black_Italic.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist",
+    "weight": "300",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/69fb53371d5b8e9c3f4e4c69/6a0d6cd3df7330778e84acee_Geist-Light.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/69fb53371d5b8e9c3f4e4c69/6a17254d942eb32e84bde0f0_Geist-Regular.woff2\") format(\"woff2\")"
+   }
+  ],
+  "keyframes": [
+   "spin"
+  ],
+  "breakpoints": [
+   {
+    "v": "991px",
+    "w": 7
+   },
+   {
+    "v": "767px",
+    "w": 5
+   },
+   {
+    "v": "479px",
+    "w": 5
+   },
+   {
+    "v": "768px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 1023,
+  "crossOriginSheets": 1
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "loader",
+    "h": 900,
+    "top": 0,
+    "title": "",
+    "media": 2
+   },
+   {
+    "tag": "section",
+    "id": "gamme",
+    "cls": "section is-gamme",
+    "h": 1125,
+    "top": 0,
+    "title": "Ciao Energy – L'energy drink parfaite",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section is-profile",
+    "h": 1125,
+    "top": 1125,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": "benefits-1",
+    "cls": "section is-benefits",
+    "h": 1125,
+    "top": 2250,
+    "title": "Moins de sucre",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": "benefits-2",
+    "cls": "section is-benefits",
+    "h": 1125,
+    "top": 3375,
+    "title": "arômesnaturels",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": "benefits-3",
+    "cls": "section is-benefits",
+    "h": 1125,
+    "top": 4500,
+    "title": "caféine issue de grains de café",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": "benefits-4",
+    "cls": "section is-benefits",
+    "h": 1125,
+    "top": 5625,
+    "title": "stevia",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section is-argument",
+    "h": 1125,
+    "top": 6750,
+    "title": "",
+    "media": 6
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section is-full-gamme",
+    "h": 1125,
+    "top": 7875,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": "FAQ",
+    "cls": "section is-faq",
+    "h": 1557,
+    "top": 9000,
+    "title": "FOIRE AUXQUESTIONS",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section is-last-copy",
+    "h": 1125,
+    "top": 10557,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section is-last",
+    "h": 1125,
+    "top": 11682,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "carousel_title-bis-wrapper",
+    "h": 900,
+    "top": 0,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "hud",
+    "h": 900,
+    "top": 0,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "canvas",
+    "id": null,
+    "cls": "",
+    "h": 900,
+    "top": 0,
+    "title": "",
+    "media": 0
+   }
+  ],
+  "navLinks": [],
+  "ctas": [
+   "Contact Contact",
+   "S'INSCRIRE"
+  ],
+  "pageHeight": 12807,
+  "counts": {
+   "canvas": 1,
+   "videos": 7,
+   "imgs": 2,
+   "svgs": 41,
+   "iframes": 0,
+   "domNodes": 1449
+  }
+ },
+ "tech": {
+  "gsap": true,
+  "gsapVersion": "3.15.0",
+  "scrollTrigger": true,
+  "splitText": true,
+  "lenis": true,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "161",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": true,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [],
+  "customCursor": false,
+  "audio": true,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://cloud.umami.is/script.js",
+  "https://sibforms.com/forms/end-form/build/main.js",
+  "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=69fb53371d5b8e9c3f4e4c69",
+  "https://cdn.prod.website-files.com/69fb53371d5b8e9c3f4e4c69/js/webflow.9a82b613.29781a31e070a6c4.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js"
+ ],
+ "internal": [
+  "https://www.ciaoenergy.com/politique-de-confidentialite",
+  "https://www.ciaoenergy.com/mentions-legales",
+  "https://www.ciaoenergy.com/cgu"
+ ],
+ "perf": {
+  "ttfb": 107,
+  "dcl": 1888,
+  "load": 1944,
+  "lcp": 1028,
+  "lcpEl": "VIDEO.loader_video",
+  "cls": 0
+ },
+ "libs": {
+  "detected": [
+   "GSAP",
+   "SplitText/SplitType",
+   "Contentful",
+   "ScrollTrigger",
+   "jQuery",
+   "Lottie",
+   "Postprocessing",
+   "Lenis",
+   "Virtual scroll",
+   "Three.js"
+  ],
+  "where": {
+   "GSAP": [
+    "002-SplitText.min.js",
+    "004-ScrollTrigger.min.js",
+    "005-gsap.min.js"
+   ],
+   "SplitText/SplitType": [
+    "002-SplitText.min.js",
+    "005-gsap.min.js",
+    "035-three.module.js"
+   ],
+   "Contentful": [
+    "003-script.js"
+   ],
+   "ScrollTrigger": [
+    "004-ScrollTrigger.min.js",
+    "005-gsap.min.js"
+   ],
+   "jQuery": [
+    "006-jquery-3.5.1.min.dc5e7f18c8.js",
+    "009-webflow.achunk.22b66e874d42861f.js",
+    "011-webflow.achunk.e8e7e6855b442808.js"
+   ],
+   "Lottie": [
+    "018-webflow.achunk.58f76f2901951073.js",
+    "024-webflow.achunk.ba16934fe1414a74.js"
+   ],
+   "Postprocessing": [
+    "021-EffectComposer.js",
+    "031-Pass.js"
+   ],
+   "Lenis": [
+    "022-lenis.js"
+   ],
+   "Virtual scroll": [
+    "022-lenis.js"
+   ],
+   "Three.js": [
+    "035-three.module.js"
+   ]
+  },
+  "gsapVersion": "3.11.0",
+  "threeRevision": null,
+  "shaders": 26,
+  "scripts": 39
+ },
+ "network": {
+  "requests": 81,
+  "totalKb": 6313,
+  "byType": {
+   "Document": {
+    "n": 2,
+    "kb": 48
+   },
+   "Image": {
+    "n": 19,
+    "kb": 1460
+   },
+   "Stylesheet": {
+    "n": 2,
+    "kb": 10
+   },
+   "Script": {
+    "n": 41,
+    "kb": 981
+   },
+   "Font": {
+    "n": 4,
+    "kb": 157
+   },
+   "Media": {
+    "n": 2,
+    "kb": 1207
+   },
+   "Fetch": {
+    "n": 8,
+    "kb": 2418
+   },
+   "Preflight": {
+    "n": 1,
+    "kb": 0
+   },
+   "Other": {
+    "n": 2,
+    "kb": 32
+   }
+  },
+  "thirdPartyHosts": [
+   "cdn.prod.website-files.com",
+   "sibforms.com",
+   "cloud.umami.is",
+   "d3e54v103j8qbb.cloudfront.net",
+   "cdn.jsdelivr.net",
+   "unpkg.com",
+   "cdn.skaald.com",
+   "gateway.umami.is",
+   "www.google.com",
+   "www.gstatic.com"
+  ],
+  "fontFiles": [
+   "https://cdn.prod.website-files.com/69fb53371d5b8e9c3f4e4c69/6a0b0eef462d20ff07b9cbe9_GeistMono-Regular.woff2",
+   "https://cdn.prod.website-files.com/69fb53371d5b8e9c3f4e4c69/6a0b3ae273b9c591afba279f_Franklin_Gothic_ATF_Black_Italic.woff2",
+   "https://cdn.prod.website-files.com/69fb53371d5b8e9c3f4e4c69/6a0d6cd3df7330778e84acee_Geist-Light.woff2",
+   "https://cdn.prod.website-files.com/69fb53371d5b8e9c3f4e4c69/6a17254d942eb32e84bde0f0_Geist-Regular.woff2",
+   "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://cdn.skaald.com/ciaoenergy/webgl/hdri2.hdr",
+    "kb": 1398,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://cdn.skaald.com/ciaoenergy/loop/Ciao-energy_background_double-litchi.webm",
+    "kb": 842,
+    "type": "Media"
+   },
+   {
+    "url": "https://cdn.skaald.com/ciaoenergy/webgl/base.glb",
+    "kb": 608,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://cdn.skaald.com/ciaoenergy/loader/Ciao-energy_loader-v2.webm",
+    "kb": 365,
+    "type": "Media"
+   },
+   {
+    "url": "https://www.gstatic.com/recaptcha/releases/bSuJ2xBC8cHT21-c68JXN31m/recaptcha__fr.js",
+    "kb": 354,
+    "type": "Script"
+   },
+   {
+    "url": "https://cdn.jsdelivr.net/npm/three@0.161.0/build/three.module.js",
+    "kb": 251,
+    "type": "Script"
+   },
+   {
+    "url": "https://cdn.skaald.com/ciaoenergy/textures/ciao-energy_texture_abricot_framboise.avif",
+    "kb": 247,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.skaald.com/ciaoenergy/textures/ciao-energy_texture_coco-citron-vert.avif",
+    "kb": 239,
+    "type": "Image"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "35px",
+   "lineHeight": "35px"
+  },
+  "body": "14px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 134
+}

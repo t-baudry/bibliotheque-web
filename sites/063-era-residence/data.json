@@ -2,131 +2,977 @@
  "id": 63,
  "name": "ERA Residence",
  "sourceUrl": "https://www.era-residence.com/",
- "capturedAt": "2026-11-03T00:15:41.978Z",
- "status": "inaccessible",
- "errors": [
-  "goto load: page.goto: Target page, context or browser has been closed",
-  "goto dcl: page.goto: Target page, context or browser has been closed",
-  "shot0 browserContext.newCDPSession: Target page, context or browser has been closed",
-  "extract: page.evaluate: Target page, context or browser has been closed",
-  "fullpage: page.evaluate: Target page, context or browser has been closed",
-  "browser.newContext: Target page, context or browser has been closed"
- ],
+ "capturedAt": "2026-11-03T08:53:19.911Z",
+ "status": "ok",
+ "errors": [],
  "steps": {
   "cookies": [],
   "enter": null,
   "rea": "passe hors ligne (rea-pass.mjs)",
-  "desktopFrames": [],
-  "subpages": [],
-  "video": "desktop-scroll.webm"
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg",
+   "desktop-13.jpg",
+   "desktop-14.jpg"
+  ],
+  "fullPage": 24530,
+  "subpages": [
+   {
+    "url": "https://www.era-residence.com/apartments",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.era-residence.com/contact",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
  },
- "httpStatus": null,
+ "httpStatus": 200,
+ "url": "https://www.era-residence.com/",
+ "title": "ERA Residence — Contemporary Mediterranean Residences in Estepona",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Boutique residences on the New Golden Mile combining contemporary architecture, natural materials and resort-style living near Marbella and Estepona.",
+  "canonical": null,
+  "robots": null,
+  "ogTitle": "ERA Residence — Contemporary Mediterranean Residences in Estepona",
+  "ogImage": "https://cdn.prod.website-files.com/6a068da7ad91b057365bf967/6a39f0aba46d0d055c0476ff_open-graph.webp",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "WebPage"
+  ],
+  "h1Count": 5,
+  "headings": [
+   "H1 Era Residence",
+   "H2 Estepona",
+   "H3 A place by dayby dayby nightby nightto return to",
+   "H3 Real-Life Location",
+   "H3 Built to stay",
+   "H3 Boutique concept",
+   "H2 The concept",
+   "H3 ERA Residences is a boutique gated community of only 25 residences, designed around privac",
+   "H3 New Golden Mile",
+   "H3 Between Marbella and Estepona",
+   "H2 The coast you wanted yours this year",
+   "H3 New Golden Mile, Estepona",
+   "H3 Ground floor + basement",
+   "H3 Ground Floor",
+   "H3 Penthouse duplex",
+   "H3 Residences range from 104 to 244 sq.m., offering spacious single level and duplex layouts ",
+   "H3 Gated community",
+   "H3 Swimming Pool",
+   "H3 Parking area",
+   "H3 Spa & gym",
+   "H3 Landscaping",
+   "H2 Thespaceto",
+   "H3 Live in",
+   "H2 Architecture",
+   "H3 The architecture of ERA Residences balances clean contemporary lines with Mediterranean wa",
+   "H2 Perfect sea views",
+   "H3 From rooftop terraces",
+   "H3 Sales Office",
+   "H1 Book a call",
+   "H1 Crafted to Endure",
+   "H1 Light & Flow",
+   "H1 Your Private Sanctuary"
+  ],
+  "imgs": 41,
+  "imgNoAlt": 35,
+  "favicon": "https://cdn.prod.website-files.com/6a068da7ad91b057365bf967/6a068e9190b0417295a747e4_fav_512x512.png",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#f3f3ec",
+    "w": 14095355
+   },
+   {
+    "v": "#340c24",
+    "w": 13412916
+   },
+   {
+    "v": "#b5cedb",
+    "w": 6394064
+   },
+   {
+    "v": "#17233b",
+    "w": 7852
+   },
+   {
+    "v": "#ffffff",
+    "w": 876
+   }
+  ],
+  "text": [
+   {
+    "v": "#17233b",
+    "w": 2312
+   },
+   {
+    "v": "#ffffff",
+    "w": 984
+   },
+   {
+    "v": "#f3f3ec",
+    "w": 161
+   }
+  ],
+  "border": [
+   {
+    "v": "#17233b",
+    "w": 1
+   }
+  ],
+  "fonts": [
+   {
+    "v": "Maison Neue Extended",
+    "w": 2517
+   },
+   {
+    "v": "ambroise-francois-std",
+    "w": 925
+   },
+   {
+    "v": "sloop-script-three",
+    "w": 15
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "9.9px",
+    "w": 669
+   },
+   {
+    "v": "25.2px",
+    "w": 135
+   },
+   {
+    "v": "11.7px",
+    "w": 132
+   },
+   {
+    "v": "36px",
+    "w": 109
+   },
+   {
+    "v": "86.4px",
+    "w": 80
+   },
+   {
+    "v": "172.8px",
+    "w": 79
+   },
+   {
+    "v": "122.4px",
+    "w": 56
+   },
+   {
+    "v": "56.7px",
+    "w": 41
+   },
+   {
+    "v": "22.5px",
+    "w": 35
+   },
+   {
+    "v": "108px",
+    "w": 15
+   },
+   {
+    "v": "8.1px",
+    "w": 14
+   },
+   {
+    "v": "14.4px",
+    "w": 13
+   },
+   {
+    "v": "345.342px",
+    "w": 12
+   },
+   {
+    "v": "57.6px",
+    "w": 8
+   }
+  ],
+  "radius": [
+   {
+    "v": "50%",
+    "w": 18
+   },
+   {
+    "v": "720px",
+    "w": 2
+   },
+   {
+    "v": "36px",
+    "w": 2
+   },
+   {
+    "v": "3.6px",
+    "w": 1
+   },
+   {
+    "v": "100%",
+    "w": 1
+   },
+   {
+    "v": "2px",
+    "w": 1
+   }
+  ],
+  "shadows": [
+   {
+    "v": "rgba(0, 0, 0, 0) 0px 224px 63px 0px, rgba(0, 0, 0, 0.01) 0px 143px 57px 0px, rgba(0, 0, 0, 0.04) 0px 81px 48px 0px, rgba",
+    "w": 1
+   }
+  ],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.25 0.4s",
+    "w": 20
+   },
+   {
+    "v": "cubic-bezier(0.25 0.8s",
+    "w": 15
+   },
+   {
+    "v": "cubic-bezier(0.76 0.8s",
+    "w": 5
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "ambroise-francois-std, sans-serif",
+    "size": "172.8px",
+    "weight": "400",
+    "lineHeight": "150.336px",
+    "letterSpacing": "-4.1472px",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "Era Residence"
+   },
+   "h2": {
+    "family": "sloop-script-three, sans-serif",
+    "size": "108px",
+    "weight": "400",
+    "lineHeight": "108px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Estepona"
+   },
+   "h3": {
+    "family": "ambroise-francois-std, sans-serif",
+    "size": "36px",
+    "weight": "400",
+    "lineHeight": "36px",
+    "letterSpacing": "-0.288px",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "A place by dayby dayby nightby nightto return to"
+   },
+   "h4": {
+    "family": "ambroise-francois-std, sans-serif",
+    "size": "36px",
+    "weight": "400",
+    "lineHeight": "36px",
+    "letterSpacing": "-0.288px",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "Instead of corridors, walking paths connect the apartments — making Era Residenc"
+   },
+   "p": {
+    "family": "\"Maison Neue Extended\", Arial, sans-serif",
+    "size": "9.9px",
+    "weight": "700",
+    "lineHeight": "14.355px",
+    "letterSpacing": "0.4752px",
+    "transform": "uppercase",
+    "color": "#17233b",
+    "sample": "A place to live — to return year after year"
+   },
+   "a": {
+    "family": "\"Maison Neue Extended\", Arial, sans-serif",
+    "size": "14.4px",
+    "weight": "400",
+    "lineHeight": "14.4px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#17233b",
+    "sample": "AcceptAccept"
+   },
+   "body": {
+    "family": "\"Maison Neue Extended\", Arial, sans-serif",
+    "size": "14.4px",
+    "weight": "400",
+    "lineHeight": "14.4px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#17233b",
+    "sample": ":root { --dur-s: 0.4s; --dur-m: 0.8s; --dur-l: 1.2s; --ease-in-out: cubic-bezier"
+   }
+  },
+  "cssVars": {
+   "--_fonts---font-body": "\"Maison Neue Extended\",Arial,sans-serif",
+   "--_colors---base-1000--primary": "var(--_global-colors---base-1000--100)",
+   "--_fonts---font-display": "ambroise-francois-std,sans-serif",
+   "--_fonts---h1--size": "calc(96rem/var(--_special-units---scale-ratio))",
+   "--_fonts---h1--line-height": "91.667%",
+   "--_fonts---h1--letter-spacing": "-.024em",
+   "--_fonts---h2--size": "calc(73rem/var(--_special-units---scale-ratio))",
+   "--_fonts---h2--line-height": "87.671%",
+   "--_fonts---h2--letter-spacing": "-.024em",
+   "--_fonts---h3--size": "calc(56rem/var(--_special-units---scale-ratio))",
+   "--_fonts---h3--line-height": "92.857%",
+   "--_fonts---h3--letter-spacing": "-.024em",
+   "--_fonts---h4--size": "calc(40rem/var(--_special-units---scale-ratio))",
+   "--_fonts---h4--line-height": "100%",
+   "--_fonts---h4--letter-spacing": "-.016em",
+   "--_fonts---h5--size": "calc(28rem/var(--_special-units---scale-ratio))",
+   "--_fonts---h5--line-height": "100%",
+   "--_fonts---h5--letter-spacing": "-.008em",
+   "--_fonts---h6--size": "calc(28rem/var(--_special-units---scale-ratio))",
+   "--_fonts---h6--line-height": "100%",
+   "--_fonts---h6--letter-spacing": "0em",
+   "--_fonts---p1--size": "calc(13rem/var(--_special-units---scale-ratio))",
+   "--_fonts---p1--line-height": "138.462%",
+   "--_fonts---p1--letter-spacing": "-.024em",
+   "--_units---u-0": "var(--0px)",
+   "--_special-units---100vh": "var(--_100svh)",
+   "--_colors---other--bg": "var(--_global-colors---base-0--100)",
+   "--_special-units---offset-r": "var(--24px)",
+   "--_special-units---offset-l": "var(--24px)",
+   "--_special-units---grid-gap": "var(--16px)",
+   "--_units---u-4": "var(--4px)",
+   "--_units---u-8": "var(--8px)",
+   "--_units---u-12": "var(--12px)",
+   "--_units---u-16": "var(--16px)",
+   "--_units---u-24": "var(--16px)",
+   "--_units---u-32": "var(--24px)",
+   "--_units---u-48": "var(--32px)",
+   "--_units---u-64": "var(--48px)",
+   "--_units---u-96": "var(--64px)",
+   "--_units---u-160": "var(--96px)",
+   "--_colors---base-0--primary": "var(--_global-colors---base-0--100)",
+   "--_colors---base-1000--gray-text": "var(--_global-colors---base-1000--60)",
+   "--_colors---additional--success": "#1ba64b",
+   "--_colors---additional--alert": "#ffa800",
+   "--_colors---additional--error": "#e23d3d",
+   "--_units---u-272": "var(--120px)",
+   "--_fonts---l1--size": "calc(11rem/var(--_special-units---scale-ratio))",
+   "--_fonts---l1--line-height": "145.455%",
+   "--_fonts---l1--letter-spacing": ".048em",
+   "--_colors---other--transparent": "transparent",
+   "--_colors---base-1000--line": "var(--_global-colors---base-1000--10)",
+   "--40px": "calc(40rem/var(--_special-units---scale-ratio))",
+   "--112px": "calc(112rem/var(--_special-units---scale-ratio))",
+   "--_colors---base-1000--disabled": "var(--_global-colors---base-1000--30)",
+   "--_colors---brand-500--primary<deleted|variable-91ff398b-1b86-c83e-9325-f542c634d71f>": "var(--_global-colors---brand-500--powder-sky)",
+   "--_fonts---p2--size": "calc(11rem/var(--_special-units---scale-ratio))",
+   "--_fonts---p2--line-height": "145.455%",
+   "--_fonts---p2--letter-spacing": "-.024em",
+   "--_fonts---l2--size": "calc(9rem/var(--_special-units---scale-ratio))",
+   "--_fonts---l2--line-height": "133.333%",
+   "--_fonts---l2--letter-spacing": ".32em",
+   "--_fonts---c1--size": "calc(19rem/var(--_special-units---scale-ratio))",
+   "--_fonts---c1--line-height": "126.316%",
+   "--_fonts---c1--letter-spacing": ".8em",
+   "--_fonts---font-accent": "sloop-script-three,sans-serif",
+   "--_fonts---a1--size": "calc(96rem/var(--_special-units---scale-ratio))",
+   "--_fonts---a1--line-height": "100%",
+   "--_fonts---a1--letter-spacing": "0em",
+   "--_fonts---a2--size": "calc(72rem/var(--_special-units---scale-ratio))",
+   "--_fonts---a2--line-height": "100%",
+   "--_fonts---a2--letter-spacing": "0em",
+   "--_special-units---scale-ratio": "4.16",
+   "--_special-units---1-cell-v": "var(--80px)",
+   "--_special-units---1-cell-h": "var(--80px)",
+   "--2px": "calc(2rem/var(--_special-units---scale-ratio))",
+   "--24px": "calc(24rem/var(--_special-units---scale-ratio))",
+   "--12px": "calc(12rem/var(--_special-units---scale-ratio))",
+   "--72px": "calc(72rem/var(--_special-units---scale-ratio))",
+   "--16px": "calc(16rem/var(--_special-units---scale-ratio))",
+   "--136px": "calc(136rem/var(--_special-units---scale-ratio))",
+   "--_global-colors---brand-500--velvet-plum": "#340c24",
+   "--80px": "calc(80rem/var(--_special-units---scale-ratio))",
+   "--192px": "calc(192rem/var(--_special-units---scale-ratio))",
+   "--144px": "calc(144rem/var(--_special-units---scale-ratio))",
+   "--28px": "calc(28rem/var(--_special-units---scale-ratio))",
+   "--56px": "calc(56rem/var(--_special-units---scale-ratio))",
+   "--32px": "calc(32rem/var(--_special-units---scale-ratio))",
+   "--6px": "calc(6rem/var(--_special-units---scale-ratio))",
+   "--20px": "calc(20rem/var(--_special-units---scale-ratio))",
+   "--44px": "calc(44rem/var(--_special-units---scale-ratio))",
+   "--_global-colors---base-0--100": "#f3f3ec",
+   "--_global-colors---base-0--0": "#f3f3ec00",
+   "--60px": "calc(60rem/var(--_special-units---scale-ratio))",
+   "--48px": "calc(48rem/var(--_special-units---scale-ratio))",
+   "--96px": "calc(96rem/var(--_special-units---scale-ratio))",
+   "--8px": "calc(8rem/var(--_special-units---scale-ratio))",
+   "--0px": "calc(0rem/var(--_special-units---scale-ratio))",
+   "--1px": "calc(1rem/var(--_special-units---scale-ratio))",
+   "--4px": "calc(4rem/var(--_special-units---scale-ratio))",
+   "--10px": "calc(10rem/var(--_special-units---scale-ratio))",
+   "--36px": "calc(36rem/var(--_special-units---scale-ratio))",
+   "--52px": "calc(52rem/var(--_special-units---scale-ratio))",
+   "--64px": "calc(64rem/var(--_special-units---scale-ratio))",
+   "--68px": "calc(68rem/var(--_special-units---scale-ratio))",
+   "--88px": "calc(88rem/var(--_special-units---scale-ratio))",
+   "--104px": "calc(104rem/var(--_special-units---scale-ratio))",
+   "--120px": "calc(120rem/var(--_special-units---scale-ratio))",
+   "--160px": "calc(160rem/var(--_special-units---scale-ratio))",
+   "--168px": "calc(168rem/var(--_special-units---scale-ratio))",
+   "--240px": "calc(240rem/var(--_special-units---scale-ratio))",
+   "--_colors---base-1000--bg": "var(--_global-colors---base-1000--5)",
+   "--_colors---base-0--gray-text": "var(--_global-colors---base-0--60)",
+   "--_colors---base-0--disabled": "var(--_global-colors---base-0--30)",
+   "--_colors---base-0--line": "var(--_global-colors---base-0--10)",
+   "--_colors---base-0--bg": "var(--_global-colors---base-0--5)",
+   "--_colors---white--primary": "var(--_global-colors---white--100)",
+   "--_colors---white--gray-text": "var(--_global-colors---white--80)",
+   "--_colors---white--disabled": "var(--_global-colors---white--40)",
+   "--_colors---white--line": "var(--_global-colors---white--20)",
+   "--_colors---white--bg": "var(--_global-colors---white--10)",
+   "--272px": "calc(272rem/var(--_special-units---scale-ratio))",
+   "--_global-colors---brand-500--powder-sky": "#b5cedb",
+   "--_global-colors---brand-500--blush-bloom": "#f8bbcb",
+   "--_global-colors---base-1000--100": "#17233b",
+   "--_global-colors---base-1000--60": "#17233b99",
+   "--_global-colors---base-1000--30": "#17233b4d",
+   "--_global-colors---base-1000--10": "#17233b1a",
+   "--_global-colors---base-1000--5": "#17233b0d",
+   "--_global-colors---base-1000--0": "#17233b00",
+   "--_global-colors---base-0--60": "#f3f3ec99",
+   "--_global-colors---base-0--30": "#f3f3ec4d",
+   "--_global-colors---base-0--10": "#f3f3ec1a",
+   "--_global-colors---base-0--5": "#f3f3ec0d",
+   "--_global-colors---white--100": "white",
+   "--_global-colors---white--80": "#fffc",
+   "--_global-colors---white--40": "#fff6",
+   "--_global-colors---white--20": "#fff3",
+   "--_global-colors---white--10": "#ffffff1a",
+   "--_global-colors---white--0": "#fff0",
+   "--dur-s": "0.4s",
+   "--dur-m": "0.8s",
+   "--dur-l": "1.2s",
+   "--ease-in-out": "cubic-bezier(0.76, 0, 0.24, 1)",
+   "--ease-out": "cubic-bezier(0.25, 1, 0.5, 1)",
+   "--ease-in": "cubic-bezier(0.5, 0, 0.75, 0)",
+   "--ease": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+   "--ease-write": "cubic-bezier(0.333, 0, 0.667, 1)",
+   "--_100svh": "100vh"
+  },
+  "fontFaces": [
+   {
+    "family": "webflow-icons",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"data:application/x-font-ttf;charset=utf-8;base64,AAEAAAALAIAAAwAwT1MvMg8SBiUAAAC8AAAAYGNtYXDpP+a4AAABHAAAAFxnYXNwAAAAEAAAAXgAAAAIZ2x5ZmhS2XEAAAGAAAADHGhlYWQTFw3HAAAEnAAAADZoaGVhCXYFgQAABNQAAAAkaG"
+   },
+   {
+    "family": "Maison Neue Extended",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/6a068da7ad91b057365bf967/6a06a699270853940fed199c_MaisonNeueExt-Book.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Maison Neue Extended",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/6a068da7ad91b057365bf967/6a06a6b22391d5d6ce159452_MaisonNeueExt-Bold.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "ambroise-francois-std",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://use.typekit.net/af/02a0c4/0000000000000000773598f9/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3\") format(\"woff2\"), url(\"https://use.typekit.net/"
+   },
+   {
+    "family": "sloop-script-three",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://use.typekit.net/af/ceca40/00000000000000007758dac7/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3\") format(\"woff2\"), url(\"https://use.typekit.net/"
+   }
+  ],
+  "keyframes": [
+   "spin",
+   "marquee"
+  ],
+  "breakpoints": [
+   {
+    "v": "992px",
+    "w": 9
+   },
+   {
+    "v": "991px",
+    "w": 6
+   },
+   {
+    "v": "767px",
+    "w": 3
+   },
+   {
+    "v": "479px",
+    "w": 3
+   },
+   {
+    "v": "768px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 1355,
+  "crossOriginSheets": 1
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "section",
+    "id": "hero",
+    "cls": "section clip theme_on-color",
+    "h": 5220,
+    "title": "Era Residence",
+    "media": 2
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section arch clip theme_on-brand",
+    "h": 720,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section z-2 theme_on-brand",
+    "h": 900,
+    "title": "Real-Life Location",
+    "media": 3
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section z-2 theme_on-brand",
+    "h": 1069,
+    "title": "",
+    "media": 1
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section clip",
+    "h": 4514,
+    "title": "The concept",
+    "media": 6
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section clip theme_on-color",
+    "h": 1247,
+    "title": "New Golden Mile, Estepona",
+    "media": 13
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section theme_on-brand",
+    "h": 900,
+    "title": "Ground floor + basement",
+    "media": 3
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section clip theme_on-brand",
+    "h": 855,
+    "title": "Residences range from 104 to 244 sq.m., offering spacious single level and duple",
+    "media": 1
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "amen-scroll-area",
+    "h": 2970,
+    "title": "Gated community",
+    "media": 5
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section arch clip",
+    "h": 2964,
+    "title": "Thespaceto",
+    "media": 7
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section clip",
+    "h": 3362,
+    "title": "Architecture",
+    "media": 3
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section clip",
+    "h": 818,
+    "title": "",
+    "media": 2
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section theme_on-color",
+    "h": 1562,
+    "title": "Perfect sea views",
+    "media": 1
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section theme_on-dark",
+    "h": 900,
+    "title": "Sales Office",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "floating-tips w-dyn-list",
+    "h": 900,
+    "title": "Crafted to Endure",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "floating-tips w-dyn-list",
+    "h": 900,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "modal show w-dyn-list",
+    "h": 900,
+    "title": "",
+    "media": 0
+   }
+  ],
+  "navLinks": [],
+  "ctas": [],
+  "pageHeight": 24530,
+  "counts": {
+   "canvas": 0,
+   "videos": 8,
+   "imgs": 41,
+   "svgs": 86,
+   "iframes": 0,
+   "domNodes": 3873
+  }
+ },
+ "tech": {
+  "gsap": true,
+  "gsapVersion": "3.15.0",
+  "scrollTrigger": true,
+  "splitText": true,
+  "lenis": true,
+  "locomotive": false,
+  "three": false,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": true,
+  "unicornStudio": false,
+  "barba": true,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": true,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [
+   "googletagmanager",
+   "gtag",
+   "fbevents"
+  ],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": false
+ },
+ "scripts": [
+  "https://connect.facebook.net/signals/config/845813938192979?v=2.9.433&r=stable&domain=www.era-residence.com&hme=4453c87d489b6902031c012cadd2731893cd69feb64fe8a61b339727247a7703&ex_m=118%2C242%2C171%2C27%2C82%2C83%2C162%2C78%2C77%2C11%2C181%2C102%2C20%2C153%2C141%2C46%2C85%2C90%2C149%2C176%2C183%2C8%2C4%2C5%2C7%2C6%2C3%2C103%2C115%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C37%2C55%2C163%2C87%2C126%2C22%2C24%2C51%2C47%2C49%2C48%2C95%2C104%2C108%2C124%2C160%2C164%2C53%2C125%2C29%2C26%2C133%2C79%2C43%2C166%2C165%2C167%2C157%2C155%2C30%2C42%2C66%2C123%2C178%2C80%2C21%2C128%2C93%2C76%2C23%2C97%2C98%2C130%2C96%2C151%2C150%2C154%2C109%2C177%2C180%2C41%2C56%2C127%2C54%2C161%2C72%2C185%2C110%2C184%2C211%2C263%2C84%2C283%2C282%2C281%2C14%2C25%2C28%2C40%2C62%2C117%2C68%2C10%2C73%2C111%2C112%2C113%2C119%2C144%2C38%2C36%2C146%2C147%2C148%2C143%2C142%2C172%2C86%2C175%2C173%2C174%2C57%2C69%2C67%2C137%2C19%2C179%2C52%2C333%2C334%2C335%2C332%2C349%2C371%2C256%2C238%2C70%2C239%2C237%2C374%2C365%2C59%2C257%2C121%2C145%2C92%2C135%2C61%2C134%2C140%2C139%2C65%2C74%2C168%2C88%2C89%2C129%2C44%2C39%2C60%2C63%2C114%2C182%2C1%2C138%2C16%2C136%2C12%2C2%2C64%2C105%2C15%2C75%2C71%2C132%2C101%2C100%2C187%2C188%2C106%2C107%2C9%2C116%2C186%2C58%2C158%2C99%2C91%2C81%2C131%2C120%2C169%2C50%2C159%2C0%2C94%2C152%2C156%2C170%2C45%2C122%2C13%2C189",
+  "https://connect.facebook.net/en_US/fbevents.js",
+  "https://www.googletagmanager.com/gtag/js?id=G-PG3FJTBN92&cx=c&gtm=4e6au1h1",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-WMDRV3P6",
+  "https://use.typekit.net/pig8glj.js",
+  "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6a068da7ad91b057365bf967",
+  "https://cdn.prod.website-files.com/6a068da7ad91b057365bf967/js/webflow.a0aa6ca1.b7683852b8a60d8e.js",
+  "https://unpkg.com/@barba/core",
+  "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/gsap.min.js",
+  "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/ScrollTrigger.min.js",
+  "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/SplitText.min.js",
+  "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/CustomEase.min.js",
+  "https://unpkg.com/lenis@1.3.21/dist/lenis.min.js",
+  "https://cdn.jsdelivr.net/npm/lottie-web@5.12.2/build/player/lottie.min.js",
+  "https://assets.slater.app/slater/20164.js?v=1.0"
+ ],
+ "internal": [
+  "https://www.era-residence.com/apartments",
+  "https://www.era-residence.com/contact",
+  "https://www.era-residence.com/apartments?type=ground-floor-basement",
+  "https://www.era-residence.com/apartments?type=ground-floor",
+  "https://www.era-residence.com/apartments?type=penthouse-duplex"
+ ],
+ "perf": {
+  "ttfb": 115,
+  "dcl": 1089,
+  "load": 2004,
+  "lcp": 724,
+  "lcpEl": "IMG.img",
+  "cls": 0.898
+ },
  "libs": {
   "detected": [
    "jQuery",
    "GSAP",
    "ScrollTrigger",
    "SplitText/SplitType",
-   "Barba.js"
+   "Barba.js",
+   "Lenis",
+   "Virtual scroll",
+   "Lottie",
+   "Swiper"
   ],
   "where": {
    "jQuery": [
     "001-webflow.a0aa6ca1.b7683852b8a60d8e.js",
-    "002-jquery-3.5.1.min.dc5e7f18c8.js"
+    "002-jquery-3.5.1.min.dc5e7f18c8.js",
+    "003-webflow.a0aa6ca1.b7683852b8a60d8e.js"
    ],
    "GSAP": [
     "003-gsap.min.js",
+    "004-SplitText.min.js",
+    "005-gsap.min.js",
     "006-ScrollTrigger.min.js",
-    "007-SplitText.min.js"
+    "007-CustomEase.min.js",
+    "007-SplitText.min.js",
+    "009-ScrollTrigger.min.js",
+    "011-60900.js"
    ],
    "ScrollTrigger": [
     "003-gsap.min.js",
-    "006-ScrollTrigger.min.js"
+    "005-gsap.min.js",
+    "006-ScrollTrigger.min.js",
+    "009-ScrollTrigger.min.js",
+    "011-60900.js"
    ],
    "SplitText/SplitType": [
     "003-gsap.min.js",
-    "007-SplitText.min.js"
+    "004-SplitText.min.js",
+    "005-gsap.min.js",
+    "007-SplitText.min.js",
+    "011-60900.js"
    ],
    "Barba.js": [
-    "004-barba.umd.js"
+    "004-barba.umd.js",
+    "010-barba.umd.js",
+    "011-60900.js"
+   ],
+   "Lenis": [
+    "006-lenis.min.js",
+    "011-60900.js",
+    "styles.css"
+   ],
+   "Virtual scroll": [
+    "006-lenis.min.js"
+   ],
+   "Lottie": [
+    "008-lottie.min.js",
+    "011-60900.js"
+   ],
+   "Swiper": [
+    "011-60900.js"
    ]
   },
   "gsapVersion": "3.15.0",
   "threeRevision": null,
   "shaders": 0,
-  "scripts": 7
+  "scripts": 17
  },
  "network": {
-  "requests": 47,
-  "totalKb": 1649,
+  "requests": 172,
+  "totalKb": 25034,
   "byType": {
    "Document": {
     "n": 1,
     "kb": 57
    },
    "Image": {
-    "n": 37,
-    "kb": 1482
+    "n": 126,
+    "kb": 16070
    },
    "Stylesheet": {
     "n": 2,
     "kb": 1
    },
    "Script": {
-    "n": 7,
-    "kb": 110
+    "n": 16,
+    "kb": 830
+   },
+   "Font": {
+    "n": 4,
+    "kb": 144
+   },
+   "Media": {
+    "n": 14,
+    "kb": 7126
+   },
+   "Fetch": {
+    "n": 5,
+    "kb": 0
+   },
+   "Ping": {
+    "n": 1,
+    "kb": 1
+   },
+   "Other": {
+    "n": 1,
+    "kb": 2
+   },
+   "XHR": {
+    "n": 2,
+    "kb": 805
    }
   },
   "thirdPartyHosts": [
    "cdn.prod.website-files.com",
+   "use.typekit.net",
    "d3e54v103j8qbb.cloudfront.net",
-   "cdn.jsdelivr.net",
    "unpkg.com",
-   "use.typekit.net"
+   "cdn.jsdelivr.net",
+   "www.googletagmanager.com",
+   "assets.era-residence.com",
+   "p.typekit.net",
+   "ad.doubleclick.net",
+   "www.google.com",
+   "assets.slater.app",
+   "connect.facebook.net",
+   "stats.g.doubleclick.net",
+   "www.google.fr",
+   "region1.analytics.google.com",
+   "www.facebook.com",
+   "2c-1138a2e087744ef69e662051fe044c44.ecs.us-west-1.on.aws",
+   "pub-157506367d4c4fa1825d7a6d26b687a2.r2.dev"
   ],
-  "fontFiles": [],
+  "fontFiles": [
+   "https://cdn.prod.website-files.com/6a068da7ad91b057365bf967/6a06a699270853940fed199c_MaisonNeueExt-Book.woff2",
+   "https://cdn.prod.website-files.com/6a068da7ad91b057365bf967/6a06a6b22391d5d6ce159452_MaisonNeueExt-Bold.woff2",
+   "https://use.typekit.net/af/02a0c4/0000000000000000773598f9/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+   "https://use.typekit.net/af/ceca40/00000000000000007758dac7/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3"
+  ],
   "biggest": [
    {
-    "url": "https://cdn.prod.website-files.com/6a0853d5dab31b18f0677081/6a150affaf1d8cc969d57dd0_img_cam_02-p-1600.webp",
-    "kb": 409,
+    "url": "https://assets.era-residence.com/flowers/bougainvillea-flowers_03.webm",
+    "kb": 2740,
+    "type": "Media"
+   },
+   {
+    "url": "https://assets.era-residence.com/flowers/bougainvillea-flowers_02.webm",
+    "kb": 2372,
+    "type": "Media"
+   },
+   {
+    "url": "https://assets.era-residence.com/flowers/bougainvillea-flowers_01.webm",
+    "kb": 1954,
+    "type": "Media"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/6a068da7ad91b057365bf967/6a0f88f3b81e88aabf6874e7_img_cta_1920-p-1600.png",
+    "kb": 1946,
     "type": "Image"
    },
    {
-    "url": "https://cdn.prod.website-files.com/6a068da7ad91b057365bf967/6a25da81dce540a251389928_era-residence_gated-community_day-p-1600.webp",
-    "kb": 371,
+    "url": "https://cdn.prod.website-files.com/6a068da7ad91b057365bf967/6a15723f346e4b3a6c0af26a_era-residence-terrace-p-1600.png",
+    "kb": 1889,
     "type": "Image"
    },
    {
-    "url": "https://cdn.prod.website-files.com/6a068da7ad91b057365bf967/6a25da802c253b9e5e3d44f5_era-residence_gated-community_night-p-1600.webp",
-    "kb": 259,
+    "url": "https://cdn.prod.website-files.com/6a0853d5dab31b18f0677081/6a151382fb101ce2ca9db288_era-residence-landscaping.webp",
+    "kb": 1109,
     "type": "Image"
    },
    {
-    "url": "https://cdn.prod.website-files.com/6a068da7ad91b057365bf967/6a4afbe988f8dc3c9bb1647a_bougainvillea-flowers_03.avif",
-    "kb": 110,
+    "url": "https://cdn.prod.website-files.com/6a068da7ad91b057365bf967/6a15723f346e4b3a6c0af26a_era-residence-terrace.webp",
+    "kb": 1094,
     "type": "Image"
    },
    {
-    "url": "https://cdn.prod.website-files.com/6a068da7ad91b057365bf967/6a4afbe9f3a19844a4b0caed_bougainvillea-flowers_01.avif",
-    "kb": 95,
+    "url": "https://cdn.prod.website-files.com/6a0853d5dab31b18f0677081/6a15153b797c328a9f2f5964_era-residence-terrace.webp",
+    "kb": 1094,
     "type": "Image"
-   },
-   {
-    "url": "https://cdn.prod.website-files.com/6a068da7ad91b057365bf967/6a4afbe9a4873ec6185f295d_bougainvillea-flowers_05.avif",
-    "kb": 89,
-    "type": "Image"
-   },
-   {
-    "url": "https://cdn.prod.website-files.com/6a068da7ad91b057365bf967/6a4afbe968be0cc0c1f5fef2_bougainvillea-flowers_06.avif",
-    "kb": 57,
-    "type": "Image"
-   },
-   {
-    "url": "https://www.era-residence.com/",
-    "kb": 57,
-    "type": "Document"
    }
   ]
  },
- "durationS": 12
+ "mobile": {
+  "h1": {
+   "size": "90px",
+   "lineHeight": "81.9px"
+  },
+  "body": "3.9px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 171
 }

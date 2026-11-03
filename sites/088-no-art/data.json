@@ -1,0 +1,758 @@
+{
+ "id": 88,
+ "name": "No Art",
+ "sourceUrl": "https://www.noartmusic.com/",
+ "capturedAt": "2026-11-03T09:30:09.246Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg"
+  ],
+  "fullPage": 4120,
+  "subpages": [
+   {
+    "url": "https://www.noartmusic.com/events",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.noartmusic.com/products",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.noartmusic.com/label",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://www.noartmusic.com/",
+ "title": "Broaden your mind | No Art",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "No Art is an independent label and event organization that programs art and groundbreaking musicians at unique locations. The goal is not just to organize events, but to broaden the minds of our attendees.",
+  "canonical": null,
+  "robots": null,
+  "ogTitle": "Broaden your mind | No Art",
+  "ogImage": "https://cdn.prod.website-files.com/6a229697fcb91dd168682307/6a29531014d26557af19f104_noart_og.jpg",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [],
+  "h1Count": 0,
+  "headings": [
+   "H2 AN EXPERIENCE WHERE MUSIC, ART AND PEOPLE UNITe",
+   "H2 Discover the world of no art around the globe"
+  ],
+  "imgs": 96,
+  "imgNoAlt": 96,
+  "favicon": "https://cdn.prod.website-files.com/6a229697fcb91dd168682307/6a229697fcb91dd1686823c5_favicon_dark.png",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#000000",
+    "w": 3868929
+   },
+   {
+    "v": "#ffffff",
+    "w": 692192
+   },
+   {
+    "v": "#fefffe",
+    "w": 96156
+   },
+   {
+    "v": "#808080",
+    "w": 96
+   }
+  ],
+  "text": [
+   {
+    "v": "#000000",
+    "w": 1967
+   },
+   {
+    "v": "#ffffff",
+    "w": 240
+   },
+   {
+    "v": "#808080",
+    "w": 24
+   }
+  ],
+  "border": [
+   {
+    "v": "#000000",
+    "w": 5
+   },
+   {
+    "v": "#909090",
+    "w": 1
+   }
+  ],
+  "fonts": [
+   {
+    "v": "Chivomono",
+    "w": 2138
+   },
+   {
+    "v": "Nue Haas Grotesk Text Pro",
+    "w": 90
+   },
+   {
+    "v": "JetBrains Mono",
+    "w": 3
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "11.875px",
+    "w": 120
+   },
+   {
+    "v": "17.8125px",
+    "w": 104
+   },
+   {
+    "v": "15.8333px",
+    "w": 38
+   },
+   {
+    "v": "47.5px",
+    "w": 17
+   },
+   {
+    "v": "19.7917px",
+    "w": 9
+   }
+  ],
+  "radius": [
+   {
+    "v": "1.97917px",
+    "w": 15
+   },
+   {
+    "v": "1000px",
+    "w": 3
+   },
+   {
+    "v": "50%",
+    "w": 1
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.16 0.4s",
+    "w": 23
+   },
+   {
+    "v": "cubic-bezier(0.16 0.6s",
+    "w": 12
+   },
+   {
+    "v": "ease 0.3s",
+    "w": 6
+   },
+   {
+    "v": "cubic-bezier(0.16 0.8s",
+    "w": 3
+   },
+   {
+    "v": "linear 0.3s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h2": {
+    "family": "\"Nue Haas Grotesk Text Pro\", Arial, sans-serif",
+    "size": "47.5px",
+    "weight": "600",
+    "lineHeight": "47.5px",
+    "letterSpacing": "-1.44px",
+    "transform": "uppercase",
+    "color": "#000000",
+    "sample": "AN EXPERIENCE WHERE MUSIC, ART AND PEOPLE UNITe"
+   },
+   "p": {
+    "family": "Chivomono, Arial, sans-serif",
+    "size": "11.875px",
+    "weight": "400",
+    "lineHeight": "14.25px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "No Art is an independent label and event organizer curating unconventional art a"
+   },
+   "a": {
+    "family": "Chivomono, Arial, sans-serif",
+    "size": "15.8333px",
+    "weight": "400",
+    "lineHeight": "19px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "Events [3]"
+   },
+   "body": {
+    "family": "Chivomono, Arial, sans-serif",
+    "size": "15.8333px",
+    "weight": "400",
+    "lineHeight": "19px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#000000",
+    "sample": "/* Desktop */ :root { --size-unit: 16; --size-container-ideal: 1440; --size-cont"
+   }
+  },
+  "cssVars": {
+   "--_colors---light--100": "white",
+   "--_typography---fonts--primary-font": "Chivomono, Arial, sans-serif",
+   "--_colors---dark--100": "black",
+   "--_typography---body-size--large": ".875em",
+   "--_typography---line-height--body": "1.2",
+   "--_typography---fonts--heading-font": "\"Nue Haas Grotesk Text Pro\", Arial, sans-serif",
+   "--_typography---heading-size--large": "6em",
+   "--_typography---line-height--heading": "1",
+   "--_typography---heading-size--medium": "2em",
+   "--_typography---heading-size--small<deleted|variable-956d8639-3f91-8c43-bf39-5a5440dbb4bf>": "3em",
+   "--_typography---heading-size--xsmall<deleted|variable-e9946362-2855-1512-ab62-642be44ae7fa>": "1.25em",
+   "--_typography---body-size--regular<deleted|variable-cb684c50-56d2-908b-34b0-0c28a633ebe1>": "1em",
+   "--_typography---link-size--regular": ".75em",
+   "--_colors---brand--100": "#ff2b29",
+   "--_typography---rich-text--h1": "6em",
+   "--_typography---rich-text--h2": "4em",
+   "--_typography---rich-text--h3": "2.5em",
+   "--_typography---rich-text--h4": "1.75em",
+   "--padding-global--regular": "1.25em",
+   "--padding-section--regular": "7.5em",
+   "--_colors---grey--100": "grey",
+   "--_typography---tag-size--regular": ".75em",
+   "--border-radius--small": ".125em",
+   "--_colors---dark--20": "#0003",
+   "--_colors---grey--dark": "#333",
+   "--_typography---tag-size--small": ".625em",
+   "--_colors---dark--50": "#00000080",
+   "--_typography---button-size--large": "1.25em",
+   "--_colors---light--20": "#fff3",
+   "--_typography---button-size--regular": "1em",
+   "--gap-spacing--large": "4em",
+   "--gap-spacing--regular": "3em",
+   "--border-radius--large": "0em",
+   "--gap-spacing--small": "1.5em",
+   "--border-radius--medium": "0em",
+   "--border-radius--regular": "0em",
+   "--_colors---light--50": "#ffffff80",
+   "--_colors---dark--80": "#000c",
+   "--_typography---rich-text--body": "1em",
+   "--_typography---rich-text--contents": "1em",
+   "--_typography---line-height--button": "1",
+   "--size-unit": "16",
+   "--size-container-ideal": "390",
+   "--size-container-min": "320px",
+   "--size-container-max": "479px",
+   "--size-container": "clamp(var(--size-container-min), 100vw, var(--size-container-max))",
+   "--size-font": "21.333333px"
+  },
+  "fontFaces": [
+   {
+    "family": "webflow-icons",
+    "weight": "normal",
+    "style": "normal",
+    "src": "url(\"data:application/x-font-ttf;charset=utf-8;base64,AAEAAAALAIAAAwAwT1MvMg8SBiUAAAC8AAAAYGNtYXDpP+a4AAABHAAAAFxnYXNwAAAAEAAAAXgAAAAIZ2x5ZmhS2XEAAAGAAAADHGhlYWQTFw3HAAAEnAAAADZoaGVhCXYFgQAABNQAAAAkaG"
+   },
+   {
+    "family": "Nue Haas Grotesk Text Pro",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/6a229697fcb91dd168682307/6a229697fcb91dd168682349_NHaasGroteskTXPro-55Rg.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Nue Haas Grotesk Text Pro",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/6a229697fcb91dd168682307/6a229697fcb91dd168682347_NHaasGroteskTXPro-75Bd.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Nue Haas Grotesk Text Pro",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/6a229697fcb91dd168682307/6a229697fcb91dd168682348_NHaasGroteskTXPro-65Md.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Chivomono",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/6a229697fcb91dd168682307/6a229697fcb91dd16868234b_ChivoMono-Medium.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Chivomono",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/6a229697fcb91dd168682307/6a229697fcb91dd16868234a_ChivoMono-Bold.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Chivomono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/6a229697fcb91dd168682307/6a229697fcb91dd16868234c_ChivoMono-Regular.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Rock salt",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/6a229697fcb91dd168682307/6a229697fcb91dd16868234d_RockSalt-Regular.ttf\") format(\"truetype\")"
+   }
+  ],
+  "keyframes": [
+   "spin"
+  ],
+  "breakpoints": [
+   {
+    "v": "767px",
+    "w": 6
+   },
+   {
+    "v": "991px",
+    "w": 5
+   },
+   {
+    "v": "479px",
+    "w": 5
+   },
+   {
+    "v": "768px",
+    "w": 2
+   },
+   {
+    "v": "992px",
+    "w": 1
+   },
+   {
+    "v": "1921px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 1017,
+  "crossOriginSheets": 3
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section_home-hero",
+    "h": 900,
+    "title": "",
+    "media": 3
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section_default",
+    "h": 755,
+    "title": "AN EXPERIENCE WHERE MUSIC, ART AND PEOPLE UNITe",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section_default is-overflow-hidden",
+    "h": 560,
+    "title": "",
+    "media": 3
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section_globe",
+    "h": 792,
+    "title": "Discover the world of no art around the globe",
+    "media": 1
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section_default is-overflow-hidden",
+    "h": 831,
+    "title": "",
+    "media": 20
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "",
+    "href": "https://www.noartmusic.com/"
+   },
+   {
+    "t": "Events [3]",
+    "href": "https://www.noartmusic.com/events"
+   },
+   {
+    "t": "Shop",
+    "href": "https://www.noartmusic.com/products"
+   },
+   {
+    "t": "Label",
+    "href": "https://www.noartmusic.com/label"
+   },
+   {
+    "t": "Gallery",
+    "href": "https://www.noartmusic.com/gallery"
+   },
+   {
+    "t": "About",
+    "href": "https://www.noartmusic.com/about"
+   },
+   {
+    "t": "Tickets",
+    "href": "https://www.noartmusic.com/tickets"
+   },
+   {
+    "t": "Music week",
+    "href": "https://www.noartmusicweek.com/"
+   },
+   {
+    "t": "Foundation",
+    "href": "https://www.noartmusic.com/foundation"
+   }
+  ],
+  "ctas": [
+   "Next upNo Art MumbaiNovember 15, 2026"
+  ],
+  "pageHeight": 4120,
+  "counts": {
+   "canvas": 1,
+   "videos": 1,
+   "imgs": 96,
+   "svgs": 72,
+   "iframes": 0,
+   "domNodes": 1343
+  }
+ },
+ "tech": {
+  "gsap": true,
+  "gsapVersion": "3.15.0",
+  "scrollTrigger": true,
+  "splitText": true,
+  "lenis": true,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "128",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": true,
+  "webflow": true,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://cdn.prod.website-files.com/6a229697fcb91dd168682307%2F64cb5216d4f6301b8613e797%2F6a2ad453436d1ef43fe3a918%2Fshopyflow_auto_install-1.0.2.js",
+  "https://cdn.shopyflow.io/2.1.0/shopyflow.js",
+  "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+  "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6a229697fcb91dd168682307",
+  "https://cdn.prod.website-files.com/6a229697fcb91dd168682307/js/webflow.29e57cdd.ed2172256d05fb20.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/ScrambleTextPlugin.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/Flip.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/CustomEase.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/Observer.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js",
+  "https://cdn.jsdelivr.net/npm/hls.js@1.6.11",
+  "https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js",
+  "https://unpkg.com/lenis@1.3.21/dist/lenis.min.js",
+  "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js",
+  "https://cdn.prod.website-files.com/6a229697fcb91dd168682307%2F689e5ba67671442434f3ca35%2F6a229697fcb91dd168682317%2Ffooter_accordion-1.0.0.js",
+  "https://assets.slater.app/slater/20350.js?v=1.0",
+  "https://cdn.shopyflow.io/recommend/1.0.2/recommend.js"
+ ],
+ "internal": [
+  "https://www.noartmusic.com/events",
+  "https://www.noartmusic.com/products",
+  "https://www.noartmusic.com/label",
+  "https://www.noartmusic.com/gallery",
+  "https://www.noartmusic.com/about",
+  "https://www.noartmusic.com/tickets",
+  "https://www.noartmusic.com/foundation",
+  "https://www.noartmusic.com/events/no-art-mumbai",
+  "https://www.noartmusic.com/events/no-art-costa-rica",
+  "https://www.noartmusic.com/events/no-art-buenos-aires",
+  "https://www.noartmusic.com/products/yellow-canvas-tee",
+  "https://www.noartmusic.com/products/faded-tank-top-black",
+  "https://www.noartmusic.com/products/faded-tank-top-white",
+  "https://www.noartmusic.com/products/music-note-tee",
+  "https://www.noartmusic.com/products/ringer-tee-1",
+  "https://www.noartmusic.com/products/riekerhaven-tee",
+  "https://www.noartmusic.com/products/flevopark-tee",
+  "https://www.noartmusic.com/products/ibiza-t-shirt-2026",
+  "https://www.noartmusic.com/products/manchester-tee-2026",
+  "https://www.noartmusic.com/products/no-art-totebag",
+  "https://www.noartmusic.com/contact",
+  "https://www.noartmusic.com/jobs",
+  "https://www.noartmusic.com/delivery-returns",
+  "https://www.noartmusic.com/terms-conditions"
+ ],
+ "perf": {
+  "ttfb": 157,
+  "dcl": 2373,
+  "load": 5043,
+  "lcp": 9560,
+  "lcpEl": "VIDEO.bunny-bg__video",
+  "cls": 0.352
+ },
+ "libs": {
+  "detected": [
+   "GSAP",
+   "SplitText/SplitType",
+   "Lenis",
+   "Virtual scroll",
+   "ScrollTrigger",
+   "Swiper",
+   "Flip (GSAP)",
+   "jQuery",
+   "Three.js",
+   "Lottie",
+   "Webflow (runtime)",
+   "Shopify"
+  ],
+  "where": {
+   "GSAP": [
+    "003-SplitText.min.js",
+    "005-ScrollTrigger.min.js",
+    "007-gsap.min.js",
+    "009-Observer.min.js",
+    "010-CustomEase.min.js",
+    "011-ScrambleTextPlugin.min.js",
+    "012-Flip.min.js",
+    "013-InertiaPlugin.min.js",
+    "014-6a229697fcb91dd168682307_2F689e5ba67671442434f3ca35_2F6a2296.js",
+    "016-Draggable.min.js",
+    "062-61682.js",
+    "068-61685.js",
+    "070-61676.js",
+    "071-61674.js"
+   ],
+   "SplitText/SplitType": [
+    "003-SplitText.min.js",
+    "007-gsap.min.js",
+    "064-61684.js"
+   ],
+   "Lenis": [
+    "004-lenis.min.js",
+    "063-61677.js",
+    "styles.css"
+   ],
+   "Virtual scroll": [
+    "004-lenis.min.js"
+   ],
+   "ScrollTrigger": [
+    "005-ScrollTrigger.min.js",
+    "007-gsap.min.js",
+    "009-Observer.min.js",
+    "063-61677.js",
+    "064-61684.js"
+   ],
+   "Swiper": [
+    "008-swiper-bundle.min.js",
+    "059-61673.js",
+    "065-61683.js",
+    "066-61675.js"
+   ],
+   "Flip (GSAP)": [
+    "012-Flip.min.js",
+    "064-61684.js"
+   ],
+   "jQuery": [
+    "015-jquery-3.5.1.min.dc5e7f18c8.js",
+    "020-webflow.achunk.22b66e874d42861f.js",
+    "027-webflow.achunk.e8e7e6855b442808.js"
+   ],
+   "Three.js": [
+    "018-three.min.js"
+   ],
+   "Lottie": [
+    "030-webflow.achunk.58f76f2901951073.js"
+   ],
+   "Webflow (runtime)": [
+    "038-chunk-GGDEANQW.js"
+   ],
+   "Shopify": [
+    "043-shopyflow.js"
+   ]
+  },
+  "gsapVersion": "3.11.0",
+  "threeRevision": null,
+  "shaders": 5,
+  "scripts": 79
+ },
+ "network": {
+  "requests": 125,
+  "totalKb": 15371,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 57
+   },
+   "Stylesheet": {
+    "n": 6,
+    "kb": 3
+   },
+   "Script": {
+    "n": 65,
+    "kb": 645
+   },
+   "Image": {
+    "n": 26,
+    "kb": 4480
+   },
+   "Font": {
+    "n": 4,
+    "kb": 178
+   },
+   "Fetch": {
+    "n": 13,
+    "kb": 222
+   },
+   "Preflight": {
+    "n": 2,
+    "kb": 0
+   },
+   "Media": {
+    "n": 7,
+    "kb": 9785
+   },
+   "Other": {
+    "n": 1,
+    "kb": 1
+   }
+  },
+  "thirdPartyHosts": [
+   "cdn.prod.website-files.com",
+   "unpkg.com",
+   "cdn.jsdelivr.net",
+   "d3e54v103j8qbb.cloudfront.net",
+   "fonts.googleapis.com",
+   "cdnjs.cloudflare.com",
+   "fonts.gstatic.com",
+   "cdn.shopyflow.io",
+   "assets.slater.app",
+   "checkout.noartmainline.com",
+   "vz-0d36f593-9b0.b-cdn.net"
+  ],
+  "fontFiles": [
+   "https://cdn.prod.website-files.com/6a229697fcb91dd168682307/6a229697fcb91dd16868234c_ChivoMono-Regular.ttf",
+   "https://cdn.prod.website-files.com/6a229697fcb91dd168682307/6a229697fcb91dd16868234b_ChivoMono-Medium.ttf",
+   "https://cdn.prod.website-files.com/6a229697fcb91dd168682307/6a229697fcb91dd168682347_NHaasGroteskTXPro-75Bd.ttf",
+   "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPxDcwg.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://vz-0d36f593-9b0.b-cdn.net/87022691-2e5d-48f3-bd12-579dfeacf444/1080p/video2.ts",
+    "kb": 3810,
+    "type": "Media"
+   },
+   {
+    "url": "https://vz-0d36f593-9b0.b-cdn.net/87022691-2e5d-48f3-bd12-579dfeacf444/1080p/video1.ts",
+    "kb": 3523,
+    "type": "Media"
+   },
+   {
+    "url": "https://vz-0d36f593-9b0.b-cdn.net/87022691-2e5d-48f3-bd12-579dfeacf444/720p/video0.ts",
+    "kb": 1920,
+    "type": "Media"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/6a229697fcb91dd1686822db/6aa7dcebda8e7095cab11f65_WEB%20VERSIE%20SMALL.jpg",
+    "kb": 567,
+    "type": "Image"
+   },
+   {
+    "url": "https://vz-0d36f593-9b0.b-cdn.net/87022691-2e5d-48f3-bd12-579dfeacf444/1080p/video3.ts",
+    "kb": 530,
+    "type": "Media"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/6a229697fcb91dd1686822db/6ae9a4b089cac6b14a2dc8a9_NO%20ART%20COSTA%20RICA%20ARTPACK_website%20format-p-1600.jpg",
+    "kb": 490,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/6a229697fcb91dd1686822db/6aa95978f19362e37ae767f3_bfd97e771ba54159c61b38ce585fdc58f7cabc29dc65746b9c23f7e3eb8c6cf9.avif",
+    "kb": 389,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/6a229697fcb91dd1686822db/6aa959736de7739ec0af44ff_e43ec6498ee4b7b7342a621caac31836bc0d975b798286f197ff848eed848ed9.avif",
+    "kb": 361,
+    "type": "Image"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": null,
+  "body": "16px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 165
+}

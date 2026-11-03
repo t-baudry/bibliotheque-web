@@ -1,0 +1,1 @@
+import e from"./CKMTRcOC.js";const o={...e,playOnce:{type:Boolean,default:!0},waitForFonts:{type:Boolean,default:!0},immediateReverse:{type:Boolean,default:!0},innerClass:String};export{o as default};

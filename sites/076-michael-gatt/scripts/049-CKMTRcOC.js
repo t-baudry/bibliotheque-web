@@ -1,0 +1,1 @@
+const t={opts:{type:[Object],default:()=>({rootMargin:"0px 0px -1px 0px"})},horizontal:{type:[Boolean],default:!1},tag:{type:[String],default:"div"},debug:{type:Boolean,default:!1}};export{t as default};

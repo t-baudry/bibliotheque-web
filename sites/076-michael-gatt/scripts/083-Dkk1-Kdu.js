@@ -1,0 +1,1 @@
+import e from"./Dv396gIx.js";import"./C4z8TE_5.js";import"./Bluh1EgP.js";const o={...e,wrapped:{type:Boolean,default:!0},factor:{type:Number,default:0},ease:{type:String,default:"linear"},relativeToElement:{type:Boolean,default:!1},noOffset:{type:Boolean,default:!1},innerClass:{type:String,default:"w-full h-full"},disabled:{type:Boolean,default:!1}};export{o as default};

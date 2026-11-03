@@ -1,0 +1,1 @@
+const e={tag:{type:[String],default:"div"},startOffset:{type:Number,default:0},endOffset:{type:Number,default:0},noOverscroll:{type:Boolean,default:!0},debug:{type:Boolean,default:!1}};export{e as default};

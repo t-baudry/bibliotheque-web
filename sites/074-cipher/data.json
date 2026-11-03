@@ -1,0 +1,452 @@
+{
+ "id": 74,
+ "name": "Cipher",
+ "sourceUrl": "https://cipher.tv/",
+ "capturedAt": "2026-11-03T09:10:44.547Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg"
+  ],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [
+   {
+    "url": "https://cipher.tv/works",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://cipher.tv/talents",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://cipher.tv/about",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://cipher.tv/",
+ "title": "CIPHER",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "For culture and its counter.",
+  "canonical": null,
+  "robots": null,
+  "ogTitle": null,
+  "ogImage": "https://images.prismic.io/cipherwebsite/acFpIJGXnQHGY3g__og-image.jpg?auto=format,compress",
+  "twitterCard": null,
+  "jsonLd": [],
+  "h1Count": 1,
+  "headings": [
+   "H1 Cipher"
+  ],
+  "imgs": 1,
+  "imgNoAlt": 0,
+  "favicon": "https://cipher.tv/favicon.ico",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#060403",
+    "w": 1296000
+   },
+   {
+    "v": "#ffffff",
+    "w": 16
+   }
+  ],
+  "text": [
+   {
+    "v": "#e9eae4",
+    "w": 121
+   },
+   {
+    "v": "#000000",
+    "w": 1
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "Favorit",
+    "w": 122
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "12px",
+    "w": 61
+   },
+   {
+    "v": "16px",
+    "w": 4
+   },
+   {
+    "v": "11px",
+    "w": 1
+   }
+  ],
+  "radius": [],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "ease-out 0.2s",
+    "w": 7
+   },
+   {
+    "v": "cubic-bezier(0.83 0.45s",
+    "w": 3
+   }
+  ],
+  "typo": {
+   "a": {
+    "family": "Favorit",
+    "size": "12px",
+    "weight": "500",
+    "lineHeight": "14.4px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#e9eae4",
+    "sample": "works"
+   },
+   "li": {
+    "family": "Favorit",
+    "size": "12px",
+    "weight": "500",
+    "lineHeight": "14.4px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#e9eae4",
+    "sample": "7 Impasse FranchemontParis11"
+   },
+   "body": {
+    "family": "Favorit",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "100% workstalentscontactaboutCLOSE7 Impasse FranchemontParis11for cultureand its"
+   }
+  },
+  "cssVars": {
+   "--color-dark": "#060403",
+   "--color-light": "#e9eae4",
+   "--fontXXS": "8px",
+   "--fontXS": "10px",
+   "--fontS": "12px",
+   "--fontM": "24px"
+  },
+  "fontFaces": [
+   {
+    "family": "Arizona",
+    "weight": "100 900",
+    "style": "normal",
+    "src": "url(\"../fonts/ABCArizonaMixVariable.woff2\") format(\"woff2-variations\")"
+   },
+   {
+    "family": "Favorit",
+    "weight": "100 900",
+    "style": "normal",
+    "src": "url(\"../fonts/ABCFavoritVariable.woff2\") format(\"woff2-variations\")"
+   }
+  ],
+  "keyframes": [],
+  "breakpoints": [
+   {
+    "v": "768px",
+    "w": 11
+   }
+  ],
+  "rulesCount": 221,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "canvas",
+    "id": "home_canvas",
+    "cls": "",
+    "h": 900,
+    "title": "",
+    "media": 0
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "works",
+    "href": "https://cipher.tv/works"
+   },
+   {
+    "t": "talents",
+    "href": "https://cipher.tv/talents"
+   },
+   {
+    "t": "about",
+    "href": "https://cipher.tv/about"
+   }
+  ],
+  "ctas": [],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 3,
+   "videos": 0,
+   "imgs": 1,
+   "svgs": 7,
+   "iframes": 0,
+   "domNodes": 182
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "183",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": true,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": true,
+  "cms": [
+   "prismic"
+  ],
+  "analytics": [
+   "googletagmanager",
+   "gtag"
+  ],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://cipher.tv/_nuxt/DTrBnPh8.js",
+  "https://www.googletagmanager.com/gtag/js?id=G-SF7NWKB59Y"
+ ],
+ "internal": [
+  "https://cipher.tv/works",
+  "https://cipher.tv/talents",
+  "https://cipher.tv/about"
+ ],
+ "perf": {
+  "ttfb": 229,
+  "dcl": 452,
+  "load": 965,
+  "lcp": 604,
+  "lcpEl": "IMG",
+  "cls": 0
+ },
+ "libs": {
+  "detected": [
+   "Lenis",
+   "Virtual scroll",
+   "GSAP",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Vue",
+   "Nuxt",
+   "Prismic",
+   "Three.js"
+  ],
+  "where": {
+   "Lenis": [
+    "001-Damk01WJ.js",
+    "003-COyiC0O1.js",
+    "005-DTrBnPh8.js",
+    "007-P1uKqelY.js",
+    "styles.css"
+   ],
+   "Virtual scroll": [
+    "001-Damk01WJ.js"
+   ],
+   "GSAP": [
+    "004-DhfWlwu.js"
+   ],
+   "ScrollTrigger": [
+    "004-DhfWlwu.js",
+    "005-DTrBnPh8.js",
+    "007-P1uKqelY.js"
+   ],
+   "SplitText/SplitType": [
+    "004-DhfWlwu.js",
+    "005-DTrBnPh8.js"
+   ],
+   "Vue": [
+    "005-DTrBnPh8.js"
+   ],
+   "Nuxt": [
+    "005-DTrBnPh8.js"
+   ],
+   "Prismic": [
+    "005-DTrBnPh8.js"
+   ],
+   "Three.js": [
+    "010-CO3m5LEz.js"
+   ]
+  },
+  "gsapVersion": "3.11.0",
+  "threeRevision": null,
+  "shaders": 15,
+  "scripts": 10
+ },
+ "network": {
+  "requests": 36,
+  "totalKb": 12226,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 11
+   },
+   "Stylesheet": {
+    "n": 4,
+    "kb": 4
+   },
+   "Script": {
+    "n": 12,
+    "kb": 452
+   },
+   "Font": {
+    "n": 2,
+    "kb": 358
+   },
+   "Image": {
+    "n": 8,
+    "kb": 135
+   },
+   "Fetch": {
+    "n": 2,
+    "kb": 0
+   },
+   "Other": {
+    "n": 1,
+    "kb": 1
+   },
+   "Media": {
+    "n": 6,
+    "kb": 11266
+   }
+  },
+  "thirdPartyHosts": [
+   "www.googletagmanager.com",
+   "images.prismic.io",
+   "region1.google-analytics.com",
+   "download-video-ak.vimeocdn.com"
+  ],
+  "fontFiles": [
+   "https://cipher.tv/fonts/ABCFavoritVariable.woff2",
+   "https://cipher.tv/fonts/ABCArizonaMixVariable.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/84e1c506-ca92-4a83-b99e-892d7430ccb8/9aecf32b-581d22db?__token__=st=1793697044~exp=1793700644~acl=%2Fv3-1%2",
+    "kb": 4468,
+    "type": "Media"
+   },
+   {
+    "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/f941c5d4-6a3e-4e27-bddc-843976f75a67/c3eedce2-ca73b28d?__token__=st=1793697044~exp=1793700644~acl=%2Fv3-1%2",
+    "kb": 2499,
+    "type": "Media"
+   },
+   {
+    "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/b93cd68c-ed7c-436f-ae6f-cb73696101f9/60ac7408-07e085c5?__token__=st=1793697044~exp=1793700644~acl=%2Fv3-1%2",
+    "kb": 2344,
+    "type": "Media"
+   },
+   {
+    "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/4149e4fc-8550-4240-bbcb-f5e0599e2b83/58415efa-ee77b568?__token__=st=1793697044~exp=1793700644~acl=%2Fv3-1%2",
+    "kb": 825,
+    "type": "Media"
+   },
+   {
+    "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/e9f0b29c-6778-4879-b502-978b82b3a482/06e66d5d-4fe17cbd?__token__=st=1793697044~exp=1793700644~acl=%2Fv3-1%2",
+    "kb": 643,
+    "type": "Media"
+   },
+   {
+    "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/c845253d-7b6c-40c9-bf2e-c2ea997d39df/994988ca-1edc0b9f?__token__=st=1793697044~exp=1793700644~acl=%2Fv3-1%2",
+    "kb": 487,
+    "type": "Media"
+   },
+   {
+    "url": "https://cipher.tv/fonts/ABCArizonaMixVariable.woff2",
+    "kb": 233,
+    "type": "Font"
+   },
+   {
+    "url": "https://www.googletagmanager.com/gtag/js?id=G-SF7NWKB59Y",
+    "kb": 178,
+    "type": "Script"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "16px",
+   "lineHeight": "16px"
+  },
+  "body": "16px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 128
+}

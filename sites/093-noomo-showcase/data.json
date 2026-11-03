@@ -1,0 +1,589 @@
+{
+ "id": 93,
+ "name": "Noomo Showcase",
+ "sourceUrl": "https://showcase.noomoagency.com/",
+ "capturedAt": "2026-11-03T22:02:59.316Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg",
+   "desktop-13.jpg",
+   "desktop-14.jpg"
+  ],
+  "fullPage": 15300,
+  "subpages": [],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://showcase.noomoagency.com/",
+ "title": "Noomo Showcase — Immersive 3D & WebGL Work",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "The latest from Noomo — immersive web design, 3D, and motion for brands like Salesforce, AMD, and Red Bull.",
+  "canonical": null,
+  "robots": null,
+  "ogTitle": "Noomo Showcase — Immersive 3D & WebGL Work",
+  "ogImage": "/og.jpg",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [],
+  "h1Count": 0,
+  "headings": [],
+  "imgs": 5,
+  "imgNoAlt": 0,
+  "favicon": "https://showcase.noomoagency.com/fav.png",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#0004eb",
+    "w": 15200
+   },
+   {
+    "v": "#d9e0ed",
+    "w": 5236
+   },
+   {
+    "v": "#d2e0ff",
+    "w": 3750
+   }
+  ],
+  "text": [
+   {
+    "v": "#d9e0ed",
+    "w": 435
+   },
+   {
+    "v": "#d2e0ff",
+    "w": 51
+   },
+   {
+    "v": "#050516",
+    "w": 32
+   },
+   {
+    "v": "#000000",
+    "w": 11
+   },
+   {
+    "v": "#0004eb",
+    "w": 10
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "GTAmericaMonoRegular",
+    "w": 331
+   },
+   {
+    "v": "ppneuemontreal-book",
+    "w": 128
+   },
+   {
+    "v": "ppneuemontreal-medium",
+    "w": 69
+   },
+   {
+    "v": "ABCFavorit Regular",
+    "w": 11
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "13px",
+    "w": 268
+   },
+   {
+    "v": "20px",
+    "w": 246
+   },
+   {
+    "v": "11px",
+    "w": 96
+   },
+   {
+    "v": "14px",
+    "w": 72
+   },
+   {
+    "v": "22px",
+    "w": 4
+   },
+   {
+    "v": "10px",
+    "w": 3
+   },
+   {
+    "v": "34px",
+    "w": 1
+   },
+   {
+    "v": "15px",
+    "w": 1
+   },
+   {
+    "v": "10.5px",
+    "w": 1
+   },
+   {
+    "v": "16px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "2px",
+    "w": 3
+   },
+   {
+    "v": "50px",
+    "w": 2
+   },
+   {
+    "v": "9999px",
+    "w": 2
+   },
+   {
+    "v": "6px",
+    "w": 1
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.65 0.3s",
+    "w": 21
+   },
+   {
+    "v": "cubic-bezier(0.65 0.5s",
+    "w": 10
+   },
+   {
+    "v": "cubic-bezier(0.65 0.4s",
+    "w": 9
+   },
+   {
+    "v": "cubic-bezier(0.4 0.3s",
+    "w": 4
+   },
+   {
+    "v": "ease-in-out 0.3s",
+    "w": 4
+   },
+   {
+    "v": "cubic-bezier(0.4 0.35s",
+    "w": 1
+   },
+   {
+    "v": "ease-out 0.26s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "p": {
+    "family": "GTAmericaMonoRegular, monospace",
+    "size": "14px",
+    "weight": "400",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#d9e0ed",
+    "sample": "Project"
+   },
+   "a": {
+    "family": "GTAmericaMonoRegular, monospace",
+    "size": "20px",
+    "weight": "400",
+    "lineHeight": "30px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#d9e0ed",
+    "sample": "View case studyView case study"
+   },
+   "body": {
+    "family": "\"ABCFavorit Regular\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"N",
+    "size": "10px",
+    "weight": "400",
+    "lineHeight": "15px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "ProjectСoinbasexWarriorsView case studyView case studyInfoAmobile-firstcollectib"
+   }
+  },
+  "cssVars": {
+   "--font-sans": "ui-sans-serif,system-ui,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"",
+   "--font-mono": "'Fira Code', 'Courier New', Courier, monospace",
+   "--color-blue-400": "#0004eb",
+   "--spacing": ".1rem",
+   "--font-weight-black": "900",
+   "--radius-2xl": "10rem",
+   "--ease-in-out": "cubic-bezier(.65,.05,.36,1)",
+   "--default-transition-duration": ".15s",
+   "--default-transition-timing-function": "cubic-bezier(.4,0,.2,1)",
+   "--default-font-family": "var(--font-sans)",
+   "--default-mono-font-family": "var(--font-mono)",
+   "--color-brand-white-100": "#d6e3fc",
+   "--color-brand-white-200": "#d9e0ed",
+   "--color-brand-white-300": "#d2e0ff",
+   "--color-black-100": "#050516",
+   "--color-black-200": "#020411",
+   "--spacing-0": "0",
+   "--spacing-14": "1.4rem",
+   "--spacing-16": "1.6rem",
+   "--spacing-28": "2.8rem",
+   "--spacing-30": "3rem",
+   "--spacing-32": "3.2rem",
+   "--spacing-40": "4rem",
+   "--spacing-42": "4.2rem",
+   "--spacing-available": "calc(100svh - var(--spacing))",
+   "--font-sans-regular": "\"ABCFavorit Regular\",ui-sans-serif,system-ui,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"",
+   "--text-34": "3.4rem",
+   "--radius-2": ".2rem",
+   "--radius-4": ".4rem",
+   "--radius-6": ".6rem",
+   "--radius-50": "5rem",
+   "--radius-full": "9999px",
+   "--z-index-1": "1",
+   "--z-index-2": "2",
+   "--z-index-4": "4",
+   "--z-index-10": "10",
+   "--z-index-50": "50",
+   "--opacity-0": "0",
+   "--opacity-100": "1",
+   "--container-padding": "2rem",
+   "--container-padding-xs": "1.6rem",
+   "--profiler-bg": "#1e1e24f5",
+   "--profiler-header-bg": "#2a2a33aa",
+   "--profiler-header": "#2a2a33",
+   "--profiler-border": "#4a4a5a",
+   "--text-primary": "#e0e0e0",
+   "--text-secondary": "#9a9aab",
+   "--accent-color": "#00aaff",
+   "--color-green": "#4caf50",
+   "--color-yellow": "#ffc107",
+   "--color-red": "#f44336",
+   "--color-fps": "rgb(63, 81, 181)",
+   "--color-call": "rgba(255, 185, 34, 1)",
+   "--font-family": "'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"
+  },
+  "fontFaces": [
+   {
+    "family": "GTAmericaMonoRegular",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"./SpaceMono-Regular.Ba0nOT4a.ttf\")"
+   },
+   {
+    "family": "ppneuemontreal-book",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"./ppneuemontreal-book.DWrvOlKa.otf\")"
+   },
+   {
+    "family": "ppneuemontreal-medium",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"./ppneuemontreal-medium.Bc1YMBzw.otf\")"
+   }
+  ],
+  "keyframes": [
+   "bounce-63542410",
+   "bounce-822a7f9f"
+  ],
+  "breakpoints": [
+   {
+    "v": "320px",
+    "w": 3
+   },
+   {
+    "v": "768px",
+    "w": 3
+   },
+   {
+    "v": "1024px",
+    "w": 2
+   },
+   {
+    "v": "410px",
+    "w": 1
+   },
+   {
+    "v": "1280px",
+    "w": 1
+   },
+   {
+    "v": "1440px",
+    "w": 1
+   },
+   {
+    "v": "450px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 634,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "pointer-events-none fixed flex z-2 pb-33 bottom-0 xs:h-full lg:h-2/3 w-full flex",
+    "h": 600,
+    "top": 300,
+    "title": "",
+    "media": 0
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "",
+    "href": "https://showcase.noomoagency.com/"
+   },
+   {
+    "t": "Agency",
+    "href": "https://noomoagency.com/"
+   },
+   {
+    "t": "Labs",
+    "href": "https://labs.noomoagency.com/"
+   },
+   {
+    "t": "Storytelling",
+    "href": "https://storytelling.noomoagency.com/"
+   }
+  ],
+  "ctas": [
+   "View case studyView case study",
+   "View case studyView case study",
+   "View case studyView case study",
+   "View case studyView case study",
+   "View case studyView case study",
+   "View case studyView case study",
+   "View case studyView case study",
+   "View case studyView case study",
+   "View case studyView case study"
+  ],
+  "pageHeight": 15300,
+  "counts": {
+   "canvas": 1,
+   "videos": 0,
+   "imgs": 5,
+   "svgs": 12,
+   "iframes": 0,
+   "domNodes": 2260
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": false,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "184",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": true,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": true,
+  "cms": [],
+  "analytics": [
+   "googletagmanager",
+   "gtag"
+  ],
+  "customCursor": true,
+  "audio": true,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://showcase.noomoagency.com/_nuxt/BeQtrGYw.js",
+  "https://www.googletagmanager.com/gtag/js?id=G-BWHSS8EWBY"
+ ],
+ "internal": [],
+ "perf": {
+  "ttfb": 203,
+  "dcl": 510,
+  "load": 546,
+  "lcp": 508,
+  "lcpEl": "IMG.xs:w-[34vw]",
+  "cls": 0.014
+ },
+ "libs": {
+  "detected": [
+   "GSAP",
+   "ScrollTrigger",
+   "Three.js",
+   "Vue",
+   "Nuxt",
+   "Lil-GUI/Tweakpane (debug)"
+  ],
+  "where": {
+   "GSAP": [
+    "002-BeQtrGYw.js"
+   ],
+   "ScrollTrigger": [
+    "002-BeQtrGYw.js"
+   ],
+   "Three.js": [
+    "002-BeQtrGYw.js"
+   ],
+   "Vue": [
+    "002-BeQtrGYw.js"
+   ],
+   "Nuxt": [
+    "002-BeQtrGYw.js"
+   ],
+   "Lil-GUI/Tweakpane (debug)": [
+    "003-DySzogJf.js"
+   ]
+  },
+  "gsapVersion": "3.11.0",
+  "threeRevision": null,
+  "shaders": 3,
+  "scripts": 4
+ },
+ "network": {
+  "requests": 51,
+  "totalKb": 13231,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 3
+   },
+   "Image": {
+    "n": 15,
+    "kb": 1414
+   },
+   "Stylesheet": {
+    "n": 2,
+    "kb": 6
+   },
+   "Script": {
+    "n": 4,
+    "kb": 665
+   },
+   "Font": {
+    "n": 3,
+    "kb": 181
+   },
+   "Other": {
+    "n": 3,
+    "kb": 4
+   },
+   "Fetch": {
+    "n": 13,
+    "kb": 2240
+   },
+   "Media": {
+    "n": 10,
+    "kb": 8718
+   }
+  },
+  "thirdPartyHosts": [
+   "www.googletagmanager.com",
+   "region1.google-analytics.com"
+  ],
+  "fontFiles": [
+   "https://showcase.noomoagency.com/_nuxt/SpaceMono-Regular.Ba0nOT4a.ttf",
+   "https://showcase.noomoagency.com/_nuxt/ppneuemontreal-book.DWrvOlKa.otf",
+   "https://showcase.noomoagency.com/_nuxt/ppneuemontreal-medium.Bc1YMBzw.otf"
+  ],
+  "biggest": [
+   {
+    "url": "https://showcase.noomoagency.com/videos/amd_720p.mp4",
+    "kb": 1609,
+    "type": "Media"
+   },
+   {
+    "url": "https://showcase.noomoagency.com/videos/Clippers.mp4",
+    "kb": 1391,
+    "type": "Media"
+   },
+   {
+    "url": "https://showcase.noomoagency.com/audio/ShowcaseBG.mp3",
+    "kb": 1230,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://showcase.noomoagency.com/videos/Coinbase.mp4",
+    "kb": 1141,
+    "type": "Media"
+   },
+   {
+    "url": "https://showcase.noomoagency.com/videos/Vogue.mp4",
+    "kb": 1114,
+    "type": "Media"
+   },
+   {
+    "url": "https://showcase.noomoagency.com/videos/SF.mp4",
+    "kb": 995,
+    "type": "Media"
+   },
+   {
+    "url": "https://showcase.noomoagency.com/videos/car_720p.mp4",
+    "kb": 954,
+    "type": "Media"
+   },
+   {
+    "url": "https://showcase.noomoagency.com/models/newCell13.glb",
+    "kb": 700,
+    "type": "Fetch"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": null,
+  "body": "10px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 200
+}

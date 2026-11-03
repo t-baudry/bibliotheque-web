@@ -1,0 +1,858 @@
+{
+ "id": 85,
+ "name": "Produx Design",
+ "sourceUrl": "https://www.produx.design/",
+ "capturedAt": "2026-11-03T09:25:28.903Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg",
+   "desktop-13.jpg",
+   "desktop-14.jpg"
+  ],
+  "fullPage": 21021,
+  "subpages": [
+   {
+    "url": "https://www.produx.design/work",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.produx.design/studio",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.produx.design/lab",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://www.produx.design/",
+ "title": "PRODUX | Design that Speaks",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Strategy-led brand identity and web design studio. We build distinctive brands for startups, SaaS, fintech, and AI companies.",
+  "canonical": "https://produx.design/",
+  "robots": "index, follow",
+  "ogTitle": "PRODUX | Design that Speaks",
+  "ogImage": "https://produx.design/SEO/og-image.jpeg",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "Organization",
+   "WebSite",
+   "WebPage"
+  ],
+  "h1Count": 1,
+  "headings": [
+   "H1 You feel the brand before it speaks®",
+   "H3 Fonzi AI",
+   "H3 Gather AI",
+   "H3 Jurni AI",
+   "H3 Parker AI",
+   "H3 Payy Network",
+   "H2 In 14 days, we shape a complete brand identity that moves with confidence.",
+   "H2 AAbbrraannddiissrreeccooggnniizzeeddbbeeffoorreeiittiissuunnddeerrssttoooodd..YYoouurrvvii"
+  ],
+  "imgs": 42,
+  "imgNoAlt": 10,
+  "favicon": "https://www.produx.design/SEO/light-mode-favicon.svg",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#303930",
+    "w": 3898148
+   },
+   {
+    "v": "#0e0e0e",
+    "w": 3183496
+   },
+   {
+    "v": "#545e54",
+    "w": 2468691
+   },
+   {
+    "v": "#d4cccc",
+    "w": 1063694
+   },
+   {
+    "v": "#5f5136",
+    "w": 488031
+   },
+   {
+    "v": "#141414",
+    "w": 62387
+   },
+   {
+    "v": "#6e6554",
+    "w": 31748
+   },
+   {
+    "v": "#d9d9d9",
+    "w": 3984
+   },
+   {
+    "v": "#f2f2f2",
+    "w": 705
+   }
+  ],
+  "text": [
+   {
+    "v": "#a9a9a9",
+    "w": 1033
+   },
+   {
+    "v": "#303539",
+    "w": 1007
+   },
+   {
+    "v": "#f2f2f2",
+    "w": 572
+   },
+   {
+    "v": "#0e0e0e",
+    "w": 106
+   },
+   {
+    "v": "#c6c6c6",
+    "w": 42
+   },
+   {
+    "v": "#303930",
+    "w": 17
+   },
+   {
+    "v": "#ffffff",
+    "w": 8
+   }
+  ],
+  "border": [
+   {
+    "v": "#303030",
+    "w": 5
+   },
+   {
+    "v": "#2f2f2f",
+    "w": 1
+   }
+  ],
+  "fonts": [
+   {
+    "v": "DM Mono",
+    "w": 1666
+   },
+   {
+    "v": "At Aero Regular",
+    "w": 907
+   },
+   {
+    "v": "At Aero",
+    "w": 410
+   },
+   {
+    "v": "At Aero Medium",
+    "w": 74
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "45.792px",
+    "w": 272
+   },
+   {
+    "v": "13.968px",
+    "w": 197
+   },
+   {
+    "v": "15.984px",
+    "w": 67
+   },
+   {
+    "v": "73.872px",
+    "w": 40
+   },
+   {
+    "v": "24.048px",
+    "w": 27
+   },
+   {
+    "v": "11px",
+    "w": 25
+   },
+   {
+    "v": "23.904px",
+    "w": 22
+   },
+   {
+    "v": "9.936px",
+    "w": 18
+   },
+   {
+    "v": "64.368px",
+    "w": 16
+   },
+   {
+    "v": "16px",
+    "w": 13
+   },
+   {
+    "v": "41.76px",
+    "w": 13
+   },
+   {
+    "v": "11.952px",
+    "w": 11
+   },
+   {
+    "v": "14.4px",
+    "w": 11
+   },
+   {
+    "v": "15.84px",
+    "w": 8
+   },
+   {
+    "v": "63.936px",
+    "w": 7
+   },
+   {
+    "v": "113.76px",
+    "w": 5
+   }
+  ],
+  "radius": [
+   {
+    "v": "3.35544e+07px",
+    "w": 6
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.4 0.1s",
+    "w": 7
+   },
+   {
+    "v": "cubic-bezier(0.4 0.3s",
+    "w": 2
+   },
+   {
+    "v": "cubic-bezier(0.4 0.4s",
+    "w": 1
+   },
+   {
+    "v": "cubic-bezier(0.4 0.5s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "\"At Aero\"",
+    "size": "63.936px",
+    "weight": "400",
+    "lineHeight": "70.3296px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#f2f2f2",
+    "sample": "You feel the brand before it speaks®"
+   },
+   "h2": {
+    "family": "\"At Aero\"",
+    "size": "41.76px",
+    "weight": "400",
+    "lineHeight": "48.024px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "In 14 days, we shape a complete brand identity that moves with confidence."
+   },
+   "h3": {
+    "family": "\"At Aero\"",
+    "size": "24.048px",
+    "weight": "400",
+    "lineHeight": "30.06px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#f2f2f2",
+    "sample": "Fonzi AI"
+   },
+   "h4": {
+    "family": "\"DM Mono\"",
+    "size": "24.048px",
+    "weight": "400",
+    "lineHeight": "36.072px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#505050",
+    "sample": "Brand Strategy and Identity"
+   },
+   "p": {
+    "family": "\"DM Mono\"",
+    "size": "10.08px",
+    "weight": "400",
+    "lineHeight": "15.12px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#a9a9a9",
+    "sample": "A small disturbance in the data. We use cookies to understand how the site perfo"
+   },
+   "a": {
+    "family": "\"DM Mono\"",
+    "size": "13.968px",
+    "weight": "400",
+    "lineHeight": "13.968px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#f2f2f2",
+    "sample": "[WORKWORK]"
+   },
+   "body": {
+    "family": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "A long time ago, in a browser far far away...A small disturbance in the data. We"
+   }
+  },
+  "cssVars": {
+   "--font-sans": "ui-sans-serif,system-ui,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"",
+   "--font-mono": "ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace",
+   "--color-black": "#000",
+   "--color-white": "#fff",
+   "--spacing": ".25rem",
+   "--text-xs": ".75rem",
+   "--text-xs--line-height": "calc(1/.75)",
+   "--text-sm": ".875rem",
+   "--text-sm--line-height": "calc(1.25/.875)",
+   "--text-2xl": "1.5rem",
+   "--text-2xl--line-height": "calc(2/1.5)",
+   "--font-weight-extralight": "200",
+   "--font-weight-light": "300",
+   "--font-weight-normal": "400",
+   "--font-weight-medium": "500",
+   "--tracking-tight": "-.025em",
+   "--leading-tight": "1.25",
+   "--leading-snug": "1.375",
+   "--ease-in": "cubic-bezier(.4,0,1,1)",
+   "--ease-out": "cubic-bezier(0,0,.2,1)",
+   "--ease-in-out": "cubic-bezier(.4,0,.2,1)",
+   "--blur-sm": "8px",
+   "--blur-md": "12px",
+   "--blur-lg": "16px",
+   "--blur-2xl": "40px",
+   "--default-transition-duration": ".15s",
+   "--default-transition-timing-function": "cubic-bezier(.4,0,.2,1)",
+   "--default-font-family": "var(--font-sans)",
+   "--default-mono-font-family": "var(--font-mono)"
+  },
+  "fontFaces": [
+   {
+    "family": "lil-gui",
+    "weight": "",
+    "style": "",
+    "src": "url(\"data:application/font-woff2;charset=utf-8;base64,d09GMgABAAAAAALkAAsAAAAABtQAAAKVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHFQGYACDMgqBBIEbATYCJAMUCwwABCAFhAoHgQQbHAbIDiUFEYVARAAAYQTVWNmz9MxhEgodq49wYRUFKE"
+   },
+   {
+    "family": "At Aero",
+    "weight": "100 900",
+    "style": "normal",
+    "src": "url(\"../media/AtAero-Retina.0_91iicuqc4p1.otf?dpl=dpl_J9FC9QHAU6CzZUPu8tE1fmg5tqWB\")"
+   },
+   {
+    "family": "At Aero Regular",
+    "weight": "100 900",
+    "style": "normal",
+    "src": "url(\"../media/AtAero-Regular.0uw80pfpdnq_a.otf?dpl=dpl_J9FC9QHAU6CzZUPu8tE1fmg5tqWB\")"
+   },
+   {
+    "family": "At Aero Medium",
+    "weight": "100 900",
+    "style": "normal",
+    "src": "url(\"../media/AtAero-Medium.0amks-hcn-0_k.otf?dpl=dpl_J9FC9QHAU6CzZUPu8tE1fmg5tqWB\")"
+   },
+   {
+    "family": "At Aero Light",
+    "weight": "100 900",
+    "style": "normal",
+    "src": "url(\"../media/AtAero-Light.06o2z1-163i.7.otf?dpl=dpl_J9FC9QHAU6CzZUPu8tE1fmg5tqWB\")"
+   },
+   {
+    "family": "DM Mono",
+    "weight": "300",
+    "style": "normal",
+    "src": "url(\"../media/DMMono-Light.02.9dod98p6.u.ttf?dpl=dpl_J9FC9QHAU6CzZUPu8tE1fmg5tqWB\") format(\"truetype-variations\")"
+   },
+   {
+    "family": "DM Mono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"../media/DMMono-Regular.0o2e964hvo05l.ttf?dpl=dpl_J9FC9QHAU6CzZUPu8tE1fmg5tqWB\") format(\"truetype-variations\")"
+   },
+   {
+    "family": "DM Mono",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"../media/DMMono-Medium.125t044ujdbxa.ttf?dpl=dpl_J9FC9QHAU6CzZUPu8tE1fmg5tqWB\") format(\"truetype-variations\")"
+   }
+  ],
+  "keyframes": [
+   "vt-fade-out",
+   "vt-fade-in"
+  ],
+  "breakpoints": [
+   {
+    "v": "1025px",
+    "w": 5
+   },
+   {
+    "v": "40rem",
+    "w": 4
+   },
+   {
+    "v": "48rem",
+    "w": 2
+   },
+   {
+    "v": "80rem",
+    "w": 2
+   },
+   {
+    "v": "96rem",
+    "w": 2
+   },
+   {
+    "v": "1024px",
+    "w": 1
+   },
+   {
+    "v": "640px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 1426,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "heroSection-Sticky-wrapper",
+    "h": 5850,
+    "title": "You feel the brand before it speaks®",
+    "media": 1
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "project-section text-white-smoke px-[5.55vw] pb-[11.67vh] max-lg:px-[4.10vw] max",
+    "h": 2925,
+    "title": "Fonzi AI",
+    "media": 11
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "about-section relative overflow-hidden pt-[15.625vh] pb-[8vh] max-lg:pt-[8.85vh]",
+    "h": 1071,
+    "title": "",
+    "media": 25
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "contribution-section text-white-smoke font-AtAero relative mt-[10vh] px-[5.5vw] ",
+    "h": 597,
+    "title": "",
+    "media": 3
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "uniform-bg-wrapper relative z-10",
+    "h": 9353,
+    "title": "In 14 days, we shape a complete brand identity that moves with confidence.",
+    "media": 19
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "[WORKWORK]",
+    "href": "https://www.produx.design/work"
+   },
+   {
+    "t": "[STUDIOSTUDIO]",
+    "href": "https://www.produx.design/studio"
+   },
+   {
+    "t": "[LABLAB]",
+    "href": "https://www.produx.design/lab"
+   },
+   {
+    "t": "[CONTACTCONTACT]",
+    "href": "https://www.produx.design/contact"
+   },
+   {
+    "t": "WorkWork",
+    "href": "https://www.produx.design/work"
+   },
+   {
+    "t": "StudioStudio",
+    "href": "https://www.produx.design/studio"
+   },
+   {
+    "t": "LabLab",
+    "href": "https://www.produx.design/lab"
+   },
+   {
+    "t": "ContactContact",
+    "href": "https://www.produx.design/contact"
+   },
+   {
+    "t": "",
+    "href": "https://www.cooldesignshit.com/"
+   },
+   {
+    "t": "",
+    "href": "https://x.com/produx_design"
+   },
+   {
+    "t": "",
+    "href": "https://www.linkedin.com/company/produxdesign"
+   },
+   {
+    "t": "",
+    "href": "https://www.instagram.com/socoloff_alex/"
+   },
+   {
+    "t": "Privacy policy",
+    "href": "https://www.produx.design/privacy-policy"
+   },
+   {
+    "t": "Support",
+    "href": "https://www.produx.design/support"
+   }
+  ],
+  "ctas": [],
+  "pageHeight": 21021,
+  "counts": {
+   "canvas": 14,
+   "videos": 7,
+   "imgs": 42,
+   "svgs": 35,
+   "iframes": 0,
+   "domNodes": 2655
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "182",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": true,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [
+   "segment"
+  ],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://www.produx.design/_next/static/chunks/02i7dfk78~t~2.js?dpl=dpl_J9FC9QHAU6CzZUPu8tE1fmg5tqWB",
+  "https://www.produx.design/_next/static/chunks/0onu~7uxnbx3b.js?dpl=dpl_J9FC9QHAU6CzZUPu8tE1fmg5tqWB",
+  "https://www.produx.design/_next/static/chunks/0zj~hg8by~l4y.js?dpl=dpl_J9FC9QHAU6CzZUPu8tE1fmg5tqWB",
+  "https://www.produx.design/_next/static/chunks/turbopack-0cvxxbh.1znfy.js?dpl=dpl_J9FC9QHAU6CzZUPu8tE1fmg5tqWB",
+  "https://www.produx.design/_next/static/chunks/12ll-ra3iv_pb.js?dpl=dpl_J9FC9QHAU6CzZUPu8tE1fmg5tqWB",
+  "https://www.produx.design/_next/static/chunks/0aef1cgmn~fop.js?dpl=dpl_J9FC9QHAU6CzZUPu8tE1fmg5tqWB",
+  "https://www.produx.design/_next/static/chunks/0d3shmwh5_nmn.js?dpl=dpl_J9FC9QHAU6CzZUPu8tE1fmg5tqWB",
+  "https://www.produx.design/_next/static/chunks/0~2j-5cr994j~.js?dpl=dpl_J9FC9QHAU6CzZUPu8tE1fmg5tqWB",
+  "https://www.produx.design/_next/static/chunks/0swtkow.lgrz~.js?dpl=dpl_J9FC9QHAU6CzZUPu8tE1fmg5tqWB",
+  "https://www.produx.design/_next/static/chunks/0b_9cktf5-6nw.js?dpl=dpl_J9FC9QHAU6CzZUPu8tE1fmg5tqWB",
+  "https://www.produx.design/_next/static/chunks/0m9vh1vcfsnp5.js?dpl=dpl_J9FC9QHAU6CzZUPu8tE1fmg5tqWB",
+  "https://www.produx.design/_next/static/chunks/0i-.3ea0..wgc.js?dpl=dpl_J9FC9QHAU6CzZUPu8tE1fmg5tqWB",
+  "https://www.produx.design/_next/static/chunks/0_6ulilhfw4pi.js?dpl=dpl_J9FC9QHAU6CzZUPu8tE1fmg5tqWB",
+  "https://www.produx.design/_next/static/chunks/0e2dxdfs4-avt.js?dpl=dpl_J9FC9QHAU6CzZUPu8tE1fmg5tqWB",
+  "https://www.produx.design/_next/static/chunks/0k4m.k83bg769.js?dpl=dpl_J9FC9QHAU6CzZUPu8tE1fmg5tqWB",
+  "https://www.produx.design/_next/static/chunks/0vhfpaei3u4.7.js?dpl=dpl_J9FC9QHAU6CzZUPu8tE1fmg5tqWB",
+  "https://www.produx.design/_next/static/chunks/0jwuwbsy8x5gc.js?dpl=dpl_J9FC9QHAU6CzZUPu8tE1fmg5tqWB",
+  "https://www.produx.design/_next/static/chunks/03~yq9q893hmn.js?dpl=dpl_J9FC9QHAU6CzZUPu8tE1fmg5tqWB",
+  "https://www.produx.design/f450cc47d54ebd15/script.js",
+  "https://www.produx.design/_next/static/chunks/0fdqsuhytday..js?dpl=dpl_J9FC9QHAU6CzZUPu8tE1fmg5tqWB",
+  "https://www.produx.design/_next/static/chunks/134f89ww~qe_x.js?dpl=dpl_J9FC9QHAU6CzZUPu8tE1fmg5tqWB",
+  "https://www.produx.design/_next/static/chunks/17p30pjnz1dq-.js?dpl=dpl_J9FC9QHAU6CzZUPu8tE1fmg5tqWB",
+  "https://www.produx.design/_next/static/chunks/0v7ul4dbgpzg~.js?dpl=dpl_J9FC9QHAU6CzZUPu8tE1fmg5tqWB",
+  "https://www.produx.design/_next/static/chunks/055v0ah_gmiev.js?dpl=dpl_J9FC9QHAU6CzZUPu8tE1fmg5tqWB",
+  "https://www.produx.design/_next/static/chunks/0~lk9iwq5oxqa.js?dpl=dpl_J9FC9QHAU6CzZUPu8tE1fmg5tqWB",
+  "https://www.produx.design/_next/static/chunks/0rnyib-tx~808.js?dpl=dpl_J9FC9QHAU6CzZUPu8tE1fmg5tqWB",
+  "https://www.produx.design/_next/static/chunks/16ce5gk.9g.4t.js?dpl=dpl_J9FC9QHAU6CzZUPu8tE1fmg5tqWB",
+  "https://www.produx.design/_next/static/chunks/0otb4lhbe8oe4.js?dpl=dpl_J9FC9QHAU6CzZUPu8tE1fmg5tqWB",
+  "https://www.produx.design/_next/static/chunks/05n0-i2ygd4eb.js?dpl=dpl_J9FC9QHAU6CzZUPu8tE1fmg5tqWB",
+  "https://www.produx.design/_next/static/chunks/0f-cj4c0eqtq8.js?dpl=dpl_J9FC9QHAU6CzZUPu8tE1fmg5tqWB",
+  "https://www.produx.design/_next/static/chunks/10yl.ldr8v2a8.js?dpl=dpl_J9FC9QHAU6CzZUPu8tE1fmg5tqWB"
+ ],
+ "internal": [
+  "https://www.produx.design/work",
+  "https://www.produx.design/studio",
+  "https://www.produx.design/lab",
+  "https://www.produx.design/contact",
+  "https://www.produx.design/privacy-policy",
+  "https://www.produx.design/support",
+  "https://www.produx.design/journal/brand-strategy-matters",
+  "https://www.produx.design/journal"
+ ],
+ "perf": {
+  "ttfb": 112,
+  "dcl": 498,
+  "load": 2719,
+  "lcp": 552,
+  "lcpEl": "SPAN.text-outer-space",
+  "cls": 0.186
+ },
+ "libs": {
+  "detected": [
+   "Next.js",
+   "ScrollTrigger",
+   "Three.js",
+   "GSAP",
+   "Lenis",
+   "Virtual scroll",
+   "React",
+   "Lil-GUI/Tweakpane (debug)",
+   "Sanity"
+  ],
+  "where": {
+   "Next.js": [
+    "001-10yl.ldr8v2a8.js",
+    "024-055v0ah_gmiev.js"
+   ],
+   "ScrollTrigger": [
+    "005-0m9vh1vcfsnp5.js",
+    "007-0i-.3ea0..wgc.js",
+    "009-0_2j-5cr994j.js",
+    "010-0jwuwbsy8x5gc.js",
+    "013-0vhfpaei3u4.7.js",
+    "014-0b_9cktf5-6nw.js",
+    "016-0k4m.k83bg769.js",
+    "021-17p30pjnz1dq-.js",
+    "022-134f89ww_qe_x.js",
+    "025-0_lk9iwq5oxqa.js",
+    "026-0rnyib-tx_808.js"
+   ],
+   "Three.js": [
+    "005-0m9vh1vcfsnp5.js",
+    "007-0i-.3ea0..wgc.js",
+    "016-0k4m.k83bg769.js",
+    "018-0e2dxdfs4-avt.js",
+    "022-134f89ww_qe_x.js",
+    "025-0_lk9iwq5oxqa.js",
+    "026-0rnyib-tx_808.js",
+    "028-05n0-i2ygd4eb.js"
+   ],
+   "GSAP": [
+    "006-0aef1cgmn_fop.js",
+    "009-0_2j-5cr994j.js",
+    "010-0jwuwbsy8x5gc.js",
+    "013-0vhfpaei3u4.7.js",
+    "014-0b_9cktf5-6nw.js",
+    "016-0k4m.k83bg769.js",
+    "021-17p30pjnz1dq-.js",
+    "026-0rnyib-tx_808.js"
+   ],
+   "Lenis": [
+    "007-0i-.3ea0..wgc.js",
+    "022-134f89ww_qe_x.js",
+    "026-0rnyib-tx_808.js"
+   ],
+   "Virtual scroll": [
+    "007-0i-.3ea0..wgc.js",
+    "022-134f89ww_qe_x.js"
+   ],
+   "React": [
+    "011-0onu_7uxnbx3b.js"
+   ],
+   "Lil-GUI/Tweakpane (debug)": [
+    "015-0_6ulilhfw4pi.js",
+    "027-16ce5gk.9g.4t.js"
+   ],
+   "Sanity": [
+    "024-055v0ah_gmiev.js"
+   ]
+  },
+  "gsapVersion": "3.11.0",
+  "threeRevision": null,
+  "shaders": 31,
+  "scripts": 30
+ },
+ "network": {
+  "requests": 414,
+  "totalKb": 39734,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 23
+   },
+   "Image": {
+    "n": 288,
+    "kb": 28140
+   },
+   "Stylesheet": {
+    "n": 1,
+    "kb": 13
+   },
+   "Script": {
+    "n": 30,
+    "kb": 943
+   },
+   "Font": {
+    "n": 7,
+    "kb": 288
+   },
+   "Media": {
+    "n": 47,
+    "kb": 10289
+   },
+   "Fetch": {
+    "n": 39,
+    "kb": 37
+   },
+   "Other": {
+    "n": 1,
+    "kb": 1
+   }
+  },
+  "thirdPartyHosts": [],
+  "fontFiles": [
+   "https://www.produx.design/_next/static/media/AtAero-Medium.0amks-hcn-0_k.otf?dpl=dpl_J9FC9QHAU6CzZUPu8tE1fmg5tqWB",
+   "https://www.produx.design/_next/static/media/DMMono-Regular.0o2e964hvo05l.ttf?dpl=dpl_J9FC9QHAU6CzZUPu8tE1fmg5tqWB",
+   "https://www.produx.design/_next/static/media/DMMono-Light.02.9dod98p6.u.ttf?dpl=dpl_J9FC9QHAU6CzZUPu8tE1fmg5tqWB",
+   "https://www.produx.design/_next/static/media/AtAero-Retina.0_91iicuqc4p1.otf?dpl=dpl_J9FC9QHAU6CzZUPu8tE1fmg5tqWB",
+   "https://www.produx.design/_next/static/media/AtAero-Regular.0uw80pfpdnq_a.otf?dpl=dpl_J9FC9QHAU6CzZUPu8tE1fmg5tqWB",
+   "https://www.produx.design/_next/static/media/DMMono-Medium.125t044ujdbxa.ttf?dpl=dpl_J9FC9QHAU6CzZUPu8tE1fmg5tqWB",
+   "https://www.produx.design/fonts/AtAero-Retina.otf"
+  ],
+  "biggest": [
+   {
+    "url": "https://www.produx.design/videos/HeroHLS/part_005.ts",
+    "kb": 974,
+    "type": "Media"
+   },
+   {
+    "url": "https://www.produx.design/videos/HeroHLS/part_016.ts",
+    "kb": 917,
+    "type": "Media"
+   },
+   {
+    "url": "https://www.produx.design/videos/HeroHLS/part_008.ts",
+    "kb": 782,
+    "type": "Media"
+   },
+   {
+    "url": "https://www.produx.design/videos/HeroHLS/part_003.ts",
+    "kb": 776,
+    "type": "Media"
+   },
+   {
+    "url": "https://www.produx.design/videos/HeroHLS/part_011.ts",
+    "kb": 684,
+    "type": "Media"
+   },
+   {
+    "url": "https://www.produx.design/videos/HeroHLS/part_010.ts",
+    "kb": 648,
+    "type": "Media"
+   },
+   {
+    "url": "https://www.produx.design/videos/HeroHLS/part_015.ts",
+    "kb": 591,
+    "type": "Media"
+   },
+   {
+    "url": "https://www.produx.design/videos/HeroHLS/part_000.ts",
+    "kb": 577,
+    "type": "Media"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "46.41px",
+   "lineHeight": "51.051px"
+  },
+  "body": "16px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 211
+}

@@ -1,0 +1,961 @@
+{
+ "id": 64,
+ "name": "Aardvark Book Club",
+ "sourceUrl": "https://aardvarkbookclub.com/",
+ "capturedAt": "2026-11-03T08:56:00.375Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg",
+   "desktop-13.jpg",
+   "desktop-14.jpg"
+  ],
+  "fullPage": 12692,
+  "subpages": [
+   {
+    "url": "https://www.aardvarkbookclub.com/allbooks",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.aardvarkbookclub.com/gifting",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.aardvarkbookclub.com/merch",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://www.aardvarkbookclub.com/",
+ "title": "Aardvark Book Club - Unbox stories worth talking about",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Pick up to 3 new-release hardcovers every month, delivered right to your door. New releases, gorgeous hardcovers, and zero wandering the aisles required.",
+  "canonical": null,
+  "robots": null,
+  "ogTitle": "Aardvark Book Club - Unbox stories worth talking about",
+  "ogImage": "https://cdn.prod.website-files.com/696173cb00865d1b386e4af8/6a35b572849168d5471f9b7c_aardvark-seo-cover.png",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "Organization"
+  ],
+  "h1Count": 1,
+  "headings": [
+   "H1 Unbox stories worth talking about",
+   "H3 Want to join the Club?",
+   "H2 Our Nov books",
+   "H3 Milkteeth",
+   "H3 Lethal Kiss",
+   "H3 Bones of Jade, Flesh like Ice",
+   "H3 Monsters of Ohio",
+   "H3 Stations",
+   "H3 There Used to Be People Here",
+   "H2 How it works",
+   "H3 Explore our books",
+   "H3 Build your box",
+   "H3 Check your doorstop",
+   "H3 Share your reads",
+   "H3 Want to join the Club?",
+   "H2 Choose from",
+   "H3 Want to join the Club?",
+   "H2 Common questions",
+   "H3 How much does membership cost, my wallet is asking?",
+   "H3 What countries does Aardvark ship to?",
+   "H3 How do I join Aardvark?",
+   "H3 Want to join the Club?",
+   "H2 A gift outside of the box",
+   "H3 Want to join the Club?",
+   "H2 Members’ Choice Winners",
+   "H2 Aardvark Exclusive",
+   "H3 One Bad Night & Other Stories",
+   "H3 Authors",
+   "H3 Join our mailing list"
+  ],
+  "imgs": 89,
+  "imgNoAlt": 0,
+  "favicon": "https://cdn.prod.website-files.com/696173cb00865d1b386e4af8/6964eed88dbc1c6e91f97892_aardvark-favicon-small.png",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#ffffff",
+    "w": 12190674
+   },
+   {
+    "v": "#ffd24a",
+    "w": 3333381
+   },
+   {
+    "v": "#fd48f2",
+    "w": 2402133
+   },
+   {
+    "v": "#faed8f",
+    "w": 1759666
+   },
+   {
+    "v": "#3b308f",
+    "w": 1341360
+   },
+   {
+    "v": "#a4f6f8",
+    "w": 1296000
+   },
+   {
+    "v": "#ffdbfd",
+    "w": 1204425
+   },
+   {
+    "v": "#000000",
+    "w": 877015
+   },
+   {
+    "v": "#feb6fa",
+    "w": 626958
+   },
+   {
+    "v": "#1ce8ed",
+    "w": 359461
+   },
+   {
+    "v": "#081424",
+    "w": 185291
+   },
+   {
+    "v": "#5a8aab",
+    "w": 179761
+   }
+  ],
+  "text": [
+   {
+    "v": "#000000",
+    "w": 2779
+   },
+   {
+    "v": "#ffffff",
+    "w": 1317
+   },
+   {
+    "v": "#3b308f",
+    "w": 243
+   },
+   {
+    "v": "#670a2e",
+    "w": 82
+   }
+  ],
+  "border": [
+   {
+    "v": "#ffffff",
+    "w": 5
+   },
+   {
+    "v": "#080909",
+    "w": 1
+   }
+  ],
+  "fonts": [
+   {
+    "v": "Degular",
+    "w": 3561
+   },
+   {
+    "v": "Champ",
+    "w": 589
+   },
+   {
+    "v": "Hello Organichand Webfont",
+    "w": 271
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "24px",
+    "w": 283
+   },
+   {
+    "v": "15px",
+    "w": 96
+   },
+   {
+    "v": "14.0625px",
+    "w": 64
+   },
+   {
+    "v": "18px",
+    "w": 53
+   },
+   {
+    "v": "20.25px",
+    "w": 42
+   },
+   {
+    "v": "13.5px",
+    "w": 32
+   },
+   {
+    "v": "120px",
+    "w": 16
+   },
+   {
+    "v": "30px",
+    "w": 16
+   },
+   {
+    "v": "17.25px",
+    "w": 14
+   },
+   {
+    "v": "96px",
+    "w": 11
+   },
+   {
+    "v": "78px",
+    "w": 10
+   },
+   {
+    "v": "41.25px",
+    "w": 8
+   },
+   {
+    "v": "22.5px",
+    "w": 6
+   },
+   {
+    "v": "12.75px",
+    "w": 4
+   },
+   {
+    "v": "48px",
+    "w": 2
+   },
+   {
+    "v": "12px",
+    "w": 2
+   }
+  ],
+  "radius": [
+   {
+    "v": "18px",
+    "w": 28
+   },
+   {
+    "v": "6px",
+    "w": 26
+   },
+   {
+    "v": "24px",
+    "w": 22
+   },
+   {
+    "v": "12px",
+    "w": 13
+   },
+   {
+    "v": "50%",
+    "w": 8
+   },
+   {
+    "v": "19.5px",
+    "w": 4
+   },
+   {
+    "v": "54px",
+    "w": 3
+   },
+   {
+    "v": "60px",
+    "w": 1
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.59 0.15s",
+    "w": 69
+   },
+   {
+    "v": "cubic-bezier(0.4 0.15s",
+    "w": 33
+   },
+   {
+    "v": "cubic-bezier(0.32 0.5s",
+    "w": 12
+   },
+   {
+    "v": "cubic-bezier(0.32 0.15s",
+    "w": 11
+   },
+   {
+    "v": "cubic-bezier(0.34 0.35s",
+    "w": 10
+   },
+   {
+    "v": "cubic-bezier(0.32 0.2s",
+    "w": 8
+   },
+   {
+    "v": "cubic-bezier(0.32 0.4s",
+    "w": 7
+   },
+   {
+    "v": "cubic-bezier(0.32 0.25s",
+    "w": 3
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "Champ, Arial, sans-serif",
+    "size": "120px",
+    "weight": "700",
+    "lineHeight": "96px",
+    "letterSpacing": "-1.2px",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Unbox stories worth talking about"
+   },
+   "h2": {
+    "family": "Champ, Arial, sans-serif",
+    "size": "78px",
+    "weight": "700",
+    "lineHeight": "62.4px",
+    "letterSpacing": "-0.78px",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Our Nov books"
+   },
+   "h3": {
+    "family": "Champ, Arial, sans-serif",
+    "size": "22.5px",
+    "weight": "700",
+    "lineHeight": "19.8px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Want to join the Club?"
+   },
+   "p": {
+    "family": "Degular, Arial, sans-serif",
+    "size": "18px",
+    "weight": "600",
+    "lineHeight": "21.6px",
+    "letterSpacing": "-0.36px",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Join the book club that’s anything but traditional. Choose up to 3 new reads eve"
+   },
+   "a": {
+    "family": "Degular, Arial, sans-serif",
+    "size": "12px",
+    "weight": "600",
+    "lineHeight": "14.4px",
+    "letterSpacing": "-0.12px",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "All Books"
+   },
+   "li": {
+    "family": "Degular, Arial, sans-serif",
+    "size": "12px",
+    "weight": "600",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "All Books"
+   },
+   "body": {
+    "family": "Degular, Arial, sans-serif",
+    "size": "12px",
+    "weight": "600",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "All BooksGiftingMerchFAQLog-in / Sign-up🇬🇧 Shopping from the UK?enMenuAll Book"
+   }
+  },
+  "cssVars": {
+   "--black": "#000",
+   "--white": "#fff",
+   "--font-size-paragraph-regular": "1.5em",
+   "--violet": "#3b308f",
+   "--font-size-handwritten-regular": "2em",
+   "--font-size-heading-l": "6.5em",
+   "--pale-yellow": "#faed8f",
+   "--font-size-heading-s": "2.5em",
+   "--bright-pink": "#fd48f2",
+   "--cyan": "#1ce8ed",
+   "--wine": "#670a2e",
+   "--yellow": "#ffd24a",
+   "--periwinkle": "#9982de",
+   "--font-size-handwritten-big": "2.5em",
+   "--magenta": "#ff008c",
+   "--orange": "#f9a220",
+   "--header-height": "6.625em",
+   "--grid-gutter": "0px",
+   "--grid-column-width": "calc(((var(--vw,1vw)*100) - (2*var(--grid-margin)))/var(--grid-columns) - (var(--grid-gutter)*(var(--grid-columns) - 1)/var(--grid-columns))",
+   "--grid-margin": "1.5em",
+   "--soft-orange": "#fddaa6",
+   "--soft-pink": "#ffdbfd",
+   "--pale-blue": "#a4f6f8",
+   "--pale-orange": "#fbbe63",
+   "--pop-up-color": "var(--black)",
+   "--pop-up-logo-color": "var(--white)",
+   "--pop-up-color-background": "var(--white)",
+   "--font-size-heading-xs": "1.875em",
+   "--font-size-paragraph-large": "2em",
+   "--font-size-paragraph-small": "1.25em",
+   "--soft-blue": "#ddfcfc",
+   "--pale-pink": "#feb6fa",
+   "--olive": "#857521",
+   "--font-size-paragraph-medium": "1.75em",
+   "--soft-grey": "#f2f2f2",
+   "--font-size-paragraph-extra-small": "1.125em",
+   "--font-size-heading-xxl": "10em",
+   "--pale-green": "#69fe6f",
+   "--pale-periwinkle": "#c2b4eb",
+   "--soft-wine": "#f0e6ea",
+   "--font-size-heading-m": "5em",
+   "--green": "#2de124",
+   "--soft-periwinkle": "#d7cdf1",
+   "--grid-columns": "12",
+   "--faq-color-merch-green": "#8dec7e",
+   "--faq-color-merch-green-soft": "#CAF7C8"
+  },
+  "fontFaces": [
+   {
+    "family": "webflow-icons",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"data:application/x-font-ttf;charset=utf-8;base64,AAEAAAALAIAAAwAwT1MvMg8SBiUAAAC8AAAAYGNtYXDpP+a4AAABHAAAAFxnYXNwAAAAEAAAAXgAAAAIZ2x5ZmhS2XEAAAGAAAADHGhlYWQTFw3HAAAEnAAAADZoaGVhCXYFgQAABNQAAAAkaG"
+   },
+   {
+    "family": "Hello Organichand Webfont",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/696173cb00865d1b386e4af8/6963d3bce4c07135f1d68628_hello-organichand-webfont.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Degular",
+    "weight": "600",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/696173cb00865d1b386e4af8/69c51e46ef7236cf68eaef2e_degular-semibold.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Degular",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/696173cb00865d1b386e4af8/69c520c7360396435501e587_degular-bold.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Degular",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/696173cb00865d1b386e4af8/6a329ba7d02bd3d351e01fc6_Degular-Medium.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Champ",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/696173cb00865d1b386e4af8/6963d2cdeaa0084ad1abd7f0_Champ-ExtraBold.woff\") format(\"woff\")"
+   }
+  ],
+  "keyframes": [
+   "spin"
+  ],
+  "breakpoints": [
+   {
+    "v": "991px",
+    "w": 4
+   },
+   {
+    "v": "479px",
+    "w": 4
+   },
+   {
+    "v": "767px",
+    "w": 3
+   },
+   {
+    "v": "768px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 1363,
+  "crossOriginSheets": 3
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "hero is--bg-yellow",
+    "h": 1050,
+    "title": "Unbox stories worth talking about",
+    "media": 2
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "books is--bg-white",
+    "h": 1191,
+    "title": "Our Nov books",
+    "media": 6
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "flow is--inner-clip is--bg-soft-pink",
+    "h": 836,
+    "title": "How it works",
+    "media": 5
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "box",
+    "h": 2700,
+    "title": "Want to join the Club?",
+    "media": 4
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "genre is--bright-pink",
+    "h": 1390,
+    "title": "Choose from",
+    "media": 44
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "benefits",
+    "h": 810,
+    "title": "",
+    "media": 2
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "faq is--bg-white",
+    "h": 685,
+    "title": "Common questions",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "gift",
+    "h": 971,
+    "title": "A gift outside of the box",
+    "media": 5
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "badge",
+    "h": 335,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "choice is--outer-clip is--bg-yellow",
+    "h": 1149,
+    "title": "Want to join the Club?",
+    "media": 12
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "exclusive is--bg-white",
+    "h": 1167,
+    "title": "Aardvark Exclusive",
+    "media": 5
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "",
+    "href": "https://www.aardvarkbookclub.com/"
+   },
+   {
+    "t": "All Books",
+    "href": "https://www.aardvarkbookclub.com/allbooks"
+   },
+   {
+    "t": "Gifting",
+    "href": "https://www.aardvarkbookclub.com/gifting"
+   },
+   {
+    "t": "Merch",
+    "href": "https://www.aardvarkbookclub.com/merch"
+   },
+   {
+    "t": "FAQ",
+    "href": "https://www.aardvarkbookclub.com/faq"
+   },
+   {
+    "t": "Log-in / Sign-up",
+    "href": "https://app.aardvarkbookclub.com/books?_gl=1*1em9wlw*_ga*NjU3MTczMzQzLjE3ODA3NzYzNzY.*_ga_RSQ4DLMTLL*czE3ODE4MjY2NTEkbzMkZzAkdDE3ODE4MjY2NTEkajYwJGwwJGgw"
+   },
+   {
+    "t": "🇬🇧 Shopping from the UK?",
+    "href": "https://www.aardvarkbookclub.co.uk/"
+   },
+   {
+    "t": "en",
+    "href": "https://www.aardvarkbookclub.com/"
+   },
+   {
+    "t": "",
+    "href": "https://www.instagram.com/aardvarkbookclub/"
+   },
+   {
+    "t": "",
+    "href": "https://www.tiktok.com/@aardvarkbookclub"
+   },
+   {
+    "t": "",
+    "href": "https://www.aardvarkbookclub.com/"
+   },
+   {
+    "t": "All Books",
+    "href": "https://www.aardvarkbookclub.com/allbooks"
+   },
+   {
+    "t": "Gifting",
+    "href": "https://www.aardvarkbookclub.com/gifting"
+   },
+   {
+    "t": "Merch",
+    "href": "https://www.aardvarkbookclub.com/merch"
+   },
+   {
+    "t": "FAQ",
+    "href": "https://www.aardvarkbookclub.com/faq"
+   },
+   {
+    "t": "Become a member",
+    "href": "https://app.aardvarkbookclub.com/books?_gl=1*1em9wlw*_ga*NjU3MTczMzQzLjE3ODA3NzYzNzY.*_ga_RSQ4DLMTLL*czE3ODE4MjY2NTEkbzMkZzAkdDE3ODE4MjY2NTEkajYwJGwwJGgw"
+   }
+  ],
+  "ctas": [],
+  "pageHeight": 12692,
+  "counts": {
+   "canvas": 2,
+   "videos": 0,
+   "imgs": 89,
+   "svgs": 90,
+   "iframes": 0,
+   "domNodes": 1893
+  }
+ },
+ "tech": {
+  "gsap": true,
+  "gsapVersion": "3.15.0",
+  "scrollTrigger": true,
+  "splitText": true,
+  "lenis": true,
+  "locomotive": false,
+  "three": false,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": true,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": true,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": false
+ },
+ "scripts": [
+  "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=696173cb00865d1b386e4af8",
+  "https://cdn.prod.website-files.com/696173cb00865d1b386e4af8/js/webflow.schunk.7c514c4b18297836.js",
+  "https://cdn.prod.website-files.com/696173cb00865d1b386e4af8/js/webflow.b049d1f4.f16853c5fa980dfd.js",
+  "https://cdn.jsdelivr.net/npm/@barba/core@2.10.3/dist/barba.umd.min.js",
+  "https://cdn.jsdelivr.net/npm/@barba/prefetch@2.2.0/dist/barba-prefetch.umd.min.js",
+  "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/gsap.min.js",
+  "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/ScrollTrigger.min.js",
+  "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/SplitText.min.js",
+  "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/CustomEase.min.js",
+  "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/InertiaPlugin.min.js",
+  "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/DrawSVGPlugin.min.js",
+  "https://cdn.jsdelivr.net/npm/lenis@1.3.17/dist/lenis.min.js",
+  "https://cdn.jsdelivr.net/npm/smooothy@0.0.35/dist/smooothy.min.js",
+  "https://cdn.jsdelivr.net/npm/minisearch@7.1.2/dist/umd/index.min.js",
+  "https://slater.app/18601/54937.js"
+ ],
+ "internal": [
+  "https://www.aardvarkbookclub.com/allbooks",
+  "https://www.aardvarkbookclub.com/gifting",
+  "https://www.aardvarkbookclub.com/merch",
+  "https://www.aardvarkbookclub.com/faq",
+  "https://www.aardvarkbookclub.com/books/milkteeth",
+  "https://www.aardvarkbookclub.com/books/lethal-kiss",
+  "https://www.aardvarkbookclub.com/books/bones-of-jade-flesh-like-ice",
+  "https://www.aardvarkbookclub.com/books/monsters-of-ohio",
+  "https://www.aardvarkbookclub.com/books/stations",
+  "https://www.aardvarkbookclub.com/books/there-used-to-be-people-here",
+  "https://www.aardvarkbookclub.com/books/the-buffalo-hunter-hunter-2025-members-choice-winner",
+  "https://www.aardvarkbookclub.com/books/the-reformatory-2024-members-choice-winner",
+  "https://www.aardvarkbookclub.com/books/chain-gang-all-stars-2023-members-choice-winner",
+  "https://www.aardvarkbookclub.com/terms-of-service",
+  "https://www.aardvarkbookclub.com/privacy-policy"
+ ],
+ "perf": {
+  "ttfb": 385,
+  "dcl": 1422,
+  "load": 1498,
+  "lcp": 2736,
+  "lcpEl": "SPAN.split-word",
+  "cls": 0
+ },
+ "libs": {
+  "detected": [
+   "Barba.js",
+   "jQuery",
+   "GSAP",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "DrawSVG/MorphSVG",
+   "Lenis",
+   "Virtual scroll"
+  ],
+  "where": {
+   "Barba.js": [
+    "001-barba-prefetch.umd.min.js",
+    "002-barba.umd.min.js",
+    "003-barba-prefetch.umd.min.js",
+    "005-barba.umd.min.js",
+    "015-54937.js"
+   ],
+   "jQuery": [
+    "001-jquery-3.5.1.min.dc5e7f18c8.js",
+    "002-webflow.schunk.7c514c4b18297836.js",
+    "003-webflow.b049d1f4.f16853c5fa980dfd.js",
+    "004-webflow.b049d1f4.f16853c5fa980dfd.js",
+    "005-webflow.schunk.7c514c4b18297836.js",
+    "014-jquery-3.5.1.min.dc5e7f18c8.js"
+   ],
+   "GSAP": [
+    "004-ScrollTrigger.min.js",
+    "006-gsap.min.js",
+    "006-SplitText.min.js",
+    "007-ScrollTrigger.min.js",
+    "007-SplitText.min.js",
+    "008-CustomEase.min.js",
+    "008-gsap.min.js",
+    "009-CustomEase.min.js",
+    "009-InertiaPlugin.min.js",
+    "010-InertiaPlugin.min.js",
+    "011-DrawSVGPlugin.min.js",
+    "012-DrawSVGPlugin.min.js",
+    "015-54937.js"
+   ],
+   "ScrollTrigger": [
+    "004-ScrollTrigger.min.js",
+    "006-gsap.min.js",
+    "007-ScrollTrigger.min.js",
+    "008-gsap.min.js",
+    "015-54937.js"
+   ],
+   "SplitText/SplitType": [
+    "006-gsap.min.js",
+    "006-SplitText.min.js",
+    "007-SplitText.min.js",
+    "008-gsap.min.js",
+    "015-54937.js"
+   ],
+   "DrawSVG/MorphSVG": [
+    "011-DrawSVGPlugin.min.js",
+    "012-DrawSVGPlugin.min.js",
+    "015-54937.js"
+   ],
+   "Lenis": [
+    "011-lenis.min.js",
+    "012-lenis.min.js",
+    "015-54937.js",
+    "styles.css"
+   ],
+   "Virtual scroll": [
+    "011-lenis.min.js",
+    "012-lenis.min.js"
+   ]
+  },
+  "gsapVersion": "3.11.0",
+  "threeRevision": null,
+  "shaders": 0,
+  "scripts": 28
+ },
+ "network": {
+  "requests": 384,
+  "totalKb": 59809,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 38
+   },
+   "Image": {
+    "n": 84,
+    "kb": 10627
+   },
+   "Stylesheet": {
+    "n": 3,
+    "kb": 11
+   },
+   "Script": {
+    "n": 15,
+    "kb": 163
+   },
+   "Font": {
+    "n": 4,
+    "kb": 170
+   },
+   "Fetch": {
+    "n": 263,
+    "kb": 48505
+   },
+   "Other": {
+    "n": 1,
+    "kb": 1
+   },
+   "XHR": {
+    "n": 13,
+    "kb": 294
+   }
+  },
+  "thirdPartyHosts": [
+   "cdn.prod.website-files.com",
+   "cdn.jsdelivr.net",
+   "d3e54v103j8qbb.cloudfront.net",
+   "slater.app",
+   "aardvark-book-club.b-cdn.net"
+  ],
+  "fontFiles": [
+   "https://cdn.prod.website-files.com/696173cb00865d1b386e4af8/69c51e46ef7236cf68eaef2e_degular-semibold.woff2",
+   "https://cdn.prod.website-files.com/696173cb00865d1b386e4af8/6963d3bce4c07135f1d68628_hello-organichand-webfont.woff2",
+   "https://cdn.prod.website-files.com/696173cb00865d1b386e4af8/6963d2cdeaa0084ad1abd7f0_Champ-ExtraBold.woff",
+   "https://cdn.prod.website-files.com/696173cb00865d1b386e4af8/69c520c7360396435501e587_degular-bold.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://cdn.prod.website-files.com/69a33078e92fb49d85319481/6ae531076c8f3b246f228254_milkteethna.png",
+    "kb": 1136,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/69a33078e92fb49d85319481/6ae5344cbb0818327cf2a348_earlybonesofjadefleshlikeice.png",
+    "kb": 1104,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/69a33078e92fb49d85319481/6ae5365be047d0e997e024da_stationsna.png",
+    "kb": 1071,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/69a33078e92fb49d85319481/6ae531f855d60e89fef6b8b4_lethalkissna.png",
+    "kb": 938,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/69a33078e92fb49d85319481/6ae532df665fb684ae2cf08f_monstersofohiona.png",
+    "kb": 912,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/696173cb00865d1b386e4af8/6a31b8c06de3eea03f9013f5_masquerade.webp",
+    "kb": 348,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/696173cb00865d1b386e4af8/6a31658aa896f279bb1b1761_starshipped-350x538.webp",
+    "kb": 333,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/696173cb00865d1b386e4af8/6a31b339a14c82017668f539_thebuffalohunterhunter-350x538.webp",
+    "kb": 236,
+    "type": "Image"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "50.4478px",
+   "lineHeight": "40.3582px"
+  },
+  "body": "15.5224px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 263
+}

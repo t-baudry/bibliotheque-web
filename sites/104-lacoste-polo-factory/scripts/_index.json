@@ -1,0 +1,47 @@
+[
+ {
+  "file": "001-app.BP0mZaHqbb947c09.js",
+  "url": "https://members-play.lacoste.com/polo-factory-experience/assets/app.BP0mZaHqbb947c09.js",
+  "kb": 23
+ },
+ {
+  "file": "002-loader.js",
+  "url": "https://sdk.privacy-center.org/c4b94491-7507-4531-9592-bb109817d4ab/loader.js?target_type=notice&target=aCG3Ge6w",
+  "kb": 113
+ },
+ {
+  "file": "003-vendor.skP70cxAbb947c09.js",
+  "url": "https://members-play.lacoste.com/polo-factory-experience/assets/vendor.skP70cxAbb947c09.js",
+  "kb": 946
+ },
+ {
+  "file": "004-sdk.f26639897e05410a63a27fbfd9dae19ea2f8534a.js",
+  "url": "https://sdk.privacy-center.org/sdk/f26639897e05410a63a27fbfd9dae19ea2f8534a/modern/sdk.f26639897e05410a63a27fbfd9dae19ea2f8534a.js",
+  "kb": 475
+ },
+ {
+  "file": "005-loader._F6p7dbabb947c09.js",
+  "url": "https://members-play.lacoste.com/polo-factory-experience/assets/loader._F6p7dbabb947c09.js",
+  "kb": 519
+ },
+ {
+  "file": "006-src_sdk_core_modules_integrations_sdk-integrations_providers.js",
+  "url": "https://sdk.privacy-center.org/sdk/f26639897e05410a63a27fbfd9dae19ea2f8534a/modern/src_sdk_core_modules_integrations_sdk-integrations_providers_gcm_gcm_js.f26639897e05410a63a27fbfd9dae19ea2f8534a.js",
+  "kb": 3
+ },
+ {
+  "file": "007-ui-web-en-web.f26639897e05410a63a27fbfd9dae19ea2f8534a.js",
+  "url": "https://sdk.privacy-center.org/sdk/f26639897e05410a63a27fbfd9dae19ea2f8534a/modern/ui-web-en-web.f26639897e05410a63a27fbfd9dae19ea2f8534a.js",
+  "kb": 259
+ },
+ {
+  "file": "008-draco_wasm_wrapper.js",
+  "url": "https://members-play.lacoste.com/polo-factory-experience/vendors/draco/draco_wasm_wrapper.js",
+  "kb": 57
+ },
+ {
+  "file": "009-basis_transcoder.js",
+  "url": "https://members-play.lacoste.com/polo-factory-experience/vendors/basis/basis_transcoder.js",
+  "kb": 61
+ }
+]

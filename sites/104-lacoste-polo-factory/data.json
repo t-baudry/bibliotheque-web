@@ -1,0 +1,689 @@
+{
+ "id": 104,
+ "name": "Lacoste - Polo Factory",
+ "sourceUrl": "https://members-play.lacoste.com/polo-factory-experience",
+ "capturedAt": "2026-11-03T22:26:15.056Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg"
+  ],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://members-play.lacoste.com/polo-factory-experience/fr/fr/",
+ "title": "Lacoste Polo Factory Experience",
+ "lang": "fr",
+ "generator": null,
+ "seo": {
+  "description": "Bienvenue dans la Lacoste Polo Factory",
+  "canonical": "https://members-play.lacoste.com/polo-factory-experience/fr/fr/",
+  "robots": "noindex,nofollow",
+  "ogTitle": "Lacoste Polo Factory Experience",
+  "ogImage": "https://members-play.lacoste.com/polo-factory-experience/share.png?v=6fca1084",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [],
+  "h1Count": 1,
+  "headings": [
+   "H1 Lacoste Polo Factory Experience",
+   "H2 PARTICIPER AU CONCOURS",
+   "H3 Participez pour tenter de gagner l'un des 10 polos Lacoste iconiques."
+  ],
+  "imgs": 4,
+  "imgNoAlt": 0,
+  "favicon": "https://members-play.lacoste.com/polo-factory-experience/favicon.ico?v=6fca1084",
+  "themeColor": "#000000"
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#ffffff",
+    "w": 2580542
+   },
+   {
+    "v": "#fcf383",
+    "w": 100224
+   },
+   {
+    "v": "#0b4221",
+    "w": 26100
+   },
+   {
+    "v": "#959372",
+    "w": 21200
+   },
+   {
+    "v": "#082415",
+    "w": 16163
+   },
+   {
+    "v": "#eeeeee",
+    "w": 8081
+   },
+   {
+    "v": "#4a4938",
+    "w": 1927
+   }
+  ],
+  "text": [
+   {
+    "v": "#767676",
+    "w": 1891
+   },
+   {
+    "v": "#333333",
+    "w": 518
+   },
+   {
+    "v": "#0b4221",
+    "w": 227
+   },
+   {
+    "v": "#526e7a",
+    "w": 162
+   },
+   {
+    "v": "#000000",
+    "w": 131
+   },
+   {
+    "v": "#ffffff",
+    "w": 57
+   },
+   {
+    "v": "#4a4938",
+    "w": 36
+   },
+   {
+    "v": "#082415",
+    "w": 14
+   },
+   {
+    "v": "#444444",
+    "w": 12
+   },
+   {
+    "v": "#fcf383",
+    "w": 11
+   }
+  ],
+  "border": [
+   {
+    "v": "#f7ece8",
+    "w": 7
+   },
+   {
+    "v": "#082415",
+    "w": 4
+   },
+   {
+    "v": "#222222",
+    "w": 1
+   }
+  ],
+  "fonts": [
+   {
+    "v": "Lacoste",
+    "w": 2320
+   },
+   {
+    "v": "system-ui",
+    "w": 739
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "16px",
+    "w": 278
+   },
+   {
+    "v": "18px",
+    "w": 8
+   },
+   {
+    "v": "10px",
+    "w": 6
+   },
+   {
+    "v": "15px",
+    "w": 5
+   },
+   {
+    "v": "12px",
+    "w": 5
+   },
+   {
+    "v": "13px",
+    "w": 5
+   },
+   {
+    "v": "40px",
+    "w": 2
+   },
+   {
+    "v": "14px",
+    "w": 2
+   },
+   {
+    "v": "24px",
+    "w": 1
+   },
+   {
+    "v": "48px",
+    "w": 1
+   },
+   {
+    "v": "26px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "9px",
+    "w": 7
+   },
+   {
+    "v": "14px",
+    "w": 4
+   },
+   {
+    "v": "100%",
+    "w": 2
+   },
+   {
+    "v": "5px",
+    "w": 1
+   },
+   {
+    "v": "3px",
+    "w": 1
+   },
+   {
+    "v": "6px",
+    "w": 1
+   },
+   {
+    "v": "21px",
+    "w": 1
+   }
+  ],
+  "shadows": [
+   {
+    "v": "rgba(202, 206, 216, 0.01) 0px 181px 51px 0px, rgba(202, 206, 216, 0.07) 0px 116px 46px 0px, rgba(202, 206, 216, 0.25) 0p",
+    "w": 1
+   }
+  ],
+  "transitions": [
+   {
+    "v": "ease 0.3s",
+    "w": 8
+   },
+   {
+    "v": "ease 0.15s",
+    "w": 7
+   },
+   {
+    "v": "cubic-bezier(0.215 0.3s",
+    "w": 4
+   },
+   {
+    "v": "cubic-bezier(0.86 0.5s",
+    "w": 2
+   },
+   {
+    "v": "ease-in-out 0.4s",
+    "w": 1
+   },
+   {
+    "v": "cubic-bezier(0.175 0.3s",
+    "w": 1
+   },
+   {
+    "v": "cubic-bezier(0.24 0.75s",
+    "w": 1
+   },
+   {
+    "v": "ease 0.5s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "Lacoste, Arial, sans-serif",
+    "size": "48px",
+    "weight": "700",
+    "lineHeight": "39.84px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#0b4221",
+    "sample": "Lacoste Polo Factory Experience"
+   },
+   "h2": {
+    "family": "Lacoste, Arial, sans-serif",
+    "size": "26px",
+    "weight": "700",
+    "lineHeight": "26px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#0b4221",
+    "sample": "PARTICIPER AU CONCOURS"
+   },
+   "h3": {
+    "family": "Lacoste, Arial, sans-serif",
+    "size": "14px",
+    "weight": "400",
+    "lineHeight": "14px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Participez pour tenter de gagner l'un des 10 polos Lacoste iconiques."
+   },
+   "p": {
+    "family": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+    "size": "15px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#333333",
+    "sample": "With your agreement, we and our 2 partners use cookies or similar technologies t"
+   },
+   "a": {
+    "family": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+    "size": "15px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#082415",
+    "sample": "our 2 partners"
+   },
+   "button": {
+    "family": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+    "size": "16px",
+    "weight": "700",
+    "lineHeight": "22.4px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#444444",
+    "sample": "Learn More →"
+   },
+   "body": {
+    "family": "Lacoste, Arial, sans-serif",
+    "size": "40px",
+    "weight": "400",
+    "lineHeight": "60px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#0b4221",
+    "sample": "#didomi-host .didomi-components-button{background-color:#eee;border:1px solid rg"
+   }
+  },
+  "cssVars": {
+   "--base-text": "calc((40px) * var(--h-demult, 1))",
+   "--padding": "max(6px, calc(var(--base-text) * .15))",
+   "--cursor-auto": "auto",
+   "--cursor-crosshair": "crosshair",
+   "--cursor-pointer": "pointer",
+   "--cursor-grab": "grab",
+   "--cursor-grabbing": "grabbing",
+   "--ui-bps": "xs:400px / s:640px / sm:768px / md:1024px / lg:1200px / xl:1600px / xxl:1920px",
+   "--ui-colors": "red:#b70606 / pink:#f7ece8 / green:#496646 / mint-green:#e1ffc2 / baby-blue:#98d9ea / denim-blue:#19527f / yellow:#fcf383 / brand-green:#0b4",
+   "--ui-color-red": "#b70606",
+   "--ui-color-pink": "#f7ece8",
+   "--ui-color-green": "#496646",
+   "--ui-color-mint-green": "#e1ffc2",
+   "--ui-color-baby-blue": "#98d9ea",
+   "--ui-color-denim-blue": "#19527f",
+   "--ui-color-yellow": "#fcf383",
+   "--ui-color-brand-green": "#0b4221",
+   "--ui-color-greige": "#d5cab0",
+   "--ui-color-black": "#000",
+   "--ui-color-white": "#fff",
+   "--ui-color-dark-brown": "#4a4938",
+   "--ui-color-yellow-light": "#fffbce",
+   "--ui-color-green-light": "#f1ffe3",
+   "--ui-color-machine-yellow": "#fffde3",
+   "--ui-color-machine-green": "#f5ffea",
+   "--ui-color-machine-blue": "#eff9fb",
+   "--ui-color-light-brown": "#959372",
+   "--ui-color-light-blue": "#c2dadf",
+   "--ui-color-light-yellow": "#e8e0be",
+   "--ui-color-light-green": "#d0dfbe",
+   "--ui-color-brand-boulder": "#767676",
+   "--ui-color-grey": "#cacaca",
+   "--ui-color-grey-light": "#f2f2f2"
+  },
+  "fontFaces": [
+   {
+    "family": "Lacoste",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/polo-factory-experience/assets/Lacoste-Regular.DzMgoshubb947c09.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Lacoste",
+    "weight": "400",
+    "style": "italic",
+    "src": "url(\"/polo-factory-experience/assets/Lacoste-Italic.DYV4gA46bb947c09.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Lacoste",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"/polo-factory-experience/assets/Lacoste-Bold.tPyPV4uHbb947c09.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Lacoste",
+    "weight": "900",
+    "style": "normal",
+    "src": "url(\"/polo-factory-experience/assets/Lacoste-Black.CiRvobBubb947c09.woff2\") format(\"woff2\")"
+   }
+  ],
+  "keyframes": [
+   "tilt-n-move-shaking-home-d60c26c0",
+   "tilt-n-move-shaking-knitting-d60c26c0",
+   "tilt-n-move-shaking-dyeing-d60c26c0",
+   "tilt-n-move-shaking-embroidering-d60c26c0",
+   "moveArrow-d60c26c0",
+   "spark-cycle-d60c26c0",
+   "tilt-n-move-shaking-b80a553e",
+   "hotspot-bounce-in-13fa3c8a",
+   "hotspot-bounce-out-13fa3c8a",
+   "rotateDevice-21295174",
+   "appear-21295174",
+   "appearReversed-21295174",
+   "lds-ellipsis1",
+   "lds-ellipsis3",
+   "lds-ellipsis2"
+  ],
+  "breakpoints": [
+   {
+    "v": "1023px",
+    "w": 34
+   },
+   {
+    "v": "1024px",
+    "w": 33
+   },
+   {
+    "v": "1600px",
+    "w": 7
+   },
+   {
+    "v": "639px",
+    "w": 6
+   },
+   {
+    "v": "769px",
+    "w": 4
+   },
+   {
+    "v": "1025px",
+    "w": 3
+   },
+   {
+    "v": "399px",
+    "w": 1
+   },
+   {
+    "v": "1200px",
+    "w": 1
+   },
+   {
+    "v": "1900px",
+    "w": 1
+   },
+   {
+    "v": "450px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 1498,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "view view-home",
+    "h": 900,
+    "top": 0,
+    "title": "Lacoste Polo Factory Experience",
+    "media": 5
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "flash",
+    "h": 900,
+    "top": 0,
+    "title": "",
+    "media": 0
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "Lacoste.com",
+    "href": "https://www.lacoste.com/fr/"
+   },
+   {
+    "t": "Conditions générales",
+    "href": "https://www.lacoste.com/fr/landing-page-reglement-polo-factory.html"
+   },
+   {
+    "t": "Mentions légales",
+    "href": "https://www.lacoste.com/fr/conditions-generales-membres-lacoste.html"
+   }
+  ],
+  "ctas": [
+   "Learn More →",
+   "Disagree and close",
+   "Agree and close"
+  ],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 2,
+   "videos": 0,
+   "imgs": 4,
+   "svgs": 28,
+   "iframes": 1,
+   "domNodes": 767
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": false,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": true,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": true,
+  "cms": [],
+  "analytics": [],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://sdk.privacy-center.org/c4b94491-7507-4531-9592-bb109817d4ab/loader.js?target_type=notice&target=aCG3Ge6w",
+  "https://sdk.privacy-center.org/sdk/f26639897e05410a63a27fbfd9dae19ea2f8534a/modern/sdk.f26639897e05410a63a27fbfd9dae19ea2f8534a.js",
+  "https://members-play.lacoste.com/polo-factory-experience/assets/app.BP0mZaHqbb947c09.js"
+ ],
+ "internal": [],
+ "perf": {
+  "ttfb": 29,
+  "dcl": 197,
+  "load": 576,
+  "lcp": 300,
+  "lcpEl": "DIV.preloader-welcome",
+  "cls": 0.001
+ },
+ "libs": {
+  "detected": [
+   "Barba.js",
+   "Three.js",
+   "Vue"
+  ],
+  "where": {
+   "Barba.js": [
+    "001-app.BP0mZaHqbb947c09.js"
+   ],
+   "Three.js": [
+    "003-vendor.skP70cxAbb947c09.js"
+   ],
+   "Vue": [
+    "003-vendor.skP70cxAbb947c09.js"
+   ]
+  },
+  "gsapVersion": null,
+  "threeRevision": null,
+  "shaders": 13,
+  "scripts": 9
+ },
+ "network": {
+  "requests": 82,
+  "totalKb": 18352,
+  "byType": {
+   "Document": {
+    "n": 2,
+    "kb": 78
+   },
+   "Stylesheet": {
+    "n": 1,
+    "kb": 0
+   },
+   "Script": {
+    "n": 7,
+    "kb": 565
+   },
+   "Image": {
+    "n": 35,
+    "kb": 446
+   },
+   "Font": {
+    "n": 3,
+    "kb": 102
+   },
+   "Fetch": {
+    "n": 32,
+    "kb": 14336
+   },
+   "XHR": {
+    "n": 1,
+    "kb": 2816
+   },
+   "Other": {
+    "n": 1,
+    "kb": 9
+   }
+  },
+  "thirdPartyHosts": [
+   "sdk.privacy-center.org"
+  ],
+  "fontFiles": [
+   "https://members-play.lacoste.com/polo-factory-experience/assets/Lacoste-Bold.tPyPV4uHbb947c09.woff2",
+   "https://members-play.lacoste.com/polo-factory-experience/assets/Lacoste-Regular.DzMgoshubb947c09.woff2",
+   "https://members-play.lacoste.com/polo-factory-experience/assets/Lacoste-Italic.DYV4gA46bb947c09.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://members-play.lacoste.com/polo-factory-experience/b/uzxHh2J3BJen.m4a",
+    "kb": 2816,
+    "type": "XHR"
+   },
+   {
+    "url": "https://members-play.lacoste.com/polo-factory-experience/b/lJHMrF4RyKbX.ktx2",
+    "kb": 2105,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://members-play.lacoste.com/polo-factory-experience/b/jUrcXBR-Zeml.bin",
+    "kb": 1950,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://members-play.lacoste.com/polo-factory-experience/b/dubGUdb-V3vv.ktx2",
+    "kb": 1840,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://members-play.lacoste.com/polo-factory-experience/b/xBRFaZNXBhQp.ktx2",
+    "kb": 1737,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://members-play.lacoste.com/polo-factory-experience/b/yM2IxOx34RBR.exr",
+    "kb": 1691,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://members-play.lacoste.com/polo-factory-experience/b/JR_JQavJnb9q.glb",
+    "kb": 1447,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://members-play.lacoste.com/polo-factory-experience/b/CBLrAT4ljZNr.glb",
+    "kb": 625,
+    "type": "Fetch"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "24px",
+   "lineHeight": "19.92px"
+  },
+  "body": "40px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 53
+}

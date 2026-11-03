@@ -1,0 +1,621 @@
+{
+ "id": 92,
+ "name": "Hearst Exhibit 2026",
+ "sourceUrl": "https://www.hollywoodexhibit2026.com/",
+ "capturedAt": "2026-11-03T22:01:41.846Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg"
+  ],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://www.hollywoodexhibit2026.com/",
+ "title": "ELLE & Esquire, The New Hollywood Photography Exhibition",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Hearst Galleries presented a joint photography exhibition for ELLE and Esquire, ELLE: The New Hollywood and Esquire Goes to Hollywood, featuring iconic Hollywood photography from the brands’ archival collections and celebrating 40 years of ELLE’s commitment to women’s voices, creativity, and cultural influence.",
+  "canonical": null,
+  "robots": null,
+  "ogTitle": null,
+  "ogImage": null,
+  "twitterCard": null,
+  "jsonLd": [],
+  "h1Count": 0,
+  "headings": [],
+  "imgs": 0,
+  "imgNoAlt": 0,
+  "favicon": "https://www.hollywoodexhibit2026.com/icon.png?icon.c4f3940a.png",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#000000",
+    "w": 1296000
+   }
+  ],
+  "text": [],
+  "border": [],
+  "fonts": [],
+  "fontSizes": [
+   {
+    "v": "18.7573px",
+    "w": 11
+   }
+  ],
+  "radius": [
+   {
+    "v": "50%",
+    "w": 1
+   }
+  ],
+  "shadows": [],
+  "transitions": [],
+  "typo": {
+   "body": {
+    "family": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "size": "18.7573px",
+    "weight": "400",
+    "lineHeight": "23.4466px",
+    "letterSpacing": "-2%",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "(self.__next_s=self.__next_s||[]).push([0,{\"children\":\"if (typeof window !== 'un"
+   }
+  },
+  "cssVars": {
+   "--spacing": ".0625rem",
+   "--font-weight-light": "300",
+   "--animate-spin": "spin 1s linear infinite",
+   "--default-transition-duration": ".15s",
+   "--default-transition-timing-function": "cubic-bezier(.4,0,.2,1)",
+   "--fluid-min-w": "var(--layout-min-w,375)",
+   "--fluid-max-w": "var(--layout-max-w,1920)",
+   "--fluid-slope": "calc((100vw - calc(var(--spacing)*var(--fluid-min-w)))/(var(--fluid-max-w) - var(--fluid-min-w)))",
+   "--text-label": "clamp(calc(var(--spacing)*12),calc(calc(var(--spacing)*12) + (14 - 12)*var(--fluid-slope)),calc(var(--spacing)*14))",
+   "--text-label--font-weight": "400",
+   "--text-label--line-height": "1",
+   "--text-label--letter-spacing": ".03em",
+   "--text-cta": "clamp(calc(var(--spacing)*14),calc(calc(var(--spacing)*14) + (16 - 14)*var(--fluid-slope)),calc(var(--spacing)*16))",
+   "--text-body-10": "clamp(calc(var(--spacing)*16),calc(calc(var(--spacing)*16) + (20 - 16)*var(--fluid-slope)),calc(var(--spacing)*20))",
+   "--text-body-10--font-weight": "400",
+   "--text-body-10--line-height": "1.25",
+   "--text-body-10--letter-spacing": "-2%",
+   "--text-headline-10": "clamp(calc(var(--spacing)*20),calc(calc(var(--spacing)*20) + (30 - 20)*var(--fluid-slope)),calc(var(--spacing)*30))",
+   "--text-headline-10--font-weight": "400",
+   "--text-headline-10--line-height": "1",
+   "--text-headline-10--letter-spacing": "normal",
+   "--text-headline-18": "clamp(calc(var(--spacing)*36),calc(calc(var(--spacing)*36) + (54 - 36)*var(--fluid-slope)),calc(var(--spacing)*54))",
+   "--text-headline-18--font-weight": "400",
+   "--text-headline-18--line-height": "1",
+   "--text-headline-18--letter-spacing": "normal",
+   "--text-subheadline": "clamp(calc(var(--spacing)*30),calc(calc(var(--spacing)*30) + (40 - 30)*var(--fluid-slope)),calc(var(--spacing)*40))",
+   "--text-subheadline--font-weight": "400",
+   "--text-subheadline--line-height": "1",
+   "--text-subheadline--letter-spacing": "normal",
+   "--text-headline-20": "clamp(calc(var(--spacing)*35),calc(calc(var(--spacing)*35) + (60 - 35)*var(--fluid-slope)),calc(var(--spacing)*60))",
+   "--text-headline-20--font-weight": "400",
+   "--text-headline-20--line-height": "1",
+   "--text-headline-20--letter-spacing": "normal",
+   "--text-headline-50": "clamp(calc(var(--spacing)*50),calc(calc(var(--spacing)*50) + (100 - 50)*var(--fluid-slope)),calc(var(--spacing)*100))",
+   "--text-headline-50--font-weight": "400",
+   "--text-headline-50--line-height": "1",
+   "--text-headline-50--letter-spacing": "normal",
+   "--layout-min-w": "375",
+   "--layout-max-w": "1920",
+   "--font-instrument-sans": "var(--font-helvetica-lt-pro)",
+   "--font-arizona": "var(--font-abc-arizona),ui-sans-serif,system-ui,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\"",
+   "--font-safira-march": "var(--font-helvetica-lt-pro)",
+   "--font-haigrast": "var(--font-helvetica-lt-pro)",
+   "--font-helvetica-lt-pro": "\"helvetica-lt-pro\",ui-sans-serif,system-ui,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\"",
+   "--font-ivy": "\"ivypresto-display\",ui-serif,serif",
+   "--font-ivy-headline": "var(--font-ivy-presto-headline),ui-serif,serif",
+   "--color-black": "#000",
+   "--color-white": "#fff",
+   "--radius-8": "calc(var(--spacing)*8)",
+   "--radius-full": "9999px",
+   "--ease-out-sine": "cubic-bezier(.39,.57,.56,1)",
+   "--ease-in-out-quart": "cubic-bezier(.77,0,.18,1)",
+   "--font-abc-arizona": "var(--font-helvetica-lt-pro)"
+  },
+  "fontFaces": [
+   {
+    "family": "Instrument Sans",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"../media/c7f47671e39f7787-s.088ba3ed.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Instrument Sans",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"../media/f06bf9da926bae75-s.c68a79fb.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Instrument Sans",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"../media/c7f47671e39f7787-s.088ba3ed.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Instrument Sans",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"../media/f06bf9da926bae75-s.c68a79fb.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Instrument Sans Fallback",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   },
+   {
+    "family": "abcArizona",
+    "weight": "300",
+    "style": "normal",
+    "src": "url(\"../media/ABCArizonaVariable-s.p.6844b0f6.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "abcArizona Fallback",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   },
+   {
+    "family": "safiraMarch",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"../media/SafiraMarch-s.p.fcee3285.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "safiraMarch Fallback",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   },
+   {
+    "family": "haigrast",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"../media/Haigrast-s.p.42f2de84.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "haigrast Fallback",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   },
+   {
+    "family": "ivyPrestoHeadline",
+    "weight": "100",
+    "style": "normal",
+    "src": "url(\"../media/IvyPrestoHeadline_Thin-s.p.830ff306.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "ivyPrestoHeadline Fallback",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   },
+   {
+    "family": "ivyPrestoText",
+    "weight": "100",
+    "style": "normal",
+    "src": "url(\"../media/IvyPrestoText_Thin-s.p.3ba47ad4.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "ivyPrestoText Fallback",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   },
+   {
+    "family": "tk-ivypresto-display-n3",
+    "weight": "300",
+    "style": "normal",
+    "src": "url(\"https://use.typekit.net/af/cc395d/00000000000000007735e5a6/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3\") format(\"woff2\"), url(\"https://use.typekit.net/"
+   },
+   {
+    "family": "tk-ivypresto-display-i3",
+    "weight": "300",
+    "style": "italic",
+    "src": "url(\"https://use.typekit.net/af/9f7238/00000000000000007735e5a4/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3\") format(\"woff2\"), url(\"https://use.typekit.net/"
+   },
+   {
+    "family": "tk-ivypresto-display-n4",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://use.typekit.net/af/fad29f/00000000000000007735e5b3/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3\") format(\"woff2\"), url(\"https://use.typekit.net/"
+   },
+   {
+    "family": "tk-helvetica-lt-pro-i7",
+    "weight": "700",
+    "style": "italic",
+    "src": "url(\"https://use.typekit.net/af/8610c8/0000000000000000775aa95b/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3\") format(\"woff2\"), url(\"https://use.typekit.net/"
+   },
+   {
+    "family": "tk-helvetica-lt-pro-i4",
+    "weight": "400",
+    "style": "italic",
+    "src": "url(\"https://use.typekit.net/af/4b070b/0000000000000000775aa963/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3\") format(\"woff2\"), url(\"https://use.typekit.net/"
+   },
+   {
+    "family": "tk-helvetica-lt-pro-n3",
+    "weight": "300",
+    "style": "normal",
+    "src": "url(\"https://use.typekit.net/af/7f144a/0000000000000000775aa962/31/l?subset_id=2&fvd=n3&v=3\") format(\"woff2\"), url(\"https://use.typekit.net/af/7f144a/0000000000000000775aa962/31/d?subset_id=2&fvd=n3&v"
+   },
+   {
+    "family": "tk-helvetica-lt-pro-n7",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"https://use.typekit.net/af/564c95/0000000000000000775aa95c/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3\") format(\"woff2\"), url(\"https://use.typekit.net/"
+   },
+   {
+    "family": "tk-helvetica-lt-pro-n4",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://use.typekit.net/af/084e2c/0000000000000000775c6969/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3\") format(\"woff2\"), url(\"https://use.typekit.net/"
+   },
+   {
+    "family": "ivypresto-display",
+    "weight": "300",
+    "style": "normal",
+    "src": "url(\"https://use.typekit.net/af/cc395d/00000000000000007735e5a6/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3\") format(\"woff2\"), url(\"https://use.typekit.net/"
+   },
+   {
+    "family": "ivypresto-display",
+    "weight": "300",
+    "style": "italic",
+    "src": "url(\"https://use.typekit.net/af/9f7238/00000000000000007735e5a4/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3\") format(\"woff2\"), url(\"https://use.typekit.net/"
+   },
+   {
+    "family": "ivypresto-display",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://use.typekit.net/af/fad29f/00000000000000007735e5b3/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3\") format(\"woff2\"), url(\"https://use.typekit.net/"
+   },
+   {
+    "family": "helvetica-lt-pro",
+    "weight": "700",
+    "style": "italic",
+    "src": "url(\"https://use.typekit.net/af/8610c8/0000000000000000775aa95b/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3\") format(\"woff2\"), url(\"https://use.typekit.net/"
+   },
+   {
+    "family": "helvetica-lt-pro",
+    "weight": "400",
+    "style": "italic",
+    "src": "url(\"https://use.typekit.net/af/4b070b/0000000000000000775aa963/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3\") format(\"woff2\"), url(\"https://use.typekit.net/"
+   },
+   {
+    "family": "helvetica-lt-pro",
+    "weight": "300",
+    "style": "normal",
+    "src": "url(\"https://use.typekit.net/af/7f144a/0000000000000000775aa962/31/l?subset_id=2&fvd=n3&v=3\") format(\"woff2\"), url(\"https://use.typekit.net/af/7f144a/0000000000000000775aa962/31/d?subset_id=2&fvd=n3&v"
+   },
+   {
+    "family": "helvetica-lt-pro",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"https://use.typekit.net/af/564c95/0000000000000000775aa95c/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3\") format(\"woff2\"), url(\"https://use.typekit.net/"
+   },
+   {
+    "family": "helvetica-lt-pro",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://use.typekit.net/af/084e2c/0000000000000000775c6969/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3\") format(\"woff2\"), url(\"https://use.typekit.net/"
+   }
+  ],
+  "keyframes": [
+   "grain",
+   "char-reveal",
+   "spin"
+  ],
+  "breakpoints": [
+   {
+    "v": "48rem",
+    "w": 2
+   },
+   {
+    "v": "64rem",
+    "w": 2
+   },
+   {
+    "v": "40rem",
+    "w": 1
+   },
+   {
+    "v": "80rem",
+    "w": 1
+   },
+   {
+    "v": "96rem",
+    "w": 1
+   },
+   {
+    "v": "479px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 497,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "fixed inset-0 bg-black text-white",
+    "h": 900,
+    "top": 0,
+    "title": "",
+    "media": 0
+   }
+  ],
+  "navLinks": [],
+  "ctas": [],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 2,
+   "videos": 0,
+   "imgs": 0,
+   "svgs": 1,
+   "iframes": 0,
+   "domNodes": 79
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": false,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "182",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": true,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [
+   "googletagmanager",
+   "google-analytics",
+   "gtag"
+  ],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://www.hollywoodexhibit2026.com/_next/static/chunks/0ce3dd20c5f71f31.js",
+  "https://www.hollywoodexhibit2026.com/_next/static/chunks/ec901fd174d22b61.js",
+  "https://www.hollywoodexhibit2026.com/_next/static/chunks/turbopack-eb4499ede7590a52.js",
+  "https://www.hollywoodexhibit2026.com/_next/static/chunks/888ced14ee3f409f.js",
+  "https://www.hollywoodexhibit2026.com/_next/static/chunks/6f99c47121f870a9.js",
+  "https://www.hollywoodexhibit2026.com/_next/static/chunks/61a9ff10679f3f4a.js",
+  "https://www.hollywoodexhibit2026.com/_next/static/chunks/a547ea6da61d8408.js",
+  "https://www.hollywoodexhibit2026.com/_next/static/chunks/03c90768fa0ba64d.js",
+  "https://www.hollywoodexhibit2026.com/_next/static/chunks/e731e01936617f80.js",
+  "https://www.hollywoodexhibit2026.com/_next/static/chunks/2870c8cd31b0ffac.js",
+  "https://www.hollywoodexhibit2026.com/_next/static/chunks/792a923ef6d154b4.js",
+  "https://www.hollywoodexhibit2026.com/_next/static/chunks/ff1a16fafef87110.js",
+  "https://www.hollywoodexhibit2026.com/_next/static/chunks/a616141c04ceb0ab.js",
+  "https://www.hollywoodexhibit2026.com/_next/static/chunks/c288fb9eee38fc04.js",
+  "https://www.hollywoodexhibit2026.com/_next/static/chunks/57e1161f8e37217d.js",
+  "https://www.hollywoodexhibit2026.com/_next/static/chunks/fd447676122150f3.js",
+  "https://www.hollywoodexhibit2026.com/_next/static/chunks/0018515d12099087.js",
+  "https://www.hollywoodexhibit2026.com/_next/static/chunks/56e648bf7ded97bc.js",
+  "https://www.hollywoodexhibit2026.com/_next/static/chunks/a6dad97d9634a72d.js",
+  "https://use.typekit.net/zbt6zjk.js",
+  "https://www.hollywoodexhibit2026.com/_next/static/chunks/21ef2e03988855dc.js",
+  "https://www.googletagmanager.com/gtag/js?id=G-CGTV8X0PTN"
+ ],
+ "internal": [],
+ "perf": {
+  "ttfb": 121,
+  "dcl": 366,
+  "load": 517,
+  "lcp": 3896,
+  "lcpEl": "SPAN.mx-auto",
+  "cls": 0
+ },
+ "libs": {
+  "detected": [
+   "GSAP",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Next.js",
+   "React Three Fiber",
+   "React",
+   "Three.js",
+   "Lenis"
+  ],
+  "where": {
+   "GSAP": [
+    "001-03c90768fa0ba64d.js"
+   ],
+   "ScrollTrigger": [
+    "001-03c90768fa0ba64d.js"
+   ],
+   "SplitText/SplitType": [
+    "003-57e1161f8e37217d.js",
+    "010-2870c8cd31b0ffac.js",
+    "018-c288fb9eee38fc04.js"
+   ],
+   "Next.js": [
+    "005-21ef2e03988855dc.js",
+    "007-61a9ff10679f3f4a.js",
+    "011-fd447676122150f3.js"
+   ],
+   "React Three Fiber": [
+    "006-56e648bf7ded97bc.js",
+    "011-fd447676122150f3.js",
+    "020-e731e01936617f80.js"
+   ],
+   "React": [
+    "015-0ce3dd20c5f71f31.js"
+   ],
+   "Three.js": [
+    "020-e731e01936617f80.js"
+   ],
+   "Lenis": [
+    "styles.css"
+   ]
+  },
+  "gsapVersion": null,
+  "threeRevision": null,
+  "shaders": 15,
+  "scripts": 20
+ },
+ "network": {
+  "requests": 73,
+  "totalKb": 2107,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 14
+   },
+   "Stylesheet": {
+    "n": 5,
+    "kb": 10
+   },
+   "Font": {
+    "n": 14,
+    "kb": 777
+   },
+   "Script": {
+    "n": 21,
+    "kb": 804
+   },
+   "Image": {
+    "n": 29,
+    "kb": 500
+   },
+   "Other": {
+    "n": 1,
+    "kb": 2
+   },
+   "Fetch": {
+    "n": 2,
+    "kb": 0
+   }
+  },
+  "thirdPartyHosts": [
+   "use.typekit.net",
+   "p.typekit.net",
+   "www.googletagmanager.com",
+   "cdn.prod.website-files.com",
+   "region1.google-analytics.com"
+  ],
+  "fontFiles": [
+   "https://www.hollywoodexhibit2026.com/_next/static/media/ABCArizonaVariable-s.p.6844b0f6.woff2",
+   "https://www.hollywoodexhibit2026.com/_next/static/media/Haigrast-s.p.42f2de84.woff2",
+   "https://www.hollywoodexhibit2026.com/_next/static/media/SafiraMarch-s.p.fcee3285.woff2",
+   "https://www.hollywoodexhibit2026.com/_next/static/media/IvyPrestoText_Thin-s.p.3ba47ad4.woff2",
+   "https://www.hollywoodexhibit2026.com/_next/static/media/IvyPrestoHeadline_Thin-s.p.830ff306.woff2",
+   "https://use.typekit.net/af/cc395d/00000000000000007735e5a6/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3",
+   "https://use.typekit.net/af/8610c8/0000000000000000775aa95b/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3",
+   "https://use.typekit.net/af/4b070b/0000000000000000775aa963/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3",
+   "https://use.typekit.net/af/9f7238/00000000000000007735e5a4/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3",
+   "https://use.typekit.net/af/7f144a/0000000000000000775aa962/31/l?subset_id=2&fvd=n3&v=3",
+   "https://use.typekit.net/af/084e2c/0000000000000000775c6969/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+   "https://use.typekit.net/af/564c95/0000000000000000775aa95c/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+   "https://use.typekit.net/af/fad29f/00000000000000007735e5b3/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+   "https://www.hollywoodexhibit2026.com/_next/static/media/f06bf9da926bae75-s.c68a79fb.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://www.hollywoodexhibit2026.com/_next/static/media/ABCArizonaVariable-s.p.6844b0f6.woff2",
+    "kb": 233,
+    "type": "Font"
+   },
+   {
+    "url": "https://www.hollywoodexhibit2026.com/_next/static/chunks/e731e01936617f80.js",
+    "kb": 231,
+    "type": "Script"
+   },
+   {
+    "url": "https://www.googletagmanager.com/gtag/js?id=G-CGTV8X0PTN",
+    "kb": 177,
+    "type": "Script"
+   },
+   {
+    "url": "https://www.hollywoodexhibit2026.com/_next/static/media/Haigrast-s.p.42f2de84.woff2",
+    "kb": 126,
+    "type": "Font"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/636b2cf855288e3688dba8c4/639e895e7a191c4ac8dccbff_noise.png",
+    "kb": 118,
+    "type": "Image"
+   },
+   {
+    "url": "https://www.hollywoodexhibit2026.com/_next/static/media/IvyPrestoText_Thin-s.p.3ba47ad4.woff2",
+    "kb": 71,
+    "type": "Font"
+   },
+   {
+    "url": "https://www.hollywoodexhibit2026.com/_next/static/chunks/0ce3dd20c5f71f31.js",
+    "kb": 70,
+    "type": "Script"
+   },
+   {
+    "url": "https://www.hollywoodexhibit2026.com/_next/static/media/IvyPrestoHeadline_Thin-s.p.830ff306.woff2",
+    "kb": 69,
+    "type": "Font"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": null,
+  "body": "16.0388px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 43
+}

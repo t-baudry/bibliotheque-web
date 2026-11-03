@@ -2,82 +2,694 @@
  "id": 19,
  "name": "Huy Phan Vol.2",
  "sourceUrl": "https://huyml.co/",
- "capturedAt": "2026-11-02T23:35:16.437Z",
- "status": "inaccessible",
- "errors": [
-  "shot0 browserContext.newCDPSession: Target page, context or browser has been closed",
-  "extract: page.evaluate: Target page, context or browser has been closed",
-  "fullpage: page.evaluate: Target page, context or browser has been closed",
-  "browser.newContext: Target page, context or browser has been closed"
- ],
+ "capturedAt": "2026-11-03T08:42:06.760Z",
+ "status": "ok",
+ "errors": [],
  "steps": {
   "cookies": [],
   "enter": null,
   "rea": "passe hors ligne (rea-pass.mjs)",
-  "desktopFrames": [],
-  "subpages": []
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg"
+  ],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [
+   {
+    "url": "https://huyml.co/project/district2-studio",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
  },
  "httpStatus": 200,
+ "url": "https://huyml.co/",
+ "title": "Huy Phan - Award-winning designer",
+ "lang": "en",
+ "generator": "Framer 0e6a859",
+ "seo": {
+  "description": "Huy Phan (Huyml) is an award-winning designer and art director based in Ho Chi Minh city, Vietnam.",
+  "canonical": "https://huyml.co/",
+  "robots": "max-image-preview:large",
+  "ogTitle": "Huy Phan - Award-winning designer",
+  "ogImage": "https://framerusercontent.com/images/JBedVTvAcxoM3c9pTqO7FcBZmQ.png",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [],
+  "h1Count": 0,
+  "headings": [
+   "H2 Come say hi",
+   "H2 Credits"
+  ],
+  "imgs": 27,
+  "imgNoAlt": 27,
+  "favicon": "https://framerusercontent.com/images/T9Y2v9h5BFE7g3Jmw9iWd4WngyQ.svg",
+  "themeColor": "#ECECEC"
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#ececec",
+    "w": 1296000
+   },
+   {
+    "v": "#ededed",
+    "w": 1296000
+   },
+   {
+    "v": "#171717",
+    "w": 129943
+   },
+   {
+    "v": "#d4d4d4",
+    "w": 88512
+   },
+   {
+    "v": "#ffffff",
+    "w": 5265
+   },
+   {
+    "v": "#000000",
+    "w": 5117
+   },
+   {
+    "v": "#051236",
+    "w": 754
+   },
+   {
+    "v": "#fffde2",
+    "w": 754
+   },
+   {
+    "v": "#0457d4",
+    "w": 754
+   },
+   {
+    "v": "#3d3d3d",
+    "w": 529
+   },
+   {
+    "v": "#e3e8ec",
+    "w": 529
+   },
+   {
+    "v": "#ebe8e2",
+    "w": 529
+   }
+  ],
+  "text": [
+   {
+    "v": "#ffffff",
+    "w": 6135
+   },
+   {
+    "v": "#1e1e1e",
+    "w": 1403
+   },
+   {
+    "v": "#1f1f1f",
+    "w": 147
+   },
+   {
+    "v": "#000000",
+    "w": 119
+   },
+   {
+    "v": "#181818",
+    "w": 7
+   }
+  ],
+  "border": [
+   {
+    "v": "#1e1e1e",
+    "w": 11
+   }
+  ],
+  "fonts": [
+   {
+    "v": "BT Grotesk Medium",
+    "w": 7406
+   },
+   {
+    "v": "F37 Bolton Trial Regular",
+    "w": 227
+   },
+   {
+    "v": "BT Glyphius Regular",
+    "w": 176
+   },
+   {
+    "v": "BT Grotesk Regular",
+    "w": 2
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "10px",
+    "w": 254
+   },
+   {
+    "v": "16px",
+    "w": 30
+   },
+   {
+    "v": "12px",
+    "w": 17
+   },
+   {
+    "v": "19px",
+    "w": 4
+   },
+   {
+    "v": "23px",
+    "w": 2
+   },
+   {
+    "v": "180px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "8px",
+    "w": 57
+   }
+  ],
+  "shadows": [
+   {
+    "v": "rgba(0, 0, 0, 0.23) -2px 4px 4px 0px",
+    "w": 2
+   }
+  ],
+  "transitions": [
+   {
+    "v": "ease 0.32s",
+    "w": 11
+   },
+   {
+    "v": "ease 0.22s",
+    "w": 7
+   },
+   {
+    "v": "cubic-bezier(0.22 0.45s",
+    "w": 4
+   },
+   {
+    "v": "cubic-bezier(0.22 0.52s",
+    "w": 3
+   },
+   {
+    "v": "cubic-bezier(0.22 0.6s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h2": {
+    "family": "\"BT Glyphius Regular\", \"BT Glyphius Regular Placeholder\", sans-serif",
+    "size": "23px",
+    "weight": "400",
+    "lineHeight": "23px",
+    "letterSpacing": "0.23px",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "Come say hi"
+   },
+   "p": {
+    "family": "\"BT Grotesk Medium\", \"BT Grotesk Medium Placeholder\", sans-serif",
+    "size": "10px",
+    "weight": "500",
+    "lineHeight": "13px",
+    "letterSpacing": "0.1px",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Scroll"
+   },
+   "a": {
+    "family": "sans-serif",
+    "size": "12px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#0000ee",
+    "sample": "DISTRICT2 STUDIOdistrict2-studioSeptember 2019Awwwards Site of the DayCSSDA Webs"
+   },
+   "body": {
+    "family": "sans-serif",
+    "size": "12px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "html { height: -webkit-fill-available; color-scheme: dark; background-color: #00"
+   }
+  },
+  "cssVars": {
+   "--token-0c68c7e4-90a1-4b80-b1f5-21051c127250": "#fff",
+   "--token-e93f529c-01a4-4879-a2e7-182bd1a3d9fa": "#ffffff80",
+   "--framer-will-change-override": "transform",
+   "--framer-will-change-filter-override": "filter",
+   "--overflow-clip-fallback": "hidden",
+   "--one-if-corner-shape-supported": "1",
+   "--bt-grotesk-responsive-font-size": "14px"
+  },
+  "fontFaces": [
+   {
+    "family": "BT Grotesk Medium",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/pczyWZYmicHp9LhGgMJo7tnDcHo.woff2\")"
+   },
+   {
+    "family": "BT Grotesk Regular",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/oDqinH2S9k4fMbGueYwREUmNFM.woff2\")"
+   },
+   {
+    "family": "F37 Bolton Trial Regular",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/NjDO01jId5REkpwNN1pD7i8fBLY.woff2\")"
+   },
+   {
+    "family": "BT Glyphius Regular",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/xirQ3g4Sv5q7MG0KvL1PiOOLLBA.woff2\")"
+   },
+   {
+    "family": "BT Grotesk Bold Italic",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/8lewwPPD0MNSsf2BYYhgDrG6apE.woff2\")"
+   },
+   {
+    "family": "BT Glyphius Bold",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/dcnL9H2gaFNAG9F1nc6gCkZt2CQ.woff2\")"
+   },
+   {
+    "family": "BT Grotesk Bold",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/7wvwHnWrXSgYhuk2mEt4LrDGXo.woff2\")"
+   },
+   {
+    "family": "F37 Bolton Trial Bold",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/OUUqRFRKQpMerpUcBlnnMAKbp0.woff2\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/EOr0mi4hNtlgWNn9if640EZzXCo.woff2\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/Y9k9QrlZAqio88Klkmbd8VoMQc.woff2\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/OYrD2tBIBPvoJXiIHnLoOXnY9M.woff2\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/JeYwfuaPfZHQhEG8U5gtPDZ7WQ.woff2\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/b6Y37FthZeALduNqHicBT6FutY.woff2\")"
+   },
+   {
+    "family": "BT Grotesk Medium Placeholder",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   },
+   {
+    "family": "BT Grotesk Regular Placeholder",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   },
+   {
+    "family": "F37 Bolton Trial Regular Placeholder",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   },
+   {
+    "family": "BT Glyphius Regular Placeholder",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   },
+   {
+    "family": "BT Grotesk Bold Italic Placeholder",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   },
+   {
+    "family": "BT Glyphius Bold Placeholder",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   },
+   {
+    "family": "BT Grotesk Bold Placeholder",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   },
+   {
+    "family": "F37 Bolton Trial Bold Placeholder",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   },
+   {
+    "family": "Inter Placeholder",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   }
+  ],
+  "keyframes": [
+   "__framer-editorbar-spinner-spin"
+  ],
+  "breakpoints": [
+   {
+    "v": "1920px",
+    "w": 8
+   },
+   {
+    "v": "800px",
+    "w": 7
+   },
+   {
+    "v": "2360px",
+    "w": 7
+   },
+   {
+    "v": "2199px",
+    "w": 6
+   },
+   {
+    "v": "1100px",
+    "w": 6
+   },
+   {
+    "v": "1800px",
+    "w": 5
+   },
+   {
+    "v": "1799px",
+    "w": 5
+   },
+   {
+    "v": "1099px",
+    "w": 5
+   },
+   {
+    "v": "1440px",
+    "w": 3
+   },
+   {
+    "v": "2400px",
+    "w": 2
+   },
+   {
+    "v": "2399.98px",
+    "w": 2
+   },
+   {
+    "v": "1199.98px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 545,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": "main",
+    "cls": "",
+    "h": 900,
+    "title": "Come say hi",
+    "media": 29
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "",
+    "h": 900,
+    "title": "",
+    "media": 0
+   }
+  ],
+  "navLinks": [],
+  "ctas": [],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 2,
+   "videos": 0,
+   "imgs": 27,
+   "svgs": 2,
+   "iframes": 1,
+   "domNodes": 1202
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": false,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "179",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": true,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": true,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [
+   "googletagmanager",
+   "gtag"
+  ],
+  "customCursor": false,
+  "audio": true,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://www.googletagmanager.com/gtag/js?id=G-EM3JMY7NKM",
+  "https://events.framer.com/script?v=2",
+  "https://framerusercontent.com/sites/4CUEbC1Vb07LtNCTtfjk6i/script_main.eyJAZMFh.mjs"
+ ],
+ "internal": [
+  "https://huyml.co/project/district2-studio",
+  "https://huyml.co/project/dafi",
+  "https://huyml.co/project/est-populo",
+  "https://huyml.co/project/bison-studio",
+  "https://huyml.co/project/huyml-2022",
+  "https://huyml.co/project/rly-network",
+  "https://huyml.co/project/mathijs-hanenkamp",
+  "https://huyml.co/project/ascon-system",
+  "https://huyml.co/project/uncommon-studio",
+  "https://huyml.co/project/serious-business",
+  "https://huyml.co/project/by-kin",
+  "https://huyml.co/project/defiant",
+  "https://huyml.co/project/mat-voyce",
+  "https://huyml.co/project/eislab",
+  "https://huyml.co/project/markwoodland",
+  "https://huyml.co/project/miuxstudio",
+  "https://huyml.co/project/wonjyou",
+  "https://huyml.co/project/iventions",
+  "https://huyml.co/project/fromanother"
+ ],
+ "perf": {
+  "ttfb": 113,
+  "dcl": 200,
+  "load": 2717,
+  "lcp": 1312,
+  "lcpEl": "DIV",
+  "cls": 0.735
+ },
  "libs": {
-  "detected": [],
-  "where": {},
-  "gsapVersion": null,
+  "detected": [
+   "React",
+   "GSAP",
+   "ScrollTrigger",
+   "Rive",
+   "Three.js",
+   "Lottie",
+   "Contentful",
+   "Lenis"
+  ],
+  "where": {
+   "React": [
+    "002-react.BaDOPo3t.js",
+    "003-script_main.eyJAZMFh.js",
+    "006-react.BaDOPo3t.js",
+    "012-init.js"
+   ],
+   "GSAP": [
+    "004-shared-lib.DyD4REXM.js",
+    "009-shared-lib.DyD4REXM.js"
+   ],
+   "ScrollTrigger": [
+    "004-shared-lib.DyD4REXM.js",
+    "009-shared-lib.DyD4REXM.js"
+   ],
+   "Rive": [
+    "004-shared-lib.DyD4REXM.js",
+    "009-shared-lib.DyD4REXM.js"
+   ],
+   "Three.js": [
+    "010-e8XHUPKsgUbD_j36i5m_YIM8UIU28O8o8aXrZlbi1A8.tux3-Cyy.js"
+   ],
+   "Lottie": [
+    "010-e8XHUPKsgUbD_j36i5m_YIM8UIU28O8o8aXrZlbi1A8.tux3-Cyy.js"
+   ],
+   "Contentful": [
+    "011-script.js"
+   ],
+   "Lenis": [
+    "012-init.js"
+   ]
+  },
+  "gsapVersion": "3.13.0",
   "threeRevision": null,
-  "shaders": 0,
-  "scripts": 0
+  "shaders": 12,
+  "scripts": 32
  },
  "network": {
-  "requests": 59,
-  "totalKb": 3546,
+  "requests": 88,
+  "totalKb": 4148,
   "byType": {
    "Document": {
-    "n": 1,
+    "n": 2,
     "kb": 35
    },
    "Image": {
-    "n": 25,
+    "n": 45,
     "kb": 1886
-   },
-   "Script": {
-    "n": 18,
-    "kb": 806
    },
    "Font": {
     "n": 4,
     "kb": 74
    },
+   "Script": {
+    "n": 18,
+    "kb": 806
+   },
+   "Media": {
+    "n": 9,
+    "kb": 52
+   },
    "Fetch": {
-    "n": 3,
-    "kb": 700
+    "n": 8,
+    "kb": 1276
    },
    "Other": {
     "n": 1,
     "kb": 18
    },
-   "Media": {
-    "n": 7,
-    "kb": 27
+   "Ping": {
+    "n": 1,
+    "kb": 0
    }
   },
   "thirdPartyHosts": [
    "framerusercontent.com",
-   "www.googletagmanager.com",
    "events.framer.com",
-   "region1.google-analytics.com",
+   "www.googletagmanager.com",
    "framer.com",
    "app.framerstatic.com",
-   "unpkg.com"
+   "unpkg.com",
+   "region1.google-analytics.com"
   ],
   "fontFiles": [
-   "https://framerusercontent.com/assets/pczyWZYmicHp9LhGgMJo7tnDcHo.woff2",
    "https://framerusercontent.com/assets/NjDO01jId5REkpwNN1pD7i8fBLY.woff2",
+   "https://framerusercontent.com/assets/pczyWZYmicHp9LhGgMJo7tnDcHo.woff2",
    "https://framerusercontent.com/assets/xirQ3g4Sv5q7MG0KvL1PiOOLLBA.woff2",
    "https://framerusercontent.com/assets/oDqinH2S9k4fMbGueYwREUmNFM.woff2"
   ],
   "biggest": [
    {
     "url": "https://unpkg.com/@rive-app/canvas@2.38.5/rive.wasm",
-    "kb": 700,
+    "kb": 699,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://framerusercontent.com/assets/I7sDqjqViJfFWtj8WbkQgjeYP8.riv",
+    "kb": 512,
     "type": "Fetch"
    },
    {
@@ -109,13 +721,14 @@
     "url": "https://framerusercontent.com/images/ZMZlhfAKVDPaWVzDIpnuU6HVRO4.jpg?width=1138&height=915",
     "kb": 157,
     "type": "Image"
-   },
-   {
-    "url": "https://framerusercontent.com/images/FP8bs8WqEOFTFST8L2YGqot9idA.jpg?width=910&height=732",
-    "kb": 146,
-    "type": "Image"
    }
   ]
  },
- "durationS": 18
+ "mobile": {
+  "h1": null,
+  "body": "12px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 163
 }

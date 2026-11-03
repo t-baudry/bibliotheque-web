@@ -1,0 +1,917 @@
+{
+ "id": 98,
+ "name": "TRIONN",
+ "sourceUrl": "https://trionn.com/",
+ "capturedAt": "2026-11-03T22:13:18.248Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg",
+   "desktop-13.jpg",
+   "desktop-14.jpg"
+  ],
+  "fullPage": 24597,
+  "subpages": [
+   {
+    "url": "https://trionn.com/work",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://trionn.com/services",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://trionn.com/about",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://trionn.com/",
+ "title": "TRIONN | AI-Powered Creative Design & Development Studio in India",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "TRIONN is an independent AI-powered digital studio crafting meaningful brand experiences through strategy, design, and technology. Based in Rajkot, Gujarat, India, we create premium websites, immersive digital products, and interactive experiences for ambitious brands worldwide.",
+  "canonical": "https://trionn.com/",
+  "robots": null,
+  "ogTitle": "TRIONN | AI-Powered Creative Design & Development Studio",
+  "ogImage": "https://trionn.com/opengraph-image.jpg?opengraph-image.14tq78v25x4aa.jpg",
+  "twitterCard": "summary",
+  "jsonLd": [
+   "Organization"
+  ],
+  "h1Count": 2,
+  "headings": [
+   "H1 Designed to",
+   "H1 mean something.",
+   "H2 Trionn is an independent digital studio crafting meaningful brand experiences through stra",
+   "H2 Key facts",
+   "H2 Selected work & explorations",
+   "H3 MyWorker AI",
+   "H3 Pulse Studio",
+   "H3 Loftloom",
+   "H3 Discover our complete collection of digital experiences, brands, and platforms.",
+   "H3 AI & Intelligent Automation",
+   "H3 Web Development",
+   "H3 Product Design",
+   "H3 Website & Mobile Design",
+   "H3 WordPress Development",
+   "H3 Branding",
+   "H2 Client stories",
+   "H3 I've worked with Sunny and his team on several projects and he's one of the best UI/UX des",
+   "H3 The Trionn team is extremely reliable, professional and talented. It has been a great plea",
+   "H3 Sunny and his award winning team are second to none when it comes to responsive web design",
+   "H3 Sunny and his team is a very professional, with whom I am used to working on different pro",
+   "H3 Trionn team did an amazing development work for my company. They were fast, flexible and v",
+   "H2 Design in",
+   "H2 motion",
+   "H2 Ready to build something bold?",
+   "H2 Let's build something great."
+  ],
+  "imgs": 31,
+  "imgNoAlt": 1,
+  "favicon": "https://trionn.com/images/favicon.svg",
+  "themeColor": "#040508"
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#0c0c0c",
+    "w": 3847500
+   },
+   {
+    "v": "#040508",
+    "w": 1329369
+   },
+   {
+    "v": "#ffffff",
+    "w": 1285565
+   },
+   {
+    "v": "#c3c3c3",
+    "w": 1282500
+   },
+   {
+    "v": "#434343",
+    "w": 875
+   },
+   {
+    "v": "#d8d8d8",
+    "w": 655
+   }
+  ],
+  "text": [
+   {
+    "v": "#434343",
+    "w": 1715
+   },
+   {
+    "v": "#d8d8d8",
+    "w": 901
+   },
+   {
+    "v": "#000000",
+    "w": 18
+   }
+  ],
+  "border": [
+   {
+    "v": "#ffffff",
+    "w": 2
+   },
+   {
+    "v": "#2f323b",
+    "w": 1
+   }
+  ],
+  "fonts": [
+   {
+    "v": "familjen",
+    "w": 1541
+   },
+   {
+    "v": "neueHaas",
+    "w": 950
+   },
+   {
+    "v": "martianMono",
+    "w": 193
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "15.3072px",
+    "w": 462
+   },
+   {
+    "v": "16.2px",
+    "w": 377
+   },
+   {
+    "v": "12.6px",
+    "w": 285
+   },
+   {
+    "v": "85.5072px",
+    "w": 151
+   },
+   {
+    "v": "50.4px",
+    "w": 68
+   },
+   {
+    "v": "32.4px",
+    "w": 64
+   },
+   {
+    "v": "18px",
+    "w": 48
+   },
+   {
+    "v": "14.4px",
+    "w": 46
+   },
+   {
+    "v": "131.962px",
+    "w": 30
+   },
+   {
+    "v": "90px",
+    "w": 24
+   },
+   {
+    "v": "8.1072px",
+    "w": 5
+   },
+   {
+    "v": "27px",
+    "w": 3
+   },
+   {
+    "v": "86.4px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "3.6px",
+    "w": 8
+   },
+   {
+    "v": "3.35544e+07px",
+    "w": 3
+   },
+   {
+    "v": "7.2px",
+    "w": 3
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.4 0.3s",
+    "w": 20
+   },
+   {
+    "v": "cubic-bezier(0.4 0.5s",
+    "w": 13
+   },
+   {
+    "v": "ease 0.3s",
+    "w": 8
+   },
+   {
+    "v": "ease 0.33s",
+    "w": 8
+   },
+   {
+    "v": "ease 0.36s",
+    "w": 8
+   },
+   {
+    "v": "ease 0.39s",
+    "w": 8
+   },
+   {
+    "v": "ease 0.42s",
+    "w": 8
+   },
+   {
+    "v": "ease 0.45s",
+    "w": 8
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "familjen, \"familjen Fallback\", sans-serif",
+    "size": "90px",
+    "weight": "400",
+    "lineHeight": "81px",
+    "letterSpacing": "-5.4px",
+    "transform": "none",
+    "color": "#d8d8d8",
+    "sample": "Designed to"
+   },
+   "h2": {
+    "family": "familjen, \"familjen Fallback\", sans-serif",
+    "size": "85.5072px",
+    "weight": "400",
+    "lineHeight": "81px",
+    "letterSpacing": "-5.13043px",
+    "transform": "none",
+    "color": "#d8d8d8",
+    "sample": "Trionn is an independent digital studio crafting meaningful brand experiences th"
+   },
+   "h3": {
+    "family": "familjen, \"familjen Fallback\", sans-serif",
+    "size": "32.4px",
+    "weight": "400",
+    "lineHeight": "32.4px",
+    "letterSpacing": "-1.296px",
+    "transform": "none",
+    "color": "#434343",
+    "sample": "MyWorker AI"
+   },
+   "p": {
+    "family": "neueHaas, \"neueHaas Fallback\", sans-serif",
+    "size": "16.2px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#434343",
+    "sample": "E.hello@trionn.comhello@trionn.com"
+   },
+   "a": {
+    "family": "neueHaas, \"neueHaas Fallback\", sans-serif",
+    "size": "14.4px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#434343",
+    "sample": "WorkWork"
+   },
+   "button": {
+    "family": "familjen, \"familjen Fallback\", sans-serif",
+    "size": "15.3072px",
+    "weight": "400",
+    "lineHeight": "15.3072px",
+    "letterSpacing": "-0.306144px",
+    "transform": "uppercase",
+    "color": "#d8d8d8",
+    "sample": "let's talklet's talk"
+   },
+   "li": {
+    "family": "neueHaas, \"neueHaas Fallback\", sans-serif",
+    "size": "14.4px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#434343",
+    "sample": "WorkWork"
+   },
+   "body": {
+    "family": "neueHaas, \"neueHaas Fallback\", sans-serif",
+    "size": "14.4px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#d8d8d8",
+    "sample": "Inspire·Innovate·Impact01012345678901234567890WorkWorkServicesServicesAboutAbout"
+   }
+  },
+  "cssVars": {
+   "--pl-black": "#000",
+   "--pl-white": "#fff",
+   "--pl-panel-gray": "#c8c8c8",
+   "--pl-line-gray": "#434343",
+   "--pl-corner-plus-offset": "calc(-6px - 6.5px)",
+   "--pl-mono": "\"Space Mono\", monospace",
+   "--pl-display": "\"Bebas Neue\", sans-serif",
+   "--font-sans": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+   "--font-mono": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+   "--color-black": "#272727",
+   "--color-white": "#fff",
+   "--spacing": ".25rem",
+   "--container-sm": "24rem",
+   "--container-md": "28rem",
+   "--container-xl": "36rem",
+   "--container-3xl": "48rem",
+   "--container-4xl": "56rem",
+   "--container-6xl": "72rem",
+   "--container-7xl": "80rem",
+   "--text-xs": ".75rem",
+   "--text-xs--line-height": "calc(1 / .75)",
+   "--text-sm": ".875rem",
+   "--text-sm--line-height": "calc(1.25 / .875)",
+   "--text-base": "1rem",
+   "--text-base--line-height": "calc(1.5 / 1)",
+   "--text-lg": "1.125rem",
+   "--text-lg--line-height": "calc(1.75 / 1.125)",
+   "--text-xl": "1.25rem",
+   "--text-xl--line-height": "calc(1.75 / 1.25)",
+   "--text-2xl": "1.5rem",
+   "--text-2xl--line-height": "calc(2 / 1.5)",
+   "--text-3xl": "1.875rem",
+   "--text-3xl--line-height": "calc(2.25 / 1.875)",
+   "--text-4xl": "2.25rem",
+   "--text-4xl--line-height": "calc(2.5 / 2.25)",
+   "--text-5xl": "3rem",
+   "--text-5xl--line-height": "1",
+   "--font-weight-normal": "400",
+   "--font-weight-medium": "500",
+   "--tracking-tight": "-.025em",
+   "--tracking-normal": "0em",
+   "--tracking-widest": ".1em",
+   "--radius-xs": ".125rem",
+   "--radius-sm": ".25rem",
+   "--radius-md": ".375rem",
+   "--radius-lg": ".5rem",
+   "--radius-3xl": "1.5rem",
+   "--ease-in": "cubic-bezier(.4, 0, 1, 1)",
+   "--ease-out": "cubic-bezier(0, 0, .2, 1)",
+   "--ease-in-out": "cubic-bezier(.4, 0, .2, 1)",
+   "--blur-sm": "8px",
+   "--blur-md": "12px",
+   "--perspective-midrange": "800px",
+   "--aspect-video": "16 / 9",
+   "--default-transition-duration": ".15s",
+   "--default-transition-timing-function": "cubic-bezier(.4, 0, .2, 1)",
+   "--default-font-family": "var(--font-sans)",
+   "--default-mono-font-family": "var(--font-mono)",
+   "--color-cream": "#e6e4e2",
+   "--color-grey-light": "#9c9c9c",
+   "--color-grey-line": "#434343",
+   "--color-cream-line": "#d8d8d8",
+   "--color-dark-font": "#434343",
+   "--color-light-font": "#d8d8d8",
+   "--animate-arrowPulse": "arrowPulse 1.8s ease-in-out infinite",
+   "--size": "1280",
+   "--tw-leading": "normal",
+   "--tw-font-weight": "var(--font-weight-normal)",
+   "--tw-tracking": "var(--tracking-normal)",
+   "--bg": "#040508",
+   "--white": "#fff",
+   "--ink-soft": "#0a0a0a8c",
+   "--glass-line": "#ffffff2e",
+   "--ease-soft": "cubic-bezier(.22, 1, .36, 1)",
+   "--ts-color-bg": "#040508",
+   "--ts-color-hint": "#d8d8d8bf",
+   "--ts-color-name": "#c8c8c8",
+   "--ts-color-role": "#d8d8d880",
+   "--ts-color-scan-id": "#d8d8d8bf",
+   "--ts-color-detected": "#d8d8d8eb",
+   "--swiper-theme-color": "#007aff",
+   "--swiper-navigation-size": "44px"
+  },
+  "fontFaces": [
+   {
+    "family": "neueHaas",
+    "weight": "",
+    "style": "",
+    "src": "url(\"../media/NeueHaasDisplay_Roman-s.p.0ykdwddnvy5f_.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "neueHaas Fallback",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   },
+   {
+    "family": "ppEditorial",
+    "weight": "",
+    "style": "",
+    "src": "url(\"../media/PPEditorialNew_Ultralight-s.p.0qe_2frr_fmiu.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "ppEditorial Fallback",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   },
+   {
+    "family": "martianMono",
+    "weight": "",
+    "style": "",
+    "src": "url(\"../media/MartianMono_Light-s.p.0htes.s6weu9-.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "martianMono Fallback",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   },
+   {
+    "family": "familjen",
+    "weight": "",
+    "style": "",
+    "src": "url(\"../media/FamiljenGroteskVariable_Regular-s.p.04jxz-d23sc_e.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "familjen Fallback",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   }
+  ],
+  "keyframes": [
+   "arrowPulse",
+   "shake",
+   "successPulse",
+   "ts-borderPulse",
+   "swiper-preloader-spin"
+  ],
+  "breakpoints": [
+   {
+    "v": "64rem",
+    "w": 10
+   },
+   {
+    "v": "48rem",
+    "w": 8
+   },
+   {
+    "v": "40rem",
+    "w": 6
+   },
+   {
+    "v": "96rem",
+    "w": 6
+   },
+   {
+    "v": "80rem",
+    "w": 5
+   },
+   {
+    "v": "125rem",
+    "w": 5
+   },
+   {
+    "v": "768px",
+    "w": 4
+   },
+   {
+    "v": "90.0625rem",
+    "w": 2
+   },
+   {
+    "v": "640px",
+    "w": 2
+   },
+   {
+    "v": "1024px",
+    "w": 2
+   },
+   {
+    "v": "1023px",
+    "w": 2
+   },
+   {
+    "v": "677px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 1794,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": "hero-section",
+    "cls": "bg-[#0C0C0C] overflow-hidden relative hero-section",
+    "h": 4500,
+    "top": 0,
+    "title": "Designed to",
+    "media": 2
+   },
+   {
+    "tag": "section",
+    "id": "keyfacts-section",
+    "cls": "pt-25 pb-20 lg:pb-40 bg-[linear-gradient(0deg,#FFFFFF_0%,#D2D2D2_100%)] relative",
+    "h": 1092,
+    "top": 3600,
+    "title": "Key facts",
+    "media": 20
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "pin-spacer",
+    "h": 13050,
+    "top": 4692,
+    "title": "Selected work & explorations",
+    "media": 9
+   },
+   {
+    "tag": "section",
+    "id": "testimonials",
+    "cls": "relative z-20 min-h-dvh bg-[linear-gradient(0deg,#C3C3C3_0%,#FFFFFF_100%)] overf",
+    "h": 983,
+    "top": 17742,
+    "title": "Client stories",
+    "media": 5
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "pin-spacer",
+    "h": 6750,
+    "top": 18723,
+    "title": "Design in",
+    "media": 1
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "",
+    "href": "https://trionn.com/"
+   }
+  ],
+  "ctas": [
+   "let's talklet's talk",
+   "Book a 30-minute call"
+  ],
+  "pageHeight": 25508,
+  "counts": {
+   "canvas": 3,
+   "videos": 6,
+   "imgs": 31,
+   "svgs": 95,
+   "iframes": 2,
+   "domNodes": 3379
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "128",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": true,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": true,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [
+   "googletagmanager",
+   "gtag"
+  ],
+  "customCursor": true,
+  "audio": true,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://www.gstatic.com/recaptcha/releases/bSuJ2xBC8cHT21-c68JXN31m/recaptcha__fr.js",
+  "https://trionn.com/_next/static/chunks/0y3~cortx~or~.js",
+  "https://trionn.com/_next/static/chunks/00nvzi6qb_-1r.js",
+  "https://trionn.com/_next/static/chunks/turbopack-0nz662b_cli3l.js",
+  "https://trionn.com/_next/static/chunks/0_-x7hddx_1l6.js",
+  "https://trionn.com/_next/static/chunks/0cayk5enk9uhw.js",
+  "https://trionn.com/_next/static/chunks/02m2onmcd.l.g.js",
+  "https://trionn.com/_next/static/chunks/0z-5e_9x.n-.p.js",
+  "https://trionn.com/_next/static/chunks/08uh6.imupez1.js",
+  "https://trionn.com/_next/static/chunks/0eq63v9bib54k.js",
+  "https://trionn.com/_next/static/chunks/0d~m1vbg607mf.js",
+  "https://trionn.com/_next/static/chunks/0d3shmwh5_nmn.js",
+  "https://trionn.com/_next/static/chunks/13z7xnmanm326.js",
+  "https://trionn.com/_next/static/chunks/13xgo04nefn8q.js",
+  "https://trionn.com/_next/static/chunks/0_.rc2afwy26s.js",
+  "https://trionn.com/_next/static/chunks/0eox~aw2ff066.js",
+  "https://trionn.com/_next/static/chunks/0sue_k2sp00no.js",
+  "https://trionn.com/_next/static/chunks/04srvx.z7_jun.js",
+  "https://trionn.com/_next/static/chunks/15ky3h9upk1qm.js",
+  "https://trionn.com/_next/static/chunks/03~yq9q893hmn.js",
+  "https://www.google.com/recaptcha/api.js?render=6LcyZhUtAAAAAOfV8MQbwEXujCy7eZdF6mfhecxc",
+  "https://trionn.com/_next/static/chunks/1233qowaitufq.js",
+  "https://trionn.com/_next/static/chunks/06.ezyo7li73e.js",
+  "https://trionn.com/_next/static/chunks/0.876vu_iktyk.js",
+  "https://trionn.com/_next/static/chunks/0vr2_okvwe_sl.js",
+  "https://trionn.com/_next/static/chunks/0.924d2y-5~87.js",
+  "https://trionn.com/_next/static/chunks/0zaia6i55l01..js",
+  "https://www.googletagmanager.com/gtag/js?id=G-D2L5FM3EVB"
+ ],
+ "internal": [
+  "https://trionn.com/work",
+  "https://trionn.com/services",
+  "https://trionn.com/about",
+  "https://trionn.com/contact",
+  "https://trionn.com/trionn-story",
+  "https://trionn.com/work/myworker-ai",
+  "https://trionn.com/work/pulse-studio",
+  "https://trionn.com/work/loftloom"
+ ],
+ "perf": {
+  "ttfb": 590,
+  "dcl": 1104,
+  "load": 3270,
+  "lcp": 9088,
+  "lcpEl": "DIV.chars",
+  "cls": 0.171
+ },
+ "libs": {
+  "detected": [
+   "Next.js",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "GSAP",
+   "DrawSVG/MorphSVG",
+   "React",
+   "Lenis",
+   "Virtual scroll",
+   "jQuery",
+   "Sanity",
+   "Contentful",
+   "Three.js",
+   "Swiper"
+  ],
+  "where": {
+   "Next.js": [
+    "001-0zaia6i55l01.js"
+   ],
+   "ScrollTrigger": [
+    "003-0_-x7hddx_1l6.js",
+    "004-0cayk5enk9uhw.js",
+    "009-0eq63v9bib54k.js",
+    "011-13z7xnmanm326.js",
+    "013-13xgo04nefn8q.js",
+    "014-08uh6.imupez1.js",
+    "016-0eox_aw2ff066.js",
+    "017-0sue_k2sp00no.js",
+    "020-1233qowaitufq.js",
+    "021-0vr2_okvwe_sl.js",
+    "022-0.924d2y-5_87.js",
+    "023-0w-26ub2icye.js",
+    "024-0579sn.qr398q.js",
+    "025-0t8gwekgz7loh.js",
+    "026-0mr3veaodr-fk.js",
+    "027-11zilqhmcgx_4.js",
+    "028-0u11_oodh.ti.js"
+   ],
+   "SplitText/SplitType": [
+    "003-0_-x7hddx_1l6.js",
+    "013-13xgo04nefn8q.js",
+    "014-08uh6.imupez1.js",
+    "024-0579sn.qr398q.js"
+   ],
+   "GSAP": [
+    "004-0cayk5enk9uhw.js",
+    "014-08uh6.imupez1.js",
+    "016-0eox_aw2ff066.js",
+    "022-0.924d2y-5_87.js",
+    "025-0t8gwekgz7loh.js",
+    "027-11zilqhmcgx_4.js"
+   ],
+   "DrawSVG/MorphSVG": [
+    "004-0cayk5enk9uhw.js"
+   ],
+   "React": [
+    "007-00nvzi6qb_-1r.js"
+   ],
+   "Lenis": [
+    "008-0z-5e_9x.n-.p.js",
+    "009-0eq63v9bib54k.js",
+    "010-0d_m1vbg607mf.js",
+    "020-1233qowaitufq.js",
+    "styles.css"
+   ],
+   "Virtual scroll": [
+    "008-0z-5e_9x.n-.p.js"
+   ],
+   "jQuery": [
+    "010-0d_m1vbg607mf.js"
+   ],
+   "Sanity": [
+    "010-0d_m1vbg607mf.js"
+   ],
+   "Contentful": [
+    "010-0d_m1vbg607mf.js"
+   ],
+   "Three.js": [
+    "018-04srvx.z7_jun.js",
+    "019-15ky3h9upk1qm.js",
+    "020-1233qowaitufq.js",
+    "022-0.924d2y-5_87.js",
+    "026-0mr3veaodr-fk.js",
+    "028-0u11_oodh.ti.js"
+   ],
+   "Swiper": [
+    "021-0vr2_okvwe_sl.js"
+   ]
+  },
+  "gsapVersion": "3.11.0",
+  "threeRevision": null,
+  "shaders": 9,
+  "scripts": 28
+ },
+ "network": {
+  "requests": 489,
+  "totalKb": 19232,
+  "byType": {
+   "Document": {
+    "n": 2,
+    "kb": 22
+   },
+   "Script": {
+    "n": 33,
+    "kb": 1135
+   },
+   "Stylesheet": {
+    "n": 3,
+    "kb": 23
+   },
+   "Image": {
+    "n": 405,
+    "kb": 15094
+   },
+   "Font": {
+    "n": 4,
+    "kb": 99
+   },
+   "Media": {
+    "n": 17,
+    "kb": 2780
+   },
+   "Fetch": {
+    "n": 24,
+    "kb": 78
+   },
+   "Other": {
+    "n": 1,
+    "kb": 1
+   }
+  },
+  "thirdPartyHosts": [
+   "www.googletagmanager.com",
+   "www.google.com",
+   "region1.google-analytics.com",
+   "www.gstatic.com"
+  ],
+  "fontFiles": [
+   "https://trionn.com/_next/static/media/FamiljenGroteskVariable_Regular-s.p.04jxz-d23sc_e.woff2",
+   "https://trionn.com/_next/static/media/MartianMono_Light-s.p.0htes.s6weu9-.woff2",
+   "https://trionn.com/_next/static/media/NeueHaasDisplay_Roman-s.p.0ykdwddnvy5f_.woff2",
+   "https://trionn.com/_next/static/media/PPEditorialNew_Ultralight-s.p.0qe_2frr_fmiu.woff2",
+   "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://trionn.com/video/awards-card-video.mp4",
+    "kb": 846,
+    "type": "Media"
+   },
+   {
+    "url": "https://trionn.com/video/homepage-services-video.mp4",
+    "kb": 713,
+    "type": "Media"
+   },
+   {
+    "url": "https://trionn.com/video/awards-card-video_m.mp4",
+    "kb": 428,
+    "type": "Media"
+   },
+   {
+    "url": "https://www.gstatic.com/recaptcha/releases/bSuJ2xBC8cHT21-c68JXN31m/recaptcha__fr.js",
+    "kb": 354,
+    "type": "Script"
+   },
+   {
+    "url": "https://trionn.com/video/homepage-services-video_m.mp4",
+    "kb": 345,
+    "type": "Media"
+   },
+   {
+    "url": "https://trionn.com/images/projects/myworker/myworker.jpg",
+    "kb": 332,
+    "type": "Image"
+   },
+   {
+    "url": "https://trionn.com/images/projects/loftloom/loftloom.jpg",
+    "kb": 302,
+    "type": "Image"
+   },
+   {
+    "url": "https://trionn.com/video/team/rushi.mp4",
+    "kb": 168,
+    "type": "Media"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "45.7031px",
+   "lineHeight": "42.6562px"
+  },
+  "body": "15.2344px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 121
+}

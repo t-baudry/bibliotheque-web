@@ -1,0 +1,57 @@
+[
+ {
+  "file": "001-gsap.min.js",
+  "url": "https://sstr.tech/vendor/gsap.min.js",
+  "kb": 71
+ },
+ {
+  "file": "002-ScrollToPlugin.min.js",
+  "url": "https://sstr.tech/vendor/ScrollToPlugin.min.js",
+  "kb": 4
+ },
+ {
+  "file": "003-CustomEase.min.js",
+  "url": "https://sstr.tech/vendor/CustomEase.min.js",
+  "kb": 7
+ },
+ {
+  "file": "004-ScrollTrigger.min.js",
+  "url": "https://sstr.tech/vendor/ScrollTrigger.min.js",
+  "kb": 44
+ },
+ {
+  "file": "005-barba.umd.js",
+  "url": "https://sstr.tech/vendor/barba.umd.js",
+  "kb": 31
+ },
+ {
+  "file": "006-SplitText.min.js",
+  "url": "https://sstr.tech/vendor/SplitText.min.js",
+  "kb": 7
+ },
+ {
+  "file": "007-main.js",
+  "url": "https://sstr.tech/js/main.js?v=20260811a",
+  "kb": 196
+ },
+ {
+  "file": "008-lenis.min.js",
+  "url": "https://sstr.tech/vendor/lenis.min.js",
+  "kb": 26
+ },
+ {
+  "file": "009-sstr-scene.js",
+  "url": "https://sstr.tech/webgl/sstr-scene.js?v=20260714n",
+  "kb": 663
+ },
+ {
+  "file": "010-draco_wasm_wrapper.js",
+  "url": "https://sstr.tech/webgl/draco/draco_wasm_wrapper.js",
+  "kb": 57
+ },
+ {
+  "file": "011-apexcharts.min.js",
+  "url": "https://cdn.jsdelivr.net/npm/apexcharts@3.50.0/dist/apexcharts.min.js",
+  "kb": 521
+ }
+]

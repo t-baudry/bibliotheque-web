@@ -1,0 +1,1046 @@
+{
+ "id": 78,
+ "name": "SSTR - Friction Reduction",
+ "sourceUrl": "https://sstr.tech/en/",
+ "capturedAt": "2026-11-03T09:14:16.196Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg",
+   "desktop-13.jpg",
+   "desktop-14.jpg"
+  ],
+  "fullPage": 14022,
+  "subpages": [
+   {
+    "url": "https://sstr.tech/en/cases/",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://sstr.tech/en/",
+ "title": "SSTR — Friction Reduction Systems",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Friction, vibration, and load-transfer control in oil drilling. FRS, SVR, T&D modeling, on-site engineering support.",
+  "canonical": null,
+  "robots": null,
+  "ogTitle": "SSTR — Friction Reduction Systems",
+  "ogImage": "https://sstr.tech/og.png",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [],
+  "h1Count": 1,
+  "headings": [
+   "H1 Pushing the limits of drilling",
+   "H2 From well data to verified field results — one engineering loop.",
+   "H3 Equipment",
+   "H3 Engineering & modeling",
+   "H3 Field support",
+   "H2 Results, proven on real projects",
+   "H2 Friction reduction while drilling. Proven by data.",
+   "H2 Friction and vibration act in different zones — the solution has to work in every one of t",
+   "H2 FRS isolate the drill-pipe tool joint from the borehole wall, reduce torque and drag, incr",
+   "H2 Transfer X1 protects the drill-pipe tool joint from abrasion. Wear-resistant, designed for",
+   "H2 Transfer X6 damps torsional and lateral vibrations in the BHA. Protects the mud motor / RS",
+   "H2 Transfer X3 damps torsional and lateral vibrations in the BHA. Protects the mud motor / RS",
+   "H2 The PDC bit cuts the rock at the bottomhole. SSTR equipment works along the entire drill s",
+   "H2 SSTR equipment",
+   "H2 // FRS",
+   "H3 Torque reduction at the rotary table / top drive",
+   "H3 More weight on bit transferred downhole",
+   "H3 Lower hook load when pulling out of hole",
+   "H3 Less drilling vibration in the installation zone",
+   "H3 Drill pipe and casing wear protection",
+   "H2 // SVR",
+   "H3 Lateral and torsional vibration damping in the BHA",
+   "H3 MWD/LWD and RSS protection from vibration",
+   "H3 Torque reduction in the installation zone",
+   "H3 Longer bit and BHA component life",
+   "H2 // TRANSFER X3",
+   "H3 BHA only — no surface Transfer sections",
+   "H3 Drilling with high WOB",
+   "H3 Suppress stick-slip and axial shocks at the bottom of the string",
+   "H3 Protect PDC bits from cutter chipping",
+   "H2 Case studies",
+   "H3 FRS",
+   "H3 FRS",
+   "H3 FRS",
+   "H3 FRS",
+   "H2 Trusted by",
+   "H3 Hor 90° · Western Siberia",
+   "H3 Hor 90° · Eastern Siberia",
+   "H3 Hor 88° · Western Siberia",
+   "H3 Hor 83° · Western Siberia",
+   "H3 S-shape 61° · Volga-Ural",
+   "H3 Verkhnesalymskoe field",
+   "H3 Hor 90° · Western Siberia",
+   "H3 Hor 92° · Western Siberia",
+   "H3 Hor 83° · Western Siberia",
+   "H3 S-shape 40° · Western Siberia",
+   "H2 Run the numbers on your well"
+  ],
+  "imgs": 49,
+  "imgNoAlt": 23,
+  "favicon": "https://sstr.tech/favicon-light.png",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#eff0f1",
+    "w": 15613857
+   },
+   {
+    "v": "#18191b",
+    "w": 13690315
+   },
+   {
+    "v": "#c3c4c8",
+    "w": 5718574
+   },
+   {
+    "v": "#2f3032",
+    "w": 5167938
+   },
+   {
+    "v": "#e0e1e3",
+    "w": 1572000
+   },
+   {
+    "v": "#000000",
+    "w": 1296000
+   },
+   {
+    "v": "#fe5b2a",
+    "w": 822564
+   },
+   {
+    "v": "#201d1d",
+    "w": 666990
+   },
+   {
+    "v": "#e75326",
+    "w": 480024
+   },
+   {
+    "v": "#747576",
+    "w": 256
+   }
+  ],
+  "text": [
+   {
+    "v": "#2f3032",
+    "w": 1393
+   },
+   {
+    "v": "#0c0c0c",
+    "w": 1066
+   },
+   {
+    "v": "#eff0f1",
+    "w": 1056
+   },
+   {
+    "v": "#c3c4c8",
+    "w": 666
+   },
+   {
+    "v": "#747576",
+    "w": 606
+   },
+   {
+    "v": "#333333",
+    "w": 113
+   },
+   {
+    "v": "#a3a3a4",
+    "w": 11
+   },
+   {
+    "v": "#ffffff",
+    "w": 10
+   },
+   {
+    "v": "#0000ee",
+    "w": 10
+   }
+  ],
+  "border": [
+   {
+    "v": "#c3c4c8",
+    "w": 3
+   },
+   {
+    "v": "#2f3032",
+    "w": 1
+   }
+  ],
+  "fonts": [
+   {
+    "v": "ABC Monument Grotesk",
+    "w": 3561
+   },
+   {
+    "v": "Arial",
+    "w": 1134
+   },
+   {
+    "v": "Abc Monument Grotesk",
+    "w": 236
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "12px",
+    "w": 93
+   },
+   {
+    "v": "32px",
+    "w": 50
+   },
+   {
+    "v": "14px",
+    "w": 43
+   },
+   {
+    "v": "16px",
+    "w": 26
+   },
+   {
+    "v": "19.2px",
+    "w": 17
+   },
+   {
+    "v": "96px",
+    "w": 15
+   },
+   {
+    "v": "24px",
+    "w": 11
+   },
+   {
+    "v": "48px",
+    "w": 10
+   },
+   {
+    "v": "20px",
+    "w": 5
+   },
+   {
+    "v": "11.4px",
+    "w": 4
+   },
+   {
+    "v": "40px",
+    "w": 2
+   },
+   {
+    "v": "80px",
+    "w": 1
+   },
+   {
+    "v": "9px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "12px",
+    "w": 10
+   },
+   {
+    "v": "1600px",
+    "w": 4
+   }
+  ],
+  "shadows": [
+   {
+    "v": "rgba(0, 0, 0, 0.1) 0px 0px 12px 0px",
+    "w": 1
+   }
+  ],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.675 0.35s",
+    "w": 24
+   },
+   {
+    "v": "cubic-bezier(0.675 0.375s",
+    "w": 22
+   },
+   {
+    "v": "cubic-bezier(0.4 0.15s",
+    "w": 13
+   },
+   {
+    "v": "ease 0.2s",
+    "w": 11
+   },
+   {
+    "v": "cubic-bezier(0.625 0.4s",
+    "w": 6
+   },
+   {
+    "v": "ease 0.15s",
+    "w": 5
+   },
+   {
+    "v": "ease 0.3s",
+    "w": 5
+   },
+   {
+    "v": "cubic-bezier(0.625 0.65s",
+    "w": 2
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "\"ABC Monument Grotesk\", Arial, sans-serif",
+    "size": "48px",
+    "weight": "400",
+    "lineHeight": "49.008px",
+    "letterSpacing": "-1.68px",
+    "transform": "uppercase",
+    "color": "#eff0f1",
+    "sample": "Pushing the limits of drilling"
+   },
+   "h2": {
+    "family": "\"ABC Monument Grotesk\", Arial, sans-serif",
+    "size": "48px",
+    "weight": "400",
+    "lineHeight": "49.008px",
+    "letterSpacing": "-1.68px",
+    "transform": "uppercase",
+    "color": "#0c0c0c",
+    "sample": "From well data to verified field results — one engineering loop."
+   },
+   "h3": {
+    "family": "\"ABC Monument Grotesk\", Arial, sans-serif",
+    "size": "24px",
+    "weight": "400",
+    "lineHeight": "28.008px",
+    "letterSpacing": "-0.48px",
+    "transform": "uppercase",
+    "color": "#0c0c0c",
+    "sample": "Equipment"
+   },
+   "h4": {
+    "family": "\"ABC Monument Grotesk\", Arial, sans-serif",
+    "size": "19.2px",
+    "weight": "400",
+    "lineHeight": "23.04px",
+    "letterSpacing": "normal",
+    "transform": "uppercase",
+    "color": "#0c0c0c",
+    "sample": "Hor 90° · Western Siberia"
+   },
+   "p": {
+    "family": "\"ABC Monument Grotesk\", Arial, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "0.16px",
+    "transform": "none",
+    "color": "#eff0f1",
+    "sample": "Engineered systems that control friction, vibration, and load transfer — so the "
+   },
+   "a": {
+    "family": "\"Abc Monument Grotesk\", Arial, sans-serif",
+    "size": "12px",
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "0.48px",
+    "transform": "uppercase",
+    "color": "#eff0f1",
+    "sample": "Cases"
+   },
+   "li": {
+    "family": "Arial, \"Helvetica Neue\", Helvetica, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#2f3032",
+    "sample": "01 Torque reduction at the rotary table / top drive"
+   },
+   "body": {
+    "family": "Arial, \"Helvetica Neue\", Helvetica, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#333333",
+    "sample": "// SSTR // PLEASE WAIT // LOADING... READY TORQUE REDUCTION... FRS CONFIGURATION"
+   }
+  },
+  "cssVars": {
+   "--brand-orange-50": "#ffefea",
+   "--brand-orange-100": "#ffccbd",
+   "--brand-orange-200": "#ffb49d",
+   "--brand-orange-300": "#fe9170",
+   "--brand-orange-400": "#fe7c55",
+   "--brand-orange-500": "#fe5b2a",
+   "--brand-orange-600": "#e75326",
+   "--brand-orange-700": "#b4411e",
+   "--brand-orange-800": "#8c3217",
+   "--brand-orange-900": "#6b2612",
+   "--brand-grey-100": "#eff0f1",
+   "--brand-grey-150": "#e0e1e3",
+   "--brand-grey-200": "#c3c4c8",
+   "--brand-grey-250": "#b5b5b5",
+   "--brand-grey-300": "#a3a3a4",
+   "--brand-grey-400": "#8b8c8d",
+   "--brand-grey-500": "#747576",
+   "--brand-grey-600": "#464749",
+   "--brand-grey-700": "#2f3032",
+   "--brand-grey-750": "#222326",
+   "--brand-grey-800": "#18191b",
+   "--brand-grey-850": "#141415",
+   "--brand-grey-900": "#0c0c0c",
+   "--brand-grey-100-alpha": "#eff0f11a",
+   "--brand-grey-900-alpha": "#0c0c0c1a",
+   "--brand-scale-0": "0em",
+   "--brand-scale-25": "0.0625em",
+   "--brand-scale-50": "0.125em",
+   "--brand-scale-100": "0.25em",
+   "--brand-scale-200": "0.375em",
+   "--brand-scale-300": "0.5em",
+   "--brand-scale-400": "0.625em",
+   "--brand-scale-500": "0.75em",
+   "--brand-scale-600": "0.875em",
+   "--brand-scale-700": "0.9375em",
+   "--brand-scale-800": "1em",
+   "--brand-scale-900": "1.25em",
+   "--brand-scale-1000": "1.5em",
+   "--brand-scale-1100": "2em",
+   "--brand-scale-1200": "2.5em",
+   "--brand-scale-1300": "3em",
+   "--brand-scale-1400": "3.75em",
+   "--brand-scale-1500": "4.5em",
+   "--brand-font-family": "\"ABC Monument Grotesk\", Arial, sans-serif",
+   "--brand-weight-light": "300",
+   "--brand-weight-regular": "400",
+   "--brand-weight-medium": "500",
+   "--brand-weight-bold": "700",
+   "--alias-brand-50": "var(--brand-orange-50)",
+   "--alias-brand-100": "var(--brand-orange-100)",
+   "--alias-brand-200": "var(--brand-orange-200)",
+   "--alias-brand-300": "var(--brand-orange-300)",
+   "--alias-brand-400": "var(--brand-orange-400)",
+   "--alias-brand-500": "var(--brand-orange-500)",
+   "--alias-brand-600": "var(--brand-orange-600)",
+   "--alias-brand-700": "var(--brand-orange-700)",
+   "--alias-brand-800": "var(--brand-orange-800)",
+   "--alias-brand-900": "var(--brand-orange-900)",
+   "--alias-grey-100": "var(--brand-grey-100)",
+   "--alias-grey-150": "var(--brand-grey-150)",
+   "--alias-grey-200": "var(--brand-grey-200)",
+   "--alias-grey-250": "var(--brand-grey-250)",
+   "--alias-grey-300": "var(--brand-grey-300)",
+   "--alias-grey-400": "var(--brand-grey-400)",
+   "--alias-grey-500": "var(--brand-grey-500)",
+   "--alias-grey-600": "var(--brand-grey-600)",
+   "--alias-grey-700": "var(--brand-grey-700)",
+   "--alias-grey-750": "var(--brand-grey-750)",
+   "--alias-grey-800": "var(--brand-grey-800)",
+   "--alias-grey-850": "var(--brand-grey-850)",
+   "--alias-grey-900": "var(--brand-grey-900)",
+   "--mapped-text-headings-inverse": "var(--alias-grey-100)",
+   "--mapped-text-body-light": "var(--alias-grey-500)",
+   "--mapped-text-body-inverse": "var(--alias-grey-200)",
+   "--mapped-text-on-action": "var(--alias-grey-900)",
+   "--mapped-text-action": "var(--alias-brand-500)",
+   "--mapped-text-action-hover": "var(--alias-brand-600)",
+   "--mapped-text-disabled": "var(--alias-grey-500)",
+   "--mapped-text-warning": "var(--alias-brand-800)",
+   "--mapped-text-error": "#fe2a2a",
+   "--mapped-text-success": "#7bfe2a",
+   "--mapped-surface-dark": "var(--alias-grey-800)",
+   "--mapped-surface-action": "var(--alias-brand-500)",
+   "--mapped-surface-action-hover": "var(--alias-brand-600)",
+   "--mapped-surface-light-150": "var(--alias-grey-150)",
+   "--mapped-surface-light-200": "var(--alias-grey-200)",
+   "--mapped-surface-disabled": "var(--alias-grey-200)",
+   "--mapped-surface-warning": "var(--alias-brand-800)",
+   "--mapped-surface-transparent-black": "var(--brand-grey-900-alpha)",
+   "--mapped-surface-transparent-white": "var(--brand-grey-100-alpha)",
+   "--mapped-surface-error": "#ffcccc",
+   "--mapped-surface-success": "#e0ffcc",
+   "--mapped-border-action": "var(--alias-brand-600)",
+   "--mapped-border-action-hover": "var(--alias-brand-700)",
+   "--mapped-border-inverse": "var(--alias-grey-700)",
+   "--mapped-border-on-200": "var(--alias-grey-300)",
+   "--mapped-border-disabled": "var(--alias-grey-200)",
+   "--mapped-border-warning": "var(--alias-brand-800)",
+   "--mapped-border-error": "#fe2a2a",
+   "--mapped-border-success": "#7bfe2a",
+   "--mapped-icon-inverse": "var(--alias-grey-100)",
+   "--mapped-icon-action": "var(--alias-brand-500)",
+   "--mapped-icon-action-hover": "var(--alias-brand-600)",
+   "--mapped-icon-on-action": "var(--alias-grey-900)",
+   "--mapped-icon-disabled": "var(--alias-grey-500)",
+   "--mapped-icon-warning": "var(--alias-brand-800)",
+   "--mapped-icon-error": "#fe2a2a",
+   "--mapped-icon-success": "#7bfe2a",
+   "--mapped-padding-none": "var(--brand-scale-0)",
+   "--mapped-padding-xxs": "var(--brand-scale-200)",
+   "--mapped-padding-xs": "var(--brand-scale-400)",
+   "--mapped-padding-sm": "var(--brand-scale-800)",
+   "--mapped-padding-md": "var(--brand-scale-1100)",
+   "--mapped-padding-lg": "var(--brand-scale-1200)",
+   "--mapped-padding-xl": "var(--brand-scale-1500)",
+   "--mapped-radius-none": "0em",
+   "--mapped-radius-sm": "0.125em",
+   "--mapped-radius-md": "0.25em",
+   "--mapped-radius-lg": "0.5em",
+   "--mapped-border-width-none": "0em",
+   "--mapped-border-width-sm": "0.0625em",
+   "--mapped-border-width-md": "0.125em",
+   "--mapped-border-width-lg": "0.25em",
+   "--mapped-text-headings": "var(--alias-grey-900)",
+   "--mapped-text-body": "var(--alias-grey-700)",
+   "--mapped-surface-page": "var(--alias-grey-100)",
+   "--mapped-surface-default": "var(--alias-grey-100)",
+   "--mapped-border-default": "var(--alias-grey-200)",
+   "--mapped-icon-default": "var(--alias-grey-600)",
+   "--type-display-md-size": "3.5em",
+   "--type-display-md-lh": "1",
+   "--type-display-sm-size": "2.9em",
+   "--type-display-sm-lh": "1",
+   "--type-h1-size": "2.2em",
+   "--type-h1-lh": "0.933",
+   "--type-h2-size": "2em",
+   "--type-h2-lh": "1.021",
+   "--type-h3-size": "1.8em",
+   "--type-h3-lh": "1",
+   "--type-h4-size": "1.6em",
+   "--type-h4-lh": "1.125",
+   "--type-h5-size": "1.5em",
+   "--type-h5-lh": "1.167",
+   "--type-h6-size": "1.2em",
+   "--type-h6-lh": "1.2",
+   "--type-paragraph-lg-size": "1.25em",
+   "--type-paragraph-lg-lh": "1.2",
+   "--type-paragraph-md-size": "1em",
+   "--type-paragraph-md-lh": "1.25",
+   "--type-paragraph-sm-size": "0.875em",
+   "--type-paragraph-sm-lh": "1.429",
+   "--type-paragraph-xsm-size": "0.75em",
+   "--type-paragraph-xsm-lh": "1.333",
+   "--type-eyebrow-size": "0.75em",
+   "--type-eyebrow-lh": "1.143",
+   "--layout-nav-height": "4.375em",
+   "--layout-section-viewport": "calc(100svh - var(--layout-nav-height))",
+   "--cctp-loaded": "1",
+   "--nav-sweep-ease": "cubic-bezier(0.675, 0.15, 0.1, 1)",
+   "--nav-sweep-duration-in": "0.425s",
+   "--nav-sweep-duration-out": "0.375s",
+   "--nav-text-scale-default-hovered": "1.2",
+   "--nav-text-scale-hover-resting": "0.85",
+   "--size-unit": "16",
+   "--size-container-ideal": "390",
+   "--size-container-min": "320px",
+   "--size-container-max": "479px",
+   "--size-container": "clamp(var(--size-container-min), 100vw, var(--size-container-max))",
+   "--size-font": "calc(var(--size-container) / (var(--size-container-ideal) / var(--size-unit)))",
+   "--cut": "10px",
+   "--nav-theme-transition": "0.15s ease",
+   "--button-color": "var(--mapped-text-on-action)",
+   "--button-color-background": "var(--mapped-surface-action)",
+   "--button-hover-color": "var(--mapped-text-on-action)",
+   "--button-hover-color-background": "var(--mapped-surface-action-hover)",
+   "--button-color-focus": "#000",
+   "--button-padding": "2em 3.1em 2em 2.5em",
+   "--button-padding-big": "3em",
+   "--button-corner": "0.8em",
+   "--button-click-scale": "0.955 0.925",
+   "--button-default-text-scale": "1.2",
+   "--button-hover-text-scale": "0.85",
+   "--button-ease-hover": "cubic-bezier(0.675, 0.15, 0.1, 1)",
+   "--button-ease-click": "cubic-bezier(0.4, 0, 0.2, 1)",
+   "--button-ease-focus": "cubic-bezier(0.32, 0.72, 0, 1)",
+   "--button-icon-size": "1.2em",
+   "--button-icon-aspect": "11 / 10",
+   "--button-icon-gap": "0.5em"
+  },
+  "fontFaces": [
+   {
+    "family": "Abc Monument Grotesk",
+    "weight": "200 1000",
+    "style": "normal",
+    "src": "url(\"../fonts/ABC-Monument-Grotesk.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Abc Monument Grotesk",
+    "weight": "200 1000",
+    "style": "normal",
+    "src": "url(\"../fonts/ABC-Monument-Grotesk.woff2\") format(\"woff2\")"
+   }
+  ],
+  "keyframes": [
+   "cctpPreloaderBlink",
+   "cctpRevealFallback",
+   "scrollHintMove",
+   "scrollHintPulse"
+  ],
+  "breakpoints": [
+   {
+    "v": "991px",
+    "w": 14
+   },
+   {
+    "v": "767px",
+    "w": 5
+   },
+   {
+    "v": "480px",
+    "w": 2
+   },
+   {
+    "v": "479px",
+    "w": 2
+   },
+   {
+    "v": "992px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 863,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section_hero",
+    "h": 900,
+    "title": "Pushing the limits of drilling",
+    "media": 1
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section_about",
+    "h": 814,
+    "title": "From well data to verified field results — one engineering loop.",
+    "media": 13
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section_numbers",
+    "h": 1620,
+    "title": "Results, proven on real projects",
+    "media": 0
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section_process-intro",
+    "h": 345,
+    "title": "Friction reduction while drilling. Proven by data.",
+    "media": 1
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section_webgl",
+    "h": 900,
+    "title": "Friction and vibration act in different zones — the solution has to work in ever",
+    "media": 1
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section_products",
+    "h": 4862,
+    "title": "SSTR equipment",
+    "media": 6
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section_cases",
+    "h": 1537,
+    "title": "Case studies",
+    "media": 4
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section_proof is-padding-btm",
+    "h": 681,
+    "title": "Trusted by",
+    "media": 6
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section_globe",
+    "h": 831,
+    "title": "Hor 90° · Western Siberia",
+    "media": 10
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section_cta is-border-btm",
+    "h": 981,
+    "title": "Run the numbers on your well",
+    "media": 1
+   },
+   {
+    "tag": "footer",
+    "id": null,
+    "cls": "footer-wrap",
+    "h": 463,
+    "title": "",
+    "media": 1
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "",
+    "href": "https://sstr.tech/en/"
+   },
+   {
+    "t": "Cases",
+    "href": "https://sstr.tech/en/cases/"
+   },
+   {
+    "t": "About",
+    "href": "https://sstr.tech/en/about/"
+   },
+   {
+    "t": "Products",
+    "href": "https://sstr.tech/en/products/"
+   },
+   {
+    "t": "Engineering",
+    "href": "https://sstr.tech/en/engineering/"
+   },
+   {
+    "t": "Contacts",
+    "href": "https://sstr.tech/en/contacts/"
+   },
+   {
+    "t": "RU",
+    "href": "https://sstr.tech/"
+   },
+   {
+    "t": "EN",
+    "href": "https://sstr.tech/en/"
+   },
+   {
+    "t": "contact",
+    "href": "https://sstr.tech/en/contacts/"
+   },
+   {
+    "t": "Home",
+    "href": "https://sstr.tech/en/"
+   },
+   {
+    "t": "Cases",
+    "href": "https://sstr.tech/en/cases/"
+   },
+   {
+    "t": "About",
+    "href": "https://sstr.tech/en/about/"
+   },
+   {
+    "t": "Products",
+    "href": "https://sstr.tech/en/products/"
+   },
+   {
+    "t": "Engineering",
+    "href": "https://sstr.tech/en/engineering/"
+   },
+   {
+    "t": "Contacts",
+    "href": "https://sstr.tech/en/contacts/"
+   }
+  ],
+  "ctas": [],
+  "pageHeight": 13934,
+  "counts": {
+   "canvas": 1,
+   "videos": 3,
+   "imgs": 49,
+   "svgs": 38,
+   "iframes": 0,
+   "domNodes": 1220
+  }
+ },
+ "tech": {
+  "gsap": true,
+  "gsapVersion": "3.15.0",
+  "scrollTrigger": true,
+  "splitText": true,
+  "lenis": true,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "162",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": true,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": true,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://sstr.tech/vendor/gsap.min.js",
+  "https://sstr.tech/vendor/ScrollTrigger.min.js",
+  "https://sstr.tech/vendor/ScrollToPlugin.min.js",
+  "https://sstr.tech/vendor/CustomEase.min.js",
+  "https://sstr.tech/vendor/SplitText.min.js",
+  "https://sstr.tech/vendor/barba.umd.js",
+  "https://sstr.tech/js/main.js?v=20260811a",
+  "https://sstr.tech/webgl/sstr-scene.js?v=20260714n"
+ ],
+ "internal": [
+  "https://sstr.tech/en/cases/",
+  "https://sstr.tech/en/about/",
+  "https://sstr.tech/en/products/",
+  "https://sstr.tech/en/engineering/",
+  "https://sstr.tech/en/contacts/",
+  "https://sstr.tech/",
+  "https://sstr.tech/en/products/frs/",
+  "https://sstr.tech/en/products/svr/",
+  "https://sstr.tech/en/products/x3/",
+  "https://sstr.tech/en/cases/9096-awp-1-frs89/",
+  "https://sstr.tech/en/cases/2i-gpn-vs-frs89/",
+  "https://sstr.tech/en/cases/5115-awp-1/",
+  "https://sstr.tech/en/cases/9329g-awp-1/",
+  "https://sstr.tech/en/cases/opr-7-gpn-zs-2kk-extended/",
+  "https://sstr.tech/en/cases/opr-6-gpn-zs-frs127/",
+  "https://sstr.tech/en/cases/opr-5-volga-ural-frs127/",
+  "https://sstr.tech/en/cases/22061/",
+  "https://sstr.tech/en/cases/8873g-2kk/",
+  "https://sstr.tech/en/cases/4903-awp-frs102/",
+  "https://sstr.tech/en/privacy/"
+ ],
+ "perf": {
+  "ttfb": 317,
+  "dcl": 684,
+  "load": 839,
+  "lcp": 920,
+  "lcpEl": "H1.heading_h2",
+  "cls": 0.298
+ },
+ "libs": {
+  "detected": [
+   "GSAP",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Barba.js",
+   "Lenis",
+   "Virtual scroll",
+   "Three.js",
+   "Lil-GUI/Tweakpane (debug)"
+  ],
+  "where": {
+   "GSAP": [
+    "001-gsap.min.js",
+    "002-ScrollToPlugin.min.js",
+    "003-CustomEase.min.js",
+    "004-ScrollTrigger.min.js",
+    "006-SplitText.min.js",
+    "007-main.js"
+   ],
+   "ScrollTrigger": [
+    "001-gsap.min.js",
+    "002-ScrollToPlugin.min.js",
+    "004-ScrollTrigger.min.js",
+    "007-main.js"
+   ],
+   "SplitText/SplitType": [
+    "001-gsap.min.js",
+    "006-SplitText.min.js",
+    "007-main.js",
+    "009-sstr-scene.js"
+   ],
+   "Barba.js": [
+    "005-barba.umd.js",
+    "007-main.js",
+    "011-apexcharts.min.js"
+   ],
+   "Lenis": [
+    "007-main.js",
+    "008-lenis.min.js",
+    "styles.css"
+   ],
+   "Virtual scroll": [
+    "008-lenis.min.js"
+   ],
+   "Three.js": [
+    "009-sstr-scene.js"
+   ],
+   "Lil-GUI/Tweakpane (debug)": [
+    "009-sstr-scene.js"
+   ]
+  },
+  "gsapVersion": "3.15.0",
+  "threeRevision": null,
+  "shaders": 6,
+  "scripts": 11
+ },
+ "network": {
+  "requests": 52,
+  "totalKb": 6927,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 82
+   },
+   "Stylesheet": {
+    "n": 7,
+    "kb": 168
+   },
+   "Image": {
+    "n": 20,
+    "kb": 1457
+   },
+   "Script": {
+    "n": 10,
+    "kb": 1205
+   },
+   "Media": {
+    "n": 3,
+    "kb": 1079
+   },
+   "Font": {
+    "n": 1,
+    "kb": 382
+   },
+   "Other": {
+    "n": 1,
+    "kb": 1
+   },
+   "Fetch": {
+    "n": 8,
+    "kb": 2494
+   },
+   "XHR": {
+    "n": 1,
+    "kb": 59
+   }
+  },
+  "thirdPartyHosts": [
+   "cdn.jsdelivr.net"
+  ],
+  "fontFiles": [
+   "https://sstr.tech/fonts/ABC-Monument-Grotesk.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://sstr.tech/webgl/assets/scenes/29-06-light.glb",
+    "kb": 1674,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://sstr.tech/videos/main-framerate_webm.webm",
+    "kb": 810,
+    "type": "Media"
+   },
+   {
+    "url": "https://sstr.tech/webgl/sstr-scene.js?v=20260714n",
+    "kb": 664,
+    "type": "Script"
+   },
+   {
+    "url": "https://sstr.tech/images/process-rig.svg",
+    "kb": 519,
+    "type": "Image"
+   },
+   {
+    "url": "https://sstr.tech/webgl/assets/scenes/PDC_Drill.glb",
+    "kb": 466,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://sstr.tech/api/media/file/TRANSFER%20X3-Photoroom-1600x508.png",
+    "kb": 442,
+    "type": "Image"
+   },
+   {
+    "url": "https://sstr.tech/fonts/ABC-Monument-Grotesk.woff2",
+    "kb": 382,
+    "type": "Font"
+   },
+   {
+    "url": "https://sstr.tech/webgl/draco/draco_decoder.wasm",
+    "kb": 279,
+    "type": "Fetch"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "32px",
+   "lineHeight": "32.672px"
+  },
+  "body": "16px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 87
+}

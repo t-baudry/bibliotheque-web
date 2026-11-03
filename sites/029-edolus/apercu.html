@@ -1,0 +1,417 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><base href="https://edolus.com/">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <style>@media screen and (min-aspect-ratio: 1280/720) {
+                #application-canvas.fill-mode-KEEP_ASPECT {
+                    width: auto;
+                    height: 100%;
+                    margin: 0 auto;
+                }
+            }</style>
+    <title>EDOLUS</title>
+    
+    
+<style>#playcanvas-wrapper, #playcanvas-wrapper * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  line-height: normal !important;
+}
+#custom-splash-wrapper, #custom-splash-wrapper * {
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+#custom-splash-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100svh;
+    background-color: #000000;
+    z-index: 1000;
+    overflow: hidden;
+}
+#custom-splash-wrapper.bands-open {
+    background-color: transparent;
+}
+#custom-splash-wrapper::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    pointer-events: none;
+    opacity: 1;
+    z-index: 1;
+    transition: opacity 1.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+#custom-splash-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) translateZ(0);
+    width: 430px;
+    max-width: 85vw;
+    z-index: 4;
+    will-change: transform;
+    contain: layout paint style;
+    backface-visibility: hidden;
+}
+@media (max-width: 768px) {
+    #custom-splash-logo {
+        width: 366px;
+        max-width: 72.25vw;
+    }
+    #custom-progress-text {
+        top: calc(50% + min(366px, 72.25vw) * 0.09032 + 20px);
+    }
+}
+#custom-splash-logo svg {
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: translateZ(0);
+}
+#custom-band-top, #custom-band-bottom {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-color: #000000;
+    z-index: 3;
+    pointer-events: none;
+    will-change: transform;
+    backface-visibility: hidden;
+    transform: translateY(0);
+}
+#custom-band-top { top: 0; }
+#custom-band-bottom { bottom: 0; }
+#custom-splash-wrapper.bands-open #custom-band-top {
+    transition: transform 1600ms cubic-bezier(0.65, 0, 0.35, 1);
+    transform: translateY(-100%);
+}
+#custom-splash-wrapper.bands-open #custom-band-bottom {
+    transition: transform 1600ms cubic-bezier(0.65, 0, 0.35, 1);
+    transform: translateY(100%);
+}
+#custom-progress-text {
+    position: absolute;
+    top: calc(50% + min(430px, 85vw) * 0.09032 + 20px);
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.75rem;
+    letter-spacing: 0.15em;
+    opacity: 0.7;
+    z-index: 4;
+}
+#custom-progress-text .roll-col {
+    position: relative;
+    display: inline-block;
+    width: 1ch;
+    height: 1.35em;
+    overflow: hidden;
+    letter-spacing: 0;
+}
+#custom-progress-text .pct-sign {
+    display: inline-block;
+    line-height: 1.35em;
+    margin-left: 0.15em;
+}
+#custom-progress-text .roll-num {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 1.35em;
+    line-height: 1.35em;
+    text-align: center;
+    will-change: transform;
+}
+#custom-splash-wrapper.preanim #custom-title-group,
+#custom-splash-wrapper.preanim #custom-headphones,
+#custom-splash-wrapper.preanim #custom-cta {
+    transition: none !important;
+}
+#custom-title-group {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0;
+    transition: opacity 3s ease 0.3s;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 clamp(24px, 6vw, 64px);
+    z-index: 4;
+}
+#custom-title {
+    font-family: "General Sans", sans-serif;
+    font-weight: 300;
+    font-size: clamp(44px, 8.9vw, 96px);
+    line-height: 1.04 !important;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+}
+#custom-subtitle {
+    font-family: "General Sans", sans-serif;
+    font-weight: 400;
+    font-size: clamp(11px, 3.2vw, 14px);
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    margin-top: 2rem;
+    color: #C4C7C7;
+    opacity: 0.8;
+}
+#custom-headphones {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 3s ease 0.3s;
+    z-index: 4;
+    pointer-events: none;
+}
+@media (max-width: 768px) {
+    #custom-headphones { bottom: 20px; }
+}
+#custom-headphones svg {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+    #custom-headphones svg { width: 32px; height: 32px; }
+}
+#custom-headphones svg path { fill: #C4C7C7; }
+#custom-headphones .hp-text {
+    font-family: "General Sans", sans-serif;
+    font-weight: 400;
+    font-size: clamp(11px, 3.2vw, 14px);
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: #C4C7C7;
+    opacity: 0.8;
+    white-space: nowrap;
+}
+#custom-cta-slot {
+    margin-top: 2.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#custom-cta {
+    position: relative;
+    display: inline-block;
+    margin-top: 0;
+    padding: 1.2rem 3rem;
+    color: #000;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 500;
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    background-color: #ffffff;
+    opacity: 0;
+    cursor: pointer;
+    pointer-events: none;
+    z-index: 5;
+    transition: opacity 1.5s ease, padding 0.3s ease;
+}
+#custom-cta::before {
+    content: "";
+    position: absolute;
+    top: -6px;
+    left: -8px;
+    right: -8px;
+    bottom: -6px;
+    pointer-events: none;
+    background-image:
+        linear-gradient(#ffffff, #ffffff),
+        linear-gradient(#ffffff, #ffffff),
+        linear-gradient(#ffffff, #ffffff),
+        linear-gradient(#ffffff, #ffffff);
+    background-size: 4px 4px;
+    background-repeat: no-repeat;
+    background-position: top left, top right, bottom left, bottom right;
+    transition: top 0.3s ease, bottom 0.3s ease, left 0.3s ease, right 0.3s ease;
+}
+#custom-cta:hover::before {
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+}
+@media (max-width: 768px) {
+    #custom-cta-slot { margin-top: 1.75rem; }
+    #custom-cta {
+        padding: 0.96rem 2.4rem;
+        font-size: 0.6rem;
+    }
+}
+#cta-label { display: inline-block; }
+@keyframes ctaLabelBlink {
+    0%   { opacity: 1; }
+    25%  { opacity: 0; }
+    50%  { opacity: 1; }
+    75%  { opacity: 0; }
+    100% { opacity: 1; }
+}
+#custom-cta:hover #cta-label {
+    animation: ctaLabelBlink 0.10s steps(1, end);
+}
+@keyframes ctaBlink {
+    0%   { opacity: 1; }
+    14%  { opacity: 0; }
+    28%  { opacity: 1; }
+    42%  { opacity: 0; }
+    56%  { opacity: 1; }
+    72%  { opacity: 0; }
+    100% { opacity: 0; }
+}
+#custom-cta.blink {
+    animation: ctaBlink 0.2s steps(1, end) forwards;
+}
+#custom-splash-wrapper.loaded {
+    background-color: transparent;
+    pointer-events: none;
+}
+#custom-splash-wrapper.loaded #custom-title-group {
+    opacity: 1;
+}
+#custom-splash-wrapper.loaded #custom-cta {
+    opacity: 1;
+    pointer-events: auto;
+}
+#custom-splash-wrapper.clicked #custom-title-group {
+    opacity: 0;
+    filter: blur(14px);
+    transition: opacity 1.4s cubic-bezier(0.4, 0, 0.2, 1),
+                filter 1.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+#custom-splash-wrapper.loaded #custom-headphones {
+    opacity: 1;
+}
+#custom-splash-wrapper.clicked #custom-headphones {
+    opacity: 0;
+    filter: blur(14px);
+    transition: opacity 1.4s cubic-bezier(0.4, 0, 0.2, 1),
+                filter 1.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+#custom-splash-wrapper.clicked::after {
+    opacity: 0;
+}</style><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&amp;display=swap"><style id="general-sans-faces">@import url("https://api.fontshare.com/v2/css?f[]=general-sans@200,300,400,500,600,700&display=swap");</style><style></style><style id="cursor-orbit-style">@keyframes cursorOrbitSpin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }</style><style id="cursor-hint-font">@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;800&display=swap");#cursor-hint .dud { opacity: 0.55; }</style><style id="pc-overlay-styles">#pc-overlay-logo{position:absolute;top:40px;left:50%;transform:translateX(-50%);width:156px;line-height:0;}
+#pc-overlay-logo svg{display:block;width:100%;height:auto;overflow:visible;}
+#pc-overlay-audio{position:absolute;top:40px;right:60px;height:28.18px;display:flex;align-items:center;gap:10px;pointer-events:auto;cursor:pointer;color:#fff;transition:opacity 0.3s ease;}
+#pc-overlay-audio svg{display:block;width:26px;height:26px;}
+#pc-overlay-audio span{font-family:"General Sans",sans-serif;font-weight:500;font-size:12px;letter-spacing:0.14em;text-transform:uppercase;line-height:1;user-select:none;-webkit-user-select:none;}
+#pc-overlay-audio.muted{opacity:0.45;}
+#pc-overlay-audio svg rect{transform-box:fill-box;transform-origin:50% 50%;transition:transform 0.35s ease;}
+#pc-overlay-audio.muted svg rect{transform:scaleY(0.3);}
+#pc-overlay-audio.playing svg rect{animation:pc-eq-dance 1s ease-in-out infinite;}
+#pc-overlay-audio.playing svg rect:nth-child(1){animation-duration:0.86s;animation-delay:-0.10s;}
+#pc-overlay-audio.playing svg rect:nth-child(2){animation-duration:1.14s;animation-delay:-0.45s;}
+#pc-overlay-audio.playing svg rect:nth-child(3){animation-duration:0.72s;animation-delay:-0.28s;}
+#pc-overlay-audio.playing svg rect:nth-child(4){animation-duration:1.02s;animation-delay:-0.62s;}
+@keyframes pc-eq-dance{0%,100%{transform:scaleY(0.3);}50%{transform:scaleY(1);}}
+@media (max-width:768px){#pc-overlay-logo{top:20px;width:108px;}#pc-overlay-audio{top:20px;right:20px;height:19.51px;}}
+@media (max-width:768px),(pointer:coarse){#pc-overlay-audio span{display:none;}}
+@keyframes pc-o-loop{0%{stroke-dashoffset:0;animation-timing-function:ease-in-out;}15.909%{stroke-dashoffset:100;animation-timing-function:ease-in-out;}31.818%{stroke-dashoffset:200;animation-timing-function:linear;}100%{stroke-dashoffset:200;}}
+.pc-o-arc{stroke-dashoffset:200;animation:pc-o-loop 8.800s linear infinite;animation-delay:6.000s;}</style><style id="satellite-label-style">@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&display=swap");
+.slabel { position: fixed; left: 0; top: 0; display: flex; align-items: center;
+          gap: calc(var(--r-gap, 14px) + var(--r-off, 0px)); width: max-content;
+          pointer-events: auto; user-select: none; white-space: nowrap; z-index: 100;
+          font-family: "JetBrains Mono", monospace; will-change: left, top; }
+.slabel.sl-left  { flex-direction: row-reverse; }
+.slabel.sl-above { flex-direction: column; }
+.slabel.sl-below { flex-direction: column-reverse; }
+.slabel.sl-above .sl-textcol, .slabel.sl-below .sl-textcol { text-align: center; }
+.slabel .sl-ring-wrap { position: relative; flex: none;
+          width: max(var(--r-base, 9px), var(--r-hover, 16px));
+          height: max(var(--r-base, 9px), var(--r-hover, 16px)); }
+.slabel .sl-ring { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+          width: var(--r-base, 9px); height: var(--r-base, 9px); border-radius: 50%;
+          border: var(--r-th, 2px) solid rgba(255,255,255,0.5); box-sizing: border-box;
+          transition: width 0.4s cubic-bezier(0.22,0.61,0.36,1),
+                      height 0.4s cubic-bezier(0.22,0.61,0.36,1), border-color 0.4s ease; }
+.slabel:hover .sl-ring { width: var(--r-hover, 16px); height: var(--r-hover, 16px);
+          border-color: rgba(255,255,255,1); }
+.slabel .sl-textcol { text-align: left; opacity: 0.5; transition: opacity 0.4s ease; }
+.slabel.sl-left .sl-textcol { text-align: right; }
+.slabel:hover .sl-textcol { opacity: 1; }
+.slabel .sl-title { font-weight: 800; font-size: 20px; line-height: 1.4; letter-spacing: 0.04em; color: #FFFFFF; }
+.slabel .sl-sub   { font-weight: 400; font-size: 16px; line-height: 1.4; letter-spacing: 0.04em; color: #C4C7C7; }
+.slabel .dud { opacity: 0.55; }</style><style id="jetbrains-mono-face">@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&display=swap");</style><style id="scene-text-style">@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&display=swap");
+@import url("https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap");
+.sctext { position: fixed; z-index: 100; pointer-events: none; user-select: none;
+          font-family: "JetBrains Mono", monospace; }
+.sctext .sc-title { margin: 0; font-family: "General Sans", sans-serif; }
+.sctext .sc-body  { margin: 0; }
+.sctext .dud { opacity: 0.55; }</style><style id="diamond-label-style">@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&display=swap");
+@import url("https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap");
+.dlabel { position: fixed; left: 0; top: 0; pointer-events: none; user-select: none;
+          white-space: nowrap; z-index: 100; will-change: left, top; }
+.dlabel .dud { opacity: 0.55; }</style><style id="ts-scramble-style">.ts-char{position:relative;display:inline-block;}.ts-ghost{visibility:hidden;}.ts-over{position:absolute;left:0;top:0;width:100%;height:100%;text-align:center;}</style><link id="jetbrains-mono-font" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap"><link id="general-sans-fontshare" rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&amp;display=swap"><style id="ending-credits-css">@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400&display=swap");
+#ending-credits{position:fixed;top:0;left:0;width:100vw;height:100svh;
+  z-index:900;pointer-events:none;overflow:hidden;display:none;}
+#ending-credits *{box-sizing:border-box;margin:0;padding:0;
+  -webkit-user-select:none;user-select:none;}
+#ec-dim{position:absolute;inset:0;background:#000;opacity:0;z-index:1;}
+#ec-blur{position:absolute;inset:0;z-index:2;
+  -webkit-backdrop-filter:blur(0px);backdrop-filter:blur(0px);will-change:backdrop-filter;}
+#ec-band-top,#ec-band-bottom{position:absolute;left:0;width:100%;height:0;
+  background:#000;z-index:3;will-change:height;backface-visibility:hidden;}
+#ec-band-top{top:0;}
+#ec-band-bottom{bottom:0;}
+.ec-line{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+  width:100%;padding:0 clamp(24px,6vw,64px);text-align:center;
+  color:#fff;font-family:"General Sans",sans-serif;
+  font-size:clamp(22px,5.2vw,42px);line-height:1.15;letter-spacing:0.005em;
+  opacity:0;z-index:4;}
+.ec-line .reg{font-weight:400;}
+.ec-line .bold{font-weight:700;}
+#ec-final .ec-logo{position:absolute;left:50%;transform:translateX(-50%);
+  width:clamp(120px,15vw,168px);height:auto;
+  display:block;pointer-events:auto;cursor:pointer;text-decoration:none;}
+#ec-final .ec-logo svg{display:block;width:100%;height:auto;}
+#ec-final .ec-logo .st1{fill:#FFFFFF;}
+#ec-final .ec-logo .st2{fill:#DE4959;}
+#ec-final .ec-email{position:absolute;left:50%;transform:translateX(-50%);
+  white-space:nowrap;font-family:"General Sans",sans-serif;font-weight:400;
+  color:#fff;letter-spacing:0.14em;pointer-events:auto;text-decoration:none;}
+#ec-final .ec-email:hover{opacity:0.7;}
+#ec-replay{position:absolute;left:50%;bottom:40px;transform:translateX(-50%);
+  z-index:5;display:flex;flex-direction:column;align-items:center;
+  opacity:0;pointer-events:none;cursor:pointer;}
+#ec-replay .ec-replay-text{font-family:"JetBrains Mono",monospace;font-weight:400;
+  font-size:12px;line-height:1;color:#fff;letter-spacing:0.14em;white-space:nowrap;}
+#ec-replay .ec-replay-text .dud{opacity:0.55;}
+#ec-replay .ec-replay-line{width:65px;height:4px;margin-top:25px;background:#fff;
+  transition:width 0.45s cubic-bezier(0.22,1,0.36,1);}
+#ec-replay:hover .ec-replay-line{width:150px;}</style></head>
+<body>
+    
+    <canvas id="application-canvas" tabindex="0" data-engine="PlayCanvas 2.23.3" width="1440" height="900" style="user-select: none; width: 1440px; height: 900px;" class="fill-mode-FILL_WINDOW"></canvas>
+    <div id="custom-splash-wrapper" class="bands-open loaded" style="position: fixed; top: 0px; left: 0px; width: 100vw; height: 100svh; overflow: hidden; z-index: 1000;"><div id="custom-splash-logo" style="transition: transform 1s cubic-bezier(0.25, 0.1, 0.25, 1); top: 40px; width: 156px; transform-origin: center center; transform: translate(-50%, 0px) translateZ(0px);"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 155 28" xml:space="preserve"><style type="text/css">.st0{fill:#FFFFFF;}</style><g><polygon class="st0" points="4.4,15.2 10.5,15.2 10.5,11.6 4.4,11.6 4.4,4.3 12,4.3 12,0.8 0.4,0.8 0.4,27.2 13.2,27.2 13.2,23.7 4.4,23.7 " style="fill-opacity: 1;"></polygon><path class="st0" d="M42.3,6.7c-0.6-1.1-1.4-2.1-2.5-3c-1.1-0.9-2.5-1.6-4.1-2.1c-1.7-0.5-3.7-0.8-6-0.8h-6.4v26.5h6.6c2.7,0,5-0.4,6.8-1.2c1.8-0.8,3.3-1.8,4.4-3.2c1.1-1.3,1.8-2.8,2.3-4.4c0.5-1.6,0.7-3.3,0.7-4.9c0-1.1-0.1-2.2-0.4-3.4C43.4,8.9,42.9,7.8,42.3,6.7z M39.2,17.4c-0.3,1.2-0.8,2.2-1.6,3.2c-0.7,0.9-1.7,1.7-2.9,2.2c-1.2,0.6-2.7,0.8-4.5,0.8h-3V4.3h3c2.4,0,4.2,0.4,5.6,1.3c1.4,0.9,2.4,2,3,3.5c0.6,1.4,0.9,3,0.9,4.7C39.7,15,39.5,16.2,39.2,17.4z" style="fill-opacity: 1;"></path><path class="st0" d="M153.9,17.2c-0.5-0.9-1-1.6-1.7-2.2c-0.8-0.7-1.7-1.4-2.7-1.9c-1-0.6-2-1.1-3-1.6c-1-0.6-1.8-1.2-2.4-1.8c-0.6-0.7-0.9-1.5-0.9-2.4c0-1.1,0.3-1.8,1-2.4c0.7-0.6,1.6-0.8,2.8-0.8c1,0,1.9,0.2,2.7,0.6c0.8,0.4,1.4,0.8,1.8,1.2l1.9-3.3c-0.3-0.3-0.7-0.6-1.3-0.9S151,1,150.2,0.8c-0.8-0.2-1.8-0.4-3-0.4c-1.4,0-2.8,0.3-4,0.8c-1.2,0.5-2.2,1.3-2.9,2.3c-0.7,1-1.1,2.4-1.1,4c0,1.6,0.3,3,1,4c0.7,1,1.5,1.9,2.4,2.5c0.8,0.5,1.7,1,2.6,1.4c0.9,0.4,1.8,0.8,2.5,1.3c0.8,0.5,1.4,1,1.9,1.6c0.5,0.6,0.7,1.4,0.7,2.3c0,1.1-0.4,1.9-1.3,2.5c-0.8,0.6-1.8,0.9-3.1,0.9c-0.7,0-1.5-0.1-2.2-0.4c-0.7-0.3-1.4-0.6-2-0.9c-0.6-0.4-1-0.6-1.2-0.9l-1.9,3.4c0.4,0.4,1,0.8,1.7,1.2c0.8,0.4,1.6,0.7,2.6,0.9c1,0.2,2,0.4,3,0.4c1.6,0,3-0.3,4.3-0.8c1.3-0.6,2.3-1.4,3-2.6c0.8-1.1,1.2-2.5,1.2-4.1C154.6,19,154.4,18,153.9,17.2z" style="fill-opacity: 1;"></path><path class="st0" d="M124.7,16c0,2.9-0.4,4.9-1.3,6.1c-0.8,1.2-2.2,1.8-4.1,1.8c-1.9,0-3.3-0.6-4.1-1.8c-0.8-1.2-1.3-3.2-1.3-6V0.8h-4v15.2c0,2.4,0.3,4.5,0.9,6.2c0.6,1.8,1.6,3.1,3,4c1.4,0.9,3.2,1.4,5.5,1.4c3.2,0,5.6-1,7.1-3.1s2.3-4.9,2.3-8.6V0.8h-4.1V16z" style="fill-opacity: 1;"></path><path class="st0" d="M76,4c-1.2-1.2-2.6-2.1-4.2-2.7c-0.8-0.3-1.6-0.5-2.4-0.7v3.8c0.7,0.2,1.3,0.4,1.9,0.8c1.4,0.7,2.5,1.9,3.3,3.3c0.8,1.5,1.2,3.3,1.2,5.5c0,2.2-0.4,4-1.2,5.5c-0.8,1.5-1.9,2.6-3.3,3.3c-1.4,0.8-2.9,1.2-4.5,1.2c-1.6,0-3.1-0.4-4.4-1.2c-1.4-0.8-2.5-1.9-3.3-3.3c-0.8-1.5-1.3-3.3-1.3-5.5c0-2.2,0.4-4,1.2-5.5c0.8-1.5,1.9-2.6,3.2-3.3c0.6-0.3,1.3-0.6,1.9-0.8V0.6c-0.8,0.2-1.7,0.4-2.5,0.7c-1.6,0.6-3,1.5-4.2,2.7c-1.2,1.2-2.2,2.6-2.9,4.3c-0.7,1.7-1,3.6-1,5.7c0,2.1,0.3,4,1,5.7c0.7,1.7,1.7,3.1,2.9,4.3c1.2,1.2,2.6,2.1,4.2,2.7c1.6,0.6,3.3,0.9,5.1,0.9c1.8,0,3.5-0.3,5.1-0.9c1.6-0.6,3-1.5,4.2-2.7c1.2-1.2,2.2-2.6,2.9-4.3C79.6,18,80,16.1,80,14c0-2.1-0.4-4-1.1-5.7C78.2,6.6,77.2,5.1,76,4z" style="fill-opacity: 1;"></path><polygon class="st0" points="94.4,0.8 90.3,0.8 90.3,27.2 102,27.2 102,23.6 94.4,23.6 " style="fill-opacity: 1;"></polygon></g></svg></div><div id="custom-band-top"></div><div id="custom-band-bottom"></div><div id="custom-progress-text" style="display: none;"><span class="roll-col"><span class="roll-num" style="transform: translateY(0px);">1</span><span class="roll-num" style="transform: translateY(100%);">1</span></span><span class="roll-col"><span class="roll-num" style="transform: translateY(0px);">0</span><span class="roll-num" style="transform: translateY(100%);">0</span></span><span class="roll-col"><span class="roll-num" style="transform: translateY(0px);">0</span><span class="roll-num" style="transform: translateY(100%);">0</span></span><span class="pct-sign">%</span></div><div id="custom-title-group"><div id="custom-title"><span style="opacity: 1; filter: blur(0px);">I</span><span style="opacity: 1; filter: blur(0px);">N</span><span style="opacity: 1; filter: blur(0px);">T</span><span style="opacity: 1; filter: blur(0px);">E</span><span style="opacity: 1; filter: blur(0px);">L</span><span style="opacity: 1; filter: blur(0px);">L</span><span style="opacity: 1; filter: blur(0px);">I</span><span style="opacity: 1; filter: blur(0px);">G</span><span style="opacity: 1; filter: blur(0px);">E</span><span style="opacity: 1; filter: blur(0px);">N</span><span style="opacity: 1; filter: blur(0px);">C</span><span style="opacity: 1; filter: blur(0px);">E</span><br><span style="opacity: 1; filter: blur(0px);">A</span><span style="opacity: 1; filter: blur(0px);">T</span><span style="opacity: 1; filter: blur(0px);"> </span><span style="opacity: 1; filter: blur(0px);">P</span><span style="opacity: 1; filter: blur(0px);">L</span><span style="opacity: 1; filter: blur(0px);">A</span><span style="opacity: 1; filter: blur(0px);">N</span><span style="opacity: 1; filter: blur(0px);">E</span><span style="opacity: 1; filter: blur(0px);">T</span><span style="opacity: 1; filter: blur(0px);">A</span><span style="opacity: 1; filter: blur(0px);">R</span><span style="opacity: 1; filter: blur(0px);">Y</span><span style="opacity: 1; filter: blur(0px);"> </span><span style="opacity: 1; filter: blur(0px);">S</span><span style="opacity: 1; filter: blur(0px);">C</span><span style="opacity: 1; filter: blur(0px);">A</span><span style="opacity: 1; filter: blur(0px);">L</span><span style="opacity: 1; filter: blur(0px);">E</span></div><div id="custom-subtitle">Orchestrating the foundation of artificial intelligence
+from the edge of the atmosphere.</div><div id="custom-cta-slot" style=""><div id="custom-cta" style="opacity: 1; pointer-events: auto; transition: padding 0.3s; box-sizing: border-box; overflow: visible;"><span id="cta-label">INITIATE SYSTEM</span></div></div></div><div id="custom-headphones"><svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M39.5,18.1c0.4-0.6,0.5-1.5,0.2-2.5l0-0.2c-0.9-3.8-3.6-15.2-19.6-15.3v0c0,0,0,0,0,0s0,0,0,0v0C4,0.2,1.3,11.7,0.4,15.4l0,0.2c-0.3,1.1-0.2,1.9,0.2,2.5c0.1,0.1,0.1,0.1,0.2,0.2c-0.7,5.9,0.7,11.7,0.8,12l0.1,0c1.3,5,2.8,7.9,4.7,9c0.7,0.4,1.4,0.5,2,0.5c0.3,0,0.6,0,0.9-0.1c0.4,0.1,0.9,0.1,1.4,0.1c1.3,0,2.9-0.3,4.4-1.2c2.1-1.5,3-4.7,2.3-8.6c-0.7-3.8-3.1-8.3-6.8-9.1c-2.8-0.6-4.9,0.6-6,1.5l-0.3-3.4c0,0,0.1,0,0.1-0.1c0.1-0.1,0.2-0.3,0.3-0.5C5.2,12.5,8.4,5.2,20,5.2c11.6,0,14.8,7.3,15.5,13.3c0,0.2,0.1,0.3,0.3,0.5c0,0,0.1,0,0.1,0.1l-0.3,3.4c-1.1-0.9-3.2-2.1-6-1.5c-3.6,0.8-6.1,5.3-6.8,9.1c-0.7,3.9,0.1,7.1,2.3,8.6c1.4,1,3.1,1.2,4.4,1.2c0.5,0,1,0,1.4-0.1c0.3,0,0.6,0.1,0.9,0.1c0.7,0,1.3-0.1,2-0.5c1.9-1.1,3.4-4,4.7-9l0.1,0c0.1-0.2,1.5-6.1,0.8-12C39.4,18.3,39.4,18.2,39.5,18.1z M1.7,19c0.1,0,0.1,0,0.2,0l0.2,0c0.4,0.1,0.7,0.1,1,0.1c0,0,0,0,0,0c0,0,0.1,0,0.1,0l0.3,3.3c0,0.2-0.1,0.9,0.3,1.3c0.2,0.2,0.5,0.3,0.8,0.3c2.2-0.2,5.1,0.5,6.6,3.4c1.4,2.5,2.2,6.4,1.1,9c-0.3,0.7-0.7,1.2-1.3,1.6c1-1.6,1.2-4.3,0.3-7c-0.8-2.5-2.3-4.5-4-5.4c-0.9-0.4-1.7-0.5-2.5-0.3c-1.4,0.5-2.3,2-2.5,3.9C2,27.6,1.2,23.3,1.7,19z M9,38.5c-0.2,0.1-0.4,0.1-0.5,0.1c0,0,0,0,0,0l0,0c-0.4,0-0.8-0.1-1.2-0.3c-1.4-0.7-2.7-2.5-3.5-4.8c-1.1-3.3-0.5-6.6,1.3-7.2c0.2-0.1,0.4-0.1,0.6-0.1c0.4,0,0.7,0.1,1.1,0.3c1.4,0.7,2.7,2.5,3.5,4.8C11.4,34.6,10.8,37.9,9,38.5z M10.2,21.9c3.2,0.7,5.4,4.8,6,8.3c0.6,3.5-0.1,6.4-1.8,7.6c-0.9,0.6-1.8,0.9-2.7,1c0.7-0.5,1.2-1.1,1.5-2c1.2-2.9,0.3-7.1-1.2-9.8c-1.6-3-4.5-3.9-6.9-3.9C6.1,22.4,7.9,21.4,10.2,21.9z M20.1,4.2L20.1,4.2C20,4.2,20,4.2,20.1,4.2C20,4.2,20,4.2,20.1,4.2L20.1,4.2c-12.8,0-15.8,8.7-16.5,14c-0.1,0-0.2,0-0.4,0c-0.1,0-0.3,0-0.4-0.1c-0.2,0-0.7-0.2-1.1-0.2c-0.1-0.1-0.2-0.1-0.3-0.3c-0.3-0.4-0.3-1-0.1-1.8l0-0.2C2.2,12.1,4.8,1.2,20,1.2c15.3,0,17.8,10.9,18.7,14.5l0,0.2c0.2,0.8,0.1,1.4-0.1,1.8c-0.1,0.1-0.2,0.2-0.3,0.3c-0.4,0.1-0.9,0.2-1.1,0.2c-0.1,0-0.3,0.1-0.4,0.1c-0.1,0-0.3,0-0.4,0C35.9,12.9,32.8,4.2,20.1,4.2z M23.8,30.2c0.7-3.5,2.8-7.6,6-8.3c2.3-0.5,4.1,0.5,5.1,1.2c-2.4,0-5.3,1-6.9,3.9c-1.5,2.7-2.4,7-1.2,9.8c0.3,0.8,0.9,1.5,1.5,2c-0.9-0.1-1.8-0.4-2.7-1C23.9,36.6,23.2,33.7,23.8,30.2z M36.3,33.6c-0.7,2.2-2,4.1-3.5,4.8c-0.4,0.2-0.8,0.3-1.2,0.3l0,0c0,0,0,0,0,0c-0.2,0-0.4,0-0.5-0.1c-1.8-0.6-2.4-3.9-1.3-7.2c0.7-2.2,2-4.1,3.5-4.8c0.6-0.3,1.2-0.4,1.7-0.2C36.7,26.9,37.3,30.3,36.3,33.6z M37.7,29.3c-0.2-2-1.1-3.5-2.5-3.9c-0.8-0.3-1.6-0.2-2.5,0.3c-1.7,0.8-3.2,2.8-4,5.4c-0.9,2.8-0.7,5.4,0.3,7c-0.5-0.4-1-0.9-1.3-1.6c-1.1-2.6-0.2-6.4,1.1-9c1.4-2.5,3.8-3.4,5.9-3.4c0.3,0,0.5,0,0.8,0c0.3,0,0.6-0.1,0.8-0.3c0.4-0.4,0.3-1.1,0.3-1.3l0.3-3.3c0,0,0.1,0,0.1,0c0,0,0,0,0,0c0.3,0,0.6-0.1,1-0.1l0.2,0c0,0,0.1,0,0.2,0C38.8,23.3,38.1,27.6,37.7,29.3z"></path></svg><div class="hp-text">Experience with headphones</div></div></div>
+
+
+<video crossorigin="anonymous" loop="" playsinline="" autoplay="" src="files/assets/297340938/1/Seedance2-0_r2v_00002YTHD_lowbitrate.mp4?t=5f0560e47ec95621695e44389cbc520f" style="width: 1px; height: 1px; position: absolute; opacity: 0; z-index: -1000; pointer-events: none;"></video><div class="tcf-1" style="position: fixed; z-index: 100; pointer-events: none; user-select: none; text-align: center; white-space: pre-line; margin: 0px; opacity: 0; transition: opacity 0.18s linear; left: 50%; transform: translateX(-50%); top: 200px; width: min(700px, -32px + 100vw); font-family: &quot;General Sans&quot;, sans-serif; font-weight: 400; font-size: 36px; line-height: 1.4; letter-spacing: 0em; text-transform: none; color: rgb(51, 51, 51);">From digital twin
+to real-world execution,</div><div class="tcf-1" style="position: fixed; z-index: 100; pointer-events: none; user-select: none; text-align: center; white-space: pre-line; margin: 0px; opacity: 0; transition: opacity 0.18s linear; left: 50%; transform: translateX(-50%); top: 200px; width: min(700px, -32px + 100vw); font-family: &quot;General Sans&quot;, sans-serif; font-weight: 400; font-size: 36px; line-height: 1.4; letter-spacing: 0em; text-transform: none; color: rgb(51, 51, 51);">AI systems bridge perception, prediction, and autonomous action.</div><div id="transition-overlay" style="position: fixed; inset: 0px; background: rgb(0, 0, 0); opacity: 0; pointer-events: none; z-index: 9998; transform-origin: center bottom;"></div><div id="cursor-orbit" style="position: fixed; left: 660px; top: 390px; width: 120px; height: 120px; pointer-events: none; z-index: 99999; will-change: left, top;"><div style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; transform-origin: center center; transform: scale(0); will-change: transform;"><svg width="120" height="120" viewBox="0 0 120 120" style="display:block;transform-origin:center;mix-blend-mode:difference;animation:cursorOrbitSpin 6s linear infinite;"><circle cx="60" cy="60" r="58.00" fill="none" stroke="rgba(255,255,255,0.85)" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="136.66 45.55"></circle></svg></div><div style="position: absolute; top: 100%; left: 50%; transform: translateX(-50%); margin-top: 10px; white-space: nowrap; font-family: &quot;JetBrains Mono&quot;, monospace; font-weight: 400; font-size: 12px; letter-spacing: 0.15em; color: rgb(255, 255, 255); mix-blend-mode: difference; opacity: 0;"></div></div><div id="cursor-hint" style="position: fixed; left: 744px; top: 450px; pointer-events: none; z-index: 99999; white-space: nowrap; transform: translateY(-50%); will-change: left, top; font-family: &quot;JetBrains Mono&quot;, monospace; color: rgb(255, 255, 255); font-weight: 800; font-size: 12px; text-transform: uppercase; letter-spacing: 0.12em; line-height: 1.4;"></div><div id="pc-overlay-root" style="position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; pointer-events: none; z-index: 500; opacity: 0; transition: opacity 1.2s cubic-bezier(0.4, 0, 0.2, 1);"><div id="pc-overlay-logo"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 155 28" xml:space="preserve"><defs><mask id="pc-o-mask" maskUnits="userSpaceOnUse" x="51.5" y="-1.5" width="31" height="31"><path d="M67 2.5 A11.5 11.5 0 1 0 67 25.5 A11.5 11.5 0 1 0 67 2.5" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" pathLength="100" stroke-dasharray="100" class="pc-o-arc"></path></mask></defs><g fill="rgb(255,255,255)"><polygon points="4.4,15.2 10.5,15.2 10.5,11.6 4.4,11.6 4.4,4.3 12,4.3 12,0.8 0.4,0.8 0.4,27.2 13.2,27.2 13.2,23.7 4.4,23.7 "></polygon><path d="M42.3,6.7c-0.6-1.1-1.4-2.1-2.5-3c-1.1-0.9-2.5-1.6-4.1-2.1c-1.7-0.5-3.7-0.8-6-0.8h-6.4v26.5h6.6c2.7,0,5-0.4,6.8-1.2c1.8-0.8,3.3-1.8,4.4-3.2c1.1-1.3,1.8-2.8,2.3-4.4c0.5-1.6,0.7-3.3,0.7-4.9c0-1.1-0.1-2.2-0.4-3.4C43.4,8.9,42.9,7.8,42.3,6.7z M39.2,17.4c-0.3,1.2-0.8,2.2-1.6,3.2c-0.7,0.9-1.7,1.7-2.9,2.2c-1.2,0.6-2.7,0.8-4.5,0.8h-3V4.3h3c2.4,0,4.2,0.4,5.6,1.3c1.4,0.9,2.4,2,3,3.5c0.6,1.4,0.9,3,0.9,4.7C39.7,15,39.5,16.2,39.2,17.4z"></path><path d="M153.9,17.2c-0.5-0.9-1-1.6-1.7-2.2c-0.8-0.7-1.7-1.4-2.7-1.9c-1-0.6-2-1.1-3-1.6c-1-0.6-1.8-1.2-2.4-1.8c-0.6-0.7-0.9-1.5-0.9-2.4c0-1.1,0.3-1.8,1-2.4c0.7-0.6,1.6-0.8,2.8-0.8c1,0,1.9,0.2,2.7,0.6c0.8,0.4,1.4,0.8,1.8,1.2l1.9-3.3c-0.3-0.3-0.7-0.6-1.3-0.9S151,1,150.2,0.8c-0.8-0.2-1.8-0.4-3-0.4c-1.4,0-2.8,0.3-4,0.8c-1.2,0.5-2.2,1.3-2.9,2.3c-0.7,1-1.1,2.4-1.1,4c0,1.6,0.3,3,1,4c0.7,1,1.5,1.9,2.4,2.5c0.8,0.5,1.7,1,2.6,1.4c0.9,0.4,1.8,0.8,2.5,1.3c0.8,0.5,1.4,1,1.9,1.6c0.5,0.6,0.7,1.4,0.7,2.3c0,1.1-0.4,1.9-1.3,2.5c-0.8,0.6-1.8,0.9-3.1,0.9c-0.7,0-1.5-0.1-2.2-0.4c-0.7-0.3-1.4-0.6-2-0.9c-0.6-0.4-1-0.6-1.2-0.9l-1.9,3.4c0.4,0.4,1,0.8,1.7,1.2c0.8,0.4,1.6,0.7,2.6,0.9c1,0.2,2,0.4,3,0.4c1.6,0,3-0.3,4.3-0.8c1.3-0.6,2.3-1.4,3-2.6c0.8-1.1,1.2-2.5,1.2-4.1C154.6,19,154.4,18,153.9,17.2z"></path><path d="M124.7,16c0,2.9-0.4,4.9-1.3,6.1c-0.8,1.2-2.2,1.8-4.1,1.8c-1.9,0-3.3-0.6-4.1-1.8c-0.8-1.2-1.3-3.2-1.3-6V0.8h-4v15.2c0,2.4,0.3,4.5,0.9,6.2c0.6,1.8,1.6,3.1,3,4c1.4,0.9,3.2,1.4,5.5,1.4c3.2,0,5.6-1,7.1-3.1s2.3-4.9,2.3-8.6V0.8h-4.1V16z"></path><path id="pc-o-letter" d="M76,4c-1.2-1.2-2.6-2.1-4.2-2.7c-0.8-0.3-1.6-0.5-2.4-0.7v3.8c0.7,0.2,1.3,0.4,1.9,0.8c1.4,0.7,2.5,1.9,3.3,3.3c0.8,1.5,1.2,3.3,1.2,5.5c0,2.2-0.4,4-1.2,5.5c-0.8,1.5-1.9,2.6-3.3,3.3c-1.4,0.8-2.9,1.2-4.5,1.2c-1.6,0-3.1-0.4-4.4-1.2c-1.4-0.8-2.5-1.9-3.3-3.3c-0.8-1.5-1.3-3.3-1.3-5.5c0-2.2,0.4-4,1.2-5.5c0.8-1.5,1.9-2.6,3.2-3.3c0.6-0.3,1.3-0.6,1.9-0.8V0.6c-0.8,0.2-1.7,0.4-2.5,0.7c-1.6,0.6-3,1.5-4.2,2.7c-1.2,1.2-2.2,2.6-2.9,4.3c-0.7,1.7-1,3.6-1,5.7c0,2.1,0.3,4,1,5.7c0.7,1.7,1.7,3.1,2.9,4.3c1.2,1.2,2.6,2.1,4.2,2.7c1.6,0.6,3.3,0.9,5.1,0.9c1.8,0,3.5-0.3,5.1-0.9c1.6-0.6,3-1.5,4.2-2.7c1.2-1.2,2.2-2.6,2.9-4.3C79.6,18,80,16.1,80,14c0-2.1-0.4-4-1.1-5.7C78.2,6.6,77.2,5.1,76,4z" mask="url(#pc-o-mask)"></path><polygon points="94.4,0.8 90.3,0.8 90.3,27.2 102,27.2 102,23.6 94.4,23.6 "></polygon></g></svg></div><div id="pc-overlay-audio" style="color: rgb(255, 255, 255);"><svg viewBox="0 0 26 26" xmlns="http://www.w3.org/2000/svg"><g fill="currentColor"><rect x="4.6" y="7.8" width="1.3" height="10.4"></rect><rect x="9.8" y="7.8" width="1.3" height="10.4"></rect><rect x="14.9" y="7.8" width="1.3" height="10.4"></rect><rect x="20.1" y="7.8" width="1.3" height="10.4"></rect></g></svg><span>AUDIO</span></div></div><video crossorigin="anonymous" loop="" playsinline="" autoplay="" src="files/assets/297340642/1/Space-compressNOAUDIO-YTfullHD.mp4?t=5a0a9ec555552bb84bfa533812619b4e" style="width: 1px; height: 1px; position: absolute; opacity: 0; z-index: -1000; pointer-events: none;"></video><div class="slabel sl-right" style="transform: translate(0px, -50%); --r-base: 80px; --r-hover: 120px; --r-th: 2px; --r-gap: 80px; --r-off: 0px; opacity: 0; display: none;"><div class="sl-ring-wrap"><div class="sl-ring"></div></div><div class="sl-textcol"><div class="sl-title" style="font-size: 22px; font-weight: 800; color: rgb(255, 255, 255); text-transform: uppercase; letter-spacing: 0em;"></div><div class="sl-sub" style="font-size: 16px; font-weight: 400; color: rgb(255, 255, 255); text-transform: uppercase; letter-spacing: 0em;"></div></div></div><div class="sctext" style="opacity: 0; transition: opacity 0.18s linear; left: 248px; top: 117px; transform: translate(0px, 0px);"><div class="sc-title" style="white-space: nowrap; font-size: 48px; font-weight: 700; line-height: 1.4; letter-spacing: 0.04em; text-transform: uppercase; color: rgb(255, 255, 255);"></div></div><div class="sctext" style="opacity: 0; transition: opacity 0.18s linear; left: 610px; top: 725px; transform: translate(0px, 0px);"><div class="sc-body" style="font-size: 14px; font-weight: 400; line-height: 1.6; letter-spacing: 0.02em; text-transform: uppercase; color: rgb(255, 255, 255); text-align: right; white-space: pre-line; width: 580px;"></div></div><div style="position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; overflow: visible; pointer-events: none; z-index: 90; opacity: 0; transition: opacity 0.18s linear; transform: translate(0px, 0px);"><svg width="100%" height="100%" preserveAspectRatio="none" viewBox="0 0 1440 900" style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; overflow: visible;"><path fill="rgb(1,1,1)" fill-opacity="0.35" fill-rule="evenodd" d="M-2880,-2880 H4320 V3780 H-2880 Z M249.2,190 H1190.8 L1245,221.7 V678.3 L1190.8,710 H249.2 L195,678.3 V221.7 Z"></path><g transform="translate(0.5,-146.7)"><polyline points="195.5,422.3 195.5,368.4 249.7,336.7" stroke-width="2" fill="none" stroke="rgb(255,255,255)" stroke-miterlimit="10" vector-effect="non-scaling-stroke"></polyline><line x1="195.5" y1="449.8" x2="195.5" y2="466.4" stroke-width="2" fill="none" stroke="rgb(255,255,255)" stroke-miterlimit="10" vector-effect="non-scaling-stroke"></line></g><g transform="translate(0.5,-233.60000000000002)"><polyline points="195.5,858 195.5,911.9 249.7,943.6" stroke-width="2" fill="none" stroke="rgb(255,255,255)" stroke-miterlimit="10" vector-effect="non-scaling-stroke"></polyline><line x1="195.5" y1="830.5" x2="195.5" y2="813.9" stroke-width="2" fill="none" stroke="rgb(255,255,255)" stroke-miterlimit="10" vector-effect="non-scaling-stroke"></line></g><g transform="translate(-260.5,-146.7)"><polyline points="1504.5,422.3 1504.5,368.4 1450.3,336.7" stroke-width="2" fill="none" stroke="rgb(255,255,255)" stroke-miterlimit="10" vector-effect="non-scaling-stroke"></polyline><line x1="1504.5" y1="449.8" x2="1504.5" y2="466.4" stroke-width="2" fill="none" stroke="rgb(255,255,255)" stroke-miterlimit="10" vector-effect="non-scaling-stroke"></line></g><g transform="translate(-260.5,-233.60000000000002)"><polyline points="1504.5,858 1504.5,911.9 1450.3,943.6" stroke-width="2" fill="none" stroke="rgb(255,255,255)" stroke-miterlimit="10" vector-effect="non-scaling-stroke"></polyline><line x1="1504.5" y1="830.5" x2="1504.5" y2="813.9" stroke-width="2" fill="none" stroke="rgb(255,255,255)" stroke-miterlimit="10" vector-effect="non-scaling-stroke"></line></g><g transform="translate(0.5,-190.14999999999998)"><path d="M195.5,765 V515 l19.2,18.5 c1.2,1.2,1.9,2.5,1.9,3.9 v205.2 c0,1.4-0.7,2.7-1.9,3.9 L195.5,765 z" fill="rgb(255,255,255)"></path></g><g transform="translate(-260.5,-190.14999999999998)"><path d="M1504.9,515 V765 l-18.2-18.5 c-1.2-1.2-1.8-2.5-1.8-3.9 V537.4 c0-1.4,0.6-2.7,1.8-3.9 L1504.9,515 z" fill="rgb(255,255,255)"></path></g><g transform="translate(0.5,-146.7)"><line x1="227.5" y1="296.4" x2="196.8" y2="296.4" stroke-width="1" fill="none" stroke="rgb(255,255,255)" stroke-miterlimit="10" vector-effect="non-scaling-stroke"></line><line x1="212.1" y1="311.7" x2="212.1" y2="281.2" stroke-width="1" fill="none" stroke="rgb(255,255,255)" stroke-miterlimit="10" vector-effect="non-scaling-stroke"></line></g><g transform="translate(-260.5,-146.7)"><rect x="1494.6" y="331.7" width="9.9" height="9.9" stroke-width="1" fill="none" stroke="rgb(255,255,255)" stroke-miterlimit="10" vector-effect="non-scaling-stroke"></rect><rect x="1480" y="331.7" width="9.9" height="9.9" fill="rgb(255,255,255)"></rect></g><g transform="translate(-75.5,-10.340000000000003)"><line x1="152.4" y1="189.1" x2="181.9" y2="189.1" stroke-width="1" fill="none" stroke="rgb(255,255,255)" stroke-miterlimit="10" vector-effect="non-scaling-stroke"></line><line x1="195.5" y1="150.3" x2="195.5" y2="181.2" stroke-width="1" fill="none" stroke="rgb(255,255,255)" stroke-miterlimit="10" vector-effect="non-scaling-stroke"></line></g><g transform="translate(-184.5,-10.340000000000003)"><line x1="1547.6" y1="189.1" x2="1518.1" y2="189.1" stroke-width="1" fill="none" stroke="rgb(255,255,255)" stroke-miterlimit="10" vector-effect="non-scaling-stroke"></line><line x1="1504.5" y1="150.3" x2="1504.5" y2="181.2" stroke-width="1" fill="none" stroke="rgb(255,255,255)" stroke-miterlimit="10" vector-effect="non-scaling-stroke"></line></g><g transform="translate(-75.5,-359.46000000000004)"><line x1="152.4" y1="1080.7" x2="181.9" y2="1080.7" stroke-width="1" fill="none" stroke="rgb(255,255,255)" stroke-miterlimit="10" vector-effect="non-scaling-stroke"></line><line x1="195.5" y1="1119.5" x2="195.5" y2="1088.6" stroke-width="1" fill="none" stroke="rgb(255,255,255)" stroke-miterlimit="10" vector-effect="non-scaling-stroke"></line></g><g transform="translate(-184.5,-359.46000000000004)"><line x1="1547.6" y1="1080.7" x2="1518.1" y2="1080.7" stroke-width="1" fill="none" stroke="rgb(255,255,255)" stroke-miterlimit="10" vector-effect="non-scaling-stroke"></line><line x1="1504.5" y1="1119.5" x2="1504.5" y2="1088.6" stroke-width="1" fill="none" stroke="rgb(255,255,255)" stroke-miterlimit="10" vector-effect="non-scaling-stroke"></line></g></svg></div><div class="dlabel" style="text-align: right; transform: translate(-100%, -50%); opacity: 1; left: 629.592px; top: 700.236px; display: none;"><div style="font-family: &quot;General Sans&quot;, sans-serif; font-weight: 700; font-size: 64px; line-height: 0.9; text-transform: uppercase; color: rgb(255, 255, 255); margin-bottom: 30px; text-align: left; min-height: 115.2px;"><div style="min-height: 57.6px;"></div><div style="min-height: 57.6px; padding-left: 120px;"></div></div><div style="display: flex; align-items: flex-start; font-family: &quot;JetBrains Mono&quot;, monospace; transform: translate(125px, 0px);"><div style="flex: 0 0 auto; display: flex; align-items: center; justify-content: center; height: 23.8px; width: 14px; margin-right: 10px; color: rgb(255, 255, 255);"><span style="display:inline-flex;width:14px;height:14px"><svg width="100%" height="100%" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg"><line x1="10.5" y1="0" x2="10.5" y2="21" stroke="currentColor"></line><line x1="0" y1="10.5" x2="21" y2="10.5" stroke="currentColor"></line></svg></span></div><div style="text-align: left; font-size: 14px; font-weight: 400; line-height: 1.7; letter-spacing: 0.02em; text-transform: uppercase; color: rgb(255, 255, 255); white-space: pre-line; width: 300px; min-height: 23.8px;"></div></div></div><div style="position: fixed; z-index: 100; pointer-events: none; user-select: none; font-family: &quot;JetBrains Mono&quot;, monospace; margin: 0px; transition: opacity 0.18s linear; left: 25%; top: 60%; transform: translate(calc(0px), 0px); display: flex; align-items: flex-start; opacity: 0;"><div style="flex:0 0 auto;display:flex;align-items:center;justify-content:center;height:23.8px;width:14px;margin-right:10px;color:rgb(255,255,255)"><span style="display:inline-flex;width:14px;height:14px"><svg width="100%" height="100%" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg"><line x1="10.5" y1="0" x2="10.5" y2="21" stroke="currentColor"></line><line x1="0" y1="10.5" x2="21" y2="10.5" stroke="currentColor"></line></svg></span></div><div style="text-align:left;max-width:460px;font-size:14px;font-weight:400;line-height:1.7;letter-spacing:0.02em;text-transform:uppercase;color:rgb(255,255,255);white-space:pre-line"><span style="opacity: 0;">_</span></div></div><div style="position: fixed; z-index: 100; pointer-events: none; user-select: none; font-family: &quot;JetBrains Mono&quot;, monospace; margin: 0px; transition: opacity 0.18s linear; left: 510px; top: 40%; transform: translate(calc(0px), 0px); display: flex; align-items: flex-start; opacity: 0;"><div style="flex:0 0 auto;display:flex;align-items:center;justify-content:center;height:23.8px;width:14px;margin-right:10px;color:rgb(255,255,255)"><span style="display:inline-flex;width:14px;height:14px"><svg width="100%" height="100%" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg"><line x1="10.5" y1="0" x2="10.5" y2="21" stroke="currentColor"></line><line x1="0" y1="10.5" x2="21" y2="10.5" stroke="currentColor"></line></svg></span></div><div style="text-align:left;max-width:460px;font-size:14px;font-weight:400;line-height:1.7;letter-spacing:0.02em;text-transform:uppercase;color:rgb(255,255,255);white-space:pre"><span style="opacity: 0;">_</span></div></div><div style="position: fixed; z-index: 100; pointer-events: none; user-select: none; font-family: &quot;JetBrains Mono&quot;, monospace; opacity: 0; transition: opacity 0.18s linear; text-align: left; left: 85px; bottom: 200px; min-height: 126px;"><div style="font-size: 48px; font-weight: 700; line-height: 1.4; letter-spacing: 0em; text-transform: uppercase; color: rgb(255, 255, 255); margin: 0px 0px 14px; white-space: pre-line; font-family: &quot;General Sans&quot;, sans-serif;"><span style="opacity: 0;">_</span></div><div style="display: flex; align-items: flex-start; justify-content: flex-start;"><div style="flex: 0 0 auto; display: flex; align-items: center; justify-content: center; width: 12px; margin-right: 10px; color: rgb(255, 255, 255); height: 22.4px;"><span style="display:inline-flex;width:12px;height:12px"><svg width="100%" height="100%" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg"><line x1="10.5" y1="0" x2="10.5" y2="21" stroke="currentColor"></line><line x1="0" y1="10.5" x2="21" y2="10.5" stroke="currentColor"></line></svg></span></div><div style="font-size: 14px; font-weight: 400; line-height: 1.6; letter-spacing: 0.02em; text-transform: uppercase; color: rgb(196, 199, 199); margin: 0px; white-space: pre-line; max-width: 520px;"><span style="opacity: 0;">_</span></div></div></div><div id="ending-credits" style="display: none;"><div id="ec-dim" style="opacity: 0.5;"></div><div id="ec-blur" style="backdrop-filter: blur(12px);"></div><div id="ec-band-top" style="height: 44.794svh;"></div><div id="ec-band-bottom" style="height: 44.794svh;"></div><div class="ec-line" style="opacity: 0;"><span class="reg">Edolus</span> <span class="bold">never existed.</span></div><div class="ec-line" style="opacity: 0.791;"><span class="reg">The experience</span> <span class="bold">did.</span></div><div class="ec-line" id="ec-final" style="opacity: 0;"><a class="ec-logo" href="https://www.vertex3d.asia/" target="_blank" rel="noopener" style="bottom: calc(100% + clamp(50px, 9.09vw, 100px)); pointer-events: none;"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 153.7 133.5" xml:space="preserve"><g><g><path class="st1" d="M6.8,131l-5.9-15.9h3.6l4.1,11.7h0.1l4.1-11.7h3.6L10.7,131H6.8z"></path><path class="st1" d="M22.9,131v-15.9h11.8v3.2h-8.4v3.1h6.6v3.1h-6.6v3.4H35v3.2H22.9z"></path><path class="st1" d="M42,131v-15.9h7c1.7,0,3,0.5,4,1.5c1,1,1.5,2.3,1.5,3.9c0,1.6-0.5,2.8-1.4,3.7c-0.4,0.4-0.8,0.7-1.4,1l3.3,5.9h-3.7l-2.8-5.2h-3.2v5.2H42z M45.4,122.6h3.5c0.6,0,1.2-0.2,1.6-0.6s0.6-0.9,0.6-1.6s-0.2-1.2-0.6-1.6c-0.4-0.4-0.9-0.6-1.6-0.6h-3.5V122.6z"></path><path class="st1" d="M64.5,131v-12.7h-4.5v-3.2h12.5v3.2h-4.5V131H64.5z"></path><path class="st1" d="M78.9,131v-15.9h11.8v3.2h-8.4v3.1h6.6v3.1h-6.6v3.4h8.6v3.2H78.9z"></path><path class="st1" d="M95.9,131l5.4-8.3l-5-7.6h4l3.2,5.2h0.1l3.2-5.2h4l-5,7.6l5.4,8.3h-4l-3.7-5.9h-0.1l-3.7,5.9H95.9z"></path></g><g><path class="st1" d="M119.3,128.8l2.5-2.6c0.2,0.2,0.5,0.5,0.9,0.7c0.7,0.5,1.5,0.7,2.3,0.7c0.7,0,1.2-0.1,1.5-0.4c0.4-0.3,0.5-0.6,0.5-1.1c0-0.4-0.2-0.8-0.5-1.1c-0.4-0.3-0.9-0.4-1.5-0.4h-1.6v-3.5h1.6c0.6,0,1-0.1,1.3-0.4c0.3-0.2,0.4-0.6,0.4-1s-0.1-0.7-0.4-1c-0.3-0.2-0.7-0.4-1.3-0.4c-0.7,0-1.3,0.2-1.9,0.6c-0.3,0.2-0.5,0.4-0.7,0.6l-2.5-2.6c0.4-0.5,0.9-0.8,1.5-1.2c1.3-0.8,2.7-1.2,4.2-1.2c1.7,0,3.1,0.4,4.1,1.3c1,0.9,1.6,2,1.6,3.2c0,1.1-0.5,2-1.4,2.7c-0.4,0.3-0.9,0.5-1.4,0.7c0.6,0.2,1.1,0.5,1.6,0.8c1.1,0.8,1.6,1.9,1.6,3.1c0,1.4-0.6,2.5-1.7,3.5c-1.1,0.9-2.6,1.4-4.5,1.4c-1.6,0-3.1-0.4-4.5-1.3C120.4,129.8,119.8,129.4,119.3,128.8z"></path><path class="st1" d="M138.3,131v-15.9h5.9c2.5,0,4.6,0.8,6.2,2.3c1.6,1.5,2.4,3.4,2.4,5.6c0,2.2-0.8,4.1-2.4,5.6c-1.6,1.5-3.7,2.3-6.2,2.3H138.3z M142.6,127.1h1.6c1.2,0,2.2-0.4,3-1.2c0.8-0.8,1.2-1.7,1.2-2.9c0-1.2-0.4-2.2-1.2-2.9c-0.8-0.8-1.8-1.2-3-1.2h-1.6V127.1z"></path></g><g><g><path class="st2" d="M20.6,2.2c12.8,22.2,25.1,43.5,37.6,65.4c1.3-2.2,2.2-3.7,3.2-5.3c-10.3-18.1-20.6-36-31.3-54.6c6.6,0,12.2,0,17.9,0C60.9,30,73.7,52.2,86.4,74.4c-3,5.2-5.7,10-9,15.6c-3.4-6-6.1-10.8-8.8-15.6c1.8-3.3,3.3-6.1,5-9.2c-1.1-1.5-2.1-2.9-3.5-4.7c-2.9,5-5.4,9.4-8,13.9c5,8.7,9.9,17.2,15.3,26.4c5.4-9.4,10.3-17.9,15.2-26.5C78.7,50.1,64.9,26.2,51,2.1C41.2,2.2,31.5,2.2,20.6,2.2z M96.6,67.7c12.8-22.2,25-43.5,37.6-65.5c-10.9,0-20.6,0-30.5,0c-7.6,13.1-15,26.1-22.6,39.2c1.1,1.7,2,3.1,3.3,5.1c7.8-13.4,15.3-26.3,22.5-38.8c6.2,0,11.5,0,17.8,0c-10.7,18.7-21,36.7-31.4,54.7C94.4,64.2,95.3,65.6,96.6,67.7z"></path><path class="st2" d="M20.6,2.2c10.9,0,20.6,0,30.5,0c13.9,24,27.6,48,41.6,72.2c-4.9,8.5-9.8,17.1-15.2,26.5c-5.4-9.3-10.3-17.8-15.3-26.4c2.5-4.4,5.1-8.8,8-13.9c1.3,1.8,2.3,3.2,3.5,4.7c-1.7,3.1-3.2,5.9-5,9.2c2.7,4.8,5.4,9.6,8.8,15.6c3.3-5.7,6-10.4,9-15.6C73.7,52.3,61,30.1,48.1,7.8c-5.7,0-11.2,0-17.9,0c10.7,18.6,20.9,36.6,31.3,54.6c-1,1.7-1.9,3.1-3.2,5.3C45.6,45.7,33.4,24.4,20.6,2.2z"></path><path class="st2" d="M96.6,67.7c-1.2-2.1-2.1-3.5-3.2-5.3c10.3-18,20.7-36,31.4-54.7c-6.3,0-11.6,0-17.8,0c-7.2,12.5-14.7,25.4-22.5,38.8c-1.3-2-2.2-3.4-3.3-5.1c7.5-13.1,15-26.1,22.6-39.2c9.9,0,19.6,0,30.5,0C121.6,24.1,109.3,45.5,96.6,67.7z"></path></g></g></g></svg></a><div class="ec-tagline"><span class="reg">Now</span> <span class="bold">imagine your own.</span></div><a class="ec-email" href="mailto:studio@vertex3d.asia" style="top: calc(100% + clamp(50px, 9.09vw, 100px)); font-size: clamp(14px, 4.4vw, 22px); pointer-events: none;">[ STUDIO@VERTEX3D.ASIA ]</a></div><div id="ec-replay" style="bottom: 40px; opacity: 0; pointer-events: none;"><div class="ec-replay-text"></div><div class="ec-replay-line"></div></div></div><div style="position:fixed;z-index:2147483647;bottom:8px;left:8px;font:12px system-ui;background:#000;color:#fff;padding:4px 8px;border-radius:4px;opacity:.75">Aperçu statique (sans JS ni animations) — référence visuelle : captures/ et vidéo</div></body></html>

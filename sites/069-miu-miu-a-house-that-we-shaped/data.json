@@ -1,0 +1,464 @@
+{
+ "id": 69,
+ "name": "MIU MIU A House that we shaped",
+ "sourceUrl": "https://immersivebags.miumiu.com/",
+ "capturedAt": "2026-11-03T09:04:28.739Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg"
+  ],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://immersivebags.miumiu.com/en/",
+ "title": "Miu Miu - 2026 Bag Campaign",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Explore the new bag collection and discover something special",
+  "canonical": "https://immersivebags.miumiu.com/en/",
+  "robots": "noindex,nofollow",
+  "ogTitle": "Miu Miu - 2026 Bag Campaign",
+  "ogImage": "https://immersivebags.miumiu.com/share.png?v=ca51000",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [],
+  "h1Count": 0,
+  "headings": [],
+  "imgs": 0,
+  "imgNoAlt": 0,
+  "favicon": "https://immersivebags.miumiu.com/favicon.ico?v=ca51000",
+  "themeColor": "#000000"
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#ffffff",
+    "w": 1303253
+   }
+  ],
+  "text": [
+   {
+    "v": "#ffffff",
+    "w": 145
+   },
+   {
+    "v": "#000000",
+    "w": 5
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "WorkSans",
+    "w": 150
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "54px",
+    "w": 10
+   },
+   {
+    "v": "10px",
+    "w": 3
+   },
+   {
+    "v": "17.1px",
+    "w": 2
+   },
+   {
+    "v": "27px",
+    "w": 2
+   },
+   {
+    "v": "14px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "4px",
+    "w": 1
+   }
+  ],
+  "shadows": [
+   {
+    "v": "rgba(0, 0, 0, 0.25) 0.5px 0.5px 1px 0px",
+    "w": 1
+   }
+  ],
+  "transitions": [
+   {
+    "v": "ease-in-out 0.55s",
+    "w": 3
+   },
+   {
+    "v": "ease-in-out 0.65s",
+    "w": 2
+   },
+   {
+    "v": "cubic-bezier(0.25 0.4s",
+    "w": 2
+   },
+   {
+    "v": "cubic-bezier(0.785 0.65s",
+    "w": 1
+   },
+   {
+    "v": "ease 0.3s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "body": {
+    "family": "WorkSans, sans-serif",
+    "size": "10px",
+    "weight": "400",
+    "lineHeight": "11px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "For an optimal experienceplease turn on your soundmiumiupresentsAHousethatweshap"
+   }
+  },
+  "cssVars": {
+   "--bg-color": "#000",
+   "--base-text": "calc((15px) * var(--h-demult, 1))",
+   "--padding": "max(6px, calc(var(--base-text) * .15))",
+   "--ui-bps": "xs:400px / s:640px / sm:768px / md:1024px / lg:1200px / xl:1600px / xxl:1920px",
+   "--ui-colors": "bg-primary:#0c0f60 / primary-hover:#000 / primary:#fff / yellow:#ffe100 / white:#fff / black:#000 / paper:#ffedd9 / beige:#fcf5e6 / blue:#26",
+   "--ui-color-bg-primary": "#0c0f60",
+   "--ui-color-primary-hover": "#000",
+   "--ui-color-primary": "#fff",
+   "--ui-color-yellow": "#ffe100",
+   "--ui-color-white": "#fff",
+   "--ui-color-black": "#000",
+   "--ui-color-paper": "#ffedd9",
+   "--ui-color-beige": "#fcf5e6",
+   "--ui-color-blue": "#265adf",
+   "--ui-color-red": "#c60000",
+   "--ui-color-viewmaster-red": "#d81219",
+   "--ui-color-viewmaster-beige": "#eee2b7",
+   "--ui-color-phone-beige": "#d7c8b1",
+   "--miumiu-header": "1.5em"
+  },
+  "fontFaces": [
+   {
+    "family": "SometypeMono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/assets/SometypeMono-Regular.nexthBwib24d0b8d.woff2\") format(\"woff2\"), url(\"/assets/SometypeMono-Regular.Bz8OthtPb24d0b8d.woff\") format(\"woff\")"
+   },
+   {
+    "family": "BiroScript",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/assets/BiroScript.90UN4bR0b24d0b8d.woff2\") format(\"woff2\"), url(\"/assets/BiroScript.CwNQo8qCb24d0b8d.woff\") format(\"woff\")"
+   },
+   {
+    "family": "WorkSans",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/assets/WorkSans-Regular.B9ExyInWb24d0b8d.woff2\") format(\"woff2\"), url(\"/assets/WorkSans-Regular.Dt5RlKZdb24d0b8d.woff\") format(\"woff\")"
+   },
+   {
+    "family": "WorkSans",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"/assets/WorkSans-Bold.CHhifYYlb24d0b8d.woff2\") format(\"woff2\"), url(\"/assets/WorkSans-Bold.DjrEkQwRb24d0b8d.woff\") format(\"woff\")"
+   },
+   {
+    "family": "SometypeMono",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/assets/SometypeMono-Regular.nexthBwib24d0b8d.woff2\") format(\"woff2\"), url(\"/assets/SometypeMono-Regular.Bz8OthtPb24d0b8d.woff\") format(\"woff\")"
+   },
+   {
+    "family": "BiroScript",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/assets/BiroScript.90UN4bR0b24d0b8d.woff2\") format(\"woff2\"), url(\"/assets/BiroScript.CwNQo8qCb24d0b8d.woff\") format(\"woff\")"
+   },
+   {
+    "family": "WorkSans",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/assets/WorkSans-Regular.B9ExyInWb24d0b8d.woff2\") format(\"woff2\"), url(\"/assets/WorkSans-Regular.Dt5RlKZdb24d0b8d.woff\") format(\"woff\")"
+   },
+   {
+    "family": "WorkSans",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"/assets/WorkSans-Bold.CHhifYYlb24d0b8d.woff2\") format(\"woff2\"), url(\"/assets/WorkSans-Bold.DjrEkQwRb24d0b8d.woff\") format(\"woff\")"
+   }
+  ],
+  "keyframes": [
+   "preloader-spinner",
+   "shake1",
+   "jitter-subtle",
+   "jitter-subtle-rtl",
+   "ken-burns",
+   "underline-expand-56ee19ba",
+   "counterEnter-edcb2055",
+   "counterLeave-edcb2055",
+   "counterReturn-edcb2055",
+   "hotspotLoadingSpin-d83d10c7",
+   "pulseMiddleOutCircle-d83d10c7",
+   "wiggle-a373ba30"
+  ],
+  "breakpoints": [
+   {
+    "v": "768px",
+    "w": 52
+   },
+   {
+    "v": "639px",
+    "w": 30
+   },
+   {
+    "v": "1199px",
+    "w": 28
+   },
+   {
+    "v": "399px",
+    "w": 13
+   },
+   {
+    "v": "1023px",
+    "w": 10
+   },
+   {
+    "v": "640px",
+    "w": 5
+   },
+   {
+    "v": "769px",
+    "w": 4
+   },
+   {
+    "v": "767px",
+    "w": 4
+   },
+   {
+    "v": "1200px",
+    "w": 4
+   },
+   {
+    "v": "1025px",
+    "w": 3
+   },
+   {
+    "v": "1440px",
+    "w": 2
+   },
+   {
+    "v": "1899px",
+    "w": 2
+   }
+  ],
+  "rulesCount": 1238,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [],
+  "navLinks": [],
+  "ctas": [],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 1,
+   "videos": 0,
+   "imgs": 0,
+   "svgs": 4,
+   "iframes": 0,
+   "domNodes": 195
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": false,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": true,
+  "cms": [],
+  "analytics": [],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://tags.tiqcdn.com/utag/prada/prada.iframe/prod/utag.js",
+  "https://tags.tiqcdn.com/utag/prada/prada.iframe/prod/utag.1.js?utv=ut4.54.202511201011",
+  "https://tags.tiqcdn.com/utag/prada/prada.iframe/prod/utag.v.js?a=prada/prada.iframe/202511201001&cb=1793696670384",
+  "https://immersivebags.miumiu.com/assets/app.BJQTJplKb24d0b8d.js"
+ ],
+ "internal": [],
+ "perf": {
+  "ttfb": 34,
+  "dcl": 164,
+  "load": 475,
+  "lcp": 2032,
+  "lcpEl": "SPAN",
+  "cls": 0.001
+ },
+ "libs": {
+  "detected": [
+   "Three.js",
+   "Vue"
+  ],
+  "where": {
+   "Three.js": [
+    "002-vendor.BGeYFsBob24d0b8d.js"
+   ],
+   "Vue": [
+    "002-vendor.BGeYFsBob24d0b8d.js"
+   ]
+  },
+  "gsapVersion": null,
+  "threeRevision": null,
+  "shaders": 9,
+  "scripts": 9
+ },
+ "network": {
+  "requests": 36,
+  "totalKb": 6002,
+  "byType": {
+   "Document": {
+    "n": 2,
+    "kb": 27
+   },
+   "Stylesheet": {
+    "n": 4,
+    "kb": 10
+   },
+   "Script": {
+    "n": 8,
+    "kb": 264
+   },
+   "Font": {
+    "n": 2,
+    "kb": 130
+   },
+   "Image": {
+    "n": 6,
+    "kb": 508
+   },
+   "Fetch": {
+    "n": 11,
+    "kb": 4183
+   },
+   "XHR": {
+    "n": 2,
+    "kb": 880
+   },
+   "Other": {
+    "n": 1,
+    "kb": 1
+   }
+  },
+  "thirdPartyHosts": [
+   "tags.tiqcdn.com"
+  ],
+  "fontFiles": [
+   "https://immersivebags.miumiu.com/assets/WorkSans-Regular.B9ExyInWb24d0b8d.woff2",
+   "https://immersivebags.miumiu.com/assets/WorkSans-Bold.CHhifYYlb24d0b8d.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://immersivebags.miumiu.com/b/9OJepvNLm586.ktx2",
+    "kb": 1193,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://immersivebags.miumiu.com/b/f8qfD5bque5r.ktx2",
+    "kb": 1143,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://immersivebags.miumiu.com/b/nZ5p62zkmn1s.ktx2",
+    "kb": 1021,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://immersivebags.miumiu.com/b/xyzyLaquYzY8.m4a",
+    "kb": 717,
+    "type": "XHR"
+   },
+   {
+    "url": "https://immersivebags.miumiu.com/b/fSA2a2f_pCXi.webp",
+    "kb": 333,
+    "type": "Image"
+   },
+   {
+    "url": "https://immersivebags.miumiu.com/b/nbJflwtvYtv5.ktx2",
+    "kb": 325,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://immersivebags.miumiu.com/b/IleJCHdJk2cx.ktx2",
+    "kb": 204,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://immersivebags.miumiu.com/vendors/basis/basis_transcoder.wasm",
+    "kb": 201,
+    "type": "Fetch"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": null,
+  "body": "10px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 55
+}

@@ -1,0 +1,47 @@
+[
+ {
+  "file": "001-app.BJQTJplKb24d0b8d.js",
+  "url": "https://immersivebags.miumiu.com/assets/app.BJQTJplKb24d0b8d.js",
+  "kb": 58
+ },
+ {
+  "file": "002-vendor.BGeYFsBob24d0b8d.js",
+  "url": "https://immersivebags.miumiu.com/assets/vendor.BGeYFsBob24d0b8d.js",
+  "kb": 737
+ },
+ {
+  "file": "003-hotspots.CHUje0rcb24d0b8d.js",
+  "url": "https://immersivebags.miumiu.com/assets/hotspots.CHUje0rcb24d0b8d.js",
+  "kb": 1
+ },
+ {
+  "file": "004-loader.1ikZMdAgb24d0b8d.js",
+  "url": "https://immersivebags.miumiu.com/assets/loader.1ikZMdAgb24d0b8d.js",
+  "kb": 237
+ },
+ {
+  "file": "005-draco_wasm_wrapper.js",
+  "url": "https://immersivebags.miumiu.com/vendors/draco/draco_wasm_wrapper.js",
+  "kb": 57
+ },
+ {
+  "file": "006-basis_transcoder.js",
+  "url": "https://immersivebags.miumiu.com/vendors/basis/basis_transcoder.js",
+  "kb": 61
+ },
+ {
+  "file": "007-utag.js",
+  "url": "https://tags.tiqcdn.com/utag/prada/prada.iframe/prod/utag.js",
+  "kb": 35
+ },
+ {
+  "file": "008-utag.1.js",
+  "url": "https://tags.tiqcdn.com/utag/prada/prada.iframe/prod/utag.1.js?utv=ut4.54.202511201011",
+  "kb": 2
+ },
+ {
+  "file": "009-RoomView.HAXyBnyOb24d0b8d.js",
+  "url": "https://immersivebags.miumiu.com/assets/RoomView.HAXyBnyOb24d0b8d.js",
+  "kb": 17
+ }
+]

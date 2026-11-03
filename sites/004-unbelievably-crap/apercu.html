@@ -1,0 +1,1031 @@
+<!DOCTYPE html><html lang="en" class="copy-reveal-off" style="--line-ms: 1600ms; --line-step: 14ms; --line-blur: 11px;"><head><meta charset="utf-8"><base href="https://www.unbelievablycrap.com/">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Liubomyr Ulytskyi - Digital Designer</title>
+<meta name="description" content="Liubomyr Ulytskyi — Digital Designer, award-winning UI/UX Designer, art director, conceptualist.">
+<meta name="color-scheme" content="light">
+
+<!-- ---- icons --------------------------------------------------------------
+     favicon.ico SITS AT THE ROOT AND IS LINKED ANYWAY. Browsers request
+     /favicon.ico on their own whether or not anything points at it — that
+     unasked-for request is the 404 that was in the console — and the .ico
+     carries both 16 and 32 in the one file for the browsers that only look
+     there. The two PNGs below are what anything modern actually picks up. -->
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+<!-- ---- the share card -----------------------------------------------------
+     THE URLS ARE ABSOLUTE, AND THAT IS NOT A STYLE CHOICE. Slack, iMessage,
+     WhatsApp and every crawler fetch og:image from their OWN servers, where a
+     relative path resolves against nothing at all. A relative one previews
+     perfectly on your machine and shows an empty grey box everywhere it
+     matters, which is the usual way this gets shipped broken.
+
+     og:url is the page's own address, so each of the three carries its own.
+     Barba keeps <head> across an in-site navigation, so after a click these
+     stop matching what is on screen — which costs nothing, because a crawler
+     never clicks. It reads the HTML the server sent and stops there. -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="unbelievablycrap.com">
+<meta property="og:title" content="Liubomyr Ulytskyi - Digital Designer">
+<meta property="og:description" content="Liubomyr Ulytskyi — Digital Designer, award-winning UI/UX Designer, art director, conceptualist.">
+<meta property="og:url" content="https://unbelievablycrap.com/">
+<meta property="og:image" content="https://unbelievablycrap.com/og-image.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The scan figure standing in the dark, surrounded by tracking readouts and coordinates.">
+<meta name="twitter:card" content="summary_large_image">
+
+
+<!-- Barba keeps <head> across a navigation, so BOTH pages load the FULL set
+     in the same order. base.css holds everything global; style.css and
+     wheel.css each own only their page's components. -->
+<!-- THE LOADER'S FACE, FETCHED BEFORE THE STYLESHEETS ASK FOR IT.
+     The loader is the first thing painted and every line of it is this face.
+     Without this the browser only discovers the font after base.css parses and
+     a text node needs it, which leaves a visible window of fallback type — and
+     with `font-display: swap` that window is what the copy is painted in.
+
+     crossorigin IS REQUIRED EVEN SAME-ORIGIN. Fonts are fetched in anonymous
+     CORS mode; a preload without it is a second, separate request and the file
+     is downloaded twice.
+
+     Only the one face. Supply Mono and the Ultralights are not on the first
+     screen, and a preload for something nobody sees takes bandwidth from
+     something they do. -->
+<link rel="preload" href="fonts/PPSupplySans-Regular.woff" as="font" type="font/woff" crossorigin="">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/wheel.css">
+<link rel="stylesheet" href="css/ui.css">
+<link rel="stylesheet" href="css/about.css">
+<link rel="stylesheet" href="css/hud.css">
+<link rel="stylesheet" href="css/block2.css">
+<link rel="stylesheet" href="css/tscroll.css">
+<link rel="stylesheet" href="css/footer.css">
+<link rel="stylesheet" href="css/tunnel.css">
+<link rel="stylesheet" href="css/path-gallery.css">
+<link rel="stylesheet" href="css/path-map.css">
+<link rel="stylesheet" href="css/work-grid.css">
+<link rel="stylesheet" href="css/lightbox.css">
+<link rel="stylesheet" href="css/contact-cta.css">
+<link rel="stylesheet" href="css/work-arrive.css">
+<link rel="stylesheet" href="css/crt.css">
+<link rel="stylesheet" href="css/figure-host.css">
+<link rel="stylesheet" href="css/transition.css">
+<link rel="stylesheet" href="css/loader.css">
+<!-- LAST, and that is the point: every rule in it is an override of one
+     above at equal specificity, so load order is what makes the phone layout
+     win. Deleting this line leaves the desktop site exactly as it was. -->
+<link rel="stylesheet" href="css/mobile.css">
+<!-- AFTER mobile.css, and that is the point: this file hides what that one
+     lays out, so it has to win at equal specificity. -->
+<link rel="stylesheet" href="css/gate.css">
+
+<!-- Two decisions that have to be made BEFORE the first paint, which is why
+     this is inline and not in a file:
+
+     is-wiping — arrived mid-wipe on the no-Barba fallback path. Puts the
+       cover up so the page load itself is never visible; js/transition.js
+       sweeps it off.
+
+     is-loading — run the intro loader. Set on every landing, per the brief.
+       It is deliberately NOT set when arriving through the transition
+       fallback (that is a page change, not a landing), when ?skip is in the
+       URL, or under prefers-reduced-motion. The class is the single switch:
+       css/loader.css hides the layer without it and js/loader.js is inert. -->
+
+  <link rel="stylesheet" href="css/err.css">
+</head>
+<body data-barba="wrapper" data-page="mask">
+
+  <!-- ==================================================================
+       THE PHONE DOOR, Figma 14790:29095. Outside the Barba container, like
+       the grain and the transition, so it survives a navigation and is
+       written once rather than four times over.
+
+       It is display:none on every screen wider than 720px — see css/gate.css,
+       where every rule sits inside the class the head script sets — so the
+       desktop site does not pay a pixel or a millisecond for it.
+       ================================================================== -->
+  <div class="gate">
+    <!-- js/work-cursor.js mounts the character field in here. Empty on
+         purpose: the canvas is that module's, not this markup's. -->
+    <div class="gate__bg" aria-hidden="true"></div>
+    <!-- Two siblings, not a wrapper: the design centres the MARK and hangs the
+         line off it, and a wrapper would centre the pair instead. -->
+    <img class="gate__logo" src="assets/logo.svg" alt="" width="128" height="128">
+    <!-- THE BREAKS ARE WRITTEN, NOT LEFT TO THE BOX. Figma sets this as three
+         lines in a 107px block, and where a line falls is art direction — let
+         it wrap on its own and it becomes two lines here and three on a phone
+         whose font loaded a beat later. -->
+    <p class="gate__say">the crap experience is<br>best viewed with<br>a desktop</p>
+    <p class="gate__foot">sorry, not sorry</p>
+  </div>
+
+  <!-- Persistent layers. Both sit OUTSIDE the container so they survive the
+       swap: the grain never blinks, and the transition overlay cannot clip
+       itself away mid-wipe. -->
+  <div class="grain" data-grain-animate="true" aria-hidden="true"></div>
+
+  <!-- Intro loader. Outside the container like the grain and the transition,
+       so a Barba navigation can never re-trigger it: js/loader.js runs once,
+       on a real page load.
+
+       Layout is Figma node 14395:24530 ("Use this"), 1920x1080, verbatim —
+       every left/top below is that frame's. Type is the site's own .col
+       system, inverted to white on black. -->
+  
+
+  <div data-transition-wrap="" class="transition" aria-hidden="true">
+    <div data-transition-panel="" class="transition__panel">
+      <!-- seed column + seed pixel; pixelGrid() clones both to fit -->
+      <div data-transition-col="" class="transition__col">
+        <div data-transition-pixel="" class="transition__pixel"></div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Same container, same modules, different meshes. data-figure-var names
+       the outer mesh and data-inner-var the layer over it; js/about-figure.js
+       and js/about-xray.js read them off this element, so About is untouched. -->
+  <!-- No data-figure-var here, and that is the point: with the attributes
+       absent js/about-figure.js and js/about-xray.js both fall through to
+       their defaults, which are the scanned figure and the skeleton. Block 01
+       is therefore the About page's block, x-ray and all, rather than a
+       reconstruction of it. Block 02 names its own pair on its own canvas. -->
+  <main data-barba="container" data-page="mask" data-page-url="/" style="">
+
+
+    <div class="about is-grabbable" id="aboutRoot">
+
+      <!-- The scanned figure. WebGL, no three.js — see js/about-figure.js. -->
+      <div class="about__figure"><canvas id="aboutFigure" data-ready="1" width="420" height="900" style="visibility: hidden;"></canvas><canvas class="about__xray" data-engine="three.js r159" width="420" height="900"></canvas></div>
+
+      <!-- The red-over-grey saturation effect. Only works because the shader
+           dithers the grey with colour noise; see the note in css/about.css. -->
+      <div class="about__fx" aria-hidden="true"></div>
+
+      <div class="about__stage" id="aboutStage">
+        <div class="about__column" id="aboutColumn" style="--line-gap: 4.50px; --start-offset: 100svh; transform: translate3d(0px, -2160px, 0px);">
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:0">CASE FILE: THE MAN BEHIND THE IMAGE</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:1">The first mistake was assuming Liubomyr was looking for something.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:2">He wasn’t.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:3">He was 0looking for what 3was hiding.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:4">There’s a difference.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:5">Liubomyr was a designer. Creative UI/UX, visual systems, motion.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:6">The kind of work where everything is supposed to have a reason0</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:7">He took that part seriously.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:8">Perhaps too seriously.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:9">A shape was never just a shape. Type was never just type.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:10">Motion had a purpose, even when the purpose was simply to make you feel that something had shifted.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:11">He had little interest in the obvious answer.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:12">The ob9vious answer had usually been done before.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:13">He preferred the uncomfortable one.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:14">The one that made the room quieter.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:15">The one that made someone stop and look again.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:16">That was usually enough.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:17">Liubomyr understood something most people in his field eventually forgot.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:18">Attention is not given.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:19">It is taken.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:20">And once you have it, you had better have something worth showing.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:21">He was never particularly interested in making things merely attractive.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:22">Pretty things disappear quickly.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:23">They get approved. They get launched. They get replaced.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:24">He wanted something with a pulse.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:25">Something that could survive the first impression.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:26">Something that could still say something after the novelty had worn off.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:27">Sometimes that meant stripping a design down until almost nothing remained.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:28">Sometimes it meant adding one thing too many.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:29">A strange transition.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:30">An unexpected typeface.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:31">A detail nobody asked for.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:32">The kind of decision that makes someone say, Why is this here?</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:33">Exactly.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:34">That was the point.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:35">Liubomyr didn’t believe every problem needed a safe solution.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:36">Some problems needed a better question.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:37">Photography came naturally after that.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:38">Or maybe it had been there all along.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:39">Liubomyr carried a camera and looked at the world through a frame,</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:40">reducing streets, rooms,</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:41">people and accidents of light into something deliberate.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:42">A shadow fell across a wall.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:43">A stranger disappeared around a corner.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:44">A reflection appeared where there shouldn’t have been one.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:45">A perfectly ordinary moment became impossible to explain.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:46">He took the picture.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:47">That was his way of dealing with things.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:48">Not documenting them.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:49">Interfering with them.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:50">He photographed the things most people walked past.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:51">Not because they were rare.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:52">Because they weren’t.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:53">The ordinary was where things hid best.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:54">A kitchen at the wrong hour.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:55">A street after everyone had gone home.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:56">Someone standing beneath a light that made them look like somebody else.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:57">Nothing dramatic.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:58">Nothing worth mentioning.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:59">Until you looked at the photograph.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:60">Then it stayed with you.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:61">That seemed to be Liubomyr’s particular talent.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:62">Making the insignificant difficult to forget.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:63">Design. Photography. Image. Interface.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:64">Different disciplines.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:65">Same instinct.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:66">Find the tension.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:67">Push it further.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:68">Know when to stop.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:69">And, more importantly, know when not to.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:70">He wasn’t afraid of restraint.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:71">He simply refused to confuse restraint with fear.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:72">There was a difference between knowing something was enough and being too</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:73">afraid to make it more.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:74">He knew the difference.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:75">At least most of the time.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:76">Liubomyr had a problem with things that almost worked.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:77">Almost good.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:78">Almost finished.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:79">Almost original.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:80">Almost right.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:81">Those were the things that survived because nobody could quite justify killing them.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:82">He could.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:83">Sometimes brutally.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:84">A weak idea didn’t become stronger because you spent another week polishing it.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:85">A bad direction didn’t become good because everyone had already invested in it.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:86">And familiar didn’t become original because you changed the color.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:87">Liubomyr knew this.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:88">He acted accordingly.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:89">It made him difficult to impress.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:90">It also made him difficult to stop.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:91">Because once he found the thing that wasn’t working, he couldn’t unsee it.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:92">And once he couldn’t unsee it, somebody had to fix it.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:93">Usually him.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:94">There was no grand philosophy behind any of it.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:95">No manifesto.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:96">No carefully constructed mythology.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:97">Just an unreasonable amount of curiosity.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:98">And a refusal to leave things alone.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:99">He wanted to know why something worked.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:100">Why something didn’t.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:101">Why one frame felt alive while another, almost identical, felt completely dead.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:102">Why one word looked right and another looked like it was lying.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:103">Why a photograph taken by accident could sometimes mean more than one taken with an entire plan behind it.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:104">He kept asking.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:105">Then he kept making.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:106">That was the dangerous part.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:107">Most people stop at the question.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:108">Liubomyr didn’t.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:109">He turned the question into something.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:110">A screen.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:111">A system.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:112">A photograph.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:113">A moment.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:114">Sometimes a problem.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:115">Sometimes a solution.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:116">Occasionally both.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:117">And perhaps that’s what the work was really about.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:118">Not design.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:119">Not photography.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:120">Not even the image itself.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:121">The moment when something ordinary becomes impossible to ignore.</p></div>
+        <div class="about__line" data-side="l" style="transform: translate3d(-742px, 0px, 0px);"><p class="anim-line" style="--i:122">Liubomyr doesn’t create things to be understood.</p></div>
+        <div class="about__line" data-side="r" style="transform: translate3d(742px, 0px, 0px);"><p class="anim-line" style="--i:123">He creates them to leave a mark.</p></div>
+      </div>
+      </div>
+
+
+      <!-- BLOCK 02. The head, on the light pages' background — never
+           composited by the browser: it is hidden, and js/mask-scroll.js
+           uploads it as a texture so the same torn edge that eats block 01
+           reveals it. Its two meshes are named on the CANVAS, not the
+           container, because the container's pair belongs to block 01. -->
+      <div class="about__figure mask-body" aria-hidden="true"><canvas id="maskBody" data-figure-var="HEAD_MESH" data-figure-src="assets/about/head.js" data-map-var="HEAD_MAP" data-map-src="assets/about/head-map.js" data-inner-var="SKULL_MESH" data-inner-src="assets/about/skull.js" data-ready="1" width="1440" height="900"></canvas></div>
+    <canvas class="mask-sheet" aria-hidden="true" width="1440" height="900" style="visibility: visible;"></canvas><canvas class="work-blobs" aria-hidden="true" width="1440" height="900" style="mix-blend-mode: normal; opacity: 1; visibility: visible;"></canvas></div>
+
+    <!-- ==================================================================
+         THE INSTRUMENT PANEL over block 01, from the Figma frame. A SIBLING
+         of .about rather than a child: it is position:fixed, and a fixed
+         element is trapped by any ancestor that gains a transform or a
+         filter — .about has carried both at times. Out here it cannot be.
+
+         Static markup, two live parts: js/hud.js moves the red square and
+         fills the bar. Everything else is type.
+         ================================================================== -->
+    <div class="hud is-deep" aria-hidden="true">
+
+      <!-- the map -->
+      <div class="hud__map">
+        <div class="hud__mapbox">
+          <span class="hud__corner hud__corner--tl"></span>
+          <span class="hud__corner hud__corner--tr"></span>
+          <span class="hud__corner hud__corner--bl"></span>
+          <span class="hud__corner hud__corner--br"></span>
+          <!-- THE SAME FIGURE THE PAGE RENDERS, and now literally so: this was
+               a PNG rendered from the page's own mesh, which was already the
+               right idea — the map could never show a model the block did not
+               have — and it is simply the live one now, so there is nothing
+               left to re-export when the model changes.
+
+               The lighter cut, as on the work page: 52px of figure has no use
+               for a quarter of a million triangles. js/about-figure.js injects
+               a mesh it cannot find, so naming it here is all it takes. -->
+          <div class="wfig wfig--center" data-hud-figure="" aria-hidden="true" style="--wfig-size: 52px; --wfig-mx: 0px; --wfig-my: 40px; --wfig-opacity: 1; --wfig-z: 45; --wfig-dx: 0px; --wfig-dy: 0px; --wfig-blend: normal; --wfig-filter: none;">
+            <canvas id="hudFigure" data-figure-var="FIGURE_LITE" data-figure-src="assets/about/figure-lite.js" width="52" height="52" data-ready="1"></canvas>
+          </div>
+          <span class="hud__dot" style="transform: translate(140px, 69.5px);"></span>
+          <span class="hud__xy hud__xy--x"><b>X</b><span>720</span></span>
+          <span class="hud__xy hud__xy--y"><b>Y</b><span>450</span></span>
+        </div>
+        <div class="hud__maplabels">
+          <p class="r1 hud__sep" style="left:0">//</p>
+          <p class="r1" style="left:14px">enemy detected</p>
+          <p class="r1" style="left:190px">i am watching you</p>
+          <p class="r1 hud__sep" style="left:275px">//</p>
+          <p class="r2" style="left:14px">mf</p>
+          <p class="r2 hud__sep" style="left:31px">//</p>
+          <p class="r2" style="left:234px">get out</p>
+        </div>
+      </div>
+
+      <!-- the coordinates -->
+
+      <!-- THE RUNNING LINE, Figma 14679:25513 — the footer's, at the top right
+           of the black room. Same two-copy marquee and the same @keyframes
+           ftr-run out of css/footer.css rather than a second copy of both: one
+           description of the loop, so the two cannot drift apart. -->
+      <div class="hud__ticker">
+        <div class="hud__tick">
+            <p>visionair</p><p class="s">//</p>
+            <p>UI/UX Designer</p><p class="s">//</p>
+            <p>conceptualist</p><p class="s">//</p>
+            <p>art direction</p><p class="s">//</p>
+            <p>visionair</p><p class="s">//</p>
+            <p>UI/UX Designer</p><p class="s">//</p>
+            <p>conceptualist</p><p class="s">//</p>
+            <p>art direction</p><p class="s">//</p>
+            <p>visionair</p><p class="s">//</p>
+            <p>UI/UX Designer</p><p class="s">//</p>
+            <p>conceptualist</p><p class="s">//</p>
+            <p>art direction</p><p class="s">//</p>
+            <p>visionair</p><p class="s">//</p>
+            <p>UI/UX Designer</p><p class="s">//</p>
+            <p>conceptualist</p><p class="s">//</p>
+            <p>art direction</p><p class="s">//</p>
+        </div>
+      </div>
+
+      <!-- THE AWARDS, Figma 14679:25559. The list is longer than the space it
+           is given on purpose: it scrolls as the page scrolls and repeats
+           forever, and the gradient over it is what says so — a hard bottom
+           edge would read as a list that simply ends there.
+
+           THE MARKUP IS THE CONTENT. js/awards.js clones this once to close
+           the loop and does nothing else to it, so adding an award is editing
+           these lines and nothing more. -->
+      <div class="hud__awards" data-awards="" style="--aw-solid: 5%; --aw-gone: 92%;">
+        <div class="hud__awtrack" data-awards-track="" style="transform: translate3d(0px, -74.4px, 0px);">
+          <div class="hud__awgrp">
+            <p class="hud__awname">elecctro</p>
+            <div class="hud__awlist">
+              <div class="hud__awrow"><p>fwa sotd</p><p>x1</p></div>
+              <div class="hud__awrow"><p>awwwards honorable mention</p><p>x1</p></div>
+              <div class="hud__awrow"><p>awwwards product honors</p><p>x1</p></div>
+              <div class="hud__awrow"><p>css sotd</p><p>x1</p></div>
+              <div class="hud__awrow"><p>cssda innovation</p><p>x1</p></div>
+              <div class="hud__awrow"><p>cssda ui</p><p>x1</p></div>
+              <div class="hud__awrow"><p>cssda ux</p><p>x1</p></div>
+              <div class="hud__awrow"><p>orpetron site of the day</p><p>x1</p></div>
+              <div class="hud__awrow"><p>orpetron sotd</p><p>x1</p></div>
+              <div class="hud__awrow"><p>gsap sotd</p><p>x1</p></div>
+              <div class="hud__awrow hud__awtot"><p>[11]</p><p>in total</p></div>
+            </div>
+          </div>
+          <div class="hud__awgrp">
+            <p class="hud__awname">daoism systems</p>
+            <div class="hud__awlist">
+              <div class="hud__awrow"><p>fwa sotd</p><p>x1</p></div>
+              <div class="hud__awrow"><p>awwwards honorable mention</p><p>x1</p></div>
+              <div class="hud__awrow"><p>css sotd</p><p>x1</p></div>
+              <div class="hud__awrow"><p>cssda innovation</p><p>x1</p></div>
+              <div class="hud__awrow"><p>cssda ui</p><p>x1</p></div>
+              <div class="hud__awrow"><p>cssda ux</p><p>x1</p></div>
+              <div class="hud__awrow"><p>orpetron site of the month</p><p>x1</p></div>
+              <div class="hud__awrow"><p>orpetron sotd</p><p>x1</p></div>
+              <div class="hud__awrow"><p>gsap sotd</p><p>x1</p></div>
+              <div class="hud__awrow hud__awtot"><p>[10]</p><p>in total</p></div>
+            </div>
+          </div>
+          <div class="hud__awgrp">
+            <p class="hud__awname">unbelievably crap</p>
+            <div class="hud__awlist">
+              <div class="hud__awrow"><p>fwa sotd</p><p>x1</p></div>
+              <div class="hud__awrow"><p>awwwards sotd</p><p>x1</p></div>
+              <div class="hud__awrow"><p>cssda special kudos</p><p>x1</p></div>
+              <div class="hud__awrow"><p>cssda ui</p><p>x1</p></div>
+              <div class="hud__awrow"><p>cssda ux</p><p>x1</p></div>
+              <div class="hud__awrow"><p>cssda innovation</p><p>x1</p></div>
+              <div class="hud__awrow"><p>orpetron sotd</p><p>x1</p></div>
+              <div class="hud__awrow"><p>orpetron design appreciation</p><p>x1</p></div>
+              <div class="hud__awrow"><p>muzli picked</p><p>x1</p></div>
+              <div class="hud__awrow"><p>gsap sotd</p><p>x1</p></div>
+              <div class="hud__awrow hud__awtot"><p>[10]</p><p>in total</p></div>
+            </div>
+          </div>
+          <div class="hud__awgrp">
+            <p class="hud__awname">nocturnal dream</p>
+            <div class="hud__awlist">
+              <div class="hud__awrow"><p>fwa sotd</p><p>x1</p></div>
+              <div class="hud__awrow"><p>cssda sotd</p><p>x1</p></div>
+              <div class="hud__awrow"><p>cssda special kudos</p><p>x1</p></div>
+              <div class="hud__awrow"><p>cssda ui</p><p>x1</p></div>
+              <div class="hud__awrow"><p>cssda ux</p><p>x1</p></div>
+              <div class="hud__awrow"><p>cssda innovation</p><p>x1</p></div>
+              <div class="hud__awrow"><p>orpetron sotd</p><p>x1</p></div>
+              <div class="hud__awrow"><p>orpetron design appreciation</p><p>x1</p></div>
+              <div class="hud__awrow"><p>muzli picked</p><p>x1</p></div>
+              <div class="hud__awrow"><p>gsap sotw</p><p>x1</p></div>
+              <div class="hud__awrow"><p>webgl/webgpu sotd</p><p>x1</p></div>
+              <div class="hud__awrow hud__awtot"><p>[11]</p><p>in total</p></div>
+            </div>
+          </div>
+        <div class="hud__awgrp" aria-hidden="true">
+            <p class="hud__awname">elecctro</p>
+            <div class="hud__awlist">
+              <div class="hud__awrow"><p>fwa sotd</p><p>x1</p></div>
+              <div class="hud__awrow"><p>awwwards honorable mention</p><p>x1</p></div>
+              <div class="hud__awrow"><p>awwwards product honors</p><p>x1</p></div>
+              <div class="hud__awrow"><p>css sotd</p><p>x1</p></div>
+              <div class="hud__awrow"><p>cssda innovation</p><p>x1</p></div>
+              <div class="hud__awrow"><p>cssda ui</p><p>x1</p></div>
+              <div class="hud__awrow"><p>cssda ux</p><p>x1</p></div>
+              <div class="hud__awrow"><p>orpetron site of the day</p><p>x1</p></div>
+              <div class="hud__awrow"><p>orpetron sotd</p><p>x1</p></div>
+              <div class="hud__awrow"><p>gsap sotd</p><p>x1</p></div>
+              <div class="hud__awrow hud__awtot"><p>[11]</p><p>in total</p></div>
+            </div>
+          </div><div class="hud__awgrp" aria-hidden="true">
+            <p class="hud__awname">daoism systems</p>
+            <div class="hud__awlist">
+              <div class="hud__awrow"><p>fwa sotd</p><p>x1</p></div>
+              <div class="hud__awrow"><p>awwwards honorable mention</p><p>x1</p></div>
+              <div class="hud__awrow"><p>css sotd</p><p>x1</p></div>
+              <div class="hud__awrow"><p>cssda innovation</p><p>x1</p></div>
+              <div class="hud__awrow"><p>cssda ui</p><p>x1</p></div>
+              <div class="hud__awrow"><p>cssda ux</p><p>x1</p></div>
+              <div class="hud__awrow"><p>orpetron site of the month</p><p>x1</p></div>
+              <div class="hud__awrow"><p>orpetron sotd</p><p>x1</p></div>
+              <div class="hud__awrow"><p>gsap sotd</p><p>x1</p></div>
+              <div class="hud__awrow hud__awtot"><p>[10]</p><p>in total</p></div>
+            </div>
+          </div><div class="hud__awgrp" aria-hidden="true">
+            <p class="hud__awname">unbelievably crap</p>
+            <div class="hud__awlist">
+              <div class="hud__awrow"><p>fwa sotd</p><p>x1</p></div>
+              <div class="hud__awrow"><p>awwwards sotd</p><p>x1</p></div>
+              <div class="hud__awrow"><p>cssda special kudos</p><p>x1</p></div>
+              <div class="hud__awrow"><p>cssda ui</p><p>x1</p></div>
+              <div class="hud__awrow"><p>cssda ux</p><p>x1</p></div>
+              <div class="hud__awrow"><p>cssda innovation</p><p>x1</p></div>
+              <div class="hud__awrow"><p>orpetron sotd</p><p>x1</p></div>
+              <div class="hud__awrow"><p>orpetron design appreciation</p><p>x1</p></div>
+              <div class="hud__awrow"><p>muzli picked</p><p>x1</p></div>
+              <div class="hud__awrow"><p>gsap sotd</p><p>x1</p></div>
+              <div class="hud__awrow hud__awtot"><p>[10]</p><p>in total</p></div>
+            </div>
+          </div><div class="hud__awgrp" aria-hidden="true">
+            <p class="hud__awname">nocturnal dream</p>
+            <div class="hud__awlist">
+              <div class="hud__awrow"><p>fwa sotd</p><p>x1</p></div>
+              <div class="hud__awrow"><p>cssda sotd</p><p>x1</p></div>
+              <div class="hud__awrow"><p>cssda special kudos</p><p>x1</p></div>
+              <div class="hud__awrow"><p>cssda ui</p><p>x1</p></div>
+              <div class="hud__awrow"><p>cssda ux</p><p>x1</p></div>
+              <div class="hud__awrow"><p>cssda innovation</p><p>x1</p></div>
+              <div class="hud__awrow"><p>orpetron sotd</p><p>x1</p></div>
+              <div class="hud__awrow"><p>orpetron design appreciation</p><p>x1</p></div>
+              <div class="hud__awrow"><p>muzli picked</p><p>x1</p></div>
+              <div class="hud__awrow"><p>gsap sotw</p><p>x1</p></div>
+              <div class="hud__awrow"><p>webgl/webgpu sotd</p><p>x1</p></div>
+              <div class="hud__awrow hud__awtot"><p>[11]</p><p>in total</p></div>
+            </div>
+          </div></div>
+      </div>
+
+      <div class="hud__coord hud__coord--l"><p class="hud__sep">//</p><p>49.8425° N</p></div>
+      <div class="hud__coord hud__coord--r"><p>024.0322° E</p><p class="hud__sep">//</p></div>
+
+      <!-- the panel -->
+      <div class="hud__panel">
+        <div class="hud__brackets"><svg class="hud__bracket" style="transform:scaleY(-1)" width="6" height="6" viewBox="0 0 6 6" fill="none" aria-hidden="true"><path d="M0 0v6h6" stroke="#d9d9d9" stroke-width="1"></path></svg><svg class="hud__bracket" style="transform:scale(-1,-1)" width="6" height="6" viewBox="0 0 6 6" fill="none" aria-hidden="true"><path d="M0 0v6h6" stroke="#d9d9d9" stroke-width="1"></path></svg></div>
+        <div class="hud__panelbody">
+          <div class="hud__row">
+            <div class="hud__cellA hud__stack">
+              <p class="hud__sep">//</p>
+              <div class="hud__stack hud__stack--tight">
+                <p>enemy detected</p><p>mf</p>
+              </div>
+            </div>
+            <div class="hud__cellB">
+              <div class="top"><span class="hud__dot3"></span><p class="hud__sep">//</p></div>
+              <div class="hud__stack" style="gap:8px">
+                <p>i am watching you</p><p>get out</p>
+              </div>
+            </div>
+          </div>
+          <div class="hud__row2">
+            <div class="hud__dots">
+              <span class="hud__dot3"></span><span class="hud__dot3"></span><span class="hud__dot3"></span>
+            </div>
+            <div class="hud__meta">
+              <div class="hud__stack" style="gap:16px">
+                <div class="hud__pair">
+                  <div class="l"><p>protocol</p><p>warning</p></div>
+                  <div class="r"><p>00039</p><p>not found</p></div>
+                </div>
+                <div class="hud__year">
+                  <p>2026</p><p class="hud__sep">//</p><p>eternity</p>
+                </div>
+              </div>
+              <p class="hud__reg">®</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- the progress bar -->
+      <div class="hud__progress">
+        <div>
+          <div class="hud__ends"><p>000</p><p>100</p></div>
+          <div class="hud__track">
+            <p class="hud__slashes hud__slashes--dim">////////////////////////////////////////////////////////////////////////////////////////////////////</p>
+            <div class="hud__fill" style="width: 283px;"><p class="hud__slashes">////////////////////////////////////////////////////////////////////////////////////////////////////</p></div>
+          </div>
+        </div>
+        <div class="hud__brackets"><svg class="hud__bracket" width="6" height="6" viewBox="0 0 6 6" fill="none" aria-hidden="true"><path d="M0 0v6h6" stroke="#d9d9d9" stroke-width="1"></path></svg><svg class="hud__bracket" style="transform:scaleX(-1)" width="6" height="6" viewBox="0 0 6 6" fill="none" aria-hidden="true"><path d="M0 0v6h6" stroke="#d9d9d9" stroke-width="1"></path></svg></div>
+      </div>
+
+      <p class="hud__scroll">scroll</p>
+    </div>
+
+    <!-- ==================================================================
+         BLOCK 02'S OWN SCROLL (js/block2.js). Part 1: two columns of type
+         travelling up through the white block. A SIBLING of .about for the
+         same reason the panel is — position:fixed, and .about has carried a
+         transform before now.
+         ================================================================== -->
+      <!-- ==================================================================
+         THE SCROLL-THROUGH TEXT, Figma 14719:22210. A 1900x1644 strip that
+         passes between the white arriving and the two columns.
+
+         ONE CLUSTER AND ONE ROTATED COPY, which is how the file builds it
+         and the only construction that survives contact. Rotating each
+         label on its own keeps every box where it was and REVERSES the
+         reading order inside every group: the number ends up on the wrong
+         side of "mystery of life" and "000" lands on top of the words. One
+         transform on one container cannot do that. The centre is measured,
+         not assumed — the midpoint between the two copies of 002 and of 666
+         agree to a tenth of a pixel.
+
+         X IS PROPORTIONAL, Y IS PIXELS. The 11px line pitch is the whole
+         texture of this block and must not stretch; the placement across
+         the width must. Same split the HUD and the footer already use.
+         ================================================================== -->
+    <div class="ts" data-ts="" aria-hidden="true" style="--b2-ts-y: -2790.0px; --b2-ts-a: 1.000;">
+      <div class="ts__c ts__c--flip">
+          <div class="ts__t anim-line" style="left:calc(55.1842% - 13.5px - 16px);top:835px;width:16px;--i:0;text-align:right"><p>000</p></div>
+          <div class="ts__t anim-line" style="left:49.6316%;top:872px;width:8px;--i:1"><p>//</p></div>
+          <div class="ts__t anim-line" style="left:calc(55.1842% - 13.5px - 71px);top:872px;width:71px;--i:2;text-align:right"><p>364days</p></div>
+          <div class="ts__t anim-line" style="left:calc(55.1842% + 13.5px);top:872px;width:71px;--i:3"><p>Bold</p><p>Distinctive</p><p>Functional</p><p>Clever</p><p>Unexpected</p><p>Characterful</p><p>Experimental</p><p>sharp</p><p>Bold</p><p>Distinctive</p><p>Functional</p><p>Bold</p><p>Distinctive</p><p>Functional</p><p>Clever</p><p>Unexpected</p><p>Characterful</p><p>Experimental</p><p>sharp</p><p>Bold</p><p>Distinctive</p><p>Functional</p><p>Characterful</p><p>Experimental</p><p>sharp</p><p>Bold</p><p>Distinctive</p><p>Functional</p><p>Functional</p></div>
+          <div class="ts__t anim-line" style="left:49.6316%;top:1025px;width:5px;--i:4"><p>1</p></div>
+          <div class="ts__t anim-line" style="left:calc(55.1842% - 13.5px - 71px);top:1025px;width:71px;--i:5;text-align:right"><p>Bold</p><p>Distinctive</p><p>Functional</p><p>Clever</p><p>Unexpected</p><p>Characterful</p><p>Experimental</p><p>sharp</p><p>Bold</p><p>Distinctive</p><p>Functional</p></div>
+          <div class="ts__t anim-line" style="left:34.7368%;top:1025px;width:16px;--i:6"><p>000</p></div>
+          <div class="ts__t anim-line" style="left:35.8421%;top:1025px;width:71px;--i:7;text-align:right"><p>Bold</p><p>Distinctive</p></div>
+          <div class="ts__t anim-line" style="left:44.1579%;top:1025px;width:8px;--i:8"><p>//</p></div>
+          <div class="ts__t anim-line" style="left:64.6316%;top:1025px;width:70px;--i:9"><p>non-functional</p><p>design</p></div>
+          <div class="ts__t anim-line" style="left:49.6316%;top:1198px;width:6px;--i:10"><p>2</p></div>
+          <div class="ts__t anim-line" style="left:calc(55.1842% - 13.5px - 71px);top:1198px;width:71px;--i:11;text-align:right"><p>mystery of life</p></div>
+          <div class="ts__slash anim-line" style="left:34.7368%;top:1198px;width:81px;--i:12;height:77px">//</div>
+          <div class="ts__t anim-line" style="left:calc(55.1842% + 13.5px);top:1244px;width:16px;--i:13"><p>002</p></div>
+          <div class="ts__bc anim-line" style="left:calc(55.1842% + 13.5px);top:1258px;width:26px;--i:14;height:79px"></div>
+          <div class="ts__t anim-line" style="left:41.8947%;top:1333px;width:16px;--i:15"><p>000</p></div>
+          <div class="ts__t anim-line" style="left:28.3684%;top:1333px;width:70px;--i:16"><p>roaming around</p></div>
+          <div class="ts__t anim-line" style="left:calc(55.1842% - 13.5px - 71px);top:1333px;width:71px;--i:17;text-align:right"><p>mystery of life</p></div>
+          <div class="ts__num anim-line" style="left:64.6316%;top:1390px;width:133px;--i:18;height:253px"><img class="ts__digits" src="assets/tscroll/num-0039.svg" width="91" height="253" alt=""><canvas class="ts__fig" data-ts-figcopy="" width="64" height="128"></canvas></div>
+          <div class="ts__t anim-line" style="left:44.1579%;top:1528px;width:6px;--i:19"><p>#</p></div>
+          <div class="ts__t anim-line" style="left:44.6842%;top:1528px;width:15px;--i:20"><p>n/a</p></div>
+          <div class="ts__t anim-line" style="left:calc(55.1842% - 13.5px - 71px);top:1528px;width:71px;--i:21;text-align:right"><p>Bold</p><p>Distinctive</p><p>Functional</p><p>Clever</p><p>Unexpected</p><p>Characterful</p><p>Experimental</p><p>sharp</p><p>Bold</p><p>Distinctive</p><p>Functional</p></div>
+          <div class="ts__t anim-line" style="left:calc(55.1842% + 13.5px);top:1528px;width:16px;--i:22"><p>666</p></div>
+          <div class="ts__brk anim-line" style="left:calc(55.1842% + 13.5px);top:1556px;width:103px;--i:23;height:50px"><img src="assets/tscroll/arrow.svg" width="7" height="7" alt=""><img src="assets/tscroll/arrow.svg" width="7" height="7" alt=""><img src="assets/tscroll/arrow.svg" width="7" height="7" alt=""><img src="assets/tscroll/arrow.svg" width="7" height="7" alt=""></div>
+          <div class="ts__t anim-line" style="left:57.2632%;top:1573px;width:50px;--i:24"><p>Experiment</p><p>0039</p></div>
+          <div class="ts__t anim-line" style="left:59.7368%;top:1628px;width:30px;--i:25"><p>get out</p></div>
+          <div class="ts__t anim-line" style="left:59.7895%;top:1639px;width:29px;--i:26"><p>please</p></div>
+          <div class="ts__dots anim-line" style="left:calc(55.1842% + 13.5px);top:1630px;width:6px;--i:27;height:13px"><i></i><i></i><i></i></div>
+          <div class="ts__mark anim-line" style="left:calc(55.1842% - 13.5px - 57px);top:972px;width:57px;--i:28;height:42px"><img src="assets/tscroll/logo-0309.svg" width="57" height="42" alt=""></div>
+      </div>
+      <div class="ts__c">
+          <div class="ts__t anim-line" style="left:calc(55.1842% - 13.5px - 16px);top:835px;width:16px;--i:0;text-align:right"><p>000</p></div>
+          <div class="ts__t anim-line" style="left:49.6316%;top:872px;width:8px;--i:1"><p>//</p></div>
+          <div class="ts__t anim-line" style="left:calc(55.1842% - 13.5px - 71px);top:872px;width:71px;--i:2;text-align:right"><p>364days</p></div>
+          <div class="ts__t anim-line" style="left:calc(55.1842% + 13.5px);top:872px;width:71px;--i:3"><p>Bold</p><p>Distinctive</p><p>Functional</p><p>Clever</p><p>Unexpected</p><p>Characterful</p><p>Experimental</p><p>sharp</p><p>Bold</p><p>Distinctive</p><p>Functional</p><p>Bold</p><p>Distinctive</p><p>Functional</p><p>Clever</p><p>Unexpected</p><p>Characterful</p><p>Experimental</p><p>sharp</p><p>Bold</p><p>Distinctive</p><p>Functional</p><p>Characterful</p><p>Experimental</p><p>sharp</p><p>Bold</p><p>Distinctive</p><p>Functional</p><p>Functional</p></div>
+          <div class="ts__t anim-line" style="left:49.6316%;top:1025px;width:5px;--i:4"><p>1</p></div>
+          <div class="ts__t anim-line" style="left:calc(55.1842% - 13.5px - 71px);top:1025px;width:71px;--i:5;text-align:right"><p>Bold</p><p>Distinctive</p><p>Functional</p><p>Clever</p><p>Unexpected</p><p>Characterful</p><p>Experimental</p><p>sharp</p><p>Bold</p><p>Distinctive</p><p>Functional</p></div>
+          <div class="ts__t anim-line" style="left:34.7368%;top:1025px;width:16px;--i:6"><p>000</p></div>
+          <div class="ts__t anim-line" style="left:35.8421%;top:1025px;width:71px;--i:7;text-align:right"><p>Bold</p><p>Distinctive</p></div>
+          <div class="ts__t anim-line" style="left:44.1579%;top:1025px;width:8px;--i:8"><p>//</p></div>
+          <div class="ts__t anim-line" style="left:64.6316%;top:1025px;width:70px;--i:9"><p>non-functional</p><p>design</p></div>
+          <div class="ts__t anim-line" style="left:49.6316%;top:1198px;width:6px;--i:10"><p>2</p></div>
+          <div class="ts__t anim-line" style="left:calc(55.1842% - 13.5px - 71px);top:1198px;width:71px;--i:11;text-align:right"><p>mystery of life</p></div>
+          <div class="ts__slash anim-line" style="left:34.7368%;top:1198px;width:81px;--i:12;height:77px">//</div>
+          <div class="ts__t anim-line" style="left:calc(55.1842% + 13.5px);top:1244px;width:16px;--i:13"><p>002</p></div>
+          <div class="ts__bc anim-line" style="left:calc(55.1842% + 13.5px);top:1258px;width:26px;--i:14;height:79px"></div>
+          <div class="ts__t anim-line" style="left:41.8947%;top:1333px;width:16px;--i:15"><p>000</p></div>
+          <div class="ts__t anim-line" style="left:28.3684%;top:1333px;width:70px;--i:16"><p>roaming around</p></div>
+          <div class="ts__t anim-line" style="left:calc(55.1842% - 13.5px - 71px);top:1333px;width:71px;--i:17;text-align:right"><p>mystery of life</p></div>
+          <div class="ts__num anim-line" style="left:64.6316%;top:1390px;width:133px;--i:18;height:253px"><img class="ts__digits" src="assets/tscroll/num-0039.svg" width="91" height="253" alt=""><canvas class="ts__fig" id="tsFigure" width="32" height="64" data-figure-var="FIGURE_LITE" data-figure-src="assets/about/figure-lite.js" data-ready="1"></canvas></div>
+          <div class="ts__t anim-line" style="left:44.1579%;top:1528px;width:6px;--i:19"><p>#</p></div>
+          <div class="ts__t anim-line" style="left:44.6842%;top:1528px;width:15px;--i:20"><p>n/a</p></div>
+          <div class="ts__t anim-line" style="left:calc(55.1842% - 13.5px - 71px);top:1528px;width:71px;--i:21;text-align:right"><p>Bold</p><p>Distinctive</p><p>Functional</p><p>Clever</p><p>Unexpected</p><p>Characterful</p><p>Experimental</p><p>sharp</p><p>Bold</p><p>Distinctive</p><p>Functional</p></div>
+          <div class="ts__t anim-line" style="left:calc(55.1842% + 13.5px);top:1528px;width:16px;--i:22"><p>666</p></div>
+          <div class="ts__brk anim-line" style="left:calc(55.1842% + 13.5px);top:1556px;width:103px;--i:23;height:50px"><img src="assets/tscroll/arrow.svg" width="7" height="7" alt=""><img src="assets/tscroll/arrow.svg" width="7" height="7" alt=""><img src="assets/tscroll/arrow.svg" width="7" height="7" alt=""><img src="assets/tscroll/arrow.svg" width="7" height="7" alt=""></div>
+          <div class="ts__t anim-line" style="left:57.2632%;top:1573px;width:50px;--i:24"><p>Experiment</p><p>0039</p></div>
+          <div class="ts__t anim-line" style="left:59.7368%;top:1628px;width:30px;--i:25"><p>get out</p></div>
+          <div class="ts__t anim-line" style="left:59.7895%;top:1639px;width:29px;--i:26"><p>please</p></div>
+          <div class="ts__dots anim-line" style="left:calc(55.1842% + 13.5px);top:1630px;width:6px;--i:27;height:13px"><i></i><i></i><i></i></div>
+          <div class="ts__mark anim-line" style="left:calc(55.1842% - 13.5px - 57px);top:972px;width:57px;--i:28;height:42px"><img src="assets/tscroll/logo-0309.svg" width="57" height="42" alt=""></div>
+      </div>
+    </div>
+
+    <div class="b2 is-on" aria-hidden="true" style="--b2-cols-y: -966.0px; --b2-cols-a: 1; --b2-corner-a: 1.000;">
+
+      <!-- Part 2's texts. A TEXTURE SOURCE, not a layer: js/mask-scroll.js
+           samples it into the white block's own composite, between the ASCII
+           ground and the head, which is the only place "behind the 3D but over
+           the characters" actually exists. Hidden for the same reason
+           #maskBody and .work-blobs are. -->
+      <canvas class="b2-cap" width="1440" height="900"></canvas>
+
+      <!-- The cursor's label. Block 02's only — js/block2.js shows it while
+           this block has the screen and the pointer is over it, and hides it
+           the moment the pointer crosses into the footer or the bar. -->
+      <p class="b2__hint" style="transform: translate(calc(-50% + 720px), 434px);">don’t click</p>
+
+
+      <div class="b2__corner b2__corner--l">
+        <p class="a">Digital Designer</p>
+        <p class="b">Art Direction</p><p class="b">Animation</p><p class="b">Creative Development</p>
+      </div>
+      <div class="b2__corner b2__corner--r">
+        <p class="a">Digital Designer</p>
+        <p class="b">Art Direction</p><p class="b">Animation</p><p class="b">Creative Development</p>
+      </div>
+
+      <!-- THE LOGO. Figma 14616:11397 puts it at 30x30 at the dead centre of
+           the frame — which is also the centre of the two columns, since they
+           are centred themselves, so it sits in the gap between them.
+
+           A CHILD OF .b2 RATHER THAN OF THE COLUMNS, and that is the one real
+           decision here: inside .b2__colsinner it would ride up with the text
+           and be gone in half a second, which is no way to show a rotation.
+           Out here it holds the centre of the screen and the columns travel
+           past it. `fig.anchor` switches to the other reading.
+
+           Its own mesh and its own renderer instance (LOGOFIG), named on the
+           canvas: js/about-figure.js injects a mesh it cannot find, so
+           assets/about/logo.js is fetched only on the page that shows it.
+           js/figure-host.js turns it from block 02's scroll. -->
+      <div class="wfig wfig--center b2__logo is-with-text" data-logo-figure="" aria-hidden="true" style="--wfig-size: 30px; --wfig-mx: 0px; --wfig-my: 40px; --wfig-opacity: 1; --wfig-z: 45; --wfig-dx: 0px; --wfig-dy: 433px; --wfig-blend: normal; --wfig-filter: none;">
+        <canvas id="logoFigure" data-figure-var="LOGO_MESH" data-figure-src="assets/about/logo.js" width="30" height="30" data-ready="1"></canvas>
+      </div>
+
+      <div class="b2__cols">
+        <div class="b2__colsinner">
+          <div class="b2__col b2__col--l">
+            <svg class="b2__mark" width="6" height="6.667" viewBox="0 0 6 6.667" fill="none" aria-hidden="true"><path d="M3 0v6.667M0 3.333h6" stroke="currentColor" stroke-width=".9"></path></svg>
+            <div class="b2__list">
+            <p class="anim-line" style="--i:0">Bold</p>
+            <p class="anim-line" style="--i:1">Distinctive</p>
+            <p class="anim-line" style="--i:2">Fearless</p>
+            <p class="anim-line" style="--i:3">Unconventional</p>
+            <p class="anim-line" style="--i:4">Sharp</p>
+            <p class="anim-line" style="--i:5">Visionary</p>
+            <p class="anim-line" style="--i:6">Experimental</p>
+            <p class="anim-line" style="--i:7">Restless</p>
+            <p class="anim-line" style="--i:8">Curious</p>
+            <p class="anim-line" style="--i:9">Instinctive</p>
+            <p class="anim-line" style="--i:10">Radical</p>
+            <p class="anim-line" style="--i:11">Precise</p>
+            <p class="anim-line" style="--i:12">Expressive</p>
+            <p class="anim-line" style="--i:13">Intentional</p>
+            <p class="anim-line" style="--i:14">Provocative</p>
+            <p class="anim-line" style="--i:15">Unfiltered</p>
+            <p class="anim-line" style="--i:16">Original</p>
+            <p class="anim-line" style="--i:17">Decisive</p>
+            <p class="anim-line" style="--i:18">Edgy</p>
+            <p class="anim-line" style="--i:19">Rebellious</p>
+            <p class="anim-line" style="--i:20">Inventive</p>
+            <p class="anim-line" style="--i:21">Futuristic</p>
+            <p class="anim-line" style="--i:22">Unpredictable</p>
+            <p class="anim-line" style="--i:23">Memorable</p>
+            <p class="anim-line" style="--i:24">Raw</p>
+            <p class="anim-line" style="--i:25">Curated</p>
+            <p class="anim-line" style="--i:26">Aggressive</p>
+            <p class="anim-line" style="--i:27">Unhinged</p>
+            <p class="anim-line" style="--i:28">Savage</p>
+            <p class="anim-line" style="--i:29">Brutal</p>
+            <p class="anim-line" style="--i:30">Feral</p>
+            <p class="anim-line" style="--i:31">Unapologetic</p>
+            <p class="anim-line" style="--i:32">Confrontational</p>
+            <p class="anim-line" style="--i:33">Provocative</p>
+            <p class="anim-line" style="--i:34">Destructive</p>
+            </div>
+          </div>
+          <div class="b2__col b2__col--r">
+            <svg class="b2__mark" width="6" height="6.667" viewBox="0 0 6 6.667" fill="none" aria-hidden="true"><path d="M3 0v6.667M0 3.333h6" stroke="currentColor" stroke-width=".9"></path></svg>
+            <div class="b2__list">
+            <p class="anim-line" style="--i:0">Fearless</p>
+            <p class="anim-line" style="--i:1">Obsessive</p>
+            <p class="anim-line" style="--i:2">Meticulous</p>
+            <p class="anim-line" style="--i:3">Signature</p>
+            <p class="anim-line" style="--i:4">Restless</p>
+            <p class="anim-line" style="--i:5">Audacious</p>
+            <p class="anim-line" style="--i:6">Dynamic</p>
+            <p class="anim-line" style="--i:7">Tactical</p>
+            <p class="anim-line" style="--i:8">Emotional</p>
+            <p class="anim-line" style="--i:9">Conceptual</p>
+            <p class="anim-line" style="--i:10">Unapologetic</p>
+            <p class="anim-line" style="--i:11">Brutal</p>
+            <p class="anim-line" style="--i:12">Curious</p>
+            <p class="anim-line" style="--i:13">Observant</p>
+            <p class="anim-line" style="--i:14">Intuitive</p>
+            <p class="anim-line" style="--i:15">Articulate</p>
+            <p class="anim-line" style="--i:16">Cultural</p>
+            <p class="anim-line" style="--i:17">Charismatic</p>
+            <p class="anim-line" style="--i:18">Iconic</p>
+            <p class="anim-line" style="--i:19">Disruptive</p>
+            <p class="anim-line" style="--i:20">Impactful</p>
+            <p class="anim-line" style="--i:21">Eccentric</p>
+            <p class="anim-line" style="--i:22">Playful</p>
+            <p class="anim-line" style="--i:23">Ruthless</p>
+            <p class="anim-line" style="--i:24">Furious</p>
+            <p class="anim-line" style="--i:25">Relentless</p>
+            <p class="anim-line" style="--i:26">Ruthless</p>
+            <p class="anim-line" style="--i:27">Rebellious</p>
+            <p class="anim-line" style="--i:28">Defiant</p>
+            <p class="anim-line" style="--i:29">Defiant</p>
+            <p class="anim-line" style="--i:30">Reckless</p>
+            <p class="anim-line" style="--i:31">Uncompromising</p>
+            <p class="anim-line" style="--i:32">Uncontrolled</p>
+            <p class="anim-line" style="--i:33">Volatile</p>
+            <p class="anim-line" style="--i:34">Vicious</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- ==================================================================
+         PART 3 — THE FOOTER, Figma 14740:25636. A whole red screen, not a
+         bar that grows: the previous footer expanded from the bottom edge to
+         268px, and this replaces it outright.
+
+         THE FRAME IS 1920 x 1080 AND THE TWO AXES ARE TREATED DIFFERENTLY,
+         which is the same split css/hud.css and css/tscroll.css already make.
+         X is PROPORTIONAL — the band, the two bars and the columns of small
+         type have to stretch with the window or the composition stops being
+         the composition. Y is PIXELS, anchored to whichever edge the design
+         measures from: the headline from the top, the bottom cluster from the
+         bottom, and the band from a share of the height because it is the one
+         thing that has to stay in the middle of whatever screen it is on.
+
+         THE BAND IS THE SUPPLIED FILE and it is a SUBTRACTION, not a black
+         bar with a red ellipse drawn on it. The path is a rectangle with the
+         ellipse knocked out of it under fill-rule="evenodd", so what shows
+         through the hole is whatever is behind — which is the page's own red,
+         and which is why the hole stays correct while that red is still
+         fading up from white. An ellipse painted in red would have had to be
+         animated in step with the background, and would have been a shade out
+         for every frame of the transition.
+
+         preserveAspectRatio="none" ON PURPOSE. The band spans the width at a
+         fixed 170px height, so the ellipse stretches with it. That IS the
+         design: the shape is a long lens across the band, not a circle that
+         has to stay circular.
+         ================================================================== -->
+    <div class="ftr" aria-hidden="true" style="--ftr-title-top: 10px; --ftr-title-gap: 64px; --ftr-a: 1.000;">
+      <div class="ftr__in" style="clip-path: path(&quot;M 0 0 Z&quot;);">
+
+        <!-- THE HEADLINE. Three lines, centred, at the hero's own 128px —
+             measured off the file, where the caps are 90px tall and sit on a
+             102px pitch. Set as three spans rather than as wrapped text: the
+             breaks are the drawing, and a paragraph that rewrapped on a
+             narrower window would be a different picture. -->
+        <h2 class="ftr__title"><span>find your</span><span>way out of</span><span>here</span></h2>
+
+        <div class="ftr__band">
+          <svg class="ftr__bandbg" viewBox="0 0 1899 170" preserveAspectRatio="none" fill="none" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M1899 170H0V0H1899V170ZM1888.79 45.9326C1887.1 16.6971 1465.11 10.2641 946.237 31.5645C427.371 52.8647 8.11372 93.8319 9.79785 123.067C11.4853 152.303 433.48 158.736 952.349 137.436C1471.22 116.135 1890.47 75.1681 1888.79 45.9326Z" fill="currentColor"></path></svg>
+
+          <nav class="ftr__nav" aria-label="Footer">
+            <a class="ftr__navi" data-scramble="" href="/"><span data-label="" style="display: inline-block; width: 24.69px;">index</span> <svg viewBox="0 0 6 6.667" fill="none" aria-hidden="true"><path d="M3 0v6.667M0 3.333h6" stroke="currentColor" stroke-width=".9"></path></svg></a>
+            <a class="ftr__navi" data-scramble="" href="/work"><span data-label="" style="display: inline-block; width: 21.06px;">work</span> <svg viewBox="0 0 6 6.667" fill="none" aria-hidden="true"><path d="M3 0v6.667M0 3.333h6" stroke="currentColor" stroke-width=".9"></path></svg></a>
+            <a class="ftr__navi" data-scramble="" href="/gallery"><span data-label="" style="display: inline-block; width: 32.59px;">gallery</span> <svg viewBox="0 0 6 6.667" fill="none" aria-hidden="true"><path d="M3 0v6.667M0 3.333h6" stroke="currentColor" stroke-width=".9"></path></svg></a>
+            <a class="ftr__navi" data-scramble="" href="/404"><span data-label="" style="display: inline-block; width: 14.97px;">404</span> <svg viewBox="0 0 6 6.667" fill="none" aria-hidden="true"><path d="M3 0v6.667M0 3.333h6" stroke="currentColor" stroke-width=".9"></path></svg></a>
+          </nav>
+
+          <!-- THREE, NOT FOUR. The file puts a 6px square at the band's top
+               left, top right and bottom left and nothing at the bottom
+               right, because the ERROR PAGE chip is what sits in that corner.
+               A fourth one added for symmetry would be crowding it. -->
+          <span class="ftr__sq ftr__sq--tl"></span>
+          <span class="ftr__sq ftr__sq--tr"></span>
+          <span class="ftr__sq ftr__sq--bl"></span>
+
+          <a class="ftr__err" href="/404" data-scramble=""><span data-label="" style="display: inline-block; width: 45.31px;">error page</span> <svg viewBox="0 0 6 6.667" fill="none" aria-hidden="true"><path d="M3 0v6.667M0 3.333h6" stroke="currentColor" stroke-width=".9"></path></svg></a>
+        </div>
+
+        <!-- The two bars under the band: 944.5 each with a 10px gap, which is
+             the file's own split of the 1899. -->
+        <div class="ftr__bars">
+          <a class="ftr__bar" data-scramble="" href="https://www.linkedin.com/in/liubomyr-ulytskyi-4426971a9/" target="_blank" rel="noopener noreferrer"><span data-label="" style="display: inline-block; width: 39.25px;">linkedin</span></a>
+          <button class="ftr__bar ftr__bar--btn" type="button" data-copy-email="liubomyrulytskyi@gmail.com"><span data-label="" style="display: inline-block; min-width: 69px;">don’t contact me</span></button>
+        </div>
+
+        <!-- ---- THE BOTTOM CLUSTER, anchored to the FOOT of the screen ----
+             The file measures these from the top of a 1080 frame, but they
+             read as a footline: 828 is 252 from the bottom and the copyright
+             is 10 from it. Anchored the other way round they would drift into
+             the middle of any screen that is not exactly 1080. -->
+        <p class="ftr__lbl ftr__project">project</p>
+        <p class="ftr__lbl ftr__no">0039</p>
+
+        <div class="ftr__ref"><p>000</p><p>//</p></div>
+
+        <p class="ftr__lbl ftr__slash">//</p>
+        <div class="ftr__aside">
+          <p>just know that i’ve cared</p>
+          <p>even if i didn’t</p>
+        </div>
+
+        <div class="ftr__notes">
+          <div class="ftr__note">
+            <p class="ftr__n">1</p>
+            <div><p>I’ve been wanting</p><p>to experiment</p><p>with a shape</p><p>not a function</p></div>
+          </div>
+          <div class="ftr__note">
+            <p class="ftr__n">2</p>
+            <div><p>function kills</p><p>greatest things</p><p>before they</p><p>have a chance</p><p>to be born</p></div>
+          </div>
+          <div class="ftr__note">
+            <p class="ftr__n">3</p>
+            <!-- THE ONLY LINKS IN THE FOOT, and they are dressed as type. The
+                 brief was that the cursor is the whole tell — no underline, no
+                 colour, nothing that would turn a credit into a button. The
+                 anchor is `display:contents` in css/footer.css so it does not
+                 introduce a box of its own into the 11px line pitch. -->
+            <div><p>inspired by</p>
+              <p><a class="ftr__link" href="https://www.youtube.com/watch?v=1cS_i-zDdxg&amp;list=RD1cS_i-zDdxg&amp;index=1" target="_blank" rel="noopener noreferrer">heaven up there by Palace</a></p>
+              <p><a class="ftr__link" href="https://www.linkedin.com/in/denys-koloskov-3a2931173/" target="_blank" rel="noopener noreferrer">Dns klskv</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="ftr__where">
+          <p class="ftr__n">0</p>
+          <div><p>currently</p><p>lviv, ukraine</p></div>
+        </div>
+
+        <p class="ftr__lbl ftr__copy">©2026 All rights reserved</p>
+      </div>
+    </div>
+
+    <footer class="bar" aria-hidden="false" style="--bar-out: 420ms;">
+      <div class="bar__left">
+        <a class="bar__btn is-current" data-scramble="" href="/"><span data-label="" style="display: inline-block; width: 34.56px;">index</span> <svg class="bar__mark" viewBox="0 0 6 6.667" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 0v6.667M0 3.333h6" stroke="currentColor" stroke-width=".9"></path></svg></a>
+        <a class="bar__btn" data-scramble="" href="/work"><span data-label="" style="display: inline-block; width: 29.48px;">work</span> <svg class="bar__mark" viewBox="0 0 6 6.667" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 0v6.667M0 3.333h6" stroke="currentColor" stroke-width=".9"></path></svg></a>
+        <a class="bar__btn" data-scramble="" href="/gallery"><span data-label="" style="display: inline-block; width: 45.64px;">gallery</span> <svg class="bar__mark" viewBox="0 0 6 6.667" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 0v6.667M0 3.333h6" stroke="currentColor" stroke-width=".9"></path></svg></a>
+        <!-- THE 404, LINKED ON PURPOSE. It is a real page with a real URL —
+             vercel.json runs cleanUrls, so /404 serves 404.html with a 200 —
+             and it is otherwise the one page on the site you could only reach
+             by mistyping something. The footer already links it twice; this is
+             the bar, which is on every page. -->
+        <a class="bar__btn" data-scramble="" href="/404"><span data-label="" style="display: inline-block; width: 34.75px;">error</span> <svg class="bar__mark" viewBox="0 0 6 6.667" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 0v6.667M0 3.333h6" stroke="currentColor" stroke-width=".9"></path></svg></a>
+      </div>
+      <!-- Order is the design's: icon, offset, red mark, time. See js/clock.js. -->
+      <div class="bar__clock" data-clock="">
+        <svg class="bar__sun" data-clock-sun="" viewBox="0 0 12 12" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="6" cy="6" r="2.4" fill="currentColor"></circle>
+          <g stroke="currentColor" stroke-width="1.1" stroke-linecap="round">
+            <path d="M6 .6v1.5M6 9.9v1.5M.6 6h1.5M9.9 6h1.5"></path>
+            <path d="M2.2 2.2l1.05 1.05M8.75 8.75l1.05 1.05M9.8 2.2L8.75 3.25M3.25 8.75L2.2 9.8"></path>
+          </g>
+        </svg>
+        <svg class="bar__moon" data-clock-moon="" viewBox="0 0 12 12" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+          <path d="M10.2 7.6A4.6 4.6 0 0 1 4.4 1.8 4.9 4.9 0 1 0 10.2 7.6Z" fill="currentColor"></path>
+        </svg>
+        <span class="bar__clockZone" data-clock-zone="">GMT+2</span>
+        <i class="bar__clockMark" aria-hidden="true"></i>
+        <span class="bar__clockTime" data-clock-time="">01:11:43</span>
+      </div>
+      <button class="bar__mail" type="button" data-copy-email="liubomyrulytskyi@gmail.com">
+        <span data-label="" style="display: inline-block; min-width: 96px;">don’t contact me</span>
+        <svg class="bar__mark" viewBox="0 0 6 6.667" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 0v6.667M0 3.333h6" stroke="currentColor" stroke-width=".9"></path></svg>
+      </button>
+    </footer>
+
+  <div class="ftr__sheet" aria-hidden="true" style="--ftr-mix: 0; --ftr-col: #ff0000; --ftr-blend: multiply;"></div></main>
+
+  <!-- Libraries -->
+  
+  
+  
+
+  <!-- Page modules. Both pages load the same list in the same order; each
+       module no-ops on the page it does not belong to. Registration order is
+       mount order, which is why the tuner consoles come after the modules
+       whose globals they read. -->
+  <!-- The About figure's mesh. A script, not a fetch: fetch() is refused
+       on file:// and the model silently never arrived when the site was
+       opened off disk. Generated by tools/decimate-glb.py. -->
+  <!-- This page's pair. About loads its own; both pages carry both tags so
+       the <head> and script list stay identical across a Barba swap. -->
+  
+  
+  
+  
+  
+
+  <!-- FIRST, and it has to be: it wraps requestAnimationFrame to count the
+       page's animation loops, and it can only count the ones started after
+       it. Inert unless ?fps is in the URL. -->
+  
+  
+  <!-- ?off=<layer> switches one effect off so its cost can be measured.
+       Inert without the flag. -->
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  <!-- Live tuning panel. Self-activates on localhost / file://, or anywhere
+       with ?tune in the URL. Delete these three lines to strip it. -->
+  
+  
+  
+  
+
+  <!-- Last: mounts the first page and takes over navigation. -->
+  
+  
+  
+  
+
+  <canvas class="sheetfx" aria-hidden="true" width="1440" height="900"></canvas><!-- Intro loader. After transition.js, because it counts the images the
+       page mounts and needs the page to have mounted first. -->
+  
+
+
+
+<div style="position:fixed;z-index:2147483647;bottom:8px;left:8px;font:12px system-ui;background:#000;color:#fff;padding:4px 8px;border-radius:4px;opacity:.75">Aperçu statique (sans JS ni animations) — référence visuelle : captures/ et vidéo</div></body></html>

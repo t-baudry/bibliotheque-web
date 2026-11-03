@@ -246,7 +246,10 @@ async function captureSite(s, port) {
   const t0 = Date.now();
   const profile = fs.mkdtempSync(path.join(os.tmpdir(), 'biblio-'));
   const chrome = spawn(CHROME, [`--remote-debugging-port=${port}`, `--user-data-dir=${profile}`, '--headless=new', '--no-first-run', '--no-default-browser-check',
-    '--disable-background-timer-throttling', '--autoplay-policy=no-user-gesture-required', '--enable-unsafe-swiftshader', '--use-angle=swiftshader', '--window-size=1440,900', '--mute-audio', 'about:blank'], { stdio: 'ignore' });
+    '--disable-background-timer-throttling', '--autoplay-policy=no-user-gesture-required', '--enable-unsafe-swiftshader', '--use-angle=swiftshader', '--window-size=1440,900', '--mute-audio',
+    // limites mémoire/CPU : moins de processus Chrome, tas JS plafonné, pas de services inutiles
+    '--renderer-process-limit=2', '--js-flags=--max-old-space-size=1024', '--disable-extensions', '--disable-component-update',
+    '--disable-background-networking', '--disable-sync', '--disable-features=Translate,MediaRouter,OptimizationHints', 'about:blank'], { stdio: 'ignore' });
   live.set(port, { pid: chrome.pid, s });
   const result = { id: s.id, name: s.name, sourceUrl: s.url, capturedAt: new Date().toISOString(), status: 'ok', errors: [], steps: {} };
   let browser;
@@ -342,6 +345,7 @@ async function captureSite(s, port) {
 
 // ---------- publication GitHub (un site à la fois, dans un processus séparé pour ne pas bloquer les captures) ----------
 const noPublish = process.argv.includes('--no-publish');
+const pauseS = args.includes('--pause') ? Number(args[args.indexOf('--pause') + 1]) || 0 : 0;
 let pubChain = Promise.resolve();
 function publish(sl) {
   pubChain = pubChain.then(() => new Promise(res => {
@@ -357,7 +361,9 @@ await Promise.all(Array.from({ length: Math.min(conc, queue.length) }, async (_,
     try { await withTimeout(captureSite(s, port), 11 * 60000, 'site'); }
     catch (e) { s.aborted = true; const l = live.get(port); if (l) killTree(l.pid); live.delete(port); log(s, 'ÉCHEC', e.message);
       const df = path.join(ROOT, slug(s), 'data.json'); if (!fs.existsSync(df)) { fs.mkdirSync(path.dirname(df), { recursive: true }); fs.writeFileSync(df, JSON.stringify({ id: s.id, name: s.name, sourceUrl: s.url, status: 'timeout', errors: [e.message], capturedAt: new Date().toISOString() })); } }
-    if (!noPublish) publish(slug(s)); }
+    if (!noPublish) publish(slug(s));
+    // mode doux : on attend la fin de l'envoi GitHub puis on laisse respirer la machine
+    if (pauseS) { await pubChain; await sleep(pauseS * 1000); } }
 }));
 await pubChain;
 console.log('Terminé.');

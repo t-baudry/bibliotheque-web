@@ -1,0 +1,774 @@
+{
+ "id": 72,
+ "name": "The state of the gallery",
+ "sourceUrl": "https://mesh3d.gallery/the-state-of-the-gallery",
+ "capturedAt": "2026-11-03T09:07:06.249Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [
+   {
+    "url": "https://mesh3d.gallery/websites",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://mesh3d.gallery/the-state-of-the-gallery",
+ "title": "The state of the gallery | mesh3d",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "A Three.js showcase for the current state of the mesh3d gallery.",
+  "canonical": "https://mesh3d.gallery/the-state-of-the-gallery",
+  "robots": "index, follow",
+  "ogTitle": "The state of the gallery | mesh3d",
+  "ogImage": "https://mesh3d.gallery/images/og-default.jpg",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [],
+  "h1Count": 0,
+  "headings": [],
+  "imgs": 1,
+  "imgNoAlt": 0,
+  "favicon": "https://mesh3d.gallery/favicon.ico?favicon.1ru-g48z5iuqo.ico?dpl=075ac813a8bfa09e138de3ea296d84d9435af007",
+  "themeColor": "#08090d"
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#08090d",
+    "w": 2565000
+   },
+   {
+    "v": "#ecff3e",
+    "w": 17443
+   },
+   {
+    "v": "#cfdee5",
+    "w": 12
+   }
+  ],
+  "text": [
+   {
+    "v": "#cfdee5",
+    "w": 26
+   },
+   {
+    "v": "#08090d",
+    "w": 18
+   },
+   {
+    "v": "#ffffff",
+    "w": 3
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "overusedGrotesk",
+    "w": 29
+   },
+   {
+    "v": "Geist",
+    "w": 18
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "18px",
+    "w": 151
+   },
+   {
+    "v": "114px",
+    "w": 105
+   },
+   {
+    "v": "36.48px",
+    "w": 77
+   },
+   {
+    "v": "14px",
+    "w": 45
+   },
+   {
+    "v": "171px",
+    "w": 20
+   },
+   {
+    "v": "16px",
+    "w": 9
+   },
+   {
+    "v": "200px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "19px",
+    "w": 1
+   }
+  ],
+  "shadows": [
+   {
+    "v": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0",
+    "w": 1
+   }
+  ],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.22 0.32s",
+    "w": 25
+   },
+   {
+    "v": "cubic-bezier(0.4 0.15s",
+    "w": 1
+   },
+   {
+    "v": "linear 0.7s",
+    "w": 1
+   },
+   {
+    "v": "cubic-bezier(0.33 0.18s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "p": {
+    "family": "overusedGrotesk, \"overusedGrotesk Fallback\"",
+    "size": "14px",
+    "weight": "400",
+    "lineHeight": "14px",
+    "letterSpacing": "0.28px",
+    "transform": "uppercase",
+    "color": "#cfdee5",
+    "sample": "SCROLL TO DIVE IN"
+   },
+   "a": {
+    "family": "Geist, \"Geist Fallback\"",
+    "size": "14px",
+    "weight": "600",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#08090d",
+    "sample": "Browse the gallery"
+   },
+   "button": {
+    "family": "overusedGrotesk, \"overusedGrotesk Fallback\"",
+    "size": "14px",
+    "weight": "400",
+    "lineHeight": "14px",
+    "letterSpacing": "0.28px",
+    "transform": "uppercase",
+    "color": "#cfdee5",
+    "sample": "AUDIO OFF"
+   },
+   "body": {
+    "family": "Geist, \"Geist Fallback\"",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#cfdee5",
+    "sample": "html, body { background-color: #08090d !important; }document.documentElement.sty"
+   }
+  },
+  "cssVars": {
+   "--font-sans": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoj",
+   "--font-mono": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+   "--color-red-200": "lab(86.017% 19.8815 7.75869)",
+   "--color-red-400": "lab(63.7053% 60.745 31.3109)",
+   "--color-red-500": "lab(55.4814% 75.0732 48.8528)",
+   "--color-amber-200": "lab(91.7203% -.505269 49.9084)",
+   "--color-amber-400": "lab(80.1641% 16.6016 99.2089)",
+   "--color-amber-500": "lab(72.7183% 31.8672 97.9407)",
+   "--color-amber-600": "lab(60.3514% 40.5624 87.1228)",
+   "--color-green-400": "lab(78.503% -64.9265 39.7492)",
+   "--color-emerald-200": "lab(90.2247% -31.039 9.47084)",
+   "--color-emerald-300": "lab(83.9203% -48.7124 13.8849)",
+   "--color-emerald-400": "lab(75.0771% -60.7313 19.4147)",
+   "--color-emerald-500": "lab(66.9756% -58.27 19.5419)",
+   "--color-sky-200": "lab(88.6983% -11.3978 -16.8488)",
+   "--color-sky-500": "lab(63.3038% -18.433 -51.0407)",
+   "--color-blue-50": "lab(96.492% -1.14644 -5.11479)",
+   "--color-blue-100": "lab(92.0301% -2.24757 -11.6453)",
+   "--color-blue-600": "lab(44.0605% 29.0279 -86.0352)",
+   "--color-purple-50": "lab(97.1627% 2.99937 -4.13398)",
+   "--color-rose-200": "lab(86.806% 19.1909 4.07754)",
+   "--color-rose-300": "lab(76.6339% 38.3549 9.68835)",
+   "--color-rose-500": "lab(56.101% 79.4328 31.4532)",
+   "--color-gray-500": "lab(47.7841% -.393182 -10.0268)",
+   "--color-gray-600": "lab(35.6337% -1.58697 -10.8425)",
+   "--color-neutral-800": "lab(15.204% 0 -.00000596046)",
+   "--color-neutral-900": "lab(7.78201% -.0000149012 0)",
+   "--color-black": "#000",
+   "--color-white": "#fff",
+   "--spacing": ".25rem",
+   "--container-sm": "24rem",
+   "--container-md": "28rem",
+   "--container-lg": "32rem",
+   "--container-2xl": "42rem",
+   "--container-3xl": "48rem",
+   "--text-xs": ".75rem",
+   "--text-xs--line-height": "calc(1 / .75)",
+   "--text-sm": ".875rem",
+   "--text-sm--line-height": "calc(1.25 / .875)",
+   "--text-lg": "1.125rem",
+   "--text-lg--line-height": "calc(1.75 / 1.125)",
+   "--text-xl": "1.25rem",
+   "--text-xl--line-height": "calc(1.75 / 1.25)",
+   "--text-2xl": "1.5rem",
+   "--text-2xl--line-height": "calc(2 / 1.5)",
+   "--text-3xl": "1.875rem",
+   "--text-3xl--line-height": "calc(2.25 / 1.875)",
+   "--font-weight-normal": "400",
+   "--font-weight-medium": "500",
+   "--font-weight-semibold": "600",
+   "--font-weight-bold": "700",
+   "--tracking-wide": ".025em",
+   "--tracking-wider": ".05em",
+   "--tracking-widest": ".1em",
+   "--leading-relaxed": "1.625",
+   "--radius-xs": ".125rem",
+   "--radius-sm": "calc(.5rem - 4px)",
+   "--radius-md": "calc(.5rem - 2px)",
+   "--radius-lg": ".5rem",
+   "--radius-xl": ".75rem",
+   "--radius-2xl": "1rem",
+   "--radius-3xl": "1.5rem",
+   "--ease-in": "cubic-bezier(.4, 0, 1, 1)",
+   "--ease-out": "cubic-bezier(0, 0, .2, 1)",
+   "--ease-in-out": "cubic-bezier(.4, 0, .2, 1)",
+   "--animate-spin": "spin 1s linear infinite",
+   "--animate-pulse": "pulse 2s cubic-bezier(.4, 0, .6, 1) infinite",
+   "--blur-xs": "4px",
+   "--blur-md": "12px",
+   "--blur-xl": "24px",
+   "--aspect-video": "16 / 9",
+   "--default-transition-duration": ".15s",
+   "--default-transition-timing-function": "cubic-bezier(.4, 0, .2, 1)",
+   "--default-font-family": "var(--font-sans)",
+   "--default-mono-font-family": "var(--font-mono)",
+   "--animate-accordion-down": "accordion-down .32s cubic-bezier(.4, 0, .2, 1)",
+   "--animate-accordion-up": "accordion-up .32s cubic-bezier(.4, 0, .2, 1)",
+   "--animate-collapsible-down": "collapsible-down .24s cubic-bezier(.4, 0, .2, 1)",
+   "--animate-collapsible-up": "collapsible-up .2s cubic-bezier(.4, 0, .2, 1)",
+   "--animate-nav-from-left": "nav-from-left .16s cubic-bezier(.4, 0, .2, 1)",
+   "--animate-nav-from-right": "nav-from-right .16s cubic-bezier(.4, 0, .2, 1)",
+   "--font-overused-grotesk": "var(--font-overused-grotesk), serif",
+   "--font-geist": "var(--font-geist-sans), sans-serif",
+   "--text-title-01": "80px",
+   "--leading-title-01": "1",
+   "--font-weight-title-01": "400",
+   "--text-title-02": "48px",
+   "--leading-title-02": "1.2",
+   "--tracking-title-02": "-.48px",
+   "--font-weight-title-02": "400",
+   "--text-title-03": "32px",
+   "--leading-title-03": "1.2",
+   "--text-title-04": "24px",
+   "--leading-title-04": "1.2",
+   "--text-body-01": "24px",
+   "--leading-body-01": "1.5",
+   "--font-weight-body-01": "400",
+   "--text-body-02": "16px",
+   "--leading-body-02": "1.5",
+   "--font-weight-body-02": "400",
+   "--text-body-02-strong": "16px",
+   "--leading-body-02-strong": "1.5",
+   "--font-weight-body-02-strong": "600",
+   "--text-body-03": "14px",
+   "--leading-body-03": "1.5",
+   "--font-weight-body-03": "400",
+   "--text-body-03-strong": "14px",
+   "--leading-body-03-strong": "1.5",
+   "--font-weight-body-03-strong": "600",
+   "--text-body-04": "12px",
+   "--leading-body-04": "1.5",
+   "--color-base": "#08090d",
+   "--color-base-hover": "#1c1e23",
+   "--color-brand": "#ecff3e",
+   "--color-brand-hover": "#d1e800",
+   "--color-fg-primary": "#cfdee5",
+   "--color-fg-secondary": "#a7b3ba",
+   "--color-fg-tertiary": "#6c7479",
+   "--color-fg-on-inverse-primary": "#08090d",
+   "--color-fg-error": "#ffc1c8",
+   "--color-fg-success": "#8fe0a4",
+   "--color-br-subtle": "#cfdee526",
+   "--color-br-subtle-hover": "#cfdee550",
+   "--color-br-inverse": "#cfdee5",
+   "--color-br-error": "#ff374f",
+   "--color-br-destructive": "#ff374f59",
+   "--color-surface": "#17191e",
+   "--color-surface-hover": "#27292e",
+   "--color-sm-thick": "#08090dbf",
+   "--color-sm-thin": "#08090d40",
+   "--color-gt-01": "#cfdee500",
+   "--color-gt-02": "#cfdee526",
+   "--color-gt-03": "#cfdee580",
+   "--color-gt-inverse-02": "#08090d40",
+   "--color-gt-inverse-03": "#08090d80",
+   "--color-background": "210 11% 5%",
+   "--color-foreground": "200 11% 82%",
+   "--color-card-foreground": "200 11% 82%",
+   "--color-popover": "210 11% 5%",
+   "--color-popover-foreground": "200 11% 82%",
+   "--color-primary": "200 11% 82%",
+   "--color-secondary": "200 11% 69%",
+   "--color-secondary-foreground": "210 11% 5%",
+   "--color-muted": "200 11% 69%",
+   "--color-muted-foreground": "210 11% 45%",
+   "--color-accent": "60 87% 85%",
+   "--color-accent-foreground": "210 11% 5%",
+   "--color-destructive": "0 62.8% 30.6%",
+   "--color-border": "200 11% 82%",
+   "--color-input": "210 11% 7%",
+   "--color-ring": "200 11% 82%",
+   "--tw-leading": "var(--leading-body-04)",
+   "--tw-font-weight": "var(--font-weight-body-03-strong)",
+   "--toast-icon-margin-start": "4px",
+   "--toast-icon-margin-end": "-3px",
+   "--toast-svg-margin-start": "0px",
+   "--toast-svg-margin-end": "-1px",
+   "--toast-button-margin-start": "0",
+   "--toast-button-margin-end": "auto",
+   "--toast-close-button-start": "unset",
+   "--toast-close-button-end": "0",
+   "--toast-close-button-transform": "translate(35%, -35%)",
+   "--ir-copy": "var(--ir-copy-mobile-px, 14px)"
+  },
+  "fontFaces": [
+   {
+    "family": "Geist",
+    "weight": "100 900",
+    "style": "normal",
+    "src": "url(\"../media/fef07dbb0973bf53-s.3p2_lha1f2xer.woff2?dpl=075ac813a8bfa09e138de3ea296d84d9435af007\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist",
+    "weight": "100 900",
+    "style": "normal",
+    "src": "url(\"../media/8a480f0b521d4e75-s.1qq4vpdcun5oj.woff2?dpl=075ac813a8bfa09e138de3ea296d84d9435af007\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist",
+    "weight": "100 900",
+    "style": "normal",
+    "src": "url(\"../media/53b9e256198e5412-s.390ncx5urfkfu.woff2?dpl=075ac813a8bfa09e138de3ea296d84d9435af007\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist",
+    "weight": "100 900",
+    "style": "normal",
+    "src": "url(\"../media/7178b3e590c64307-s.21jp631_3pja2.woff2?dpl=075ac813a8bfa09e138de3ea296d84d9435af007\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist",
+    "weight": "100 900",
+    "style": "normal",
+    "src": "url(\"../media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2?dpl=075ac813a8bfa09e138de3ea296d84d9435af007\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist Fallback",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "100 900",
+    "style": "normal",
+    "src": "url(\"../media/5ce348bf30bf5439-s.31988l_ccedte.woff2?dpl=075ac813a8bfa09e138de3ea296d84d9435af007\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "100 900",
+    "style": "normal",
+    "src": "url(\"../media/4fa387ec64143e14-s.2tuy5pz7dlieh.woff2?dpl=075ac813a8bfa09e138de3ea296d84d9435af007\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "100 900",
+    "style": "normal",
+    "src": "url(\"../media/6306c77e7c8268e4-s.2dbetqa9o8jxf.woff2?dpl=075ac813a8bfa09e138de3ea296d84d9435af007\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "100 900",
+    "style": "normal",
+    "src": "url(\"../media/7d817b4c03b0c5f1-s.1uyisp29ctx0d.woff2?dpl=075ac813a8bfa09e138de3ea296d84d9435af007\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "100 900",
+    "style": "normal",
+    "src": "url(\"../media/bbc41e54d2fcbd21-s.1rgnod-3esatf.woff2?dpl=075ac813a8bfa09e138de3ea296d84d9435af007\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist Mono",
+    "weight": "100 900",
+    "style": "normal",
+    "src": "url(\"../media/797e433ab948586e-s.p.0r6juujl39pe6.woff2?dpl=075ac813a8bfa09e138de3ea296d84d9435af007\") format(\"woff2\")"
+   },
+   {
+    "family": "Geist Mono Fallback",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   },
+   {
+    "family": "overusedGrotesk",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"../media/OverusedGrotesk_Roman-s.p.0gue6lbcd8qie.woff2?dpl=075ac813a8bfa09e138de3ea296d84d9435af007\") format(\"woff2\")"
+   },
+   {
+    "family": "overusedGrotesk Fallback",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   }
+  ],
+  "keyframes": [
+   "count-in",
+   "accordion-down",
+   "accordion-up",
+   "collapsible-down",
+   "collapsible-up",
+   "nav-from-left",
+   "nav-from-right",
+   "nav-viewport-in",
+   "nav-viewport-out",
+   "ring-text-rotate",
+   "spin",
+   "pulse",
+   "enter",
+   "exit",
+   "swipe-out-left",
+   "swipe-out-right",
+   "swipe-out-up",
+   "swipe-out-down",
+   "sonner-fade-in",
+   "sonner-fade-out",
+   "sonner-spin",
+   "inReviewEq1",
+   "inReviewEq2",
+   "inReviewEq3"
+  ],
+  "breakpoints": [
+   {
+    "v": "768px",
+    "w": 3
+   },
+   {
+    "v": "40rem",
+    "w": 2
+   },
+   {
+    "v": "48rem",
+    "w": 2
+   },
+   {
+    "v": "64rem",
+    "w": 2
+   },
+   {
+    "v": "80rem",
+    "w": 2
+   },
+   {
+    "v": "96rem",
+    "w": 2
+   },
+   {
+    "v": "600px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 2035,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "relative w-full overflow-hidden bg-base",
+    "h": 900,
+    "title": "",
+    "media": 2
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "",
+    "href": "https://mesh3d.gallery/"
+   }
+  ],
+  "ctas": [
+   "Browse the gallery"
+  ],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 2,
+   "videos": 0,
+   "imgs": 1,
+   "svgs": 1,
+   "iframes": 0,
+   "domNodes": 1131
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": false,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "183",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": true,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": true,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://mesh3d.gallery/_next/static/chunks/38bkfr3cr5jer.js?dpl=075ac813a8bfa09e138de3ea296d84d9435af007",
+  "https://mesh3d.gallery/_next/static/chunks/2j79mx1bg9i4j.js?dpl=075ac813a8bfa09e138de3ea296d84d9435af007",
+  "https://mesh3d.gallery/_next/static/chunks/3u5fv4bbs18da.js?dpl=075ac813a8bfa09e138de3ea296d84d9435af007",
+  "https://mesh3d.gallery/_next/static/chunks/2fx5lfk8bo0kw.js?dpl=075ac813a8bfa09e138de3ea296d84d9435af007",
+  "https://mesh3d.gallery/_next/static/chunks/273dnss41l5us.js?dpl=075ac813a8bfa09e138de3ea296d84d9435af007",
+  "https://mesh3d.gallery/_next/static/chunks/turbopack-3c5539871zzqy.js?dpl=075ac813a8bfa09e138de3ea296d84d9435af007",
+  "https://mesh3d.gallery/_next/static/chunks/1frwa2qsbcyh9.js?dpl=075ac813a8bfa09e138de3ea296d84d9435af007",
+  "https://mesh3d.gallery/_next/static/chunks/0kwf1321lduy0.js?dpl=075ac813a8bfa09e138de3ea296d84d9435af007",
+  "https://mesh3d.gallery/_next/static/chunks/1zpszai6e9ccu.js?dpl=075ac813a8bfa09e138de3ea296d84d9435af007",
+  "https://mesh3d.gallery/_next/static/chunks/1p6p5uwyj444d.js?dpl=075ac813a8bfa09e138de3ea296d84d9435af007",
+  "https://mesh3d.gallery/_next/static/chunks/2ivbn34m2mwiu.js?dpl=075ac813a8bfa09e138de3ea296d84d9435af007",
+  "https://mesh3d.gallery/_next/static/chunks/3x89wwxetptzk.js?dpl=075ac813a8bfa09e138de3ea296d84d9435af007",
+  "https://mesh3d.gallery/_next/static/chunks/3lhgmfmikhmb6.js?dpl=075ac813a8bfa09e138de3ea296d84d9435af007",
+  "https://mesh3d.gallery/_next/static/chunks/2qmyz175xge-i.js?dpl=075ac813a8bfa09e138de3ea296d84d9435af007",
+  "https://mesh3d.gallery/_next/static/chunks/24b5rrmipqpg5.js?dpl=075ac813a8bfa09e138de3ea296d84d9435af007",
+  "https://mesh3d.gallery/_next/static/chunks/1_k2pyb3ddyob.js?dpl=075ac813a8bfa09e138de3ea296d84d9435af007",
+  "https://mesh3d.gallery/_next/static/chunks/2d0cfji1lr1y0.js?dpl=075ac813a8bfa09e138de3ea296d84d9435af007",
+  "https://mesh3d.gallery/_next/static/chunks/2iuuovk2uidzi.js?dpl=075ac813a8bfa09e138de3ea296d84d9435af007",
+  "https://mesh3d.gallery/_next/static/chunks/1fmc6qsenvxxx.js?dpl=075ac813a8bfa09e138de3ea296d84d9435af007",
+  "https://mesh3d.gallery/_next/static/chunks/1ige7frx99cur.js?dpl=075ac813a8bfa09e138de3ea296d84d9435af007",
+  "https://mesh3d.gallery/_next/static/chunks/2q_l_rlcelfzh.js?dpl=075ac813a8bfa09e138de3ea296d84d9435af007",
+  "https://mesh3d.gallery/_next/static/chunks/0csn9nqi8b28k.js?dpl=075ac813a8bfa09e138de3ea296d84d9435af007",
+  "https://mesh3d.gallery/_next/static/chunks/1swj5_fbilnhr.js?dpl=075ac813a8bfa09e138de3ea296d84d9435af007",
+  "https://mesh3d.gallery/_next/static/chunks/2ish04thvtj_m.js?dpl=075ac813a8bfa09e138de3ea296d84d9435af007",
+  "https://mesh3d.gallery/_next/static/chunks/33tk77j4pf455.js?dpl=075ac813a8bfa09e138de3ea296d84d9435af007",
+  "https://umami.mesh3d.gallery/script.js",
+  "https://mesh3d.gallery/_next/static/chunks/0cz1d0mv5g_q7.js?dpl=075ac813a8bfa09e138de3ea296d84d9435af007",
+  "https://mesh3d.gallery/_next/static/chunks/3ikk2qb6wq8s5.js?dpl=075ac813a8bfa09e138de3ea296d84d9435af007",
+  "https://mesh3d.gallery/_next/static/chunks/0o2p9sr872c1k.js?dpl=075ac813a8bfa09e138de3ea296d84d9435af007",
+  "https://mesh3d.gallery/_next/static/chunks/1-d8y95fs809a.js?dpl=075ac813a8bfa09e138de3ea296d84d9435af007",
+  "https://mesh3d.gallery/_next/static/chunks/19kjsbykcf8n3.js?dpl=075ac813a8bfa09e138de3ea296d84d9435af007"
+ ],
+ "internal": [
+  "https://mesh3d.gallery/",
+  "https://mesh3d.gallery/websites"
+ ],
+ "perf": {
+  "ttfb": 544,
+  "dcl": 738,
+  "load": 913,
+  "lcp": 2544,
+  "lcpEl": "P.in-review-loader-pct",
+  "cls": 0.034
+ },
+ "libs": {
+  "detected": [
+   "Next.js",
+   "ScrollTrigger",
+   "Lottie",
+   "Svelte",
+   "Contentful",
+   "Rapier/Cannon (physique)",
+   "React",
+   "Three.js"
+  ],
+  "where": {
+   "Next.js": [
+    "004-24b5rrmipqpg5.js",
+    "009-38bkfr3cr5jer.js",
+    "018-2qmyz175xge-i.js",
+    "023-0csn9nqi8b28k.js",
+    "027-273dnss41l5us.js"
+   ],
+   "ScrollTrigger": [
+    "006-2ivbn34m2mwiu.js",
+    "025-33tk77j4pf455.js"
+   ],
+   "Lottie": [
+    "017-3x89wwxetptzk.js"
+   ],
+   "Svelte": [
+    "018-2qmyz175xge-i.js"
+   ],
+   "Contentful": [
+    "024-script.js",
+    "027-273dnss41l5us.js"
+   ],
+   "Rapier/Cannon (physique)": [
+    "027-273dnss41l5us.js"
+   ],
+   "React": [
+    "027-273dnss41l5us.js"
+   ],
+   "Three.js": [
+    "029-1-d8y95fs809a.js",
+    "030-0o2p9sr872c1k.js"
+   ]
+  },
+  "gsapVersion": null,
+  "threeRevision": null,
+  "shaders": 39,
+  "scripts": 30
+ },
+ "network": {
+  "requests": 49,
+  "totalKb": 20916,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 8
+   },
+   "Stylesheet": {
+    "n": 2,
+    "kb": 25
+   },
+   "Image": {
+    "n": 2,
+    "kb": 12
+   },
+   "Script": {
+    "n": 30,
+    "kb": 718
+   },
+   "Font": {
+    "n": 3,
+    "kb": 113
+   },
+   "Other": {
+    "n": 1,
+    "kb": 2
+   },
+   "Preflight": {
+    "n": 1,
+    "kb": 0
+   },
+   "Fetch": {
+    "n": 4,
+    "kb": 10
+   },
+   "Media": {
+    "n": 5,
+    "kb": 20027
+   }
+  },
+  "thirdPartyHosts": [
+   "umami.mesh3d.gallery",
+   "o4510732891389952.ingest.de.sentry.io",
+   "cdn.mesh3d.gallery"
+  ],
+  "fontFiles": [
+   "https://mesh3d.gallery/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2?dpl=075ac813a8bfa09e138de3ea296d84d9435af007",
+   "https://mesh3d.gallery/_next/static/media/OverusedGrotesk_Roman-s.p.0gue6lbcd8qie.woff2?dpl=075ac813a8bfa09e138de3ea296d84d9435af007",
+   "https://mesh3d.gallery/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2?dpl=075ac813a8bfa09e138de3ea296d84d9435af007"
+  ],
+  "biggest": [
+   {
+    "url": "https://cdn.mesh3d.gallery/videos/1768394623120-ygq9vqt-1768308726303-igloo.mp4",
+    "kb": 19994,
+    "type": "Media"
+   },
+   {
+    "url": "https://mesh3d.gallery/_next/static/chunks/1-d8y95fs809a.js?dpl=075ac813a8bfa09e138de3ea296d84d9435af007",
+    "kb": 132,
+    "type": "Script"
+   },
+   {
+    "url": "https://mesh3d.gallery/_next/static/chunks/273dnss41l5us.js?dpl=075ac813a8bfa09e138de3ea296d84d9435af007",
+    "kb": 114,
+    "type": "Script"
+   },
+   {
+    "url": "https://mesh3d.gallery/_next/static/chunks/3x89wwxetptzk.js?dpl=075ac813a8bfa09e138de3ea296d84d9435af007",
+    "kb": 83,
+    "type": "Script"
+   },
+   {
+    "url": "https://mesh3d.gallery/_next/static/chunks/2qmyz175xge-i.js?dpl=075ac813a8bfa09e138de3ea296d84d9435af007",
+    "kb": 67,
+    "type": "Script"
+   },
+   {
+    "url": "https://mesh3d.gallery/_next/static/chunks/0o2p9sr872c1k.js?dpl=075ac813a8bfa09e138de3ea296d84d9435af007",
+    "kb": 62,
+    "type": "Script"
+   },
+   {
+    "url": "https://mesh3d.gallery/_next/static/media/OverusedGrotesk_Roman-s.p.0gue6lbcd8qie.woff2?dpl=075ac813a8bfa09e138de3ea296d84d9435af007",
+    "kb": 61,
+    "type": "Font"
+   },
+   {
+    "url": "https://mesh3d.gallery/_next/static/chunks/3lhgmfmikhmb6.js?dpl=075ac813a8bfa09e138de3ea296d84d9435af007",
+    "kb": 44,
+    "type": "Script"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": null,
+  "body": "16px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 87
+}

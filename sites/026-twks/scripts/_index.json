@@ -10,13 +10,13 @@
   "kb": 258
  },
  {
-  "file": "003-script.js",
-  "url": "https://cdn.usefathom.com/script.js",
-  "kb": 7
- },
- {
-  "file": "004-dotlottie-wc.js",
+  "file": "003-dotlottie-wc.js",
   "url": "https://cdn.jsdelivr.net/npm/@lottiefiles/dotlottie-wc@latest/dist/dotlottie-wc.js",
   "kb": 79
+ },
+ {
+  "file": "004-script.js",
+  "url": "https://cdn.usefathom.com/script.js",
+  "kb": 7
  }
 ]

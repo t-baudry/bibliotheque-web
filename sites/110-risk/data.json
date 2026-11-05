@@ -1,0 +1,583 @@
+{
+ "id": 110,
+ "name": "RISK",
+ "sourceUrl": "https://www.risk.film/",
+ "capturedAt": "2026-11-05T11:07:06.337Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg",
+   "desktop-13.jpg",
+   "desktop-14.jpg"
+  ],
+  "fullPage": 540000,
+  "subpages": [
+   {
+    "url": "https://www.risk.film/works",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.risk.film/about",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.risk.film/work/lilou-ruel-x-cateyes",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://www.risk.film/",
+ "title": "RISK FILM",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "RISK is a post-production studio crafting bold visual identities through storytelling, emotion and creative risk-taking for brands, agencies and artists.",
+  "canonical": "https://www.risk.film/",
+  "robots": null,
+  "ogTitle": "RISK FILM",
+  "ogImage": "https://cdn.prod.website-files.com/69665a19d7bd6eed4e229aaa/696674b8067ba052dee5f3a0_94a39853b5c68c82ef5aac79b8880cb5_Coming.jpg",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [],
+  "h1Count": 6,
+  "headings": [
+   "H3 Director",
+   "H3 :",
+   "H3 Florian Cuszacq",
+   "H1 TF1",
+   "H2 Lilou Ruel X Cateye's",
+   "H3 Director",
+   "H3 :",
+   "H3 Florian Cuszacq",
+   "H3 Director",
+   "H3 :",
+   "H3 MARTIN RIVET",
+   "H1 SPHERE PERFORMANCE",
+   "H2 WE TOOK THE TIME",
+   "H3 Director",
+   "H3 :",
+   "H3 MARTIN RIVET",
+   "H3 Director",
+   "H3 :",
+   "H3 ",
+   "H1 HELLOFRESH",
+   "H2 A TAAABLE",
+   "H3 Director",
+   "H3 :",
+   "H3 ",
+   "H3 Director",
+   "H3 :",
+   "H3 Florian Cuszacq",
+   "H1 IRUN X SALOMON",
+   "H2 OFF-TRAIL DIVISION",
+   "H3 Director",
+   "H3 :",
+   "H3 Florian Cuszacq",
+   "H3 Director",
+   "H3 :",
+   "H3 ANTOINE BAL",
+   "H1 Deezer",
+   "H2 LA RELÈVE",
+   "H3 Director",
+   "H3 :",
+   "H3 ANTOINE BAL",
+   "H3 Director",
+   "H3 :",
+   "H3 THE YOUTH",
+   "H1 PEPSI",
+   "H2 ROMPE TU ALGORITMO",
+   "H3 Director",
+   "H3 :",
+   "H3 THE YOUTH"
+  ],
+  "imgs": 0,
+  "imgNoAlt": 0,
+  "favicon": "https://cdn.prod.website-files.com/69665a19d7bd6eed4e229aaa/6967ad55f733c0c453097f65_Favicon.png",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#000000",
+    "w": 11664000
+   },
+   {
+    "v": "#e6d5bb",
+    "w": 2788
+   }
+  ],
+  "text": [
+   {
+    "v": "#e6d5bb",
+    "w": 427
+   }
+  ],
+  "border": [
+   {
+    "v": "#e6d5bb",
+    "w": 2
+   }
+  ],
+  "fonts": [
+   {
+    "v": "Syncopate",
+    "w": 286
+   },
+   {
+    "v": "Redhatdisplay",
+    "w": 141
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "7.2px",
+    "w": 47
+   },
+   {
+    "v": "12.6px",
+    "w": 12
+   },
+   {
+    "v": "14.4px",
+    "w": 4
+   },
+   {
+    "v": "5.4px",
+    "w": 4
+   }
+  ],
+  "radius": [],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "ease 0.3s",
+    "w": 13
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "Syncopate, sans-serif",
+    "size": "12.6px",
+    "weight": "700",
+    "lineHeight": "12.6px",
+    "letterSpacing": "-0.756px",
+    "transform": "uppercase",
+    "color": "#e6d5bb",
+    "sample": "TF1"
+   },
+   "h2": {
+    "family": "Syncopate, sans-serif",
+    "size": "12.6px",
+    "weight": "700",
+    "lineHeight": "13.23px",
+    "letterSpacing": "-0.756px",
+    "transform": "uppercase",
+    "color": "#e6d5bb",
+    "sample": "Lilou Ruel X Cateye's"
+   },
+   "h3": {
+    "family": "Redhatdisplay, Arial, sans-serif",
+    "size": "7.2px",
+    "weight": "900",
+    "lineHeight": "7.92px",
+    "letterSpacing": "1.008px",
+    "transform": "uppercase",
+    "color": "#e6d5bb",
+    "sample": "Director"
+   },
+   "a": {
+    "family": "Redhatdisplay, Arial, sans-serif",
+    "size": "7.2px",
+    "weight": "900",
+    "lineHeight": "7.2px",
+    "letterSpacing": "1.008px",
+    "transform": "uppercase",
+    "color": "#e6d5bb",
+    "sample": "works"
+   },
+   "body": {
+    "family": "Syncopate, sans-serif",
+    "size": "14.4px",
+    "weight": "500",
+    "lineHeight": "14.4px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#e6d5bb",
+    "sample": "html { font-size: calc(0rem + 1vw); } @media screen and (min-width: 1750px) { ht"
+   }
+  },
+  "cssVars": {
+   "--black": "black",
+   "--beige": "#e6d5bb",
+   "--color-neutral-300<deleted|variable-1d6890ef-448c-9061-c4bf-c4a137eac590>": "#e3e1de",
+   "--white": "white",
+   "--color-success<deleted|variable-9f54a720-69d3-aab8-4e89-4762934afb98>": "#0ba954"
+  },
+  "fontFaces": [
+   {
+    "family": "webflow-icons",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"data:application/x-font-ttf;charset=utf-8;base64,AAEAAAALAIAAAwAwT1MvMg8SBiUAAAC8AAAAYGNtYXDpP+a4AAABHAAAAFxnYXNwAAAAEAAAAXgAAAAIZ2x5ZmhS2XEAAAGAAAADHGhlYWQTFw3HAAAEnAAAADZoaGVhCXYFgQAABNQAAAAkaG"
+   },
+   {
+    "family": "Redhatdisplay Variablefont Wght",
+    "weight": "300 900",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/69665a19d7bd6eed4e229aaa/6a2be7ad9e77663bd4c9eb00_RedHatDisplay-VariableFont_wght.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Redhatdisplay",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/69665a19d7bd6eed4e229aaa/69d50ed1d5c4e29fc5c29472_RedHatDisplay-Bold.ttf\") format(\"truetype\")"
+   },
+   {
+    "family": "Redhatdisplay",
+    "weight": "900",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/69665a19d7bd6eed4e229aaa/69d50ed187dd2a7f5cbec794_RedHatDisplay-Black.ttf\") format(\"truetype\")"
+   }
+  ],
+  "keyframes": [
+   "spin"
+  ],
+  "breakpoints": [
+   {
+    "v": "991px",
+    "w": 5
+   },
+   {
+    "v": "767px",
+    "w": 5
+   },
+   {
+    "v": "479px",
+    "w": 5
+   },
+   {
+    "v": "768px",
+    "w": 1
+   },
+   {
+    "v": "1750px",
+    "w": 1
+   },
+   {
+    "v": "992px",
+    "w": 1
+   },
+   {
+    "v": "1749px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 581,
+  "crossOriginSheets": 1
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "page-wrapper",
+    "h": 540000,
+    "top": 0,
+    "title": "Director",
+    "media": 7
+   },
+   {
+    "tag": "canvas",
+    "id": "glass-logo",
+    "cls": "",
+    "h": 900,
+    "top": 0,
+    "title": "",
+    "media": 0
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "works",
+    "href": "https://www.risk.film/works"
+   },
+   {
+    "t": "about",
+    "href": "https://www.risk.film/about"
+   },
+   {
+    "t": "contact",
+    "href": "mailto:hello@risk.film"
+   }
+  ],
+  "ctas": [],
+  "pageHeight": 540000,
+  "counts": {
+   "canvas": 2,
+   "videos": 6,
+   "imgs": 0,
+   "svgs": 16,
+   "iframes": 0,
+   "domNodes": 1204
+  }
+ },
+ "tech": {
+  "gsap": true,
+  "gsapVersion": "3.13.0",
+  "scrollTrigger": true,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "170",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": true,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": true,
+  "swiper": false,
+  "webflow": true,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js",
+  "https://cdn.jsdelivr.net/gh/hiunicornstudio/unicornstudio.js@v2.0.1/dist/unicornStudio.umd.js",
+  "https://risk-film.netlify.app/main.js",
+  "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=69665a19d7bd6eed4e229aaa",
+  "https://cdn.prod.website-files.com/69665a19d7bd6eed4e229aaa/js/webflow.751e0867.c70914493f903d19.js"
+ ],
+ "internal": [
+  "https://www.risk.film/works",
+  "https://www.risk.film/about",
+  "https://www.risk.film/work/lilou-ruel-x-cateyes",
+  "https://www.risk.film/work/we-took-the-time",
+  "https://www.risk.film/work/a-taaable",
+  "https://www.risk.film/work/off-trail-division",
+  "https://www.risk.film/work/la-releve",
+  "https://www.risk.film/work/rompe-tu-algoritmo"
+ ],
+ "perf": {
+  "ttfb": 124,
+  "dcl": 321,
+  "load": 3641,
+  "lcp": 7384,
+  "lcpEl": "DIV.load-nbr-w",
+  "cls": 0.034
+ },
+ "libs": {
+  "detected": [
+   "jQuery",
+   "Curtains.js",
+   "Unicorn Studio",
+   "GSAP",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Lenis",
+   "Three.js",
+   "Virtual scroll"
+  ],
+  "where": {
+   "jQuery": [
+    "001-webflow.751e0867.c70914493f903d19.js",
+    "003-jquery-3.5.1.min.dc5e7f18c8.js"
+   ],
+   "Curtains.js": [
+    "004-unicornStudio.umd.js"
+   ],
+   "Unicorn Studio": [
+    "004-unicornStudio.umd.js",
+    "006-main.js"
+   ],
+   "GSAP": [
+    "006-main.js"
+   ],
+   "ScrollTrigger": [
+    "006-main.js"
+   ],
+   "SplitText/SplitType": [
+    "006-main.js"
+   ],
+   "Lenis": [
+    "006-main.js"
+   ],
+   "Three.js": [
+    "006-main.js"
+   ],
+   "Virtual scroll": [
+    "006-main.js"
+   ]
+  },
+  "gsapVersion": "3.13.0",
+  "threeRevision": null,
+  "shaders": 32,
+  "scripts": 6
+ },
+ "network": {
+  "requests": 47,
+  "totalKb": 19541,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 22
+   },
+   "Stylesheet": {
+    "n": 3,
+    "kb": 1
+   },
+   "Script": {
+    "n": 5,
+    "kb": 449
+   },
+   "Font": {
+    "n": 3,
+    "kb": 75
+   },
+   "Media": {
+    "n": 30,
+    "kb": 18652
+   },
+   "Fetch": {
+    "n": 2,
+    "kb": 31
+   },
+   "Image": {
+    "n": 2,
+    "kb": 308
+   },
+   "Other": {
+    "n": 1,
+    "kb": 3
+   }
+  },
+  "thirdPartyHosts": [
+   "cdn.prod.website-files.com",
+   "ajax.googleapis.com",
+   "d3e54v103j8qbb.cloudfront.net",
+   "fonts.googleapis.com",
+   "fonts.gstatic.com",
+   "cdn.jsdelivr.net",
+   "risk-film.b-cdn.net",
+   "assets.unicorn.studio",
+   "risk-film.netlify.app"
+  ],
+  "fontFiles": [
+   "https://fonts.gstatic.com/s/syncopate/v24/pe0pMIuPIYBCpEV5eFdKvtKqBP5v.woff2",
+   "https://cdn.prod.website-files.com/69665a19d7bd6eed4e229aaa/69d50ed187dd2a7f5cbec794_RedHatDisplay-Black.ttf",
+   "https://fonts.gstatic.com/s/syncopate/v24/pe0sMIuPIYBCpEV5eFdCBfe_.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://risk-film.b-cdn.net/HELLOFRESH/HF-SHORT_MUTED.mp4",
+    "kb": 8439,
+    "type": "Media"
+   },
+   {
+    "url": "https://risk-film.b-cdn.net/Sphere%20performance/Sphere-Short-Muted.mp4",
+    "kb": 4095,
+    "type": "Media"
+   },
+   {
+    "url": "https://risk-film.b-cdn.net/OFF-TRAIL%20DIVISION/iRun-Short-Muted.mp4",
+    "kb": 3061,
+    "type": "Media"
+   },
+   {
+    "url": "https://risk-film.b-cdn.net/Deezer/Deezer-Short-Muted.mp4",
+    "kb": 2704,
+    "type": "Media"
+   },
+   {
+    "url": "https://risk-film.netlify.app/main.js",
+    "kb": 358,
+    "type": "Script"
+   },
+   {
+    "url": "https://risk-film.b-cdn.net/Cateyes/202609301453.mp4",
+    "kb": 321,
+    "type": "Media"
+   },
+   {
+    "url": "https://assets.unicorn.studio/images/s1BzqjqNZnVCIWoOOGEuLZcRVRa2/Risk_Logo_Plein_Blanc_combined_1767863423686.png",
+    "kb": 240,
+    "type": "Image"
+   },
+   {
+    "url": "https://assets.unicorn.studio/images/s1BzqjqNZnVCIWoOOGEuLZcRVRa2/RISK-Grad-1.jpg",
+    "kb": 68,
+    "type": "Image"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "14px",
+   "lineHeight": "14px"
+  },
+  "body": "16px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 233
+}

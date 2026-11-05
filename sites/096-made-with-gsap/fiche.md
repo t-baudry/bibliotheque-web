@@ -1,7 +1,21 @@
 # Made With Gsap
 
-- URL : https://madewithgsap.com/
+- Site : [https://madewithgsap.com/](https://madewithgsap.com/) — [aperçu statique local](apercu.html)
 - Capturé le : 2026-11-02 — statut : ok
+- Vidéo de scroll : [▶ ouvrir](https://github.com/t-baudry/bibliotheque-web/releases/download/videos/096-made-with-gsap.webm)
+
+<a href="captures/desktop-00-arrivee.jpg"><img src="captures/desktop-00-arrivee.jpg" width="100%" alt="desktop-00-arrivee.jpg"></a> 
+
+<details><summary>Toutes les captures</summary>
+
+<a href="captures/desktop-01.jpg"><img src="captures/desktop-01.jpg" width="32%" alt="desktop-01.jpg"></a> <a href="captures/desktop-02.jpg"><img src="captures/desktop-02.jpg" width="32%" alt="desktop-02.jpg"></a> <a href="captures/desktop-03.jpg"><img src="captures/desktop-03.jpg" width="32%" alt="desktop-03.jpg"></a> <a href="captures/desktop-04.jpg"><img src="captures/desktop-04.jpg" width="32%" alt="desktop-04.jpg"></a> <a href="captures/desktop-05.jpg"><img src="captures/desktop-05.jpg" width="32%" alt="desktop-05.jpg"></a> <a href="captures/desktop-06.jpg"><img src="captures/desktop-06.jpg" width="32%" alt="desktop-06.jpg"></a> <a href="captures/desktop-07.jpg"><img src="captures/desktop-07.jpg" width="32%" alt="desktop-07.jpg"></a> <a href="captures/desktop-08.jpg"><img src="captures/desktop-08.jpg" width="32%" alt="desktop-08.jpg"></a> <a href="captures/desktop-09.jpg"><img src="captures/desktop-09.jpg" width="32%" alt="desktop-09.jpg"></a> <a href="captures/desktop-10.jpg"><img src="captures/desktop-10.jpg" width="32%" alt="desktop-10.jpg"></a> <a href="captures/desktop-11.jpg"><img src="captures/desktop-11.jpg" width="32%" alt="desktop-11.jpg"></a> <a href="captures/desktop-12.jpg"><img src="captures/desktop-12.jpg" width="32%" alt="desktop-12.jpg"></a> <a href="captures/desktop-13.jpg"><img src="captures/desktop-13.jpg" width="32%" alt="desktop-13.jpg"></a> <a href="captures/desktop-14.jpg"><img src="captures/desktop-14.jpg" width="32%" alt="desktop-14.jpg"></a> <a href="captures/desktop-pleine-page.jpg"><img src="captures/desktop-pleine-page.jpg" width="32%" alt="desktop-pleine-page.jpg"></a> 
+
+<a href="captures/page1-01.jpg"><img src="captures/page1-01.jpg" width="32%" alt="page1-01.jpg"></a> <a href="captures/page1-02.jpg"><img src="captures/page1-02.jpg" width="32%" alt="page1-02.jpg"></a> <a href="captures/page1-03.jpg"><img src="captures/page1-03.jpg" width="32%" alt="page1-03.jpg"></a> <a href="captures/page1-04.jpg"><img src="captures/page1-04.jpg" width="32%" alt="page1-04.jpg"></a> <a href="captures/page2-01.jpg"><img src="captures/page2-01.jpg" width="32%" alt="page2-01.jpg"></a> <a href="captures/page2-02.jpg"><img src="captures/page2-02.jpg" width="32%" alt="page2-02.jpg"></a> <a href="captures/page2-03.jpg"><img src="captures/page2-03.jpg" width="32%" alt="page2-03.jpg"></a> <a href="captures/page2-04.jpg"><img src="captures/page2-04.jpg" width="32%" alt="page2-04.jpg"></a> <a href="captures/page3-01.jpg"><img src="captures/page3-01.jpg" width="32%" alt="page3-01.jpg"></a> <a href="captures/page3-02.jpg"><img src="captures/page3-02.jpg" width="32%" alt="page3-02.jpg"></a> <a href="captures/page3-03.jpg"><img src="captures/page3-03.jpg" width="32%" alt="page3-03.jpg"></a> <a href="captures/page3-04.jpg"><img src="captures/page3-04.jpg" width="32%" alt="page3-04.jpg"></a> 
+
+<a href="captures/mobile-01.jpg"><img src="captures/mobile-01.jpg" width="15%" alt="mobile-01.jpg"></a> <a href="captures/mobile-02.jpg"><img src="captures/mobile-02.jpg" width="15%" alt="mobile-02.jpg"></a> <a href="captures/mobile-03.jpg"><img src="captures/mobile-03.jpg" width="15%" alt="mobile-03.jpg"></a> <a href="captures/mobile-04.jpg"><img src="captures/mobile-04.jpg" width="15%" alt="mobile-04.jpg"></a> <a href="captures/mobile-05.jpg"><img src="captures/mobile-05.jpg" width="15%" alt="mobile-05.jpg"></a> <a href="captures/mobile-06.jpg"><img src="captures/mobile-06.jpg" width="15%" alt="mobile-06.jpg"></a> 
+
+</details>
+
 ## Stack détectée
 GSAP, Lenis, ScrollTrigger, SplitText/SplitType
 
@@ -134,7 +148,7 @@ Hauteur : 14890 px — 911 nœuds DOM — canvas 0, vidéos 25, images 136
 - H1 : {'size': '36px', 'lineHeight': '43.2px'} · corps : 18px · débordement horizontal : False · menu burger : True
 
 ## Fichiers
-- `captures/` : arrivée, scroll desktop (1440×900), pleine page, pages internes, mobile (390×844 @2x), vidéo `desktop-scroll.webm`
+- `captures/` : arrivée, scroll desktop (1440×900), pleine page, pages internes, mobile (390×844 @2x) ; vidéo de scroll dans la release GitHub « videos » (lien en haut de fiche)
 - `page.html` : DOM rendu · `styles.css` : CSS chargé · `scripts/` : JS chargé (index dans `_index.json`) · `shaders.glsl` : shaders extraits · `rea-bundle.json` : analyse REA du bundle (chunks, routes, endpoints)
 
 ## Pages internes capturées

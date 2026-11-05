@@ -33,6 +33,3361 @@
   "a_reprendre_pour": null
  },
  {
+  "dossier": "002-mecha",
+  "nom": "MECHA",
+  "url": "https://mecha-xyz.webflow.io/",
+  "statut": "ok",
+  "stack": [
+   "DrawSVG/MorphSVG",
+   "GSAP",
+   "Lenis",
+   "Locomotive Scroll",
+   "Lottie",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Three.js",
+   "Virtual scroll",
+   "WebGL",
+   "Webflow",
+   "jQuery"
+  ],
+  "polices": [
+   "Neue Haas Grotesk",
+   "Flecha M",
+   "\\Haas Grot Tex"
+  ],
+  "palette": [
+   "#ffffff",
+   "#ebf0f0",
+   "#e9edef",
+   "#ebeae0",
+   "#911a46",
+   "#262933",
+   "#000000"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "003-spyker-cars",
+  "nom": "Spyker Cars",
+  "url": "https://www.spykercars.com/",
+  "statut": "ok",
+  "stack": [
+   "Barba.js",
+   "GSAP",
+   "Lenis",
+   "Lottie",
+   "Next.js",
+   "React",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Virtual scroll"
+  ],
+  "polices": [
+   "swiss721",
+   "futura-pt-condensed"
+  ],
+  "palette": [
+   "#ffffff",
+   "#000000",
+   "#f0f0f0",
+   "#101010"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "004-unbelievably-crap",
+  "nom": "Unbelievably Crap",
+  "url": "https://www.unbelievablycrap.com/",
+  "statut": "ok",
+  "stack": [
+   "Barba.js",
+   "GSAP",
+   "Lenis",
+   "React Three Fiber",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Svelte",
+   "Swup",
+   "Three.js",
+   "WebGL"
+  ],
+  "polices": [
+   "PP Supply Sans"
+  ],
+  "palette": [
+   "#393939",
+   "#e8271c",
+   "#000000",
+   "#ffffff",
+   "#d9d9d9",
+   "#c8c8c8",
+   "#daecf1"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "005-g-colombel-portfolio-2026",
+  "nom": "G. Colombel - Portfolio 2026",
+  "url": "https://guillaumecolombel.fr/",
+  "statut": "ok",
+  "stack": [
+   "CMS Contentful",
+   "GSAP",
+   "Howler (audio)",
+   "Lil-GUI/Tweakpane (debug)",
+   "Locomotive Scroll",
+   "Nuxt",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Three.js",
+   "Vue",
+   "WebGL"
+  ],
+  "polices": [
+   "Neue Montreal"
+  ],
+  "palette": [
+   "#ffd6b0",
+   "#f4f2ee",
+   "#ffffff"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "006-awards-racing",
+  "nom": "Awards Racing",
+  "url": "https://awards.racing/",
+  "statut": "ok",
+  "stack": [
+   "Embla",
+   "GSAP",
+   "Howler (audio)",
+   "Lil-GUI/Tweakpane (debug)",
+   "Nuxt",
+   "Postprocessing",
+   "React Three Fiber",
+   "ScrollTrigger",
+   "Three.js",
+   "Vue",
+   "WebGL"
+  ],
+  "polices": [
+   "Druk Wide Cy TT"
+  ],
+  "palette": [
+   "#000000",
+   "#ffffff"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "007-a24",
+  "nom": "A24",
+  "url": "https://a24.raviklaassens.com/",
+  "statut": "ok",
+  "stack": [
+   "Astro",
+   "Barba.js",
+   "CMS Contentful",
+   "GSAP",
+   "Lenis",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Three.js",
+   "Virtual scroll",
+   "WebGL"
+  ],
+  "polices": [
+   "Ppneuemontreal",
+   "Ppeiko",
+   "Ppmuseum"
+  ],
+  "palette": [
+   "#f2f2f2",
+   "#000000"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "008-forge-automotive",
+  "nom": "Forge Automotive",
+  "url": "https://forgeautomotive.co.uk/",
+  "statut": "ok",
+  "stack": [
+   "CMS Sanity",
+   "GSAP",
+   "Lenis",
+   "Next.js",
+   "React",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Virtual scroll",
+   "WebGL"
+  ],
+  "polices": [
+   "GeistSans",
+   "Times New Roman",
+   "editorial"
+  ],
+  "palette": [
+   "#000000",
+   "#0c0c0c",
+   "#161616",
+   "#f2f1ed",
+   "#ffffff"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "009-brandon-yasin",
+  "nom": "Brandon Yasin",
+  "url": "https://brandonyasin.com/",
+  "statut": "ok",
+  "stack": [
+   "GSAP",
+   "Lenis",
+   "Nuxt",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Virtual scroll",
+   "Vue"
+  ],
+  "polices": [
+   "Helvetica Now Variable",
+   "Neue Haas Unica Pro"
+  ],
+  "palette": [
+   "#2c2922",
+   "#c3beb1"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "010-esr-bespoke",
+  "nom": "ESR Bespoke",
+  "url": "https://www.esrbespoke.au/",
+  "statut": "ok",
+  "stack": [
+   "CMS Contentful",
+   "CMS Sanity",
+   "DrawSVG/MorphSVG",
+   "GSAP",
+   "Keen slider",
+   "Lenis",
+   "Next.js",
+   "React",
+   "ScrollTrigger",
+   "SplitText/SplitType"
+  ],
+  "polices": [
+   "__bodyFont_0f148b",
+   "__headingFont_a39ca7"
+  ],
+  "palette": [
+   "#ffffff",
+   "#000000",
+   "#191919",
+   "#99bcd6"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "011-emotion-agency",
+  "nom": "Emotion Agency",
+  "url": "https://emotion-agency.com/",
+  "statut": "ok",
+  "stack": [
+   "CMS Storyblok",
+   "GSAP",
+   "Highway",
+   "Howler (audio)",
+   "Lenis",
+   "Nuxt",
+   "Postprocessing",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Three.js",
+   "Virtual scroll",
+   "Vue",
+   "WebGL"
+  ],
+  "polices": [
+   "IBM Plex Mono",
+   "Emotion Serif",
+   "PP Neue Montreal"
+  ],
+  "palette": [
+   "#f5efff",
+   "#2a1647",
+   "#9047ff",
+   "#6b7280",
+   "#94a3b8",
+   "#ffffff",
+   "#581c87"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "012-ascension-pegassi",
+  "nom": "Ascension - Pegassi",
+  "url": "https://ascension.pegassi.be/",
+  "statut": "ok",
+  "stack": [
+   "GSAP",
+   "Lenis",
+   "Nuxt",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Three.js",
+   "Virtual scroll",
+   "Vue",
+   "WebGL"
+  ],
+  "polices": [
+   "sans"
+  ],
+  "palette": [
+   "#000000",
+   "#7d7d7d"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "013-cartier-le-choeur-des-pierres",
+  "nom": "Cartier - Le Choeur des Pierres",
+  "url": "https://www.cartier.com/en-fr/lechoeurdespierres",
+  "statut": "ok",
+  "stack": [
+   "Barba.js",
+   "CMS Contentful",
+   "GSAP",
+   "Lil-GUI/Tweakpane (debug)",
+   "Nuxt",
+   "React",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Vue",
+   "WebGL",
+   "jQuery"
+  ],
+  "polices": [
+   "Brilliant Cut Pro Regular",
+   "Fancy Cut Pro",
+   "Brilliant Cut Pro Medium",
+   "Brilliant Cut Pro"
+  ],
+  "palette": [
+   "#000000",
+   "#ffffff",
+   "#212529",
+   "#0d6efd"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "014-format",
+  "nom": "FORMAT",
+  "url": "https://format.obys.agency/",
+  "statut": "ok",
+  "stack": [
+   "GSAP",
+   "Lenis",
+   "Matter.js",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Virtual scroll"
+  ],
+  "polices": [
+   "Obys Sans"
+  ],
+  "palette": [
+   "#ffffff",
+   "#222222",
+   "#d9d9d9",
+   "#000000",
+   "#d1d1d1",
+   "#bfbfbf"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "015-signal-a-studio",
+  "nom": "Signal-A Studio",
+  "url": "https://signal-a.studio/",
+  "statut": "ok",
+  "stack": [
+   "CMS Contentful",
+   "GSAP",
+   "Lenis",
+   "Locomotive Scroll",
+   "Lottie",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Swiper",
+   "Virtual scroll",
+   "Webflow",
+   "jQuery"
+  ],
+  "polices": [
+   "Gt America Mono",
+   "Neue Haas Grotesk Text Pro"
+  ],
+  "palette": [
+   "#ffffff",
+   "#000000"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "016-belgrade-arbor",
+  "nom": "Belgrade Arbor",
+  "url": "https://belgradearbor.rs/en",
+  "statut": "ok",
+  "stack": [
+   "Barba.js",
+   "DrawSVG/MorphSVG",
+   "GSAP",
+   "Keen slider",
+   "Lenis",
+   "Next.js",
+   "React",
+   "React Three Fiber",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Three.js",
+   "Virtual scroll",
+   "WebGL"
+  ],
+  "polices": [
+   "Work Sans",
+   "editorialOld",
+   "ui-sans-serif"
+  ],
+  "palette": [
+   "#314759",
+   "#fdfbef",
+   "#ccbf99",
+   "#60735c",
+   "#2e3a26",
+   "#fff4d6",
+   "#a68150"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "017-offfforum",
+  "nom": "OFFFForum",
+  "url": "https://www.offforum.com/",
+  "statut": "ok",
+  "stack": [
+   "CMS Datocms",
+   "GSAP",
+   "Lenis",
+   "Nuxt",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Virtual scroll",
+   "Vue"
+  ],
+  "polices": [
+   "Baikal",
+   "Forvm"
+  ],
+  "palette": [
+   "#ffffff",
+   "#000000"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "018-overworld-audio",
+  "nom": "Overworld Audio",
+  "url": "https://overworldaudio.com/",
+  "statut": "ok",
+  "stack": [
+   "CMS Sanity",
+   "GSAP",
+   "Howler (audio)",
+   "Lenis",
+   "Lil-GUI/Tweakpane (debug)",
+   "Nuxt",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Theatre.js",
+   "Three.js",
+   "Virtual scroll",
+   "Vue",
+   "WebGL"
+  ],
+  "polices": [
+   "PPFrama"
+  ],
+  "palette": [
+   "#e9ecee",
+   "#4c5e6b",
+   "#6e8799"
+  ],
+  "fond": null,
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "019-huy-phan-vol-2",
+  "nom": "Huy Phan Vol.2",
+  "url": "https://huyml.co/",
+  "statut": "ok",
+  "stack": [
+   "CMS Contentful",
+   "Framer",
+   "GSAP",
+   "Lenis",
+   "Lottie",
+   "React",
+   "Rive",
+   "ScrollTrigger",
+   "Three.js",
+   "WebGL"
+  ],
+  "polices": [
+   "BT Grotesk Medium",
+   "F37 Bolton Trial Regular",
+   "BT Glyphius Regular",
+   "BT Grotesk Regular"
+  ],
+  "palette": [
+   "#ececec",
+   "#ededed",
+   "#171717",
+   "#d4d4d4",
+   "#ffffff",
+   "#1e1e1e",
+   "#1f1f1f",
+   "#000000"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "020-neutomni",
+  "nom": "Neutomni",
+  "url": "https://neutomni.com/",
+  "statut": "ok",
+  "stack": [
+   "DrawSVG/MorphSVG",
+   "GSAP",
+   "Lenis",
+   "Lottie",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Swiper",
+   "Virtual scroll",
+   "Webflow",
+   "jQuery"
+  ],
+  "polices": [
+   "Vazirmatn Local",
+   "Firacode Local",
+   "Italic Local",
+   "Editorial new Local"
+  ],
+  "palette": [
+   "#ffffff",
+   "#cf1830",
+   "#070707",
+   "#6db1f0",
+   "#67dfff"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "021-heron-ai",
+  "nom": "Heron AI",
+  "url": "https://heronaiapp.com/",
+  "statut": "ok",
+  "stack": [
+   "Barba.js",
+   "CMS Contentful",
+   "Framer",
+   "GSAP",
+   "Lenis",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Swiper",
+   "Webflow",
+   "jQuery"
+  ],
+  "polices": [
+   "BT Grotesk",
+   "Geistmono"
+  ],
+  "palette": [
+   "#282828",
+   "#b3b3af",
+   "#fa3600",
+   "#f0f0f0",
+   "#ffffff",
+   "#b4b4b0"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "022-nick-ho",
+  "nom": "Nick Ho",
+  "url": "https://nickho-motorsports.nl/",
+  "statut": "ok",
+  "stack": [
+   "GSAP",
+   "Lenis",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Swiper",
+   "Three.js",
+   "Virtual scroll",
+   "WebGL",
+   "Webflow",
+   "jQuery"
+  ],
+  "polices": [
+   "Helvetica",
+   "Anton"
+  ],
+  "palette": [
+   "#ffffff",
+   "#000000",
+   "#fed60a",
+   "#f2f2f2",
+   "#333333"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "023-lpas",
+  "nom": "LPAS",
+  "url": "https://lpas.com/",
+  "statut": "ok",
+  "stack": [
+   "Flickity",
+   "GSAP",
+   "Highway",
+   "Lenis",
+   "ScrollTrigger",
+   "Swup",
+   "Virtual scroll",
+   "WordPress",
+   "jQuery"
+  ],
+  "polices": [
+   "Aeonik"
+  ],
+  "palette": [
+   "#ffffff",
+   "#262626",
+   "#625653",
+   "#925434",
+   "#c9d3df",
+   "#747474",
+   "#111111"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "024-maria-vasilyeva-portfolio",
+  "nom": "Maria Vasilyeva Portfolio",
+  "url": "https://www.mariavasilyeva.com/",
+  "statut": "ok",
+  "stack": [
+   "CMS Sanity",
+   "WebGL"
+  ],
+  "polices": [
+   "feat",
+   "synt",
+   "suo"
+  ],
+  "palette": [
+   "#131313",
+   "#f9f9f9"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "025-odyssee",
+  "nom": "Odyssee",
+  "url": "https://www.odysseeclinic.com.au/",
+  "statut": "ok",
+  "stack": [
+   "CMS Contentful",
+   "CMS Sanity",
+   "GSAP",
+   "Lenis",
+   "Next.js",
+   "React",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Virtual scroll",
+   "jQuery"
+  ],
+  "polices": [
+   "baselGrotesk",
+   "psTimes"
+  ],
+  "palette": [
+   "#fffcf8",
+   "#1e305e",
+   "#28292a",
+   "#ffffff"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "026-twks",
+  "nom": "twks",
+  "url": "https://twks.ch/en",
+  "statut": "ok",
+  "stack": [
+   "Alpine.js",
+   "GSAP",
+   "Lenis",
+   "Lottie",
+   "React Three Fiber",
+   "ScrollTrigger",
+   "Virtual scroll"
+  ],
+  "polices": [
+   "GT Standard"
+  ],
+  "palette": [
+   "#ffffff",
+   "#000000",
+   "#8c8c8c"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "027-lidar-drone-scanning",
+  "nom": "Lidar Drone Scanning",
+  "url": "https://drone.riotters.com/",
+  "statut": "ok",
+  "stack": [
+   "Lenis",
+   "Next.js",
+   "Postprocessing",
+   "React",
+   "React Three Fiber",
+   "Rive",
+   "Three.js",
+   "Virtual scroll",
+   "WebGL"
+  ],
+  "polices": [
+   "switzer",
+   "protoMono"
+  ],
+  "palette": [
+   "#ffffff",
+   "#fdfdfd",
+   "#dde5e9",
+   "#24363f",
+   "#c7cccb",
+   "#171717"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "028-santioni-spirits",
+  "nom": "Santioni Spirits",
+  "url": "https://santionispirits.com/",
+  "statut": "ok",
+  "stack": [
+   "CMS Sanity",
+   "Lottie",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "WebGL"
+  ],
+  "polices": [
+   "Charles Rosie Regular",
+   "Times New Roman"
+  ],
+  "palette": [
+   "#ffffff"
+  ],
+  "fond": null,
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "029-edolus",
+  "nom": "EDOLUS",
+  "url": "https://edolus.com/",
+  "statut": "ok",
+  "stack": [
+   "GSAP",
+   "PlayCanvas",
+   "ScrollTrigger",
+   "WebGL"
+  ],
+  "polices": [
+   "General Sans",
+   "JetBrains Mono"
+  ],
+  "palette": [
+   "#000000",
+   "#c4c7c7",
+   "#ffffff"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "030-tengile-malamala-collection",
+  "nom": "Tengile Malamala Collection",
+  "url": "https://tengilemalamala.com/",
+  "statut": "ok",
+  "stack": [
+   "Barba.js",
+   "CMS Sanity",
+   "GSAP",
+   "Lenis",
+   "Next.js",
+   "React",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Virtual scroll"
+  ],
+  "polices": [
+   "Inter",
+   "PP Fragment"
+  ],
+  "palette": [
+   "#e3e1d4",
+   "#f5eee9",
+   "#5c6e21",
+   "#fbf8f6",
+   "#373f1d"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "031-milledollars",
+  "nom": "Milledollars",
+  "url": "https://milledollars.fr/",
+  "statut": "ok",
+  "stack": [
+   "CMS Prismic",
+   "GSAP",
+   "Lenis",
+   "Lil-GUI/Tweakpane (debug)",
+   "Nuxt",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Virtual scroll",
+   "Vue",
+   "WebGL"
+  ],
+  "polices": [
+   "ABCDiatype",
+   "Migra"
+  ],
+  "palette": [
+   "#181818",
+   "#c2a1c7",
+   "#ffffff"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "032-colonia-zacamil",
+  "nom": "Colonia Zacamil",
+  "url": "https://coloniazacamil.com/",
+  "statut": "ok",
+  "stack": [
+   "Barba.js",
+   "DrawSVG/MorphSVG",
+   "GSAP",
+   "Lenis",
+   "Nuxt",
+   "ScrollTrigger",
+   "Three.js",
+   "Virtual scroll",
+   "Vue",
+   "WebGL"
+  ],
+  "polices": [
+   "Roboto Mono",
+   "-apple-system"
+  ],
+  "palette": [
+   "#000000",
+   "#b48e46",
+   "#8d7cab",
+   "#ffffff",
+   "#ebe6e0"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "033-cominvi",
+  "nom": "CoMinVi",
+  "url": "https://www.cominvi.com.mx/",
+  "statut": "ok",
+  "stack": [
+   "Barba.js",
+   "GSAP",
+   "Lenis",
+   "Lottie",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Swiper",
+   "Virtual scroll",
+   "Webflow",
+   "jQuery"
+  ],
+  "polices": [
+   "Helvetica Now Display",
+   "PP Supply Mono"
+  ],
+  "palette": [
+   "#ffffff",
+   "#ebf0ed",
+   "#151515",
+   "#020202",
+   "#e0e0e0",
+   "#f47920"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "034-jesper-landberg",
+  "nom": "Jesper Landberg",
+  "url": "http://jesperlandberg.com/",
+  "statut": "ok",
+  "stack": [
+   "CMS Datocms",
+   "GSAP",
+   "Nuxt",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Three.js",
+   "Vue",
+   "WebGL"
+  ],
+  "polices": [
+   "sans"
+  ],
+  "palette": [
+   "#ffffff"
+  ],
+  "fond": null,
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "035-butter",
+  "nom": "Butter",
+  "url": "https://www.butter.video/",
+  "statut": "ok",
+  "stack": [
+   "CMS Prismic",
+   "GSAP",
+   "Lenis",
+   "Next.js",
+   "Rapier/Cannon (physique)",
+   "React",
+   "React Three Fiber",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Three.js",
+   "Virtual scroll",
+   "WebGL",
+   "jQuery"
+  ],
+  "polices": [
+   "DieGrotesk",
+   "-apple-system",
+   "ABCDiatype"
+  ],
+  "palette": [
+   "#fafafa",
+   "#ededed",
+   "#1e1e1e",
+   "#0a0909",
+   "#151515",
+   "#0f0f0f",
+   "#ffffff",
+   "#000000"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "036-realevate",
+  "nom": "Realevate",
+  "url": "https://realevate.agency/",
+  "statut": "ok",
+  "stack": [
+   "GSAP",
+   "ScrollTrigger",
+   "SplitText/SplitType"
+  ],
+  "polices": [
+   "Google Sans",
+   "Monument Extended",
+   "Arial"
+  ],
+  "palette": [
+   "#ffffff",
+   "#1f2b5e"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "037-meer-mohsin",
+  "nom": "MEER MOHSIN",
+  "url": "https://www.meermohsin.me/",
+  "statut": "ok",
+  "stack": [
+   "GSAP",
+   "Lenis",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Three.js",
+   "Virtual scroll",
+   "WebGL"
+  ],
+  "polices": [
+   "regular-font",
+   "light-font",
+   "ruthie",
+   "Bebas Neue"
+  ],
+  "palette": [
+   "#990000",
+   "#000000",
+   "#090909",
+   "#222222",
+   "#ffffff",
+   "#f5f5f5"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "038-the-tie-break",
+  "nom": "The Tie-break",
+  "url": "https://thetiebreak.merci-michel.com/",
+  "statut": "ok",
+  "stack": [
+   "Three.js",
+   "Vue",
+   "WebGL"
+  ],
+  "polices": [
+   "Instrument",
+   "WorkSans"
+  ],
+  "palette": [
+   "#ffffff"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "039-moto-finance",
+  "nom": "Moto Finance",
+  "url": "https://www.moto-card.com/",
+  "statut": "ok",
+  "stack": [
+   "GSAP",
+   "Lenis",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Three.js",
+   "Virtual scroll",
+   "WebGL",
+   "Webflow",
+   "jQuery"
+  ],
+  "polices": [
+   "Neuemontreal"
+  ],
+  "palette": [
+   "#ffffff",
+   "#edefef",
+   "#080808",
+   "#e1e5e5",
+   "#12191c",
+   "#666f76"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "040-sobha-privy-collection",
+  "nom": "Sobha Privy Collection",
+  "url": "https://sobha-privy-collection.com/",
+  "statut": "ok",
+  "stack": [
+   "Barba.js",
+   "Keen slider",
+   "Locomotive Scroll",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Three.js",
+   "jQuery"
+  ],
+  "polices": [
+   "TT Commons Pro",
+   "TT Ramillas",
+   "altesse-std-64pt"
+  ],
+  "palette": [
+   "#ffffff",
+   "#1a1919",
+   "#000000",
+   "#717170",
+   "#8c8c8c"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "041-bleibtgleich26",
+  "nom": "bleibtgleich26",
+  "url": "https://bleibtgleich.dev/",
+  "statut": "ok",
+  "stack": [
+   "Barba.js",
+   "DrawSVG/MorphSVG",
+   "GSAP",
+   "Lenis",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Three.js",
+   "Virtual scroll",
+   "WebGL",
+   "Webflow",
+   "jQuery"
+  ],
+  "polices": [
+   "Akzidenz Grotesk Pro"
+  ],
+  "palette": [
+   "#ffffff",
+   "#f2f2f2",
+   "#000000"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "042-gil-huybrecht",
+  "nom": "Gil Huybrecht",
+  "url": "https://gilhuybrecht.com/",
+  "statut": "ok",
+  "stack": [
+   "CMS Datocms",
+   "GSAP",
+   "Lenis",
+   "Nuxt",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Three.js",
+   "Virtual scroll",
+   "Vue",
+   "WebGL"
+  ],
+  "polices": [
+   "sans"
+  ],
+  "palette": [
+   "#2c2c2f",
+   "#ffffff"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "043-pensatori-irrazionali",
+  "nom": "Pensatori Irrazionali",
+  "url": "https://pensatori-irrazionali.com/",
+  "statut": "ok",
+  "stack": [
+   "CMS Contentful",
+   "CMS Sanity",
+   "DrawSVG/MorphSVG",
+   "GSAP",
+   "Lenis",
+   "Matter.js",
+   "Next.js",
+   "React",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Swiper",
+   "Three.js",
+   "Virtual scroll",
+   "WebGL"
+  ],
+  "polices": [
+   "helveticaNow",
+   "ballet",
+   "ppEditorial"
+  ],
+  "palette": [
+   "#f5f5f5",
+   "#2bff00",
+   "#f669e4",
+   "#ff0066",
+   "#adf800",
+   "#000000",
+   "#434343",
+   "#5e5e5e"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "044-boc-studio",
+  "nom": "Boc.Studio",
+  "url": "https://boc.studio/",
+  "statut": "ok",
+  "stack": [
+   "CMS Contentful",
+   "CMS Sanity",
+   "GSAP",
+   "Lenis",
+   "Next.js",
+   "React",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Virtual scroll",
+   "WebGL"
+  ],
+  "polices": [
+   "ppMori"
+  ],
+  "palette": [
+   "#181d21",
+   "#545151",
+   "#ff4421",
+   "#adadad",
+   "#f3f3f3",
+   "#000000"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "045-noho",
+  "nom": "Noho",
+  "url": "https://noho.ink/",
+  "statut": "ok",
+  "stack": [
+   "CMS Contentful",
+   "Embla",
+   "GSAP",
+   "Lenis",
+   "Lottie",
+   "OGL",
+   "PlayCanvas",
+   "Postprocessing",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Three.js",
+   "Virtual scroll",
+   "WebGL",
+   "Webflow",
+   "jQuery"
+  ],
+  "polices": [
+   "Switzer",
+   "Arial"
+  ],
+  "palette": [
+   "#f1eee9",
+   "#e7e2da",
+   "#cdc0b0",
+   "#3c3c3c",
+   "#d7d1c7",
+   "#ffffff"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "046-lxl-creative",
+  "nom": "LxL Creative",
+  "url": "https://www.lxlcreative.co.uk/",
+  "statut": "ok",
+  "stack": [
+   "Barba.js",
+   "DrawSVG/MorphSVG",
+   "Flip (GSAP)",
+   "GSAP",
+   "Lenis",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Virtual scroll",
+   "Webflow",
+   "jQuery"
+  ],
+  "polices": [
+   "Manrope",
+   "Owners Wide",
+   "Scribo"
+  ],
+  "palette": [
+   "#27201d",
+   "#055dff",
+   "#ffffff",
+   "#ff5121",
+   "#646464",
+   "#fcf2bd"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "047-l-i-s-a",
+  "nom": "L.I.S.A.",
+  "url": "https://lisa.locomotive.ca/en",
+  "statut": "ok",
+  "stack": [
+   "Barba.js",
+   "GSAP",
+   "Lenis",
+   "Lil-GUI/Tweakpane (debug)",
+   "Locomotive Scroll",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Swiper",
+   "Three.js",
+   "Virtual scroll",
+   "Vue",
+   "WebGL"
+  ],
+  "polices": [
+   "HelveticaNowDisplay",
+   "LocomotiveNew"
+  ],
+  "palette": [
+   "#000000",
+   "#ffffff"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "048-aspen-search",
+  "nom": "Aspen Search",
+  "url": "https://www.aspensearch.com/",
+  "statut": "ok",
+  "stack": [
+   "CMS Contentful",
+   "CMS Sanity",
+   "Lenis",
+   "Lottie",
+   "Next.js",
+   "Postprocessing",
+   "React",
+   "React Three Fiber",
+   "Three.js",
+   "Virtual scroll",
+   "WebGL"
+  ],
+  "polices": [
+   "suisseIntl",
+   "suisseIntlMono"
+  ],
+  "palette": [
+   "#ffffff",
+   "#232323",
+   "#e0e0e0",
+   "#a1ffcb",
+   "#d9d9d9"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "050-the-tuscan-journey-begins",
+  "nom": "The Tuscan Journey Begins",
+  "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/en/",
+  "statut": "ok",
+  "stack": [
+   "CMS Contentful",
+   "GSAP",
+   "Howler (audio)",
+   "Lottie",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Three.js",
+   "Vue",
+   "WebGL",
+   "jQuery"
+  ],
+  "polices": [
+   "NimbusSans",
+   "NimbusSansExtd",
+   "Nimbus",
+   "Nimbus Sans L"
+  ],
+  "palette": [
+   "#ffffff",
+   "#465016",
+   "#dfddcb",
+   "#23280b"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "051-warm-fuzzy",
+  "nom": "Warm & Fuzzy",
+  "url": "https://www.warmnfuzzy.tv/",
+  "statut": "ok",
+  "stack": [
+   "CMS Storyblok",
+   "Lenis",
+   "Next.js",
+   "React",
+   "Virtual scroll",
+   "WebGL"
+  ],
+  "polices": [
+   "SuisseIntl"
+  ],
+  "palette": [
+   "#ffffff",
+   "#f7dd47",
+   "#000000",
+   "#190bb6"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "052-white-desert",
+  "nom": "White Desert",
+  "url": "https://white-desert.com/",
+  "statut": "ok",
+  "stack": [
+   "CMS Sanity",
+   "DrawSVG/MorphSVG",
+   "Framer Motion",
+   "GSAP",
+   "Lenis",
+   "Next.js",
+   "React",
+   "ScrollTrigger",
+   "Virtual scroll"
+  ],
+  "polices": [
+   "Inter Tight",
+   "Cardinal Classic Long",
+   "Oswald"
+  ],
+  "palette": [
+   "#ffffff",
+   "#090b10",
+   "#000000",
+   "#e9e7e1",
+   "#1f2a44",
+   "#535353",
+   "#ff7e15"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "053-cerebrium",
+  "nom": "Cerebrium",
+  "url": "https://cerebrium.ai/",
+  "statut": "ok",
+  "stack": [
+   "Astro",
+   "CMS Datocms",
+   "GSAP",
+   "Lenis",
+   "Lil-GUI/Tweakpane (debug)",
+   "Locomotive Scroll",
+   "Lottie",
+   "Postprocessing",
+   "React",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Swiper",
+   "Swup",
+   "Three.js",
+   "Virtual scroll",
+   "WebGL"
+  ],
+  "polices": [
+   "Suisse Intl",
+   "Suisse Intl Mono",
+   "ABC Favorit Trial"
+  ],
+  "palette": [
+   "#eef2f5",
+   "#ffffff",
+   "#dbe5ed",
+   "#101421",
+   "#172b76",
+   "#586490",
+   "#ff488b"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "055-seasats",
+  "nom": "Seasats",
+  "url": "https://www.seasats.com/",
+  "statut": "ok",
+  "stack": [
+   "CMS Payloadcms",
+   "GSAP",
+   "Lenis",
+   "Next.js",
+   "React",
+   "React Three Fiber",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Swiper",
+   "Three.js",
+   "Virtual scroll",
+   "WebGL"
+  ],
+  "polices": [
+   "seasonSans",
+   "seasonMix",
+   "supplyMono"
+  ],
+  "palette": [
+   "#fffdfd",
+   "#d9d9d9",
+   "#232323",
+   "#cfcfcf",
+   "#000000",
+   "#ffffff",
+   "#2b3922"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "056-why-zero",
+  "nom": "Why Zero",
+  "url": "https://why.zero.university/",
+  "statut": "ok",
+  "stack": [
+   "GSAP",
+   "Howler (audio)",
+   "Lil-GUI/Tweakpane (debug)",
+   "Postprocessing",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Stats.js",
+   "Three.js",
+   "WebGL"
+  ],
+  "polices": [
+   "PP Supply Mono",
+   "Supply Sans"
+  ],
+  "palette": [
+   "#1c4839",
+   "#d4d4d4",
+   "#201d1d",
+   "#ffffff"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "057-united-carriers",
+  "nom": "United Carriers",
+  "url": "https://unitedcarriers.com/",
+  "statut": "ok",
+  "stack": [
+   "Barba.js",
+   "CMS Contentful",
+   "GSAP",
+   "Highway",
+   "Lenis",
+   "React",
+   "ScrollTrigger",
+   "Swiper",
+   "Three.js",
+   "Virtual scroll",
+   "WebGL",
+   "Webflow",
+   "jQuery"
+  ],
+  "polices": [
+   "Helvetica Neue",
+   "BT Steinhart Mono",
+   "BT Steinhart"
+  ],
+  "palette": [
+   "#ffffff",
+   "#000000",
+   "#111111",
+   "#a686e0",
+   "#0c0c0c",
+   "#0016cb"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "058-gionatan-nese-26",
+  "nom": "Gionatan Nese 26",
+  "url": "https://www.gionatannese.com/",
+  "statut": "ok",
+  "stack": [
+   "CMS Sanity",
+   "GSAP",
+   "Lil-GUI/Tweakpane (debug)",
+   "Next.js",
+   "Postprocessing",
+   "React",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Three.js",
+   "WebGL"
+  ],
+  "polices": [
+   "LayGrotesk",
+   "Teodor"
+  ],
+  "palette": [
+   "#ffffff",
+   "#ededed",
+   "#000000"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "059-illoca",
+  "nom": "Illoca",
+  "url": "https://illoca.unseen.co/",
+  "statut": "ok",
+  "stack": [
+   "GSAP",
+   "Lenis",
+   "Nuxt",
+   "Postprocessing",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Theatre.js",
+   "Three.js",
+   "Virtual scroll",
+   "Vue",
+   "WebGL"
+  ],
+  "polices": [
+   "Graphik Web",
+   "Geist Mono",
+   "F37 Analog",
+   "Architect Pro"
+  ],
+  "palette": [
+   "#eadfc9",
+   "#283f7d",
+   "#fdf8f0",
+   "#fffbf3",
+   "#ffffff",
+   "#373737",
+   "#fef9f1",
+   "#9a9393"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "060-trevor-noah",
+  "nom": "Trevor Noah",
+  "url": "https://www.trevornoah.com/",
+  "statut": "ok",
+  "stack": [
+   "CMS Contentful",
+   "GSAP",
+   "Lenis",
+   "Locomotive Scroll",
+   "Postprocessing",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Taxi.js",
+   "Three.js",
+   "Virtual scroll",
+   "WebGL",
+   "Webflow",
+   "jQuery"
+  ],
+  "polices": [
+   "Die Grotesk C",
+   "Die Grotesk D"
+  ],
+  "palette": [
+   "#2b2b2b",
+   "#f9fcf4",
+   "#6f7ba9",
+   "#ff9bb4",
+   "#1d2440"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "061-paul-kalkbrenner",
+  "nom": "Paul Kalkbrenner",
+  "url": "https://www.paulkalkbrenner.net/",
+  "statut": "ok",
+  "stack": [
+   "Barba.js",
+   "Flip (GSAP)",
+   "GSAP",
+   "Lenis",
+   "Lottie",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Virtual scroll",
+   "Webflow",
+   "jQuery"
+  ],
+  "polices": [
+   "ABC Diatype Plus Variable"
+  ],
+  "palette": [
+   "#ffffff",
+   "#c5c5c5",
+   "#000000",
+   "#a7ff9c",
+   "#ff6831"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "062-squarespace-foundations",
+  "nom": "Squarespace Foundations",
+  "url": "https://brand.squarespace.com/",
+  "statut": "ok",
+  "stack": [
+   "Barba.js",
+   "GSAP",
+   "Lenis",
+   "Lil-GUI/Tweakpane (debug)",
+   "Nuxt",
+   "Rive",
+   "ScrollTrigger",
+   "Shopify",
+   "SplitText/SplitType",
+   "Squarespace",
+   "Three.js",
+   "Virtual scroll",
+   "Vue",
+   "WebGL"
+  ],
+  "polices": [
+   "Clarkson"
+  ],
+  "palette": [
+   "#111111",
+   "#000000",
+   "#ffffff",
+   "#2a1a0d",
+   "#cfcfcf"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "063-era-residence",
+  "nom": "ERA Residence",
+  "url": "https://www.era-residence.com/",
+  "statut": "ok",
+  "stack": [
+   "Barba.js",
+   "GSAP",
+   "Lenis",
+   "Lottie",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Swiper",
+   "Virtual scroll",
+   "Webflow",
+   "jQuery"
+  ],
+  "polices": [
+   "Maison Neue Extended",
+   "ambroise-francois-std",
+   "sloop-script-three"
+  ],
+  "palette": [
+   "#f3f3ec",
+   "#340c24",
+   "#b5cedb",
+   "#17233b",
+   "#ffffff"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "064-aardvark-book-club",
+  "nom": "Aardvark Book Club",
+  "url": "https://aardvarkbookclub.com/",
+  "statut": "ok",
+  "stack": [
+   "Barba.js",
+   "DrawSVG/MorphSVG",
+   "GSAP",
+   "Lenis",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Virtual scroll",
+   "Webflow",
+   "jQuery"
+  ],
+  "polices": [
+   "Degular",
+   "Champ",
+   "Hello Organichand Webfont"
+  ],
+  "palette": [
+   "#ffffff",
+   "#ffd24a",
+   "#fd48f2",
+   "#faed8f",
+   "#3b308f",
+   "#000000",
+   "#670a2e"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "065-hobro-digital",
+  "nom": "HOBRO DIGITAL",
+  "url": "https://hobro.digital/",
+  "statut": "ok",
+  "stack": [
+   "CMS Contentful",
+   "DrawSVG/MorphSVG",
+   "GSAP",
+   "Howler (audio)",
+   "Lenis",
+   "Lottie",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Virtual scroll",
+   "jQuery"
+  ],
+  "polices": [
+   "PPNeueMontreal",
+   "AkkuratMonoLLWeb",
+   "Kamerik205",
+   "FreigBigProLigIta"
+  ],
+  "palette": [
+   "#000000",
+   "#ffffff",
+   "#dddddd",
+   "#00fb96"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "066-decathlon-yestalgia",
+  "nom": "Decathlon Yestalgia",
+  "url": "https://decathlonyestalgia.com/",
+  "statut": "ok",
+  "stack": [
+   "GSAP",
+   "Lenis",
+   "Rive",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Swiper",
+   "Swup",
+   "Virtual scroll",
+   "WebGL",
+   "WordPress"
+  ],
+  "polices": [
+   "Roboto Flex"
+  ],
+  "palette": [
+   "#e9dae6",
+   "#eaa0cd",
+   "#f1f3ed",
+   "#f4f4f4",
+   "#d7dd44",
+   "#000000",
+   "#f09341"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "067-sharplink",
+  "nom": "Sharplink",
+  "url": "https://www.sharplink.com/",
+  "statut": "ok",
+  "stack": [
+   "CMS Storyblok",
+   "Embla",
+   "GSAP",
+   "Lenis",
+   "Lottie",
+   "Nuxt",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Three.js",
+   "Virtual scroll",
+   "Vue",
+   "WebGL"
+  ],
+  "polices": [
+   "Archivo",
+   "Archivo Narrow"
+  ],
+  "palette": [
+   "#000000",
+   "#eeeef0",
+   "#262629",
+   "#f3f3f3",
+   "#0e76ff",
+   "#f2f2f2"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "068-ai-in-design-report-2026",
+  "nom": "Ai in Design Report 2026",
+  "url": "https://stateofaidesign.com/",
+  "statut": "ok",
+  "stack": [
+   "Barba.js",
+   "CMS Contentful",
+   "Framer",
+   "Lenis",
+   "Lottie",
+   "React",
+   "SplitText/SplitType"
+  ],
+  "polices": [
+   "Beausite Classic Regular",
+   "Beausite Classic Medium",
+   "Geist Mono"
+  ],
+  "palette": [
+   "#ffffff",
+   "#000000",
+   "#cdabfe",
+   "#d1ddd3",
+   "#fe7141",
+   "#2b2b2b"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "069-miu-miu-a-house-that-we-shaped",
+  "nom": "MIU MIU A House that we shaped",
+  "url": "https://immersivebags.miumiu.com/",
+  "statut": "ok",
+  "stack": [
+   "Three.js",
+   "Vue",
+   "WebGL"
+  ],
+  "polices": [
+   "WorkSans"
+  ],
+  "palette": [
+   "#ffffff",
+   "#000000"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "070-zeroz-brand-site",
+  "nom": "zeroz Brand Site",
+  "url": "https://otsuka-air.jp/",
+  "statut": "ok",
+  "stack": [
+   "Alpine.js",
+   "Astro",
+   "Barba.js",
+   "GSAP",
+   "Lenis",
+   "Lil-GUI/Tweakpane (debug)",
+   "Postprocessing",
+   "ScrollTrigger",
+   "Three.js",
+   "Virtual scroll",
+   "WebGL",
+   "jQuery"
+  ],
+  "polices": [
+   "HelveticaNowDisplay-Regular",
+   "TazuganeGothicStdN-Regular",
+   "ui-sans-serif",
+   "TazuganeGothicStdN-Medium"
+  ],
+  "palette": [
+   "#00a852",
+   "#ffffff",
+   "#a9b1ae",
+   "#000000",
+   "#111312"
+  ],
+  "fond": "moyen",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "071-kononenko-architectural-bureau",
+  "nom": "Kononenko Architectural Bureau",
+  "url": "https://kononenkogroup.com/",
+  "statut": "ok",
+  "stack": [
+   "CMS Prismic",
+   "GSAP",
+   "Lenis",
+   "Nuxt",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Svelte",
+   "Three.js",
+   "Virtual scroll",
+   "Vue",
+   "WebGL"
+  ],
+  "polices": [
+   "n",
+   "h"
+  ],
+  "palette": [
+   "#000000",
+   "#f8f8f8",
+   "#929292",
+   "#ffffff"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "072-the-state-of-the-gallery",
+  "nom": "The state of the gallery",
+  "url": "https://mesh3d.gallery/the-state-of-the-gallery",
+  "statut": "ok",
+  "stack": [
+   "CMS Contentful",
+   "Lottie",
+   "Next.js",
+   "Rapier/Cannon (physique)",
+   "React",
+   "ScrollTrigger",
+   "Svelte",
+   "Three.js",
+   "WebGL"
+  ],
+  "polices": [
+   "overusedGrotesk",
+   "Geist"
+  ],
+  "palette": [
+   "#08090d",
+   "#ecff3e",
+   "#cfdee5",
+   "#ffffff"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "073-oimachi",
+  "nom": "Oimachi",
+  "url": "https://www.oimachi.co/",
+  "statut": "ok",
+  "stack": [
+   "GSAP",
+   "Lottie",
+   "React",
+   "React Three Fiber",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Webflow",
+   "jQuery"
+  ],
+  "polices": [
+   "Aeonik",
+   "Feature Deck"
+  ],
+  "palette": [
+   "#f0f0f0",
+   "#dfdfdf",
+   "#ffffff",
+   "#000000",
+   "#868481",
+   "#696764"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "074-cipher",
+  "nom": "Cipher",
+  "url": "https://cipher.tv/",
+  "statut": "ok",
+  "stack": [
+   "CMS Prismic",
+   "GSAP",
+   "Lenis",
+   "Nuxt",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Three.js",
+   "Virtual scroll",
+   "Vue",
+   "WebGL"
+  ],
+  "polices": [
+   "Favorit"
+  ],
+  "palette": [
+   "#060403",
+   "#ffffff",
+   "#e9eae4",
+   "#000000"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "075-likova",
+  "nom": "LIKOVA",
+  "url": "https://likova.space/",
+  "statut": "ok",
+  "stack": [
+   "Barba.js",
+   "Highway",
+   "Keen slider",
+   "Lil-GUI/Tweakpane (debug)",
+   "Locomotive Scroll",
+   "SplitText/SplitType",
+   "Three.js",
+   "WebGL",
+   "jQuery"
+  ],
+  "polices": [
+   "TT Norms Pro"
+  ],
+  "palette": [
+   "#070b20",
+   "#ffffff",
+   "#e3e6eb",
+   "#0e1224",
+   "#000000",
+   "#57566a",
+   "#232739"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "076-michael-gatt",
+  "nom": "Michael Gatt",
+  "url": "https://michaelgatt.com/",
+  "statut": "ok",
+  "stack": [
+   "CMS Contentful",
+   "CMS Prismic",
+   "GSAP",
+   "Lenis",
+   "Nuxt",
+   "Postprocessing",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Swiper",
+   "Three.js",
+   "Virtual scroll",
+   "Vue",
+   "WebGL"
+  ],
+  "polices": [
+   "Zapf-Humanist-Demi"
+  ],
+  "palette": [
+   "#000000",
+   "#ffffff",
+   "#c5c5c5",
+   "#969da0"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "077-the-watch",
+  "nom": "The Watch",
+  "url": "https://thewatch.60fps.fr/",
+  "statut": "ok",
+  "stack": [
+   "GSAP",
+   "Lenis",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Svelte",
+   "Three.js",
+   "WebGL"
+  ],
+  "polices": [
+   "Inter",
+   "Nekst",
+   "Times New Roman"
+  ],
+  "palette": [
+   "#ebebeb",
+   "#a1a1a1",
+   "#0a0a0a",
+   "#bcbcbc",
+   "#323232",
+   "#000000",
+   "#ffffff"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "078-sstr-friction-reduction",
+  "nom": "SSTR - Friction Reduction",
+  "url": "https://sstr.tech/en/",
+  "statut": "ok",
+  "stack": [
+   "Astro",
+   "Barba.js",
+   "GSAP",
+   "Lenis",
+   "Lil-GUI/Tweakpane (debug)",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Three.js",
+   "Virtual scroll",
+   "WebGL"
+  ],
+  "polices": [
+   "ABC Monument Grotesk",
+   "Arial",
+   "Abc Monument Grotesk"
+  ],
+  "palette": [
+   "#eff0f1",
+   "#18191b",
+   "#c3c4c8",
+   "#2f3032",
+   "#e0e1e3",
+   "#0c0c0c"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "079-px-push",
+  "nom": "PX PUSH",
+  "url": "https://pxpush.com/",
+  "statut": "ok",
+  "stack": [
+   "CMS Contentful",
+   "GSAP",
+   "Lenis",
+   "Nuxt",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Three.js",
+   "Virtual scroll",
+   "Vue",
+   "WebGL"
+  ],
+  "polices": [
+   "Mono",
+   "SemiSqueezed",
+   "obviously",
+   "Arial"
+  ],
+  "palette": [
+   "#03049c",
+   "#111111",
+   "#71737d",
+   "#1a1a1a",
+   "#bababa",
+   "#ffffff",
+   "#d9d9d9"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "080-haoqi-design",
+  "nom": "HAOQI.DESIGN",
+  "url": "https://haoqi.design/",
+  "statut": "ok",
+  "stack": [
+   "Lenis",
+   "Next.js",
+   "Postprocessing",
+   "React",
+   "React Three Fiber",
+   "Three.js",
+   "Virtual scroll",
+   "WebGL"
+  ],
+  "polices": [
+   "tiktok",
+   "tronica-mono",
+   "mono"
+  ],
+  "palette": [
+   "#000000",
+   "#363630"
+  ],
+  "fond": null,
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "081-mosbys-files",
+  "nom": "Mosbys Files",
+  "url": "https://www.mosbyfiles.com/",
+  "statut": "ok",
+  "stack": [
+   "CMS Storyblok",
+   "GSAP",
+   "Lenis",
+   "Nuxt",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Swiper",
+   "Virtual scroll",
+   "Vue"
+  ],
+  "polices": [
+   "IBM Plex Mono",
+   "Signifier",
+   "Founders Grotesk"
+  ],
+  "palette": [
+   "#1e4bd7",
+   "#d71e1e",
+   "#0c7866",
+   "#581e70",
+   "#ffe927",
+   "#ffffff",
+   "#787a7f",
+   "#fdfaf7"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "082-revelatio-studio",
+  "nom": "Revelatio Studio",
+  "url": "https://revelatio.studio/",
+  "statut": "ok",
+  "stack": [
+   "GSAP",
+   "Lenis",
+   "Lottie",
+   "React",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Swiper",
+   "Three.js",
+   "WebGL",
+   "Webflow",
+   "jQuery"
+  ],
+  "polices": [
+   "Neue Haas Grotesk Text Pro 55 Roman"
+  ],
+  "palette": [
+   "#000000",
+   "#ffffff"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "083-studio-k95",
+  "nom": "Studio K95",
+  "url": "https://k95.it/",
+  "statut": "ok",
+  "stack": [
+   "CMS Strapi",
+   "GSAP",
+   "Lenis",
+   "Nuxt",
+   "ScrollTrigger",
+   "Three.js",
+   "Virtual scroll",
+   "Vue",
+   "WebGL"
+  ],
+  "polices": [
+   "adaptive"
+  ],
+  "palette": [
+   "#1500e1",
+   "#000000",
+   "#1c1c1c",
+   "#ffffff"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "084-nothin",
+  "nom": "NOTHIN",
+  "url": "https://www.noth.in/",
+  "statut": "ok",
+  "stack": [
+   "GSAP",
+   "Lenis",
+   "ScrollTrigger",
+   "Taxi.js",
+   "Three.js",
+   "Virtual scroll",
+   "WebGL",
+   "Webflow",
+   "jQuery"
+  ],
+  "polices": [
+   "Ppneuemontreal",
+   "IBM Plex Mono"
+  ],
+  "palette": [
+   "#000000",
+   "#ffffff",
+   "#9a9a94"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "085-produx-design",
+  "nom": "Produx Design",
+  "url": "https://www.produx.design/",
+  "statut": "ok",
+  "stack": [
+   "CMS Sanity",
+   "GSAP",
+   "Lenis",
+   "Lil-GUI/Tweakpane (debug)",
+   "Next.js",
+   "React",
+   "ScrollTrigger",
+   "Three.js",
+   "Virtual scroll",
+   "WebGL"
+  ],
+  "polices": [
+   "DM Mono",
+   "At Aero Regular",
+   "At Aero",
+   "At Aero Medium"
+  ],
+  "palette": [
+   "#303930",
+   "#0e0e0e",
+   "#545e54",
+   "#d4cccc",
+   "#5f5136",
+   "#a9a9a9",
+   "#303539",
+   "#f2f2f2"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "086-vero-new-york",
+  "nom": "Vero New-York",
+  "url": "https://verostudio.com/",
+  "statut": "ok",
+  "stack": [
+   "Anime.js",
+   "CMS Sanity",
+   "Next.js",
+   "React",
+   "SplitText/SplitType",
+   "WebGL"
+  ],
+  "polices": [
+   "Louize Display",
+   "Beausite Classic"
+  ],
+  "palette": [
+   "#181615",
+   "#f3f0ed",
+   "#979696",
+   "#f8f8f8"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "087-20-years-inspired-by-people",
+  "nom": "20 Years Inspired by People",
+  "url": "https://inspiring.nk.studio/es",
+  "statut": "ok",
+  "stack": [
+   "Barba.js",
+   "GSAP",
+   "Howler (audio)",
+   "Lenis",
+   "Lil-GUI/Tweakpane (debug)",
+   "Lottie",
+   "Next.js",
+   "React",
+   "React Three Fiber",
+   "Rive",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Three.js",
+   "Virtual scroll",
+   "WebGL"
+  ],
+  "polices": [
+   "Instrument Serif",
+   "DM Sans"
+  ],
+  "palette": [
+   "#00ffc2",
+   "#ffffff",
+   "#070b0a",
+   "#041819",
+   "#000000"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "088-no-art",
+  "nom": "No Art",
+  "url": "https://www.noartmusic.com/",
+  "statut": "ok",
+  "stack": [
+   "Flip (GSAP)",
+   "GSAP",
+   "Lenis",
+   "Lottie",
+   "ScrollTrigger",
+   "Shopify",
+   "SplitText/SplitType",
+   "Swiper",
+   "Three.js",
+   "Virtual scroll",
+   "WebGL",
+   "Webflow",
+   "jQuery"
+  ],
+  "polices": [
+   "Chivomono",
+   "Nue Haas Grotesk Text Pro",
+   "JetBrains Mono"
+  ],
+  "palette": [
+   "#000000",
+   "#ffffff",
+   "#fefffe",
+   "#808080"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "089-alethia",
+  "nom": "Alethia",
+  "url": "https://www.alethia.earth/",
+  "statut": "ok",
+  "stack": [
+   "CMS Contentful",
+   "Framer",
+   "Lenis",
+   "Lottie",
+   "React",
+   "Virtual scroll"
+  ],
+  "polices": [
+   "Geist Medium",
+   "Geist",
+   "Geist Regular",
+   "Geist Mono"
+  ],
+  "palette": [
+   "#f5f4f2",
+   "#0f1f10",
+   "#200f85",
+   "#ffffff",
+   "#000000",
+   "#d5eebc"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "090-serotoninn",
+  "nom": "Serotoninn",
+  "url": "https://serotoninn.com/",
+  "statut": "ok",
+  "stack": [
+   "Barba.js",
+   "GSAP",
+   "Lenis",
+   "Lottie",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Swiper",
+   "Virtual scroll",
+   "WordPress",
+   "jQuery"
+  ],
+  "polices": [
+   "Thunder",
+   "Inter",
+   "PP Fraktion Mono"
+  ],
+  "palette": [
+   "#fff9f7",
+   "#000000",
+   "#ffffff",
+   "#ed3833"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "091-lacoste-ace-breaker",
+  "nom": "Lacoste Ace Breaker",
+  "url": "https://members-play.lacoste.com/ace-breaker-rg",
+  "statut": "ok",
+  "stack": [
+   "Barba.js",
+   "Three.js",
+   "Vue",
+   "WebGL"
+  ],
+  "polices": [
+   "MonaSans"
+  ],
+  "palette": [
+   "#00503c",
+   "#ffffff",
+   "#f3f2e1",
+   "#fcd757",
+   "#082415"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "092-hearst-exhibit-2026",
+  "nom": "Hearst Exhibit 2026",
+  "url": "https://www.hollywoodexhibit2026.com/",
+  "statut": "ok",
+  "stack": [
+   "GSAP",
+   "Lenis",
+   "Next.js",
+   "React",
+   "React Three Fiber",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Three.js",
+   "WebGL"
+  ],
+  "polices": [],
+  "palette": [
+   "#000000"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "093-noomo-showcase",
+  "nom": "Noomo Showcase",
+  "url": "https://showcase.noomoagency.com/",
+  "statut": "ok",
+  "stack": [
+   "GSAP",
+   "Lil-GUI/Tweakpane (debug)",
+   "Nuxt",
+   "ScrollTrigger",
+   "Three.js",
+   "Vue",
+   "WebGL"
+  ],
+  "polices": [
+   "GTAmericaMonoRegular",
+   "ppneuemontreal-book",
+   "ppneuemontreal-medium",
+   "ABCFavorit Regular"
+  ],
+  "palette": [
+   "#0004eb",
+   "#d9e0ed",
+   "#d2e0ff",
+   "#050516",
+   "#000000"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "094-2xa-studio",
+  "nom": "2xA Studio",
+  "url": "https://2xa.studio/",
+  "statut": "ok",
+  "stack": [
+   "GSAP",
+   "Lenis",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Swup",
+   "Three.js",
+   "Virtual scroll",
+   "WebGL"
+  ],
+  "polices": [
+   "2XAMONOVF",
+   "HelveticaProRoman"
+  ],
+  "palette": [
+   "#fdfdfd",
+   "#0f0f0f",
+   "#858585",
+   "#cecece"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "095-ciao-energy",
+  "nom": "CIAO ENERGY",
+  "url": "https://www.ciaoenergy.com/",
+  "statut": "ok",
+  "stack": [
+   "CMS Contentful",
+   "GSAP",
+   "Lenis",
+   "Lottie",
+   "Postprocessing",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Three.js",
+   "Virtual scroll",
+   "WebGL",
+   "Webflow",
+   "jQuery"
+  ],
+  "polices": [
+   "Geist",
+   "Franklin Gothic Atf",
+   "Roboto",
+   "Geistmono"
+  ],
+  "palette": [
+   "#000000",
+   "#ffffff"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
   "dossier": "096-made-with-gsap",
   "nom": "Made With Gsap",
   "url": "https://madewithgsap.com/",
@@ -57,6 +3412,432 @@
    "#f1f1f1"
   ],
   "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "097-obys-experiment-space",
+  "nom": "Obys Experiment Space",
+  "url": "https://experiment.obys.agency/",
+  "statut": "ok",
+  "stack": [
+   "GSAP",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Three.js",
+   "WebGL",
+   "Webflow",
+   "jQuery"
+  ],
+  "polices": [
+   "OTF Obys NG"
+  ],
+  "palette": [
+   "#ffffff",
+   "#000000"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "098-trionn",
+  "nom": "TRIONN",
+  "url": "https://trionn.com/",
+  "statut": "ok",
+  "stack": [
+   "CMS Contentful",
+   "CMS Sanity",
+   "DrawSVG/MorphSVG",
+   "GSAP",
+   "Lenis",
+   "Next.js",
+   "React",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Swiper",
+   "Three.js",
+   "Virtual scroll",
+   "WebGL",
+   "jQuery"
+  ],
+  "polices": [
+   "familjen",
+   "neueHaas",
+   "martianMono"
+  ],
+  "palette": [
+   "#0c0c0c",
+   "#040508",
+   "#ffffff",
+   "#c3c3c3",
+   "#434343",
+   "#d8d8d8",
+   "#000000"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "099-partizan",
+  "nom": "Partizan",
+  "url": "https://partizan.com/",
+  "statut": "ok",
+  "stack": [
+   "GSAP",
+   "Lenis",
+   "Lil-GUI/Tweakpane (debug)",
+   "ScrollTrigger",
+   "Taxi.js",
+   "Three.js",
+   "Virtual scroll",
+   "WebGL",
+   "WordPress",
+   "jQuery"
+  ],
+  "polices": [
+   "GT America Standard",
+   "Teodor"
+  ],
+  "palette": [
+   "#ffffff",
+   "#000000"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "100-artem-shcherbakov",
+  "nom": "Artem Shcherbakov",
+  "url": "https://artemartemartem.com/",
+  "statut": "ok",
+  "stack": [
+   "GSAP",
+   "Lenis",
+   "Next.js",
+   "Postprocessing",
+   "React",
+   "React Three Fiber",
+   "ScrollTrigger",
+   "Three.js",
+   "Virtual scroll",
+   "WebGL"
+  ],
+  "polices": [
+   "Arial Narrow",
+   "EaseDouble"
+  ],
+  "palette": [
+   "#0e0e0e",
+   "#ffffff"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "101-spotify-wrapped-party",
+  "nom": "Spotify Wrapped Party",
+  "url": "https://wrapped-party.activetheory.dev/",
+  "statut": "ok",
+  "stack": [
+   "Barba.js",
+   "CMS Sanity",
+   "Flip (GSAP)",
+   "GSAP",
+   "Matter.js",
+   "SplitText/SplitType",
+   "WebGL"
+  ],
+  "polices": [
+   "Times New Roman"
+  ],
+  "palette": [
+   "#f5f5f5"
+  ],
+  "fond": null,
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "102-normal-is-boring",
+  "nom": "NORMAL IS BORING",
+  "url": "https://normalisboring.es/",
+  "statut": "ok",
+  "stack": [
+   "DrawSVG/MorphSVG",
+   "GSAP",
+   "Lenis",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Swiper",
+   "Swup",
+   "Virtual scroll",
+   "WordPress"
+  ],
+  "polices": [
+   "Izmir-Regular",
+   "Juana-Regular",
+   "Editorialnew-Ultralight",
+   "Juana-Medium"
+  ],
+  "palette": [
+   "#ece4da",
+   "#ffffff",
+   "#000000",
+   "#c7d7e9",
+   "#db5c59"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "103-dragonfly-redux",
+  "nom": "Dragonfly Redux",
+  "url": "https://dragonfly2.studiofreight.dev/",
+  "statut": "ok",
+  "stack": [
+   "CMS Contentful",
+   "CMS Sanity",
+   "CMS Storyblok",
+   "GSAP",
+   "Lenis",
+   "Lil-GUI/Tweakpane (debug)",
+   "Nuxt",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Three.js",
+   "Virtual scroll",
+   "Vue",
+   "WebGL"
+  ],
+  "polices": [
+   "FK Roman Standard",
+   "NON Natural Grotesk",
+   "NON Natural Mono",
+   "Times New Roman"
+  ],
+  "palette": [
+   "#000000",
+   "#f2f2f2",
+   "#fa4c14",
+   "#ec39b6",
+   "#5014fa",
+   "#7d7d7d"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "104-lacoste-polo-factory",
+  "nom": "Lacoste - Polo Factory",
+  "url": "https://members-play.lacoste.com/polo-factory-experience",
+  "statut": "ok",
+  "stack": [
+   "Barba.js",
+   "Three.js",
+   "Vue",
+   "WebGL",
+   "WordPress"
+  ],
+  "polices": [
+   "Lacoste",
+   "system-ui"
+  ],
+  "palette": [
+   "#ffffff",
+   "#fcf383",
+   "#0b4221",
+   "#959372",
+   "#082415",
+   "#767676",
+   "#333333",
+   "#526e7a"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "105-lama-lama",
+  "nom": "Lama Lama",
+  "url": "https://lamalama.com/",
+  "statut": "ok",
+  "stack": [
+   "GSAP",
+   "Lenis",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Swiper",
+   "Swup",
+   "Virtual scroll",
+   "Vue",
+   "WebGL",
+   "WordPress"
+  ],
+  "polices": [
+   "SuisseBPIntl",
+   "Sometype"
+  ],
+  "palette": [
+   "#f9f4eb",
+   "#000000",
+   "#ff0000",
+   "#ffffff",
+   "#1a1c1c"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "106-glitch-grit",
+  "nom": "Glitch&Grit",
+  "url": "https://glitchandgrit.com/",
+  "statut": "ok",
+  "stack": [
+   "Barba.js",
+   "Flip (GSAP)",
+   "GSAP",
+   "Lenis",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Swiper",
+   "Virtual scroll",
+   "Webflow",
+   "jQuery"
+  ],
+  "polices": [
+   "elza"
+  ],
+  "palette": [
+   "#000000",
+   "#fffbf6",
+   "#9be187",
+   "#99f8ff"
+  ],
+  "fond": "sombre",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "107-izanami",
+  "nom": "IZANAMI",
+  "url": "https://izanami-official.com/",
+  "statut": "ok",
+  "stack": [
+   "Alpine.js",
+   "GSAP",
+   "Lenis",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Swup",
+   "Three.js",
+   "Virtual scroll",
+   "WebGL"
+  ],
+  "polices": [
+   "Shippori Mincho",
+   "Cinzel",
+   "Playfair Display",
+   "Helvetica Neue"
+  ],
+  "palette": [
+   "#d9d7d4",
+   "#ffffff"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
+  "dossier": "108-hiroto-sato",
+  "nom": "Hiroto Sato",
+  "url": "https://www.hirotos.com/",
+  "statut": "ok",
+  "stack": [
+   "GSAP",
+   "Next.js",
+   "Postprocessing",
+   "React",
+   "React Three Fiber",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Three.js",
+   "WebGL"
+  ],
+  "polices": [
+   "helvetica-neue-lt-pro"
+  ],
+  "palette": [
+   "#ffffff",
+   "#0b0b0a"
+  ],
+  "fond": "clair",
   "type": null,
   "secteur": null,
   "style": null,

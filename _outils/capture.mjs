@@ -26,6 +26,7 @@ const wanted = sel === 'all' ? sites : sites.filter(s => sel.split(',').map(Numb
 const slug = s => String(s.id).padStart(3, '0') + '-' + s.name.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
   .toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 40);
 const sleep = ms => new Promise(r => setTimeout(r, ms));
+const minFreeGo = args.includes('--min-ram') ? Number(args[args.indexOf('--min-ram') + 1]) || 0 : 0;
 const log = (s, ...m) => console.log(`[${String(s.id).padStart(3)}] ${s.name}:`, ...m);
 const withTimeout = (p, ms, label) => Promise.race([p, sleep(ms).then(() => { throw new Error('timeout ' + label); })]);
 
@@ -358,6 +359,9 @@ function publish(sl) {
 const queue = [...wanted];
 await Promise.all(Array.from({ length: Math.min(conc, queue.length) }, async (_, w) => {
   while (queue.length) { const s = queue.shift(); const port = 9400 + s.id;
+    // garde-fou mémoire (hors sites déjà faits) : on ne démarre pas tant que la RAM libre est trop basse
+    let done = false; try { done = !force && JSON.parse(fs.readFileSync(path.join(ROOT, slug(s), 'data.json'), 'utf8')).status === 'ok'; } catch (e) {}
+    for (let w = 0; !done && minFreeGo && os.freemem() < minFreeGo * 1e9; w++) { if (w % 10 === 0) log(s, `en attente : RAM libre ${(os.freemem() / 1e9).toFixed(1)} Go < ${minFreeGo} Go`); await sleep(30000); }
     try { if (await withTimeout(captureSite(s, port), 11 * 60000, 'site') === 'skip') continue; }
     catch (e) { s.aborted = true; const l = live.get(port); if (l) killTree(l.pid); live.delete(port); log(s, 'ÉCHEC', e.message);
       const df = path.join(ROOT, slug(s), 'data.json'); if (!fs.existsSync(df)) { fs.mkdirSync(path.dirname(df), { recursive: true }); fs.writeFileSync(df, JSON.stringify({ id: s.id, name: s.name, sourceUrl: s.url, status: 'timeout', errors: [e.message], capturedAt: new Date().toISOString() })); } }

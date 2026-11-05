@@ -65,8 +65,9 @@ def video_url(s):
 def readme_md(all_):
     ok = [s for s in all_ if s['shots']]
     L = ['# Bibliothèque web', '', f"{len(all_)} sites Awwwards « Site of the Day » capturés et décortiqués (mise à jour du {datetime.date.today():%d/%m/%Y}). Usage interne : inspiration uniquement, ni textes ni images à reprendre tels quels.", '',
+         '> **Avant de commencer : lire [COMMENT-S-EN-INSPIRER.md](COMMENT-S-EN-INSPIRER.md)** (méthode, règles, prompts prêts à l\'emploi pour Claude).', '',
          '- **Catalogue filtrable** : cloner le dépôt puis ouvrir `index.html` (recherche, filtres type / style / stack / fond / note).',
-         '- **Synthèse transversale** : [SYNTHESE.md](SYNTHESE.md) (polices, librairies, patterns de hero, palettes les plus fréquents).',
+         '- **Synthèse transversale** : `SYNTHESE.md` (à venir : polices, librairies, patterns de hero, palettes les plus fréquents).',
          '- **Une fiche par site** : `sites/NNN-nom/fiche.md` (design tokens, typo, structure, stack, SEO, perf, analyse) + `captures/`, `styles.css`, `scripts/`, `shaders.glsl`.',
          '- **Vidéos de scroll** : dans la release [videos](../../releases/tag/videos).',
          '- **Données agrégées** : `bibliotheque.json` (pour Claude ou un script).', '',
@@ -74,13 +75,13 @@ def readme_md(all_):
          '| | Site | Type | Style | Stack | Note |', '|---|---|---|---|---|---|']
     for s in sorted(all_, key=lambda s: (-(s['a'].get('note_inspiration') or 0), s['dir'])):
         a = s['a']; th = f'<img src="sites/{s["dir"]}/captures/{s["thumb"]}" width="180">' if s['thumb'] else ''
-        L.append(f"| {th} | [{s['d']['name']}](sites/{s['dir']}/fiche.md)<br>{s['d'].get('status') if s['d'].get('status') != 'ok' else ''} | {a.get('type', '')} | {', '.join(a.get('style', []))} | {', '.join(s['stack'][:5])} | {'★' * int(a.get('note_inspiration') or 0)} |")
+        L.append(f"| {th} | [{s['d']['name']}](sites/{s['dir']}/fiche.md)<br>[site ↗]({s['d'].get('sourceUrl')}) {s['d'].get('status') if s['d'].get('status') != 'ok' else ''} | {a.get('type', '')} | {', '.join(a.get('style', []))} | {', '.join(s['stack'][:5])} | {'★' * int(a.get('note_inspiration') or 0)} |")
     return '\n'.join(L) + '\n'
 
 def fiche_md(s):
     d, a = s['d'], s['a']; des = d.get('design') or {}; st = d.get('structure') or {}; seo = d.get('seo') or {}; perf = d.get('perf') or {}; net = d.get('network') or {}
     typo = des.get('typo') or {}
-    L = [f"# {d['name']}", '', f"- URL : {d.get('sourceUrl')}", f"- Capturé le : {d.get('capturedAt', '')[:10]} — statut : {d.get('status')}"]
+    L = [f"# {d['name']}", '', f"- Site : [{d.get('sourceUrl')}]({d.get('sourceUrl')}) — [aperçu statique local](apercu.html)",f"- Capturé le : {d.get('capturedAt', '')[:10]} — statut : {d.get('status')}"]
     vurl = video_url(s)
     if vurl: L.append(f"- Vidéo de scroll : [▶ ouvrir]({vurl})")
     sh = s['shots']; img = lambda fs, w: ''.join(f'<a href="captures/{f}"><img src="captures/{f}" width="{w}" alt="{f}"></a> ' for f in fs)

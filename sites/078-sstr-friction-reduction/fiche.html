@@ -1,0 +1,228 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SSTR - Friction Reduction</title><style>
+:root{--bg:#f6f5f2;--fg:#151515;--mut:#6b6b6b;--card:#fff;--line:#e4e2dc;--acc:#2a5bd7}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0f0f10;--fg:#ececec;--mut:#9a9a9a;--card:#18181a;--line:#2a2a2d;--acc:#7aa2ff}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.5 Inter,system-ui,sans-serif}
+a{color:var(--acc)}header{padding:28px 24px 8px;max-width:1500px;margin:auto}h1{font-size:28px;margin:0 0 4px;letter-spacing:-.02em}
+.mut{color:var(--mut)}.bar{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);padding:12px 24px}
+.bar .in{max-width:1500px;margin:auto;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+input[type=search]{flex:1 1 260px;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--fg);font:inherit}
+select{padding:8px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--fg);font:inherit;max-width:200px}
+.grid{max-width:1500px;margin:20px auto;padding:0 24px;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column;text-decoration:none;color:inherit}
+.card:hover{border-color:var(--acc)}.card img{width:100%;aspect-ratio:16/10;object-fit:cover;background:#222;display:block}
+.card .b{padding:12px 14px;display:flex;flex-direction:column;gap:6px}.card h3{margin:0;font-size:16px}
+.sw{display:flex;gap:3px}.sw i{width:18px;height:18px;border-radius:4px;border:1px solid var(--line)}
+.tags{display:flex;flex-wrap:wrap;gap:4px}.tags span{font-size:11.5px;padding:2px 7px;border-radius:20px;background:var(--bg);border:1px solid var(--line);color:var(--mut)}
+.tags span.s{color:var(--fg)}.stars{color:#d9a400;font-size:13px}.count{margin-left:auto}
+@media (max-width:600px){header,.bar,.grid{padding-left:16px;padding-right:16px}}
+
+main{max-width:1100px;margin:auto;padding:24px}h2{margin-top:32px;border-top:1px solid var(--line);padding-top:18px;font-size:20px}h3{font-size:15px;margin:18px 0 6px}
+table{border-collapse:collapse;width:100%;font-size:13px;display:block;overflow-x:auto}td,th{border:1px solid var(--line);padding:5px 8px;text-align:left;vertical-align:top}
+pre{background:var(--card);border:1px solid var(--line);padding:12px;border-radius:8px;overflow:auto;font-size:12px;max-height:420px}code{font-size:12.5px;background:var(--card);padding:1px 5px;border-radius:4px;border:1px solid var(--line)}
+.dot{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:-1px;border:1px solid var(--line)}
+.gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px;margin:14px 0}.gal a img{width:100%;border-radius:6px;border:1px solid var(--line);display:block}
+.gal.m{grid-template-columns:repeat(auto-fill,minmax(130px,1fr))}video{width:100%;border-radius:8px;border:1px solid var(--line)}li{margin:3px 0}
+</style></head><body><main><p><a href="../../index.html">← Bibliothèque</a></p><h1>SSTR - Friction Reduction</h1>
+<li>Site : [<a href="https://sstr.tech/en/](https://sstr.tech/en/" target="_blank" rel="noopener">https://sstr.tech/en/](https://sstr.tech/en/</a>) — [aperçu statique local](apercu.html)</li>
+<li>Capturé le : 2026-11-03 — statut : ok</li>
+<h2>Captures desktop</h2><p><a href="https://github.com/t-baudry/bibliotheque-web/releases/download/videos/078-sstr-friction-reduction.webm" target="_blank">▶ Vidéo de scroll (GitHub)</a></p><div class="gal "><a href="captures/desktop-00-arrivee.jpg" target="_blank"><img loading="lazy" src="captures/desktop-00-arrivee.jpg" alt="desktop-00-arrivee.jpg"></a><a href="captures/desktop-01.jpg" target="_blank"><img loading="lazy" src="captures/desktop-01.jpg" alt="desktop-01.jpg"></a><a href="captures/desktop-02.jpg" target="_blank"><img loading="lazy" src="captures/desktop-02.jpg" alt="desktop-02.jpg"></a><a href="captures/desktop-03.jpg" target="_blank"><img loading="lazy" src="captures/desktop-03.jpg" alt="desktop-03.jpg"></a><a href="captures/desktop-04.jpg" target="_blank"><img loading="lazy" src="captures/desktop-04.jpg" alt="desktop-04.jpg"></a><a href="captures/desktop-05.jpg" target="_blank"><img loading="lazy" src="captures/desktop-05.jpg" alt="desktop-05.jpg"></a><a href="captures/desktop-06.jpg" target="_blank"><img loading="lazy" src="captures/desktop-06.jpg" alt="desktop-06.jpg"></a><a href="captures/desktop-07.jpg" target="_blank"><img loading="lazy" src="captures/desktop-07.jpg" alt="desktop-07.jpg"></a><a href="captures/desktop-08.jpg" target="_blank"><img loading="lazy" src="captures/desktop-08.jpg" alt="desktop-08.jpg"></a><a href="captures/desktop-09.jpg" target="_blank"><img loading="lazy" src="captures/desktop-09.jpg" alt="desktop-09.jpg"></a><a href="captures/desktop-10.jpg" target="_blank"><img loading="lazy" src="captures/desktop-10.jpg" alt="desktop-10.jpg"></a><a href="captures/desktop-11.jpg" target="_blank"><img loading="lazy" src="captures/desktop-11.jpg" alt="desktop-11.jpg"></a><a href="captures/desktop-12.jpg" target="_blank"><img loading="lazy" src="captures/desktop-12.jpg" alt="desktop-12.jpg"></a><a href="captures/desktop-13.jpg" target="_blank"><img loading="lazy" src="captures/desktop-13.jpg" alt="desktop-13.jpg"></a><a href="captures/desktop-14.jpg" target="_blank"><img loading="lazy" src="captures/desktop-14.jpg" alt="desktop-14.jpg"></a><a href="captures/desktop-pleine-page.jpg" target="_blank"><img loading="lazy" src="captures/desktop-pleine-page.jpg" alt="desktop-pleine-page.jpg"></a></div><h2>Pages internes</h2><div class="gal "><a href="captures/page1-01.jpg" target="_blank"><img loading="lazy" src="captures/page1-01.jpg" alt="page1-01.jpg"></a><a href="captures/page1-02.jpg" target="_blank"><img loading="lazy" src="captures/page1-02.jpg" alt="page1-02.jpg"></a><a href="captures/page1-03.jpg" target="_blank"><img loading="lazy" src="captures/page1-03.jpg" alt="page1-03.jpg"></a><a href="captures/page1-04.jpg" target="_blank"><img loading="lazy" src="captures/page1-04.jpg" alt="page1-04.jpg"></a></div><h2>Mobile</h2><div class="gal m"><a href="captures/mobile-01.jpg" target="_blank"><img loading="lazy" src="captures/mobile-01.jpg" alt="mobile-01.jpg"></a><a href="captures/mobile-02.jpg" target="_blank"><img loading="lazy" src="captures/mobile-02.jpg" alt="mobile-02.jpg"></a><a href="captures/mobile-03.jpg" target="_blank"><img loading="lazy" src="captures/mobile-03.jpg" alt="mobile-03.jpg"></a><a href="captures/mobile-04.jpg" target="_blank"><img loading="lazy" src="captures/mobile-04.jpg" alt="mobile-04.jpg"></a><a href="captures/mobile-05.jpg" target="_blank"><img loading="lazy" src="captures/mobile-05.jpg" alt="mobile-05.jpg"></a><a href="captures/mobile-06.jpg" target="_blank"><img loading="lazy" src="captures/mobile-06.jpg" alt="mobile-06.jpg"></a></div><h2>Stack détectée</h2>
+<p>Astro, Barba.js, GSAP, Lenis, Lil-GUI/Tweakpane (debug), ScrollTrigger, SplitText/SplitType, Three.js, Virtual scroll, WebGL</p>
+<p>Versions : GSAP 3.15.0 · Three.js r?</p>
+<p>Shaders GLSL personnalisés extraits : 6 (voir <code>shaders.glsl</code>)</p>
+<h2>Design tokens</h2>
+<h3>Couleurs (fonds, pondérées par surface)</h3>
+<p><code><i class="dot" style="background:#eff0f1"></i>#eff0f1</code> · <code><i class="dot" style="background:#18191b"></i>#18191b</code> · <code><i class="dot" style="background:#c3c4c8"></i>#c3c4c8</code> · <code><i class="dot" style="background:#2f3032"></i>#2f3032</code> · <code><i class="dot" style="background:#e0e1e3"></i>#e0e1e3</code> · <code><i class="dot" style="background:#000000"></i>#000000</code> · <code><i class="dot" style="background:#fe5b2a"></i>#fe5b2a</code> · <code><i class="dot" style="background:#201d1d"></i>#201d1d</code></p>
+<h3>Couleurs de texte</h3>
+<p><code><i class="dot" style="background:#2f3032"></i>#2f3032</code> · <code><i class="dot" style="background:#0c0c0c"></i>#0c0c0c</code> · <code><i class="dot" style="background:#eff0f1"></i>#eff0f1</code> · <code><i class="dot" style="background:#c3c4c8"></i>#c3c4c8</code> · <code><i class="dot" style="background:#747576"></i>#747576</code> · <code><i class="dot" style="background:#333333"></i>#333333</code> · <code><i class="dot" style="background:#a3a3a4"></i>#a3a3a4</code> · <code><i class="dot" style="background:#ffffff"></i>#ffffff</code></p>
+<h3>Polices utilisées (par volume de texte)</h3>
+<p>ABC Monument Grotesk · Arial · Abc Monument Grotesk</p>
+<h3>Fichiers de police chargés</h3>
+<li>ABC-Monument-Grotesk.woff2</li>
+<h3>Typographie</h3>
+<table>
+<tr><th>Élément</th><th>Police</th><th>Taille</th><th>Graisse</th><th>Interligne</th><th>Interlettrage</th><th>Casse</th></tr>
+<tr><td>h1</td><td>&quot;ABC Monument Grotesk&quot;, Arial, sans-serif</td><td>48px</td><td>400</td><td>49.008px</td><td>-1.68px</td><td>uppercase</td></tr>
+<tr><td>h2</td><td>&quot;ABC Monument Grotesk&quot;, Arial, sans-serif</td><td>48px</td><td>400</td><td>49.008px</td><td>-1.68px</td><td>uppercase</td></tr>
+<tr><td>h3</td><td>&quot;ABC Monument Grotesk&quot;, Arial, sans-serif</td><td>24px</td><td>400</td><td>28.008px</td><td>-0.48px</td><td>uppercase</td></tr>
+<tr><td>h4</td><td>&quot;ABC Monument Grotesk&quot;, Arial, sans-serif</td><td>19.2px</td><td>400</td><td>23.04px</td><td>normal</td><td>uppercase</td></tr>
+<tr><td>p</td><td>&quot;ABC Monument Grotesk&quot;, Arial, sans-serif</td><td>16px</td><td>400</td><td>20px</td><td>0.16px</td><td>none</td></tr>
+<tr><td>a</td><td>&quot;Abc Monument Grotesk&quot;, Arial, sans-serif</td><td>12px</td><td>400</td><td>20px</td><td>0.48px</td><td>uppercase</td></tr>
+<tr><td>li</td><td>Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif</td><td>16px</td><td>400</td><td>20px</td><td>normal</td><td>none</td></tr>
+<tr><td>body</td><td>Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif</td><td>16px</td><td>400</td><td>20px</td><td>normal</td><td>none</td></tr>
+</table>
+<h3>Échelle des tailles de texte</h3>
+<p>12px (93) · 32px (50) · 14px (43) · 16px (26) · 19.2px (17) · 96px (15) · 24px (11) · 48px (10) · 20px (5) · 11.4px (4) · 40px (2) · 80px (1) · 9px (1)</p>
+<h3>Arrondis</h3>
+<p>12px · 1600px</p>
+<h3>Transitions CSS fréquentes</h3>
+<li>cubic-bezier(0.675 0.35s ×24</li>
+<li>cubic-bezier(0.675 0.375s ×22</li>
+<li>cubic-bezier(0.4 0.15s ×13</li>
+<li>ease 0.2s ×11</li>
+<li>cubic-bezier(0.625 0.4s ×6</li>
+<li>ease 0.15s ×5</li>
+<li>ease 0.3s ×5</li>
+<li>cubic-bezier(0.625 0.65s ×2</li>
+<h3>Points de rupture (media queries)</h3>
+<p>991px · 767px · 480px · 479px · 992px</p>
+<h3>Animations CSS (@keyframes)</h3>
+<p>cctpPreloaderBlink, cctpRevealFallback, scrollHintMove, scrollHintPulse</p>
+<h3>Variables CSS (:root)</h3>
+<pre>
+--brand-orange-50: #ffefea;
+--brand-orange-100: #ffccbd;
+--brand-orange-200: #ffb49d;
+--brand-orange-300: #fe9170;
+--brand-orange-400: #fe7c55;
+--brand-orange-500: #fe5b2a;
+--brand-orange-600: #e75326;
+--brand-orange-700: #b4411e;
+--brand-orange-800: #8c3217;
+--brand-orange-900: #6b2612;
+--brand-grey-100: #eff0f1;
+--brand-grey-150: #e0e1e3;
+--brand-grey-200: #c3c4c8;
+--brand-grey-250: #b5b5b5;
+--brand-grey-300: #a3a3a4;
+--brand-grey-400: #8b8c8d;
+--brand-grey-500: #747576;
+--brand-grey-600: #464749;
+--brand-grey-700: #2f3032;
+--brand-grey-750: #222326;
+--brand-grey-800: #18191b;
+--brand-grey-850: #141415;
+--brand-grey-900: #0c0c0c;
+--brand-grey-100-alpha: #eff0f11a;
+--brand-grey-900-alpha: #0c0c0c1a;
+--brand-scale-0: 0em;
+--brand-scale-25: 0.0625em;
+--brand-scale-50: 0.125em;
+--brand-scale-100: 0.25em;
+--brand-scale-200: 0.375em;
+--brand-scale-300: 0.5em;
+--brand-scale-400: 0.625em;
+--brand-scale-500: 0.75em;
+--brand-scale-600: 0.875em;
+--brand-scale-700: 0.9375em;
+--brand-scale-800: 1em;
+--brand-scale-900: 1.25em;
+--brand-scale-1000: 1.5em;
+--brand-scale-1100: 2em;
+--brand-scale-1200: 2.5em;
+--brand-scale-1300: 3em;
+--brand-scale-1400: 3.75em;
+--brand-scale-1500: 4.5em;
+--brand-font-family: &quot;ABC Monument Grotesk&quot;, Arial, sans-serif;
+--brand-weight-light: 300;
+--brand-weight-regular: 400;
+--brand-weight-medium: 500;
+--brand-weight-bold: 700;
+--alias-brand-50: var(--brand-orange-50);
+--alias-brand-100: var(--brand-orange-100);
+--alias-brand-200: var(--brand-orange-200);
+--alias-brand-300: var(--brand-orange-300);
+--alias-brand-400: var(--brand-orange-400);
+--alias-brand-500: var(--brand-orange-500);
+--alias-brand-600: var(--brand-orange-600);
+--alias-brand-700: var(--brand-orange-700);
+--alias-brand-800: var(--brand-orange-800);
+--alias-brand-900: var(--brand-orange-900);
+--alias-grey-100: var(--brand-grey-100);
+--alias-grey-150: var(--brand-grey-150);
+--alias-grey-200: var(--brand-grey-200);
+--alias-grey-250: var(--brand-grey-250);
+--alias-grey-300: var(--brand-grey-300);
+--alias-grey-400: var(--brand-grey-400);
+--alias-grey-500: var(--brand-grey-500);
+--alias-grey-600: var(--brand-grey-600);
+--alias-grey-700: var(--brand-grey-700);
+--alias-grey-750: var(--brand-grey-750);
+--alias-grey-800: var(--brand-grey-800);
+--alias-grey-850: var(--brand-grey-850);
+--alias-grey-900: var(--brand-grey-900);
+--mapped-text-headings-inverse: var(--alias-grey-100);
+--mapped-text-body-light: var(--alias-grey-500);
+--mapped-text-body-inverse: var(--alias-grey-200);
+--mapped-text-on-action: var(--alias-grey-900);
+--mapped-text-action: var(--alias-brand-500);
+--mapped-text-action-hover: var(--alias-brand-600);
+--mapped-text-disabled: var(--alias-grey-500);
+--mapped-text-warning: var(--alias-brand-800);
+--mapped-text-error: #fe2a2a;
+</pre>
+<h2>Structure de la home</h2>
+<p>Hauteur : 13934 px — 1220 nœuds DOM — canvas 1, vidéos 3, images 49</p>
+<table>
+<tr><th>#</th><th>Bloc</th><th>Hauteur</th><th>Titre</th><th>Médias</th></tr>
+<tr><td>1</td><td>section .section_hero</td><td>900</td><td>Pushing the limits of drilling</td><td>1</td></tr>
+<tr><td>2</td><td>section .section_about</td><td>814</td><td>From well data to verified field results — one engineering loop.</td><td>13</td></tr>
+<tr><td>3</td><td>section .section_numbers</td><td>1620</td><td>Results, proven on real projects</td><td>0</td></tr>
+<tr><td>4</td><td>section .section_process-intro</td><td>345</td><td>Friction reduction while drilling. Proven by data.</td><td>1</td></tr>
+<tr><td>5</td><td>section .section_webgl</td><td>900</td><td>Friction and vibration act in different zones — the solution has to work in ever</td><td>1</td></tr>
+<tr><td>6</td><td>section .section_products</td><td>4862</td><td>SSTR equipment</td><td>6</td></tr>
+<tr><td>7</td><td>section .section_cases</td><td>1537</td><td>Case studies</td><td>4</td></tr>
+<tr><td>8</td><td>section .section_proof is-padding-btm</td><td>681</td><td>Trusted by</td><td>6</td></tr>
+<tr><td>9</td><td>section .section_globe</td><td>831</td><td>Hor 90° · Western Siberia</td><td>10</td></tr>
+<tr><td>10</td><td>section .section_cta is-border-btm</td><td>981</td><td>Run the numbers on your well</td><td>1</td></tr>
+<tr><td>11</td><td>footer .footer-wrap</td><td>463</td><td></td><td>1</td></tr>
+</table>
+<p><b>Navigation :</b> Cases · About · Products · Engineering · Contacts · RU · EN · contact · Home · Cases · About · Products · Engineering · Contacts</p>
+<p><b>Boutons / CTA :</b> </p>
+<h2>SEO</h2>
+<li>Title : SSTR — Friction Reduction Systems</li>
+<li>Description : Friction, vibration, and load-transfer control in oil drilling. FRS, SVR, T&amp;D modeling, on-site engineering support.</li>
+<li>Langue : en — canonical : None</li>
+<li>Open Graph : oui — JSON-LD : aucun</li>
+<li>H1 : 1 — images sans alt : 23/49</li>
+<h3>Plan des titres</h3>
+<li>H1 Pushing the limits of drilling</li>
+<li>H2 From well data to verified field results — one engineering loop.</li>
+<li>H3 Equipment</li>
+<li>H3 Engineering &amp; modeling</li>
+<li>H3 Field support</li>
+<li>H2 Results, proven on real projects</li>
+<li>H2 Friction reduction while drilling. Proven by data.</li>
+<li>H2 Friction and vibration act in different zones — the solution has to work in every one of t</li>
+<li>H2 FRS isolate the drill-pipe tool joint from the borehole wall, reduce torque and drag, incr</li>
+<li>H2 Transfer X1 protects the drill-pipe tool joint from abrasion. Wear-resistant, designed for</li>
+<li>H2 Transfer X6 damps torsional and lateral vibrations in the BHA. Protects the mud motor / RS</li>
+<li>H2 Transfer X3 damps torsional and lateral vibrations in the BHA. Protects the mud motor / RS</li>
+<li>H2 The PDC bit cuts the rock at the bottomhole. SSTR equipment works along the entire drill s</li>
+<li>H2 SSTR equipment</li>
+<li>H2 // FRS</li>
+<li>H3 Torque reduction at the rotary table / top drive</li>
+<li>H3 More weight on bit transferred downhole</li>
+<li>H3 Lower hook load when pulling out of hole</li>
+<li>H3 Less drilling vibration in the installation zone</li>
+<li>H3 Drill pipe and casing wear protection</li>
+<li>H2 // SVR</li>
+<li>H3 Lateral and torsional vibration damping in the BHA</li>
+<li>H3 MWD/LWD and RSS protection from vibration</li>
+<li>H3 Torque reduction in the installation zone</li>
+<li>H3 Longer bit and BHA component life</li>
+<li>H2 // TRANSFER X3</li>
+<li>H3 BHA only — no surface Transfer sections</li>
+<li>H3 Drilling with high WOB</li>
+<li>H3 Suppress stick-slip and axial shocks at the bottom of the string</li>
+<li>H3 Protect PDC bits from cutter chipping</li>
+<h2>Performance (mesure locale, Chrome headless, connexion non bridée)</h2>
+<li>TTFB 317 ms · LCP 920 ms (H1.heading_h2) · CLS 0.298 · load 839 ms</li>
+<li>52 requêtes · 6927 Ko transférés</li>
+<li>Par type : Document 1 req / 82 Ko, Stylesheet 7 req / 168 Ko, Image 20 req / 1457 Ko, Script 10 req / 1205 Ko, Media 3 req / 1079 Ko, Font 1 req / 382 Ko, Other 1 req / 1 Ko, Fetch 8 req / 2494 Ko, XHR 1 req / 59 Ko</li>
+<li>Plus gros fichiers :</li>
+<li>1674 Ko — Fetch — <a href="https://sstr.tech/webgl/assets/scenes/29-06-light.glb" target="_blank" rel="noopener">https://sstr.tech/webgl/assets/scenes/29-06-light.glb</a></li>
+<li>810 Ko — Media — <a href="https://sstr.tech/videos/main-framerate_webm.webm" target="_blank" rel="noopener">https://sstr.tech/videos/main-framerate_webm.webm</a></li>
+<li>664 Ko — Script — <a href="https://sstr.tech/webgl/sstr-scene.js?v=20260714n" target="_blank" rel="noopener">https://sstr.tech/webgl/sstr-scene.js?v=20260714n</a></li>
+<li>519 Ko — Image — <a href="https://sstr.tech/images/process-rig.svg" target="_blank" rel="noopener">https://sstr.tech/images/process-rig.svg</a></li>
+<li>466 Ko — Fetch — <a href="https://sstr.tech/webgl/assets/scenes/PDC_Drill.glb" target="_blank" rel="noopener">https://sstr.tech/webgl/assets/scenes/PDC_Drill.glb</a></li>
+<li>442 Ko — Image — <a href="https://sstr.tech/api/media/file/TRANSFER%20X3-Photoroom-1600x508.png" target="_blank" rel="noopener">https://sstr.tech/api/media/file/TRANSFER%20X3-Photoroom-1600x508.png</a></li>
+<li>382 Ko — Font — <a href="https://sstr.tech/fonts/ABC-Monument-Grotesk.woff2" target="_blank" rel="noopener">https://sstr.tech/fonts/ABC-Monument-Grotesk.woff2</a></li>
+<li>279 Ko — Fetch — <a href="https://sstr.tech/webgl/draco/draco_decoder.wasm" target="_blank" rel="noopener">https://sstr.tech/webgl/draco/draco_decoder.wasm</a></li>
+<li>Services tiers : cdn.jsdelivr.net</li>
+<h2>Mobile</h2>
+<li>H1 : {&#x27;size&#x27;: &#x27;32px&#x27;, &#x27;lineHeight&#x27;: &#x27;32.672px&#x27;} · corps : 16px · débordement horizontal : False · menu burger : True</li>
+<h2>Fichiers</h2>
+<li><code>captures/</code> : arrivée, scroll desktop (1440×900), pleine page, pages internes, mobile (390×844 @2x) ; vidéo de scroll dans la release GitHub « videos » (lien en haut de fiche)</li>
+<li><code>page.html</code> : DOM rendu · <code>styles.css</code> : CSS chargé · <code>scripts/</code> : JS chargé (index dans <code>_index.json</code>) · <code>shaders.glsl</code> : shaders extraits · <code>rea-bundle.json</code> : analyse REA du bundle (chunks, routes, endpoints)</li>
+<h2>Pages internes capturées</h2>
+<li><a href="https://sstr.tech/en/cases/" target="_blank" rel="noopener">https://sstr.tech/en/cases/</a></li></main></body></html>

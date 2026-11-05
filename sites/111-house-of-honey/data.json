@@ -1,0 +1,861 @@
+{
+ "id": 111,
+ "name": "House of Honey",
+ "sourceUrl": "https://www.houseofhoney.com/",
+ "capturedAt": "2026-11-05T12:08:36.787Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg"
+  ],
+  "fullPage": 8420,
+  "subpages": [
+   {
+    "url": "https://www.houseofhoney.com/studio",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.houseofhoney.com/spaces",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.houseofhoney.com/the-buzz",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://www.houseofhoney.com/",
+ "title": "House of Honey | Interior Design Studio",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "House of Honey designs soulful, expressive interiors where life is celebrated. A California-based studio creating spaces with warmth, craft and character.",
+  "canonical": "https://www.houseofhoney.com/",
+  "robots": null,
+  "ogTitle": "House of Honey | Interior Design Studio",
+  "ogImage": "https://cdn.sanity.io/images/h1ekyplu/production/edea36ea8165ada74336d6c76b8ed78151e326cb-1200x630.jpg?w=1200&h=630&max-h=2048&max-w=2048&q=85&fit=crop&auto=format",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "WebSite",
+   "WebPage"
+  ],
+  "h1Count": 0,
+  "headings": [
+   "H2 House of Honey is a female collective of interior designers born out of a desire to create",
+   "H2 SHOP THE ORTEGA COLLECTION WITH GALANTER & JONES",
+   "H2 Spaces with story",
+   "H3 A STUDY IN EXPRESSION",
+   "H3 FRENCH COUNTRY FANTASY",
+   "H3 HEIRLOOM HOUSE",
+   "H3 COASTAL CANOPY",
+   "H3 ROCK N ROLL REVERENCE",
+   "H3 MODERN GLAMOUR",
+   "H2 Dear HONEY",
+   "H3 Trust Me When I Tell You, I Know How To Host",
+   "H2 It would be a privilege to hear from you"
+  ],
+  "imgs": 8,
+  "imgNoAlt": 8,
+  "favicon": "https://cdn.sanity.io/images/h1ekyplu/production/9a6ebc627139ea594a4cb06433ebc899b1037ef8-600x600.png?w=64&h=64&fm=png&q=85&fit=crop",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#331917",
+    "w": 5447447
+   },
+   {
+    "v": "#edccbe",
+    "w": 4952922
+   },
+   {
+    "v": "#ffffff",
+    "w": 5173
+   },
+   {
+    "v": "#fc72c4",
+    "w": 2817
+   }
+  ],
+  "text": [
+   {
+    "v": "#331917",
+    "w": 616
+   },
+   {
+    "v": "#edccbe",
+    "w": 601
+   },
+   {
+    "v": "#fc72c4",
+    "w": 82
+   }
+  ],
+  "border": [
+   {
+    "v": "#331917",
+    "w": 3
+   },
+   {
+    "v": "#edccbe",
+    "w": 1
+   }
+  ],
+  "fonts": [
+   {
+    "v": "neueHaasGrotesk",
+    "w": 828
+   },
+   {
+    "v": "noeText",
+    "w": 389
+   },
+   {
+    "v": "canora",
+    "w": 82
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "17.7388px",
+    "w": 28
+   },
+   {
+    "v": "19.7388px",
+    "w": 20
+   },
+   {
+    "v": "15.7388px",
+    "w": 13
+   },
+   {
+    "v": "536.898px",
+    "w": 6
+   },
+   {
+    "v": "30.9551px",
+    "w": 5
+   },
+   {
+    "v": "44.8653px",
+    "w": 4
+   },
+   {
+    "v": "60.8653px",
+    "w": 2
+   },
+   {
+    "v": "15.4776px",
+    "w": 2
+   },
+   {
+    "v": "21.4776px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "9999px",
+    "w": 1
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.65 0.4s",
+    "w": 33
+   },
+   {
+    "v": "cubic-bezier(0.65 0.6s",
+    "w": 7
+   }
+  ],
+  "typo": {
+   "h2": {
+    "family": "noeText, \"noeText Fallback\"",
+    "size": "44.8653px",
+    "weight": "400",
+    "lineHeight": "44.8653px",
+    "letterSpacing": "-0.897306px",
+    "transform": "uppercase",
+    "color": "#edccbe",
+    "sample": "House of Honey is a female collective of interior designers born out of a desire"
+   },
+   "h3": {
+    "family": "neueHaasGrotesk, \"neueHaasGrotesk Fallback\"",
+    "size": "17.7388px",
+    "weight": "400",
+    "lineHeight": "23.0604px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#331917",
+    "sample": "A STUDY IN EXPRESSION"
+   },
+   "p": {
+    "family": "noeText, \"noeText Fallback\"",
+    "size": "30.9551px",
+    "weight": "400",
+    "lineHeight": "30.9551px",
+    "letterSpacing": "-0.619102px",
+    "transform": "uppercase",
+    "color": "#331917",
+    "sample": "Interiors, Objects & Atmospheres"
+   },
+   "a": {
+    "family": "neueHaasGrotesk, \"neueHaasGrotesk Fallback\"",
+    "size": "15.7388px",
+    "weight": "400",
+    "lineHeight": "20.4604px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#331917",
+    "sample": "Studio"
+   },
+   "li": {
+    "family": "neueHaasGrotesk, \"neueHaasGrotesk Fallback\"",
+    "size": "17.7388px",
+    "weight": "400",
+    "lineHeight": "23.0604px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#edccbe",
+    "sample": "Studio"
+   },
+   "body": {
+    "family": "neueHaasGrotesk, \"neueHaasGrotesk Fallback\"",
+    "size": "17.7388px",
+    "weight": "400",
+    "lineHeight": "23.0604px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#edccbe",
+    "sample": "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"@id\":\"https://www.houseofhon"
+   }
+  },
+  "cssVars": {
+   "--font-sans": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoj",
+   "--font-mono": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+   "--spacing": ".0625rem",
+   "--font-weight-medium": "500",
+   "--font-weight-semibold": "600",
+   "--blur-xl": "24px",
+   "--default-transition-duration": ".15s",
+   "--default-transition-timing-function": "cubic-bezier(.4, 0, .2, 1)",
+   "--default-font-family": "var(--font-sans)",
+   "--default-mono-font-family": "var(--font-mono)",
+   "--fluid-min-w": "var(--layout-min-w,375)",
+   "--fluid-max-w": "var(--layout-max-w,1600)",
+   "--fluid-slope": "calc((100vw - calc(var(--spacing) * var(--fluid-min-w))) / (var(--fluid-max-w) - var(--fluid-min-w)))",
+   "--text-title-100": "clamp(calc(var(--spacing) * 250), calc(var(--spacing) * 250) + (580 - 250) * var(--fluid-slope), calc(var(--spacing) * 580))",
+   "--text-title-100--font-weight": "400",
+   "--text-title-100--line-height": "1",
+   "--text-title-100--letter-spacing": "normal",
+   "--text-title-60": "clamp(calc(var(--spacing) * 56), calc(var(--spacing) * 56) + (100 - 56) * var(--fluid-slope), calc(var(--spacing) * 100))",
+   "--text-title-60--font-weight": "400",
+   "--text-title-60--line-height": "1",
+   "--text-title-60--letter-spacing": "-.02em",
+   "--text-title-40": "clamp(calc(var(--spacing) * 40), calc(var(--spacing) * 40) + (64 - 40) * var(--fluid-slope), calc(var(--spacing) * 64))",
+   "--text-title-40--font-weight": "400",
+   "--text-title-40--line-height": "1",
+   "--text-title-40--letter-spacing": "-.02em",
+   "--text-title-20": "clamp(calc(var(--spacing) * 24), calc(var(--spacing) * 24) + (48 - 24) * var(--fluid-slope), calc(var(--spacing) * 48))",
+   "--text-title-20--font-weight": "400",
+   "--text-title-20--line-height": "1",
+   "--text-title-20--letter-spacing": "-.02em",
+   "--text-title-10": "clamp(calc(var(--spacing) * 24), calc(var(--spacing) * 24) + (32 - 24) * var(--fluid-slope), calc(var(--spacing) * 32))",
+   "--text-title-10--font-weight": "400",
+   "--text-title-10--line-height": "1",
+   "--text-title-10--letter-spacing": "-.02em",
+   "--text-subtitle-30-normal": "clamp(calc(var(--spacing) * 18), calc(var(--spacing) * 18) + (22 - 18) * var(--fluid-slope), calc(var(--spacing) * 22))",
+   "--text-subtitle-30-normal--font-weight": "400",
+   "--text-subtitle-30-normal--line-height": "1.3",
+   "--text-subtitle-30-normal--letter-spacing": "-.02em",
+   "--text-subtitle-20-normal": "clamp(calc(var(--spacing) * 18), calc(var(--spacing) * 18) + (20 - 18) * var(--fluid-slope), calc(var(--spacing) * 20))",
+   "--text-subtitle-20-normal--font-weight": "400",
+   "--text-subtitle-20-normal--line-height": "1.3",
+   "--text-subtitle-20-normal--letter-spacing": "normal",
+   "--text-body-30-normal": "clamp(calc(var(--spacing) * 16), calc(var(--spacing) * 16) + (18 - 16) * var(--fluid-slope), calc(var(--spacing) * 18))",
+   "--text-body-30-normal--font-weight": "400",
+   "--text-body-30-normal--line-height": "1.3",
+   "--text-body-30-normal--letter-spacing": "normal",
+   "--text-menu-item": "calc(var(--spacing) * 18)",
+   "--text-menu-item--font-weight": "400",
+   "--text-menu-item--line-height": "1",
+   "--text-menu-item--letter-spacing": "-.02em",
+   "--text-body-30-strong": "clamp(calc(var(--spacing) * 16), calc(var(--spacing) * 16) + (18 - 16) * var(--fluid-slope), calc(var(--spacing) * 18))",
+   "--text-body-30-strong--font-weight": "500",
+   "--text-body-30-strong--line-height": "1.3",
+   "--text-body-30-strong--letter-spacing": "normal",
+   "--text-body-20-normal": "clamp(calc(var(--spacing) * 14), calc(var(--spacing) * 14) + (16 - 14) * var(--fluid-slope), calc(var(--spacing) * 16))",
+   "--text-body-20-normal--font-weight": "400",
+   "--text-body-20-normal--line-height": "1.3",
+   "--text-body-20-normal--letter-spacing": "normal",
+   "--text-body-20-strong": "clamp(calc(var(--spacing) * 14), calc(var(--spacing) * 14) + (16 - 14) * var(--fluid-slope), calc(var(--spacing) * 16))",
+   "--text-body-20-strong--font-weight": "500",
+   "--text-body-20-strong--line-height": "1.3",
+   "--text-body-20-strong--letter-spacing": "normal",
+   "--text-caption-30": "clamp(calc(var(--spacing) * 12), calc(var(--spacing) * 12) + (16 - 12) * var(--fluid-slope), calc(var(--spacing) * 16))",
+   "--text-caption-30--font-weight": "400",
+   "--text-caption-30--line-height": "1.3",
+   "--text-caption-30--letter-spacing": "normal",
+   "--text-error-caption": "clamp(calc(var(--spacing) * 10), calc(var(--spacing) * 10) + (12 - 10) * var(--fluid-slope), calc(var(--spacing) * 12))",
+   "--text-error-caption--font-weight": "500",
+   "--text-error-caption--line-height": "1.3",
+   "--text-error-caption--letter-spacing": "normal",
+   "--animate-fade-in": "fadeIn .4s var(--ease-in-out)",
+   "--animate-fade-out": "fadeOut .5s var(--ease-in-out)",
+   "--animate-site-intro-out": "siteIntroOut 1.2s cubic-bezier(.7, 0, .25, 1) forwards",
+   "--layout-min-w": "375",
+   "--layout-max-w": "1600",
+   "--font-neue-haas-grotesk": "var(--font-neue-haas-grotesk), ui-sans-serif",
+   "--font-canora": "var(--font-canora), ui-serif, serif",
+   "--font-noe-text": "var(--font-noe-text), ui-serif, serif",
+   "--color-black": "#000",
+   "--color-white": "#fff",
+   "--color-error": "#d41203",
+   "--color-base-cream": "#fff8ef",
+   "--color-base-blush-pink": "#edccbe",
+   "--color-base-light-green": "#d8ce7e",
+   "--color-base-dark-green": "#003933",
+   "--color-base-dark-brown": "#331917",
+   "--color-base-orange": "#ffeacf",
+   "--color-base-red": "#d1410f",
+   "--color-accent-lime": "#aff552",
+   "--color-accent-honey": "#edbc00",
+   "--color-accent-pink": "#fc72c4",
+   "--color-theme-bg-primary": "var(--color-base-dark-brown)",
+   "--color-theme-bg-secondary": "var(--color-base-blush-pink)",
+   "--color-theme-text-primary": "var(--color-base-blush-pink)",
+   "--color-theme-text-secondary": "var(--color-base-dark-brown)",
+   "--color-theme-accent": "var(--color-accent-pink)",
+   "--color-theme-transparency-primary": "color-mix(in srgb, var(--color-base-blush-pink) 30%, transparent)",
+   "--color-theme-transparency-secondary": "color-mix(in srgb, var(--color-base-dark-brown) 20%, transparent)",
+   "--radius-full": "9999px",
+   "--ease-in-out": "cubic-bezier(.65, .05, .36, 1)",
+   "--tw-ring-shadow": "var(--tw-ring-inset,) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color,currentcolor)",
+   "--tw-ring-color": "var(--color-theme-accent)",
+   "--tw-outline-style": "none",
+   "--tw-ring-inset": "inset",
+   "--hero-spacing-top": "calc(var(--spacing) * 300)",
+   "--hero-spacing-bottom": "calc(var(--spacing) * 300)",
+   "--vt-duration": "1s",
+   "--vt-easing": "cubic-bezier(.7, 0, .25, 1)"
+  },
+  "fontFaces": [
+   {
+    "family": "canora",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"../media/Canora-s.p.2vyj-uyy9xzvw.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "canora Fallback",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   },
+   {
+    "family": "noeText",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"../media/NoeText_Regular-s.p.1cd367ar_lisj.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "noeText Fallback",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   },
+   {
+    "family": "neueHaasGrotesk",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"../media/NeueHaasGrotDisp_55Roman-s.p.3fk1--nmz4ztd.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "neueHaasGrotesk",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"../media/NeueHaasGrotDisp_65Medium-s.p.1u74g70x8gjjy.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "neueHaasGrotesk Fallback",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   }
+  ],
+  "keyframes": [
+   "vt-root-old",
+   "vt-root-new",
+   "fadeIn",
+   "fadeOut",
+   "siteIntroOut",
+   "scroll"
+  ],
+  "breakpoints": [
+   {
+    "v": "64rem",
+    "w": 3
+   },
+   {
+    "v": "40rem",
+    "w": 2
+   },
+   {
+    "v": "48rem",
+    "w": 2
+   },
+   {
+    "v": "80rem",
+    "w": 2
+   },
+   {
+    "v": "96rem",
+    "w": 2
+   }
+  ],
+  "rulesCount": 840,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "relative isolate",
+    "h": 1275,
+    "top": 0,
+    "title": "",
+    "media": 4
+   },
+   {
+    "tag": "div",
+    "id": "about",
+    "cls": "relative isolate h-svh px-24 py-96 lg:py-102 bg-theme-bg-primary text-theme-text",
+    "h": 900,
+    "top": 1275,
+    "title": "House of Honey is a female collective of interior designers born out of a desire",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "",
+    "h": 582,
+    "top": 2175,
+    "title": "SHOP THE ORTEGA COLLECTION WITH GALANTER & JONES",
+    "media": 4
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "relative isolate px-16 py-96 lg:py-264 pb-192 bg-theme-bg-secondary text-theme-t",
+    "h": 636,
+    "top": 2757,
+    "title": "Spaces with story",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "px-8 pb-96 lg:pb-102 bg-theme-bg-secondary",
+    "h": 1642,
+    "top": 3393,
+    "title": "A STUDY IN EXPRESSION",
+    "media": 2
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "relative isolate px-16 py-96 lg:py-264 pb-192 bg-theme-bg-primary text-theme-tex",
+    "h": 636,
+    "top": 5035,
+    "title": "Dear HONEY",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "px-8 pb-96 lg:pb-102 bg-theme-bg-primary",
+    "h": 1146,
+    "top": 5671,
+    "title": "Trust Me When I Tell You, I Know How To Host",
+    "media": 2
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "",
+    "h": 582,
+    "top": 6817,
+    "title": "It would be a privilege to hear from you",
+    "media": 4
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "",
+    "href": "https://www.houseofhoney.com/"
+   },
+   {
+    "t": "Studio",
+    "href": "https://www.houseofhoney.com/studio"
+   },
+   {
+    "t": "Spaces",
+    "href": "https://www.houseofhoney.com/spaces"
+   },
+   {
+    "t": "The Buzz",
+    "href": "https://www.houseofhoney.com/the-buzz"
+   },
+   {
+    "t": "Dear Honey",
+    "href": "https://www.houseofhoney.com/dear-honey"
+   },
+   {
+    "t": "Press Room",
+    "href": "https://www.houseofhoney.com/press"
+   },
+   {
+    "t": "Get in Touch",
+    "href": "https://www.houseofhoney.com/contact"
+   },
+   {
+    "t": "",
+    "href": "https://www.houseofhoney.com/"
+   }
+  ],
+  "ctas": [
+   "Studio",
+   "Spaces",
+   "The Buzz",
+   "Dear Honey",
+   "Press Room",
+   "Get in Touch",
+   "Privacy Policy"
+  ],
+  "pageHeight": 8420,
+  "counts": {
+   "canvas": 1,
+   "videos": 0,
+   "imgs": 8,
+   "svgs": 11,
+   "iframes": 0,
+   "domNodes": 423
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": false,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": true,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [
+   "sanity"
+  ],
+  "analytics": [],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": false
+ },
+ "scripts": [
+  "https://www.houseofhoney.com/_next/static/immutable/chunks/44b6i8chqw4y5.js",
+  "https://www.houseofhoney.com/_next/static/immutable/chunks/18n-jvmb0r9aw.js",
+  "https://www.houseofhoney.com/_next/static/immutable/chunks/3q15bkcv3bzv3.js",
+  "https://www.houseofhoney.com/_next/static/immutable/chunks/2jqd0dpb7brv_.js",
+  "https://www.houseofhoney.com/_next/static/immutable/chunks/2op6nbgnjz_ep.js",
+  "https://www.houseofhoney.com/_next/static/immutable/chunks/turbopack-1cvbnb3nlabgn.js",
+  "https://www.houseofhoney.com/_next/static/immutable/chunks/0rns9vzdxno_c.js",
+  "https://www.houseofhoney.com/_next/static/immutable/chunks/0uew-h28ey4rc.js",
+  "https://www.houseofhoney.com/_next/static/immutable/chunks/03azvhrzh4dmz.js",
+  "https://www.houseofhoney.com/_next/static/immutable/chunks/1xjtn71dlwtmc.js",
+  "https://www.houseofhoney.com/_next/static/immutable/chunks/1jgvqjxie_nkr.js",
+  "https://www.houseofhoney.com/_next/static/immutable/chunks/3fp66mjzz2n5f.js",
+  "https://www.houseofhoney.com/_next/static/immutable/chunks/2dbu6ssu1ghdl.js",
+  "https://www.houseofhoney.com/_next/static/immutable/chunks/15n5lrniy7kxe.js",
+  "https://www.houseofhoney.com/_next/static/immutable/chunks/36cpqszs723i4.js",
+  "https://www.houseofhoney.com/_next/static/immutable/chunks/1_3db468c2hbw.js",
+  "https://www.houseofhoney.com/_next/static/immutable/chunks/1m6ejplg3y_m6.js",
+  "https://www.houseofhoney.com/_next/static/immutable/chunks/11_4rj1pwaw-j.js",
+  "https://www.houseofhoney.com/_next/static/immutable/chunks/424kjlehx57q1.js",
+  "https://www.houseofhoney.com/_next/static/immutable/chunks/2wb8kvmuipx_a.js",
+  "https://www.houseofhoney.com/_next/static/immutable/chunks/3o7is493bxdoi.js",
+  "https://www.houseofhoney.com/_next/static/immutable/chunks/3j4g1ib596ovw.js",
+  "https://www.houseofhoney.com/_next/static/immutable/chunks/0pcv13pfdjvv5.js",
+  "https://www.houseofhoney.com/_next/static/immutable/chunks/07fhubhe7-v5t.js",
+  "https://www.houseofhoney.com/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+  "https://www.houseofhoney.com/_next/static/immutable/chunks/2vrx3pcov7yal.js",
+  "https://www.houseofhoney.com/_next/static/immutable/chunks/2u6l_8vu3dhnw.js",
+  "https://www.houseofhoney.com/_next/static/immutable/chunks/3cm2pg72hiftn.js",
+  "https://www.houseofhoney.com/_next/static/immutable/chunks/3-g3fvxopg4ru.js",
+  "https://www.houseofhoney.com/_next/static/immutable/chunks/2u_yxvamptcpr.js",
+  "https://www.houseofhoney.com/_next/static/immutable/chunks/2q2o1c4e5ndx9.js",
+  "https://www.houseofhoney.com/_next/static/immutable/chunks/3ezchpbu7aisc.js",
+  "https://www.gstatic.com/cv/js/sender/v1/cast_sender.js?loadCastFramework=1",
+  "https://www.gstatic.com/cast/sdk/libs/sender/1.0/cast_framework.js",
+  "https://www.gstatic.com/eureka/clank/141/cast_sender.js",
+  "https://www.houseofhoney.com/_next/static/immutable/chunks/2sdxxyokwb4sj.js",
+  "https://cloud.umami.is/script.js"
+ ],
+ "internal": [
+  "https://www.houseofhoney.com/studio",
+  "https://www.houseofhoney.com/spaces",
+  "https://www.houseofhoney.com/the-buzz",
+  "https://www.houseofhoney.com/dear-honey",
+  "https://www.houseofhoney.com/press",
+  "https://www.houseofhoney.com/contact",
+  "https://www.houseofhoney.com/spaces/a-study-in-expression",
+  "https://www.houseofhoney.com/spaces/french-country-fantasy",
+  "https://www.houseofhoney.com/spaces/heirloom-house",
+  "https://www.houseofhoney.com/spaces/coastal-canopy",
+  "https://www.houseofhoney.com/spaces/rock-n-roll-reverence",
+  "https://www.houseofhoney.com/spaces/modern-glamour",
+  "https://www.houseofhoney.com/articles/trust-me-when-i-tell-you-i-know-how-to-host",
+  "https://www.houseofhoney.com/privacy-policy"
+ ],
+ "perf": {
+  "ttfb": 134,
+  "dcl": 485,
+  "load": 675,
+  "lcp": 792,
+  "lcpEl": "IMG.max-w-full",
+  "cls": 0
+ },
+ "libs": {
+  "detected": [
+   "Lenis",
+   "React",
+   "Virtual scroll",
+   "Sanity",
+   "Embla",
+   "Next.js",
+   "Contentful",
+   "Rive"
+  ],
+  "where": {
+   "Lenis": [
+    "001-0pcv13pfdjvv5.js",
+    "005-1_3db468c2hbw.js",
+    "008-36cpqszs723i4.js",
+    "011-03azvhrzh4dmz.js",
+    "018-2dbu6ssu1ghdl.js",
+    "021-07fhubhe7-v5t.js",
+    "styles.css"
+   ],
+   "React": [
+    "004-18n-jvmb0r9aw.js",
+    "015-2jqd0dpb7brv.js"
+   ],
+   "Virtual scroll": [
+    "005-1_3db468c2hbw.js",
+    "018-2dbu6ssu1ghdl.js"
+   ],
+   "Sanity": [
+    "009-1m6ejplg3y_m6.js",
+    "018-2dbu6ssu1ghdl.js",
+    "021-07fhubhe7-v5t.js",
+    "023-3j4g1ib596ovw.js",
+    "024-424kjlehx57q1.js"
+   ],
+   "Embla": [
+    "010-11_4rj1pwaw-j.js",
+    "021-07fhubhe7-v5t.js"
+   ],
+   "Next.js": [
+    "022-44b6i8chqw4y5.js"
+   ],
+   "Contentful": [
+    "026-script.js"
+   ],
+   "Rive": [
+    "031-2u_yxvamptcpr.js"
+   ]
+  },
+  "gsapVersion": null,
+  "threeRevision": null,
+  "shaders": 2,
+  "scripts": 33
+ },
+ "network": {
+  "requests": 146,
+  "totalKb": 11519,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 22
+   },
+   "Stylesheet": {
+    "n": 1,
+    "kb": 12
+   },
+   "Font": {
+    "n": 4,
+    "kb": 80
+   },
+   "Script": {
+    "n": 36,
+    "kb": 757
+   },
+   "Image": {
+    "n": 33,
+    "kb": 1399
+   },
+   "Fetch": {
+    "n": 22,
+    "kb": 732
+   },
+   "Other": {
+    "n": 1,
+    "kb": 2
+   },
+   "Preflight": {
+    "n": 1,
+    "kb": 0
+   },
+   "XHR": {
+    "n": 41,
+    "kb": 8504
+   },
+   "TextTrack": {
+    "n": 6,
+    "kb": 12
+   }
+  },
+  "thirdPartyHosts": [
+   "cloud.umami.is",
+   "cdn.sanity.io",
+   "image.mux.com",
+   "gateway.umami.is",
+   "unpkg.com",
+   "www.gstatic.com",
+   "stream.mux.com",
+   "manifest-oci-us-ashburn-1-vop1.edgemv.mux.com",
+   "chunk-oci-us-ashburn-1-vop1.edgemv.mux.com"
+  ],
+  "fontFiles": [
+   "https://www.houseofhoney.com/_next/static/immutable/media/NoeText_Regular-s.p.1cd367ar_lisj.woff2",
+   "https://www.houseofhoney.com/_next/static/immutable/media/NeueHaasGrotDisp_55Roman-s.p.3fk1--nmz4ztd.woff2",
+   "https://www.houseofhoney.com/_next/static/immutable/media/NeueHaasGrotDisp_65Medium-s.p.1u74g70x8gjjy.woff2",
+   "https://www.houseofhoney.com/_next/static/immutable/media/Canora-s.p.2vyj-uyy9xzvw.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://unpkg.com/@rive-app/canvas@2.39.1/rive.wasm",
+    "kb": 718,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://chunk-oci-us-ashburn-1-vop1.edgemv.mux.com/v1/chunk/2lRSHatcXbqIeExT102HYHWeqgDhefCJ76600IqoY7BuxL02t01pcrYtSChMJmHpCWLWthVI900gn00w1D5CGUPVL3QrbtY88mbp",
+    "kb": 597,
+    "type": "XHR"
+   },
+   {
+    "url": "https://chunk-oci-us-ashburn-1-vop1.edgemv.mux.com/v1/chunk/9HB0000Mh7PGNun4sFJrU49d3kni5iwcTgGZ3PLPXQMrhLB86r8mBjx00tuA6o5ZdJdRJD1d47mOGK2kgKl01HL402AtppVaF9HW",
+    "kb": 581,
+    "type": "XHR"
+   },
+   {
+    "url": "https://chunk-oci-us-ashburn-1-vop1.edgemv.mux.com/v1/chunk/00WoFzsUgMgqsCd87ciMwIg00iiw9v83SF4LINxLiWdL8Y01hO9MtEC4q201TGMFVZgDkwX7fpknHVu63RQwgyJ6zc100jMiMDv2",
+    "kb": 572,
+    "type": "XHR"
+   },
+   {
+    "url": "https://chunk-oci-us-ashburn-1-vop1.edgemv.mux.com/v1/chunk/VMdIieAf00HdpnJjJ758xfg5lcr01NA501PKRrlKshDSWDIhckn95s6bn96FNLFslJnsk76xP3Hql1VxTObXwuHBm4X0201oNTVh",
+    "kb": 449,
+    "type": "XHR"
+   },
+   {
+    "url": "https://chunk-oci-us-ashburn-1-vop1.edgemv.mux.com/v1/chunk/oC0112IF2zjJlVVbIySrT655WS4ExHgY3XX9MVSk3p00CWgZpfJ01657vcKfC1lrlL7P8OEhPMwdZ00YyT3zI7G00y2g02C9GfBm",
+    "kb": 446,
+    "type": "XHR"
+   },
+   {
+    "url": "https://chunk-oci-us-ashburn-1-vop1.edgemv.mux.com/v1/chunk/vk55l7aBjdOa64DPU1d01FLyZyKZ8UlwbVcdFipVxCkwOBbE2FG7Y5OuaIUzTTpb9cvZTAk02lMFCowEWEcD00sELDHiZxxyP01P",
+    "kb": 428,
+    "type": "XHR"
+   },
+   {
+    "url": "https://chunk-oci-us-ashburn-1-vop1.edgemv.mux.com/v1/chunk/1vGr4eJ9GxwGcSUN9fsgEKQJdHk99AyirfmQQq102tUwXHmATgh2Kc5Cr4aPccAo4eRPFXYD1QXxjLFaQzRmf01lgRM02OZuam02",
+    "kb": 414,
+    "type": "XHR"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": null,
+  "body": "16.0245px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 78
+}

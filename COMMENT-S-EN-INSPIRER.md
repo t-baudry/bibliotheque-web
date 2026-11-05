@@ -11,7 +11,7 @@ Ce n'est pas une banque de pièces à copier-coller. On y prend des idées et de
 1. **On s'inspire, on ne copie pas.** Pas de textes, d'images, de logos, de vidéos, d'illustrations ni d'identité visuelle repris d'un site. Tout cela appartient à leurs auteurs.
 2. **Le code des sites n'est pas libre.** Les fichiers `scripts/` et `styles.css` servent à *comprendre* une technique (quelle librairie, quel principe, quels réglages). On réécrit ensuite son propre code, adapté au projet. On ne colle jamais un bundle tel quel.
 3. **Une landing de conversion n'est pas une vitrine Awwwards.** Beaucoup de ces sites sacrifient la vitesse, le SEO et la clarté à l'effet visuel. On garde l'idée, on la rend légère, accessible et lisible sur mobile.
-4. **Le dépôt est privé.** On ne le republie pas et on ne le partage pas hors de l'équipe.
+4. **Les sites restent la propriété de leurs auteurs.** Cette base est une archive d'étude, sans usage commercial des contenus. Un auteur qui souhaite le retrait de son site peut ouvrir une issue sur le dépôt : il sera retiré.
 
 ---
 

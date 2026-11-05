@@ -1,6 +1,6 @@
 # Bibliothèque web
 
-107 sites Awwwards « Site of the Day » capturés et décortiqués (mise à jour du 05/11/2026). Usage interne : inspiration uniquement, ni textes ni images à reprendre tels quels.
+108 sites Awwwards « Site of the Day » capturés et décortiqués (mise à jour du 05/11/2026). Archive d'étude pour l'inspiration : les sites, textes, images et codes restent la propriété de leurs auteurs et ne sont pas à reprendre tels quels. Demande de retrait : ouvrir une issue.
 
 > **Avant de commencer : lire [COMMENT-S-EN-INSPIRER.md](COMMENT-S-EN-INSPIRER.md)** (méthode, règles, prompts prêts à l'emploi pour Claude).
 
@@ -124,4 +124,5 @@ git clone https://github.com/t-baudry/bibliotheque-web.git
 | <img src="sites/106-glitch-grit/captures/desktop-01.jpg" width="180"> | [Glitch&Grit](sites/106-glitch-grit/fiche.md)<br>[site ↗](https://glitchandgrit.com/)  |  |  | Barba.js, Flip (GSAP), GSAP, Lenis, ScrollTrigger |  |
 | <img src="sites/107-izanami/captures/desktop-01.jpg" width="180"> | [IZANAMI](sites/107-izanami/fiche.md)<br>[site ↗](https://izanami-official.com/)  |  |  | Alpine.js, GSAP, Lenis, ScrollTrigger, SplitText/SplitType |  |
 | <img src="sites/108-hiroto-sato/captures/desktop-01.jpg" width="180"> | [Hiroto Sato](sites/108-hiroto-sato/fiche.md)<br>[site ↗](https://www.hirotos.com/)  |  |  | GSAP, Next.js, Postprocessing, React, React Three Fiber |  |
+| <img src="sites/109-coffeetech/captures/desktop-01.jpg" width="180"> | [CoffeeTech](sites/109-coffeetech/fiche.md)<br>[site ↗](https://coffee-tech.com/)  |  |  | Barba.js, CMS Contentful, GSAP, Lottie, PlayCanvas |  |
 | <img src="sites/181-obys/captures/desktop-01.jpg" width="180"> | [Obys](sites/181-obys/fiche.md)<br>[site ↗](https://obys.agency/)  |  |  | WebGL |  |

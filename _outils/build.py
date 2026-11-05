@@ -64,7 +64,7 @@ def video_url(s):
 
 def readme_md(all_):
     ok = [s for s in all_ if s['shots']]
-    L = ['# Bibliothèque web', '', f"{len(all_)} sites Awwwards « Site of the Day » capturés et décortiqués (mise à jour du {datetime.date.today():%d/%m/%Y}). Usage interne : inspiration uniquement, ni textes ni images à reprendre tels quels.", '',
+    L = ['# Bibliothèque web', '', f"{len(all_)} sites Awwwards « Site of the Day » capturés et décortiqués (mise à jour du {datetime.date.today():%d/%m/%Y}). Archive d'étude pour l'inspiration : les sites, textes, images et codes restent la propriété de leurs auteurs et ne sont pas à reprendre tels quels. Demande de retrait : ouvrir une issue.", '',
          '> **Avant de commencer : lire [COMMENT-S-EN-INSPIRER.md](COMMENT-S-EN-INSPIRER.md)** (méthode, règles, prompts prêts à l\'emploi pour Claude).', '',
          '- **Catalogue filtrable** : cloner le dépôt puis ouvrir `index.html` (recherche, filtres type / style / stack / fond / note).',
          '- **Synthèse transversale** : `SYNTHESE.md` (à venir : polices, librairies, patterns de hero, palettes les plus fréquents).',

@@ -3847,6 +3847,48 @@
   "a_reprendre_pour": null
  },
  {
+  "dossier": "109-coffeetech",
+  "nom": "CoffeeTech",
+  "url": "https://coffee-tech.com/",
+  "statut": "ok",
+  "stack": [
+   "Barba.js",
+   "CMS Contentful",
+   "GSAP",
+   "Lottie",
+   "PlayCanvas",
+   "Postprocessing",
+   "ScrollTrigger",
+   "Shopify",
+   "SplitText/SplitType",
+   "Three.js",
+   "WebGL",
+   "Webflow",
+   "jQuery"
+  ],
+  "polices": [
+   "Inter"
+  ],
+  "palette": [
+   "#e5e2dd",
+   "#0d0e13",
+   "#dcd8d3",
+   "#c8603d",
+   "#ffffff",
+   "#67625e",
+   "#6f6f73",
+   "#f3ede3"
+  ],
+  "fond": "clair",
+  "type": null,
+  "secteur": null,
+  "style": null,
+  "note_inspiration": null,
+  "resume": null,
+  "points_forts": null,
+  "a_reprendre_pour": null
+ },
+ {
   "dossier": "181-obys",
   "nom": "Obys",
   "url": "https://obys.agency/",

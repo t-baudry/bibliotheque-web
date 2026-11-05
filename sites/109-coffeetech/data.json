@@ -1,0 +1,788 @@
+{
+ "id": 109,
+ "name": "CoffeeTech",
+ "sourceUrl": "https://coffee-tech.com/",
+ "capturedAt": "2026-11-05T09:53:07.942Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg"
+  ],
+  "fullPage": 7481,
+  "subpages": [
+   {
+    "url": "https://www.coffee-tech.com/about",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.coffee-tech.com/technology",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.coffee-tech.com/efficiency",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://www.coffee-tech.com/",
+ "title": "CoffeeTech® - Advanced Commercial Coffee Roasters",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Coffee-Tech produce the most advanced commercial coffee roasting, shop & lab roasters. We are setting the gold standard for coffee roasting technology.",
+  "canonical": "https://www.coffee-tech.com/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "ogTitle": "CoffeeTech® - Advanced Commercial Coffee Roasters",
+  "ogImage": "https://cdn.prod.website-files.com/6978cf5d8e122e23793db0cd/6978cf5d8e122e23793db142_Open%20Graph.png",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "Organization",
+   "WebSite"
+  ],
+  "h1Count": 1,
+  "headings": [
+   "H1 Coffee Roasting Reinvented",
+   "H2 See all products",
+   "H3 Technology",
+   "H3 Efficiency",
+   "H3 Sustainability",
+   "H3 Stay tuned with all recent updates",
+   "H3 Interested in learning more?"
+  ],
+  "imgs": 45,
+  "imgNoAlt": 36,
+  "favicon": "https://cdn.prod.website-files.com/69775d436fb843a337f88f38/697787d81249677c77def290_ct-favicon.svg?v=1793872389519",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#e5e2dd",
+    "w": 11400728
+   },
+   {
+    "v": "#0d0e13",
+    "w": 6955190
+   },
+   {
+    "v": "#dcd8d3",
+    "w": 470335
+   },
+   {
+    "v": "#c8603d",
+    "w": 12414
+   },
+   {
+    "v": "#ffffff",
+    "w": 1
+   }
+  ],
+  "text": [
+   {
+    "v": "#67625e",
+    "w": 3339
+   },
+   {
+    "v": "#0d0e13",
+    "w": 1979
+   },
+   {
+    "v": "#6f6f73",
+    "w": 306
+   },
+   {
+    "v": "#f3ede3",
+    "w": 288
+   },
+   {
+    "v": "#fbf8f3",
+    "w": 51
+   },
+   {
+    "v": "#333333",
+    "w": 22
+   },
+   {
+    "v": "#2a2c2f",
+    "w": 6
+   }
+  ],
+  "border": [
+   {
+    "v": "#0d0e13",
+    "w": 20
+   },
+   {
+    "v": "#ffffff",
+    "w": 4
+   },
+   {
+    "v": "#c8603d",
+    "w": 2
+   },
+   {
+    "v": "#fbf8f3",
+    "w": 1
+   }
+  ],
+  "fonts": [
+   {
+    "v": "Inter",
+    "w": 5991
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "14.4px",
+    "w": 177
+   },
+   {
+    "v": "8.9136px",
+    "w": 72
+   },
+   {
+    "v": "25.6608px",
+    "w": 46
+   },
+   {
+    "v": "19.5984px",
+    "w": 26
+   },
+   {
+    "v": "148.452px",
+    "w": 22
+   },
+   {
+    "v": "12.96px",
+    "w": 18
+   },
+   {
+    "v": "50.616px",
+    "w": 7
+   },
+   {
+    "v": "13px",
+    "w": 5
+   },
+   {
+    "v": "21.744px",
+    "w": 4
+   },
+   {
+    "v": "15.552px",
+    "w": 3
+   },
+   {
+    "v": "113.414px",
+    "w": 1
+   },
+   {
+    "v": "63.36px",
+    "w": 1
+   },
+   {
+    "v": "36px",
+    "w": 1
+   },
+   {
+    "v": "17.28px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "12.4992px",
+    "w": 40
+   },
+   {
+    "v": "1440px",
+    "w": 18
+   },
+   {
+    "v": "100%",
+    "w": 2
+   },
+   {
+    "v": "3.6px",
+    "w": 1
+   },
+   {
+    "v": "5px",
+    "w": 1
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.36 0.5s",
+    "w": 14
+   },
+   {
+    "v": "ease 0.3s",
+    "w": 11
+   },
+   {
+    "v": "ease 0.5s",
+    "w": 5
+   },
+   {
+    "v": "cubic-bezier(0.35 1s",
+    "w": 4
+   },
+   {
+    "v": "cubic-bezier(0.6 0.6s",
+    "w": 3
+   },
+   {
+    "v": "cubic-bezier(0.46 0.6s",
+    "w": 1
+   },
+   {
+    "v": "ease 0.15s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "Inter, sans-serif",
+    "size": "113.414px",
+    "weight": "500",
+    "lineHeight": "102.073px",
+    "letterSpacing": "-7.93901px",
+    "transform": "none",
+    "color": "#f3ede3",
+    "sample": "Coffee Roasting Reinvented"
+   },
+   "h2": {
+    "family": "Inter, sans-serif",
+    "size": "63.36px",
+    "weight": "600",
+    "lineHeight": "61.4592px",
+    "letterSpacing": "-4.1184px",
+    "transform": "none",
+    "color": "#0d0e13",
+    "sample": "See all products"
+   },
+   "h3": {
+    "family": "Inter, sans-serif",
+    "size": "50.616px",
+    "weight": "600",
+    "lineHeight": "50.616px",
+    "letterSpacing": "-3.03696px",
+    "transform": "none",
+    "color": "#0d0e13",
+    "sample": "Technology"
+   },
+   "h4": {
+    "family": "Inter, sans-serif",
+    "size": "25.6608px",
+    "weight": "600",
+    "lineHeight": "33.359px",
+    "letterSpacing": "-1.28304px",
+    "transform": "none",
+    "color": "#0d0e13",
+    "sample": "Always pushing the coffee industry forward with revolutionary technology, we des"
+   },
+   "p": {
+    "family": "Inter, sans-serif",
+    "size": "14.4px",
+    "weight": "450",
+    "lineHeight": "21.6px",
+    "letterSpacing": "-0.288px",
+    "transform": "none",
+    "color": "#67625e",
+    "sample": "Feature description will appear here."
+   },
+   "a": {
+    "family": "Inter, sans-serif",
+    "size": "14.4px",
+    "weight": "450",
+    "lineHeight": "21.6px",
+    "letterSpacing": "-0.288px",
+    "transform": "none",
+    "color": "#f3ede3",
+    "sample": "About"
+   },
+   "button": {
+    "family": "Inter, sans-serif",
+    "size": "12.96px",
+    "weight": "600",
+    "lineHeight": "12.96px",
+    "letterSpacing": "-0.2592px",
+    "transform": "none",
+    "color": "#fbf8f3",
+    "sample": "Products"
+   },
+   "li": {
+    "family": "Inter, sans-serif",
+    "size": "14.4px",
+    "weight": "400",
+    "lineHeight": "21.6px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#6f6f73",
+    "sample": "Ha-Tamar St 29Matsli'ahIsrael"
+   },
+   "body": {
+    "family": "Inter, sans-serif",
+    "size": "14.4px",
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#333333",
+    "sample": "AboutTechnologyEfficiencySustainability ProductsContact Us English English Franç"
+   }
+  },
+  "cssVars": {},
+  "fontFaces": [
+   {
+    "family": "webflow-icons",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"data:application/x-font-ttf;charset=utf-8;base64,AAEAAAALAIAAAwAwT1MvMg8SBiUAAAC8AAAAYGNtYXDpP+a4AAABHAAAAFxnYXNwAAAAEAAAAXgAAAAIZ2x5ZmhS2XEAAAGAAAADHGhlYWQTFw3HAAAEnAAAADZoaGVhCXYFgQAABNQAAAAkaG"
+   }
+  ],
+  "keyframes": [
+   "spin",
+   "cftModelScaleIn",
+   "cftLogoSpin"
+  ],
+  "breakpoints": [
+   {
+    "v": "479px",
+    "w": 3
+   },
+   {
+    "v": "991px",
+    "w": 2
+   },
+   {
+    "v": "767px",
+    "w": 2
+   },
+   {
+    "v": "768px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 441,
+  "crossOriginSheets": 4
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "page-wrapper",
+    "h": 7481,
+    "top": 0,
+    "title": "Coffee Roasting Reinvented",
+    "media": 43
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "custom-scrollbar",
+    "h": 900,
+    "top": 0,
+    "title": "",
+    "media": 0
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "",
+    "href": "https://www.coffee-tech.com/"
+   },
+   {
+    "t": "",
+    "href": "https://www.coffee-tech.com/"
+   },
+   {
+    "t": "About",
+    "href": "https://www.coffee-tech.com/about"
+   },
+   {
+    "t": "Technology",
+    "href": "https://www.coffee-tech.com/technology"
+   },
+   {
+    "t": "Efficiency",
+    "href": "https://www.coffee-tech.com/efficiency"
+   },
+   {
+    "t": "Sustainability",
+    "href": "https://www.coffee-tech.com/sustainability"
+   },
+   {
+    "t": "Products",
+    "href": "https://www.coffee-tech.com/catalog"
+   },
+   {
+    "t": "Contact Us",
+    "href": "https://www.coffee-tech.com/contact"
+   }
+  ],
+  "ctas": [
+   "Products",
+   "Explore our catalog",
+   "Contact Us"
+  ],
+  "pageHeight": 7481,
+  "counts": {
+   "canvas": 0,
+   "videos": 0,
+   "imgs": 45,
+   "svgs": 0,
+   "iframes": 0,
+   "domNodes": 1164
+  }
+ },
+ "tech": {
+  "gsap": true,
+  "gsapVersion": "3.12.2",
+  "scrollTrigger": true,
+  "splitText": true,
+  "lenis": false,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "157",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": true,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [
+   "googletagmanager",
+   "gtag"
+  ],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": false
+ },
+ "scripts": [
+  "https://www.googletagmanager.com/gtm.js?id=GTM-PNGF8HS&gtg_health=1",
+  "https://www.coffee-tech.com/lsfr9no2cgfpNjk3OGNmNWQ4ZTEyMmUyMzc5M2RiMGNk/DyzztWvYd6fC2uShZo4LKMXpUCcqgqB6pZIRvizikoWY-qTn",
+  "https://coffee-tech.netlify.app/head-init.js",
+  "https://cdn.weglot.com/weglot.min.js?api_key=wg_2e33443c78b921d019258a058fc3f2135",
+  "https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js",
+  "https://www.coffee-tech.com/lsfr9no2cgfpNjk3OGNmNWQ4ZTEyMmUyMzc5M2RiMGNk/DyzztWvYd962tP6_b4QDOqGk5w",
+  "https://coffee-tech.netlify.app/footer-bootstrap.js",
+  "https://coffee-tech.netlify.app/gsap.min.js",
+  "https://coffee-tech.netlify.app/scrolltrigger.min.js",
+  "https://coffee-tech.netlify.app/splittext.min.js",
+  "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6978cf5d8e122e23793db0cd",
+  "https://cdn.prod.website-files.com/6978cf5d8e122e23793db0cd/js/webflow.schunk.7321a5097fb66f41.js",
+  "https://cdn.prod.website-files.com/6978cf5d8e122e23793db0cd/js/webflow.751e0867.148dc658e77a3916.js",
+  "https://coffee-tech.netlify.app/script.js",
+  "https://coffee-tech.netlify.app/useraccess.js?v=15"
+ ],
+ "internal": [
+  "https://www.coffee-tech.com/about",
+  "https://www.coffee-tech.com/technology",
+  "https://www.coffee-tech.com/efficiency",
+  "https://www.coffee-tech.com/sustainability",
+  "https://www.coffee-tech.com/catalog",
+  "https://www.coffee-tech.com/contact",
+  "https://www.coffee-tech.com/products/fz94-evo",
+  "https://www.coffee-tech.com/products/silon-zr7",
+  "https://www.coffee-tech.com/products/ghibli-r90",
+  "https://www.coffee-tech.com/products/lab-extractor",
+  "https://www.coffee-tech.com/blog/beyond-mass-why-eep-is-the-ultimate-metric-in-coffee-roasting",
+  "https://www.coffee-tech.com/blog/how-to-start-roasting-coffee-for-your-cafe",
+  "https://www.coffee-tech.com/blog/low-emission-coffee-roasting-with-renewable-energy-fathom-coffee-roasters",
+  "https://www.coffee-tech.com/blog/woodfire-roasted-coffee-talk-with-mighty-oak-roasters-in-queens-ny",
+  "https://www.coffee-tech.com/blog/how-to-start-a-coffee-roasting-business-with-drury-tea-coffee-ireland",
+  "https://www.coffee-tech.com/blog/how-to-start-a-coffee-roasting-business-with-herz-new-york-coffee-roasters",
+  "https://www.coffee-tech.com/blog/adesse-kaffee-opportunity-through-technology",
+  "https://www.coffee-tech.com/blog/perky-planet-a-social-revolution",
+  "https://www.coffee-tech.com/blog/kaffeekostbar-and-the-two-kings-principle",
+  "https://www.coffee-tech.com/blog/cocoa-and-coffee-our-love-of-beans-with-caffeine",
+  "https://www.coffee-tech.com/blog/behind-the-beards-two-beards-coffee-namibia-africa",
+  "https://www.coffee-tech.com/blog/roastology-coffee-richmond-virginia",
+  "https://www.coffee-tech.com/blog/conduction-vs-convection-in-coffee-roasting-from-a-technical-viewpoint",
+  "https://www.coffee-tech.com/blog/roasting",
+  "https://www.coffee-tech.com/blog",
+  "https://www.coffee-tech.com/faq",
+  "https://www.coffee-tech.com/filter/all",
+  "https://www.coffee-tech.com/filter/specialty-roasters",
+  "https://www.coffee-tech.com/filter/commercial-roasters",
+  "https://www.coffee-tech.com/filter/industrial-roasters",
+  "https://www.coffee-tech.com/filter/cocoa-roasters",
+  "https://www.coffee-tech.com/filter/accessories",
+  "https://www.coffee-tech.com/privacy-terms",
+  "https://www.coffee-tech.com/es",
+  "https://www.coffee-tech.com/de",
+  "https://www.coffee-tech.com/fr",
+  "https://www.coffee-tech.com/he"
+ ],
+ "perf": {
+  "ttfb": 449,
+  "dcl": 918,
+  "load": 1435,
+  "lcp": 920,
+  "lcpEl": "IMG.hero-model-static",
+  "cls": 0.01
+ },
+ "libs": {
+  "detected": [
+   "jQuery",
+   "SplitText/SplitType",
+   "ScrollTrigger",
+   "Shopify",
+   "GSAP",
+   "Three.js",
+   "PlayCanvas",
+   "Postprocessing",
+   "Lottie",
+   "Barba.js",
+   "Contentful"
+  ],
+  "where": {
+   "jQuery": [
+    "001-jquery-3.5.1.min.dc5e7f18c8.js",
+    "002-webflow.schunk.7321a5097fb66f41.js",
+    "005-head-init.js",
+    "006-head-init.js",
+    "012-DyzztWvYd962tP6_b4QDOqGk5w.js",
+    "013-DyzztWvYd6fC2uShZo4LKMXpUCcqgqB6pZIRvizikoWY-qTn.js",
+    "013-DyzztWvYd6fC2uShZo4LKMXpUCcqgqB6pZIRvizikoWZ-6Tn.js"
+   ],
+   "SplitText/SplitType": [
+    "004-footer-bootstrap.js",
+    "005-head-init.js",
+    "006-head-init.js",
+    "006-splittext.min.js",
+    "009-splittext.min.js",
+    "010-script.js",
+    "011-script.js"
+   ],
+   "ScrollTrigger": [
+    "005-head-init.js",
+    "006-head-init.js",
+    "007-gsap.min.js",
+    "007-scrolltrigger.min.js",
+    "008-gsap.min.js",
+    "008-scrolltrigger.min.js",
+    "010-script.js",
+    "011-script.js"
+   ],
+   "Shopify": [
+    "005-weglot.min.js",
+    "009-weglot.min.js"
+   ],
+   "GSAP": [
+    "006-splittext.min.js",
+    "007-gsap.min.js",
+    "007-scrolltrigger.min.js",
+    "008-gsap.min.js",
+    "008-scrolltrigger.min.js",
+    "009-splittext.min.js",
+    "010-script.js",
+    "011-script.js"
+   ],
+   "Three.js": [
+    "010-model-viewer.min.js",
+    "011-model-viewer.min.js"
+   ],
+   "PlayCanvas": [
+    "010-model-viewer.min.js",
+    "011-model-viewer.min.js"
+   ],
+   "Postprocessing": [
+    "010-model-viewer.min.js",
+    "011-model-viewer.min.js"
+   ],
+   "Lottie": [
+    "010-model-viewer.min.js",
+    "011-model-viewer.min.js"
+   ],
+   "Barba.js": [
+    "010-script.js",
+    "011-script.js"
+   ],
+   "Contentful": [
+    "012-DyzztWvYd962tP6_b4QDOqGk5w.js",
+    "013-DyzztWvYd6fC2uShZo4LKMXpUCcqgqB6pZIRvizikoWY-qTn.js",
+    "013-DyzztWvYd6fC2uShZo4LKMXpUCcqgqB6pZIRvizikoWZ-6Tn.js"
+   ]
+  },
+  "gsapVersion": "3.12.2",
+  "threeRevision": null,
+  "shaders": 26,
+  "scripts": 22
+ },
+ "network": {
+  "requests": 120,
+  "totalKb": 5257,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 18
+   },
+   "Stylesheet": {
+    "n": 5,
+    "kb": 24
+   },
+   "Image": {
+    "n": 37,
+    "kb": 1462
+   },
+   "Script": {
+    "n": 15,
+    "kb": 876
+   },
+   "Font": {
+    "n": 1,
+    "kb": 47
+   },
+   "Other": {
+    "n": 2,
+    "kb": 2730
+   },
+   "Fetch": {
+    "n": 57,
+    "kb": 99
+   },
+   "Ping": {
+    "n": 2,
+    "kb": 1
+   }
+  },
+  "thirdPartyHosts": [
+   "cdn.prod.website-files.com",
+   "fonts.googleapis.com",
+   "d3e54v103j8qbb.cloudfront.net",
+   "coffee-tech.netlify.app",
+   "cdn.weglot.com",
+   "fonts.gstatic.com",
+   "ajax.googleapis.com",
+   "api.ipify.org",
+   "www.gstatic.com",
+   "ad.doubleclick.net",
+   "www.google.com",
+   "www.googletagmanager.com",
+   "www.google.fr",
+   "stats.g.doubleclick.net",
+   "region1.analytics.google.com"
+  ],
+  "fontFiles": [
+   "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://coffee-tech.netlify.app/new-reduced-mobile.glb",
+    "kb": 2729,
+    "type": "Other"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/6978cf5d8e122e23793db0d1/69f75c6414983c5e204e69a4_69839d6df6330eeaafe59b2f_silon_black_shot_0000_converted.avif",
+    "kb": 397,
+    "type": "Image"
+   },
+   {
+    "url": "https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js",
+    "kb": 240,
+    "type": "Script"
+   },
+   {
+    "url": "https://www.coffee-tech.com/lsfr9no2cgfpNjk3OGNmNWQ4ZTEyMmUyMzc5M2RiMGNk/DyzztWvYd6fC2uShZo4LKMXpUCcqgqB6pZIRvizikoWY-qTn",
+    "kb": 205,
+    "type": "Script"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/6978cf5d8e122e23793db0d1/6a4f84fa36776fb25958d596_6a4f7d8e32147338e1ed2700_eep.jpg",
+    "kb": 193,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/6978cf5d8e122e23793db0d1/697a71b669b31ee94e81de66_nuts_converted.avif",
+    "kb": 188,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/6978cf5d8e122e23793db0d1/697e94caa694ae5f751f7f3a_6978cf5d8e122e23793db0fb_cocoa_converted.avif",
+    "kb": 165,
+    "type": "Image"
+   },
+   {
+    "url": "https://www.coffee-tech.com/lsfr9no2cgfpNjk3OGNmNWQ4ZTEyMmUyMzc5M2RiMGNk/DyzztWvYd962tP6_b4QDOqGk5w",
+    "kb": 164,
+    "type": "Script"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "58.5px",
+   "lineHeight": "55.575px"
+  },
+  "body": "3.9px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 112
+}

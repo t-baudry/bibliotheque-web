@@ -1,0 +1,72 @@
+[
+ {
+  "file": "001-jquery-3.5.1.min.dc5e7f18c8.js",
+  "url": "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6978cf5d8e122e23793db0cd",
+  "kb": 87
+ },
+ {
+  "file": "002-webflow.schunk.7321a5097fb66f41.js",
+  "url": "https://cdn.prod.website-files.com/6978cf5d8e122e23793db0cd/js/webflow.schunk.7321a5097fb66f41.js",
+  "kb": 35
+ },
+ {
+  "file": "003-webflow.751e0867.148dc658e77a3916.js",
+  "url": "https://cdn.prod.website-files.com/6978cf5d8e122e23793db0cd/js/webflow.751e0867.148dc658e77a3916.js",
+  "kb": 1
+ },
+ {
+  "file": "004-footer-bootstrap.js",
+  "url": "https://coffee-tech.netlify.app/footer-bootstrap.js",
+  "kb": 3
+ },
+ {
+  "file": "005-head-init.js",
+  "url": "https://coffee-tech.netlify.app/head-init.js",
+  "kb": 36
+ },
+ {
+  "file": "006-splittext.min.js",
+  "url": "https://coffee-tech.netlify.app/splittext.min.js",
+  "kb": 15
+ },
+ {
+  "file": "007-scrolltrigger.min.js",
+  "url": "https://coffee-tech.netlify.app/scrolltrigger.min.js",
+  "kb": 42
+ },
+ {
+  "file": "008-gsap.min.js",
+  "url": "https://coffee-tech.netlify.app/gsap.min.js",
+  "kb": 70
+ },
+ {
+  "file": "009-weglot.min.js",
+  "url": "https://cdn.weglot.com/weglot.min.js?api_key=wg_2e33443c78b921d019258a058fc3f2135",
+  "kb": 211
+ },
+ {
+  "file": "010-script.js",
+  "url": "https://coffee-tech.netlify.app/script.js",
+  "kb": 418
+ },
+ {
+  "file": "011-model-viewer.min.js",
+  "url": "https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js",
+  "kb": 881
+ },
+ {
+  "file": "012-DyzztWvYd962tP6_b4QDOqGk5w.js",
+  "url": "https://www.coffee-tech.com/lsfr9no2cgfpNjk3OGNmNWQ4ZTEyMmUyMzc5M2RiMGNk/DyzztWvYd962tP6_b4QDOqGk5w",
+  "kb": 486
+ },
+ {
+  "file": "013-DyzztWvYd6fC2uShZo4LKMXpUCcqgqB6pZIRvizikoWY-qTn.js",
+  "url": "https://www.coffee-tech.com/lsfr9no2cgfpNjk3OGNmNWQ4ZTEyMmUyMzc5M2RiMGNk/DyzztWvYd6fC2uShZo4LKMXpUCcqgqB6pZIRvizikoWY-qTn",
+  "kb": 650
+ },
+ {
+  "file": "014-useraccess.js",
+  "url": "https://coffee-tech.netlify.app/useraccess.js?v=15",
+  "kb": 32
+ }
+]

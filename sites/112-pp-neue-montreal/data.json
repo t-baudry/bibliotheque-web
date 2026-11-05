@@ -1,0 +1,1140 @@
+{
+ "id": 112,
+ "name": "PP Neue Montreal",
+ "sourceUrl": "https://neuemontreal.com/",
+ "capturedAt": "2026-11-05T16:30:35.244Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg",
+   "desktop-13.jpg",
+   "desktop-14.jpg"
+  ],
+  "fullPage": 22676,
+  "subpages": [],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://neuemontreal.com/",
+ "title": "PP Neue Montreal – Grotesque Font by Pangram Pangram",
+ "lang": "en-CA",
+ "generator": "Framer b354274",
+ "seo": {
+  "description": "Discover PP Neue Montreal, the timeless grotesque sans serif by Pangram Pangram. Built for branding, UI & editorial design with multiple weights.",
+  "canonical": "https://neuemontreal.com/",
+  "robots": "max-image-preview:large",
+  "ogTitle": "PP Neue Montreal – Grotesque Font by Pangram Pangram",
+  "ogImage": "https://framerusercontent.com/images/aTlbLPW85PxAPvJ1PJmDjEjHA.png",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [],
+  "h1Count": 1,
+  "headings": [
+   "H2 Official Travel Guide",
+   "H1 Everything you need to know to experience PP Neue Montreal to its fullest.",
+   "H2 Refined,Reworked,Reintroduced.",
+   "H3 Story",
+   "H3 Typeface Evolution",
+   "H2 The",
+   "H2 Universal",
+   "H2 Font.",
+   "H3 Black",
+   "H2 From Vieux-Montreal",
+   "H2 to Neue-Montreal",
+   "H2 Must-seeAttractions",
+   "H2 Mont‑Royal",
+   "H2 Plateau Mont‑Royal",
+   "H2 Musée des Beaux‑Arts",
+   "H2 Quartier des Spectacles",
+   "H2 Vieux‑Montréal",
+   "H2 Marché Jean‑Talon",
+   "H2 Basilique Notre‑Dame",
+   "H2 Biosphère",
+   "H2 Île Sainte‑Hélène",
+   "H2 Stade Olympique",
+   "H2 Saint‑Laurent",
+   "H3 Text",
+   "H3 Display",
+   "H2 The Art of Letters Coming Together",
+   "H2 Weights Chart",
+   "H3 Languages",
+   "H3 Language Support(506)",
+   "H3 Accents & Diacritics",
+   "H2 Every mark,perfectly placed",
+   "H3 Take your ticket",
+   "H2 Built for the city,read on the move",
+   "H2 Get fromone point,to another!",
+   "H3 (Square to round dots)",
+   "H3 Born from the bold visual language of Expo 67",
+   "H3 A typeface shaped by the streets and soul of Montreal",
+   "H2 One f",
+   "H2 nt",
+   "H2 fits all.",
+   "H3 Navigation",
+   "H3 Versions of Neue Montreal",
+   "H3 Pangram Pangram",
+   "H3 Socials"
+  ],
+  "imgs": 49,
+  "imgNoAlt": 49,
+  "favicon": "https://framerusercontent.com/images/H54vWFghqKNnpmIkDm4F0DQPPM.png",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#1a1a1a",
+    "w": 20237181
+   },
+   {
+    "v": "#f0e7d4",
+    "w": 13604609
+   },
+   {
+    "v": "#000000",
+    "w": 2555790
+   },
+   {
+    "v": "#ff6e3e",
+    "w": 1658242
+   },
+   {
+    "v": "#b5b5b5",
+    "w": 1436400
+   },
+   {
+    "v": "#6157bd",
+    "w": 1430616
+   },
+   {
+    "v": "#d82f2f",
+    "w": 1299846
+   },
+   {
+    "v": "#18bc42",
+    "w": 1065720
+   },
+   {
+    "v": "#ebe23e",
+    "w": 387135
+   },
+   {
+    "v": "#ff4000",
+    "w": 304025
+   },
+   {
+    "v": "#d83b83",
+    "w": 264188
+   },
+   {
+    "v": "#4365ff",
+    "w": 171246
+   }
+  ],
+  "text": [
+   {
+    "v": "#252525",
+    "w": 5652
+   },
+   {
+    "v": "#1a1a1a",
+    "w": 2097
+   },
+   {
+    "v": "#f0e7d4",
+    "w": 1638
+   },
+   {
+    "v": "#ebebeb",
+    "w": 1067
+   },
+   {
+    "v": "#000000",
+    "w": 314
+   },
+   {
+    "v": "#ff4000",
+    "w": 23
+   },
+   {
+    "v": "#18bc42",
+    "w": 23
+   },
+   {
+    "v": "#4365ff",
+    "w": 20
+   },
+   {
+    "v": "#00ff40",
+    "w": 3
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "PP Neue Montreal Text Regular",
+    "w": 9333
+   },
+   {
+    "v": "PP Neue Montreal Text Variable Variable Regular",
+    "w": 735
+   },
+   {
+    "v": "PP Neue Montreal Bold",
+    "w": 177
+   },
+   {
+    "v": "PP Neue Montreal Regular",
+    "w": 121
+   },
+   {
+    "v": "PP Neue Montreal Text Semibold",
+    "w": 81
+   },
+   {
+    "v": "PP Neue Montreal Black",
+    "w": 75
+   },
+   {
+    "v": "PP Neue Montreal Variable Variable Regular",
+    "w": 40
+   },
+   {
+    "v": "PP Neue Montreal Extrabold",
+    "w": 36
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "24px",
+    "w": 406
+   },
+   {
+    "v": "16px",
+    "w": 246
+   },
+   {
+    "v": "74.08px",
+    "w": 56
+   },
+   {
+    "v": "19.2px",
+    "w": 43
+   },
+   {
+    "v": "14px",
+    "w": 34
+   },
+   {
+    "v": "197px",
+    "w": 23
+   },
+   {
+    "v": "80px",
+    "w": 19
+   },
+   {
+    "v": "40px",
+    "w": 15
+   },
+   {
+    "v": "48px",
+    "w": 11
+   },
+   {
+    "v": "12px",
+    "w": 9
+   },
+   {
+    "v": "144px",
+    "w": 9
+   },
+   {
+    "v": "64px",
+    "w": 6
+   },
+   {
+    "v": "96px",
+    "w": 5
+   },
+   {
+    "v": "111px",
+    "w": 4
+   },
+   {
+    "v": "14.08px",
+    "w": 4
+   },
+   {
+    "v": "240px",
+    "w": 3
+   }
+  ],
+  "radius": [
+   {
+    "v": "1000px",
+    "w": 9
+   },
+   {
+    "v": "10px",
+    "w": 3
+   },
+   {
+    "v": "6px",
+    "w": 2
+   },
+   {
+    "v": "999px",
+    "w": 2
+   },
+   {
+    "v": "100px",
+    "w": 1
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.76 0.4s",
+    "w": 40
+   },
+   {
+    "v": "ease-out 0.2s",
+    "w": 2
+   },
+   {
+    "v": "ease-out 0.25s",
+    "w": 2
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "\"PP Neue Montreal Text Regular\", \"PP Neue Montreal Text Regular Placeholder\", sans-serif",
+    "size": "24px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "-0.72px",
+    "transform": "none",
+    "color": "#1a1a1a",
+    "sample": "Everything you need to know to experience PP Neue Montreal to its fullest."
+   },
+   "h2": {
+    "family": "\"PP Neue Montreal Bold\", \"PP Neue Montreal Bold Placeholder\", sans-serif",
+    "size": "74.08px",
+    "weight": "700",
+    "lineHeight": "66.672px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ebebeb",
+    "sample": "Official Travel Guide"
+   },
+   "h3": {
+    "family": "\"PP Neue Montreal Text Regular\", \"PP Neue Montreal Text Regular Placeholder\", sans-serif",
+    "size": "24px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "-0.72px",
+    "transform": "none",
+    "color": "#f0e7d4",
+    "sample": "Story"
+   },
+   "h4": {
+    "family": "\"PP Neue Montreal Text Regular\", \"PP Neue Montreal Text Regular Placeholder\", sans-serif",
+    "size": "24px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "-0.72px",
+    "transform": "none",
+    "color": "#f0e7d4",
+    "sample": "Text"
+   },
+   "p": {
+    "family": "\"PP Neue Montreal Text Regular\", \"PP Neue Montreal Text Regular Placeholder\", sans-serif",
+    "size": "24px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "-0.72px",
+    "transform": "none",
+    "color": "#f0e7d4",
+    "sample": "PP Neue Montreal is a neo-grotesk sans-serif typeface that reflects the design s"
+   },
+   "a": {
+    "family": "sans-serif",
+    "size": "12px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#0000ee",
+    "sample": "Neue Montreal Text"
+   },
+   "li": {
+    "family": "sans-serif",
+    "size": "12px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "aáăâäàāąåãaáăâäàāąåã"
+   },
+   "body": {
+    "family": "sans-serif",
+    "size": "12px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": ":root body { background: var(--token-6a306414-1c9b-4503-8d2a-1c89c8ec9028, rgb(2"
+   }
+  },
+  "cssVars": {
+   "--token-175c2ec0-a149-4db3-9475-5f4a02daf87f": "#d82f2f",
+   "--token-c0d6b02d-18ab-4691-8c6e-48d05710013d": "#ebebeb",
+   "--token-cde9a156-da63-41e4-8568-37aae883dfe3": "#dc3c84",
+   "--token-6a306414-1c9b-4503-8d2a-1c89c8ec9028": "#1a1a1a",
+   "--token-18c9b52b-48fe-4e48-934d-b69f790f1226": "#f0e7d4",
+   "--token-144e5044-bd4f-4748-babc-97c995f6e250": "#18bc42",
+   "--token-ab685df3-d705-408a-b941-8f76c288b9c1": "#b5b5b5",
+   "--token-99212508-1fd9-4663-801c-e7928d1fa639": "#efc21e",
+   "--token-f20ccbef-2f1b-4bb3-a10c-16fc4446f0f1": "#4365ff",
+   "--token-ce9f3733-4f5c-4d1c-b282-51511bd73e97": "#bdd116",
+   "--token-b00d0b12-1e65-4b2e-8b08-40732d6d3c68": "#ff4000",
+   "--token-f412a905-ec1a-412b-9dc3-3340dde2c014": "#ff6e3e",
+   "--token-1e39b5c4-f6b3-418d-8d7f-79063e34a74f": "#ebe23e",
+   "--token-ae20aa7d-2e87-4f7b-89f7-c990b0733108": "#6157bd",
+   "--token-5d4f20f2-2cef-46c4-9e11-166a709b6988": "#dfdfdf",
+   "--token-edc42816-2bfe-4efc-ab78-5a87e94f5282": "#a26ed6",
+   "--token-298b2351-8e60-4c7c-9722-21a879d7fbaa": "#f66bc8",
+   "--token-d9526b7c-e865-4b9d-9c14-47db142d6ecc": "#b76745",
+   "--token-478aa8c2-1eb0-44d9-ac25-97de5f0cbd59": "#00ff40",
+   "--framer-will-change-override": "transform",
+   "--framer-will-change-filter-override": "filter",
+   "--overflow-clip-fallback": "hidden",
+   "--one-if-corner-shape-supported": "1",
+   "--framer-aspect-ratio-supported": "auto"
+  },
+  "fontFaces": [
+   {
+    "family": "",
+    "weight": "",
+    "style": "",
+    "src": ""
+   },
+   {
+    "family": "PP Neue Montreal Text Medium",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/tiel9wX1IMjjA6w51srecBjjal4.woff2\")"
+   },
+   {
+    "family": "PP Neue Montreal Text Regular",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/cuoUqQL2k3KIMjgKQxaXJgsoqQc.woff2\")"
+   },
+   {
+    "family": "PP Neue Montreal Hairline",
+    "weight": "100",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/R4iDzhShtJN7YYYvAerboHpVyQ.woff2\")"
+   },
+   {
+    "family": "PP Neue Montreal Extralight",
+    "weight": "150",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/98uwqenvw41mlyM65G5EKhuHZ7s.woff2\")"
+   },
+   {
+    "family": "PP Neue Montreal Thin",
+    "weight": "250",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/yAKLww45ptUufDdWKMAgLIlOHE.woff2\")"
+   },
+   {
+    "family": "PP Neue Montreal Light",
+    "weight": "300",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/5MZlMlcjgBzXUW5uhZqSmOlZBc.woff2\")"
+   },
+   {
+    "family": "PP Neue Montreal Book",
+    "weight": "350",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/EJW4jcas4GVHAZ79yALnsQ00Dmo.woff2\")"
+   },
+   {
+    "family": "PP Neue Montreal Regular",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/G23Z1NvcFV2GCJwR9IcHneL3XA.woff2\")"
+   },
+   {
+    "family": "PP Neue Montreal Medium",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/t3w23klqj7HmImsjtGQ4GusFlM.woff2\")"
+   },
+   {
+    "family": "PP Neue Montreal Semibold",
+    "weight": "600",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/z0eTcBea6DsgAU99g2ltrQ11GoA.woff2\")"
+   },
+   {
+    "family": "PP Neue Montreal Bold",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/ewIY9t60d8NcNg8zQvLZLlFu6E.woff2\")"
+   },
+   {
+    "family": "PP Neue Montreal Extrabold",
+    "weight": "800",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/p1yWwC91ZO8UJUupHtAUhdrJzHk.woff2\")"
+   },
+   {
+    "family": "PP Neue Montreal Black",
+    "weight": "900",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/GfAMFHsPdA6UiPACi7ZYrF1lMg.woff2\")"
+   },
+   {
+    "family": "PP Neue Montreal Extrabold Italic",
+    "weight": "800",
+    "style": "italic",
+    "src": "url(\"https://framerusercontent.com/assets/P9JXOrUdoLjj1NJPyhjVz51AeEg.woff2\")"
+   },
+   {
+    "family": "PP Neue Montreal Text Thin",
+    "weight": "250",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/lcgkpj6c0iLb01iTrdNIDTFkKnE.woff2\")"
+   },
+   {
+    "family": "PP Neue Montreal Text Thin Italic",
+    "weight": "250",
+    "style": "italic",
+    "src": "url(\"https://framerusercontent.com/assets/OZ2du5bUm8qYfgsZ34VdAfNwKek.woff2\")"
+   },
+   {
+    "family": "PP Neue Montreal Text Light",
+    "weight": "300",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/yBX0Hkr7Tgjw62S8ImPxwlZkRec.woff2\")"
+   },
+   {
+    "family": "PP Neue Montreal Text Light Italic",
+    "weight": "300",
+    "style": "italic",
+    "src": "url(\"https://framerusercontent.com/assets/XUtbNgA5P82wRrVYZV84nDtqlzw.woff2\")"
+   },
+   {
+    "family": "PP Neue Montreal Text Book",
+    "weight": "350",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/tKRIv7kMYAniXv50zIUvKg1ky0.woff2\")"
+   },
+   {
+    "family": "PP Neue Montreal Text Book Italic",
+    "weight": "350",
+    "style": "italic",
+    "src": "url(\"https://framerusercontent.com/assets/SzxnxXLcwuwdKFbADBb7AEV4vbI.woff2\")"
+   },
+   {
+    "family": "PP Neue Montreal Text Italic",
+    "weight": "400",
+    "style": "italic",
+    "src": "url(\"https://framerusercontent.com/assets/pxTfHA8dyBBNm9Hio4DNM.woff2\")"
+   },
+   {
+    "family": "PP Neue Montreal Text Medium Italic",
+    "weight": "500",
+    "style": "italic",
+    "src": "url(\"https://framerusercontent.com/assets/t4MmbpN99IF6UZqHvGOSezQtQL8.woff2\")"
+   },
+   {
+    "family": "PP Neue Montreal Text Semibold",
+    "weight": "600",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/iRygIqB2qB08r9Xy2mom27YaOlU.woff2\")"
+   },
+   {
+    "family": "PP Neue Montreal Text Semibold Italic",
+    "weight": "600",
+    "style": "italic",
+    "src": "url(\"https://framerusercontent.com/assets/lbrRaGbkPzSAa1Ji2wpZmBTYRU.woff2\")"
+   },
+   {
+    "family": "PP Neue Montreal Text Bold",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/xwxVu6YwzLlQZCqs2ykZoDs2dQ.woff2\")"
+   },
+   {
+    "family": "PP Neue Montreal Text Bold Italic",
+    "weight": "700",
+    "style": "italic",
+    "src": "url(\"https://framerusercontent.com/assets/tTqZMIz7DZioSyICy01giJKHo.woff2\")"
+   },
+   {
+    "family": "PP Neue Montreal Hairline Italic",
+    "weight": "100",
+    "style": "italic",
+    "src": "url(\"https://framerusercontent.com/assets/1aMsDACObkXg0U32rjsBMqb4yw.woff2\")"
+   },
+   {
+    "family": "PP Neue Montreal Extralight Italic",
+    "weight": "150",
+    "style": "italic",
+    "src": "url(\"https://framerusercontent.com/assets/Q17Gcs1EGKpOLyMoJu4vzoXuqU.woff2\")"
+   },
+   {
+    "family": "PP Neue Montreal Thin Italic",
+    "weight": "250",
+    "style": "italic",
+    "src": "url(\"https://framerusercontent.com/assets/168D8EKZm4gfBHwMjYyxHSEkHY.woff2\")"
+   },
+   {
+    "family": "PP Neue Montreal Light Italic",
+    "weight": "300",
+    "style": "italic",
+    "src": "url(\"https://framerusercontent.com/assets/ZZwjDwDvxXhZEB3qjIxnF0IJE.woff2\")"
+   },
+   {
+    "family": "PP Neue Montreal Book Italic",
+    "weight": "350",
+    "style": "italic",
+    "src": "url(\"https://framerusercontent.com/assets/y0Soz2gA2HwODj7mnIKkpCpGc4.woff2\")"
+   },
+   {
+    "family": "PP Neue Montreal Italic",
+    "weight": "400",
+    "style": "italic",
+    "src": "url(\"https://framerusercontent.com/assets/QjgaUVcYm0mjtuxs44oLFCqchM.woff2\")"
+   },
+   {
+    "family": "PP Neue Montreal Medium Italic",
+    "weight": "500",
+    "style": "italic",
+    "src": "url(\"https://framerusercontent.com/assets/pnWvc0MtCrv22df7R9n6lM53s8.woff2\")"
+   },
+   {
+    "family": "PP Neue Montreal Semibold Italic",
+    "weight": "600",
+    "style": "italic",
+    "src": "url(\"https://framerusercontent.com/assets/ft0CCc8XnC9CXbOwkUuly8U0bTU.woff2\")"
+   },
+   {
+    "family": "PP Neue Montreal Bold Italic",
+    "weight": "700",
+    "style": "italic",
+    "src": "url(\"https://framerusercontent.com/assets/9ZG0C79w7n556jn29thhUN9M04.woff2\")"
+   },
+   {
+    "family": "PP Neue Montreal Black Italic",
+    "weight": "900",
+    "style": "italic",
+    "src": "url(\"https://framerusercontent.com/assets/VVZG3jCLVNMHF7mceU1b1mHf7I.woff2\")"
+   },
+   {
+    "family": "PP Neue Montreal Variable Variable Regular",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/TAIgyrgprwInaHVfMnvbHGtZ4.woff2\")"
+   },
+   {
+    "family": "PP Neue Montreal Text Variable Variable Regular",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/3hmnccPZS1NJmilR77GeQR5s.woff2\")"
+   },
+   {
+    "family": "Inter",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://framerusercontent.com/assets/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2\")"
+   }
+  ],
+  "keyframes": [
+   "wavetext",
+   "__framer-editorbar-spinner-spin"
+  ],
+  "breakpoints": [
+   {
+    "v": "810px",
+    "w": 6
+   },
+   {
+    "v": "1439px",
+    "w": 3
+   },
+   {
+    "v": "809px",
+    "w": 3
+   },
+   {
+    "v": "809.98px",
+    "w": 3
+   },
+   {
+    "v": "1199.98px",
+    "w": 2
+   },
+   {
+    "v": "2000px",
+    "w": 2
+   },
+   {
+    "v": "1439.98px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 832,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "header",
+    "id": "header",
+    "cls": "framer-1n3qyoq",
+    "h": 900,
+    "top": 0,
+    "title": "Official Travel Guide",
+    "media": 3
+   },
+   {
+    "tag": "div",
+    "id": "enveloppe",
+    "cls": "framer-17m5fbo",
+    "h": 900,
+    "top": 900,
+    "title": "Refined,Reworked,Reintroduced.",
+    "media": 4
+   },
+   {
+    "tag": "div",
+    "id": "story",
+    "cls": "framer-9o3c5u",
+    "h": 474,
+    "top": 1800,
+    "title": "Story",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": "ligne-du-temps",
+    "cls": "framer-f8pc03",
+    "h": 282,
+    "top": 2364,
+    "title": "Typeface Evolution",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": "caroussel-circulaire",
+    "cls": "framer-1smotgw",
+    "h": 1385,
+    "top": 2646,
+    "title": "The",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": "graisses-scroll",
+    "cls": "framer-10bxsus",
+    "h": 2988,
+    "top": 4121,
+    "title": "Black",
+    "media": 1
+   },
+   {
+    "tag": "div",
+    "id": "coulers-attractions",
+    "cls": "framer-kr91r8",
+    "h": 765,
+    "top": 7109,
+    "title": "Must-seeAttractions",
+    "media": 22
+   },
+   {
+    "tag": "div",
+    "id": "letter-weights",
+    "cls": "framer-1kog527",
+    "h": 1033,
+    "top": 7919,
+    "title": "Text",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": "scroll-split-caracters",
+    "cls": "framer-89gg41-container",
+    "h": 3641,
+    "top": 8952,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": "ligatures-circles",
+    "cls": "framer-j6j6s2",
+    "h": 704,
+    "top": 12593,
+    "title": "The Art of Letters Coming Together",
+    "media": 3
+   },
+   {
+    "tag": "div",
+    "id": "weights_charts",
+    "cls": "framer-9h5tkh",
+    "h": 858,
+    "top": 13297,
+    "title": "Weights Chart",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": "languages",
+    "cls": "framer-1rf55r3",
+    "h": 1800,
+    "top": 14155,
+    "title": "Languages",
+    "media": 2
+   },
+   {
+    "tag": "div",
+    "id": "accents-bandeaux",
+    "cls": "framer-fozoyp",
+    "h": 1642,
+    "top": 15955,
+    "title": "Accents & Diacritics",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": "tickets",
+    "cls": "framer-4cwwqd",
+    "h": 900,
+    "top": 17598,
+    "title": "Take your ticket",
+    "media": 5
+   },
+   {
+    "tag": "div",
+    "id": "point-circle-and-square",
+    "cls": "framer-r8va2u",
+    "h": 893,
+    "top": 18498,
+    "title": "Get fromone point,to another!",
+    "media": 4
+   },
+   {
+    "tag": "div",
+    "id": "pamphlet",
+    "cls": "framer-1vv5mqx",
+    "h": 1350,
+    "top": 19391,
+    "title": "Born from the bold visual language of Expo 67",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": "alternatives-versions",
+    "cls": "framer-1d3njnk",
+    "h": 1350,
+    "top": 20741,
+    "title": "One f",
+    "media": 4
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "",
+    "href": "https://neuemontreal.com/"
+   },
+   {
+    "t": "Story",
+    "href": "https://neuemontreal.com/#enveloppe"
+   },
+   {
+    "t": "In use",
+    "href": "https://neuemontreal.com/#caroussel-circulaire"
+   },
+   {
+    "t": "Weights",
+    "href": "https://neuemontreal.com/#graisses-scroll"
+   },
+   {
+    "t": "Ligatures",
+    "href": "https://neuemontreal.com/#ligatures-circles"
+   },
+   {
+    "t": "Languages",
+    "href": "https://neuemontreal.com/#languages"
+   },
+   {
+    "t": "Accents",
+    "href": "https://neuemontreal.com/#accents-bandeaux"
+   },
+   {
+    "t": "Variants",
+    "href": "https://neuemontreal.com/#alternatives-versions"
+   },
+   {
+    "t": "GGeett PPPP NNeeuuee MMoonnttrreeaall",
+    "href": "https://pangrampangram.com/products/neue-montreal"
+   }
+  ],
+  "ctas": [],
+  "pageHeight": 22676,
+  "counts": {
+   "canvas": 0,
+   "videos": 1,
+   "imgs": 49,
+   "svgs": 13,
+   "iframes": 1,
+   "domNodes": 1975
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": false,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": true,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": true,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": false
+ },
+ "scripts": [
+  "https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie_svg.min.js",
+  "https://events.framer.com/script?v=2",
+  "https://framerusercontent.com/sites/45hQNNcMArzuoHlzx9jZaS/script_main.B_gFFBsh.mjs"
+ ],
+ "internal": [],
+ "perf": {
+  "ttfb": 237,
+  "dcl": 310,
+  "load": 630,
+  "lcp": 420,
+  "lcpEl": "IMG.framer-qpaRE",
+  "cls": 0.006
+ },
+ "libs": {
+  "detected": [
+   "Contentful",
+   "React",
+   "Lenis",
+   "Lottie",
+   "jQuery",
+   "Three.js"
+  ],
+  "where": {
+   "Contentful": [
+    "003-script.js"
+   ],
+   "React": [
+    "004-script_main.B_gFFBsh.js",
+    "005-react.BaDOPo3t.js",
+    "009-init.js",
+    "020-vendor.module.js"
+   ],
+   "Lenis": [
+    "008-7OrBmzrr11EPkzHu6vKirIbGo0YLgybo7shxc4A6qus.mA0RSvhl.js",
+    "009-init.js"
+   ],
+   "Lottie": [
+    "008-7OrBmzrr11EPkzHu6vKirIbGo0YLgybo7shxc4A6qus.mA0RSvhl.js",
+    "010-lottie_svg.min.js"
+   ],
+   "jQuery": [
+    "018-player.js",
+    "020-vendor.module.js"
+   ],
+   "Three.js": [
+    "021-player.fr-FR.module.js"
+   ]
+  },
+  "gsapVersion": null,
+  "threeRevision": null,
+  "shaders": 0,
+  "scripts": 24
+ },
+ "network": {
+  "requests": 108,
+  "totalKb": 9477,
+  "byType": {
+   "Document": {
+    "n": 3,
+    "kb": 104
+   },
+   "Image": {
+    "n": 65,
+    "kb": 4278
+   },
+   "Script": {
+    "n": 12,
+    "kb": 501
+   },
+   "Font": {
+    "n": 20,
+    "kb": 2007
+   },
+   "Other": {
+    "n": 1,
+    "kb": 2
+   },
+   "Fetch": {
+    "n": 5,
+    "kb": 569
+   },
+   "Media": {
+    "n": 1,
+    "kb": 2015
+   },
+   "Ping": {
+    "n": 1,
+    "kb": 0
+   }
+  },
+  "thirdPartyHosts": [
+   "framerusercontent.com",
+   "events.framer.com",
+   "framer.com",
+   "cdnjs.cloudflare.com",
+   "app.framerstatic.com",
+   "vimeo.com",
+   "i.vimeocdn.com",
+   "player.vimeo.com"
+  ],
+  "fontFiles": [
+   "https://framerusercontent.com/assets/cuoUqQL2k3KIMjgKQxaXJgsoqQc.woff2",
+   "https://framerusercontent.com/assets/G23Z1NvcFV2GCJwR9IcHneL3XA.woff2",
+   "https://framerusercontent.com/assets/XUtbNgA5P82wRrVYZV84nDtqlzw.woff2",
+   "https://framerusercontent.com/assets/lcgkpj6c0iLb01iTrdNIDTFkKnE.woff2",
+   "https://framerusercontent.com/assets/tiel9wX1IMjjA6w51srecBjjal4.woff2",
+   "https://framerusercontent.com/assets/pxTfHA8dyBBNm9Hio4DNM.woff2",
+   "https://framerusercontent.com/assets/R4iDzhShtJN7YYYvAerboHpVyQ.woff2",
+   "https://framerusercontent.com/assets/ewIY9t60d8NcNg8zQvLZLlFu6E.woff2",
+   "https://framerusercontent.com/assets/z0eTcBea6DsgAU99g2ltrQ11GoA.woff2",
+   "https://framerusercontent.com/assets/iRygIqB2qB08r9Xy2mom27YaOlU.woff2",
+   "https://framerusercontent.com/assets/p1yWwC91ZO8UJUupHtAUhdrJzHk.woff2",
+   "https://framerusercontent.com/assets/P9JXOrUdoLjj1NJPyhjVz51AeEg.woff2",
+   "https://framerusercontent.com/assets/GfAMFHsPdA6UiPACi7ZYrF1lMg.woff2",
+   "https://framerusercontent.com/assets/98uwqenvw41mlyM65G5EKhuHZ7s.woff2",
+   "https://framerusercontent.com/assets/yAKLww45ptUufDdWKMAgLIlOHE.woff2",
+   "https://framerusercontent.com/assets/5MZlMlcjgBzXUW5uhZqSmOlZBc.woff2",
+   "https://framerusercontent.com/assets/t3w23klqj7HmImsjtGQ4GusFlM.woff2",
+   "https://framerusercontent.com/assets/EJW4jcas4GVHAZ79yALnsQ00Dmo.woff2",
+   "https://framerusercontent.com/assets/3hmnccPZS1NJmilR77GeQR5s.woff2",
+   "https://framerusercontent.com/assets/TAIgyrgprwInaHVfMnvbHGtZ4.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://framerusercontent.com/assets/XFVX6jaxToykdjjsmM3uRB9CnPw.mp4",
+    "kb": 2015,
+    "type": "Media"
+   },
+   {
+    "url": "https://framerusercontent.com/images/jI8oSl6yO9xCiWvqWHfdyRu20dI.webp?width=1668&height=1144",
+    "kb": 701,
+    "type": "Image"
+   },
+   {
+    "url": "https://framerusercontent.com/images/UWG5S7Wz0BhLSGJdn7LWTjdPsPE.webp?width=1656&height=1144",
+    "kb": 611,
+    "type": "Image"
+   },
+   {
+    "url": "https://framerusercontent.com/assets/8UMWSwr2TYlb75wfloukEZy48PU.json",
+    "kb": 418,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://framerusercontent.com/images/slQMDKHDf5fe6fPUFo5edbXL5Y.webp?width=1530&height=1913",
+    "kb": 350,
+    "type": "Image"
+   },
+   {
+    "url": "https://framerusercontent.com/images/f35laR342UJLl84ZF264wbdT0.webp?width=1080&height=1350",
+    "kb": 317,
+    "type": "Image"
+   },
+   {
+    "url": "https://framerusercontent.com/assets/TAIgyrgprwInaHVfMnvbHGtZ4.woff2",
+    "kb": 312,
+    "type": "Font"
+   },
+   {
+    "url": "https://framerusercontent.com/images/BRaz9GQzb8qpsV2UVlU59USnTts.jpg?scale-down-to=2048&width=3240&height=2160",
+    "kb": 285,
+    "type": "Image"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "15px",
+   "lineHeight": "15px"
+  },
+  "body": "12px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 51
+}

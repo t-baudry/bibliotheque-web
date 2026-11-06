@@ -1,0 +1,263 @@
+{
+ "id": 116,
+ "name": "Brunello Cucinelli - AI E-com",
+ "sourceUrl": "https://shop.brunellocucinelli.com/en-gb/ai",
+ "capturedAt": "2026-11-06T18:14:36.894Z",
+ "status": "http 403",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg"
+  ],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 403,
+ "url": "https://shop.brunellocucinelli.com/en-gb/ai",
+ "title": "Access Denied",
+ "lang": null,
+ "generator": null,
+ "seo": {
+  "description": null,
+  "canonical": null,
+  "robots": null,
+  "ogTitle": null,
+  "ogImage": null,
+  "twitterCard": null,
+  "jsonLd": [],
+  "h1Count": 1,
+  "headings": [
+   "H1 Access Denied"
+  ],
+  "imgs": 0,
+  "imgNoAlt": 0,
+  "favicon": null,
+  "themeColor": null
+ },
+ "design": {
+  "bg": [],
+  "text": [
+   {
+    "v": "#000000",
+    "w": 115
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "Times New Roman",
+    "w": 115
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "16px",
+    "w": 2
+   },
+   {
+    "v": "32px",
+    "w": 1
+   }
+  ],
+  "radius": [],
+  "shadows": [],
+  "transitions": [],
+  "typo": {
+   "h1": {
+    "family": "\"Times New Roman\"",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Access Denied"
+   },
+   "p": {
+    "family": "\"Times New Roman\"",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Reference #18.c86bd117.1793988877.633fcc8e"
+   },
+   "body": {
+    "family": "\"Times New Roman\"",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Access Denied You don't have permission to access \"http://shop.brunellocucinelli"
+   }
+  },
+  "cssVars": {},
+  "fontFaces": [],
+  "keyframes": [],
+  "breakpoints": [],
+  "rulesCount": 0,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [],
+  "navLinks": [],
+  "ctas": [],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 0,
+   "videos": 0,
+   "imgs": 0,
+   "svgs": 0,
+   "iframes": 0,
+   "domNodes": 7
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": false,
+  "locomotive": false,
+  "three": false,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": false
+ },
+ "scripts": [],
+ "internal": [],
+ "perf": {
+  "ttfb": 196,
+  "dcl": 206,
+  "load": 206,
+  "lcp": 336,
+  "lcpEl": "BODY",
+  "cls": 0
+ },
+ "libs": {
+  "detected": [],
+  "where": {},
+  "gsapVersion": null,
+  "threeRevision": null,
+  "shaders": 0,
+  "scripts": 0
+ },
+ "network": {
+  "requests": 6,
+  "totalKb": 103,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 5
+   },
+   "Other": {
+    "n": 1,
+    "kb": 5
+   },
+   "Font": {
+    "n": 4,
+    "kb": 92
+   }
+  },
+  "thirdPartyHosts": [
+   "tropical-territory.space.thamyr.ai"
+  ],
+  "fontFiles": [
+   "https://tropical-territory.space.thamyr.ai/assets/fonts/quarto-light.woff2",
+   "https://tropical-territory.space.thamyr.ai/assets/fonts/gt-eesti-pro-display-regular.woff2",
+   "https://tropical-territory.space.thamyr.ai/assets/fonts/gt-eesti-pro-display-light.woff2",
+   "https://tropical-territory.space.thamyr.ai/assets/fonts/quarto-lightitalic.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://tropical-territory.space.thamyr.ai/assets/fonts/quarto-lightitalic.woff2",
+    "kb": 28,
+    "type": "Font"
+   },
+   {
+    "url": "https://tropical-territory.space.thamyr.ai/assets/fonts/quarto-light.woff2",
+    "kb": 26,
+    "type": "Font"
+   },
+   {
+    "url": "https://tropical-territory.space.thamyr.ai/assets/fonts/gt-eesti-pro-display-light.woff2",
+    "kb": 20,
+    "type": "Font"
+   },
+   {
+    "url": "https://tropical-territory.space.thamyr.ai/assets/fonts/gt-eesti-pro-display-regular.woff2",
+    "kb": 19,
+    "type": "Font"
+   },
+   {
+    "url": "https://shop.brunellocucinelli.com/en-gb/ai",
+    "kb": 5,
+    "type": "Document"
+   },
+   {
+    "url": "https://shop.brunellocucinelli.com/favicon.ico",
+    "kb": 5,
+    "type": "Other"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "32px",
+   "lineHeight": "normal"
+  },
+  "body": "16px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 32
+}

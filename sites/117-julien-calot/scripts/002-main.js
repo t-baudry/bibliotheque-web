@@ -1,0 +1,2 @@
+import{i as t,t as n}from"./managers.js";import{a as e}from"./common.js";import"./components.js";import"./vendor.js";const i=()=>{};class o{constructor(){}async init(){t.init(),await e.init(),n.init(),i(),document.addEventListener("keydown",t=>{t.ctrlKey&&t.altKey&&t.shiftKey&&"M"===t.key&&i()})}}let a;Promise.all([new Promise(t=>{"loading"===document.readyState?window.addEventListener("DOMContentLoaded",t):t()}),document.fonts.ready]).then(()=>{!async function(){a=new o,await a.init(),window.sliderApp=a}()});
+//# sourceMappingURL=main.js.map

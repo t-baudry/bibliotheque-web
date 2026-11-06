@@ -1,0 +1,799 @@
+{
+ "id": 117,
+ "name": "Julien Calot",
+ "sourceUrl": "https://www.juliencalot.com/",
+ "capturedAt": "2026-11-06T18:35:43.304Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg",
+   "desktop-13.jpg",
+   "desktop-14.jpg"
+  ],
+  "fullPage": 6489,
+  "subpages": [
+   {
+    "url": "https://www.juliencalot.com/category/artwork",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.juliencalot.com/about",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.juliencalot.com/contact",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://www.juliencalot.com/",
+ "title": "Julien Calot | Visual Artist & Multidisciplinary Creative",
+ "lang": "en",
+ "generator": "Webflow",
+ "seo": {
+  "description": "Julien Calot paints teeming worlds — filled with vibrant colors, expressive figures, animals, bustling cities, and inner landscapes.",
+  "canonical": "https://www.juliencalot.com/",
+  "robots": null,
+  "ogTitle": "Julien Calot | Visual Artist & Multidisciplinary Creative",
+  "ogImage": "https://cdn.prod.website-files.com/687ff0e19714d741bd9d8aea/68c73e30aaa343d0c2777d45_juliencalot-visual-artist.png",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "Person"
+  ],
+  "h1Count": 1,
+  "headings": [
+   "H1 Julien Calot | Visual Artist & Multidisciplinary Creative"
+  ],
+  "imgs": 111,
+  "imgNoAlt": 11,
+  "favicon": "https://cdn.prod.website-files.com/687ff0e19714d741bd9d8aea/6a0215b20b191340a7802470_Webclip%20(1).png",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#fafafa",
+    "w": 1620000
+   },
+   {
+    "v": "#dddddd",
+    "w": 17064
+   },
+   {
+    "v": "#ffffff",
+    "w": 420
+   }
+  ],
+  "text": [
+   {
+    "v": "#000000",
+    "w": 1278
+   },
+   {
+    "v": "#ffffff",
+    "w": 377
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "Doner",
+    "w": 1512
+   },
+   {
+    "v": "FFDINProCondensedBlack",
+    "w": 143
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "8px",
+    "w": 162
+   },
+   {
+    "v": "12px",
+    "w": 42
+   },
+   {
+    "v": "23px",
+    "w": 11
+   },
+   {
+    "v": "18px",
+    "w": 2
+   },
+   {
+    "v": "15px",
+    "w": 1
+   },
+   {
+    "v": "56px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "9px",
+    "w": 1
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.75 0.5s",
+    "w": 100
+   },
+   {
+    "v": "ease 0.4s",
+    "w": 10
+   },
+   {
+    "v": "cubic-bezier(0.75 1.5s",
+    "w": 1
+   },
+   {
+    "v": "cubic-bezier(0.76 1s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "a": {
+    "family": "Doner, Impact, sans-serif",
+    "size": "8px",
+    "weight": "700",
+    "lineHeight": "9.6px",
+    "letterSpacing": "0.16px",
+    "transform": "uppercase",
+    "color": "#ffffff",
+    "sample": "BY SeRIES"
+   },
+   "body": {
+    "family": "Doner, Impact, sans-serif",
+    "size": "12px",
+    "weight": "400",
+    "lineHeight": "19.2px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "/* ======================================== * CSS CUSTOM PROPERTIES (VARIABLES) "
+   }
+  },
+  "cssVars": {
+   "--body--background": "var(--_primitives---colors--grey-ultra-light)",
+   "--_typography--size---font-styles--body": "Doner,Impact,sans-serif",
+   "--body--text": "var(--_primitives---colors--black)",
+   "--_typography--size---text-courant--font-size-fluid": "max(var(--_typography--size---text-courant--font-size-px),calc(var(--_typography--size---text-courant--font-size-unit)/var(--_primitives---s",
+   "--_typography--size---text-courant--line-height": "1.6",
+   "--_typography--size---font-styles--heading": "FFDINProRegular,Arial,sans-serif",
+   "--_primitives---size--base-screen-width": "1800",
+   "--_primitives---colors--black": "black",
+   "--_typography--size---button--padding-fluid": "max(var(--_typography--size---button--padding-px),calc(var(--_typography--size---button--padding-unit)/var(--_primitives---size--base-screen",
+   "--button-black--border": "var(--_primitives---colors--black)",
+   "--_typography--size---button--font-family": "var(--_typography--size---font-styles--body)",
+   "--button-black--text": "var(--_primitives---colors--white)",
+   "--_typography--size---button--font-size-fluid": "max(var(--_typography--size---button--font-size-px),calc(var(--_typography--size---button--font-size-unit)/var(--_primitives---size--base-sc",
+   "--_typography--size---button--line-height": "1",
+   "--button-white--border": "var(--_primitives---colors--white)",
+   "--button-white--background": "var(--_primitives---colors--white)",
+   "--button-white--text": "var(--_primitives---colors--black)",
+   "--button-outline-black--border": "var(--_primitives---colors--black)",
+   "--button-outline-black--background": "transparent",
+   "--button-outline-black--text": "var(--_primitives---colors--black)",
+   "--button-outline-white--border": "var(--_primitives---colors--white)",
+   "--button-outline-white--background": "transparent",
+   "--_primitives---opacity--transparent<deleted|relume-variable-transparent>": "transparent",
+   "--_primitives---colors--white": "#fff",
+   "--_primitives---opacity--neutral-darkest-60<deleted|relume-variable-neutral-shade-7-60>": "#0009",
+   "--_ui-styles---stroke--border-width": "1px",
+   "--_ui-styles---radius--medium": "0px",
+   "--border-color--border-primary<deleted|relume-variable-border-color-1>": "var(--base-color-neutral--black\\<deleted\\|relume-variable-color-neutral-1\\>)",
+   "--_primitives---size--global-padding-fluid": "max(var(--_primitives---size--global-padding-px),var(--_primitives---size--global-padding-unit)/var(--_primitives---size--base-screen-width)",
+   "--_ui-styles---radius--small": "0px",
+   "--background-color--background-secondary<deleted|relume-variable-background-color-2>": "var(--base-color-neutral--neutral-lightest\\<deleted\\|relume-variable-color-neutral-3\\>)",
+   "--_primitives---colors--neutral-lightest<deleted|relume-variable-neutral-shade-1>": "#eee",
+   "--color-scheme-1--border<deleted|relume-variable-color-scheme-1-border>": "var(--_primitives---colors--black)",
+   "--_ui-styles---radius--large": "0px",
+   "--color-scheme-1--foreground<deleted|relume-variable-color-scheme-1-foreground>": "var(--_primitives---colors--neutral-lightest\\<deleted\\|relume-variable-neutral-shade-1\\>)",
+   "--_typography--size---nav--font-familly": "var(--_typography--size---font-styles--body)",
+   "--_typography--size---nav--font-size-fluid": "max(var(--_typography--size---nav--font-size-px),calc(var(--_typography--size---nav--font-size-unit)/var(--_primitives---size--base-screen-w",
+   "--_typography--size---nav--line-height": "1.2",
+   "--_typography--size---nav--letter-spacing": ".02em",
+   "--_typography--size---title-medium--font-familly": "FFDINProCondensedBlack,Arial,sans-serif",
+   "--_typography--size---title-medium--font-size-fluid": "max(var(--_typography--size---title-medium--font-size-px),calc(var(--_typography--size---title-medium--font-size-unit)/var(--_primitives---s",
+   "--_typography--size---title-medium--letter-spacing": ".02em",
+   "--_typography--size---title-home--font-familly": "FFDINProCondensedBlack,Arial,sans-serif",
+   "--_typography--size---title-home--font-size-fluid": "max(var(--_typography--size---title-home--font-size-px),calc(var(--_typography--size---title-home--font-size-unit)/var(--_primitives---size-",
+   "--_typography--size---title-home--line-height": "1",
+   "--_typography--size---title-home--letter-spacing": ".02em",
+   "--_typography--size---title-small--font-familly": "FFDINProCondensedBlack,Arial,sans-serif",
+   "--_typography--size---title-small--font-size-fluid": "max(var(--_typography--size---title-small--font-size-px),calc(var(--_typography--size---title-small--font-size-unit)/var(--_primitives---siz",
+   "--_typography--size---title-small--line-height": "1",
+   "--_typography--size---title-small--letter-spacing": ".02em",
+   "--_typography--size---text-courant--font-familly": "FFDINProRegular,Arial,sans-serif",
+   "--_typography--size---info--font-familly": "var(--_typography--size---font-styles--body)",
+   "--_typography--size---info--font-size-fluid": "max(var(--_typography--size---info--font-size-px),calc(var(--_typography--size---info--font-size-unit)/var(--_primitives---size--base-screen",
+   "--_typography--size---info--line-height": "1.2",
+   "--_typography--size---info--letter-spacing": "0em",
+   "--_typography--size---price--font-familly": "FFDINProBold,Arial,sans-serif",
+   "--_typography--size---price--font-size-fluid": "max(var(--_typography--size---price--font-size-px),calc(var(--_typography--size---price--font-size-unit)/var(--_primitives---size--base-scre",
+   "--_typography--size---price--line-height": "1.8",
+   "--_typography--size---price--letter-spacing": "-.02em",
+   "--_typography--size---text-desc-produit--font-familly": "FFDINProRegular,Arial,sans-serif",
+   "--_typography--size---text-desc-produit--font-size-fluid": "max(var(--_typography--size---text-desc-produit--font-size-px),calc(var(--_typography--size---text-desc-produit--font-size-unit)/var(--_prim",
+   "--_typography--size---text-desc-produit--line-height": "1.6",
+   "--_typography--size---text-desc-produit--letter-spacing": "-.02em",
+   "--_primitives---colors--grey-ultra-light": "#fafafa",
+   "--_primitives---colors--grey-off": "#b3b3b3",
+   "--_typography--size---link-medium--padding-fluid": "max(var(--_typography--size---link-medium--padding-px),calc(var(--_typography--size---link-small--padding-unit)/var(--_primitives---size--ba",
+   "--_typography--size---link-medium--font-family": "var(--_typography--size---font-styles--body)",
+   "--link-black--text": "var(--_primitives---colors--black)",
+   "--_typography--size---link-medium--font-size-fluid": "max(var(--_typography--size---link-medium--font-size-px),calc(var(--_typography--size---link-medium--font-size-unit)/var(--_primitives---siz",
+   "--_typography--size---link-small--line-height": "1",
+   "--_typography--size---link-medium--letter-spacing": ".02em",
+   "--_typography--size---link-small--padding-fluid": "max(var(--_typography--size---link-small--padding-px),calc(var(--_typography--size---link-small--padding-unit)/var(--_primitives---size--bas",
+   "--_typography--size---link-small--font-family": "var(--_typography--size---font-styles--body)",
+   "--_typography--size---link-small--font-size-fluid": "max(var(--_typography--size---link-small--font-size-px),calc(var(--_typography--size---link-small--font-size-unit)/var(--_primitives---size-",
+   "--_typography--size---button--letter-spacing": ".02em",
+   "--link-white--text": "var(--_primitives---colors--white)",
+   "--_typography--size---link-small--letter-spacing": ".02em",
+   "--_primitives---size--global-padding-px": "20px",
+   "--_primitives---size--global-padding-unit": "20",
+   "--_typography--size---logo--line-height": ".85",
+   "--_typography--size---logo--font-family": "FFDINProCondensedBlack,Arial,sans-serif",
+   "--_typography--size---logo--font-size-fluid": "max(var(--_typography--size---logo--font-size-px),calc(var(--_typography--size---logo--font-size-unit)/var(--_primitives---size--base-screen",
+   "--body--border": "var(--_primitives---colors--black)",
+   "--button-black--background": "var(--_primitives---colors--black)",
+   "--button-outline-white--text": "var(--_primitives---colors--white)",
+   "--_typography--size---logo--font-size-px": "34px",
+   "--_typography--size---logo--font-size-unit": "34",
+   "--_typography--size---logo--letter-spacing": ".04em",
+   "--_typography--size---logo--font-size-px-large": "55px",
+   "--_typography--size---logo--font-size-unit-large": "55",
+   "--_typography--size---logo--font-size-fluid-large": "max(var(--_typography--size---logo--font-size-px-large),calc(var(--_typography--size---logo--font-size-unit-large)/var(--_primitives---size-",
+   "--_typography--size---nav--font-size-px": "8px",
+   "--_typography--size---nav--font-size-unit": "8",
+   "--_typography--size---title-home--font-size-px": "23px",
+   "--_typography--size---title-home--font-size-unit": "23",
+   "--_typography--size---title-medium--font-size-px": "18px",
+   "--_typography--size---title-medium--font-size-unit": "18",
+   "--_typography--size---title-medium--line-height": "1",
+   "--_typography--size---title-small--font-size-px": "15px",
+   "--_typography--size---title-small--font-size-unit": "15",
+   "--_typography--size---text-courant--font-size-px": "12px",
+   "--_typography--size---text-courant--font-size-unit": "12",
+   "--_typography--size---text-courant--letter-spacing": "-.02em",
+   "--_typography--size---text-desc-produit--font-size-px": "10px",
+   "--_typography--size---text-desc-produit--font-size-unit": "10",
+   "--_typography--size---price--font-size-px": "12px",
+   "--_typography--size---price--font-size-unit": "12",
+   "--_typography--size---info--font-size-px": "8px",
+   "--_typography--size---info--font-size-unit": "8",
+   "--_typography--size---link-medium--font-size-px": "10px",
+   "--_typography--size---link-medium--font-size-unit": "10",
+   "--_typography--size---link-medium--line-height": "1",
+   "--_typography--size---link-medium--padding-unit": "10",
+   "--_typography--size---link-medium--padding-px": "10px",
+   "--_typography--size---link-small--font-size-px": "8px",
+   "--_typography--size---link-small--font-size-unit": "8",
+   "--_typography--size---link-small--padding-unit": "10",
+   "--_typography--size---link-small--padding-px": "10px",
+   "--_typography--size---button--font-size-px": "8px",
+   "--_typography--size---button--font-size-unit": "8",
+   "--_typography--size---button--padding-unit": "15",
+   "--_typography--size---button--padding-px": "15px",
+   "--_ui-styles---stroke--divider-width": "1px",
+   "--base-color-neutral--black<deleted|relume-variable-color-neutral-1>": "black",
+   "--base-color-neutral--neutral-lightest<deleted|relume-variable-color-neutral-3>": "#eee",
+   "--ease-quick-out": "cubic-bezier(0, 0, 0.2, 1)",
+   "--ease-cubic-out": "cubic-bezier(0.4, 0, 0.2, 1)",
+   "--ease-cubic-in-out": "cubic-bezier(0.645, 0.045, 0.355, 1)",
+   "--power1-in-out": "cubic-bezier(.42,0,.58,1)",
+   "--power2-in-out": "cubic-bezier(0.8, 0, 0.2, 1)",
+   "--power4-in-out": "cubic-bezier(0.76, 0, 0.24, 1)",
+   "--ease-in-out-epic": "cubic-bezier(0.75, 0.25, 0.25, 0.75)",
+   "--gutter": "max(\n      20px,\n      calc(20px / var(--_primitives---size--base-screen-width))\n    )"
+  },
+  "fontFaces": [
+   {
+    "family": "webflow-icons",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"data:application/x-font-ttf;charset=utf-8;base64,AAEAAAALAIAAAwAwT1MvMg8SBiUAAAC8AAAAYGNtYXDpP+a4AAABHAAAAFxnYXNwAAAAEAAAAXgAAAAIZ2x5ZmhS2XEAAAGAAAADHGhlYWQTFw3HAAAEnAAAADZoaGVhCXYFgQAABNQAAAAkaG"
+   },
+   {
+    "family": "FFDINProRegular",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/687ff0e19714d741bd9d8aea/687ff0e19714d741bd9d8b47_font.woff2\") format(\"woff2\"), url(\"https://cdn.prod.website-files.com/687ff0e19714d741bd9d8aea/687ff0e19714d74"
+   },
+   {
+    "family": "FFDINProBold",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/687ff0e19714d741bd9d8aea/687ff0e19714d741bd9d8b2b_font.woff2\") format(\"woff2\"), url(\"https://cdn.prod.website-files.com/687ff0e19714d741bd9d8aea/687ff0e19714d74"
+   },
+   {
+    "family": "FFDINProCondensedBlack",
+    "weight": "900",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/687ff0e19714d741bd9d8aea/687ff0e19714d741bd9d8b4a_font.woff2\") format(\"woff2\"), url(\"https://cdn.prod.website-files.com/687ff0e19714d741bd9d8aea/687ff0e19714d74"
+   },
+   {
+    "family": "Doner",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/687ff0e19714d741bd9d8aea/687ff0e19714d741bd9d8b4d_Doner-BoldText.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "FFDINProBold",
+    "weight": "",
+    "style": "",
+    "src": ""
+   },
+   {
+    "family": "FFDINProRegular",
+    "weight": "",
+    "style": "",
+    "src": ""
+   },
+   {
+    "family": "FFDINProCondensedBlack",
+    "weight": "",
+    "style": "",
+    "src": ""
+   }
+  ],
+  "keyframes": [
+   "spin"
+  ],
+  "breakpoints": [
+   {
+    "v": "767px",
+    "w": 13
+   },
+   {
+    "v": "479px",
+    "w": 7
+   },
+   {
+    "v": "991px",
+    "w": 5
+   },
+   {
+    "v": "768px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 1366,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "padding-global",
+    "h": 6280,
+    "top": 60,
+    "title": "",
+    "media": 100
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "",
+    "href": "https://www.juliencalot.com/"
+   },
+   {
+    "t": "BY SeRIES",
+    "href": "https://www.juliencalot.com/#"
+   },
+   {
+    "t": "BY COLORS",
+    "href": "https://www.juliencalot.com/#"
+   },
+   {
+    "t": "MENU",
+    "href": "https://www.juliencalot.com/#"
+   },
+   {
+    "t": "ARTWORK",
+    "href": "https://www.juliencalot.com/category/artwork"
+   },
+   {
+    "t": "DRAWINGS",
+    "href": "https://www.juliencalot.com/category/drawings"
+   },
+   {
+    "t": "Embroideries",
+    "href": "https://www.juliencalot.com/category/embroideries"
+   },
+   {
+    "t": "About",
+    "href": "https://www.juliencalot.com/about"
+   },
+   {
+    "t": "Contact",
+    "href": "https://www.juliencalot.com/contact"
+   },
+   {
+    "t": "Panier0",
+    "href": "https://www.juliencalot.com/#"
+   },
+   {
+    "t": "",
+    "href": ""
+   },
+   {
+    "t": "",
+    "href": ""
+   },
+   {
+    "t": "Pay with browser.",
+    "href": ""
+   },
+   {
+    "t": "Continue to Checkout",
+    "href": "https://www.juliencalot.com/checkout"
+   },
+   {
+    "t": "instagram",
+    "href": "https://www.instagram.com/juliencalot"
+   },
+   {
+    "t": "legals",
+    "href": "https://www.juliencalot.com/legals"
+   },
+   {
+    "t": "BY SeRIES",
+    "href": "https://www.juliencalot.com/#"
+   },
+   {
+    "t": "BY COLORS",
+    "href": "https://www.juliencalot.com/#"
+   }
+  ],
+  "ctas": [],
+  "pageHeight": 6489,
+  "counts": {
+   "canvas": 1,
+   "videos": 0,
+   "imgs": 111,
+   "svgs": 8,
+   "iframes": 0,
+   "domNodes": 1098
+  }
+ },
+ "tech": {
+  "gsap": true,
+  "gsapVersion": "3.15.1",
+  "scrollTrigger": true,
+  "splitText": true,
+  "lenis": true,
+  "locomotive": false,
+  "three": false,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": true,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": true,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=687ff0e19714d741bd9d8aea",
+  "https://cdn.prod.website-files.com/687ff0e19714d741bd9d8aea/js/webflow.364d3ca3.4637c20cc9827346.js",
+  "https://unpkg.com/lenis@1.3.4/dist/lenis.min.js",
+  "https://unpkg.com/swup@4.8.2/dist/Swup.umd.js",
+  "https://unpkg.com/@swup/preload-plugin@3.2.11/dist/index.umd.js",
+  "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/gsap.min.js",
+  "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/Draggable.min.js",
+  "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/DrawSVGPlugin.min.js",
+  "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/Flip.min.js",
+  "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/InertiaPlugin.min.js",
+  "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/MotionPathPlugin.min.js",
+  "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/ScrollTrigger.min.js",
+  "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/ScrollToPlugin.min.js",
+  "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/SplitText.min.js",
+  "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/TextPlugin.min.js",
+  "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/EasePack.min.js",
+  "https://cdn.jsdelivr.net/gh/moussamamadou/juliencalot-public@1ff4fde4ddab8d19b7758497ab700e3dac25e99f/common.js",
+  "https://cdn.jsdelivr.net/gh/moussamamadou/juliencalot-public@1ff4fde4ddab8d19b7758497ab700e3dac25e99f/vendor.js",
+  "https://cdn.jsdelivr.net/gh/moussamamadou/juliencalot-public@1ff4fde4ddab8d19b7758497ab700e3dac25e99f/managers.js",
+  "https://cdn.jsdelivr.net/gh/moussamamadou/juliencalot-public@1ff4fde4ddab8d19b7758497ab700e3dac25e99f/main.js"
+ ],
+ "internal": [
+  "https://www.juliencalot.com/category/artwork",
+  "https://www.juliencalot.com/category/drawings",
+  "https://www.juliencalot.com/category/embroideries",
+  "https://www.juliencalot.com/about",
+  "https://www.juliencalot.com/contact",
+  "https://www.juliencalot.com/checkout",
+  "https://www.juliencalot.com/legals",
+  "https://www.juliencalot.com/product/la-guepe",
+  "https://www.juliencalot.com/product/le-papillon-de-nuit",
+  "https://www.juliencalot.com/product/jour-de-fete",
+  "https://www.juliencalot.com/product/le-cactus-et-la-guepe",
+  "https://www.juliencalot.com/product/le-cheval-bleu",
+  "https://www.juliencalot.com/product/le-mirage",
+  "https://www.juliencalot.com/product/le-singe-et-le-renard",
+  "https://www.juliencalot.com/product/les-oiseaux-bleus-",
+  "https://www.juliencalot.com/product/la-danse",
+  "https://www.juliencalot.com/product/olo-alaia",
+  "https://www.juliencalot.com/product/le-ruisseau",
+  "https://www.juliencalot.com/product/venice",
+  "https://www.juliencalot.com/product/le-petit-tigre",
+  "https://www.juliencalot.com/product/le-torrent",
+  "https://www.juliencalot.com/product/la-revelation",
+  "https://www.juliencalot.com/product/le-loup",
+  "https://www.juliencalot.com/product/les-glaciers",
+  "https://www.juliencalot.com/product/la-baleine",
+  "https://www.juliencalot.com/product/la-raie-leopard",
+  "https://www.juliencalot.com/product/le-cerf-volant",
+  "https://www.juliencalot.com/product/le-soleil-et-le-vent",
+  "https://www.juliencalot.com/product/la-grue",
+  "https://www.juliencalot.com/product/la-foret-bleue",
+  "https://www.juliencalot.com/product/le-cerf",
+  "https://www.juliencalot.com/product/le-jardin-la-nuit",
+  "https://www.juliencalot.com/product/le-requin",
+  "https://www.juliencalot.com/product/2-loups-dans-la-nuit",
+  "https://www.juliencalot.com/product/singe-oiseaux-et-koala",
+  "https://www.juliencalot.com/product/aura",
+  "https://www.juliencalot.com/product/minuit",
+  "https://www.juliencalot.com/product/les-pavots",
+  "https://www.juliencalot.com/product/le-chat-2",
+  "https://www.juliencalot.com/product/eclat-de-soleil-1"
+ ],
+ "perf": {
+  "ttfb": 1137,
+  "dcl": 1380,
+  "load": 1822,
+  "lcp": 1708,
+  "lcpEl": "IMG",
+  "cls": 0.028
+ },
+ "libs": {
+  "detected": [
+   "GSAP",
+   "Lenis",
+   "Swup",
+   "jQuery",
+   "SplitText/SplitType",
+   "Flip (GSAP)",
+   "Three.js",
+   "PixiJS",
+   "DrawSVG/MorphSVG",
+   "ScrollTrigger",
+   "Virtual scroll",
+   "Barba.js"
+  ],
+  "where": {
+   "GSAP": [
+    "001-managers.js",
+    "005-components.js",
+    "008-DrawSVGPlugin.min.js",
+    "009-SplitText.min.js",
+    "010-ScrollToPlugin.min.js",
+    "011-ScrollTrigger.min.js",
+    "012-Flip.min.js",
+    "013-TextPlugin.min.js",
+    "014-EasePack.min.js",
+    "015-MotionPathPlugin.min.js",
+    "016-InertiaPlugin.min.js",
+    "017-Draggable.min.js",
+    "018-gsap.min.js"
+   ],
+   "Lenis": [
+    "001-managers.js",
+    "005-components.js",
+    "020-lenis.min.js"
+   ],
+   "Swup": [
+    "001-managers.js",
+    "005-components.js",
+    "019-index.umd.js",
+    "021-Swup.umd.js"
+   ],
+   "jQuery": [
+    "004-jquery-3.5.1.min.dc5e7f18c8.js",
+    "028-webflow.achunk.80677ea19e4284e5.js",
+    "030-webflow.achunk.74dc7bd2488cf987.js"
+   ],
+   "SplitText/SplitType": [
+    "005-components.js",
+    "009-SplitText.min.js",
+    "018-gsap.min.js"
+   ],
+   "Flip (GSAP)": [
+    "005-components.js",
+    "012-Flip.min.js"
+   ],
+   "Three.js": [
+    "007-vendor.js"
+   ],
+   "PixiJS": [
+    "007-vendor.js"
+   ],
+   "DrawSVG/MorphSVG": [
+    "008-DrawSVGPlugin.min.js"
+   ],
+   "ScrollTrigger": [
+    "010-ScrollToPlugin.min.js",
+    "011-ScrollTrigger.min.js",
+    "018-gsap.min.js"
+   ],
+   "Virtual scroll": [
+    "020-lenis.min.js"
+   ],
+   "Barba.js": [
+    "030-webflow.achunk.74dc7bd2488cf987.js",
+    "031-webflow.achunk.7a143ecb35f54dba.js"
+   ]
+  },
+  "gsapVersion": "3.11.0",
+  "threeRevision": null,
+  "shaders": 10,
+  "scripts": 33
+ },
+ "network": {
+  "requests": 136,
+  "totalKb": 8310,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 41
+   },
+   "Script": {
+    "n": 32,
+    "kb": 656
+   },
+   "Stylesheet": {
+    "n": 1,
+    "kb": 23
+   },
+   "Image": {
+    "n": 78,
+    "kb": 6800
+   },
+   "Font": {
+    "n": 2,
+    "kb": 92
+   },
+   "Fetch": {
+    "n": 21,
+    "kb": 695
+   },
+   "Other": {
+    "n": 1,
+    "kb": 3
+   }
+  },
+  "thirdPartyHosts": [
+   "cdn.jsdelivr.net",
+   "d3e54v103j8qbb.cloudfront.net",
+   "cdn.prod.website-files.com",
+   "unpkg.com"
+  ],
+  "fontFiles": [
+   "https://cdn.prod.website-files.com/687ff0e19714d741bd9d8aea/687ff0e19714d741bd9d8b4d_Doner-BoldText.woff2",
+   "https://cdn.prod.website-files.com/687ff0e19714d741bd9d8aea/687ff0e19714d741bd9d8b4a_font.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://cdn.prod.website-files.com/687ff0e19714d741bd9d8af6/699c284d751443600ffcd7c3_4%20-%20Seascapes%20-%202024%20-%202025_pro.webp",
+    "kb": 396,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/687ff0e19714d741bd9d8af6/699c3775b1df85abf474242e_11%20-%20EARLY%20WORKS_%20THE%20DOTS%20PAINTINGS%20_%202015%20-%202018_m-p-",
+    "kb": 366,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/687ff0e19714d741bd9d8af6/699c2a2d4c928045f5bc80a4_6%20-%20Daydreaming%20-%202022%20-%202023_pro-p-1600.webp",
+    "kb": 336,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/687ff0e19714d741bd9d8af6/699c3010bde258b2abc19fff_9%20-%20MOONLIGHT%20-%202019%20-%202020_pro-p-1600.webp",
+    "kb": 320,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/687ff0e19714d741bd9d8af6/699c2c916e5dad4389038809_8%20-%20WOLRD%20TOUR%20-%202020_pro-p-1600.webp",
+    "kb": 320,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/687ff0e19714d741bd9d8af6/699c293559b5a7e7eadb5192_5%20-%20%20Landscape%20of%20the%20Mind%20II%20-%202024%20-%202025_pro-p-160",
+    "kb": 294,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/687ff0e19714d741bd9d8af6/699c2675210fd89be183296e_2%20-%20Landscape%20of%20the%20Mind%20I%20-%202024%20-%202025_pro-p-1600.we",
+    "kb": 287,
+    "type": "Image"
+   },
+   {
+    "url": "https://cdn.prod.website-files.com/687ff0e19714d741bd9d8aea/js/webflow.achunk.7a143ecb35f54dba.js",
+    "kb": 264,
+    "type": "Script"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "40px",
+   "lineHeight": "48px"
+  },
+  "body": "12px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 99
+}

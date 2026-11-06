@@ -1,0 +1,572 @@
+{
+ "id": 118,
+ "name": "Depo Luxe",
+ "sourceUrl": "https://depoluxe.xyz/",
+ "capturedAt": "2026-11-06T18:38:27.825Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [
+   "txt:Accept"
+  ],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg"
+  ],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [
+   {
+    "url": "https://depoluxe.xyz/archive/",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://depoluxe.xyz/talent/",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://depoluxe.xyz/about/",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://depoluxe.xyz/",
+ "title": "Depo Luxe",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "A strategic and cinematic approach to contemporary luxury",
+  "canonical": "http://depoluxe.cuchillo-pink.xyz/",
+  "robots": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+  "ogTitle": "Depo Luxe",
+  "ogImage": "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/09154814/Captura-de-pantalla-2026-03-09-a-las-16.46.27-1200x650.jpg",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [],
+  "h1Count": 1,
+  "headings": [
+   "H1 A strategic and cinematic approach to contemporary luxury"
+  ],
+  "imgs": 14,
+  "imgNoAlt": 0,
+  "favicon": "https://depoluxe.xyz/assets/favicons/favicon-96x96.png",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#ffffff",
+    "w": 11368
+   }
+  ],
+  "text": [
+   {
+    "v": "#ffffff",
+    "w": 309
+   }
+  ],
+  "border": [],
+  "fonts": [
+   {
+    "v": "EB Garamond",
+    "w": 294
+   },
+   {
+    "v": "Times New Roman",
+    "w": 15
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "17.6px",
+    "w": 57
+   },
+   {
+    "v": "14.3px",
+    "w": 32
+   },
+   {
+    "v": "15.9998px",
+    "w": 5
+   },
+   {
+    "v": "39.6px",
+    "w": 1
+   },
+   {
+    "v": "59.9994px",
+    "w": 1
+   }
+  ],
+  "radius": [],
+  "shadows": [],
+  "transitions": [],
+  "typo": {
+   "h1": {
+    "family": "\"EB Garamond\", serif",
+    "size": "14.3px",
+    "weight": "400",
+    "lineHeight": "14.3px",
+    "letterSpacing": "-0.143px",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "A strategic and cinematic approach to contemporary luxury"
+   },
+   "p": {
+    "family": "\"EB Garamond\", serif",
+    "size": "14.3px",
+    "weight": "400",
+    "lineHeight": "14.3px",
+    "letterSpacing": "-0.143px",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "All work © DEPO LUXE (and respective owners), 2026"
+   },
+   "a": {
+    "family": "\"EB Garamond\", serif",
+    "size": "14.3px",
+    "weight": "400",
+    "lineHeight": "14.3px",
+    "letterSpacing": "-0.143px",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Depo Luxe"
+   },
+   "button": {
+    "family": "\"EB Garamond\", serif",
+    "size": "17.6px",
+    "weight": "400",
+    "lineHeight": "21.12px",
+    "letterSpacing": "-0.176px",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Close"
+   },
+   "li": {
+    "family": "\"Times New Roman\"",
+    "size": "15.9998px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#000000",
+    "sample": "Featured"
+   },
+   "body": {
+    "family": "\"Times New Roman\"",
+    "size": "15.9998px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#ffffff",
+    "sample": "Depo LuxeA strategic and cinematic approach to contemporary luxuryFeatured Archi"
+   }
+  },
+  "cssVars": {
+   "--white": "#fff",
+   "--black": "#000",
+   "--grey": "#999",
+   "--yellow": "#0000fe",
+   "--blue": "#0000fe",
+   "--red": "#ff4f23",
+   "--primary": "var(--black)",
+   "--secondary": "var(--white)",
+   "--assertive": "#f0f",
+   "--focus": "#f0f",
+   "--color-error": "red",
+   "--color-sucess": "#4dc247",
+   "--font-serif": "\"EB Garamond\",serif",
+   "--font-serif-italic": "\"EB Garamond\",serif",
+   "--font-size-l": "46.8px",
+   "--font-size-base": "20.8px",
+   "--font-size-s": "16.9px",
+   "--zoom": "1",
+   "--line-height": "1.375",
+   "--letter-spacing": "0",
+   "--min-font-size": "12px",
+   "--max-font-size": "48px",
+   "--font-size": "var(--font-size-base)",
+   "--ease-in-quad": "cubic-bezier(0.55,0.085,0.68,0.53)",
+   "--ease-in-cubic": "cubic-bezier(0.55,0.055,0.675,0.19)",
+   "--ease-in-quart": "cubic-bezier(0.895,0.03,0.685,0.22)",
+   "--ease-in-quint": "cubic-bezier(0.755,0.05,0.855,0.06)",
+   "--ease-in-expo": "cubic-bezier(0.95,0.05,0.795,0.035)",
+   "--ease-in-circ": "cubic-bezier(0.6,0.04,0.98,0.335)",
+   "--ease-out-quad": "cubic-bezier(0.25,0.46,0.45,0.94)",
+   "--ease-out-cubic": "cubic-bezier(0.215,0.61,0.355,1)",
+   "--ease-out-quart": "cubic-bezier(0.165,0.84,0.44,1)",
+   "--ease-out-quint": "cubic-bezier(0.23,1,0.32,1)",
+   "--ease-out-expo": "cubic-bezier(0.19,1,0.22,1)",
+   "--ease-out-circ": "cubic-bezier(0.075,0.82,0.165,1)",
+   "--ease-in-out-quad": "cubic-bezier(0.455,0.03,0.515,0.955)",
+   "--ease-in-out-cubic": "cubic-bezier(0.645,0.045,0.355,1)",
+   "--ease-in-out-quart": "cubic-bezier(0.77,0,0.175,1)",
+   "--ease-in-out-quint": "cubic-bezier(0.86,0,0.07,1)",
+   "--ease-in-out-expo": "cubic-bezier(1,0,0,1)",
+   "--ease-in-out-circ": "cubic-bezier(0.785,0.135,0.15,0.86)",
+   "--y-header": "0",
+   "--padding-xl": "8rem",
+   "--padding-l": "3rem",
+   "--padding-m": "1.5rem",
+   "--padding-s": "0.75rem",
+   "--padding-xs": "0.75rem",
+   "--header-height": "7.5rem",
+   "--scrollbar-height": "2.5rem",
+   "--cols": "12",
+   "--gap": "var(--padding-xxs)",
+   "--col-size": "calc((100vw - var(--padding-xxs)*2 - var(--gap)*(var(--cols) - 1))/var(--cols))",
+   "--font-size-h1": "var(--font-size-l)",
+   "--color": "var(--primary-color)",
+   "--pos": "0",
+   "--pos-hover": "1em",
+   "--ease": "var(--ease-out-quad)",
+   "--time": ".4s",
+   "--opacity": "var(--opacity-hover)",
+   "--opacity-hover": "0",
+   "--opacity-hide": "1",
+   "--bottom-line": ".1em"
+  },
+  "fontFaces": [
+   {
+    "family": "EB Garamond",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/assets/fonts/eb-garamond-v32-latin-regular.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "EB Garamond",
+    "weight": "400",
+    "style": "italic",
+    "src": "url(\"/assets/fonts/eb-garamond-v32-latin-italic.woff2\") format(\"woff2\")"
+   }
+  ],
+  "keyframes": [
+   "--marquee-100",
+   "--marquee100",
+   "--marquee-50",
+   "--marquee50"
+  ],
+  "breakpoints": [
+   {
+    "v": "480px",
+    "w": 74
+   },
+   {
+    "v": "1650px",
+    "w": 4
+   },
+   {
+    "v": "1400px",
+    "w": 2
+   },
+   {
+    "v": "1900px",
+    "w": 2
+   }
+  ],
+  "rulesCount": 767,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "wrap",
+    "h": 900,
+    "top": 0,
+    "title": "",
+    "media": 28
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "Depo Luxe",
+    "href": "https://depoluxe.xyz/"
+   },
+   {
+    "t": "Featured",
+    "href": "https://depoluxe.xyz/"
+   },
+   {
+    "t": "Archive",
+    "href": "https://depoluxe.xyz/archive/"
+   },
+   {
+    "t": "Talent",
+    "href": "https://depoluxe.xyz/talent/"
+   },
+   {
+    "t": "Approach",
+    "href": "https://depoluxe.xyz/about/"
+   },
+   {
+    "t": "Contact",
+    "href": "https://depoluxe.xyz/contact/"
+   },
+   {
+    "t": "",
+    "href": "https://depoluxe.xyz/"
+   },
+   {
+    "t": "Featured",
+    "href": "https://depoluxe.xyz/"
+   },
+   {
+    "t": "Archive",
+    "href": "https://depoluxe.xyz/archive/"
+   },
+   {
+    "t": "Talent",
+    "href": "https://depoluxe.xyz/talent/"
+   },
+   {
+    "t": "Approach",
+    "href": "https://depoluxe.xyz/about/"
+   },
+   {
+    "t": "Contact",
+    "href": "https://depoluxe.xyz/contact/"
+   }
+  ],
+  "ctas": [
+   "Aceptar"
+  ],
+  "pageHeight": 900,
+  "counts": {
+   "canvas": 2,
+   "videos": 16,
+   "imgs": 14,
+   "svgs": 3,
+   "iframes": 0,
+   "domNodes": 359
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": false,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "158",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": true,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://depoluxe.xyz/assets/main.d4f10deae0b58c57225e.js"
+ ],
+ "internal": [
+  "https://depoluxe.xyz/archive/",
+  "https://depoluxe.xyz/talent/",
+  "https://depoluxe.xyz/about/",
+  "https://depoluxe.xyz/contact/",
+  "https://depoluxe.xyz/guslo/numero-france/",
+  "https://depoluxe.xyz/turbo/romeo/",
+  "https://depoluxe.xyz/rafael-cetin/blue-voyage/",
+  "https://depoluxe.xyz/fabio-de-frel/holiday/",
+  "https://depoluxe.xyz/jonas-akerlund/spring-summer/",
+  "https://depoluxe.xyz/christian-larson/most-wanted/",
+  "https://depoluxe.xyz/daniel-m-cox/precioso/",
+  "https://depoluxe.xyz/information-security-policy/",
+  "https://depoluxe.xyz/privacy-policy/",
+  "https://depoluxe.xyz/legal-notice/",
+  "https://depoluxe.xyz/cookies-policy/"
+ ],
+ "perf": {
+  "ttfb": 249,
+  "dcl": 301,
+  "load": 705,
+  "lcp": 520,
+  "lcpEl": "DIV.content",
+  "cls": 0.007
+ },
+ "libs": {
+  "detected": [
+   "GSAP",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Three.js",
+   "Howler (audio)"
+  ],
+  "where": {
+   "GSAP": [
+    "001-main.d4f10deae0b58c57225e.js"
+   ],
+   "ScrollTrigger": [
+    "001-main.d4f10deae0b58c57225e.js"
+   ],
+   "SplitText/SplitType": [
+    "001-main.d4f10deae0b58c57225e.js"
+   ],
+   "Three.js": [
+    "001-main.d4f10deae0b58c57225e.js"
+   ],
+   "Howler (audio)": [
+    "001-main.d4f10deae0b58c57225e.js"
+   ]
+  },
+  "gsapVersion": null,
+  "threeRevision": null,
+  "shaders": 5,
+  "scripts": 2
+ },
+ "network": {
+  "requests": 41,
+  "totalKb": 72413,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 9
+   },
+   "Stylesheet": {
+    "n": 1,
+    "kb": 12
+   },
+   "Image": {
+    "n": 23,
+    "kb": 7
+   },
+   "Font": {
+    "n": 2,
+    "kb": 43
+   },
+   "Script": {
+    "n": 1,
+    "kb": 187
+   },
+   "Other": {
+    "n": 2,
+    "kb": 2
+   },
+   "Media": {
+    "n": 10,
+    "kb": 72145
+   },
+   "XHR": {
+    "n": 1,
+    "kb": 8
+   }
+  },
+  "thirdPartyHosts": [
+   "d334na6pvq9xwq.cloudfront.net",
+   "download-video-ak.vimeocdn.com"
+  ],
+  "fontFiles": [
+   "https://depoluxe.xyz/assets/fonts/eb-garamond-v32-latin-italic.woff2",
+   "https://depoluxe.xyz/assets/fonts/eb-garamond-v32-latin-regular.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/5a80805a-60db-452c-9db9-c014c101aea5/8c4ff004-5ae84b91?__token__=st=1793990309~exp=1793993909~acl=%2Fv3-1%2",
+    "kb": 10004,
+    "type": "Media"
+   },
+   {
+    "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/5a80805a-60db-452c-9db9-c014c101aea5/8c4ff004-5ae84b91?__token__=st=1793990328~exp=1793993928~acl=%2Fv3-1%2",
+    "kb": 10004,
+    "type": "Media"
+   },
+   {
+    "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/56defd39-a96b-4a64-9c7d-1a540d903295/518abe69-3b950993?__token__=st=1793990323~exp=1793993923~acl=%2Fv3-1%2",
+    "kb": 7661,
+    "type": "Media"
+   },
+   {
+    "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/eb4cc894-6215-45f7-a5ee-f538f38ad64c/f648e84e-850fa115?__token__=st=1793990320~exp=1793993920~acl=%2Fv3-1%2",
+    "kb": 7583,
+    "type": "Media"
+   },
+   {
+    "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/0345e706-1e82-44fd-b4b7-6790f4d6388c/214eca9e-410cc303?__token__=st=1793990326~exp=1793993926~acl=%2Fv3-1%2",
+    "kb": 7370,
+    "type": "Media"
+   },
+   {
+    "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/0345e706-1e82-44fd-b4b7-6790f4d6388c/214eca9e-410cc303?__token__=st=1793990308~exp=1793993908~acl=%2Fv3-1%2",
+    "kb": 7370,
+    "type": "Media"
+   },
+   {
+    "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/3fd43989-310f-439c-bd1f-d0116688f550/711a495d-41a2163c?__token__=st=1793990318~exp=1793993918~acl=%2Fv3-1%2",
+    "kb": 6463,
+    "type": "Media"
+   },
+   {
+    "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/b17cfe78-c4bb-495d-bb58-4216112612f8/08577b90-dd6eab97?__token__=st=1793990310~exp=1793993910~acl=%2Fv3-1%2",
+    "kb": 5765,
+    "type": "Media"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "13px",
+   "lineHeight": "13px"
+  },
+  "body": "16px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 80
+}

@@ -1,0 +1,1 @@
+class i{static get(e){const t=document.cookie.match(new RegExp("(^| )"+e+"=([^;]+)"));if(t)return t[2]}static set(e,t,c){const o=new Date;o.setTime(o.getTime()+c*24*60*60*1e3),document.cookie=e+"="+t+";expires="+o.toUTCString()}static delete(e){document.cookie=e+"=; expires=Thu, 01 Jan 1970 00:00:01 GMT;"}}export{i as C};

@@ -1,0 +1,449 @@
+{
+ "id": 115,
+ "name": "21 Hrs On The Moon",
+ "sourceUrl": "https://www.21hrs.space/",
+ "capturedAt": "2026-11-06T17:59:53.444Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg",
+   "desktop-13.jpg",
+   "desktop-14.jpg"
+  ],
+  "fullPage": "page non scrollable (scroll virtuel/WebGL)",
+  "subpages": [],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://www.21hrs.space/",
+ "title": "21 Hours on the Moon",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": null,
+  "canonical": null,
+  "robots": null,
+  "ogTitle": "21 Hours on the Moon",
+  "ogImage": "/social.png",
+  "twitterCard": null,
+  "jsonLd": [],
+  "h1Count": 0,
+  "headings": [],
+  "imgs": 83,
+  "imgNoAlt": 83,
+  "favicon": "https://www.21hrs.space/favicon.png",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#d9d9d9",
+    "w": 2080
+   }
+  ],
+  "text": [
+   {
+    "v": "#fff3ea",
+    "w": 177
+   },
+   {
+    "v": "#d9d9d9",
+    "w": 16
+   },
+   {
+    "v": "#000000",
+    "w": 6
+   }
+  ],
+  "border": [
+   {
+    "v": "#e4b592",
+    "w": 4
+   },
+   {
+    "v": "#ffffff",
+    "w": 3
+   }
+  ],
+  "fonts": [
+   {
+    "v": "FuturaStd",
+    "w": 127
+   },
+   {
+    "v": "AkkuratMonoLL",
+    "w": 52
+   },
+   {
+    "v": "Times New Roman",
+    "w": 14
+   },
+   {
+    "v": "Arial",
+    "w": 6
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "10px",
+    "w": 35
+   },
+   {
+    "v": "300px",
+    "w": 4
+   },
+   {
+    "v": "18px",
+    "w": 3
+   },
+   {
+    "v": "16px",
+    "w": 1
+   },
+   {
+    "v": "26px",
+    "w": 1
+   },
+   {
+    "v": "12px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "10px",
+    "w": 4
+   },
+   {
+    "v": "50px",
+    "w": 3
+   }
+  ],
+  "shadows": [],
+  "transitions": [],
+  "typo": {
+   "body": {
+    "family": "\"Times New Roman\"",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#fff3ea",
+    "sample": "21 Hours on the Moon 0HR 21HR Gallery 01 Panorama 1 Lunar Seismology audio 5 Pre"
+   }
+  },
+  "cssVars": {},
+  "fontFaces": [
+   {
+    "family": "AkkuratMonoLL",
+    "weight": "300",
+    "style": "normal",
+    "src": "url(\"/fonts/akkurat-mono-ll/AkkuratMonoLL-Regular.otf\") format(\"opentype\")"
+   },
+   {
+    "family": "AkkuratMonoLL",
+    "weight": "300",
+    "style": "italic",
+    "src": "url(\"/fonts/akkurat-mono-ll/AkkuratMonoLL-RegularItalic.otf\") format(\"opentype\")"
+   },
+   {
+    "family": "AkkuratMonoLL",
+    "weight": "500",
+    "style": "",
+    "src": "url(\"/fonts/akkurat-mono-ll/AkkuratMonoLL-Bold.otf\") format(\"opentype\")"
+   },
+   {
+    "family": "AkkuratMonoLL",
+    "weight": "500",
+    "style": "",
+    "src": "url(\"/fonts/akkurat-mono-ll/AkkuratMonoLL-BoldItalic.otf\") format(\"opentype\")"
+   },
+   {
+    "family": "FuturaStd",
+    "weight": "500",
+    "style": "",
+    "src": "url(\"/fonts/futura-std/FuturaStd-Bold.otf\") format(\"opentype\")"
+   }
+  ],
+  "keyframes": [],
+  "breakpoints": [
+   {
+    "v": "768px",
+    "w": 13
+   },
+   {
+    "v": "1440px",
+    "w": 4
+   }
+  ],
+  "rulesCount": 149,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "canvas-container svelte-ofkn84",
+    "h": 900,
+    "top": 0,
+    "title": "",
+    "media": 2
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "site-wrapper svelte-ofkn84",
+    "h": 900,
+    "top": 0,
+    "title": "",
+    "media": 86
+   }
+  ],
+  "navLinks": [],
+  "ctas": [],
+  "pageHeight": 904,
+  "counts": {
+   "canvas": 6,
+   "videos": 0,
+   "imgs": 83,
+   "svgs": 24,
+   "iframes": 83,
+   "domNodes": 843
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": true,
+  "lenis": false,
+  "locomotive": false,
+  "three": true,
+  "threeRevision": "159",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": true,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [
+   "datocms"
+  ],
+  "analytics": [
+   "googletagmanager",
+   "gtag"
+  ],
+  "customCursor": false,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://www.googletagmanager.com/gtag/js?id=G-CTMNNH5JG9"
+ ],
+ "internal": [],
+ "perf": {
+  "ttfb": 154,
+  "dcl": 2106,
+  "load": 3507,
+  "lcp": 5436,
+  "lcpEl": "DIV.center",
+  "cls": 0.012
+ },
+ "libs": {
+  "detected": [
+   "Svelte",
+   "GSAP",
+   "SplitText/SplitType",
+   "Three.js",
+   "Howler (audio)",
+   "Lil-GUI/Tweakpane (debug)",
+   "ScrollTrigger"
+  ],
+  "where": {
+   "Svelte": [
+    "002-CircularButton.0c032075.js",
+    "003-FrameLines.63c78050.js",
+    "004-start.b8ce7de2.js",
+    "008-Image.aa206f06.js",
+    "010-5.0d1fc1b5.js",
+    "011-2.0057fb2f.js",
+    "013-index.0d6de466.js",
+    "014-singletons.6535280f.js",
+    "018-app.e05a720b.js",
+    "020-3.ed373342.js",
+    "021-Hint.fe90a000.js",
+    "022-7.ad8840cf.js"
+   ],
+   "GSAP": [
+    "007-SplitText.e6ad4778.js",
+    "016-TimelineStore.9c6dddce.js"
+   ],
+   "SplitText/SplitType": [
+    "007-SplitText.e6ad4778.js",
+    "010-5.0d1fc1b5.js",
+    "011-2.0057fb2f.js",
+    "013-index.0d6de466.js",
+    "018-app.e05a720b.js"
+   ],
+   "Three.js": [
+    "011-2.0057fb2f.js",
+    "015-three.module.2a117cc4.js",
+    "018-app.e05a720b.js",
+    "022-7.ad8840cf.js"
+   ],
+   "Howler (audio)": [
+    "011-2.0057fb2f.js"
+   ],
+   "Lil-GUI/Tweakpane (debug)": [
+    "011-2.0057fb2f.js"
+   ],
+   "ScrollTrigger": [
+    "016-TimelineStore.9c6dddce.js"
+   ]
+  },
+  "gsapVersion": "3.10.4",
+  "threeRevision": null,
+  "shaders": 5,
+  "scripts": 22
+ },
+ "network": {
+  "requests": 224,
+  "totalKb": 18086,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 27
+   },
+   "Script": {
+    "n": 23,
+    "kb": 481
+   },
+   "Stylesheet": {
+    "n": 9,
+    "kb": 9
+   },
+   "Image": {
+    "n": 179,
+    "kb": 17275
+   },
+   "Media": {
+    "n": 4,
+    "kb": 204
+   },
+   "Fetch": {
+    "n": 4,
+    "kb": 27
+   },
+   "Font": {
+    "n": 2,
+    "kb": 63
+   },
+   "Other": {
+    "n": 2,
+    "kb": 1
+   }
+  },
+  "thirdPartyHosts": [
+   "www.googletagmanager.com",
+   "region1.google-analytics.com",
+   "www.datocms-assets.com"
+  ],
+  "fontFiles": [
+   "https://www.21hrs.space/fonts/akkurat-mono-ll/AkkuratMonoLL-Regular.otf",
+   "https://www.21hrs.space/fonts/futura-std/FuturaStd-Bold.otf"
+  ],
+  "biggest": [
+   {
+    "url": "https://www.21hrs.space/moon_closeup_repeat_normal_2048.png",
+    "kb": 6284,
+    "type": "Image"
+   },
+   {
+    "url": "https://www.21hrs.space/moon_closeup_repeat_2048.png",
+    "kb": 3325,
+    "type": "Image"
+   },
+   {
+    "url": "https://www.21hrs.space/moon_closeup_repeat_displacement_2048.png",
+    "kb": 2981,
+    "type": "Image"
+   },
+   {
+    "url": "https://www.21hrs.space/lunarrock_normal_1024.png",
+    "kb": 2720,
+    "type": "Image"
+   },
+   {
+    "url": "https://www.21hrs.space/lunarrock_1024.png",
+    "kb": 757,
+    "type": "Image"
+   },
+   {
+    "url": "https://www.21hrs.space/lunarrock_displacement_1024.png",
+    "kb": 448,
+    "type": "Image"
+   },
+   {
+    "url": "https://www.googletagmanager.com/gtag/js?id=G-CTMNNH5JG9",
+    "kb": 177,
+    "type": "Script"
+   },
+   {
+    "url": "https://www.21hrs.space/_app/immutable/chunks/three.module.2a117cc4.js",
+    "kb": 115,
+    "type": "Script"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": null,
+  "body": "16px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 98
+}

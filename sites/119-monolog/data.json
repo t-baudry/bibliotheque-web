@@ -1,0 +1,1140 @@
+{
+ "id": 119,
+ "name": "MONOLOG",
+ "sourceUrl": "https://bymonolog.com/",
+ "capturedAt": "2026-11-07T01:36:59.386Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg",
+   "desktop-13.jpg",
+   "desktop-14.jpg"
+  ],
+  "fullPage": 14270,
+  "subpages": [
+   {
+    "url": "https://bymonolog.com/about",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://bymonolog.com/contact",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://bymonolog.com/work",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://bymonolog.com/",
+ "title": "MONOLOG | Brand and Web Design Studio founded By Huy",
+ "lang": "en",
+ "generator": "Astro v7.4.0",
+ "seo": {
+  "description": "We build brand identities and websites for ambitious B2B companies whose presence hasn’t caught up to their reputation. Trusted by Vinamilk, Shortscut, OH Architecture.",
+  "canonical": "https://bymonolog.com/",
+  "robots": null,
+  "ogTitle": "MONOLOG | Brand and Web Design Studio founded By Huy",
+  "ogImage": "https://bymonolog.com/og-image.jpg",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "Organization",
+   "WebPage"
+  ],
+  "h1Count": 1,
+  "headings": [
+   "H2 Clients",
+   "H2 Vinamilk",
+   "H2 Moc Chau Creamery",
+   "H2 Shortscut",
+   "H2 OH Architecture",
+   "H2 Supersolid Agency",
+   "H2 Mammoth Murals",
+   "H2 SLIK Agency",
+   "H2 BlueBrown Partners",
+   "H2 Backhouse",
+   "H2 University of Sydney",
+   "H2 Awards",
+   "H2 Awwwards SOTD (x5)",
+   "H2 FWA SOTD (x5)",
+   "H2 CSSDA SOTD (x5)",
+   "H2 Awwwards Honorable Mention (x8)",
+   "H2 Awwwards Typography Honors (x2)",
+   "H2 Awwwards Independent of The Year Nominee (x1)",
+   "H2 Our principles",
+   "H2 Outcomes first, taste second",
+   "H2 All in or nothing",
+   "H2 Human-first, always",
+   "H2 Intention over speed",
+   "H1 Websites and identities that reflect your ambition",
+   "H2 Great B2B founders deserve a presence as powerful as what they're building. Most founders ",
+   "H2 We close‎‎‎‎‎ ‎",
+   "H2 That gap",
+   "H2 SUCCESS STORIES",
+   "H2 OH Architecture",
+   "H3 21%",
+   "H2 Supersolid",
+   "H3 90%",
+   "H2 Mammoth Murals",
+   "H3 $100K+",
+   "H2 HISS (University of Sydney)",
+   "H3 15+",
+   "H2 SLIK",
+   "H2 Shortscut",
+   "H2 Brand Strategy",
+   "H2 Visual Identity",
+   "H2 Website Strategy",
+   "H2 Website Design",
+   "H2 Website Development",
+   "H2 3D Development",
+   "H2 Project Process",
+   "H3 We uncover your story",
+   "H3 We shape your digital presence",
+   "H3 We send it into the world",
+   "H2 Here's what you need to consider before partnering with us.",
+   "H3 Who do you usually work with?"
+  ],
+  "imgs": 47,
+  "imgNoAlt": 21,
+  "favicon": "https://bymonolog.com/images/favicon.png",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#080807",
+    "w": 12936911
+   },
+   {
+    "v": "#e8e8e3",
+    "w": 7238567
+   },
+   {
+    "v": "#000000",
+    "w": 2545790
+   },
+   {
+    "v": "#181715",
+    "w": 2401846
+   },
+   {
+    "v": "#d1d1c7",
+    "w": 69677
+   },
+   {
+    "v": "#524d47",
+    "w": 1267
+   },
+   {
+    "v": "#bfbfb1",
+    "w": 992
+   },
+   {
+    "v": "#938f8a",
+    "w": 739
+   },
+   {
+    "v": "#393632",
+    "w": 663
+   },
+   {
+    "v": "#ddddd5",
+    "w": 27
+   }
+  ],
+  "text": [
+   {
+    "v": "#938f8a",
+    "w": 3190
+   },
+   {
+    "v": "#e8e8e3",
+    "w": 2914
+   },
+   {
+    "v": "#6b645c",
+    "w": 1342
+   },
+   {
+    "v": "#080807",
+    "w": 1266
+   },
+   {
+    "v": "#524d47",
+    "w": 111
+   },
+   {
+    "v": "#181715",
+    "w": 15
+   }
+  ],
+  "border": [
+   {
+    "v": "#393632",
+    "w": 8
+   },
+   {
+    "v": "#524d47",
+    "w": 8
+   },
+   {
+    "v": "#000000",
+    "w": 6
+   },
+   {
+    "v": "#d1d1c7",
+    "w": 3
+   },
+   {
+    "v": "#181715",
+    "w": 3
+   },
+   {
+    "v": "#bfbfb1",
+    "w": 1
+   }
+  ],
+  "fonts": [
+   {
+    "v": "Khteka-68c8c9f4c89c1113",
+    "w": 8285
+   },
+   {
+    "v": "Suisse Mono-8fe3d4df0cbf3054",
+    "w": 450
+   },
+   {
+    "v": "Animo-e7d753fc234afb6e",
+    "w": 103
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "53px",
+    "w": 268
+   },
+   {
+    "v": "17.75px",
+    "w": 79
+   },
+   {
+    "v": "23.75px",
+    "w": 44
+   },
+   {
+    "v": "15.75px",
+    "w": 36
+   },
+   {
+    "v": "11.8px",
+    "w": 31
+   },
+   {
+    "v": "139.5px",
+    "w": 31
+   },
+   {
+    "v": "10.3px",
+    "w": 26
+   },
+   {
+    "v": "19.75px",
+    "w": 21
+   },
+   {
+    "v": "94px",
+    "w": 6
+   },
+   {
+    "v": "72.5px",
+    "w": 5
+   },
+   {
+    "v": "8px",
+    "w": 4
+   },
+   {
+    "v": "7.54375px",
+    "w": 2
+   },
+   {
+    "v": "199.44px",
+    "w": 1
+   },
+   {
+    "v": "45px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "2.4px",
+    "w": 49
+   },
+   {
+    "v": "1440px",
+    "w": 21
+   },
+   {
+    "v": "3000px",
+    "w": 2
+   },
+   {
+    "v": "5.6px",
+    "w": 1
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.16 0.65s",
+    "w": 57
+   },
+   {
+    "v": "cubic-bezier(0.48 0.35s",
+    "w": 15
+   },
+   {
+    "v": "ease 0.25s",
+    "w": 3
+   },
+   {
+    "v": "cubic-bezier(0.31 0.3s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "Khteka-68c8c9f4c89c1113, \"Khteka-68c8c9f4c89c1113 fallback: Arial\", \"Khteka-68c8c9f4c89c1113 fallback: Arial Bold\", sans",
+    "size": "139.5px",
+    "weight": "700",
+    "lineHeight": "108.81px",
+    "letterSpacing": "-4.185px",
+    "transform": "none",
+    "color": "#080807",
+    "sample": "Websites and identities that reflect your ambition"
+   },
+   "h2": {
+    "family": "Khteka-68c8c9f4c89c1113, \"Khteka-68c8c9f4c89c1113 fallback: Arial\", \"Khteka-68c8c9f4c89c1113 fallback: Arial Bold\", sans",
+    "size": "23.75px",
+    "weight": "700",
+    "lineHeight": "26.125px",
+    "letterSpacing": "-0.35625px",
+    "transform": "none",
+    "color": "#080807",
+    "sample": "Clients"
+   },
+   "h3": {
+    "family": "Khteka-68c8c9f4c89c1113, \"Khteka-68c8c9f4c89c1113 fallback: Arial\", \"Khteka-68c8c9f4c89c1113 fallback: Arial Bold\", sans",
+    "size": "23.75px",
+    "weight": "500",
+    "lineHeight": "26.125px",
+    "letterSpacing": "-0.35625px",
+    "transform": "none",
+    "color": "#080807",
+    "sample": "21%"
+   },
+   "p": {
+    "family": "Khteka-68c8c9f4c89c1113, \"Khteka-68c8c9f4c89c1113 fallback: Arial\", \"Khteka-68c8c9f4c89c1113 fallback: Arial Bold\", sans",
+    "size": "19.75px",
+    "weight": "500",
+    "lineHeight": "24.6875px",
+    "letterSpacing": "-0.1975px",
+    "transform": "none",
+    "color": "#080807",
+    "sample": "About the studio"
+   },
+   "a": {
+    "family": "Khteka-68c8c9f4c89c1113, \"Khteka-68c8c9f4c89c1113 fallback: Arial\", \"Khteka-68c8c9f4c89c1113 fallback: Arial Bold\", sans",
+    "size": "15.75px",
+    "weight": "500",
+    "lineHeight": "19.6875px",
+    "letterSpacing": "-0.1575px",
+    "transform": "none",
+    "color": "#080807",
+    "sample": "(SOON)About"
+   },
+   "button": {
+    "family": "Khteka-68c8c9f4c89c1113, \"Khteka-68c8c9f4c89c1113 fallback: Arial\", \"Khteka-68c8c9f4c89c1113 fallback: Arial Bold\", sans",
+    "size": "17.75px",
+    "weight": "500",
+    "lineHeight": "22.1875px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#e8e8e3",
+    "sample": "Close about modal"
+   },
+   "li": {
+    "family": "Khteka-68c8c9f4c89c1113, \"Khteka-68c8c9f4c89c1113 fallback: Arial\", \"Khteka-68c8c9f4c89c1113 fallback: Arial Bold\", sans",
+    "size": "15.75px",
+    "weight": "500",
+    "lineHeight": "19.6875px",
+    "letterSpacing": "-0.1575px",
+    "transform": "none",
+    "color": "#080807",
+    "sample": "(SOON)About"
+   },
+   "body": {
+    "family": "Khteka-68c8c9f4c89c1113, \"Khteka-68c8c9f4c89c1113 fallback: Arial\", \"Khteka-68c8c9f4c89c1113 fallback: Arial Bold\", sans",
+    "size": "17.75px",
+    "weight": "500",
+    "lineHeight": "22.1875px",
+    "letterSpacing": "-0.1775px",
+    "transform": "none",
+    "color": "#e8e8e3",
+    "sample": "Hello worldClose about modalCloseescescAbout the studioHey I'm Huy. I started MO"
+   }
+  },
+  "cssVars": {
+   "--font-khteka": "Khteka-68c8c9f4c89c1113,\"Khteka-68c8c9f4c89c1113 fallback: Arial\",\"Khteka-68c8c9f4c89c1113 fallback: Arial Bold\",sans-serif",
+   "--font-animo": "Animo-e7d753fc234afb6e,\"Animo-e7d753fc234afb6e fallback: Arial\",sans-serif",
+   "--font-suisse-mono": "\"Suisse Mono-8fe3d4df0cbf3054\",\"Suisse Mono-8fe3d4df0cbf3054 fallback: Arial\",sans-serif",
+   "--beige-50": "#fafaf9",
+   "--beige-100": "#e8e8e3",
+   "--beige-200": "#ddddd5",
+   "--beige-300": "#d1d1c7",
+   "--beige-400": "#bfbfb1",
+   "--beige-600": "#8c8c73",
+   "--black-50": "#938f8a",
+   "--black-100": "#6b645c",
+   "--black-200": "#524d47",
+   "--black-300": "#393632",
+   "--black-400": "#080807",
+   "--card-bg": "#181715",
+   "--brand-text": "var(--beige-100)",
+   "--brand-text-o20": "color-mix(in srgb, var(--brand-text) 20%, transparent)",
+   "--primary-family": "var(--font-khteka,Arial, sans-serif)",
+   "--primary-regular": "400",
+   "--primary-medium": "500",
+   "--primary-semibold": "600",
+   "--primary-bold": "700",
+   "--primary-trim-top": ".38em",
+   "--primary-trim-bottom": ".38em",
+   "--secondary-family": "var(--font-animo,Arial, sans-serif)",
+   "--secondary-regular": "400",
+   "--secondary-trim-top": ".33em",
+   "--secondary-trim-bottom": ".38em",
+   "--tertiary-family": "var(--font-suisse-mono,Arial, sans-serif)",
+   "--tertiary-medium": "500",
+   "--tertiary-trim-top": ".33em",
+   "--tertiary-trim-bottom": ".38em",
+   "--letter-spacing-tight": "-.03em",
+   "--letter-spacing-snug": "-.015em",
+   "--letter-spacing-subtle": "-.01em",
+   "--letter-spacing-normal": "0em",
+   "--line-height-tight": ".9",
+   "--line-height-small": "1",
+   "--line-height-medium": "1.1",
+   "--line-height-large": "1.25",
+   "--line-height-huge": "1.5",
+   "--border-width": ".094rem",
+   "--focus-width": ".125rem",
+   "--focus-offset": ".1875rem",
+   "--focus-offset-inner": "calc(var(--focus-width) * -1)",
+   "--hover-duration": ".2s",
+   "--hover-ease": "ease",
+   "--open-duration": "var(--hover-duration)",
+   "--open-ease": "var(--hover-ease)",
+   "--animation-primary": "cubic-bezier(.83, 0, .17, 1)",
+   "--animation-secondary": "cubic-bezier(.31, .75, .22, 1)",
+   "--animation-expo-out": "cubic-bezier(.2, 1, .36, 1)",
+   "--duration-fast": ".45s",
+   "--radius-small": ".15rem",
+   "--radius-medium": ".35rem",
+   "--radius-main": "1rem",
+   "--radius-round": "100vw",
+   "--viewport-min": "320",
+   "--viewport-max": "1600",
+   "--max-width-small": "100vw",
+   "--max-width-main": "calc(var(--viewport-max) / 16 * 1rem)",
+   "--max-width-full": "100%",
+   "--nav-height": "5rem",
+   "--display": "clamp(var(--display-min) / 16 * 1rem, ((var(--display-min) - ((var(--display-max) - var(--display-min)) / (var(--viewport-max) - var(--viewp",
+   "--display-min": "80",
+   "--display-max": "148",
+   "--display-line-height": "var(--line-height-tight)",
+   "--display-letter-spacing": "var(--letter-spacing-tight)",
+   "--display-text-transform": "uppercase",
+   "--display-margin-top": "var(--space-7)",
+   "--display-margin-bottom": "var(--space-6)",
+   "--display-font-family": "var(--secondary-family)",
+   "--display-font-weight": "var(--secondary-regular)",
+   "--display-text-wrap": "balance",
+   "--display-font-feature-settings": "\"ss01\" on, \"ss02\" on, \"ss07\" on",
+   "--h1": "clamp(var(--h1-min) / 16 * 1rem, ((var(--h1-min) - ((var(--h1-max) - var(--h1-min)) / (var(--viewport-max) - var(--viewport-min)) * var(--vi",
+   "--h1-min": "80",
+   "--h1-max": "96",
+   "--h1-line-height": "var(--line-height-tight)",
+   "--h1-letter-spacing": "var(--letter-spacing-tight)",
+   "--h1-text-transform": "none",
+   "--h1-margin-top": "var(--space-7)",
+   "--h1-margin-bottom": "var(--space-5)",
+   "--h1-font-family": "var(--primary-family)",
+   "--h1-font-weight": "var(--primary-bold)",
+   "--h1-text-wrap": "balance",
+   "--h1-font-feature-settings": "\"ss01\" on, \"ss07\" on",
+   "--h2": "clamp(var(--h2-min) / 16 * 1rem, ((var(--h2-min) - ((var(--h2-max) - var(--h2-min)) / (var(--viewport-max) - var(--viewport-min)) * var(--vi",
+   "--h2-min": "48",
+   "--h2-max": "76",
+   "--h2-line-height": "var(--line-height-small)",
+   "--h2-letter-spacing": "var(--letter-spacing-tight)",
+   "--h2-text-transform": "none",
+   "--h2-margin-top": "var(--space-7)",
+   "--h2-margin-bottom": "var(--space-5)",
+   "--h2-font-family": "var(--primary-family)",
+   "--h2-font-weight": "var(--primary-bold)",
+   "--h2-text-wrap": "balance",
+   "--h2-font-feature-settings": "\"ss01\" on, \"ss07\" on",
+   "--h3": "clamp(var(--h3-min) / 16 * 1rem, ((var(--h3-min) - ((var(--h3-max) - var(--h3-min)) / (var(--viewport-max) - var(--viewport-min)) * var(--vi",
+   "--h3-min": "32",
+   "--h3-max": "56",
+   "--h3-line-height": "var(--line-height-small)",
+   "--h3-letter-spacing": "var(--letter-spacing-tight)",
+   "--h3-text-transform": "none",
+   "--h3-margin-top": "var(--space-7)",
+   "--h3-margin-bottom": "var(--space-5)",
+   "--h3-font-family": "var(--primary-family)",
+   "--h3-font-weight": "var(--primary-bold)",
+   "--h3-text-wrap": "balance",
+   "--h3-font-feature-settings": "\"ss01\" on, \"ss07\" on",
+   "--h4": "clamp(var(--h4-min) / 16 * 1rem, ((var(--h4-min) - ((var(--h4-max) - var(--h4-min)) / (var(--viewport-max) - var(--viewport-min)) * var(--vi",
+   "--h4-min": "24",
+   "--h4-max": "48",
+   "--h4-line-height": "var(--line-height-small)",
+   "--h4-letter-spacing": "var(--letter-spacing-tight)",
+   "--h4-text-transform": "none",
+   "--h4-margin-top": "var(--space-7)",
+   "--h4-margin-bottom": "var(--space-4)",
+   "--h4-font-family": "var(--primary-family)",
+   "--h4-font-weight": "var(--primary-bold)",
+   "--h4-text-wrap": "balance",
+   "--h4-font-feature-settings": "\"ss01\" on, \"ss07\" on",
+   "--h5": "clamp(var(--h5-min) / 16 * 1rem, ((var(--h5-min) - ((var(--h5-max) - var(--h5-min)) / (var(--viewport-max) - var(--viewport-min)) * var(--vi",
+   "--h5-min": "22",
+   "--h5-max": "24",
+   "--h5-line-height": "var(--line-height-medium)",
+   "--h5-letter-spacing": "var(--letter-spacing-snug)",
+   "--h5-text-transform": "none",
+   "--h5-margin-top": "var(--space-7)",
+   "--h5-margin-bottom": "var(--space-4)",
+   "--h5-font-family": "var(--primary-family)",
+   "--h5-font-weight": "var(--primary-bold)",
+   "--h5-text-wrap": "balance",
+   "--h5-font-feature-settings": "\"ss01\" on, \"ss07\" on",
+   "--h6": "clamp(var(--h6-min) / 16 * 1rem, ((var(--h6-min) - ((var(--h6-max) - var(--h6-min)) / (var(--viewport-max) - var(--viewport-min)) * var(--vi",
+   "--h6-min": "16",
+   "--h6-max": "18",
+   "--h6-line-height": "var(--line-height-medium)",
+   "--h6-letter-spacing": "var(--letter-spacing-subtle)",
+   "--h6-text-transform": "none",
+   "--h6-margin-top": "var(--space-7)",
+   "--h6-margin-bottom": "var(--space-4)",
+   "--h6-font-family": "var(--primary-family)",
+   "--h6-font-weight": "var(--tertiary-medium)",
+   "--h6-text-wrap": "balance",
+   "--h6-font-feature-settings": "\"ss01\" on, \"ss07\" on",
+   "--text-large": "clamp(var(--text-large-min) / 16 * 1rem, ((var(--text-large-min) - ((var(--text-large-max) - var(--text-large-min)) / (var(--viewport-max) -",
+   "--text-large-min": "18",
+   "--text-large-max": "20",
+   "--text-large-line-height": "var(--line-height-large)",
+   "--text-large-letter-spacing": "var(--letter-spacing-subtle)",
+   "--text-large-text-transform": "none",
+   "--text-large-margin-top": "var(--space-4)",
+   "--text-large-margin-bottom": "var(--space-4)",
+   "--text-large-font-family": "var(--primary-family)",
+   "--text-large-font-weight": "var(--tertiary-medium)",
+   "--text-large-text-wrap": "pretty",
+   "--text-large-font-feature-settings": "\"ss01\" on, \"ss07\" on",
+   "--text-main": "clamp(var(--text-main-min) / 16 * 1rem, ((var(--text-main-min) - ((var(--text-main-max) - var(--text-main-min)) / (var(--viewport-max) - var",
+   "--text-main-min": "16",
+   "--text-main-max": "18",
+   "--text-main-line-height": "var(--line-height-large)",
+   "--text-main-letter-spacing": "var(--letter-spacing-subtle)",
+   "--text-main-text-transform": "none",
+   "--text-main-margin-top": "var(--space-4)",
+   "--text-main-margin-bottom": "var(--space-4)",
+   "--text-main-font-family": "var(--primary-family)",
+   "--text-main-font-weight": "var(--tertiary-medium)",
+   "--text-main-text-wrap": "pretty",
+   "--text-main-font-feature-settings": "\"ss01\" on, \"ss07\" on",
+   "--text-small": "clamp(var(--text-small-min) / 16 * 1rem, ((var(--text-small-min) - ((var(--text-small-max) - var(--text-small-min)) / (var(--viewport-max) -",
+   "--text-small-min": "14",
+   "--text-small-max": "16",
+   "--text-small-line-height": "var(--line-height-large)",
+   "--text-small-letter-spacing": "var(--letter-spacing-subtle)",
+   "--text-small-text-transform": "none",
+   "--text-small-margin-top": "var(--space-4)",
+   "--text-small-margin-bottom": "var(--space-4)",
+   "--text-small-font-family": "var(--primary-family)",
+   "--text-small-font-weight": "var(--tertiary-medium)",
+   "--text-small-text-wrap": "pretty",
+   "--text-small-font-feature-settings": "\"ss01\" on, \"ss07\" on",
+   "--text-xsmall": "clamp(var(--text-xsmall-min) / 16 * 1rem, ((var(--text-xsmall-min) - ((var(--text-xsmall-max) - var(--text-xsmall-min)) / (var(--viewport-ma",
+   "--text-xsmall-min": "10.4",
+   "--text-xsmall-max": "12",
+   "--text-micro": "clamp(var(--text-micro-min) / 16 * 1rem, ((var(--text-micro-min) - ((var(--text-micro-max) - var(--text-micro-min)) / (var(--viewport-max) -",
+   "--text-micro-min": "9.6",
+   "--text-micro-max": "10.4",
+   "--display-small": "clamp(4 * 1rem, ((4 - ((8 - 4) / (90 - 20) * 20)) * 1rem + ((8 - 4) / (90 - 20)) * 100vw), 8 * 1rem)",
+   "--site-margin": "clamp(var(--site-margin-min) / 16 * 1rem, ((var(--site-margin-min) - ((var(--site-margin-max) - var(--site-margin-min)) / (var(--viewport-ma",
+   "--site-margin-min": "12",
+   "--site-margin-max": "28",
+   "--site-gutter": "1rem",
+   "--site-width": "calc(100% - var(--site-margin) * 2)",
+   "--site-column-count": "12",
+   "--site-column-width": "calc((min(var(--max-width-main), 100% - var(--site-margin) * 2) - (var(--site-gutter) * (var(--site-column-count) - 1))) / var(--site-column",
+   "--column-margin-0": "0px",
+   "--column-width-1": "calc((100% - ((var(--site-column-count) - 1) * var(--site-gutter))) / var(--site-column-count))",
+   "--column-width-2": "calc(var(--column-width-1) * 2 + (var(--site-gutter) * 1))",
+   "--column-width-3": "calc(var(--column-width-1) * 3 + (var(--site-gutter) * 2))",
+   "--column-width-4": "calc(var(--column-width-1) * 4 + (var(--site-gutter) * 3))",
+   "--column-width-5": "calc(var(--column-width-1) * 5 + (var(--site-gutter) * 4))",
+   "--column-width-6": "calc(var(--column-width-1) * 6 + (var(--site-gutter) * 5))",
+   "--column-width-7": "calc(var(--column-width-1) * 7 + (var(--site-gutter) * 6))",
+   "--column-width-8": "calc(var(--column-width-1) * 8 + (var(--site-gutter) * 7))",
+   "--column-width-9": "calc(var(--column-width-1) * 9 + (var(--site-gutter) * 8))",
+   "--column-width-10": "calc(var(--column-width-1) * 10 + (var(--site-gutter) * 9))",
+   "--column-width-11": "calc(var(--column-width-1) * 11 + (var(--site-gutter) * 10))",
+   "--column-width-12": "calc(var(--column-width-1) * 12 + (var(--site-gutter) * 11))",
+   "--column-margin-1": "calc(var(--column-width-1) + var(--site-gutter))",
+   "--column-margin-2": "calc(var(--column-width-2) + var(--site-gutter))",
+   "--column-margin-3": "calc(var(--column-width-3) + var(--site-gutter))",
+   "--column-margin-4": "calc(var(--column-width-4) + var(--site-gutter))",
+   "--column-margin-5": "calc(var(--column-width-5) + var(--site-gutter))",
+   "--column-margin-6": "calc(var(--column-width-6) + var(--site-gutter))",
+   "--column-margin-7": "calc(var(--column-width-7) + var(--site-gutter))",
+   "--column-margin-8": "calc(var(--column-width-8) + var(--site-gutter))",
+   "--column-margin-9": "calc(var(--column-width-9) + var(--site-gutter))",
+   "--column-margin-10": "calc(var(--column-width-10) + var(--site-gutter))",
+   "--column-margin-11": "calc(var(--column-width-11) + var(--site-gutter))",
+   "--column-margin-12": "calc(var(--column-width-12) + var(--site-gutter))",
+   "--grid-1": "repeat(1, minmax(0, 1fr))",
+   "--grid-2": "repeat(2, minmax(0, 1fr))",
+   "--grid-3": "repeat(3, minmax(0, 1fr))",
+   "--grid-4": "repeat(4, minmax(0, 1fr))",
+   "--grid-5": "repeat(5, minmax(0, 1fr))",
+   "--grid-6": "repeat(6, minmax(0, 1fr))",
+   "--grid-7": "repeat(7, minmax(0, 1fr))",
+   "--grid-8": "repeat(8, minmax(0, 1fr))",
+   "--grid-9": "repeat(9, minmax(0, 1fr))",
+   "--grid-10": "repeat(10, minmax(0, 1fr))",
+   "--grid-11": "repeat(11, minmax(0, 1fr))",
+   "--grid-12": "repeat(12, minmax(0, 1fr))",
+   "--span-1": "span 1 / span 1",
+   "--span-2": "span 2 / span 2",
+   "--span-3": "span 3 / span 3",
+   "--span-4": "span 4 / span 4",
+   "--span-5": "span 5 / span 5",
+   "--span-6": "span 6 / span 6",
+   "--span-7": "span 7 / span 7",
+   "--span-8": "span 8 / span 8",
+   "--span-9": "span 9 / span 9",
+   "--span-10": "span 10 / span 10",
+   "--span-11": "span 11 / span 11",
+   "--span-12": "span 12 / span 12",
+   "--start-1": "1",
+   "--start-2": "2",
+   "--start-3": "3",
+   "--start-4": "4"
+  },
+  "fontFaces": [
+   {
+    "family": "Khteka-68c8c9f4c89c1113",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"/_astro/fonts/a7d6036fed16b25d.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Khteka-68c8c9f4c89c1113",
+    "weight": "700",
+    "style": "normal",
+    "src": "url(\"/_astro/fonts/4aaaddf20a888a84.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Khteka-68c8c9f4c89c1113 fallback: Arial",
+    "weight": "500",
+    "style": "normal",
+    "src": "local(\"Arial\")"
+   },
+   {
+    "family": "Khteka-68c8c9f4c89c1113 fallback: Arial Bold",
+    "weight": "700",
+    "style": "normal",
+    "src": "local(\"Arial Bold\")"
+   },
+   {
+    "family": "Animo-e7d753fc234afb6e",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_astro/fonts/9cd3e28145b5c5bf.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Animo-e7d753fc234afb6e fallback: Arial",
+    "weight": "400",
+    "style": "normal",
+    "src": "local(\"Arial\")"
+   },
+   {
+    "family": "Suisse Mono-8fe3d4df0cbf3054",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"/_astro/fonts/662ae18a158cfcd3.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Suisse Mono-8fe3d4df0cbf3054 fallback: Arial",
+    "weight": "400",
+    "style": "normal",
+    "src": "local(\"Arial\")"
+   }
+  ],
+  "keyframes": [
+   "grain-animation"
+  ],
+  "breakpoints": [
+   {
+    "v": "48rem",
+    "w": 16
+   },
+   {
+    "v": "120rem",
+    "w": 14
+   },
+   {
+    "v": "30rem",
+    "w": 14
+   },
+   {
+    "v": "62rem",
+    "w": 13
+   },
+   {
+    "v": "90rem",
+    "w": 5
+   }
+  ],
+  "rulesCount": 1122,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "hero_home_wrap",
+    "h": 1855,
+    "top": 0,
+    "title": "Websites and identities that reflect your ambition",
+    "media": 12
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "problems_home_wrap",
+    "h": 910,
+    "top": 1855,
+    "title": "Great B2B founders deserve a presence as powerful as what they're building. Most",
+    "media": 3
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "gap_home_wrap",
+    "h": 1800,
+    "top": 2764,
+    "title": "We close‎‎‎‎‎ ‎",
+    "media": 5
+   },
+   {
+    "tag": "section",
+    "id": "work",
+    "cls": "works_home_wrap theme-light",
+    "h": 3236,
+    "top": 4564,
+    "title": "SUCCESS STORIES",
+    "media": 12
+   },
+   {
+    "tag": "section",
+    "id": "services",
+    "cls": "services_home_wrap",
+    "h": 894,
+    "top": 7800,
+    "title": "Brand Strategy",
+    "media": 14
+   },
+   {
+    "tag": "section",
+    "id": "process",
+    "cls": "process_home_wrap",
+    "h": 1727,
+    "top": 8694,
+    "title": "Project Process",
+    "media": 3
+   },
+   {
+    "tag": "section",
+    "id": "faqs",
+    "cls": "faq_home_wrap grid-site",
+    "h": 857,
+    "top": 10421,
+    "title": "Here's what you need to consider before partnering with us.",
+    "media": 1
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "cta_home_wrap",
+    "h": 1729,
+    "top": 11278,
+    "title": "Ready to build an experience that moves people?",
+    "media": 1
+   },
+   {
+    "tag": "footer",
+    "id": null,
+    "cls": "footer_wrap_main",
+    "h": 1263,
+    "top": 13007,
+    "title": "",
+    "media": 7
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "",
+    "href": "https://bymonolog.com/"
+   },
+   {
+    "t": "(SOON)About",
+    "href": "https://bymonolog.com/about"
+   },
+   {
+    "t": "Work(SOON)",
+    "href": "https://bymonolog.com/work"
+   },
+   {
+    "t": "Services(SOON)",
+    "href": "https://bymonolog.com/#services"
+   },
+   {
+    "t": "Process(SOON)",
+    "href": "https://bymonolog.com/#process"
+   },
+   {
+    "t": "Start a project",
+    "href": "https://bymonolog.com/contact"
+   },
+   {
+    "t": "Home→",
+    "href": "https://bymonolog.com/"
+   },
+   {
+    "t": "About→",
+    "href": "https://bymonolog.com/about"
+   },
+   {
+    "t": "Work→",
+    "href": "https://bymonolog.com/work"
+   },
+   {
+    "t": "Process→",
+    "href": "https://bymonolog.com/#process"
+   },
+   {
+    "t": "Services→",
+    "href": "https://bymonolog.com/#services"
+   },
+   {
+    "t": "Resources→",
+    "href": "https://byhuy.gumroad.com/"
+   },
+   {
+    "t": "Start a project→",
+    "href": "https://bymonolog.com/contact"
+   },
+   {
+    "t": "YouTube ↗",
+    "href": "https://www.youtube.com/@by_huy"
+   },
+   {
+    "t": "Linkedin ↗",
+    "href": "https://www.linkedin.com/in/byhuy/"
+   },
+   {
+    "t": "Instagram ↗",
+    "href": "https://www.instagram.com/by_huy/"
+   }
+  ],
+  "ctas": [
+   "Close about modal",
+   "Closeescesc",
+   "Start a project",
+   "Schedule an intro call",
+   "Book a call with Huy",
+   "Tell us your story",
+   "Webflow certified partner page"
+  ],
+  "pageHeight": 14270,
+  "counts": {
+   "canvas": 2,
+   "videos": 10,
+   "imgs": 47,
+   "svgs": 22,
+   "iframes": 0,
+   "domNodes": 1573
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": true,
+  "three": true,
+  "threeRevision": "160",
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": false,
+  "unicornStudio": false,
+  "barba": true,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": true,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": true,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": true
+ },
+ "scripts": [
+  "https://cloud.umami.is/script.js",
+  "https://bymonolog.com/_astro/BaseLayout.astro_astro_type_script_index_0_lang.B9emCO0H.js"
+ ],
+ "internal": [
+  "https://bymonolog.com/about",
+  "https://bymonolog.com/contact",
+  "https://bymonolog.com/work"
+ ],
+ "perf": {
+  "ttfb": 136,
+  "dcl": 512,
+  "load": 516,
+  "lcp": 1208,
+  "lcpEl": "IMG.image",
+  "cls": 0
+ },
+ "libs": {
+  "detected": [
+   "GSAP",
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Lenis",
+   "Howler (audio)",
+   "Barba.js",
+   "Virtual scroll",
+   "Contentful",
+   "Three.js"
+  ],
+  "where": {
+   "GSAP": [
+    "001-BaseLayout.astro_astro_type_script_index_0_lang.B9emCO0H.js"
+   ],
+   "ScrollTrigger": [
+    "001-BaseLayout.astro_astro_type_script_index_0_lang.B9emCO0H.js"
+   ],
+   "SplitText/SplitType": [
+    "001-BaseLayout.astro_astro_type_script_index_0_lang.B9emCO0H.js"
+   ],
+   "Lenis": [
+    "001-BaseLayout.astro_astro_type_script_index_0_lang.B9emCO0H.js",
+    "styles.css"
+   ],
+   "Howler (audio)": [
+    "001-BaseLayout.astro_astro_type_script_index_0_lang.B9emCO0H.js"
+   ],
+   "Barba.js": [
+    "001-BaseLayout.astro_astro_type_script_index_0_lang.B9emCO0H.js"
+   ],
+   "Virtual scroll": [
+    "001-BaseLayout.astro_astro_type_script_index_0_lang.B9emCO0H.js"
+   ],
+   "Contentful": [
+    "002-script.js"
+   ],
+   "Three.js": [
+    "004-initShader.CMObnxEj.js"
+   ]
+  },
+  "gsapVersion": "3.11.0",
+  "threeRevision": null,
+  "shaders": 8,
+  "scripts": 4
+ },
+ "network": {
+  "requests": 81,
+  "totalKb": 9032,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 60
+   },
+   "Stylesheet": {
+    "n": 5,
+    "kb": 25
+   },
+   "Image": {
+    "n": 41,
+    "kb": 763
+   },
+   "Font": {
+    "n": 4,
+    "kb": 189
+   },
+   "Script": {
+    "n": 4,
+    "kb": 222
+   },
+   "Fetch": {
+    "n": 2,
+    "kb": 3
+   },
+   "XHR": {
+    "n": 7,
+    "kb": 61
+   },
+   "Other": {
+    "n": 1,
+    "kb": 1
+   },
+   "Preflight": {
+    "n": 1,
+    "kb": 0
+   },
+   "Media": {
+    "n": 15,
+    "kb": 7708
+   }
+  },
+  "thirdPartyHosts": [
+   "cloud.umami.is",
+   "byhuy.b-cdn.net",
+   "gateway.umami.is"
+  ],
+  "fontFiles": [
+   "https://bymonolog.com/_astro/fonts/662ae18a158cfcd3.woff2",
+   "https://bymonolog.com/_astro/fonts/a7d6036fed16b25d.woff2",
+   "https://bymonolog.com/_astro/fonts/4aaaddf20a888a84.woff2",
+   "https://bymonolog.com/_astro/fonts/9cd3e28145b5c5bf.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://byhuy.b-cdn.net/WebM/Supersolid%20Thumbnail%20Compressed.mp4",
+    "kb": 1412,
+    "type": "Media"
+   },
+   {
+    "url": "https://byhuy.b-cdn.net/WebM/SLIK-web.webm",
+    "kb": 1350,
+    "type": "Media"
+   },
+   {
+    "url": "https://byhuy.b-cdn.net/WebM/Design%20FINAL%20compressed.webm",
+    "kb": 1282,
+    "type": "Media"
+   },
+   {
+    "url": "https://byhuy.b-cdn.net/WebM/OH%20Arch%20Compressed.webm",
+    "kb": 1103,
+    "type": "Media"
+   },
+   {
+    "url": "https://byhuy.b-cdn.net/WebM/Strategy%20Compressed.webm",
+    "kb": 1017,
+    "type": "Media"
+   },
+   {
+    "url": "https://byhuy.b-cdn.net/WebM/Development%20Final%20Compressed.webm",
+    "kb": 871,
+    "type": "Media"
+   },
+   {
+    "url": "https://byhuy.b-cdn.net/WebM/HISS%20Reel%20Compressed.mp4",
+    "kb": 573,
+    "type": "Media"
+   },
+   {
+    "url": "https://bymonolog.com/_astro/heroImage.DnvAFTMj_Z2hdldj.avif",
+    "kb": 119,
+    "type": "Image"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "49.5312px",
+   "lineHeight": "38.6344px"
+  },
+  "body": "16.1094px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 86
+}

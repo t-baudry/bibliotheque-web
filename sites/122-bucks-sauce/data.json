@@ -1,0 +1,1042 @@
+{
+ "id": 122,
+ "name": "Bucks Sauce",
+ "sourceUrl": "https://buckssauce.com/",
+ "capturedAt": "2026-11-07T14:33:03.577Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg",
+   "desktop-13.jpg",
+   "desktop-14.jpg"
+  ],
+  "fullPage": 11355,
+  "subpages": [
+   {
+    "url": "https://buckssauce.com/shop",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://buckssauce.com/wholesale",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg",
+     "page2-04.jpg"
+    ]
+   },
+   {
+    "url": "https://buckssauce.com/about",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://buckssauce.com/",
+ "title": "Bucks Sauce - Best Small-Batch BBQ Sauce | Gourmet, No HFCS | Bucks Sauce",
+ "lang": "en",
+ "generator": null,
+ "seo": {
+  "description": "Shop small-batch BBQ sauce made with real ingredients. No high fructose corn syrup, no seed oils, no additives. Sweet heat with a balanced finish. Premium BBQ sauce built to perform.",
+  "canonical": null,
+  "robots": null,
+  "ogTitle": "Bucks Sauce - Best Small-Batch BBQ Sauce | Gourmet, No HFCS | Bucks Sauce",
+  "ogImage": "https://images.prismic.io/buckssauce/aaHgvcFoBIGEg8Hc_hf_20260227_163946_335a9ad0-a5cb-46d4-aa4f-f10aa97e0510.png?auto=format%2Ccompress&rect=0%2C118%2C2528%2C1327&w=2400&h=1260",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [],
+  "h1Count": 1,
+  "headings": [
+   "H1 The BBQ sauce that makes other sauces insecure",
+   "H2 Choose yourweapon",
+   "H3 Crushed Pineapple Sriracha",
+   "H3 Crushed Habanero Garlic",
+   "H3 Crushed Cherry Garlic",
+   "H3 Smoked Peach Chipotle",
+   "H2 Build your3Pack &Save $4.00",
+   "H2 Why Bucks SauceWhy Bucks Sauce",
+   "H3 Small batches",
+   "H3 Real Ingredients",
+   "H3 Oh, This?",
+   "H2 REVIEWS",
+   "H2 Join the Bucks Club"
+  ],
+  "imgs": 55,
+  "imgNoAlt": 30,
+  "favicon": "https://buckssauce.com/favicon.png",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#100b06",
+    "w": 5970388
+   },
+   {
+    "v": "#f5e4c7",
+    "w": 1538944
+   },
+   {
+    "v": "#322c23",
+    "w": 748131
+   },
+   {
+    "v": "#ef8f4a",
+    "w": 362812
+   },
+   {
+    "v": "#be8d3f",
+    "w": 218815
+   },
+   {
+    "v": "#f15726",
+    "w": 218815
+   },
+   {
+    "v": "#da1f27",
+    "w": 218815
+   }
+  ],
+  "text": [
+   {
+    "v": "#f5e4c7",
+    "w": 1567
+   },
+   {
+    "v": "#100b06",
+    "w": 595
+   }
+  ],
+  "border": [
+   {
+    "v": "#f5e4c7",
+    "w": 28
+   },
+   {
+    "v": "#100b06",
+    "w": 4
+   }
+  ],
+  "fonts": [
+   {
+    "v": "Inter Tight",
+    "w": 1203
+   },
+   {
+    "v": "PeperoncinoSansCustom",
+    "w": 959
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "99.9994px",
+    "w": 126
+   },
+   {
+    "v": "60.0005px",
+    "w": 123
+   },
+   {
+    "v": "20.0002px",
+    "w": 100
+   },
+   {
+    "v": "29.9995px",
+    "w": 77
+   },
+   {
+    "v": "16px",
+    "w": 57
+   },
+   {
+    "v": "31.9997px",
+    "w": 26
+   },
+   {
+    "v": "168px",
+    "w": 13
+   },
+   {
+    "v": "26.0006px",
+    "w": 12
+   },
+   {
+    "v": "13.9997px",
+    "w": 10
+   },
+   {
+    "v": "140px",
+    "w": 10
+   },
+   {
+    "v": "36px",
+    "w": 8
+   },
+   {
+    "v": "40.0003px",
+    "w": 7
+   },
+   {
+    "v": "403.2px",
+    "w": 7
+   },
+   {
+    "v": "432px",
+    "w": 6
+   },
+   {
+    "v": "300px",
+    "w": 6
+   },
+   {
+    "v": "24.0005px",
+    "w": 2
+   }
+  ],
+  "radius": [
+   {
+    "v": "10px",
+    "w": 106
+   },
+   {
+    "v": "3.35544e+07px",
+    "w": 74
+   },
+   {
+    "v": "24px",
+    "w": 4
+   },
+   {
+    "v": "8px",
+    "w": 1
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.4 0.3s",
+    "w": 20
+   },
+   {
+    "v": "cubic-bezier(0.4 0.15s",
+    "w": 4
+   },
+   {
+    "v": "cubic-bezier(0.23 0.4s",
+    "w": 1
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "PeperoncinoSansCustom, \"PeperoncinoSansCustom Fallback\"",
+    "size": "99.9994px",
+    "weight": "400",
+    "lineHeight": "87.9994px",
+    "letterSpacing": "-1.99999px",
+    "transform": "uppercase",
+    "color": "#f5e4c7",
+    "sample": "The BBQ sauce that makes other sauces insecure"
+   },
+   "h2": {
+    "family": "\"Inter Tight\", \"Inter Tight Fallback\"",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#f5e4c7",
+    "sample": "Choose yourweapon"
+   },
+   "h3": {
+    "family": "PeperoncinoSansCustom, \"PeperoncinoSansCustom Fallback\"",
+    "size": "40.0003px",
+    "weight": "400",
+    "lineHeight": "36.0003px",
+    "letterSpacing": "-0.800006px",
+    "transform": "uppercase",
+    "color": "#f5e4c7",
+    "sample": "Crushed Pineapple Sriracha"
+   },
+   "p": {
+    "family": "\"Inter Tight\", \"Inter Tight Fallback\"",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#100b06",
+    "sample": "Your bottle is...empty"
+   },
+   "a": {
+    "family": "\"Inter Tight\", \"Inter Tight Fallback\"",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#f5e4c7",
+    "sample": "logo-full"
+   },
+   "button": {
+    "family": "PeperoncinoSansCustom, \"PeperoncinoSansCustom Fallback\"",
+    "size": "29.9995px",
+    "weight": "400",
+    "lineHeight": "29.9995px",
+    "letterSpacing": "-0.59999px",
+    "transform": "uppercase",
+    "color": "#f5e4c7",
+    "sample": "cart(0)cart(0)"
+   },
+   "li": {
+    "family": "\"Inter Tight\", \"Inter Tight Fallback\"",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#f5e4c7",
+    "sample": "ShopShop"
+   },
+   "body": {
+    "family": "\"Inter Tight\", \"Inter Tight Fallback\"",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#f5e4c7",
+    "sample": "(self.__next_s=self.__next_s||[]).push([0,{\"children\":\"\\n window.addEventListene"
+   }
+  },
+  "cssVars": {
+   "--font-sans": "var(--font-inter-tight)",
+   "--font-serif": "var(--font-peperoncino-sans)",
+   "--font-mono": "ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace",
+   "--color-red-500": "lab(55.4814% 75.0732 48.8528)",
+   "--color-black": "#000",
+   "--color-white": "#fff",
+   "--spacing": ".25rem",
+   "--container-xl": "36rem",
+   "--text-sm": ".875rem",
+   "--text-sm--line-height": "calc(1.25/.875)",
+   "--text-base": "1rem",
+   "--text-base--line-height": "calc(1.5/1)",
+   "--text-lg": "1.125rem",
+   "--text-lg--line-height": "calc(1.75/1.125)",
+   "--text-xl": "clamp(.8889rem,0rem + 1.3889vw,1.6667rem)",
+   "--text-xl--line-height": "auto",
+   "--text-2xl": "clamp(1.0667rem,0rem + 1.6667vw,2rem)",
+   "--text-2xl--line-height": "1.25",
+   "--text-3xl": "clamp(1.2444rem,0rem + 1.9444vw,2.3333rem)",
+   "--text-3xl--line-height": "1.14",
+   "--font-weight-normal": "400",
+   "--font-weight-medium": "500",
+   "--font-weight-bold": "700",
+   "--tracking-normal": "0em",
+   "--tracking-wide": ".025em",
+   "--leading-tight": "1.25",
+   "--leading-normal": "1.5",
+   "--radius-sm": ".25rem",
+   "--radius-lg": ".5rem",
+   "--radius-xl": "10px",
+   "--radius-3xl": "1.5rem",
+   "--animate-spin": "spin 1s linear infinite",
+   "--blur-xl": "24px",
+   "--aspect-video": "16/9",
+   "--default-transition-duration": ".15s",
+   "--default-transition-timing-function": "cubic-bezier(.4,0,.2,1)",
+   "--default-font-family": "var(--font-sans)",
+   "--default-mono-font-family": "var(--font-mono)",
+   "--color-background": "var(--background)",
+   "--color-foreground": "var(--foreground)",
+   "--color-menu": "var(--menu)",
+   "--color-background-lighter": "var(--background-lighter)",
+   "--color-gold": "var(--gold)",
+   "--color-orange": "var(--orange)",
+   "--color-peach": "var(--peach)",
+   "--color-red": "var(--red)",
+   "--color-theme": "var(--gold)",
+   "--text-100": "clamp(4.4444rem,0rem + 6.9444vw,8.3333rem)",
+   "--text-100--line-height": ".88",
+   "--text-100--letter-spacing": "-.02em",
+   "--text-tiny": "clamp(.5333rem,0rem + .8333vw,1rem)",
+   "--text-tiny--line-height": "1.5",
+   "--text-tiny--letter-spacing": "0em",
+   "--text-small": "clamp(.6222rem,0rem + .9722vw,1.1667rem)",
+   "--text-small--line-height": "1.5",
+   "--text-small--letter-spacing": ".08em",
+   "--text-xl--letter-spacing": "-.02em",
+   "--text-2xl--letter-spacing": "-.02em",
+   "--text-3xl--letter-spacing": "-.02em",
+   "--text-26": "clamp(1.1556rem,1.8056vw,2.1667rem)",
+   "--text-26--line-height": "auto",
+   "--text-26--letter-spacing": "-.02em",
+   "--text-30": "clamp(1.3333rem,0rem + 2.0833vw,2.5rem)",
+   "--text-30--line-height": "auto",
+   "--text-30--letter-spacing": "-.02em",
+   "--text-32": "clamp(1.4222rem,0rem + 2.2222vw,2.6667rem)",
+   "--text-32--line-height": "1.125",
+   "--text-32--letter-spacing": "-.02em",
+   "--text-36": "clamp(1.6rem,0rem + 2.5vw,3rem)",
+   "--text-36--line-height": "1",
+   "--text-36--letter-spacing": "-.02em",
+   "--text-40": "clamp(1.7778rem,0rem + 2.7778vw,3.3333rem)",
+   "--text-40--line-height": "1.1",
+   "--text-40--letter-spacing": "-.02em",
+   "--text-50": "clamp(2.2222rem,0rem + 3.4722vw,4.1667rem)",
+   "--text-50--line-height": ".88",
+   "--text-50--letter-spacing": "-.02em",
+   "--text-60": "clamp(2.6667rem,0rem + 4.1667vw,5rem)",
+   "--text-60--line-height": "1",
+   "--text-60--letter-spacing": "-.02em",
+   "--text-80": "clamp(3.5556rem,0rem + 5.5556vw,6.6667rem)",
+   "--text-80--line-height": "1",
+   "--text-80--letter-spacing": "-.02em",
+   "--text-140": "clamp(6.2222rem,0rem + 9.7222vw,11.6667rem)",
+   "--text-140--line-height": ".8",
+   "--text-140--letter-spacing": "0em",
+   "--text-180": "clamp(8rem,0rem + 12.5vw,15rem)",
+   "--text-180--line-height": "1",
+   "--text-180--letter-spacing": "-.02em",
+   "--text-240": "clamp(10.6667rem,0rem + 16.6667vw,20rem)",
+   "--text-240--line-height": ".833",
+   "--text-240--letter-spacing": "-.02em",
+   "--text-300": "clamp(13.3333rem,0rem + 20.8333vw,25rem)",
+   "--text-300--line-height": ".8",
+   "--text-300--letter-spacing": "0em",
+   "--background": "#100b06",
+   "--foreground": "#f5e4c7",
+   "--gold": "#be8d3f",
+   "--menu": "#322c23",
+   "--background-lighter": "#272119",
+   "--orange": "#f15726",
+   "--peach": "#ef8f4a",
+   "--brown": "#593e2c",
+   "--red": "#da1f27",
+   "--grid-col": "calc(100vw/12)",
+   "--grid-gap": "1.25rem",
+   "--text-44": "clamp(1.9556rem,3.0556vw,3.6667rem)",
+   "--text-44--line-height": "1.1",
+   "--text-44--letter-spacing": "-.02em",
+   "--tw-leading": "var(--leading-normal)",
+   "--tw-tracking": "var(--tracking-normal)"
+  },
+  "fontFaces": [
+   {
+    "family": "Inter Tight",
+    "weight": "100 900",
+    "style": "normal",
+    "src": "url(\"../media/13ae3e01af63c0ce-s.3ec27879.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Inter Tight",
+    "weight": "100 900",
+    "style": "normal",
+    "src": "url(\"../media/0ee4b8f05dcd9fee-s.45e2741a.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Inter Tight",
+    "weight": "100 900",
+    "style": "normal",
+    "src": "url(\"../media/9eba4caf7edd2921-s.57f6a4a3.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Inter Tight",
+    "weight": "100 900",
+    "style": "normal",
+    "src": "url(\"../media/f6752bd2263820da-s.95b8f539.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Inter Tight",
+    "weight": "100 900",
+    "style": "normal",
+    "src": "url(\"../media/f285987c35230861-s.b3721d2b.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Inter Tight",
+    "weight": "100 900",
+    "style": "normal",
+    "src": "url(\"../media/b8d1f0a88dfecec3-s.cf53ec14.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Inter Tight",
+    "weight": "100 900",
+    "style": "normal",
+    "src": "url(\"../media/ab57efd000576a30-s.p.37015d44.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "Inter Tight Fallback",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   },
+   {
+    "family": "PeperoncinoSansCustom",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"../media/PeperoncinoSans_Regular_fixed-s.p.982fe238.woff\") format(\"woff\")"
+   },
+   {
+    "family": "PeperoncinoSansCustom Fallback",
+    "weight": "",
+    "style": "",
+    "src": "local(\"Arial\")"
+   }
+  ],
+  "keyframes": [
+   "aboutTitleBorderIn",
+   "antler-scroll",
+   "bucks-loading-dot",
+   "spin"
+  ],
+  "breakpoints": [
+   {
+    "v": "64rem",
+    "w": 8
+   },
+   {
+    "v": "40rem",
+    "w": 4
+   },
+   {
+    "v": "96rem",
+    "w": 4
+   },
+   {
+    "v": "48rem",
+    "w": 3
+   },
+   {
+    "v": "80rem",
+    "w": 3
+   },
+   {
+    "v": "144rem",
+    "w": 3
+   },
+   {
+    "v": "1024px",
+    "w": 1
+   },
+   {
+    "v": "364px",
+    "w": 1
+   },
+   {
+    "v": "719px",
+    "w": 1
+   }
+  ],
+  "rulesCount": 1419,
+  "crossOriginSheets": 0
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "p-container mt-25! flex flex-col items-center",
+    "h": 1088,
+    "top": 140,
+    "title": "The BBQ sauce that makes other sauces insecure",
+    "media": 16
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "p-container w-full mt-30 lg:mt-40 ",
+    "h": 256,
+    "top": 1388,
+    "title": "",
+    "media": 0
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "pin-spacer",
+    "h": 2348,
+    "top": 1804,
+    "title": "",
+    "media": 12
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "relative p-container flex flex-col items-center mt-15 lg:mt-30",
+    "h": 1262,
+    "top": 4272,
+    "title": "Choose yourweapon",
+    "media": 12
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "p-container pt-2.5 pb-15",
+    "h": 810,
+    "top": 5534,
+    "title": "Build your3Pack &Save $4.00",
+    "media": 7
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "relative flex flex-col items-center mt-38 sh:pb-40 overflow-hidden w-screen",
+    "h": 3150,
+    "top": 6496,
+    "title": "Why Bucks SauceWhy Bucks Sauce",
+    "media": 4
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "relative p-container",
+    "h": 1367,
+    "top": 9646,
+    "title": "REVIEWS",
+    "media": 26
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "logo-full",
+    "href": "https://buckssauce.com/"
+   },
+   {
+    "t": "get sauceget sauce",
+    "href": "https://buckssauce.com/shop"
+   },
+   {
+    "t": "ShopShop",
+    "href": "https://buckssauce.com/shop"
+   },
+   {
+    "t": "WholesaleWholesale",
+    "href": "https://buckssauce.com/wholesale"
+   },
+   {
+    "t": "AboutAbout",
+    "href": "https://buckssauce.com/about"
+   },
+   {
+    "t": "STORESSTORES",
+    "href": "https://buckssauce.com/find-us"
+   },
+   {
+    "t": "ContactContact",
+    "href": "https://buckssauce.com/contact"
+   },
+   {
+    "t": "ShopShop",
+    "href": "https://buckssauce.com/shop"
+   },
+   {
+    "t": "WholesaleWholesale",
+    "href": "https://buckssauce.com/wholesale"
+   },
+   {
+    "t": "AboutAbout",
+    "href": "https://buckssauce.com/about"
+   },
+   {
+    "t": "STORESSTORES",
+    "href": "https://buckssauce.com/find-us"
+   },
+   {
+    "t": "ContactContact",
+    "href": "https://buckssauce.com/contact"
+   },
+   {
+    "t": "InstagramInstagraminstagraminstagram",
+    "href": "https://www.instagram.com/buckssauce/"
+   },
+   {
+    "t": "FacebookFacebookfacebookfacebook",
+    "href": "https://www.facebook.com/people/Bucks-Sauce/61585508764010/"
+   },
+   {
+    "t": "Add some sauceAdd some sauce",
+    "href": "https://buckssauce.com/shop"
+   },
+   {
+    "t": "proceed to checkoutproceed to checkoutar",
+    "href": ""
+   }
+  ],
+  "ctas": [
+   "Shop NowShop Now",
+   "+",
+   "+",
+   "+",
+   "+"
+  ],
+  "pageHeight": 11355,
+  "counts": {
+   "canvas": 6,
+   "videos": 26,
+   "imgs": 55,
+   "svgs": 68,
+   "iframes": 2,
+   "domNodes": 2268
+  }
+ },
+ "tech": {
+  "gsap": false,
+  "scrollTrigger": false,
+  "splitText": false,
+  "lenis": true,
+  "locomotive": false,
+  "three": false,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": true,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": false,
+  "webflow": false,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": true,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [
+   "prismic"
+  ],
+  "analytics": [
+   "googletagmanager",
+   "gtag",
+   "fbevents"
+  ],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": false
+ },
+ "scripts": [
+  "https://script.crazyegg.com/pages/versioned/common-scripts/f6d8509483ff9ebf5575c4f629d2c53a.js",
+  "https://connect.facebook.net/signals/config/1039362089030146?v=2.9.438&r=stable&domain=buckssauce.com&hme=4453c87d489b6902031c012cadd2731893cd69feb64fe8a61b339727247a7703&ex_m=118%2C242%2C171%2C27%2C82%2C83%2C162%2C78%2C77%2C11%2C181%2C102%2C20%2C153%2C141%2C46%2C85%2C90%2C149%2C176%2C183%2C8%2C4%2C5%2C7%2C6%2C3%2C103%2C115%2C161%2C72%2C185%2C110%2C184%2C211%2C263%2C37%2C84%2C283%2C282%2C281%2C14%2C25%2C28%2C40%2C62%2C117%2C68%2C10%2C73%2C111%2C112%2C113%2C119%2C144%2C38%2C36%2C146%2C147%2C148%2C143%2C142%2C172%2C86%2C175%2C173%2C174%2C57%2C69%2C67%2C137%2C19%2C179%2C52%2C333%2C334%2C335%2C332%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C55%2C163%2C87%2C126%2C22%2C24%2C51%2C47%2C49%2C48%2C95%2C104%2C108%2C124%2C160%2C164%2C53%2C125%2C29%2C26%2C133%2C79%2C43%2C166%2C165%2C167%2C157%2C155%2C30%2C42%2C66%2C123%2C178%2C80%2C21%2C128%2C93%2C76%2C23%2C97%2C98%2C130%2C96%2C151%2C150%2C154%2C109%2C177%2C180%2C41%2C349%2C371%2C256%2C238%2C70%2C239%2C237%2C374%2C365%2C59%2C257%2C121%2C145%2C92%2C135%2C61%2C54%2C56%2C127%2C134%2C140%2C139%2C65%2C74%2C168%2C88%2C89%2C129%2C44%2C39%2C60%2C63%2C114%2C182%2C1%2C138%2C16%2C136%2C12%2C2%2C64%2C105%2C15%2C75%2C71%2C132%2C101%2C100%2C187%2C188%2C106%2C107%2C9%2C116%2C186%2C58%2C158%2C99%2C91%2C81%2C131%2C120%2C169%2C50%2C159%2C0%2C94%2C152%2C156%2C170%2C45%2C122%2C13%2C189",
+  "https://connect.facebook.net/en_US/fbevents.js",
+  "https://buckssauce.com/_next/static/chunks/cf82259cb1502b0a.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "https://buckssauce.com/_next/static/chunks/b3ffbe840f681183.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "https://buckssauce.com/_next/static/chunks/0f09f1f67168016c.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "https://buckssauce.com/_next/static/chunks/76bf1279c28482ea.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "https://buckssauce.com/_next/static/chunks/turbopack-b4c7ceacd144e00c.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "https://buckssauce.com/_next/static/chunks/aa526186a5c4f108.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "https://buckssauce.com/_next/static/chunks/c1f78a2964025fc7.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "https://buckssauce.com/_next/static/chunks/f72213ff875ce4c1.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "https://buckssauce.com/_next/static/chunks/96148c21471d4815.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "https://buckssauce.com/_next/static/chunks/423178648568aac2.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "https://buckssauce.com/_next/static/chunks/71f6166cf8597a63.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "https://buckssauce.com/_next/static/chunks/978898686625d63e.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "https://buckssauce.com/_next/static/chunks/4309825e5e318b5f.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "https://buckssauce.com/_next/static/chunks/8787ee2bb93f819c.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "https://buckssauce.com/_next/static/chunks/0f37027bed7e22cb.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "https://buckssauce.com/_next/static/chunks/e29a96fd2eb7f0d3.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "https://buckssauce.com/_next/static/chunks/5743dbfa7e19d97d.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "https://script.crazyegg.com/pages/scripts/0083/0132.js",
+  "https://buckssauce.com/_next/static/chunks/c6dc6e8c57b40403.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "https://buckssauce.com/_next/static/chunks/6dd3679f18d8c687.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "https://buckssauce.com/_next/static/chunks/ada798cc8a794786.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "https://buckssauce.com/_next/static/chunks/0f1ee7a78f0d1f13.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "https://buckssauce.com/_next/static/chunks/d288c258af6eabf7.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "https://buckssauce.com/_next/static/chunks/a6dad97d9634a72d.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "https://cdn.logr-in.com/logger-1.min.js",
+  "https://buckssauce.com/_next/static/chunks/2783afca97ad6599.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "https://buckssauce.com/_next/static/chunks/8bfaf0139aa30074.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "https://buckssauce.com/_next/static/chunks/80646d2c023f622a.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "https://buckssauce.com/_next/static/chunks/35aab0af04a00d36.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "https://buckssauce.com/_next/static/chunks/154fdd02becb32c6.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "https://buckssauce.com/_next/static/chunks/ba86b18f95e0d563.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "https://buckssauce.com/_next/static/chunks/6bceabf7ab8c091d.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "https://buckssauce.com/_next/static/chunks/f0399a71cd78757e.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "https://buckssauce.com/_next/static/chunks/73b0bbfd77b858d7.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "https://buckssauce.com/_next/static/chunks/fa29bd7894d48255.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "https://buckssauce.com/_next/static/chunks/7a0a31b0bb154d05.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "https://cdn.logr-in.com/LogRocket.min.js",
+  "https://www.googletagmanager.com/gtag/js?id=G-SMLB0Z5N7C",
+  "https://static.cdn.prismic.io/prismic.js?new=true&repo=buckssauce"
+ ],
+ "internal": [
+  "https://buckssauce.com/shop",
+  "https://buckssauce.com/wholesale",
+  "https://buckssauce.com/about",
+  "https://buckssauce.com/find-us",
+  "https://buckssauce.com/contact",
+  "https://buckssauce.com/shop/smoked-peach-chipotle",
+  "https://buckssauce.com/shop/crushed-pineapple-sriracha",
+  "https://buckssauce.com/shop/crushed-habanero-garlic",
+  "https://buckssauce.com/shop/crushed-cherry-garlic",
+  "https://buckssauce.com/faq"
+ ],
+ "perf": {
+  "ttfb": 204,
+  "dcl": 310,
+  "load": 1502,
+  "lcp": 4244,
+  "lcpEl": "DIV.line",
+  "cls": 0.081
+ },
+ "libs": {
+  "detected": [
+   "Next.js",
+   "SplitText/SplitType",
+   "Lottie",
+   "Prismic",
+   "ScrollTrigger",
+   "Lenis",
+   "React",
+   "React Three Fiber",
+   "GSAP",
+   "Virtual scroll",
+   "jQuery",
+   "Contentful"
+  ],
+  "where": {
+   "Next.js": [
+    "005-cf82259cb1502b0a.js"
+   ],
+   "SplitText/SplitType": [
+    "006-ada798cc8a794786.js",
+    "009-4309825e5e318b5f.js",
+    "021-978898686625d63e.js",
+    "022-423178648568aac2.js",
+    "023-0f1ee7a78f0d1f13.js",
+    "030-80646d2c023f622a.js",
+    "034-6bceabf7ab8c091d.js"
+   ],
+   "Lottie": [
+    "006-ada798cc8a794786.js",
+    "007-f72213ff875ce4c1.js",
+    "020-5743dbfa7e19d97d.js",
+    "030-80646d2c023f622a.js",
+    "035-f0399a71cd78757e.js",
+    "043-ae5cea784024e295.js"
+   ],
+   "Prismic": [
+    "006-ada798cc8a794786.js",
+    "009-4309825e5e318b5f.js",
+    "012-d288c258af6eabf7.js",
+    "019-96148c21471d4815.js",
+    "020-5743dbfa7e19d97d.js",
+    "022-423178648568aac2.js",
+    "023-0f1ee7a78f0d1f13.js",
+    "030-80646d2c023f622a.js",
+    "031-35aab0af04a00d36.js",
+    "033-154fdd02becb32c6.js",
+    "034-6bceabf7ab8c091d.js",
+    "035-f0399a71cd78757e.js",
+    "036-fa29bd7894d48255.js",
+    "040-prismic.js",
+    "041-v4.js",
+    "043-ae5cea784024e295.js",
+    "044-5175c93c12805711.js",
+    "045-5d4eb185e9150c24.js"
+   ],
+   "ScrollTrigger": [
+    "007-f72213ff875ce4c1.js",
+    "009-4309825e5e318b5f.js",
+    "012-d288c258af6eabf7.js",
+    "021-978898686625d63e.js",
+    "029-8bfaf0139aa30074.js",
+    "043-ae5cea784024e295.js"
+   ],
+   "Lenis": [
+    "009-4309825e5e318b5f.js",
+    "022-423178648568aac2.js",
+    "029-8bfaf0139aa30074.js",
+    "033-154fdd02becb32c6.js",
+    "036-fa29bd7894d48255.js",
+    "styles.css"
+   ],
+   "React": [
+    "014-0f09f1f67168016c.js"
+   ],
+   "React Three Fiber": [
+    "020-5743dbfa7e19d97d.js"
+   ],
+   "GSAP": [
+    "021-978898686625d63e.js"
+   ],
+   "Virtual scroll": [
+    "022-423178648568aac2.js"
+   ],
+   "jQuery": [
+    "025-LogRocket.min.js",
+    "029-8bfaf0139aa30074.js"
+   ],
+   "Contentful": [
+    "026-logger-1.min.js",
+    "027-f6d8509483ff9ebf5575c4f629d2c53a.js",
+    "039-f6d8509483ff9ebf5575c4f629d2c53a.js"
+   ]
+  },
+  "gsapVersion": "3.11.0",
+  "threeRevision": null,
+  "shaders": 0,
+  "scripts": 45
+ },
+ "network": {
+  "requests": 203,
+  "totalKb": 12899,
+  "byType": {
+   "Document": {
+    "n": 2,
+    "kb": 245
+   },
+   "Image": {
+    "n": 86,
+    "kb": 1456
+   },
+   "Stylesheet": {
+    "n": 1,
+    "kb": 16
+   },
+   "Script": {
+    "n": 46,
+    "kb": 1463
+   },
+   "Font": {
+    "n": 2,
+    "kb": 78
+   },
+   "Fetch": {
+    "n": 53,
+    "kb": 662
+   },
+   "XHR": {
+    "n": 5,
+    "kb": 4
+   },
+   "Preflight": {
+    "n": 1,
+    "kb": 0
+   },
+   "Other": {
+    "n": 1,
+    "kb": 1
+   },
+   "Media": {
+    "n": 6,
+    "kb": 8974
+   }
+  },
+  "thirdPartyHosts": [
+   "images.prismic.io",
+   "script.crazyegg.com",
+   "cdn.logr-in.com",
+   "buckssauce.cdn.prismic.io",
+   "www.googletagmanager.com",
+   "cdn.jsdelivr.net",
+   "connect.facebook.net",
+   "region1.google-analytics.com",
+   "assets-tracking.crazyegg.com",
+   "pagestates-tracking.crazyegg.com",
+   "tracking.crazyegg.com",
+   "www.facebook.com",
+   "static.cdn.prismic.io",
+   "buckssauce.prismic.io"
+  ],
+  "fontFiles": [
+   "https://buckssauce.com/_next/static/media/ab57efd000576a30-s.p.37015d44.woff2",
+   "https://buckssauce.com/_next/static/media/PeperoncinoSans_Regular_fixed-s.p.982fe238.woff"
+  ],
+  "biggest": [
+   {
+    "url": "https://buckssauce.cdn.prismic.io/buckssauce/_6gKPIom1cUCwMpG_Da5LIyNx_bI.mp4",
+    "kb": 2180,
+    "type": "Media"
+   },
+   {
+    "url": "https://buckssauce.cdn.prismic.io/buckssauce/PEPP70CKE56OLqpK_DZqHIfYx8gf.mp4",
+    "kb": 1838,
+    "type": "Media"
+   },
+   {
+    "url": "https://buckssauce.cdn.prismic.io/buckssauce/ZXMGkSuQNmsX73e0_DYAPVhmOn-k.mp4",
+    "kb": 1750,
+    "type": "Media"
+   },
+   {
+    "url": "https://buckssauce.cdn.prismic.io/buckssauce/UWPCeE6AEkVPnuTQ_DYFIT79NWEp.mp4",
+    "kb": 1371,
+    "type": "Media"
+   },
+   {
+    "url": "https://buckssauce.cdn.prismic.io/buckssauce/LaBzmFikJhHddLCB_DX-Jd3pJ5PN.mp4",
+    "kb": 1118,
+    "type": "Media"
+   },
+   {
+    "url": "https://buckssauce.cdn.prismic.io/buckssauce/v994xUR9J1F1yD65_DTgrXrkEbJu.mp4",
+    "kb": 717,
+    "type": "Media"
+   },
+   {
+    "url": "https://cdn.jsdelivr.net/npm/@lottiefiles/dotlottie-web@0.71.0/dist/dotlottie-player.wasm",
+    "kb": 485,
+    "type": "Fetch"
+   },
+   {
+    "url": "https://buckssauce.com/",
+    "kb": 245,
+    "type": "Document"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "52px",
+   "lineHeight": "45.76px"
+  },
+  "body": "16px",
+  "overflowX": false,
+  "burger": true
+ },
+ "durationS": 95
+}

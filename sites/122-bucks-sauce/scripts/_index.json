@@ -1,0 +1,227 @@
+[
+ {
+  "file": "001-7a0a31b0bb154d05.js",
+  "url": "https://buckssauce.com/_next/static/chunks/7a0a31b0bb154d05.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "kb": 2
+ },
+ {
+  "file": "002-e29a96fd2eb7f0d3.js",
+  "url": "https://buckssauce.com/_next/static/chunks/e29a96fd2eb7f0d3.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "kb": 4
+ },
+ {
+  "file": "003-aa526186a5c4f108.js",
+  "url": "https://buckssauce.com/_next/static/chunks/aa526186a5c4f108.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "kb": 8
+ },
+ {
+  "file": "004-turbopack-b4c7ceacd144e00c.js",
+  "url": "https://buckssauce.com/_next/static/chunks/turbopack-b4c7ceacd144e00c.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "kb": 10
+ },
+ {
+  "file": "005-cf82259cb1502b0a.js",
+  "url": "https://buckssauce.com/_next/static/chunks/cf82259cb1502b0a.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "kb": 29
+ },
+ {
+  "file": "006-ada798cc8a794786.js",
+  "url": "https://buckssauce.com/_next/static/chunks/ada798cc8a794786.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "kb": 32
+ },
+ {
+  "file": "007-f72213ff875ce4c1.js",
+  "url": "https://buckssauce.com/_next/static/chunks/f72213ff875ce4c1.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "kb": 28
+ },
+ {
+  "file": "008-b3ffbe840f681183.js",
+  "url": "https://buckssauce.com/_next/static/chunks/b3ffbe840f681183.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "kb": 108
+ },
+ {
+  "file": "009-4309825e5e318b5f.js",
+  "url": "https://buckssauce.com/_next/static/chunks/4309825e5e318b5f.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "kb": 134
+ },
+ {
+  "file": "010-8787ee2bb93f819c.js",
+  "url": "https://buckssauce.com/_next/static/chunks/8787ee2bb93f819c.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "kb": 104
+ },
+ {
+  "file": "011-76bf1279c28482ea.js",
+  "url": "https://buckssauce.com/_next/static/chunks/76bf1279c28482ea.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "kb": 33
+ },
+ {
+  "file": "012-d288c258af6eabf7.js",
+  "url": "https://buckssauce.com/_next/static/chunks/d288c258af6eabf7.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "kb": 39
+ },
+ {
+  "file": "013-71f6166cf8597a63.js",
+  "url": "https://buckssauce.com/_next/static/chunks/71f6166cf8597a63.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "kb": 110
+ },
+ {
+  "file": "014-0f09f1f67168016c.js",
+  "url": "https://buckssauce.com/_next/static/chunks/0f09f1f67168016c.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "kb": 225
+ },
+ {
+  "file": "015-6dd3679f18d8c687.js",
+  "url": "https://buckssauce.com/_next/static/chunks/6dd3679f18d8c687.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "kb": 71
+ },
+ {
+  "file": "016-c1f78a2964025fc7.js",
+  "url": "https://buckssauce.com/_next/static/chunks/c1f78a2964025fc7.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "kb": 23
+ },
+ {
+  "file": "017-0f37027bed7e22cb.js",
+  "url": "https://buckssauce.com/_next/static/chunks/0f37027bed7e22cb.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "kb": 1
+ },
+ {
+  "file": "018-c6dc6e8c57b40403.js",
+  "url": "https://buckssauce.com/_next/static/chunks/c6dc6e8c57b40403.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "kb": 19
+ },
+ {
+  "file": "019-96148c21471d4815.js",
+  "url": "https://buckssauce.com/_next/static/chunks/96148c21471d4815.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "kb": 91
+ },
+ {
+  "file": "020-5743dbfa7e19d97d.js",
+  "url": "https://buckssauce.com/_next/static/chunks/5743dbfa7e19d97d.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "kb": 325
+ },
+ {
+  "file": "021-978898686625d63e.js",
+  "url": "https://buckssauce.com/_next/static/chunks/978898686625d63e.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "kb": 208
+ },
+ {
+  "file": "022-423178648568aac2.js",
+  "url": "https://buckssauce.com/_next/static/chunks/423178648568aac2.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "kb": 52
+ },
+ {
+  "file": "023-0f1ee7a78f0d1f13.js",
+  "url": "https://buckssauce.com/_next/static/chunks/0f1ee7a78f0d1f13.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "kb": 251
+ },
+ {
+  "file": "024-0132.js",
+  "url": "https://script.crazyegg.com/pages/scripts/0083/0132.js",
+  "kb": 8
+ },
+ {
+  "file": "025-LogRocket.min.js",
+  "url": "https://cdn.logr-in.com/LogRocket.min.js",
+  "kb": 50
+ },
+ {
+  "file": "026-logger-1.min.js",
+  "url": "https://cdn.logr-in.com/logger-1.min.js",
+  "kb": 750
+ },
+ {
+  "file": "027-f6d8509483ff9ebf5575c4f629d2c53a.js",
+  "url": "https://script.crazyegg.com/pages/versioned/common-scripts/f6d8509483ff9ebf5575c4f629d2c53a.js",
+  "kb": 201
+ },
+ {
+  "file": "028-2783afca97ad6599.js",
+  "url": "https://buckssauce.com/_next/static/chunks/2783afca97ad6599.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "kb": 12
+ },
+ {
+  "file": "029-8bfaf0139aa30074.js",
+  "url": "https://buckssauce.com/_next/static/chunks/8bfaf0139aa30074.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "kb": 32
+ },
+ {
+  "file": "030-80646d2c023f622a.js",
+  "url": "https://buckssauce.com/_next/static/chunks/80646d2c023f622a.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "kb": 92
+ },
+ {
+  "file": "031-35aab0af04a00d36.js",
+  "url": "https://buckssauce.com/_next/static/chunks/35aab0af04a00d36.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "kb": 16
+ },
+ {
+  "file": "032-ba86b18f95e0d563.js",
+  "url": "https://buckssauce.com/_next/static/chunks/ba86b18f95e0d563.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "kb": 72
+ },
+ {
+  "file": "033-154fdd02becb32c6.js",
+  "url": "https://buckssauce.com/_next/static/chunks/154fdd02becb32c6.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "kb": 82
+ },
+ {
+  "file": "034-6bceabf7ab8c091d.js",
+  "url": "https://buckssauce.com/_next/static/chunks/6bceabf7ab8c091d.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "kb": 24
+ },
+ {
+  "file": "035-f0399a71cd78757e.js",
+  "url": "https://buckssauce.com/_next/static/chunks/f0399a71cd78757e.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "kb": 22
+ },
+ {
+  "file": "036-fa29bd7894d48255.js",
+  "url": "https://buckssauce.com/_next/static/chunks/fa29bd7894d48255.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "kb": 37
+ },
+ {
+  "file": "037-73b0bbfd77b858d7.js",
+  "url": "https://buckssauce.com/_next/static/chunks/73b0bbfd77b858d7.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "kb": 73
+ },
+ {
+  "file": "038-6fe5101ffa32e66e4debad675c8eea66.js",
+  "url": "https://script.crazyegg.com/pages/versioned/thirdparty-scripts/6fe5101ffa32e66e4debad675c8eea66.js",
+  "kb": 93
+ },
+ {
+  "file": "039-f6d8509483ff9ebf5575c4f629d2c53a.js",
+  "url": "https://script.crazyegg.com/pages/versioned/common-scripts/f6d8509483ff9ebf5575c4f629d2c53a.js",
+  "kb": 201
+ },
+ {
+  "file": "040-prismic.js",
+  "url": "https://static.cdn.prismic.io/prismic.js?new=true&repo=buckssauce",
+  "kb": 2
+ },
+ {
+  "file": "041-v4.js",
+  "url": "https://static.cdn.prismic.io/prismic-toolbar/16e42463/v4.js",
+  "kb": 14
+ },
+ {
+  "file": "042-6b6725879a19aa53.js",
+  "url": "https://buckssauce.com/_next/static/chunks/6b6725879a19aa53.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "kb": 15
+ },
+ {
+  "file": "043-ae5cea784024e295.js",
+  "url": "https://buckssauce.com/_next/static/chunks/ae5cea784024e295.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "kb": 131
+ },
+ {
+  "file": "044-5175c93c12805711.js",
+  "url": "https://buckssauce.com/_next/static/chunks/5175c93c12805711.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "kb": 5
+ },
+ {
+  "file": "045-5d4eb185e9150c24.js",
+  "url": "https://buckssauce.com/_next/static/chunks/5d4eb185e9150c24.js?dpl=dpl_R7iznTviwTQCbTDco7SwRq7ksaBU",
+  "kb": 79
+ }
+]

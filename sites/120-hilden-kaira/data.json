@@ -1,0 +1,1021 @@
+{
+ "id": 120,
+ "name": "Hilden & Kaira",
+ "sourceUrl": "https://www.hildenkaira.fi/",
+ "capturedAt": "2026-11-07T14:28:13.084Z",
+ "status": "ok",
+ "errors": [],
+ "steps": {
+  "cookies": [
+   "txt:Accept All"
+  ],
+  "enter": null,
+  "rea": "passe hors ligne (rea-pass.mjs)",
+  "desktopFrames": [
+   "desktop-01.jpg",
+   "desktop-02.jpg",
+   "desktop-03.jpg",
+   "desktop-04.jpg",
+   "desktop-05.jpg",
+   "desktop-06.jpg",
+   "desktop-07.jpg",
+   "desktop-08.jpg",
+   "desktop-09.jpg",
+   "desktop-10.jpg",
+   "desktop-11.jpg",
+   "desktop-12.jpg",
+   "desktop-13.jpg"
+  ],
+  "fullPage": 9925,
+  "subpages": [
+   {
+    "url": "https://www.hildenkaira.fi/legals/privacy-policy",
+    "frames": [
+     "page1-01.jpg",
+     "page1-02.jpg",
+     "page1-03.jpg",
+     "page1-04.jpg"
+    ]
+   },
+   {
+    "url": "https://www.hildenkaira.fi/contact",
+    "frames": [
+     "page2-01.jpg",
+     "page2-02.jpg",
+     "page2-03.jpg"
+    ]
+   },
+   {
+    "url": "https://www.hildenkaira.fi/our-approach",
+    "frames": [
+     "page3-01.jpg",
+     "page3-02.jpg",
+     "page3-03.jpg",
+     "page3-04.jpg"
+    ]
+   }
+  ],
+  "video": "desktop-scroll.webm",
+  "mobileFrames": [
+   "mobile-01.jpg",
+   "mobile-02.jpg",
+   "mobile-03.jpg",
+   "mobile-04.jpg",
+   "mobile-05.jpg",
+   "mobile-06.jpg"
+  ]
+ },
+ "httpStatus": 200,
+ "url": "https://www.hildenkaira.fi/",
+ "title": "Hildén & Kaira",
+ "lang": "en-GB",
+ "generator": "Webflow",
+ "seo": {
+  "description": "We will 10x your organic presence or work for free until it's done. Create content that only your company can make with Hildén & Kaira.",
+  "canonical": null,
+  "robots": null,
+  "ogTitle": "Hildén & Kaira",
+  "ogImage": "https://cdn.prod.website-files.com/698b2eacc9c3296a0303c4cf/698ddad582aa8be4e378fa08_opengraph.jpg",
+  "twitterCard": "summary_large_image",
+  "jsonLd": [
+   "Organization"
+  ],
+  "h1Count": 5,
+  "headings": [
+   "H1 If you can't reach a million people with 0€ ad spend, your branding sucks.",
+   "H2 Content only you can post because it's built around your people.",
+   "H2 Finlayson's social media is built to carry the spirit of a bold brand.",
+   "H2 Kierrätyskeskus put their people at the center and went viral.",
+   "H2 Uusi Juttu builds the relationship between journalist and reader through social media jour",
+   "H2 Autoliitto turns roadside assistance into scroll-stopping POV-content.",
+   "H2 Finland's largest gym chain: \"This is how social media should be done\"",
+   "H2 Our services",
+   "H3 Training",
+   "H3 Ads for social",
+   "H3 Organic content",
+   "H3 Hildén & Kaira has been with us through critical moments on Uusi Juttu's journey, from our",
+   "H3 Hildén & Kaira believed from day one that we could turn even our critics into supporters t",
+   "H3 They have a knack for finding the topics, people, and angles that bring out the different ",
+   "H3 Results speak for themselves. We've reached a massive audience and broken into traditional",
+   "H3 Hildén & Kaira has succeeded in bringing the expertise and knowledge at the core of our wo",
+   "H2 Does your brand have self-esteem issues?",
+   "H2 Ready to work with us?",
+   "H3 We'll call you",
+   "H3 Contact us",
+   "H1 Contact us",
+   "H1 Thanks for your submission!",
+   "H1 Podcast",
+   "H1 Social"
+  ],
+  "imgs": 97,
+  "imgNoAlt": 78,
+  "favicon": "https://cdn.prod.website-files.com/698b2eacc9c3296a0303c4cf/698b34ad44ac327917b53d0f_Favicon.png",
+  "themeColor": null
+ },
+ "design": {
+  "bg": [
+   {
+    "v": "#181818",
+    "w": 6540303
+   },
+   {
+    "v": "#ffffff",
+    "w": 5566214
+   },
+   {
+    "v": "#000000",
+    "w": 4159977
+   },
+   {
+    "v": "#ecfdad",
+    "w": 1922435
+   },
+   {
+    "v": "#2b2b2b",
+    "w": 1566341
+   },
+   {
+    "v": "#eae9e6",
+    "w": 1511644
+   },
+   {
+    "v": "#3fae86",
+    "w": 308278
+   },
+   {
+    "v": "#646464",
+    "w": 56813
+   },
+   {
+    "v": "#ff4c24",
+    "w": 3423
+   },
+   {
+    "v": "#ff4545",
+    "w": 279
+   }
+  ],
+  "text": [
+   {
+    "v": "#ffffff",
+    "w": 7234
+   },
+   {
+    "v": "#181818",
+    "w": 3770
+   },
+   {
+    "v": "#ecfdad",
+    "w": 472
+   },
+   {
+    "v": "#eae9e6",
+    "w": 301
+   }
+  ],
+  "border": [
+   {
+    "v": "#ffffff",
+    "w": 31
+   },
+   {
+    "v": "#181818",
+    "w": 15
+   },
+   {
+    "v": "#ecfdad",
+    "w": 2
+   }
+  ],
+  "fonts": [
+   {
+    "v": "PP Neue Montreal",
+    "w": 9403
+   },
+   {
+    "v": "PP Editorial New",
+    "w": 2374
+   }
+  ],
+  "fontSizes": [
+   {
+    "v": "10.4727px",
+    "w": 87
+   },
+   {
+    "v": "13.0909px",
+    "w": 72
+   },
+   {
+    "v": "11.7818px",
+    "w": 68
+   },
+   {
+    "v": "41.8909px",
+    "w": 47
+   },
+   {
+    "v": "9.81818px",
+    "w": 45
+   },
+   {
+    "v": "15.7091px",
+    "w": 25
+   },
+   {
+    "v": "62.8364px",
+    "w": 8
+   },
+   {
+    "v": "57.6px",
+    "w": 6
+   },
+   {
+    "v": "47.1273px",
+    "w": 6
+   },
+   {
+    "v": "12px",
+    "w": 5
+   },
+   {
+    "v": "20.9455px",
+    "w": 4
+   },
+   {
+    "v": "13.2545px",
+    "w": 4
+   },
+   {
+    "v": "14px",
+    "w": 3
+   },
+   {
+    "v": "83.7818px",
+    "w": 3
+   },
+   {
+    "v": "15px",
+    "w": 1
+   },
+   {
+    "v": "11.4545px",
+    "w": 1
+   }
+  ],
+  "radius": [
+   {
+    "v": "10.4727px",
+    "w": 60
+   },
+   {
+    "v": "1440px",
+    "w": 25
+   },
+   {
+    "v": "50%",
+    "w": 15
+   },
+   {
+    "v": "1047.27px",
+    "w": 1
+   }
+  ],
+  "shadows": [],
+  "transitions": [
+   {
+    "v": "cubic-bezier(0.625 0.525s",
+    "w": 80
+   },
+   {
+    "v": "linear 0.3s",
+    "w": 50
+   },
+   {
+    "v": "cubic-bezier(0.19 0.3s",
+    "w": 21
+   },
+   {
+    "v": "ease 0.2s",
+    "w": 19
+   },
+   {
+    "v": "cubic-bezier(0.625 0.6s",
+    "w": 15
+   },
+   {
+    "v": "ease 0.6s",
+    "w": 5
+   }
+  ],
+  "typo": {
+   "h1": {
+    "family": "\"PP Editorial New\", \"Times New Roman\", sans-serif",
+    "size": "62.8364px",
+    "weight": "400",
+    "lineHeight": "56.5527px",
+    "letterSpacing": "-1.25673px",
+    "transform": "none",
+    "color": "#181818",
+    "sample": "If you can't reach a million people with 0€ ad spend, your branding sucks."
+   },
+   "h2": {
+    "family": "\"PP Editorial New\", \"Times New Roman\", sans-serif",
+    "size": "57.6px",
+    "weight": "400",
+    "lineHeight": "51.84px",
+    "letterSpacing": "-1.152px",
+    "transform": "none",
+    "color": "#ecfdad",
+    "sample": "Content only you can post because it's built around your people."
+   },
+   "h3": {
+    "family": "\"PP Editorial New\", \"Times New Roman\", sans-serif",
+    "size": "57.6px",
+    "weight": "400",
+    "lineHeight": "51.84px",
+    "letterSpacing": "-1.152px",
+    "transform": "none",
+    "color": "#181818",
+    "sample": "Training"
+   },
+   "p": {
+    "family": "\"PP Neue Montreal\", Arial, sans-serif",
+    "size": "15.7091px",
+    "weight": "500",
+    "lineHeight": "20.4218px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#181818",
+    "sample": "We will 10x your social presence or work for free until it’s done."
+   },
+   "a": {
+    "family": "\"PP Neue Montreal\", Arial, sans-serif",
+    "size": "10.4727px",
+    "weight": "500",
+    "lineHeight": "13.6145px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#181818",
+    "sample": "Our approach"
+   },
+   "body": {
+    "family": "\"PP Neue Montreal\", Arial, sans-serif",
+    "size": "10.4727px",
+    "weight": "500",
+    "lineHeight": "13.6145px",
+    "letterSpacing": "normal",
+    "transform": "none",
+    "color": "#181818",
+    "sample": ".form-input_wrap:focus-within .form-input_placeholder, .form-input_wrap.is-fille"
+   }
+  },
+  "cssVars": {
+   "--_theme---background": "var(--_colors---swatch--off-white)",
+   "--_paragraphs---paragraph-regular--font": "var(--_fonts---fonts--paragraph)",
+   "--_theme---body-text": "var(--_colors---swatch--black)",
+   "--_paragraphs---paragraph-regular--line-height": "1.3em",
+   "--_paragraphs---paragraph-regular--font-weight": "var(--_fonts---font-weight--medium)",
+   "--_paragraphs---paragraph-regular--letter-spacing": "0em",
+   "--_fonts---fonts--heading": "\"PP Editorial New\", \"Times New Roman\", sans-serif",
+   "--_headings---heading-xxl--font-size": "var(--_sizes---size--96px)",
+   "--_headings---heading-xxl--line-height": ".9em",
+   "--_headings---heading-xxl--font-weight": "var(--_fonts---font-weight--normal)",
+   "--_headings---heading-xxl--letter-spacing": "-.02em",
+   "--_headings---heading-xl--font": "var(--_fonts---fonts--heading)",
+   "--_headings---heading-xl--font-size": "var(--_sizes---size--88px)",
+   "--_headings---heading-xl--font-weight": "var(--_fonts---font-weight--normal)",
+   "--_headings---heading-xl--letter-spacing": "-.02em",
+   "--_headings---heading-l--font": "var(--_fonts---fonts--heading)",
+   "--_headings---heading-l--font-size": "var(--_sizes---size--72px)",
+   "--_headings---heading-xl--line-height": ".9em",
+   "--_headings---heading-l--font-weight": "var(--_fonts---font-weight--normal)",
+   "--_headings---heading-l--letter-spacing": "-.02em",
+   "--_headings---heading-m--font": "var(--_fonts---fonts--heading)",
+   "--_headings---heading-m--font-size": "var(--_sizes---size--56px)",
+   "--_headings---heading-m--line-height": ".9em",
+   "--_headings---heading-m--font-weight": "var(--_fonts---font-weight--normal)",
+   "--_headings---heading-m--letter-spacing": "-.02em",
+   "--_headings---heading-s--font": "var(--_fonts---fonts--heading)",
+   "--_headings---heading-s--font-size": "var(--_sizes---size--48px)",
+   "--_headings---heading-s--line-height": ".9em",
+   "--_headings---heading-s--font-weight": "var(--_fonts---font-weight--normal)",
+   "--_headings---heading-s--letter-spacing": "-.02em",
+   "--_headings---heading-xs--font": "var(--_fonts---fonts--heading)",
+   "--_headings---heading-xs--font-size": "var(--_sizes---size--40px)",
+   "--_headings---heading-xs--line-height": "1em",
+   "--_headings---heading-xs--font-weight": "var(--_fonts---font-weight--normal)",
+   "--_headings---heading-xs--letter-spacing": "-.02em",
+   "--color-mode-default--body-text<deleted|variable-cb61a870-d154-a6fe-c8a0-f25e0e5af2eb>": "var(--swatch--gunmetal\\<deleted\\|variable-7aae26b0-9412-ed86-55f6-0d55abbd998f\\>)",
+   "--_layout---padding-global--page-padding": "1.25em",
+   "--_layout---padding-global--mobile<deleted|variable-c1796e7f-e37f-9814-266d-d39e03ff04a2>": "1rem",
+   "--_sizes---size--96px": "3.5em",
+   "--_sizes---size--128px": "4.75em",
+   "--_sizes---size--104px": "4em",
+   "--_sizes---size--160px": "6em",
+   "--_sizes---size--224px": "8.5em",
+   "--_sizes---size--320px": "12em",
+   "--_sizes---size--256px": "9.5em",
+   "--spacing--tablet-256px<deleted|variable-916d0a3e-b68a-1e36-5438-38f6239c015c>": "12em",
+   "--spacing--mobile-256px<deleted|variable-f160f7f9-1c91-dbef-028c-2ad57aa45df6>": "6em",
+   "--spacing--tablet-224px<deleted|variable-ead628c9-5f3a-db74-2b37-4fc8c9b0460b>": "10em",
+   "--spacing--mobile-224px<deleted|variable-9855d4de-3551-ba49-c73f-35436feb24aa>": "5.25em",
+   "--_sizes---size--192px": "7.25em",
+   "--spacing--tablet-192px<deleted|variable-95da8060-f85f-6001-2a25-ed668e55b33d>": "8em",
+   "--spacing--mobile-192px<deleted|variable-1f8ae059-c45a-e7df-4fc9-d2f57d50172d>": "4.5em",
+   "--spacing--tablet-160px<deleted|variable-063ff5bb-51f0-efdd-5dd1-1b258dc08bac>": "7em",
+   "--spacing--mobile-160px<deleted|variable-ccbf86d9-b96d-7f3f-1a39-3ceea7a753d5>": "4.25em",
+   "--spacing--tablet-128px<deleted|variable-692abbe8-7ac6-8dfe-e5ef-0972beaccf77>": "6em",
+   "--spacing--mobile-128px<deleted|variable-deff835c-7805-b241-712d-4f21fbb7d357>": "4em",
+   "--spacing--tablet-96px<deleted|variable-358c04c2-a70a-d048-1059-a1da2e2f5b6b>": "5em",
+   "--spacing--mobile-96px<deleted|variable-fb7ae1bd-8718-b1a9-85a8-432abe81a168>": "3.5em",
+   "--_sizes---size--88px": "3.25em",
+   "--spacing--tablet-88px<deleted|variable-57d919a2-626f-7126-2870-f95a5ef58814>": "4.5em",
+   "--spacing--mobile-88px<deleted|variable-925ca50b-581c-61ff-04c2-8d4436ccc623>": "3.25em",
+   "--_sizes---size--80px": "3em",
+   "--spacing--tablet-80px<deleted|variable-4eeec3e9-fd54-e471-5943-7c004fbd4ee1>": "4em",
+   "--spacing--mobile-80px<deleted|variable-772f0a1e-b3db-6b13-4c2d-65df819a0069>": "3em",
+   "--_sizes---size--72px": "2.75em",
+   "--spacing--tablet-72px<deleted|variable-b30e677a-d534-27d1-fa19-aa0996e20938>": "3.5em",
+   "--spacing--mobile-72px<deleted|variable-cb9dd2a9-55a6-38cd-c697-89578ac94265>": "2.5em",
+   "--_sizes---size--64px": "2.5em",
+   "--spacing--tablet-64px<deleted|variable-3a2c49ea-a4a7-69e1-4176-c1f0ad9f624a>": "3em",
+   "--spacing--mobile-64px<deleted|variable-ea717513-d22f-2cb5-8b15-13122c8f220f>": "2em",
+   "--_sizes---size--56px": "2.25em",
+   "--spacing--tablet-56px<deleted|variable-b38f6756-4926-ec42-7946-e0fd6f94e56b>": "2.75em",
+   "--spacing--mobile-56px<deleted|variable-bd37f518-f02b-43bd-96c2-75648d40de4e>": "1.75em",
+   "--_sizes---size--48px": "2em",
+   "--spacing--tablet-48px<deleted|variable-3ac3ad93-56d1-41dc-f645-343bcfd0074e>": "2.5em",
+   "--spacing--mobile-48px<deleted|variable-63a98136-1756-9cea-98cd-58946d9162df>": "1.5em",
+   "--_sizes---size--40px": "1.75em",
+   "--spacing--tablet-40px<deleted|variable-8775444d-0210-196e-c16e-98a48bc11d73>": "2em",
+   "--spacing--mobile-40px<deleted|variable-bbf13b83-2c9f-902a-0466-bc94b64923d3>": "1.375em",
+   "--_sizes---size--32px": "1.5em",
+   "--spacing--tablet-32px<deleted|variable-372d7255-d371-fb88-17c6-374d13c69062>": "1.5em",
+   "--spacing--mobile-32px<deleted|variable-6ea3e16d-059c-a2e0-f71d-13fee24117db>": "1.25em",
+   "--_sizes---size--24px": "1.25em",
+   "--spacing--tablet-24px<deleted|variable-086a30c7-ce5d-6b58-9324-98c929be3b7b>": "1.25em",
+   "--spacing--mobile-24px<deleted|variable-52f0b367-4b4a-aff8-5fee-09b21cb958c8>": "1.125em",
+   "--_sizes---size--16px": "1em",
+   "--_sizes---size--12px": ".75em",
+   "--_sizes---size--8px": ".5em",
+   "--_sizes---size--4px": ".25em",
+   "--_sizes---size--2px": ".125em",
+   "--_colors---swatch--lime": "#ecfdad",
+   "--_paragraphs---paragraph-regular--font-size": "1em",
+   "--_colors---swatch--turquoise": "#3fae86",
+   "--_headings---heading-l--line-height": ".9em",
+   "--_paragraphs---paragraph-xl--font": "var(--_fonts---fonts--paragraph)",
+   "--_paragraphs---paragraph-xl--font-size": "2em",
+   "--_paragraphs---paragraph-xl--line-height": "1.2em",
+   "--_paragraphs---paragraph-xl--font-weight": "var(--_fonts---font-weight--medium)",
+   "--_paragraphs---paragraph-xl--letter-spacing": "-.01em",
+   "--_paragraphs---paragraph-l--font": "var(--_fonts---fonts--paragraph)",
+   "--_paragraphs---paragraph-l--font-size": "1.5em",
+   "--_paragraphs---paragraph-l--line-height": "1.2em",
+   "--_paragraphs---paragraph-l--font-weight": "var(--_fonts---font-weight--medium)",
+   "--_paragraphs---paragraph-l--letter-spacing": "-.01em",
+   "--_paragraphs---paragraph-m--font": "var(--_fonts---fonts--paragraph)",
+   "--_paragraphs---paragraph-m--font-size": "1.125em",
+   "--_paragraphs---paragraph-m--line-height": "1.3em",
+   "--_paragraphs---paragraph-m--letter-spacing": "0em",
+   "--_paragraphs---paragraph-s--font": "var(--_fonts---fonts--paragraph)",
+   "--_paragraphs---paragraph-s--font-size": ".875em",
+   "--_paragraphs---paragraph-s--line-height": "1.3em",
+   "--_paragraphs---paragraph-s--font-weight": "var(--_fonts---font-weight--medium)",
+   "--_paragraphs---paragraph-s--letter-spacing": "0em",
+   "--_paragraphs---paragraph-xs--font": "var(--_fonts---fonts--paragraph)",
+   "--_paragraphs---paragraph-xs--font-size": ".75em",
+   "--_paragraphs---paragraph-xs--line-height": "1.3em",
+   "--_paragraphs---paragraph-xs--font-weight": "var(--_fonts---font-weight--medium)",
+   "--_paragraphs---paragraph-xxs--font": "var(--_fonts---fonts--paragraph)",
+   "--_paragraphs---paragraph-xxs--font-size": ".625em",
+   "--_paragraphs---paragraph-xxs--line-height": "1.4em",
+   "--_paragraphs---paragraph-xxs--font-weight": "var(--_fonts---font-weight--medium)",
+   "--_paragraphs---paragraph-xxs--letter-spacing": "0em",
+   "--_layout---grid--gap": "1.25em",
+   "--element-button--gap<deleted|variable-0282ece1-564b-3134-a176-8a733f25aca8>": "1em",
+   "--_layout---grid--gap-tablet<deleted|variable-ff4ab7d8-1b7d-e830-21bf-aa88e5d5e74c>": "1.5em",
+   "--_layout---grid--gap-mobile<deleted|variable-4fadcf1f-040e-5667-91a8-46bc48510e01>": "1em",
+   "--element-button--height<deleted|variable-d0d4f496-fb53-f8c5-27d6-19ba5c3f0b43>": "3rem",
+   "--element-button--radius-desktop<deleted|variable-f8d99249-c057-b20e-d4ea-c9ff0273add7>": ".5em",
+   "--swatch--eerie-black<deleted|variable-96a5984c-58ac-dea9-ceed-345ea1a68be0>": "#171c1c",
+   "--swatch--anti-flash-white<deleted|variable-2b55c37a-a697-95d1-de06-5cd18e98aa75>": "#eef0f2",
+   "--element-button--radius-tablet<deleted|variable-5e60258f-bfd2-096e-5216-491e715da2a6>": ".25em",
+   "--element-button--radius-mobile<deleted|variable-3defd336-edc9-0654-9420-78e55b6eb313>": ".5em",
+   "--_colors---swatch--black": "#181818",
+   "--element-card--card-tablet<deleted|variable-8802b6d5-a8b9-c5b5-b6e7-ea525c156394>": "1.25em",
+   "--element-card--radius-mobile<deleted|variable-853e8ebc-2621-fa73-dacc-84aa8de9e8de>": "1em",
+   "--color-mode-default--background-transparent<deleted|variable-8a828534-93a1-419c-aaf6-274fb4d2cc93>": "var(--swatch--transparent-white\\<deleted\\|variable-03753bb9-6a2d-beec-b4e9-06f7b439f1a5\\>)",
+   "--color-mode-default--button-outline<deleted|variable-7e835c89-7b86-8033-7fa0-f32c43db959e>": "var(--swatch--gunmetal\\<deleted\\|variable-7aae26b0-9412-ed86-55f6-0d55abbd998f\\>)",
+   "--element-card--padding-tablet<deleted|variable-c28b41a6-a697-24b0-1cb7-c9d16b5f21d9>": "1em",
+   "--element-card--padding-mobile<deleted|variable-27437fc3-c1c5-926b-2762-44eab12995d9>": "1em",
+   "--color-mode-default--bp-card-bg<deleted|variable-4ed1ea21-6547-af99-3c69-f02950a385c2>": "var(--color-mode-default--bp-label-bg\\<deleted\\|variable-fd68ec54-23b7-4749-ebbb-80c097cd5cd4\\>)",
+   "--blueprint--gap": "1em",
+   "--blueprint--label-height": "3em",
+   "--_colors---swatch--white": "white",
+   "--blueprint--label-text-size": ".875em",
+   "--element-label--radius-tablet<deleted|variable-32c37fc7-7a2d-27cf-3450-597acbf4740b>": ".25em",
+   "--element-label--radius-mobile<deleted|variable-50db59c2-591f-ccbd-8db7-883048e9293b>": ".25em",
+   "--element-border--regular<deleted|variable-8015d590-9b6a-d5c6-03d9-d0ec4248d695>": "1px",
+   "--element-field--text-size<deleted|variable-bb6b4bc2-df1d-cb98-174b-12f265efaa7b>": "1em",
+   "--color-mode-default--heading<deleted|variable-63623ff2-f93a-6dbc-537d-501639045b22>": "var(--swatch--eerie-black\\<deleted\\|variable-96a5984c-58ac-dea9-ceed-345ea1a68be0\\>)",
+   "--color-mode-default--background<deleted|variable-c0c89dc0-00da-9374-de7c-29979972e8ac>": "var(--swatch--anti-flash-white\\<deleted\\|variable-2b55c37a-a697-95d1-de06-5cd18e98aa75\\>)",
+   "--color-mode-default--active-state<deleted|variable-43f921cb-bd7a-3666-9ac5-0f1d734b1a8f>": "var(--swatch--honeydew\\<deleted\\|variable-ce750e9f-1666-65be-5b8a-2186b18b3781\\>)",
+   "--color-mode-default--button-bg<deleted|variable-09c6d403-c69d-6535-5389-2450cdc1de75>": "var(--swatch--ash-grey\\<deleted\\|variable-dec3fd67-9c25-d8c5-a38a-7241449f34ed\\>)",
+   "--element-field--padding<deleted|variable-04151b8e-2d25-fe18-4d6f-ee1c48ad3804>": "1em",
+   "--element-field--text-area-padding<deleted|variable-fef68998-fe96-422c-105c-91c0def0d39f>": ".75em",
+   "--element-label--gap<deleted|variable-8142a8e4-aa6a-fab1-8d32-88edc71fc83d>": ".5em",
+   "--element-field--height<deleted|variable-af4c4744-50fe-ad09-4c4d-09ff8bc415e5>": "3em",
+   "--element-field--text-area-height<deleted|variable-fe010bcc-7d76-b7d5-6e12-278725850868>": "12em",
+   "--color-mode-dark--body-text<deleted|variable-c5fff99a-9c05-9a85-8b33-a73a35c2f91c>": "var(--swatch--ash-grey\\<deleted\\|variable-dec3fd67-9c25-d8c5-a38a-7241449f34ed\\>)",
+   "--_headings---heading-xxl--font": "var(--_fonts---fonts--heading)",
+   "--_theme---border": "var(--_colors---swatch--black)",
+   "--_theme---button-icon": "var(--_colors---swatch--black)",
+   "--_theme---button-secondary-icon": "var(--_colors---swatch--lime)",
+   "--_theme---button-icon-svg": "var(--_colors---swatch--off-white)",
+   "--_theme---button-secondary-icon-svg": "var(--_colors---swatch--black)",
+   "--_theme---button-hover-bg": "var(--_colors---swatch--turquoise)",
+   "--_theme---button-secondary-hover-bg": "var(--_colors---swatch--turquoise)",
+   "--_theme---button-bg": "var(--_colors---swatch--lime)",
+   "--_theme---button-text": "var(--_colors---swatch--black)",
+   "--_theme---button-secondary-bg": "var(--_colors---swatch--black)",
+   "--_theme---button-secondary-text": "white",
+   "--_colors---swatch--off-white": "#eae9e6",
+   "--_colors---swatch--red": "#ff4545",
+   "--_theme---video-border": "white",
+   "--_theme---locale-item-hover": "var(--_colors---swatch--lime)",
+   "--_theme---locale-bg": "white",
+   "--_theme---locale-text": "var(--_colors---swatch--black)",
+   "--_fonts---fonts--paragraph": "\"PP Neue Montreal\", Arial, sans-serif",
+   "--_colors---swatch--dark-grey": "#2b2b2b",
+   "--_theme---heading": "var(--_colors---swatch--black)",
+   "--_theme---cursor-select-bg": "var(--_colors---swatch--lime)",
+   "--_theme---cursor-select-text": "var(--_colors---swatch--black)",
+   "--_theme---button-hover-text": "var(--_colors---swatch--black)",
+   "--_fonts---fonts--eyebrow": "\"PP Neue Montreal\", Arial, sans-serif",
+   "--_paragraphs---paragraph-m--font-weight": "var(--_fonts---font-weight--medium)",
+   "--_paragraphs---paragraph-xs--letter-spacing": "0em",
+   "--_sizes---size--112px": "4.25em",
+   "--_fonts---font-weight--thin": "100",
+   "--_fonts---font-weight--extra-light": "200",
+   "--_fonts---font-weight--light": "300",
+   "--_fonts---font-weight--normal": "400",
+   "--_fonts---font-weight--medium": "500",
+   "--_fonts---font-weight--semi-bold": "600",
+   "--_fonts---font-weight--bold": "700",
+   "--_fonts---font-weight--extra-bold": "800",
+   "--_fonts---font-weight--black": "900",
+   "--swatch--gunmetal<deleted|variable-7aae26b0-9412-ed86-55f6-0d55abbd998f>": "#31383b",
+   "--swatch--transparent-white<deleted|variable-03753bb9-6a2d-beec-b4e9-06f7b439f1a5>": "#eef0f200",
+   "--color-mode-default--bp-label-bg<deleted|variable-fd68ec54-23b7-4749-ebbb-80c097cd5cd4>": "var(--swatch--gunmetal\\<deleted\\|variable-7aae26b0-9412-ed86-55f6-0d55abbd998f\\>)",
+   "--swatch--honeydew<deleted|variable-ce750e9f-1666-65be-5b8a-2186b18b3781>": "#e1f7e1",
+   "--swatch--ash-grey<deleted|variable-dec3fd67-9c25-d8c5-a38a-7241449f34ed>": "#acb7c1",
+   "--size-unit": "16",
+   "--size-container-ideal": "479",
+   "--size-container-min": "320px",
+   "--size-container-max": "479px",
+   "--size-container": "clamp(var(--size-container-min), 100vw, var(--size-container-max))",
+   "--size-font": "calc(var(--size-container) / (var(--size-container-ideal) / var(--size-unit)))",
+   "--swiper-pagination-color": "currentColor",
+   "--swiper-pagination-bottom": "auto",
+   "--swiper-pagination-bullet-size": "0.5em",
+   "--swiper-pagination-bullet-inactive-color": "currentColor",
+   "--swiper-pagination-bullet-inactive-opacity": "0.15",
+   "--swiper-pagination-bullet-horizontal-gap": "0.25em",
+   "--swiper-wrapper-transition-timing-function": "cubic-bezier(0.625, 0.05, 0, 1)"
+  },
+  "fontFaces": [
+   {
+    "family": "webflow-icons",
+    "weight": "normal",
+    "style": "normal",
+    "src": "url(\"data:application/x-font-ttf;charset=utf-8;base64,AAEAAAALAIAAAwAwT1MvMg8SBiUAAAC8AAAAYGNtYXDpP+a4AAABHAAAAFxnYXNwAAAAEAAAAXgAAAAIZ2x5ZmhS2XEAAAGAAAADHGhlYWQTFw3HAAAEnAAAADZoaGVhCXYFgQAABNQAAAAkaG"
+   },
+   {
+    "family": "PP Editorial New",
+    "weight": "400",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/698b2eacc9c3296a0303c4cf/698b360c6464fa98cd6300d8_PPEditorialNew-Regular.woff2\") format(\"woff2\")"
+   },
+   {
+    "family": "PP Neue Montreal",
+    "weight": "500",
+    "style": "normal",
+    "src": "url(\"https://cdn.prod.website-files.com/698b2eacc9c3296a0303c4cf/698b367178d4e9977aba5a81_PPNeueMontreal-Medium.woff2\") format(\"woff2\")"
+   }
+  ],
+  "keyframes": [
+   "spin"
+  ],
+  "breakpoints": [
+   {
+    "v": "479px",
+    "w": 12
+   },
+   {
+    "v": "991px",
+    "w": 10
+   },
+   {
+    "v": "767px",
+    "w": 9
+   },
+   {
+    "v": "0px",
+    "w": 5
+   },
+   {
+    "v": "768px",
+    "w": 4
+   },
+   {
+    "v": "480px",
+    "w": 4
+   },
+   {
+    "v": "992px",
+    "w": 4
+   }
+  ],
+  "rulesCount": 2325,
+  "crossOriginSheets": 3
+ },
+ "structure": {
+  "sections": [
+   {
+    "tag": "header",
+    "id": "section_hero",
+    "cls": "section_hero",
+    "h": 900,
+    "top": 0,
+    "title": "If you can't reach a million people with 0€ ad spend, your branding sucks.",
+    "media": 19
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section_statement theme-media",
+    "h": 900,
+    "top": 900,
+    "title": "Content only you can post because it's built around your people.",
+    "media": 2
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section_client-deck",
+    "h": 838,
+    "top": 1800,
+    "title": "Finlayson's social media is built to carry the spirit of a bold brand.",
+    "media": 70
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section_services theme-dark",
+    "h": 3904,
+    "top": 2638,
+    "title": "Our services",
+    "media": 14
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section_testimonials",
+    "h": 684,
+    "top": 6541,
+    "title": "Hildén & Kaira has been with us through critical moments on Uusi Juttu's journey",
+    "media": 6
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section_about-us theme-media",
+    "h": 900,
+    "top": 7225,
+    "title": "Does your brand have self-esteem issues?",
+    "media": 4
+   },
+   {
+    "tag": "section",
+    "id": null,
+    "cls": "section_cta theme-dark",
+    "h": 900,
+    "top": 8125,
+    "title": "Ready to work with us?",
+    "media": 3
+   },
+   {
+    "tag": "footer",
+    "id": null,
+    "cls": "footer theme-chrome",
+    "h": 900,
+    "top": 9025,
+    "title": "Podcast",
+    "media": 14
+   }
+  ],
+  "navLinks": [
+   {
+    "t": "EN",
+    "href": "https://www.hildenkaira.fi/?r=0"
+   },
+   {
+    "t": "FI",
+    "href": "https://www.hildenkaira.fi/fi"
+   },
+   {
+    "t": "Our approach",
+    "href": "https://www.hildenkaira.fi/our-approach"
+   },
+   {
+    "t": "Work with us",
+    "href": "https://www.hildenkaira.fi/contact"
+   }
+  ],
+  "ctas": [],
+  "pageHeight": 9925,
+  "counts": {
+   "canvas": 0,
+   "videos": 35,
+   "imgs": 97,
+   "svgs": 289,
+   "iframes": 0,
+   "domNodes": 2875
+  }
+ },
+ "tech": {
+  "gsap": true,
+  "gsapVersion": "3.15.0",
+  "scrollTrigger": true,
+  "splitText": true,
+  "lenis": true,
+  "locomotive": true,
+  "three": false,
+  "threeRevision": null,
+  "ogl": false,
+  "pixi": false,
+  "babylon": false,
+  "spline": false,
+  "rive": false,
+  "lottie": true,
+  "unicornStudio": false,
+  "barba": false,
+  "swup": false,
+  "highway": false,
+  "taxi": false,
+  "swiper": true,
+  "webflow": true,
+  "framer": false,
+  "wordpress": false,
+  "shopify": false,
+  "squarespace": false,
+  "wix": false,
+  "next": false,
+  "nuxt": false,
+  "astro": false,
+  "sveltekit": false,
+  "gatsby": false,
+  "remix": false,
+  "react": false,
+  "vue": false,
+  "cms": [],
+  "analytics": [
+   "googletagmanager",
+   "gtag"
+  ],
+  "customCursor": true,
+  "audio": false,
+  "webglCanvas": false
+ },
+ "scripts": [
+  "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js",
+  "https://www.googletagmanager.com/gtag/js?id=G-0Y6MTNRT09",
+  "https://cdn.jsdelivr.net/npm/@reform-digital/script-embed@1.1.0/prod/index.js",
+  "https://cdn.jsdelivr.net/npm/@reform-digital/embed-script@1.0.3/prod/index.js",
+  "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=698b2eacc9c3296a0303c4cf",
+  "https://cdn.prod.website-files.com/698b2eacc9c3296a0303c4cf/js/webflow.schunk.36b8fb49256177c8.js",
+  "https://cdn.prod.website-files.com/698b2eacc9c3296a0303c4cf/js/webflow.schunk.90c4f70bfb600792.js",
+  "https://cdn.prod.website-files.com/698b2eacc9c3296a0303c4cf/js/webflow.48dcd815.9442e48f50fd0afe.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js",
+  "https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js",
+  "https://cdn.jsdelivr.net/npm/locomotive-scroll/bundled/locomotive-scroll.min.js",
+  "https://cdn.jsdelivr.net/npm/hls.js@1.6.11",
+  "https://assets.slater.app/slater/19381/57443.js",
+  "https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js",
+  "https://assets.slater.app/slater/19381/57336.js",
+  "https://cdn.jsdelivr.net/npm/@reform-digital/cookie-flow@2.3.1/prod/index.min.js",
+  "https://cdn.jsdelivr.net/npm/@reform-digital/tooltip-x@1.1.0/prod/index.js",
+  "https://www.googletagmanager.com/gtag/js?id=G-0Y6MTNRT09"
+ ],
+ "internal": [
+  "https://www.hildenkaira.fi/legals/privacy-policy",
+  "https://www.hildenkaira.fi/contact",
+  "https://www.hildenkaira.fi/our-approach",
+  "https://www.hildenkaira.fi/our-story",
+  "https://www.hildenkaira.fi/work",
+  "https://www.hildenkaira.fi/blog",
+  "https://www.hildenkaira.fi/fi",
+  "https://www.hildenkaira.fi/work/finlayson",
+  "https://www.hildenkaira.fi/work/kierke",
+  "https://www.hildenkaira.fi/work/uusi-juttu",
+  "https://www.hildenkaira.fi/work/autoliitto",
+  "https://www.hildenkaira.fi/work/liikku"
+ ],
+ "perf": {
+  "ttfb": 225,
+  "dcl": 2034,
+  "load": 2200,
+  "lcp": 2348,
+  "lcpEl": "IMG.hero-home_logo-item",
+  "cls": 0
+ },
+ "libs": {
+  "detected": [
+   "ScrollTrigger",
+   "SplitText/SplitType",
+   "Lottie",
+   "jQuery",
+   "GSAP",
+   "Lenis",
+   "Locomotive Scroll",
+   "Virtual scroll",
+   "Swiper",
+   "Webflow (runtime)"
+  ],
+  "where": {
+   "ScrollTrigger": [
+    "002-webflow.schunk.90c4f70bfb600792.js",
+    "008-ScrollTrigger.min.js",
+    "010-gsap.min.js",
+    "017-57443.js"
+   ],
+   "SplitText/SplitType": [
+    "002-webflow.schunk.90c4f70bfb600792.js",
+    "005-webflow.48dcd815.9442e48f50fd0afe.js",
+    "009-SplitText.min.js",
+    "010-gsap.min.js",
+    "017-57443.js"
+   ],
+   "Lottie": [
+    "002-webflow.schunk.90c4f70bfb600792.js",
+    "005-webflow.48dcd815.9442e48f50fd0afe.js"
+   ],
+   "jQuery": [
+    "002-webflow.schunk.90c4f70bfb600792.js",
+    "003-jquery-3.5.1.min.dc5e7f18c8.js"
+   ],
+   "GSAP": [
+    "006-InertiaPlugin.min.js",
+    "007-Draggable.min.js",
+    "008-ScrollTrigger.min.js",
+    "009-SplitText.min.js",
+    "010-gsap.min.js",
+    "017-57443.js"
+   ],
+   "Lenis": [
+    "011-locomotive-scroll.min.js",
+    "017-57443.js",
+    "styles.css"
+   ],
+   "Locomotive Scroll": [
+    "011-locomotive-scroll.min.js",
+    "017-57443.js"
+   ],
+   "Virtual scroll": [
+    "011-locomotive-scroll.min.js"
+   ],
+   "Swiper": [
+    "015-swiper-bundle.min.js",
+    "016-57336.js",
+    "017-57443.js"
+   ],
+   "Webflow (runtime)": [
+    "017-57443.js"
+   ]
+  },
+  "gsapVersion": "3.11.0",
+  "threeRevision": null,
+  "shaders": 0,
+  "scripts": 19
+ },
+ "network": {
+  "requests": 292,
+  "totalKb": 145768,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "kb": 59
+   },
+   "Stylesheet": {
+    "n": 4,
+    "kb": 1
+   },
+   "Font": {
+    "n": 3,
+    "kb": 136
+   },
+   "Image": {
+    "n": 58,
+    "kb": 2304
+   },
+   "Script": {
+    "n": 20,
+    "kb": 723
+   },
+   "Other": {
+    "n": 7,
+    "kb": 233
+   },
+   "Media": {
+    "n": 152,
+    "kb": 142282
+   },
+   "Preflight": {
+    "n": 7,
+    "kb": 0
+   },
+   "Fetch": {
+    "n": 40,
+    "kb": 30
+   }
+  },
+  "thirdPartyHosts": [
+   "cdn.prod.website-files.com",
+   "cdn.jsdelivr.net",
+   "d3e54v103j8qbb.cloudfront.net",
+   "ajax.googleapis.com",
+   "fonts.googleapis.com",
+   "hildenkaira.b-cdn.net",
+   "fonts.gstatic.com",
+   "assets.slater.app",
+   "vz-362232c0-509.b-cdn.net",
+   "cookieflow-geo.reformdigital.workers.dev",
+   "xzz1-rjyc-xqkm.f2.xano.io",
+   "www.googletagmanager.com",
+   "sfacfsvkhpevqteghuus.supabase.co",
+   "region1.google-analytics.com"
+  ],
+  "fontFiles": [
+   "https://cdn.prod.website-files.com/698b2eacc9c3296a0303c4cf/698b360c6464fa98cd6300d8_PPEditorialNew-Regular.woff2",
+   "https://cdn.prod.website-files.com/698b2eacc9c3296a0303c4cf/698b367178d4e9977aba5a81_PPNeueMontreal-Medium.woff2",
+   "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2"
+  ],
+  "biggest": [
+   {
+    "url": "https://vz-362232c0-509.b-cdn.net/7917b140-40cc-44b8-b769-019ae4084515/1440p/video1.ts",
+    "kb": 5023,
+    "type": "Media"
+   },
+   {
+    "url": "https://vz-362232c0-509.b-cdn.net/6cbfa3ea-82a9-47cf-a900-2005005d07fa/1440p/video1.ts",
+    "kb": 4423,
+    "type": "Media"
+   },
+   {
+    "url": "https://vz-362232c0-509.b-cdn.net/6c30c6d3-023a-4eef-8e35-2b711631f0ed/1080p/video0.ts",
+    "kb": 4000,
+    "type": "Media"
+   },
+   {
+    "url": "https://vz-362232c0-509.b-cdn.net/42c85ba4-6eb3-4afb-91b0-38ac76587a16/1080p/video1.ts",
+    "kb": 3625,
+    "type": "Media"
+   },
+   {
+    "url": "https://vz-362232c0-509.b-cdn.net/6cbfa3ea-82a9-47cf-a900-2005005d07fa/1440p/video2.ts",
+    "kb": 3544,
+    "type": "Media"
+   },
+   {
+    "url": "https://vz-362232c0-509.b-cdn.net/6c30c6d3-023a-4eef-8e35-2b711631f0ed/1080p/video1.ts",
+    "kb": 3480,
+    "type": "Media"
+   },
+   {
+    "url": "https://vz-362232c0-509.b-cdn.net/6c30c6d3-023a-4eef-8e35-2b711631f0ed/1080p/video2.ts",
+    "kb": 3239,
+    "type": "Media"
+   },
+   {
+    "url": "https://vz-362232c0-509.b-cdn.net/6cbfa3ea-82a9-47cf-a900-2005005d07fa/1080p/video0.ts",
+    "kb": 3022,
+    "type": "Media"
+   }
+  ]
+ },
+ "mobile": {
+  "h1": {
+   "size": "42.3382px",
+   "lineHeight": "38.1044px"
+  },
+  "body": "13.0271px",
+  "overflowX": false,
+  "burger": false
+ },
+ "durationS": 79
+}
